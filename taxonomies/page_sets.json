@@ -1,0 +1,226 @@
+{
+  "saas": [
+    ["home", "product", "pricing", "customers", "contact"],
+    ["home", "features", "integrations", "security", "pricing"],
+    ["home", "platform", "solutions", "resources", "contact"],
+    ["home", "use-cases", "case-studies", "pricing", "contact"],
+    ["home", "product", "docs", "customers", "company"],
+    ["home", "features", "enterprise", "security", "contact"]
+  ],
+  "fintech": [
+    ["home", "product", "pricing", "security", "contact"],
+    ["home", "accounts", "cards", "insights", "support"],
+    ["home", "solutions", "customers", "resources", "contact"],
+    ["home", "wealth", "planning", "research", "contact"],
+    ["home", "business", "payments", "reports", "contact"],
+    ["home", "platform", "compliance", "developers", "pricing"]
+  ],
+  "healthcare": [
+    ["home", "services", "practitioners", "resources", "contact"],
+    ["home", "care", "specialties", "insurance", "appointments"],
+    ["home", "treatments", "team", "patient-info", "contact"],
+    ["home", "programs", "conditions", "stories", "contact"],
+    ["home", "services", "locations", "faq", "contact"],
+    ["home", "about", "care-plans", "resources", "book"]
+  ],
+  "education": [
+    ["home", "courses", "admissions", "faculty", "contact"],
+    ["home", "programs", "curriculum", "student-work", "apply"],
+    ["home", "classes", "schedule", "instructors", "pricing"],
+    ["home", "learning-paths", "resources", "community", "contact"],
+    ["home", "about", "departments", "research", "contact"],
+    ["home", "bootcamp", "outcomes", "tuition", "apply"]
+  ],
+  "restaurant": [
+    ["home", "menu", "story", "events", "contact"],
+    ["home", "menu", "reservations", "private-dining", "contact"],
+    ["home", "chef", "menu", "journal", "contact"],
+    ["home", "food", "drinks", "events", "reservations"],
+    ["home", "locations", "menus", "catering", "contact"],
+    ["home", "menu", "gallery", "visit", "contact"]
+  ],
+  "hospitality": [
+    ["home", "rooms", "dining", "gallery", "contact"],
+    ["home", "suites", "spa", "experiences", "contact"],
+    ["home", "rooms", "events", "amenities", "contact"],
+    ["home", "stay", "wellness", "location", "book"],
+    ["home", "accommodations", "offers", "journal", "contact"],
+    ["home", "rooms", "activities", "weddings", "book"]
+  ],
+  "travel": [
+    ["home", "destinations", "itineraries", "stories", "contact"],
+    ["home", "trips", "guides", "pricing", "inquire"],
+    ["home", "experiences", "locations", "journal", "contact"],
+    ["home", "routes", "lodging", "activities", "book"],
+    ["home", "tours", "calendar", "reviews", "contact"],
+    ["home", "city-guides", "food", "culture", "about"]
+  ],
+  "fashion_ecommerce": [
+    ["home", "collection", "lookbook", "product", "about"],
+    ["home", "new-arrivals", "shop", "journal", "contact"],
+    ["home", "women", "men", "lookbook", "about"],
+    ["home", "drop", "catalog", "size-guide", "contact"],
+    ["home", "collection", "materials", "campaign", "stockists"],
+    ["home", "shop", "editorial", "sustainability", "contact"]
+  ],
+  "retail_ecommerce": [
+    ["home", "shop", "collections", "about", "contact"],
+    ["home", "products", "bundles", "reviews", "support"],
+    ["home", "catalog", "story", "journal", "contact"],
+    ["home", "new", "best-sellers", "gift-guide", "about"],
+    ["home", "shop", "subscriptions", "faq", "contact"],
+    ["home", "collection", "product", "care-guide", "stockists"]
+  ],
+  "real_estate": [
+    ["home", "listings", "neighborhoods", "agents", "contact"],
+    ["home", "properties", "services", "market-insights", "contact"],
+    ["home", "residences", "amenities", "gallery", "inquire"],
+    ["home", "buy", "sell", "resources", "contact"],
+    ["home", "portfolio", "availability", "location", "contact"],
+    ["home", "developments", "floorplans", "team", "contact"]
+  ],
+  "architecture_design": [
+    ["home", "work", "projects", "studio", "contact"],
+    ["home", "portfolio", "process", "journal", "contact"],
+    ["home", "residential", "commercial", "about", "contact"],
+    ["home", "projects", "services", "team", "inquiries"],
+    ["home", "selected-work", "case-study", "research", "studio"],
+    ["home", "spaces", "materials", "press", "contact"]
+  ],
+  "creative_agency": [
+    ["home", "work", "services", "studio", "contact"],
+    ["home", "case-studies", "capabilities", "team", "contact"],
+    ["home", "clients", "campaigns", "thinking", "contact"],
+    ["home", "brand", "digital", "content", "inquire"],
+    ["home", "work", "process", "journal", "contact"],
+    ["home", "services", "industries", "results", "contact"]
+  ],
+  "portfolio": [
+    ["home", "work", "about", "journal", "contact"],
+    ["home", "projects", "case-study", "process", "contact"],
+    ["home", "selected-work", "archive", "about", "contact"],
+    ["home", "portfolio", "services", "resume", "contact"],
+    ["home", "gallery", "commissions", "about", "contact"],
+    ["home", "work", "experiments", "writing", "contact"]
+  ],
+  "nonprofit": [
+    ["home", "mission", "programs", "impact", "donate"],
+    ["home", "about", "initiatives", "stories", "get-involved"],
+    ["home", "campaign", "data", "partners", "donate"],
+    ["home", "programs", "volunteer", "resources", "contact"],
+    ["home", "issue", "solutions", "impact", "take-action"],
+    ["home", "community", "events", "reports", "donate"]
+  ],
+  "media_magazine": [
+    ["home", "features", "article", "archive", "about"],
+    ["home", "latest", "culture", "reviews", "newsletter"],
+    ["home", "sections", "longform", "interviews", "about"],
+    ["home", "stories", "columns", "photo-essay", "subscribe"],
+    ["home", "issue", "features", "contributors", "contact"],
+    ["home", "news", "analysis", "guides", "about"]
+  ],
+  "events_festival": [
+    ["home", "lineup", "schedule", "venue", "tickets"],
+    ["home", "speakers", "agenda", "workshops", "register"],
+    ["home", "program", "artists", "location", "passes"],
+    ["home", "about", "events", "faq", "tickets"],
+    ["home", "schedule", "sponsors", "travel", "contact"],
+    ["home", "experience", "lineup", "map", "tickets"]
+  ],
+  "wellness_fitness": [
+    ["home", "classes", "schedule", "coaches", "contact"],
+    ["home", "programs", "pricing", "stories", "book"],
+    ["home", "method", "sessions", "team", "contact"],
+    ["home", "retreats", "wellness", "journal", "inquire"],
+    ["home", "training", "nutrition", "results", "contact"],
+    ["home", "studio", "memberships", "events", "book"]
+  ],
+  "arts_culture": [
+    ["home", "exhibitions", "artists", "visit", "support"],
+    ["home", "programs", "calendar", "about", "contact"],
+    ["home", "season", "performances", "tickets", "visit"],
+    ["home", "collection", "exhibition", "learning", "visit"],
+    ["home", "events", "membership", "press", "contact"],
+    ["home", "about", "archive", "programs", "donate"]
+  ],
+  "government_civic": [
+    ["home", "services", "departments", "news", "contact"],
+    ["home", "programs", "resources", "updates", "get-involved"],
+    ["home", "project", "timeline", "documents", "feedback"],
+    ["home", "residents", "business", "visitors", "contact"],
+    ["home", "data", "reports", "initiatives", "contact"],
+    ["home", "campaign", "resources", "events", "support"]
+  ],
+  "sports": [
+    ["home", "team", "schedule", "tickets", "shop"],
+    ["home", "programs", "coaches", "membership", "contact"],
+    ["home", "events", "results", "training", "register"],
+    ["home", "club", "fixtures", "news", "contact"],
+    ["home", "classes", "pricing", "facility", "book"],
+    ["home", "athletes", "performance", "stories", "contact"]
+  ],
+  "automotive_mobility": [
+    ["home", "vehicles", "technology", "charging", "contact"],
+    ["home", "services", "fleet", "pricing", "support"],
+    ["home", "product", "specs", "gallery", "reserve"],
+    ["home", "routes", "membership", "safety", "contact"],
+    ["home", "marketplace", "listings", "financing", "contact"],
+    ["home", "platform", "solutions", "case-studies", "contact"]
+  ],
+  "food_beverage_cpg": [
+    ["home", "products", "story", "stockists", "contact"],
+    ["home", "flavors", "ingredients", "recipes", "shop"],
+    ["home", "collection", "process", "journal", "contact"],
+    ["home", "shop", "subscriptions", "sustainability", "faq"],
+    ["home", "product", "nutrition", "reviews", "where-to-buy"],
+    ["home", "brand", "products", "recipes", "contact"]
+  ],
+  "technology_hardware": [
+    ["home", "product", "specs", "reviews", "buy"],
+    ["home", "technology", "use-cases", "support", "contact"],
+    ["home", "devices", "features", "app", "pricing"],
+    ["home", "product", "design", "accessories", "support"],
+    ["home", "platform", "hardware", "developers", "contact"],
+    ["home", "overview", "specifications", "gallery", "preorder"]
+  ],
+  "legal_professional": [
+    ["home", "services", "team", "insights", "contact"],
+    ["home", "practice-areas", "cases", "resources", "contact"],
+    ["home", "expertise", "industries", "people", "inquiries"],
+    ["home", "solutions", "process", "testimonials", "contact"],
+    ["home", "about", "services", "articles", "book"],
+    ["home", "advisory", "clients", "reports", "contact"]
+  ],
+  "beauty_personal_care": [
+    ["home", "products", "rituals", "ingredients", "shop"],
+    ["home", "services", "artists", "pricing", "book"],
+    ["home", "collection", "journal", "stockists", "contact"],
+    ["home", "treatments", "before-after", "team", "book"],
+    ["home", "shop", "skin-quiz", "reviews", "support"],
+    ["home", "brand", "products", "sustainability", "contact"]
+  ],
+  "kids_family": [
+    ["home", "programs", "classes", "family-info", "contact"],
+    ["home", "products", "age-groups", "parents", "shop"],
+    ["home", "activities", "calendar", "pricing", "book"],
+    ["home", "about", "services", "resources", "contact"],
+    ["home", "collections", "story", "gift-guide", "shop"],
+    ["home", "classes", "teachers", "faq", "enroll"]
+  ],
+  "gaming_entertainment": [
+    ["home", "games", "trailer", "community", "buy"],
+    ["home", "events", "lineup", "tickets", "faq"],
+    ["home", "shows", "episodes", "hosts", "subscribe"],
+    ["home", "experience", "rooms", "pricing", "book"],
+    ["home", "team", "schedule", "merch", "contact"],
+    ["home", "features", "characters", "media", "download"]
+  ],
+  "environment_energy": [
+    ["home", "mission", "solutions", "impact", "contact"],
+    ["home", "technology", "projects", "data", "inquire"],
+    ["home", "services", "case-studies", "resources", "contact"],
+    ["home", "campaign", "actions", "reports", "donate"],
+    ["home", "products", "sustainability", "partners", "contact"],
+    ["home", "platform", "insights", "customers", "pricing"]
+  ]
+}

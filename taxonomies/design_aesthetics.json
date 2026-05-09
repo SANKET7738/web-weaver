@@ -1,0 +1,366 @@
+{
+  "minimalist": {
+    "label": "Minimalist",
+    "traits": ["clean", "quiet", "airy", "restrained"],
+    "visual_cues": ["large whitespace", "thin dividers", "limited color palette", "simple geometric layouts"],
+    "typography": ["sans-serif", "light weights", "clear hierarchy"],
+    "palette_mood": ["white", "off-white", "charcoal", "muted accent"]
+  },
+  "luxury_editorial": {
+    "label": "Luxury Editorial",
+    "traits": ["premium", "calm", "magazine-like", "refined"],
+    "visual_cues": ["large serif headlines", "full-bleed imagery", "asymmetric whitespace", "thin rules"],
+    "typography": ["high-contrast serif", "elegant sans-serif"],
+    "palette_mood": ["cream", "black", "warm neutral", "gold accent"]
+  },
+  "glassmorphism": {
+    "label": "Glassmorphism",
+    "traits": ["futuristic", "layered", "soft", "premium"],
+    "visual_cues": ["frosted glass panels", "translucency", "blurred backgrounds", "glowing borders"],
+    "typography": ["modern sans-serif", "medium weights"],
+    "palette_mood": ["cool gradients", "ice blue", "violet", "soft white"]
+  },
+  "neumorphism": {
+    "label": "Neumorphism / Soft UI",
+    "traits": ["tactile", "soft", "calm", "app-like"],
+    "visual_cues": ["raised surfaces", "inner shadows", "low-contrast panels", "rounded controls"],
+    "typography": ["rounded sans-serif", "soft weights"],
+    "palette_mood": ["warm gray", "soft beige", "pale blue", "low contrast"]
+  },
+  "neo_brutalist": {
+    "label": "Neo-Brutalist",
+    "traits": ["bold", "raw", "youthful", "high-energy"],
+    "visual_cues": ["thick black borders", "hard shadows", "flat bright colors", "obvious grids"],
+    "typography": ["heavy sans-serif", "monospace accents"],
+    "palette_mood": ["black", "white", "acid yellow", "hot pink", "electric blue"]
+  },
+  "brutalist_raw": {
+    "label": "Raw Brutalist",
+    "traits": ["anti-design", "stark", "experimental", "unpolished"],
+    "visual_cues": ["default-looking controls", "harsh contrast", "asymmetry", "visible structure"],
+    "typography": ["system fonts", "monospace", "oversized text"],
+    "palette_mood": ["black", "white", "primary red", "link blue"]
+  },
+  "retro_90s_web": {
+    "label": "Retro 90s Web",
+    "traits": ["nostalgic", "playful", "lo-fi", "internet-native"],
+    "visual_cues": ["pixel borders", "sticker graphics", "checker patterns", "browser-window frames"],
+    "typography": ["pixel font accents", "system sans-serif", "monospace"],
+    "palette_mood": ["neon", "cyan", "purple", "lime", "black"]
+  },
+  "y2k_gloss": {
+    "label": "Y2K Gloss",
+    "traits": ["shiny", "nostalgic", "pop", "digital"],
+    "visual_cues": ["chrome gradients", "glossy pills", "starbursts", "lens flares"],
+    "typography": ["rounded display", "condensed sans-serif"],
+    "palette_mood": ["silver", "baby blue", "bubblegum pink", "lavender"]
+  },
+  "memphis_playful": {
+    "label": "Memphis Playful",
+    "traits": ["playful", "graphic", "energetic", "quirky"],
+    "visual_cues": ["abstract squiggles", "confetti shapes", "bright blocks", "patterned backgrounds"],
+    "typography": ["rounded bold sans-serif", "display fonts"],
+    "palette_mood": ["coral", "teal", "yellow", "purple", "cream"]
+  },
+  "corporate_clean": {
+    "label": "Corporate Clean",
+    "traits": ["trustworthy", "professional", "clear", "stable"],
+    "visual_cues": ["structured sections", "subtle cards", "blue accents", "predictable navigation"],
+    "typography": ["neutral sans-serif", "medium weights"],
+    "palette_mood": ["white", "navy", "slate", "light blue"]
+  },
+  "startup_gradient": {
+    "label": "Startup Gradient",
+    "traits": ["modern", "optimistic", "product-led", "polished"],
+    "visual_cues": ["gradient hero backgrounds", "floating cards", "rounded buttons", "soft shadows"],
+    "typography": ["geometric sans-serif", "bold headlines"],
+    "palette_mood": ["blue", "violet", "cyan", "white"]
+  },
+  "aurora": {
+    "label": "Aurora Gradient",
+    "traits": ["atmospheric", "fluid", "futuristic", "soft"],
+    "visual_cues": ["mesh gradients", "blurred color blobs", "glowing background fields", "dark overlays"],
+    "typography": ["sleek sans-serif", "large display text"],
+    "palette_mood": ["violet", "cyan", "emerald", "deep navy"]
+  },
+  "dark_futuristic": {
+    "label": "Dark Futuristic",
+    "traits": ["technical", "immersive", "premium", "cinematic"],
+    "visual_cues": ["dark surfaces", "neon lines", "data panels", "subtle glow"],
+    "typography": ["condensed sans-serif", "monospace accents"],
+    "palette_mood": ["black", "deep navy", "cyan", "electric purple"]
+  },
+  "cyberpunk": {
+    "label": "Cyberpunk",
+    "traits": ["edgy", "nocturnal", "high-contrast", "techno"],
+    "visual_cues": ["neon signage", "glitch accents", "diagonal panels", "scanline patterns"],
+    "typography": ["condensed display", "monospace"],
+    "palette_mood": ["black", "magenta", "cyan", "acid green"]
+  },
+  "organic_earthy": {
+    "label": "Organic Earthy",
+    "traits": ["natural", "warm", "grounded", "human"],
+    "visual_cues": ["soft irregular shapes", "paper textures", "botanical motifs", "rounded imagery"],
+    "typography": ["humanist sans-serif", "soft serif"],
+    "palette_mood": ["sage", "terracotta", "sand", "clay", "cream"]
+  },
+  "warm_artisanal": {
+    "label": "Warm Artisanal",
+    "traits": ["handmade", "cozy", "local", "craft"],
+    "visual_cues": ["paper grain", "stamp marks", "hand-drawn icons", "warm photography"],
+    "typography": ["serif", "script accents", "humanist sans-serif"],
+    "palette_mood": ["brown", "cream", "rust", "olive", "mustard"]
+  },
+  "playful_pastel": {
+    "label": "Playful Pastel",
+    "traits": ["friendly", "soft", "youthful", "approachable"],
+    "visual_cues": ["rounded cards", "blob shapes", "soft illustrations", "large friendly buttons"],
+    "typography": ["rounded sans-serif", "chunky display"],
+    "palette_mood": ["peach", "mint", "lavender", "sky blue", "butter yellow"]
+  },
+  "claymorphism": {
+    "label": "Claymorphism",
+    "traits": ["playful", "tactile", "soft 3D", "friendly"],
+    "visual_cues": ["soft 3D blobs", "rounded clay-like cards", "pastel shadows", "squishy icons"],
+    "typography": ["rounded sans-serif", "bold friendly headings"],
+    "palette_mood": ["pastel orange", "lavender", "mint", "cream"]
+  },
+  "bento_modular": {
+    "label": "Bento Modular",
+    "traits": ["organized", "modular", "modern", "product-focused"],
+    "visual_cues": ["asymmetric card grid", "dashboard widgets", "rounded modules", "feature tiles"],
+    "typography": ["modern sans-serif", "compact hierarchy"],
+    "palette_mood": ["white", "gray", "black", "single bright accent"]
+  },
+  "magazine_editorial": {
+    "label": "Magazine Editorial",
+    "traits": ["content-rich", "sophisticated", "dynamic", "curated"],
+    "visual_cues": ["large mastheads", "multi-column grids", "image captions", "article cards"],
+    "typography": ["serif headlines", "condensed sans-serif", "small caps"],
+    "palette_mood": ["off-white", "black", "red accent", "muted neutrals"]
+  },
+  "monochrome_high_contrast": {
+    "label": "Monochrome High Contrast",
+    "traits": ["sharp", "confident", "minimal", "graphic"],
+    "visual_cues": ["black-and-white blocks", "large type", "thick separators", "stark imagery"],
+    "typography": ["bold sans-serif", "serif contrast"],
+    "palette_mood": ["black", "white", "gray"]
+  },
+  "data_heavy": {
+    "label": "Data Heavy",
+    "traits": ["analytical", "technical", "dense", "precise"],
+    "visual_cues": ["charts", "tables", "metric cards", "grid lines", "dashboard panels"],
+    "typography": ["compact sans-serif", "monospace numbers"],
+    "palette_mood": ["slate", "white", "blue", "green", "amber"]
+  },
+  "scientific_lab": {
+    "label": "Scientific Lab",
+    "traits": ["precise", "clinical", "research-driven", "calm"],
+    "visual_cues": ["thin line diagrams", "lab labels", "structured cards", "cool whites"],
+    "typography": ["neutral sans-serif", "monospace labels"],
+    "palette_mood": ["white", "ice blue", "graphite", "teal"]
+  },
+  "clinical_health": {
+    "label": "Clinical Health",
+    "traits": ["trustworthy", "calm", "accessible", "clear"],
+    "visual_cues": ["soft cards", "clean iconography", "gentle gradients", "clear CTAs"],
+    "typography": ["humanist sans-serif", "large readable text"],
+    "palette_mood": ["white", "soft blue", "mint", "warm gray"]
+  },
+  "heritage_classic": {
+    "label": "Heritage Classic",
+    "traits": ["established", "traditional", "premium", "formal"],
+    "visual_cues": ["crest-like marks", "serif type", "ornamental dividers", "symmetrical composition"],
+    "typography": ["classic serif", "small caps", "formal sans-serif"],
+    "palette_mood": ["ivory", "burgundy", "navy", "forest green", "gold"]
+  },
+  "bauhaus_geometric": {
+    "label": "Bauhaus Geometric",
+    "traits": ["geometric", "structured", "artful", "modernist"],
+    "visual_cues": ["primary shapes", "strict grids", "circles and rectangles", "bold composition"],
+    "typography": ["geometric sans-serif", "bold display"],
+    "palette_mood": ["red", "blue", "yellow", "black", "cream"]
+  },
+  "swiss_modern": {
+    "label": "Swiss Modern",
+    "traits": ["precise", "grid-based", "rational", "typographic"],
+    "visual_cues": ["strict alignment", "asymmetric grids", "small labels", "minimal ornament"],
+    "typography": ["neo-grotesque sans-serif", "tight hierarchy"],
+    "palette_mood": ["white", "black", "red accent", "gray"]
+  },
+  "vaporwave": {
+    "label": "Vaporwave",
+    "traits": ["surreal", "nostalgic", "digital", "dreamy"],
+    "visual_cues": ["sunset gradients", "grid horizons", "marble textures", "retro computer motifs"],
+    "typography": ["wide display", "monospace accents"],
+    "palette_mood": ["pink", "purple", "cyan", "midnight blue"]
+  },
+  "maximalist_collage": {
+    "label": "Maximalist Collage",
+    "traits": ["expressive", "dense", "layered", "artistic"],
+    "visual_cues": ["overlapping cutouts", "mixed type scales", "patterns", "stickers and labels"],
+    "typography": ["mixed display fonts", "bold sans-serif"],
+    "palette_mood": ["multi-color", "high saturation", "contrasting accents"]
+  },
+  "soft_luxury": {
+    "label": "Soft Luxury",
+    "traits": ["elegant", "quiet", "premium", "sensory"],
+    "visual_cues": ["soft gradients", "large photography", "muted surfaces", "delicate spacing"],
+    "typography": ["elegant serif", "light sans-serif"],
+    "palette_mood": ["champagne", "taupe", "cream", "charcoal"]
+  },
+  "coastal_clean": {
+    "label": "Coastal Clean",
+    "traits": ["fresh", "bright", "relaxed", "open"],
+    "visual_cues": ["airy white space", "blue accents", "large image panels", "soft dividers"],
+    "typography": ["clean sans-serif", "light serif accents"],
+    "palette_mood": ["white", "sand", "sky blue", "seafoam", "navy"]
+  },
+  "desert_modern": {
+    "label": "Desert Modern",
+    "traits": ["warm", "minimal", "architectural", "sunlit"],
+    "visual_cues": ["terracotta blocks", "sand backgrounds", "shadowed cards", "geometric accents"],
+    "typography": ["modern sans-serif", "low-contrast serif"],
+    "palette_mood": ["sand", "clay", "terracotta", "bone", "black"]
+  },
+  "alpine_rustic": {
+    "label": "Alpine Rustic",
+    "traits": ["cozy", "natural", "premium", "outdoorsy"],
+    "visual_cues": ["wood textures", "dark greens", "large landscape imagery", "warm panels"],
+    "typography": ["sturdy serif", "humanist sans-serif"],
+    "palette_mood": ["forest green", "cream", "espresso", "stone", "rust"]
+  },
+  "streetwear_graphic": {
+    "label": "Streetwear Graphic",
+    "traits": ["bold", "urban", "youthful", "drop-driven"],
+    "visual_cues": ["oversized type", "stickers", "high-contrast product cards", "spray-paint accents"],
+    "typography": ["condensed bold", "wide sans-serif", "monospace labels"],
+    "palette_mood": ["black", "white", "red", "acid green", "gray"]
+  },
+  "fashion_monochrome": {
+    "label": "Fashion Monochrome",
+    "traits": ["editorial", "cool", "minimal", "image-led"],
+    "visual_cues": ["black-and-white photography", "thin typography", "large lookbook grids", "sparse CTAs"],
+    "typography": ["elegant sans-serif", "condensed display"],
+    "palette_mood": ["black", "white", "warm gray"]
+  },
+  "kids_playroom": {
+    "label": "Kids Playroom",
+    "traits": ["bright", "safe", "playful", "friendly"],
+    "visual_cues": ["rounded shapes", "simple illustrations", "large colorful blocks", "soft patterns"],
+    "typography": ["rounded bold sans-serif", "handwritten accents"],
+    "palette_mood": ["primary colors", "pastels", "cream"]
+  },
+  "civic_institutional": {
+    "label": "Civic Institutional",
+    "traits": ["public", "clear", "accessible", "official"],
+    "visual_cues": ["clear navigation", "information panels", "structured grids", "status banners"],
+    "typography": ["high-legibility sans-serif", "strong labels"],
+    "palette_mood": ["white", "navy", "blue", "gold", "gray"]
+  },
+  "museum_catalog": {
+    "label": "Museum Catalog",
+    "traits": ["curatorial", "quiet", "archival", "refined"],
+    "visual_cues": ["captioned images", "archive grids", "thin separators", "object metadata"],
+    "typography": ["serif headlines", "small sans-serif labels"],
+    "palette_mood": ["white", "stone", "black", "muted accent"]
+  },
+  "sports_energy": {
+    "label": "Sports Energy",
+    "traits": ["dynamic", "bold", "competitive", "fast"],
+    "visual_cues": ["diagonal cuts", "scoreboard modules", "action imagery", "high-contrast CTAs"],
+    "typography": ["condensed bold", "blocky display"],
+    "palette_mood": ["black", "white", "team color", "neon accent"]
+  },
+  "festival_poster": {
+    "label": "Festival Poster",
+    "traits": ["expressive", "loud", "event-driven", "graphic"],
+    "visual_cues": ["poster typography", "lineup blocks", "bold gradients", "large date badges"],
+    "typography": ["display fonts", "condensed sans-serif", "bold hierarchy"],
+    "palette_mood": ["bright gradients", "black", "cream", "saturated accents"]
+  },
+  "cinematic_dark": {
+    "label": "Cinematic Dark",
+    "traits": ["dramatic", "immersive", "premium", "moody"],
+    "visual_cues": ["dark hero images", "letterbox spacing", "subtle grain", "low-key contrast"],
+    "typography": ["serif display", "minimal sans-serif"],
+    "palette_mood": ["black", "charcoal", "deep red", "warm gold"]
+  },
+  "paper_zine": {
+    "label": "Paper Zine",
+    "traits": ["independent", "tactile", "scrappy", "editorial"],
+    "visual_cues": ["paper texture", "torn edges", "photocopy effect", "handwritten notes"],
+    "typography": ["typewriter", "serif", "rough display"],
+    "palette_mood": ["paper white", "black ink", "muted red", "faded blue"]
+  },
+  "terminal_hacker": {
+    "label": "Terminal Hacker",
+    "traits": ["technical", "underground", "developer-focused", "minimal"],
+    "visual_cues": ["terminal windows", "monospace UI", "green text accents", "command-line motifs"],
+    "typography": ["monospace", "technical sans-serif"],
+    "palette_mood": ["black", "green", "gray", "amber"]
+  },
+  "ai_lab": {
+    "label": "AI Lab",
+    "traits": ["intelligent", "technical", "precise", "future-facing"],
+    "visual_cues": ["node graphs", "abstract neural patterns", "floating panels", "technical diagrams"],
+    "typography": ["modern sans-serif", "monospace labels"],
+    "palette_mood": ["white", "black", "violet", "cyan", "slate"]
+  },
+  "eco_modern": {
+    "label": "Eco Modern",
+    "traits": ["sustainable", "clean", "optimistic", "natural"],
+    "visual_cues": ["leaf-like geometry", "impact cards", "soft gradients", "natural textures"],
+    "typography": ["humanist sans-serif", "friendly serif"],
+    "palette_mood": ["green", "cream", "sky blue", "earth brown"]
+  },
+  "premium_fintech": {
+    "label": "Premium Fintech",
+    "traits": ["secure", "polished", "wealth-oriented", "precise"],
+    "visual_cues": ["dark cards", "financial charts", "gold accents", "crisp data modules"],
+    "typography": ["modern sans-serif", "tabular numerals"],
+    "palette_mood": ["deep navy", "black", "gold", "emerald", "white"]
+  },
+  "friendly_consumer_app": {
+    "label": "Friendly Consumer App",
+    "traits": ["approachable", "simple", "bright", "human"],
+    "visual_cues": ["rounded cards", "illustrated icons", "friendly CTAs", "soft color blocks"],
+    "typography": ["rounded sans-serif", "large readable text"],
+    "palette_mood": ["white", "blue", "mint", "coral", "yellow"]
+  },
+  "industrial_technical": {
+    "label": "Industrial Technical",
+    "traits": ["robust", "precise", "engineered", "serious"],
+    "visual_cues": ["technical drawings", "grid overlays", "metallic neutrals", "spec tables"],
+    "typography": ["condensed sans-serif", "monospace labels"],
+    "palette_mood": ["graphite", "steel", "orange", "white", "black"]
+  },
+  "handmade_illustrated": {
+    "label": "Handmade Illustrated",
+    "traits": ["human", "warm", "quirky", "approachable"],
+    "visual_cues": ["hand-drawn illustrations", "wobbly lines", "organic cards", "textured backgrounds"],
+    "typography": ["handwritten accents", "rounded sans-serif"],
+    "palette_mood": ["cream", "coral", "olive", "sky", "mustard"]
+  },
+  "gradient_mesh": {
+    "label": "Gradient Mesh",
+    "traits": ["modern", "fluid", "colorful", "soft"],
+    "visual_cues": ["smooth mesh gradients", "blurred blobs", "soft color transitions", "minimal overlays"],
+    "typography": ["modern sans-serif", "large clean headlines"],
+    "palette_mood": ["pink", "orange", "blue", "violet", "white"]
+  },
+  "skeuomorphic_modern": {
+    "label": "Modern Skeuomorphic",
+    "traits": ["tangible", "rich", "object-like", "polished"],
+    "visual_cues": ["realistic controls", "material textures", "depth", "highlighted edges"],
+    "typography": ["clean sans-serif", "small UI labels"],
+    "palette_mood": ["soft gray", "white", "metallic", "single accent"]
+  },
+  "accessible_plain": {
+    "label": "Accessible Plain",
+    "traits": ["clear", "functional", "readable", "inclusive"],
+    "visual_cues": ["large text", "high contrast", "obvious focus states", "simple layout"],
+    "typography": ["high-legibility sans-serif", "large body text"],
+    "palette_mood": ["white", "black", "blue", "yellow accent"]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "classic_landing": {
+    "label": "Classic Landing",
+    "description": "A conventional stacked marketing layout with a hero, clear sections, cards, testimonials, and a final CTA.",
+    "best_for": ["saas", "fintech", "healthcare", "education", "nonprofit", "technology_hardware"],
+    "structure_cues": ["top navigation", "centered or split hero", "stacked vertical sections", "repeated card rows"]
+  },
+  "split_panel": {
+    "label": "Split Panel",
+    "description": "Pages rely on strong two-column compositions, alternating text and visual panels across the site.",
+    "best_for": ["restaurant", "hospitality", "wellness_fitness", "beauty_personal_care", "food_beverage_cpg"],
+    "structure_cues": ["two-column hero", "alternating image/text sections", "large side-by-side panels", "balanced whitespace"]
+  },
+  "editorial_grid": {
+    "label": "Editorial Grid",
+    "description": "A magazine-inspired layout with asymmetric grids, large type, image captions, and varied content blocks.",
+    "best_for": ["media_magazine", "architecture_design", "creative_agency", "portfolio", "arts_culture"],
+    "structure_cues": ["asymmetric grid", "large masthead", "captioned imagery", "mixed-width content columns"]
+  },
+  "card_grid": {
+    "label": "Card Grid",
+    "description": "A modular layout built around reusable cards, tiles, listings, and feature grids.",
+    "best_for": ["retail_ecommerce", "real_estate", "education", "sports", "government_civic"],
+    "structure_cues": ["repeated cards", "filter-like rows", "tile grids", "compact summaries"]
+  },
+  "gallery_first": {
+    "label": "Gallery First",
+    "description": "An image-led layout where large visuals, galleries, lookbooks, or portfolios dominate the page structure.",
+    "best_for": ["fashion_ecommerce", "hospitality", "travel", "architecture_design", "portfolio"],
+    "structure_cues": ["large image grids", "masonry-like sections", "full-bleed visuals", "minimal supporting copy"]
+  },
+  "dashboard_product": {
+    "label": "Dashboard Product",
+    "description": "A product-led layout with UI mockups, metrics, panels, charts, and feature modules.",
+    "best_for": ["saas", "fintech", "technology_hardware", "environment_energy", "automotive_mobility"],
+    "structure_cues": ["dashboard mockups", "metric cards", "feature panels", "charts and data modules"]
+  },
+  "storytelling_scroll": {
+    "label": "Storytelling Scroll",
+    "description": "A narrative, section-by-section layout that guides the visitor through a cause, journey, process, or brand story.",
+    "best_for": ["nonprofit", "travel", "food_beverage_cpg", "events_festival", "environment_energy"],
+    "structure_cues": ["sequential sections", "timeline moments", "impact blocks", "large narrative transitions"]
+  },
+  "sidebar_navigation": {
+    "label": "Sidebar Navigation",
+    "description": "A layout with persistent side navigation and content-heavy pages, useful for institutional or documentation-like sites.",
+    "best_for": ["government_civic", "education", "legal_professional", "healthcare", "media_magazine"],
+    "structure_cues": ["left sidebar", "content panels", "section anchors", "dense information hierarchy"]
+  }
+}
