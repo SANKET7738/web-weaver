@@ -1,6 +1,7 @@
 import os
 import random
 import time
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -9,7 +10,14 @@ from web_weaver.blueprint_generator import generate_blueprints, parse_concept_id
 from web_weaver.layout_engine import generate_design_plans, parse_blueprint_ids
 from web_weaver.llm_utils import AnthropicClient
 from web_weaver.sampler import sample_concepts
-from web_weaver.site_generator import build_image, default_image_tag, image_exists
+from web_weaver.site_generator import (
+    build_image,
+    create_attempt,
+    default_image_tag,
+    image_exists,
+    load_metadata,
+    run_attempt,
+)
 
 
 app = typer.Typer(help="Web Weaver task generation tools.")
@@ -90,7 +98,7 @@ def blueprint(
     max_tokens: Annotated[
         int,
         typer.Option("--max-tokens", min=1000, help="Maximum response tokens."),
-    ] = 8000,
+    ] = 128000,
     dry_run: Annotated[
         bool,
         typer.Option("--dry-run", help="Print generated blueprints instead of writing."),
@@ -204,6 +212,90 @@ def sitegen_build_image(
         typer.echo(f"Image already exists: {built_tag}")
     else:
         typer.echo(f"Built image: {built_tag}")
+
+
+@app.command()
+def sitegen_create_attempt(
+    task_id: Annotated[
+        str,
+        typer.Option("--id", help="Task ID to create a persisted attempt for."),
+    ],
+    tag: Annotated[
+        str | None,
+        typer.Option("--tag", help="Optional Docker image tag to record."),
+    ] = None,
+    timeout_seconds: Annotated[
+        int,
+        typer.Option("--timeout-seconds", min=1, help="Agent timeout in seconds."),
+    ] = 1800,
+) -> None:
+    """Create a persisted site-generation attempt directory."""
+    attempt = create_attempt(
+        task_id,
+        image_tag=tag,
+        timeout_seconds=timeout_seconds,
+    )
+    metadata = load_metadata(attempt)
+    typer.echo(f"Created attempt: {attempt.path}")
+    typer.echo(f"Attempt ID: {metadata.attempt_id}")
+    typer.echo(f"Input: {attempt.input_dir}")
+    typer.echo(f"Output: {attempt.reference_site_dir}")
+    typer.echo(f"Logs: {attempt.logs_dir}")
+
+
+@app.command()
+def sitegen_attempt_run(
+    task_id: Annotated[
+        str,
+        typer.Option("--id", help="Task ID to run through the site generator."),
+    ],
+    tag: Annotated[
+        str | None,
+        typer.Option("--tag", help="Optional Docker image tag."),
+    ] = None,
+    base_image: Annotated[
+        str,
+        typer.Option("--base-image", help="Base Docker image for the agent runtime."),
+    ] = "node:22-slim",
+    force_build: Annotated[
+        bool,
+        typer.Option("--force-build", help="Rebuild even if the image already exists."),
+    ] = False,
+    no_cache: Annotated[
+        bool,
+        typer.Option("--no-cache", help="Pass --no-cache to docker build."),
+    ] = False,
+    timeout_seconds: Annotated[
+        int,
+        typer.Option("--timeout-seconds", min=1, help="Agent timeout in seconds."),
+    ] = 1800,
+    host_port: Annotated[
+        int,
+        typer.Option("--host-port", min=1, max=65535, help="Host port to map to container port 3000."),
+    ] = 3000,
+    env_file: Annotated[
+        Path | None,
+        typer.Option("--env-file", help="Optional Docker env-file containing ANTHROPIC_API_KEY."),
+    ] = Path(".env"),
+) -> None:
+    """Create an attempt, build/check the image, and start the agent container."""
+    attempt = run_attempt(
+        task_id,
+        tag=tag,
+        base_image=base_image,
+        force_build=force_build,
+        no_cache=no_cache,
+        timeout_seconds=timeout_seconds,
+        host_port=host_port,
+        env_file=env_file,
+    )
+    metadata = load_metadata(attempt)
+    typer.echo(f"Attempt: {attempt.path}")
+    typer.echo(f"Container: {metadata.container_name}")
+    typer.echo(f"Container ID: {metadata.container_id}")
+    typer.echo(f"URL: http://localhost:{metadata.host_port}")
+    typer.echo(f"Claude log: {attempt.logs_dir / 'claude_stream.jsonl'}")
+    typer.echo(f"Entrypoint log: {attempt.logs_dir / 'entrypoint.log'}")
 
 
 def main() -> None:

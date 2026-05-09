@@ -12,3 +12,4 @@ Assets/DesignPlans/*.json
 !Assets/DesignPlans/.gitkeep
 Assets/Debug/*.json
 sitegen-logs/
+Runs/

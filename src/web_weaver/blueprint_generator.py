@@ -36,7 +36,7 @@ def generate_blueprints(
     concept_ids: list[str],
     *,
     model: str,
-    max_tokens: int = 8000,
+    max_tokens: int = 128000,
     dry_run: bool = False,
 ) -> list[SiteBlueprint]:
     client = AnthropicClient()
@@ -73,16 +73,23 @@ def generate_blueprint(
     model: str,
     max_tokens: int,
 ) -> SiteBlueprint:
-    prompt = build_blueprint_prompt(concept)
-    result = client.prompt_llm(
-        model=model,
-        question=prompt,
-        response_model=SiteBlueprintDraft,
-        max_tokens=max_tokens,
-        temperature=0.7,
-        retries=1,
-    )
-    return normalize_blueprint_draft(result["validated_response"], concept)
+    last_error: Exception | None = None
+    for attempt in range(3):
+        prompt = build_blueprint_prompt(concept, previous_error=last_error)
+        try:
+            result = client.prompt_llm(
+                model=model,
+                question=prompt,
+                response_model=SiteBlueprintDraft,
+                max_tokens=max_tokens,
+                temperature=0.7 if attempt == 0 else 0.4,
+                retries=0,
+            )
+            return normalize_blueprint_draft(result["validated_response"], concept)
+        except (BlueprintValidationError, ValueError) as error:
+            last_error = error
+
+    raise BlueprintValidationError(f"Blueprint generation failed: {last_error}")
 
 
 def normalize_blueprint_draft(
@@ -154,7 +161,10 @@ def normalize_blueprint_draft(
     )
 
 
-def build_blueprint_prompt(concept: TaskConcept) -> str:
+def build_blueprint_prompt(
+    concept: TaskConcept,
+    previous_error: Exception | None = None,
+) -> str:
     concept_brief = {
         "site_domain": concept.site_domain,
         "site_subdomain": concept.site_subdomain,
@@ -164,6 +174,12 @@ def build_blueprint_prompt(concept: TaskConcept) -> str:
         "difficulty": concept.difficulty,
     }
     concept_json = json.dumps(concept_brief, indent=2)
+    retry_note = (
+        "\nPrevious attempt was invalid. Fix this exact issue and return a complete "
+        f"top-level object with both identity and pages: {previous_error}\n"
+        if previous_error
+        else ""
+    )
     return f"""
 You are the lead brand designer in a web design studio that creates custom
 websites for clients. The client has given you a high-level request, and your
@@ -205,10 +221,11 @@ Important boundaries:
 
 Task concept:
 {concept_json}
+{retry_note}
 
 Required output rules:
 - The top-level JSON must contain exactly these required fields: identity and pages.
-- pages is required and must be an array.
+- pages is required and must be an array. Never return identity by itself.
 - Generate exactly one page for each page in this page_set, preserving order:
   {concept.page_set}
 - Do not output blueprint ids, concept ids, domain, subdomain, page slugs,

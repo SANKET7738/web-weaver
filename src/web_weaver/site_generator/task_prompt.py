@@ -20,6 +20,9 @@ Hard requirements:
 - Write all site files under /workspace/output/reference_site/.
 - The home page must be /workspace/output/reference_site/index.html.
 - Every non-home blueprint page must have a matching <slug>.html file.
+- Add data-page-slug="<slug>" to each page's body element.
+- Use every blueprint section id as the corresponding HTML section id.
+- Add data-section-type="<section type>" to each section.
 - Use blueprint.json for page structure and copy.
 - Use design_plan.json as the source of truth for visual design.
 - Implement asset ideas yourself as inline SVG, local SVG files, or CSS visuals.
@@ -48,8 +51,12 @@ def build_entrypoint_script() -> str:
     return f"""#!/bin/bash
 set -euo pipefail
 
-mkdir -p /workspace/output/reference_site /workspace/logs
+mkdir -p /workspace/output/reference_site /workspace/logs /workspace/validation
 cd /workspace
+
+log() {{
+  echo "[$(date -Iseconds)] $*" | tee -a /workspace/logs/entrypoint.log
+}}
 
 if [ -z "${{ANTHROPIC_API_KEY:-}}" ]; then
   echo "ANTHROPIC_API_KEY is required to run Claude Code." | tee /workspace/logs/agent_error.txt
@@ -58,20 +65,66 @@ fi
 
 AGENT_TIMEOUT_SECONDS="${{SITEGEN_AGENT_TIMEOUT_SECONDS:-1800}}"
 
+log "Starting Claude Code with timeout ${{AGENT_TIMEOUT_SECONDS}} seconds"
 set +e
 timeout "${{AGENT_TIMEOUT_SECONDS}}" claude --dangerously-skip-permissions \\
   -p "$(cat /workspace/task.md)" \\
   --output-format stream-json \\
   --verbose \\
-  > /workspace/logs/run.jsonl 2>&1
+  > /workspace/logs/claude_stream.jsonl 2>&1
 AGENT_EXIT_CODE=$?
 set -e
 
 echo "${{AGENT_EXIT_CODE}}" > /workspace/logs/agent_exit_code.txt
 if [ "${{AGENT_EXIT_CODE}}" -eq 124 ]; then
+  log "Claude timed out after ${{AGENT_TIMEOUT_SECONDS}} seconds"
   echo "Claude timed out after ${{AGENT_TIMEOUT_SECONDS}} seconds" > /workspace/logs/agent_timeout.txt
+else
+  log "Claude exited with code ${{AGENT_EXIT_CODE}}"
 fi
 
 cd /workspace/output/reference_site
-exec python3 -m http.server {DEFAULT_PORT} --bind 0.0.0.0
+python3 -m http.server {DEFAULT_PORT} --bind 0.0.0.0 > /workspace/logs/server.log 2>&1 &
+SERVER_PID=$!
+echo "${{SERVER_PID}}" > /workspace/logs/server_pid.txt
+log "Started static server on 0.0.0.0:{DEFAULT_PORT} with PID ${{SERVER_PID}}"
+
+for _ in $(seq 1 30); do
+  if curl -fsS http://127.0.0.1:{DEFAULT_PORT} >/dev/null 2>&1; then
+    SERVER_READY=1
+    break
+  fi
+  sleep 1
+done
+
+if [ "${{SERVER_READY:-0}}" != "1" ]; then
+  log "Static server did not become ready"
+  echo "Static server did not become ready" > /workspace/logs/server_error.txt
+else
+  log "Running site generation sanity check"
+  set +e
+  python3 /workspace/sanity_check.py \\
+    --blueprint /workspace/input/blueprint.json \\
+    --design-plan /workspace/input/design_plan.json \\
+    --site-dir /workspace/output/reference_site \\
+    --base-url http://127.0.0.1:{DEFAULT_PORT} \\
+    --out /workspace/validation/sanity_report.json
+  SANITY_EXIT_CODE=$?
+  set -e
+  echo "${{SANITY_EXIT_CODE}}" > /workspace/logs/sanity_exit_code.txt
+  log "Sanity check exited with code ${{SANITY_EXIT_CODE}}"
+
+  log "Running Playwright browser sanity check"
+  set +e
+  node /workspace/playwright_check.js \\
+    --blueprint /workspace/input/blueprint.json \\
+    --base-url http://127.0.0.1:{DEFAULT_PORT} \\
+    --out /workspace/validation/playwright_report.json
+  PLAYWRIGHT_EXIT_CODE=$?
+  set -e
+  echo "${{PLAYWRIGHT_EXIT_CODE}}" > /workspace/logs/playwright_exit_code.txt
+  log "Playwright sanity check exited with code ${{PLAYWRIGHT_EXIT_CODE}}"
+fi
+
+wait "${{SERVER_PID}}"
 """

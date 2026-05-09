@@ -5,6 +5,12 @@ from pathlib import Path
 
 from web_weaver.site_generator.docker_utils import image_exists, run_docker_command
 from web_weaver.site_generator.dockerfile_template import render_dockerfile
+from web_weaver.site_generator.playwright_checker_template import (
+    render_playwright_checker_script,
+)
+from web_weaver.site_generator.sanity_checker_template import (
+    render_sanity_checker_script,
+)
 from web_weaver.site_generator.task_prompt import (
     build_entrypoint_script,
     build_task_prompt,
@@ -71,6 +77,15 @@ def prepare_env(
     entrypoint_path = context_dir / "entrypoint.sh"
     entrypoint_path.write_text(build_entrypoint_script(), encoding="utf-8")
     entrypoint_path.chmod(0o755)
+    sanity_checker_path = context_dir / "sanity_check.py"
+    sanity_checker_path.write_text(render_sanity_checker_script(), encoding="utf-8")
+    sanity_checker_path.chmod(0o755)
+    playwright_checker_path = context_dir / "playwright_check.js"
+    playwright_checker_path.write_text(
+        render_playwright_checker_script(),
+        encoding="utf-8",
+    )
+    playwright_checker_path.chmod(0o755)
 
 
 def resolve_task_artifacts(task_id: str) -> dict[str, Path]:
