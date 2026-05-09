@@ -17,6 +17,17 @@ from web_weaver.models.blueprint import (
     SiteIdentityDraft,
 )
 from web_weaver.models.concept import ConceptIndex, Difficulty, TaskConcept
+from web_weaver.models.design_plan import (
+    ColorToken,
+    DesignPlan,
+    DesignPlanDraft,
+    DesignSystemDraft,
+    PageDesignPlan,
+    PageDesignPlanDraft,
+    SectionDesignPlan,
+    SectionDesignPlanDraft,
+    TypographyPlan,
+)
 
 __all__ = [
     "AssetIdea",
@@ -26,16 +37,25 @@ __all__ = [
     "CTA",
     "ConceptIndex",
     "ContentItem",
+    "ColorToken",
+    "DesignPlan",
+    "DesignPlanDraft",
+    "DesignSystemDraft",
     "Difficulty",
     "PageBlueprint",
     "PageBlueprintDraft",
+    "PageDesignPlan",
+    "PageDesignPlanDraft",
     "PageRole",
     "SectionBlueprint",
     "SectionBlueprintDraft",
+    "SectionDesignPlan",
+    "SectionDesignPlanDraft",
     "SectionType",
     "SiteBlueprint",
     "SiteBlueprintDraft",
     "SiteIdentity",
     "SiteIdentityDraft",
     "TaskConcept",
+    "TypographyPlan",
 ]

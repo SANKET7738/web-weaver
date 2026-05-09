@@ -1,10 +1,12 @@
 import os
 import random
+import time
 from typing import Annotated
 
 import typer
 
 from web_weaver.blueprint_generator import generate_blueprints, parse_concept_ids
+from web_weaver.layout_engine import generate_design_plans, parse_blueprint_ids
 from web_weaver.llm_utils import AnthropicClient
 from web_weaver.sampler import sample_concepts
 
@@ -108,6 +110,60 @@ def blueprint(
             typer.echo(generated_blueprint.model_dump_json(indent=2))
         else:
             typer.echo(f"Wrote Assets/Blueprints/{generated_blueprint.id}.json")
+
+
+@app.command()
+def design(
+    blueprint_ids: Annotated[
+        str,
+        typer.Option(
+            "--blueprint-ids",
+            help="Comma-separated blueprint IDs, e.g. ww-00001,ww-00002.",
+        ),
+    ],
+    model: Annotated[
+        str,
+        typer.Option(
+            "--model",
+            help="Anthropic model to call. Defaults to ANTHROPIC_MODEL or Claude Sonnet 4.6.",
+        ),
+    ] = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-6"),
+    max_tokens: Annotated[
+        int,
+        typer.Option("--max-tokens", min=1000, help="Maximum response tokens."),
+    ] = 10000,
+    dry_run: Annotated[
+        bool,
+        typer.Option("--dry-run", help="Print generated design plans instead of writing."),
+    ] = False,
+    debug: Annotated[
+        bool,
+        typer.Option(
+            "--debug",
+            help="Write rejected LLM drafts to Assets/Debug for inspection.",
+        ),
+    ] = False,
+) -> None:
+    """Generate DesignPlan artifacts from site blueprints."""
+    parsed_blueprint_ids = parse_blueprint_ids(blueprint_ids)
+    typer.echo(f"Generating {len(parsed_blueprint_ids)} design plan(s)")
+    started_at = time.perf_counter()
+    design_plans = generate_design_plans(
+        parsed_blueprint_ids,
+        model=model,
+        max_tokens=max_tokens,
+        dry_run=dry_run,
+        debug=debug,
+    )
+
+    for generated_design_plan in design_plans:
+        if dry_run:
+            typer.echo(generated_design_plan.model_dump_json(indent=2))
+        else:
+            typer.echo(f"Wrote Assets/DesignPlans/{generated_design_plan.id}.json")
+
+    elapsed_seconds = time.perf_counter() - started_at
+    typer.echo(f"Elapsed: {elapsed_seconds:.2f}s")
 
 
 def main() -> None:

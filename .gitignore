@@ -8,3 +8,6 @@ Assets/Concepts/*.json
 !Assets/Concepts/.gitkeep
 Assets/Blueprints/*.json
 !Assets/Blueprints/.gitkeep
+Assets/DesignPlans/*.json
+!Assets/DesignPlans/.gitkeep
+Assets/Debug/*.json
