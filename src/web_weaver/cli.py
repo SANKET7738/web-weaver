@@ -9,6 +9,7 @@ from web_weaver.blueprint_generator import generate_blueprints, parse_concept_id
 from web_weaver.layout_engine import generate_design_plans, parse_blueprint_ids
 from web_weaver.llm_utils import AnthropicClient
 from web_weaver.sampler import sample_concepts
+from web_weaver.site_generator import build_image, default_image_tag, image_exists
 
 
 app = typer.Typer(help="Web Weaver task generation tools.")
@@ -164,6 +165,45 @@ def design(
 
     elapsed_seconds = time.perf_counter() - started_at
     typer.echo(f"Elapsed: {elapsed_seconds:.2f}s")
+
+
+@app.command()
+def sitegen_build_image(
+    task_id: Annotated[
+        str,
+        typer.Option("--id", help="Task ID to bake into a site generator image."),
+    ],
+    tag: Annotated[
+        str | None,
+        typer.Option("--tag", help="Optional Docker image tag."),
+    ] = None,
+    base_image: Annotated[
+        str,
+        typer.Option("--base-image", help="Base Docker image for the agent runtime."),
+    ] = "node:22-slim",
+    force: Annotated[
+        bool,
+        typer.Option("--force", help="Rebuild even if the image already exists."),
+    ] = False,
+    no_cache: Annotated[
+        bool,
+        typer.Option("--no-cache", help="Pass --no-cache to docker build."),
+    ] = False,
+) -> None:
+    """Build a task-specific headless-agent site generator Docker image."""
+    image_tag = tag or default_image_tag(task_id)
+    already_exists = image_exists(image_tag)
+    built_tag = build_image(
+        task_id,
+        tag=image_tag,
+        base_image=base_image,
+        force=force,
+        no_cache=no_cache,
+    )
+    if already_exists and not force:
+        typer.echo(f"Image already exists: {built_tag}")
+    else:
+        typer.echo(f"Built image: {built_tag}")
 
 
 def main() -> None:
