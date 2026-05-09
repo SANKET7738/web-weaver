@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+.env
 
 Assets/Concepts/*.json
 !Assets/Concepts/.gitkeep
+Assets/Blueprints/*.json
+!Assets/Blueprints/.gitkeep
