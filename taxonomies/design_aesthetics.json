@@ -43,10 +43,10 @@
   },
   "retro_90s_web": {
     "label": "Retro 90s Web",
-    "traits": ["nostalgic", "playful", "lo-fi", "internet-native"],
-    "visual_cues": ["pixel borders", "sticker graphics", "checker patterns", "browser-window frames"],
-    "typography": ["pixel font accents", "system sans-serif", "monospace"],
-    "palette_mood": ["neon", "cyan", "purple", "lime", "black"]
+    "traits": ["nostalgic", "amateur-charming", "lo-fi", "internet-native", "GeoCities-era"],
+    "visual_cues": ["tiled wallpaper backgrounds", "beveled 3D buttons and raised panel borders", "browser-chrome / Netscape window framing", "rainbow rule dividers and animated-GIF energy", "88x31 sticker badges, 'Under Construction' motifs, hit-counter widgets"],
+    "typography": ["system serifs and sans (Times, Georgia, Verdana, Arial, Trebuchet, Comic Sans)", "shouty all-caps display weight (Arial Black or Impact register)", "tiny pixel-font accents only — never display headlines"],
+    "palette_mood": ["clashing web-safe primaries (hot pink, electric blue, lime, magenta, sunshine yellow)", "white, lavender, or tiled-wallpaper grounds (GeoCities flavor) — or chaotic saturated-on-dark for late-90s portal flavor", "functional underlined-blue / visited-purple link anchors"]
   },
   "y2k_gloss": {
     "label": "Y2K Gloss",

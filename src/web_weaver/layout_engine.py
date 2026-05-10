@@ -34,7 +34,7 @@ def generate_design_plans(
     blueprint_ids: list[str],
     *,
     model: str,
-    max_tokens: int = 10000,
+    max_tokens: int = 16000,
     dry_run: bool = False,
     debug: bool = False,
 ) -> list[DesignPlan]:
@@ -162,7 +162,7 @@ def generate_design_system(
         model=model,
         question=prompt,
         response_model=DesignSystemDraft,
-        max_tokens=min(max_tokens, 4000),
+        max_tokens=max_tokens,
         temperature=0.7,
         retries=1,
     )
@@ -197,9 +197,9 @@ def generate_page_design_plan(
 ) -> PageDesignPlanDraft:
     page = blueprint.pages[page_index]
     expected_section_count = len(page.sections)
-    last_error: DesignPlanValidationError | None = None
+    last_error: Exception | None = None
 
-    for _ in range(3):
+    for attempt_index in range(3):
         prompt = build_page_design_prompt(
             concept=concept,
             blueprint=blueprint,
@@ -209,14 +209,28 @@ def generate_page_design_plan(
             layout_family=taxonomies["layout_families"][concept.layout_family],
             previous_error=str(last_error) if last_error else None,
         )
-        result = client.prompt_llm(
-            model=model,
-            question=prompt,
-            response_model=PageDesignPlanDraft,
-            max_tokens=min(max_tokens, 6000),
-            temperature=0.7,
-            retries=1,
-        )
+        try:
+            result = client.prompt_llm(
+                model=model,
+                question=prompt,
+                response_model=PageDesignPlanDraft,
+                max_tokens=max_tokens,
+                temperature=0.7,
+                retries=1,
+            )
+        except ValueError as error:
+            last_error = error
+            if debug:
+                write_debug_artifact(
+                    blueprint.id,
+                    f"page-{page_index + 1}-attempt-{attempt_index + 1}-schema",
+                    {
+                        "page_slug": page.slug,
+                        "attempt_error": str(error),
+                    },
+                )
+            continue
+
         page_draft = result["validated_response"]
         try:
             validate_page_design_draft_against_blueprint(page_draft, page)
@@ -226,7 +240,7 @@ def generate_page_design_plan(
             if debug:
                 write_debug_artifact(
                     blueprint.id,
-                    f"page-{page_index + 1}-attempt",
+                    f"page-{page_index + 1}-attempt-{attempt_index + 1}",
                     {
                         "page_slug": page.slug,
                         "attempt_error": str(error),
@@ -234,7 +248,10 @@ def generate_page_design_plan(
                     },
                 )
 
-    raise DesignPlanValidationError(str(last_error))
+    raise DesignPlanValidationError(
+        f"Failed to generate a valid PageDesignPlanDraft for page "
+        f"{page_index + 1} ({page.slug}) after 3 attempts. Last error: {last_error}"
+    )
 
 
 def build_design_system_prompt(
@@ -272,32 +289,46 @@ Layout family guidance:
 Brand/content blueprint summary:
 {json.dumps(compact_blueprint_summary(blueprint), indent=2)}
 
+Creative direction — read carefully:
+- The single most important goal here is to build a system that feels unmistakably like *this* aesthetic for *this* brand — not a neutral, modern-SaaS default. A reviewer should recognize the aesthetic from the palette and typography alone, before ever seeing a layout.
+- Lean into the aesthetic's traits, visual_cues, typography hints, and palette_mood at full amplitude. A swiss_modern brief should look severe, grid-driven, and typographically dominant — not "minimalist with a red accent". A maximalist_collage brief should be loud, layered, mixed-scale — not "bright with a few patterns". A heritage_classic brief should feel storied, formal, and ornamental — not "navy and gold added to a startup site". A cyberpunk brief should feel nocturnal and electric, not "dark mode with a neon button".
+- Resist the modern-SaaS default (off-white background + single warm accent + Inter / Space Grotesk / IBM Plex Mono trio + neutral grays). Use this stack only when the aesthetic genuinely demands it (e.g., bento_modular, startup_gradient, corporate_clean). For every other aesthetic, both the palette and the font pairing must depart visibly from this template.
+- Make the palette_mood dominate. If palette_mood lists "neon, cyan, purple, lime, black", the system needs neon-saturated colors, not muted derivatives. If it lists "cream, black, warm neutral, gold accent", the system should feel editorial, not brand-safe. Saturation, value, temperature, and unusual hues are encouraged whenever the aesthetic supports them.
+- Color names must be evocative and brand-specific (e.g., "Crown Ivory", "Nullpoint Signal", "Clearmind Sage"), not generic ("Brand Primary", "Brand Background"). Lazy names produce lazy systems.
+- Typography pairings should match the aesthetic's typography hints exactly: heritage / editorial → high-contrast serif + small-caps sans accent; brutalist → heavy display or system mono; memphis / playful → bold geometric or rounded sans + display accent; swiss → neo-grotesque, possibly with a single mono; cinematic → serif display + minimal sans; terminal_hacker → monospace primary. Pick a pairing where each face has a distinct voice — do not default to three near-neutral grotesks by reflex.
+- Read the typography hint literally. When the hint says "X accents" or "X font accents", that face is for SMALL ACCENT USE ONLY (eyebrows, badges, stickers, captions, metadata at ≤14px) — it MUST NOT be promoted to the primary heading_font, body_font, or any display-scale role. The primary heading and body fonts must come from the non-accent items in the typography hint, or from the prose-described primary face. Likewise, when the hint lists "system X" or "system fonts", lean on actual system / web-safe stacks (Times New Roman, Georgia, Verdana, Arial, Trebuchet MS, Comic Sans, Courier New) rather than substituting a modern Google grotesque.
+- Read the aesthetic holistically — do not collapse it into adjacent aesthetics. retro_90s_web is GeoCities/Netscape/AOL-era amateur web (system fonts, tiled wallpapers, web-safe clashing colors, beveled buttons, animated-GIF energy), NOT cyberpunk/synthwave/arcade-gaming (those belong to cyberpunk and vaporwave). y2k_gloss is chrome-and-bubblegum, not vaporwave. terminal_hacker is monochrome CLI green-on-black, not full neon spectrum. If two aesthetics could plausibly fit, the chosen one anchors the system; do not drift toward the other.
+- Stick to the inputs. Every choice you make must be traceable back to the design_aesthetic's traits / visual_cues / typography / palette_mood, the layout_family's structure_cues, or the brand identity. Flair without grounding becomes noise.
+
 Required output for this call:
-- color_palette: choose 4 to 8 named brand colors with valid hex codes and usage notes.
-- typography: choose only freely accessible fonts, preferably from Google Fonts or system web-safe stacks. Good options include Inter, IBM Plex Sans, IBM Plex Serif, IBM Plex Mono, Roboto, Source Sans 3, Source Serif 4, Space Grotesk, Work Sans, Manrope, Lora, Playfair Display, Merriweather, JetBrains Mono, Fira Code, DM Sans, Archivo, Libre Franklin, and Montserrat. Do not choose proprietary/commercial fonts such as Neue Haas Grotesk, Helvetica Neue, Graphik, Avenir, or Circular.
-- Make palette and typography decisions concrete enough for all pages to share.
+- color_palette: 4 to 8 named brand colors with valid hex codes and usage notes. The set must reflect the aesthetic's palette_mood; each color's `usage` must explain its specific role and where it appears across the site, not just "background" or "accent".
+- typography: choose only freely accessible fonts, preferably from Google Fonts or system web-safe stacks. Good options include Inter, IBM Plex Sans, IBM Plex Serif, IBM Plex Mono, Roboto, Source Sans 3, Source Serif 4, Space Grotesk, Work Sans, Manrope, Lora, Playfair Display, Merriweather, JetBrains Mono, Fira Code, DM Sans, Archivo, Libre Franklin, Montserrat — and for retro / system-flavored aesthetics also Tinos (Times metric clone), Arimo (Arial metric clone), Cousine (Courier New metric clone), Comic Neue (Comic Sans clone), Special Elite (typewriter), VT323 (CRT terminal), Silkscreen (true pixel UI font for ≤12px accents only), and Press Start 2P (8-bit arcade — only for cyberpunk / arcade-flavored aesthetics, never for retro_90s_web). System web-safe stacks (Times New Roman, Georgia, Verdana, Arial, Trebuchet MS, Courier New, Comic Sans MS) are also fair game when the aesthetic calls for them — express them via a stack like `'Times New Roman', Times, serif`. Pick the pairing that fits the aesthetic; do not choose proprietary/commercial fonts such as Neue Haas Grotesk, Helvetica Neue, Graphik, Avenir, or Circular.
+- Make palette and typography decisions concrete enough for all pages to share, but expressive enough that the system already feels like the aesthetic in motion.
 
 This call only returns the shared DesignSystemDraft. Page design plans are
 generated in separate per-page calls, then the pipeline assembles the final
 DesignPlan artifact programmatically.
 
-The output must be valid JSON matching the full schema for this call. Use this
-shape as an example:
+The output must be valid JSON matching the full schema for this call. The shape
+below is illustrative only — it shows one heritage / editorial system to
+demonstrate the level of specificity expected. Do NOT copy these names, hex
+codes, or fonts unless your aesthetic genuinely matches; your palette and
+typography must be derived from the design_aesthetic and brand identity above.
 
 {{
   "color_palette": [
-    {{"name": "Brand Ink", "hex": "#111827", "usage": "Primary text and dark surfaces"}},
-    {{"name": "Brand Paper", "hex": "#F8F5EF", "usage": "Main background"}},
-    {{"name": "Brand Accent", "hex": "#C46A35", "usage": "Buttons and key highlights"}},
-    {{"name": "Brand Mist", "hex": "#DCE7E2", "usage": "Soft panels and section backgrounds"}}
+    {{"name": "Crown Ivory", "hex": "#F5F0E8", "usage": "Primary parchment background and card surfaces, evoking heritage warmth across all sections"}},
+    {{"name": "Courtside Navy", "hex": "#1B2A4A", "usage": "Primary text, navigation bar, and dark anchoring panels in hero and footer"}},
+    {{"name": "Burgundy Crest", "hex": "#7D1D3F", "usage": "Primary CTAs, active states, ornamental dividers, and key highlight moments"}},
+    {{"name": "Championship Gold", "hex": "#B8962E", "usage": "Decorative accents, badges, eyebrow labels on dark surfaces, and ornamental rule lines"}}
   ],
   "typography": {{
-    "heading_font": "Space Grotesk",
-    "body_font": "Inter",
-    "accent_font": "IBM Plex Mono",
-    "heading_treatment": "Large expressive headings with tight tracking and clear hierarchy.",
-    "body_treatment": "Readable body copy with comfortable line length and generous line height.",
-    "accent_treatment": "Small uppercase labels for eyebrows, metadata, and captions."
+    "heading_font": "Playfair Display",
+    "body_font": "Source Serif 4",
+    "accent_font": "Montserrat",
+    "heading_treatment": "Elegant high-contrast serif at large display sizes, sentence case, tight tracking on display weights, classical hierarchy with clear weight differentiation between H1, H2, and H3.",
+    "body_treatment": "Source Serif 4 at 17–18px with a 1.7 line-height and moderate measure, honoring an editorial register for long-form copy and section descriptions.",
+    "accent_treatment": "Montserrat in small caps with wide letter-spacing for eyebrow labels, stat captions, and metadata — a formal sans counterpoint to the serif body."
   }}
 }}
 
@@ -357,29 +388,43 @@ All site pages, for cross-page rhythm:
 Current page to design, page {page_index + 1} of {len(blueprint.pages)}:
 {page.model_dump_json(indent=2)}
 {retry_note}
+Creative direction — read carefully:
+- This page must feel unmistakably like *this* aesthetic for *this* brand. Avoid the modern-SaaS marketing template (split hero with text-left and illustration-right + eyebrow → headline → subheadline → two CTA buttons, three identical card columns, accent color used only on CTAs and eyebrows, alternating off-white sections) unless the aesthetic and layout family genuinely call for it.
+- Lean into the aesthetic's visual_cues at full amplitude. If the aesthetic mentions ornamental dividers, treat them as a structural device, not a decorative afterthought. If it mentions overlapping cutouts, stickers, or patterns, OVERLAP them across panels — do not tuck them into corners. If it mentions full-bleed photography or grid horizons, let them DOMINATE the page rather than sit politely beside text. If it mentions hard borders and flat blocks, COMMIT to them at full weight.
+- Vary the section skeleton across the page. Not every section should be eyebrow → headline → subheadline → CTA stack. Mix in moves that fit the layout_family's structure_cues — full-bleed type, off-grid pull quotes, type-as-image moments, oversized numerals, asymmetric splits, masthead-style headers, marquee strips, side-tabbed layouts, dense list/index blocks, alternating dense/sparse rhythm, captioned image panels, comparison tables. The same skeleton repeated five times is what makes a page feel templated.
+- Each page must contain at least one *signature moment* — a memorable, page-defining visual move that comes from the aesthetic. This could be a typographic stunt (oversized display word, vertical type, headline that bleeds off the grid, dramatic weight contrast), an unconventional composition (diagonal cut, off-axis hero, full-bleed asset crossing several columns), a striking color block (a saturated panel that breaks the section-background alternation), or a distinctive ornamental treatment (a custom rule, a recurring crest / sticker / pattern, layered transparencies, an oversized initial). State clearly in the page-level instruction what the signature moment is, where it lives, and why it belongs to *this* aesthetic.
+- Calibrate the signature moment to the aesthetic's energy. A minimalist signature is a bold negative-space gesture or a single unexpected weight contrast; a brutalist signature is unapologetically loud and structural; a heritage signature is ornamental restraint; a maximalist signature is layered density. The move must feel inevitable for *this* aesthetic — never imported from another.
+- Resist symmetry by default. Use centered compositions only when the aesthetic and layout structurally demand them (e.g., a heritage_classic CTA close, a swiss_modern terminal block). Otherwise, prefer asymmetry, off-grid alignment, and the structural tension already implied by the design_aesthetic.
+- Make color do work. The accent color should not appear *only* on CTA buttons and eyebrow labels. Let it carry oversized typography, ornamental rules, occupy a full-bleed panel, tint photography, or anchor a stat — wherever the aesthetic supports it. Reuse non-accent palette colors expressively too, not just as section backgrounds.
+- Stick to the inputs. Every creative move you make must be traceable back to the design_aesthetic's traits / visual_cues / typography / palette_mood, the layout_family's structure_cues, the page's role / goal, the section's type / intent / items / asset_ideas, or the brand identity. No invented motifs that aren't grounded in those inputs. Artistic flair without grounding becomes noise.
+
 Required output for this call:
 - Return exactly one PageDesignPlanDraft object for the current page.
+- The JSON object MUST include BOTH top-level fields: `page_level_design_instruction` (string) AND `section_design_plans` (array). A response that omits `section_design_plans`, or returns it empty, is invalid and will be rejected — no exceptions, regardless of how detailed the page-level instruction is.
+- `section_design_plans` MUST contain exactly {len(page.sections)} items, one for each section in the current page, preserving section order. Each item is an object with a single `nl_prompt` string field.
 - Do not include the page slug.
-- page_level_design_instruction must be a detailed natural-language instruction for the full page layout: section rhythm, color or gradient usage, visual hierarchy, density, responsive behavior, and how this page fits the shared design system.
-- section_design_plans must contain exactly {len(page.sections)} items, one for each section in the current page, preserving section order.
 - Do not include section ids.
-- Each section nl_prompt must be detailed and specific to that section. Use its type, intent, eyebrow, headline, subheadline, body, CTAs, items, and asset ideas.
-- Mention asset placement and position when the section has asset ideas.
+- page_level_design_instruction must describe the full page in detail: section sequence and how the rhythm varies, color and surface usage across sections, typographic hierarchy and its expressive moves, density / whitespace logic, the page's signature moment (named explicitly), responsive behavior, and how this page fits the shared design system while still being its own composition.
+- Each section nl_prompt must be detailed and specific to that section. Use its type, intent, eyebrow, headline, subheadline, body, CTAs, items, and asset ideas. Spell out exact alignment, grid columns, typographic scale and weight, color tokens used, padding / spacing rhythm, and any section-level signature move where one exists.
+- Mention asset placement and position when the section has asset ideas (left / right / top / bottom / behind / overlapping / inside / corner / etc.) and explain briefly why that placement reinforces the aesthetic.
 - Make all page-level and section-level visual decisions here. Do not leave layout, spacing, component styling, or asset placement decisions for the frontend compiler.
 
 This call only returns one PageDesignPlanDraft. The pipeline injects the page
 slug and section ids, combines it with the shared DesignSystemDraft, and writes
 the final DesignPlan artifact.
 
-The output must be valid JSON matching the full schema for this call. Example
-shape:
+The output must be valid JSON matching the full schema for this call. Shape:
 
 {{
-  "page_level_design_instruction": "Detailed page-level design direction...",
+  "page_level_design_instruction": "Page-level direction covering section sequence and rhythm, color and surface usage, typographic hierarchy, the named signature moment, density logic, and responsive behavior — written so the frontend compiler can implement without making further design decisions.",
   "section_design_plans": [
-    {{"nl_prompt": "Detailed section-level design prompt..."}}
+    {{"nl_prompt": "Section-level direction with exact alignment, grid columns, type scale and weight, color tokens used, spacing rhythm, asset placement and reasoning, and any section-specific signature move."}}
   ]
 }}
+
+Final reminder before you respond: emit BOTH `page_level_design_instruction`
+AND `section_design_plans` in a single JSON object. `section_design_plans` must
+contain exactly {len(page.sections)} item(s), in section order. Do not skip it.
 
 Return only the structured JSON response required by the tool schema.
 """.strip()

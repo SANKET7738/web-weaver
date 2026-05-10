@@ -239,9 +239,16 @@ class AnthropicClient(BaseLLMClient):
         response_model: type[ResponseModelT],
         metadata: dict[str, Any],
     ) -> dict[str, Any]:
+        stop_reason = getattr(completion, "stop_reason", None)
         for block in completion.content:
             if getattr(block, "type", None) == "tool_use":
                 response_json = block.input
+                if stop_reason == "max_tokens":
+                    raise ValueError(
+                        "Structured response was truncated by max_tokens before the "
+                        "tool call finished emitting. Increase max_tokens or shorten "
+                        f"the prompt. Partial JSON: {json.dumps(response_json, indent=2)}"
+                    )
                 try:
                     validated_response = response_model.model_validate(response_json)
                 except ValidationError as error:

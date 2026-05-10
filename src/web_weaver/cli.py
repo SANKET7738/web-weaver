@@ -140,7 +140,7 @@ def design(
     max_tokens: Annotated[
         int,
         typer.Option("--max-tokens", min=1000, help="Maximum response tokens."),
-    ] = 10000,
+    ] = 16000,
     dry_run: Annotated[
         bool,
         typer.Option("--dry-run", help="Print generated design plans instead of writing."),
