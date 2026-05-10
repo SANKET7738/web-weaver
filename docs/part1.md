@@ -119,47 +119,6 @@ response = claude.vision(truth_image, agent_image, prompt)   # JSON
 score = mean(response.scores) / 5                # rescale 1..5 -> 0..1
 ```
 
-## Glossary
-
-Just the technical terms that appear above, in plain words.
-
-- **SSIM** (Structural Similarity Index): a number that says how
-  similar two images look at the pixel level. It compares small
-  windows of pixels and asks "is the brightness, contrast, and texture
-  similar in this patch?" Then averages across all patches. 1 means
-  identical, 0 means unrelated.
-- **LPIPS** (Learned Perceptual Image Patch Similarity): a neural net
-  trained on what humans say "looks alike". Outputs a *distance*: 0 if
-  the images look the same to a person, larger if they look different.
-  We flip it to a similarity by `1 - distance`.
-- **CLIP**: a model that encodes any image into a vector capturing its
-  *meaning* ("a contact page", "a pricing page"). Two images with
-  similar meaning have similar vectors. We compare those vectors with
-  cosine similarity.
-- **CIEDE2000**: a color-distance formula that matches how humans
-  perceive color differences. Two reds that look the same to a person
-  give a small CIEDE2000; red vs green gives a big one.
-- **Hungarian matching**: an algorithm that finds the best 1-to-1
-  pairing between two sets of items (here: blocks in the truth image
-  and blocks in the agent image), minimizing total "cost" of the
-  matches.
-- **OCR** (Optical Character Recognition): software that reads text
-  out of an image. We use it to compare the text inside matched blocks.
-- **Canny edges**: a classical algorithm that turns an image into a
-  black-and-white outline showing where the edges are. Useful because
-  edge maps are dominated by typography and component shapes, not
-  large flat backgrounds.
-- **Sørensen-Dice coefficient on bigrams**: a way to measure how
-  similar two strings are. Break each string into pairs of letters
-  ("hello" → {he, el, ll, lo}), then `2 × |overlap| / (|set A| + |set
-  B|)`. 1 means identical, 0 means no shared letter pairs.
-- **CW-SSIM** (Complex-Wavelet SSIM, here approximated by `piq.haarpsi`):
-  like SSIM but tolerant of small translations. A page shifted 5 pixels
-  to the right gets a much higher CW-SSIM than plain SSIM.
-- **Cosine similarity**: how similar two vectors point in the same
-  direction. 1 = same direction, 0 = perpendicular, -1 = opposite.
-  We rescale to `[0, 1]` with `(cos + 1) / 2`.
-
 ## Analysis on real Claude-Code runs
 
 We scored Claude Code (Opus 4.7) on 12 generated sites (ww-00008 plus
@@ -296,3 +255,44 @@ within-block fidelity, which v1 graders were blind to.
   internal agreement isn't ground truth. A small human study would
   pin down whether the absolute level is well-calibrated.
 - **Why ww-00022 scores lowest.** Eyeball needed.
+
+## Glossary
+
+Just the technical terms that appear above, in plain words.
+
+- **SSIM** (Structural Similarity Index): a number that says how
+  similar two images look at the pixel level. It compares small
+  windows of pixels and asks "is the brightness, contrast, and texture
+  similar in this patch?" Then averages across all patches. 1 means
+  identical, 0 means unrelated.
+- **LPIPS** (Learned Perceptual Image Patch Similarity): a neural net
+  trained on what humans say "looks alike". Outputs a *distance*: 0 if
+  the images look the same to a person, larger if they look different.
+  We flip it to a similarity by `1 - distance`.
+- **CLIP**: a model that encodes any image into a vector capturing its
+  *meaning* ("a contact page", "a pricing page"). Two images with
+  similar meaning have similar vectors. We compare those vectors with
+  cosine similarity.
+- **CIEDE2000**: a color-distance formula that matches how humans
+  perceive color differences. Two reds that look the same to a person
+  give a small CIEDE2000; red vs green gives a big one.
+- **Hungarian matching**: an algorithm that finds the best 1-to-1
+  pairing between two sets of items (here: blocks in the truth image
+  and blocks in the agent image), minimizing total "cost" of the
+  matches.
+- **OCR** (Optical Character Recognition): software that reads text
+  out of an image. We use it to compare the text inside matched blocks.
+- **Canny edges**: a classical algorithm that turns an image into a
+  black-and-white outline showing where the edges are. Useful because
+  edge maps are dominated by typography and component shapes, not
+  large flat backgrounds.
+- **Sørensen-Dice coefficient on bigrams**: a way to measure how
+  similar two strings are. Break each string into pairs of letters
+  ("hello" → {he, el, ll, lo}), then `2 × |overlap| / (|set A| + |set
+  B|)`. 1 means identical, 0 means no shared letter pairs.
+- **CW-SSIM** (Complex-Wavelet SSIM, here approximated by `piq.haarpsi`):
+  like SSIM but tolerant of small translations. A page shifted 5 pixels
+  to the right gets a much higher CW-SSIM than plain SSIM.
+- **Cosine similarity**: how similar two vectors point in the same
+  direction. 1 = same direction, 0 = perpendicular, -1 = opposite.
+  We rescale to `[0, 1]` with `(cos + 1) / 2`.
