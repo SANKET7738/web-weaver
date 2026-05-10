@@ -52,6 +52,9 @@ viewport, hold at top ~2.5s, eased scroll to bottom, hold at bottom
 We re-ran Harbor on `ww-00031/attempt-003` (jazz festival site) with
 the recording-aware verifier and scored all 5 page pairs.
 
+Summary table (per-page mean + the two most-telling components from
+each grader):
+
 | page | temporal | vlm | t.onload | t.bottom_hold | v.entrance | v.steady_state |
 |---|---|---|---|---|---|---|
 | page_01 (home) | 0.677 | **0.760** | 0.896 | 0.159 | 0.60 | 1.00 |
@@ -61,7 +64,88 @@ the recording-aware verifier and scored all 5 page pairs.
 | page_05 (experience) | 0.602 | 0.760 | 0.653 | 0.191 | 0.60 | 0.80 |
 | **mean** | **0.676** | **0.728** | 0.707 | 0.361 | 0.52 | 0.96 |
 
-What the data tells us — strong, consistent finding from both graders:
+### Per-page video pairs and full component breakdown
+
+Each row plays the reference recording (left) and Claude Code's
+recording (right) side by side. Below each pair is the full
+component breakdown from both graders.
+
+#### page_01 — home
+
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="videos/ww-00031/truth-page_01.mp4" controls width="420" muted></video></td>
+<td><video src="videos/ww-00031/agent-page_01.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
+
+| grader | score | components |
+|---|---|---|
+| `animation_temporal` | **0.677** | temporal_corr **0.977** · onload_match **0.896** · bottom_hold_match **0.159** |
+| `animation_vlm` | **0.760** | entrance **0.60** · scroll_reveal **0.80** · ambient **0.80** · intensity **0.60** · steady_state **1.00** |
+
+#### page_02 — lineup
+
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="videos/ww-00031/truth-page_02.mp4" controls width="420" muted></video></td>
+<td><video src="videos/ww-00031/agent-page_02.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
+
+| grader | score | components |
+|---|---|---|
+| `animation_temporal` | **0.547** | temporal_corr **0.967** · onload_match **0.618** · bottom_hold_match **0.058** |
+| `animation_vlm` | **0.720** | entrance **0.40** · scroll_reveal **0.80** · ambient **0.80** · intensity **0.60** · steady_state **1.00** |
+
+#### page_03 — tickets
+
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="videos/ww-00031/truth-page_03.mp4" controls width="420" muted></video></td>
+<td><video src="videos/ww-00031/agent-page_03.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
+
+| grader | score | components |
+|---|---|---|
+| `animation_temporal` | **0.768** | temporal_corr **0.891** · onload_match **0.471** · bottom_hold_match **0.940** |
+| `animation_vlm` | **0.720** | entrance **0.60** · scroll_reveal **0.60** · ambient **0.80** · intensity **0.60** · steady_state **1.00** |
+
+#### page_04 — map
+
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="videos/ww-00031/truth-page_04.mp4" controls width="420" muted></video></td>
+<td><video src="videos/ww-00031/agent-page_04.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
+
+| grader | score | components |
+|---|---|---|
+| `animation_temporal` | **0.784** | temporal_corr **0.997** · onload_match **0.898** · bottom_hold_match **0.457** |
+| `animation_vlm` | **0.680** | entrance **0.40** · scroll_reveal **0.80** · ambient **0.60** · intensity **0.60** · steady_state **1.00** |
+
+#### page_05 — experience
+
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="videos/ww-00031/truth-page_05.mp4" controls width="420" muted></video></td>
+<td><video src="videos/ww-00031/agent-page_05.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
+
+| grader | score | components |
+|---|---|---|
+| `animation_temporal` | **0.602** | temporal_corr **0.962** · onload_match **0.653** · bottom_hold_match **0.191** |
+| `animation_vlm` | **0.760** | entrance **0.60** · scroll_reveal **0.80** · ambient **0.80** · intensity **0.80** · steady_state **0.80** |
+
+### What the data tells us
 
 **Claude gets the final layout right but skips the entrance
 animations.** Across all 5 pages:
