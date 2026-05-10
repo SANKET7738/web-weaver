@@ -1,3 +1,4 @@
+import socket
 from pathlib import Path
 
 from web_weaver.site_generator.attempt_store import (
@@ -27,6 +28,7 @@ def run_attempt(
     env_file: Path | None = Path(".env"),
 ) -> SiteGenerationAttempt:
     image_tag = tag or default_image_tag(task_id)
+    resolved_host_port = resolve_host_port(host_port)
     attempt = create_attempt(
         task_id,
         image_tag=image_tag,
@@ -48,7 +50,7 @@ def run_attempt(
             attempt=attempt,
             container_name=container_name,
             timeout_seconds=timeout_seconds,
-            host_port=host_port,
+            host_port=resolved_host_port,
             env_file=env_file,
         )
         container_id = capture_docker_command(command)
@@ -58,7 +60,7 @@ def run_attempt(
             image_tag=built_tag,
             container_name=container_name,
             container_id=container_id,
-            host_port=host_port,
+            host_port=resolved_host_port,
             started_at=current_timestamp(),
         )
     except Exception:
@@ -70,6 +72,33 @@ def run_attempt(
         raise
 
     return attempt
+
+
+def resolve_host_port(requested_port: int) -> int:
+    if _is_port_available(requested_port):
+        return requested_port
+    fallback_port = _find_free_port()
+    print(
+        f"Host port {requested_port} is in use; "
+        f"falling back to free port {fallback_port}.",
+        flush=True,
+    )
+    return fallback_port
+
+
+def _is_port_available(port: int) -> bool:
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        try:
+            sock.bind(("", port))
+        except OSError:
+            return False
+    return True
+
+
+def _find_free_port() -> int:
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        sock.bind(("", 0))
+        return sock.getsockname()[1]
 
 
 def build_container_name(task_id: str, attempt_id: str) -> str:
