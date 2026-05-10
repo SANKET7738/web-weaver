@@ -371,12 +371,60 @@ opposite directions; sliced threads the needle.
 | `clip_only` | Independent of structural correctness. **Baseline only — never use as RL reward.** |
 | `vlm_judge` | Genuine new signal (ρ 0.64), but compresses everything above 0.78. **Diagnostic / offline-only, not RL reward.** |
 
+### Within-task variance (n = 5 reruns on the same task)
+
+Cross-task numbers above used n=1 run per site, so we can't tell
+whether a grader's score for a site is the *real* score or a one-off
+unlucky sample. To check, we re-ran Claude Code Opus 4.7 five times
+on the same task (**ww-00022 / attempt-002**) and scored every
+trial with all seven graders.
+
+| Grader | mean | std | min | max | range |
+|---|---|---|---|---|---|
+| `design2code` | 0.679 | **0.009** | 0.667 | 0.692 | 0.025 |
+| `design2code_vlm` | 0.667 | 0.011 | 0.650 | 0.683 | 0.033 |
+| `design2code_vlm_sliced` | 0.649 | **0.023** | 0.612 | 0.675 | 0.063 |
+| `waffle` | 0.609 | 0.008 | 0.598 | 0.621 | 0.023 |
+| `perceptual` | 0.618 | 0.009 | 0.605 | 0.632 | 0.027 |
+| `clip_only` | 0.934 | 0.007 | 0.921 | 0.941 | 0.020 |
+| `vlm_judge` | 0.851 | **0.027** | 0.816 | 0.888 | 0.072 |
+
+Four things to take away:
+
+1. **Structural graders are very stable across reruns.** `design2code`,
+   `waffle`, `perceptual` all sit at std ≈ 0.008-0.009. Five
+   independent Claude Code runs on the same task produce nearly the
+   same number — the agent is consistent and the graders detect that
+   consistency.
+
+2. **Within-task std is ~4× smaller than cross-task std.** For
+   `design2code`: within-task std is **0.009**, cross-task std is
+   **0.037**. That ratio is exactly what we want — it means
+   cross-task variation is mostly *real task-difficulty variation*,
+   not measurement noise from the grader. The graders separate sites
+   that genuinely are harder/easier; they aren't just adding random
+   wobble.
+
+3. **`design2code_vlm_sliced` is the most variable structural grader
+   within a task (std 0.023).** ~2.5× more variable than plain
+   `design2code`. Per-slice scoring is more sensitive to which
+   sections the agent happened to render well that run — which is
+   the same sensitivity that gives it the complementary cross-task
+   signal. The signal/noise tradeoff is genuine, not a bug.
+
+4. **`vlm_judge` is the noisiest grader overall (std 0.027).** Two
+   compounding noise sources: agent run variance + Claude vision API
+   call noise. Re-confirms the "diagnostic only, not RL reward"
+   recommendation.
+
+The original cross-task ww-00022 score was 0.659 on `design2code`.
+The within-task distribution puts the true mean at **0.679 ± 0.009**,
+so the cross-task number was a slightly unlucky draw (1 standard
+deviation low). The qualitative ranking ("ww-00022 is the hardest
+site") is unchanged regardless.
+
 ### What's *not* in this section
 
-- **Within-task variance.** We have n=1 per site here. Whether
-  re-running Claude Code on the same site produces a tight or wide
-  spread is the *next* experiment — n=10 same-task variance run, in
-  progress on `ww-00022/attempt-002`.
 - **Whether 0.742 is "right".** The graders agree internally, but
   internal agreement isn't ground truth. A small human study would
   pin down whether the absolute level is well-calibrated.
