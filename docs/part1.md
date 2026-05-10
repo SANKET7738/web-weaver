@@ -163,20 +163,18 @@ not noise.
 
 ### Per-site scores (12 sites)
 
-| task | design2code | d2c_vlm | sliced | vlm_judge | clip_only |
-|---|---|---|---|---|---|
-| ww-00008 | 0.707 | 0.708 | 0.706 | 0.892 | 0.912 |
-| ww-00020 | 0.750 | 0.735 | 0.705 | 0.784 | 0.910 |
-| ww-00021 | 0.761 | 0.752 | 0.760 | 0.912 | 0.951 |
-| ww-00022 | **0.659** | **0.646** | **0.620** | 0.844 | 0.943 |
-| ww-00023 | 0.746 | 0.733 | 0.724 | 0.856 | 0.934 |
-| ww-00024 | 0.756 | 0.748 | 0.717 | 0.908 | 0.924 |
-| ww-00025 | 0.698 | 0.689 | 0.632 | 0.852 | 0.923 |
-| ww-00026 | 0.782 | 0.776 | 0.718 | 0.876 | 0.951 |
-| ww-00027 | 0.750 | 0.743 | 0.695 | 0.868 | 0.895 |
-| ww-00028 | 0.765 | 0.761 | 0.704 | 0.912 | 0.931 |
-| ww-00029 | **0.783** | **0.781** | 0.716 | 0.892 | 0.896 |
-| ww-00030 | 0.751 | 0.743 | 0.710 | 0.912 | **0.961** |
+![Per-site scores heatmap](figures/per-site-A-heatmap.png)
+
+Heatmap of every site × grader combination. Cell color goes red →
+yellow → green as the score goes from low to high; the actual number
+is printed inside each cell so the figure is also the table. Two
+things jump out:
+
+- The **`sliced` column** is consistently the most red-tinted — slicing
+  penalizes alignment drift harder than the page-level graders, so
+  every site loses ~0.05 there.
+- The **`clip_only` column** is wall-to-wall green — it's compressed
+  near 1.0 regardless of which site we're looking at.
 
 Hardest site (across the structural graders): **ww-00022**.
 Easiest: **ww-00029** / **ww-00026** / **ww-00028**.
