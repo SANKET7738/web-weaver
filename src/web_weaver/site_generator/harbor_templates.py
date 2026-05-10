@@ -659,13 +659,33 @@ def write_environment(slugs):
     prompt_screenshots_dir = environment_dir / "prompt" / "screenshots"
     prompt_screenshots_dir.mkdir(parents=True, exist_ok=False)
     for index, slug in enumerate(slugs, start=1):
-        source = SCREENSHOTS_DIR / slug / f"{slug}_full.png"
-        if not source.is_file():
+        slug_dir = SCREENSHOTS_DIR / slug
+        full_source = slug_dir / f"{slug}_full.png"
+        if not full_source.is_file():
             raise SystemExit(
-                f"Missing full-page screenshot for slug {slug!r} at {source}"
+                f"Missing full-page screenshot for slug {slug!r} at {full_source}"
             )
-        destination = prompt_screenshots_dir / f"page_{index:02d}.png"
-        shutil.copy2(source, destination)
+        full_destination = prompt_screenshots_dir / f"page_{index:02d}_full.png"
+        shutil.copy2(full_source, full_destination)
+        # Also copy the legacy tall name page_NN.png so existing graders that
+        # expect a single tall PNG (no _full suffix) keep working.
+        shutil.copy2(full_source, prompt_screenshots_dir / f"page_{index:02d}.png")
+
+        slice_index = 0
+        for slice_path in sorted(slug_dir.iterdir()):
+            if not slice_path.is_file():
+                continue
+            stem = slice_path.stem
+            if not stem.startswith(f"{slug}_"):
+                continue
+            suffix = stem[len(slug) + 1 :]
+            if not suffix.isdigit():
+                continue
+            slice_index += 1
+            shutil.copy2(
+                slice_path,
+                prompt_screenshots_dir / f"page_{index:02d}_{int(suffix):03d}.png",
+            )
 
     solution_assets_dir = environment_dir / "solution_assets"
     solution_assets_dir.mkdir(parents=True, exist_ok=False)
