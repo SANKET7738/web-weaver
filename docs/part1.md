@@ -388,42 +388,45 @@ within-task distribution puts the true mean at **0.679 ± 0.009** —
 the cross-task number was 1 std low, an unlucky draw. The qualitative
 ranking ("ww-00022 is the hardest site") is unchanged.
 
-### Best and worst attempts inside the variance run
+### Same page, two attempts: where variance shows up
 
-Across the 25 page-runs (5 trials × 5 pages), `design2code_vlm_sliced`
-extremes were:
+To isolate per-attempt variance from page-level differences, here's
+**page_03** ("Departments"), the page with the biggest sliced spread
+across the 5 trials: low **0.525** (trial 03) vs high **0.637**
+(trial 01) — a 0.112-point swing on the *same prompt*.
 
-| extreme | trial | page | sliced | what changed |
-|---|---|---|---|---|
-| **lowest** | 03 | page_03 | **0.525** | agent missed the bright pink-orange gradient backgrounds, kept everything dark — `color = 0.23` is the killer |
-| **highest** | 01 | page_05 | **0.710** | near-faithful contact page render — all components in normal range |
+![ww-00022 page_03 — truth vs trial 03 (low) vs trial 01 (high)](figures/variance-page3-low-vs-high.png)
 
-**Lowest** (trial 03 / page_03 — "Departments" page):
+| component | trial 03 (low) | trial 01 (high) | gap |
+|---|---|---|---|
+| `block_match` | 0.472 | 0.740 | **+0.268** |
+| `color` | 0.231 | 0.339 | +0.109 |
+| `text` | 0.354 | 0.470 | +0.116 |
+| `block_ssim` | 0.316 | 0.387 | +0.071 |
+| `position` | 0.844 | 0.891 | +0.047 |
+| `edge_ssim` | 0.737 | 0.752 | +0.016 |
+| `vlm_judge` | 0.720 | 0.880 | +0.160 |
+| **sliced** | **0.525** | **0.637** | **+0.112** |
 
-![worst variance attempt — trial 03 / page 03](figures/variance-lowest-trial03-page3.png)
+What you can see in the image:
 
-Truth has two large gradient sections (pink → orange behind "Which
-Division is Right for You?", and yellow-to-pink behind the division
-cards). Agent rendered them as plain dark panels. Crashes `color`
-to 0.23 and `block_match` to 0.47 (dark sections get mismatched
-across the page). Same content, very different palette → 0.525.
+- **Truth (left)** has an orange-to-pink gradient block behind "Which
+  Division is Right for You?" plus per-card backgrounds in yellow,
+  cyan, red, pink.
+- **Trial 03 (low)** dropped the gradient block entirely, kept
+  everything on the dark base, dark cards. `color` crashes to 0.23,
+  `block_match` to 0.47 (dark sections of agent get mismatched
+  against the bright sections of truth).
+- **Trial 01 (high)** got the orange-pink gradient *and* matching
+  yellow/cyan/red/yellow card backgrounds — visually very close to
+  truth on the palette. `color` recovers to 0.34, `block_match` to
+  0.74. `vlm_judge` jumps from 0.72 to 0.88.
 
-**Highest** (trial 01 / page_05 — Contact page, same family as the
-cross-task example):
-
-![best variance attempt — trial 01 / page 05](figures/variance-highest-trial01-page5.png)
-
-Lightning-emblem hero, yellow-to-pink contact form, dark contact
-card, map, FAQ, yellow CTA, footer — all present, reasonably
-faithful. Minor diffs in form input states and map track. `color =
-0.43`, `text = 0.73`, `block_match = 0.78`, `vlm_judge = 0.88` →
-0.710.
-
-**What this confirms:** within the same task, Claude's best vs worst
-attempt on `sliced` is **0.525 → 0.710 = 0.185 points** — bigger
-than the cross-task std (0.038) and the within-task std (0.023). The
-grader distinguishes "botched the palette" (lowest) from "nailed the
-layout" (highest) within the same task. That's the per-attempt
+**What this confirms:** same prompt, same agent, two runs — sliced
+moves 0.112 points (~5× the within-task std of 0.023). The grader is
+correctly registering "this run got the palette right, this one
+didn't". Across the 25 page-runs the absolute extremes are even
+wider — **0.525 → 0.710 = 0.185 points** — and that's the per-attempt
 discrimination an RL reward needs.
 
 ### What's *not* in this section
