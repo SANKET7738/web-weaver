@@ -1,0 +1,19 @@
+{
+  "id": "ww-00042",
+  "version": "0.1",
+  "site_domain": "nonprofit",
+  "site_subdomain": "youth mentorship nonprofit",
+  "design_aesthetic": "accessible_plain",
+  "layout_family": "classic_landing",
+  "page_set": [
+    "home",
+    "about",
+    "initiatives",
+    "stories",
+    "get-involved"
+  ],
+  "difficulty": "hard",
+  "seed": 55545830,
+  "sample_index": 1,
+  "source": "web-weaver.concept_sampler"
+}

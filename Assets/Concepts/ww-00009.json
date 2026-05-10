@@ -1,0 +1,19 @@
+{
+  "id": "ww-00009",
+  "version": "0.1",
+  "site_domain": "environment_energy",
+  "site_subdomain": "urban composting service",
+  "design_aesthetic": "skeuomorphic_modern",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "mission",
+    "solutions",
+    "impact",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 42,
+  "sample_index": 9,
+  "source": "web-weaver.concept_sampler"
+}

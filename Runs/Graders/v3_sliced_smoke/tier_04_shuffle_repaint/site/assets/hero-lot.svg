@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480" preserveAspectRatio="xMidYMax meet" role="img" aria-label="Retro pixel-art used car lot at night with neon REVVLOT sign">
+  <defs>
+    <pattern id="stars" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#110022"/>
+      <circle cx="12" cy="20" r="1.2" fill="#FFFF00"/>
+      <circle cx="48" cy="36" r="1" fill="#00CCFF"/>
+      <circle cx="72" cy="60" r="1.5" fill="#FF00CC"/>
+      <circle cx="22" cy="64" r="1" fill="#E8E8E8"/>
+      <circle cx="60" cy="8" r="0.8" fill="#FFFF00"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="700" height="320" fill="url(#stars)"/>
+  <!-- Moon -->
+  <circle cx="600" cy="80" r="28" fill="#FFFF00"/>
+  <circle cx="612" cy="74" r="6" fill="#110022"/>
+  <circle cx="606" cy="92" r="4" fill="#110022"/>
+
+  <!-- Ground -->
+  <rect y="320" width="700" height="160" fill="#330055"/>
+  <!-- Road stripes -->
+  <g fill="#FFFF00">
+    <rect x="20" y="430" width="40" height="6"/>
+    <rect x="100" y="430" width="40" height="6"/>
+    <rect x="180" y="430" width="40" height="6"/>
+    <rect x="260" y="430" width="40" height="6"/>
+    <rect x="340" y="430" width="40" height="6"/>
+    <rect x="420" y="430" width="40" height="6"/>
+    <rect x="500" y="430" width="40" height="6"/>
+    <rect x="580" y="430" width="40" height="6"/>
+  </g>
+
+  <!-- Pole + Neon Sign -->
+  <rect x="332" y="160" width="6" height="160" fill="#C0C0C0"/>
+  <rect x="328" y="316" width="14" height="6" fill="#808080"/>
+  <rect x="200" y="80" width="280" height="90" fill="#110022" stroke="#FF00CC" stroke-width="4"/>
+  <rect x="206" y="86" width="268" height="6" fill="#00FF33"/>
+  <rect x="206" y="164" width="268" height="6" fill="#00FF33"/>
+
+  <!-- REVVLOT sign text -->
+  <text x="340" y="138" font-family="Arial Black, sans-serif" font-size="44" fill="#FF00CC" text-anchor="middle" font-weight="900" letter-spacing="-1">REVVLOT</text>
+  <text x="340" y="138" font-family="Arial Black, sans-serif" font-size="44" fill="none" stroke="#FFFF00" stroke-width="1" text-anchor="middle" font-weight="900" letter-spacing="-1">REVVLOT</text>
+
+  <!-- String lights -->
+  <path d="M0,90 Q150,140 332,160 Q514,140 700,90" fill="none" stroke="#C0C0C0" stroke-width="1"/>
+  <g>
+    <circle cx="40" cy="100" r="4" fill="#FFFF00"/>
+    <circle cx="120" cy="120" r="4" fill="#FF00CC"/>
+    <circle cx="220" cy="140" r="4" fill="#00FF33"/>
+    <circle cx="450" cy="140" r="4" fill="#FFFF00"/>
+    <circle cx="540" cy="120" r="4" fill="#00CCFF"/>
+    <circle cx="640" cy="100" r="4" fill="#FF00CC"/>
+  </g>
+
+  <!-- Cars row 1 (back) -->
+  <g>
+    <!-- car 1 -->
+    <rect x="60" y="270" width="100" height="40" fill="#FF00CC"/>
+    <rect x="74" y="252" width="72" height="22" fill="#FF00CC"/>
+    <rect x="78" y="256" width="20" height="14" fill="#00CCFF"/>
+    <rect x="100" y="256" width="40" height="14" fill="#00CCFF"/>
+    <circle cx="80" cy="312" r="10" fill="#110022"/>
+    <circle cx="80" cy="312" r="5" fill="#C0C0C0"/>
+    <circle cx="140" cy="312" r="10" fill="#110022"/>
+    <circle cx="140" cy="312" r="5" fill="#C0C0C0"/>
+    <rect x="152" y="284" width="8" height="6" fill="#FFFF00"/>
+  </g>
+
+  <g>
+    <!-- car 2 -->
+    <rect x="200" y="270" width="100" height="40" fill="#00CCFF"/>
+    <rect x="216" y="252" width="68" height="22" fill="#00CCFF"/>
+    <rect x="220" y="256" width="20" height="14" fill="#110022"/>
+    <rect x="244" y="256" width="36" height="14" fill="#110022"/>
+    <circle cx="220" cy="312" r="10" fill="#110022"/>
+    <circle cx="220" cy="312" r="5" fill="#C0C0C0"/>
+    <circle cx="280" cy="312" r="10" fill="#110022"/>
+    <circle cx="280" cy="312" r="5" fill="#C0C0C0"/>
+    <rect x="292" y="284" width="8" height="6" fill="#FFFF00"/>
+  </g>
+
+  <g>
+    <!-- car 3 (truck) -->
+    <rect x="380" y="266" width="120" height="44" fill="#00FF33"/>
+    <rect x="396" y="246" width="50" height="24" fill="#00FF33"/>
+    <rect x="400" y="250" width="40" height="16" fill="#110022"/>
+    <circle cx="400" cy="314" r="11" fill="#110022"/>
+    <circle cx="400" cy="314" r="5" fill="#C0C0C0"/>
+    <circle cx="480" cy="314" r="11" fill="#110022"/>
+    <circle cx="480" cy="314" r="5" fill="#C0C0C0"/>
+    <rect x="492" y="284" width="8" height="6" fill="#FFFF00"/>
+  </g>
+
+  <g>
+    <!-- car 4 -->
+    <rect x="540" y="270" width="120" height="40" fill="#FFFF00"/>
+    <rect x="556" y="252" width="86" height="22" fill="#FFFF00"/>
+    <rect x="560" y="256" width="22" height="14" fill="#110022"/>
+    <rect x="586" y="256" width="52" height="14" fill="#110022"/>
+    <circle cx="560" cy="312" r="10" fill="#110022"/>
+    <circle cx="560" cy="312" r="5" fill="#C0C0C0"/>
+    <circle cx="640" cy="312" r="10" fill="#110022"/>
+    <circle cx="640" cy="312" r="5" fill="#C0C0C0"/>
+    <rect x="652" y="284" width="8" height="6" fill="#FFFF00"/>
+  </g>
+
+  <!-- Foreground sale tags (pixel pennants) -->
+  <g font-family="VT323, monospace" font-size="14" fill="#110022">
+    <rect x="40" y="372" width="80" height="24" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+    <text x="80" y="389" text-anchor="middle">SALE!</text>
+    <rect x="160" y="372" width="100" height="24" fill="#00FF33" stroke="#110022" stroke-width="2"/>
+    <text x="210" y="389" text-anchor="middle">$$ DEAL $$</text>
+    <rect x="300" y="372" width="100" height="24" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+    <text x="350" y="389" text-anchor="middle" fill="#E8E8E8">CLEAN!</text>
+    <rect x="440" y="372" width="100" height="24" fill="#00CCFF" stroke="#110022" stroke-width="2"/>
+    <text x="490" y="389" text-anchor="middle">1 OWNER</text>
+    <rect x="580" y="372" width="80" height="24" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+    <text x="620" y="389" text-anchor="middle">HOT!</text>
+  </g>
+</svg>

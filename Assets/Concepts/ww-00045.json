@@ -1,0 +1,19 @@
+{
+  "id": "ww-00045",
+  "version": "0.1",
+  "site_domain": "saas",
+  "site_subdomain": "AI writing operations platform",
+  "design_aesthetic": "heritage_classic",
+  "layout_family": "classic_landing",
+  "page_set": [
+    "home",
+    "features",
+    "enterprise",
+    "security",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 55545830,
+  "sample_index": 4,
+  "source": "web-weaver.concept_sampler"
+}

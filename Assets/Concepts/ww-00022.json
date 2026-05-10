@@ -1,0 +1,19 @@
+{
+  "id": "ww-00022",
+  "version": "0.1",
+  "site_domain": "education",
+  "site_subdomain": "robotics learning club",
+  "design_aesthetic": "festival_poster",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "about",
+    "departments",
+    "research",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 1,
+  "source": "web-weaver.concept_sampler"
+}

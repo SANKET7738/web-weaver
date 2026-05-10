@@ -1,0 +1,532 @@
+{
+  "id": "ww-00001",
+  "version": "0.1",
+  "concept_id": "ww-00001",
+  "identity": {
+    "name": "Meridian Advisory",
+    "tagline": "Precision. Property. Progress.",
+    "one_line_description": "Meridian Advisory is a commercial property consultancy that connects businesses and investors with the right spaces through rigorous market analysis and expert guidance.",
+    "domain": "real_estate",
+    "subdomain": "commercial property advisory",
+    "voice": [
+      "authoritative",
+      "precise",
+      "direct",
+      "professional"
+    ],
+    "target_audience": "Business owners, corporate real estate directors, and institutional investors seeking commercial property acquisitions, disposals, or leasing in urban and suburban markets."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Meridian Advisory as the definitive commercial property authority, communicate the firm's core value proposition, and direct visitors toward listings or a consultation.",
+      "meta_description": "Meridian Advisory offers expert commercial property advisory services for investors and businesses. Explore listings, market insights, and connect with our specialist team.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Immediately communicate the firm's authority and focus, set a confident tone, and give visitors a clear next action.",
+          "eyebrow": "Commercial Property Advisory",
+          "headline": "The Right Space. The Right Terms. The Right Move.",
+          "subheadline": "Meridian Advisory provides institutional-grade guidance for commercial acquisitions, disposals, and leasing across key urban markets.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View Listings",
+              "target_page": "listings"
+            },
+            {
+              "label": "Speak to an Advisor",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Outline the three core service pillars so visitors immediately understand the scope of what Meridian Advisory offers.",
+          "eyebrow": "Our Services",
+          "headline": "Advisory Built Around Your Commercial Objectives",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Acquisition Advisory",
+              "description": "We identify, evaluate, and negotiate commercial properties that align with your investment criteria and operational requirements.",
+              "metadata": {}
+            },
+            {
+              "title": "Disposal & Leasing",
+              "description": "From office blocks to industrial parks, we manage the full disposal and leasing process to maximise asset value and minimise vacancy.",
+              "metadata": {}
+            },
+            {
+              "title": "Market Intelligence",
+              "description": "Our in-house research team delivers granular data on pricing, absorption rates, and neighbourhood trends to inform every decision.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Meet Our Agents",
+              "target_page": "agents"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Close the page with a direct conversion prompt, reinforcing trust and inviting visitors to begin a dialogue.",
+          "eyebrow": "Start the Conversation",
+          "headline": "Your Next Commercial Property Decision Starts Here.",
+          "subheadline": "Whether you are acquiring, divesting, or renegotiating a lease, our advisors are ready to work with you.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request a Consultation",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "listings",
+      "title": "Listings",
+      "role": "listing",
+      "goal": "Present available commercial properties in a clear, scannable format that allows visitors to evaluate options and take action on properties of interest.",
+      "meta_description": "Browse Meridian Advisory's current commercial property listings including office, retail, and industrial spaces available for sale or lease.",
+      "sections": [
+        {
+          "id": "listings-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the listings section and set expectations about the quality and variety of available properties.",
+          "eyebrow": "Available Properties",
+          "headline": "Current Commercial Listings",
+          "subheadline": "Office, retail, and industrial properties available for acquisition or lease across prime urban and suburban locations.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "listings-section-2",
+          "type": "item_grid",
+          "intent": "Display the active property inventory in a structured card format so visitors can compare properties at a glance.",
+          "eyebrow": null,
+          "headline": "Properties on the Market",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Harwick Tower \u2014 Grade A Office",
+              "description": "14,200 sq ft of premium open-plan office space across two floors. Central business district location with direct transport links.",
+              "metadata": {
+                "type": "Office",
+                "status": "For Lease",
+                "size": "14,200 sq ft",
+                "location": "Central District"
+              }
+            },
+            {
+              "title": "Portside Logistics Hub",
+              "description": "42,000 sq ft modern warehouse and distribution facility with 8m eaves height, 6 loading docks, and full yard access.",
+              "metadata": {
+                "type": "Industrial",
+                "status": "For Sale",
+                "size": "42,000 sq ft",
+                "location": "Portside Quarter"
+              }
+            },
+            {
+              "title": "Meridian Retail Terrace \u2014 Unit 4",
+              "description": "1,800 sq ft ground-floor retail unit on a high-footfall pedestrian street. Fitted shopfront, rear access, and basement storage.",
+              "metadata": {
+                "type": "Retail",
+                "status": "For Lease",
+                "size": "1,800 sq ft",
+                "location": "North Quarter"
+              }
+            },
+            {
+              "title": "Elmswood Business Park \u2014 Block C",
+              "description": "Self-contained 6,500 sq ft office suite in a landscaped out-of-town business park with 40 dedicated parking spaces.",
+              "metadata": {
+                "type": "Office",
+                "status": "For Lease",
+                "size": "6,500 sq ft",
+                "location": "Elmswood Park"
+              }
+            },
+            {
+              "title": "The Foundry \u2014 Mixed-Use Commercial",
+              "description": "Former industrial building converted to flexible commercial use. 9,000 sq ft across ground and mezzanine, suitable for showroom, studio, or office.",
+              "metadata": {
+                "type": "Mixed-Use",
+                "status": "For Sale",
+                "size": "9,000 sq ft",
+                "location": "Creative Quarter"
+              }
+            },
+            {
+              "title": "Kingsway Serviced Suites",
+              "description": "Managed suites from 500 sq ft, available on flexible 6\u201324 month terms. Fully furnished, broadband included, shared reception.",
+              "metadata": {
+                "type": "Serviced Office",
+                "status": "For Lease",
+                "size": "From 500 sq ft",
+                "location": "Kingsway"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Enquire About a Property",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "listings-section-3",
+          "type": "cta",
+          "intent": "Capture visitors who have not found a suitable listing and redirect them toward a bespoke search conversation.",
+          "eyebrow": "Not Finding the Right Fit?",
+          "headline": "We Source Off-Market Properties for Qualified Clients.",
+          "subheadline": "Tell us your requirements and our advisors will conduct a targeted search beyond publicly listed inventory.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Submit Your Brief",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "neighborhoods",
+      "title": "Neighborhoods",
+      "role": "editorial",
+      "goal": "Build confidence in Meridian Advisory's local market knowledge by profiling key commercial districts, helping visitors understand where to locate their business.",
+      "meta_description": "Explore commercial property neighbourhoods with Meridian Advisory. In-depth profiles of key business districts to help you choose the right location.",
+      "sections": [
+        {
+          "id": "neighborhoods-section-1",
+          "type": "page_header",
+          "intent": "Frame the neighbourhood section as a strategic resource, not just a directory, reinforcing the advisory brand.",
+          "eyebrow": "Location Intelligence",
+          "headline": "Know the Market Before You Commit",
+          "subheadline": "Our district profiles give you the data and context needed to make location decisions with confidence.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "neighborhoods-section-2",
+          "type": "item_grid",
+          "intent": "Showcase the key commercial districts the firm covers, giving each a clear identity and relevant commercial metrics.",
+          "eyebrow": "District Profiles",
+          "headline": "Key Commercial Districts We Cover",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Central Business District",
+              "description": "The city's primary office and financial hub. Home to headquarters of major corporations, law firms, and financial institutions. High demand, low vacancy, premium rents.",
+              "metadata": {
+                "avg_rent_psf": "\u00a365\u2013\u00a385",
+                "vacancy_rate": "4.2%",
+                "primary_use": "Grade A Office"
+              }
+            },
+            {
+              "title": "Portside Quarter",
+              "description": "A regenerating waterfront zone attracting logistics, tech, and creative occupiers. Strong infrastructure investment and competitive rental terms.",
+              "metadata": {
+                "avg_rent_psf": "\u00a318\u2013\u00a328",
+                "vacancy_rate": "7.8%",
+                "primary_use": "Industrial & Mixed-Use"
+              }
+            },
+            {
+              "title": "North Quarter",
+              "description": "Established retail and leisure corridor with consistent footfall. Anchored by major retail brands and well-served by public transport.",
+              "metadata": {
+                "avg_rent_psf": "\u00a345\u2013\u00a360",
+                "vacancy_rate": "5.5%",
+                "primary_use": "Retail & Leisure"
+              }
+            },
+            {
+              "title": "Elmswood Business Park",
+              "description": "Purpose-built suburban campus offering modern, car-accessible office and light industrial space. Popular with mid-size businesses and regional HQs.",
+              "metadata": {
+                "avg_rent_psf": "\u00a322\u2013\u00a335",
+                "vacancy_rate": "9.1%",
+                "primary_use": "Office & Light Industrial"
+              }
+            },
+            {
+              "title": "Creative Quarter",
+              "description": "A converted industrial neighbourhood drawing design studios, media companies, and tech startups. Flexible space, vibrant street-level activity.",
+              "metadata": {
+                "avg_rent_psf": "\u00a330\u2013\u00a345",
+                "vacancy_rate": "6.3%",
+                "primary_use": "Flexible & Studio"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Available Listings",
+              "target_page": "listings"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "neighborhoods-section-3",
+          "type": "cta",
+          "intent": "Convert location research into a direct advisory conversation, linking neighbourhood interest to a next step.",
+          "eyebrow": "Local Knowledge. Strategic Advice.",
+          "headline": "Let Our Advisors Guide Your Location Decision.",
+          "subheadline": "We combine market data with on-the-ground expertise to match your business with the district that serves it best.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Talk to a Local Specialist",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "agents",
+      "title": "Agents",
+      "role": "overview",
+      "goal": "Introduce the advisory team, establish individual credibility, and give visitors a clear path to reach the right specialist for their needs.",
+      "meta_description": "Meet the Meridian Advisory team \u2014 experienced commercial property specialists covering acquisitions, leasing, and market research across key districts.",
+      "sections": [
+        {
+          "id": "agents-section-1",
+          "type": "page_header",
+          "intent": "Establish the team as the firm's core asset, reinforcing that advice comes from experienced, named professionals.",
+          "eyebrow": "Our Team",
+          "headline": "Advisors Who Know the Market Deeply",
+          "subheadline": "Every client engagement is led by a senior advisor with direct market experience \u2014 not passed to a junior team.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "agents-section-2",
+          "type": "item_grid",
+          "intent": "Profile each advisor with their specialism, experience, and district focus so visitors can identify the right contact.",
+          "eyebrow": "Meet the Team",
+          "headline": "Specialist Advisors Across Every Asset Class",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Helena Strauss \u2014 Head of Acquisitions",
+              "description": "18 years advising institutional investors and corporate occupiers on commercial acquisitions. Specialist in Grade A office and mixed-use assets in the Central Business District.",
+              "metadata": {
+                "specialism": "Acquisitions",
+                "district": "Central Business District",
+                "transactions": "\u00a32.4bn advised"
+              }
+            },
+            {
+              "title": "Marcus Obi \u2014 Industrial & Logistics",
+              "description": "Leads all industrial, logistics, and last-mile distribution mandates. Deep relationships with developers and landowners across the Portside Quarter and surrounding zones.",
+              "metadata": {
+                "specialism": "Industrial & Logistics",
+                "district": "Portside Quarter",
+                "transactions": "\u00a3780m advised"
+              }
+            },
+            {
+              "title": "Priya Nair \u2014 Retail & Leisure",
+              "description": "Retail leasing and disposal specialist with a track record across high street, shopping centre, and leisure-anchored schemes. Covers the North Quarter and city-wide retail assets.",
+              "metadata": {
+                "specialism": "Retail & Leisure",
+                "district": "North Quarter",
+                "transactions": "\u00a3420m advised"
+              }
+            },
+            {
+              "title": "Tom Bergfeld \u2014 Office Leasing",
+              "description": "Focuses on mid-market and out-of-town office leasing. Trusted by growing businesses and regional HQs seeking flexible, cost-effective space at Elmswood and beyond.",
+              "metadata": {
+                "specialism": "Office Leasing",
+                "district": "Elmswood & Suburban",
+                "transactions": "\u00a3310m advised"
+              }
+            },
+            {
+              "title": "Yuki Tanaka \u2014 Research & Intelligence",
+              "description": "Heads the in-house research function. Produces quarterly market reports, vacancy analysis, and bespoke location studies used by clients and the advisory team alike.",
+              "metadata": {
+                "specialism": "Market Research",
+                "district": "All Districts",
+                "transactions": "N/A"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Contact the Team",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "agents-section-3",
+          "type": "stats",
+          "intent": "Reinforce collective team credibility with firm-wide performance metrics that substantiate the advisory claim.",
+          "eyebrow": "Track Record",
+          "headline": "A Firm Defined by Results",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "\u00a34.2bn",
+              "description": "Total transaction value advised since founding.",
+              "metadata": {}
+            },
+            {
+              "title": "340+",
+              "description": "Commercial mandates completed across office, retail, and industrial sectors.",
+              "metadata": {}
+            },
+            {
+              "title": "96%",
+              "description": "Client retention rate across repeat advisory engagements.",
+              "metadata": {}
+            },
+            {
+              "title": "22 years",
+              "description": "Combined average senior advisor experience across the team.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Convert interested visitors into qualified leads by providing clear contact options and setting expectations for the engagement process.",
+      "meta_description": "Get in touch with Meridian Advisory to discuss your commercial property requirements. Request a consultation or reach your specialist advisor directly.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a professional, welcoming tone that lowers the barrier to contact and frames the conversation as a two-way dialogue.",
+          "eyebrow": "Get in Touch",
+          "headline": "Every Mandate Begins with a Conversation.",
+          "subheadline": "Tell us what you are looking for. Our advisors will respond within one business day with a structured plan of action.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide the primary contact form and direct office details so visitors have multiple routes to reach the firm.",
+          "eyebrow": "Reach Us Directly",
+          "headline": "Contact Meridian Advisory",
+          "subheadline": null,
+          "body": "Complete the form with your requirements and a preferred contact time. Alternatively, call or email your relevant specialist directly using the details below.",
+          "items": [
+            {
+              "title": "London Office",
+              "description": "12 Exchange Square, Central Business District, London EC2A 2EH",
+              "metadata": {
+                "phone": "+44 20 7946 0300",
+                "email": "london@meridianadvisory.com",
+                "hours": "Mon\u2013Fri, 08:30\u201318:00"
+              }
+            },
+            {
+              "title": "Manchester Office",
+              "description": "Suite 5, Portside House, Portside Quarter, Manchester M5 3NQ",
+              "metadata": {
+                "phone": "+44 161 946 0200",
+                "email": "manchester@meridianadvisory.com",
+                "hours": "Mon\u2013Fri, 08:30\u201317:30"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Submit Enquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "faq",
+          "intent": "Address the most common questions a prospective client has before making contact, reducing friction and building confidence.",
+          "eyebrow": "Before You Reach Out",
+          "headline": "Frequently Asked Questions",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "What types of commercial property do you advise on?",
+              "description": "We advise across all commercial asset classes including Grade A and Grade B office, retail, industrial, logistics, mixed-use, and serviced office space.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you work with individual businesses or only institutional investors?",
+              "description": "We work with both. Our client base ranges from growing SMEs seeking their first leased office to institutional funds managing multi-asset portfolios.",
+              "metadata": {}
+            },
+            {
+              "title": "How quickly can an advisor respond to my enquiry?",
+              "description": "All new enquiries receive an initial response within one business day. For urgent requirements, please call our offices directly.",
+              "metadata": {}
+            },
+            {
+              "title": "Is there a fee for an initial consultation?",
+              "description": "Initial consultations are complimentary. We will outline a proposed scope of work and fee structure following our first meeting.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

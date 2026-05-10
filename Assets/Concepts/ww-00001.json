@@ -1,0 +1,19 @@
+{
+  "id": "ww-00001",
+  "version": "0.1",
+  "site_domain": "real_estate",
+  "site_subdomain": "commercial property advisory",
+  "design_aesthetic": "swiss_modern",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "listings",
+    "neighborhoods",
+    "agents",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 42,
+  "sample_index": 1,
+  "source": "web-weaver.concept_sampler"
+}

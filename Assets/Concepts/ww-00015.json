@@ -1,0 +1,19 @@
+{
+  "id": "ww-00015",
+  "version": "0.1",
+  "site_domain": "food_beverage_cpg",
+  "site_subdomain": "farmers market produce box",
+  "design_aesthetic": "startup_gradient",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "product",
+    "nutrition",
+    "reviews",
+    "where-to-buy"
+  ],
+  "difficulty": "easy",
+  "seed": 88463792,
+  "sample_index": 4,
+  "source": "web-weaver.concept_sampler"
+}

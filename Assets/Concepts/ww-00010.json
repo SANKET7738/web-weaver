@@ -1,0 +1,19 @@
+{
+  "id": "ww-00010",
+  "version": "0.1",
+  "site_domain": "wellness_fitness",
+  "site_subdomain": "functional fitness program",
+  "design_aesthetic": "heritage_classic",
+  "layout_family": "split_panel",
+  "page_set": [
+    "home",
+    "classes",
+    "schedule",
+    "coaches",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 42,
+  "sample_index": 10,
+  "source": "web-weaver.concept_sampler"
+}

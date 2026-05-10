@@ -1,0 +1,461 @@
+{
+  "id": "ww-00005",
+  "version": "0.1",
+  "concept_id": "ww-00005",
+  "identity": {
+    "name": "Velodyne",
+    "tagline": "Forged in Speed. Defined by Excellence.",
+    "one_line_description": "Velodyne is the official website of an elite professional cycling race team, showcasing its athletes, performance data, editorial stories, and team culture.",
+    "domain": "sports",
+    "subdomain": "cycling race team",
+    "voice": [
+      "refined",
+      "authoritative",
+      "passionate",
+      "precise"
+    ],
+    "target_audience": "Cycling enthusiasts, sports media, sponsors, and aspiring professional cyclists who follow elite road racing at the national and international level."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Velodyne as a world-class cycling race team, communicate the team's identity and ambition, and direct visitors toward athletes, performance, and stories.",
+      "meta_description": "Velodyne is an elite professional cycling race team built on precision, endurance, and the relentless pursuit of victory. Meet the team and follow the journey.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Make an immediate, powerful first impression that communicates the team's elite status and competitive spirit.",
+          "eyebrow": "Professional Cycling",
+          "headline": "Forged in Speed. Defined by Excellence.",
+          "subheadline": "Velodyne competes at the highest level of road cycling \u2014 from Grand Tours to one-day classics \u2014 driven by precision training, elite athletes, and an uncompromising pursuit of the podium.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Meet the Athletes",
+              "target_page": "athletes"
+            },
+            {
+              "label": "Follow Our Season",
+              "target_page": "stories"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Highlight the three defining pillars of the Velodyne team to orient new visitors and reinforce brand credibility.",
+          "eyebrow": "What Drives Us",
+          "headline": "Three Pillars of a Winning Team",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Elite Roster",
+              "description": "A squad of world-ranked climbers, sprinters, and all-rounders selected for their exceptional talent and competitive record.",
+              "metadata": {}
+            },
+            {
+              "title": "Data-Driven Performance",
+              "description": "Every watt, every kilometer, every recovery metric is analyzed to give our riders the competitive edge on race day.",
+              "metadata": {}
+            },
+            {
+              "title": "A Legacy of Victories",
+              "description": "From Grand Tour stage wins to monument podiums, Velodyne's palmares speaks for itself across the world's most prestigious races.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Explore Performance",
+              "target_page": "performance"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Convert engaged visitors into followers or sponsor inquiries by offering a clear next step.",
+          "eyebrow": "Join the Journey",
+          "headline": "Ride With Velodyne",
+          "subheadline": "Whether you're a fan, a journalist, or a potential partner \u2014 we want to hear from you.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get in Touch",
+              "target_page": "contact"
+            },
+            {
+              "label": "Read Our Stories",
+              "target_page": "stories"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "athletes",
+      "title": "Athletes",
+      "role": "overview",
+      "goal": "Introduce each member of the Velodyne roster with depth and character, building emotional connection and credibility with fans, sponsors, and media.",
+      "meta_description": "Meet the Velodyne cycling team roster \u2014 a world-class lineup of climbers, sprinters, and classics specialists competing at the pinnacle of professional road racing.",
+      "sections": [
+        {
+          "id": "athletes-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the roster page and frame the athletes as the heart of the team's identity.",
+          "eyebrow": "The Roster",
+          "headline": "The Athletes Behind the Jersey",
+          "subheadline": "Every rider on the Velodyne squad brings a unique discipline, story, and drive. Together, they form one of the most formidable lineups in professional cycling.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "athletes-section-2",
+          "type": "item_grid",
+          "intent": "Display the full team roster in a card-based format that communicates each rider's specialty, nationality, and key achievements.",
+          "eyebrow": "2025 Season Roster",
+          "headline": "Meet the Team",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Marco Ferretti",
+              "description": "General Classification | Italy | 3\u00d7 Grand Tour stage winner, 2024 Vuelta top-5 finisher.",
+              "metadata": {
+                "role": "GC Leader",
+                "nationality": "Italy"
+              }
+            },
+            {
+              "title": "Lena Brandt",
+              "description": "Climber | Germany | Queen of the Mountains winner, renowned for her explosive alpine attacks.",
+              "metadata": {
+                "role": "Climber",
+                "nationality": "Germany"
+              }
+            },
+            {
+              "title": "Th\u00e9o Marchais",
+              "description": "Sprinter | France | 12 professional sprint victories, Paris\u2013Nice stage winner.",
+              "metadata": {
+                "role": "Sprinter",
+                "nationality": "France"
+              }
+            },
+            {
+              "title": "Cian O'Sullivan",
+              "description": "Classics Specialist | Ireland | Top-10 at Paris\u2013Roubaix and Tour of Flanders in back-to-back seasons.",
+              "metadata": {
+                "role": "Classics",
+                "nationality": "Ireland"
+              }
+            },
+            {
+              "title": "Yuki Tanaka",
+              "description": "Domestique & Time Trialist | Japan | Elite support rider and national TT champion.",
+              "metadata": {
+                "role": "Domestique",
+                "nationality": "Japan"
+              }
+            },
+            {
+              "title": "Rafael Dos Santos",
+              "description": "Puncheur | Brazil | Known for his explosive finishing on punchy climbs and cobbled finales.",
+              "metadata": {
+                "role": "Puncheur",
+                "nationality": "Brazil"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "athletes-section-3",
+          "type": "cta",
+          "intent": "Direct visitors from the athlete profiles toward the team's performance data or contact page for sponsorship inquiries.",
+          "eyebrow": "Go Deeper",
+          "headline": "See What Our Riders Are Capable Of",
+          "subheadline": "Explore the data and metrics that power Velodyne's race strategy.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View Performance Data",
+              "target_page": "performance"
+            },
+            {
+              "label": "Partner With Us",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "performance",
+      "title": "Performance",
+      "role": "detail",
+      "goal": "Demonstrate the team's scientific approach to training and racing, building credibility with sponsors, media, and performance-minded fans.",
+      "meta_description": "Discover how Velodyne uses cutting-edge sports science, data analytics, and precision training to prepare its riders for the world's toughest races.",
+      "sections": [
+        {
+          "id": "performance-section-1",
+          "type": "page_header",
+          "intent": "Frame the performance page as a window into the team's competitive methodology and scientific rigor.",
+          "eyebrow": "Sports Science & Strategy",
+          "headline": "The Architecture of a Winning Season",
+          "subheadline": "Behind every podium finish is a system \u2014 built on data, endurance science, and relentless preparation. This is how Velodyne trains to win.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "performance-section-2",
+          "type": "stats",
+          "intent": "Use key performance figures to communicate the scale and seriousness of the team's competitive output.",
+          "eyebrow": "2024 Season in Numbers",
+          "headline": "Results That Speak for Themselves",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "18",
+              "description": "Race victories across UCI World Tour and ProSeries events.",
+              "metadata": {}
+            },
+            {
+              "title": "340,000 km",
+              "description": "Total training kilometers logged by the squad in the 2024 season.",
+              "metadata": {}
+            },
+            {
+              "title": "6.4 W/kg",
+              "description": "Peak power-to-weight ratio achieved by our GC leader at altitude.",
+              "metadata": {}
+            },
+            {
+              "title": "94%",
+              "description": "Race completion rate \u2014 a testament to our injury prevention and recovery protocols.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "performance-section-3",
+          "type": "feature_grid",
+          "intent": "Break down the team's performance philosophy into distinct, digestible disciplines that showcase the breadth of their approach.",
+          "eyebrow": "Our Method",
+          "headline": "How We Build Champions",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Power Profiling",
+              "description": "Every rider undergoes detailed VO2 max and functional threshold power testing to build individualized training zones.",
+              "metadata": {}
+            },
+            {
+              "title": "Race Intelligence",
+              "description": "Our analytics team studies course profiles, weather patterns, and rival team tactics to craft race-day strategy.",
+              "metadata": {}
+            },
+            {
+              "title": "Altitude Camps",
+              "description": "Pre-season and mid-season altitude blocks at Sierra Nevada and Livigno drive the aerobic adaptations that matter most.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Read Training Stories",
+              "target_page": "stories"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "stories",
+      "title": "Stories",
+      "role": "editorial",
+      "goal": "Engage fans, media, and sponsors with long-form editorial content including race reports, rider profiles, behind-the-scenes features, and team announcements.",
+      "meta_description": "Follow the Velodyne cycling team through race dispatches, rider features, training diaries, and season highlights \u2014 all told in the team's own voice.",
+      "sections": [
+        {
+          "id": "stories-section-1",
+          "type": "page_header",
+          "intent": "Set an editorial, magazine-like tone that invites readers to explore the team's narrative across the season.",
+          "eyebrow": "Team Journal",
+          "headline": "Stories From the Road",
+          "subheadline": "Race dispatches, rider profiles, training diaries, and the moments that define a season. This is Velodyne \u2014 unfiltered.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stories-section-2",
+          "type": "article_list",
+          "intent": "Surface the latest and most compelling editorial content in a card-grid format that encourages browsing and reading.",
+          "eyebrow": "Latest Features",
+          "headline": "What We've Been Writing",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Stage 17: How Ferretti Took the Maglia Rosa",
+              "description": "A minute-by-minute account of the most dramatic stage of the Giro d'Italia and the tactical brilliance that put our GC leader in pink.",
+              "metadata": {
+                "category": "Race Report",
+                "date": "May 2025"
+              }
+            },
+            {
+              "title": "Lena Brandt: The Climb That Changed Everything",
+              "description": "A long-form profile on the German climber's journey from junior national champion to Grand Tour queen of the mountains.",
+              "metadata": {
+                "category": "Rider Profile",
+                "date": "April 2025"
+              }
+            },
+            {
+              "title": "Inside the Altitude Camp: 21 Days at Livigno",
+              "description": "Our sports science team documents the brutal and beautiful process of building race fitness at 1,800 meters above sea level.",
+              "metadata": {
+                "category": "Behind the Scenes",
+                "date": "March 2025"
+              }
+            },
+            {
+              "title": "The Classics Campaign: Cobbles, Crashes, and Character",
+              "description": "Cian O'Sullivan reflects on the spring classics campaign \u2014 the preparation, the pain, and what it means to race Paris\u2013Roubaix.",
+              "metadata": {
+                "category": "Rider Feature",
+                "date": "April 2025"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stories-section-3",
+          "type": "cta",
+          "intent": "Encourage readers to stay connected with the team or explore sponsorship opportunities after engaging with editorial content.",
+          "eyebrow": "Stay Connected",
+          "headline": "Never Miss a Dispatch",
+          "subheadline": "Follow the season as it unfolds \u2014 race by race, rider by rider.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Contact the Team",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore the Roster",
+              "target_page": "athletes"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Provide a clear, premium-feeling contact experience for sponsors, media professionals, aspiring riders, and fans who want to connect with the Velodyne team.",
+      "meta_description": "Get in touch with the Velodyne cycling team for sponsorship inquiries, media accreditation, rider recruitment, or general fan correspondence.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a welcoming but professional tone that signals the team is open to meaningful conversations.",
+          "eyebrow": "Get in Touch",
+          "headline": "Let's Talk",
+          "subheadline": "Whether you're a sponsor, journalist, or a rider who wants to race for Velodyne \u2014 we'd love to hear from you.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "feature_grid",
+          "intent": "Clarify the different types of inquiries the team receives so visitors can self-select and feel their message will reach the right person.",
+          "eyebrow": "Who Are You Reaching Out To?",
+          "headline": "We're Ready for Your Message",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Sponsorship & Partnerships",
+              "description": "Interested in aligning your brand with one of cycling's most exciting teams? Our commercial team is ready to explore what's possible.",
+              "metadata": {
+                "contact": "partnerships@velodyne.cc"
+              }
+            },
+            {
+              "title": "Media & Press",
+              "description": "For race accreditation, interview requests, press kits, and photography access, contact our communications team directly.",
+              "metadata": {
+                "contact": "media@velodyne.cc"
+              }
+            },
+            {
+              "title": "Rider Recruitment",
+              "description": "Are you a competitive cyclist looking to race at the highest level? Send your palmares and power data to our performance director.",
+              "metadata": {
+                "contact": "recruitment@velodyne.cc"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "contact_block",
+          "intent": "Provide a direct contact form and essential team contact details for visitors ready to reach out.",
+          "eyebrow": "Send a Message",
+          "headline": "Reach the Velodyne Team",
+          "subheadline": "Fill in the form below or reach us directly at hello@velodyne.cc. We respond to all serious inquiries within 48 hours.",
+          "body": "Velodyne Racing SA \u00b7 Avenue du Cyclisme 12 \u00b7 Lausanne, Switzerland \u00b7 +41 21 000 0000",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Submit Inquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

@@ -1,0 +1,1087 @@
+{
+  "id": "ww-00008",
+  "version": "0.1",
+  "concept_id": "ww-00008",
+  "identity": {
+    "name": "RevvLot",
+    "tagline": "Old School Hustle. New School Wheels.",
+    "one_line_description": "RevvLot is a retro-styled used car marketplace where buyers browse, inspect, and reserve quality pre-owned vehicles with full transparency and zero dealership drama.",
+    "domain": "automotive_mobility",
+    "subdomain": "used car marketplace",
+    "voice": [
+      "bold",
+      "nostalgic",
+      "straight-talking",
+      "energetic",
+      "trustworthy"
+    ],
+    "target_audience": "Budget-conscious car buyers aged 25\u201345 who are skeptical of traditional dealerships, comfortable browsing online, and want full vehicle details before ever setting foot on a lot."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Hook first-time visitors with the RevvLot brand energy, communicate the value of a no-nonsense used car marketplace, and funnel them toward browsing inventory.",
+      "meta_description": "RevvLot is the retro-cool used car marketplace where you find, inspect, and reserve quality pre-owned vehicles \u2014 no pressure, no games, just great deals.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver an immediate brand punch that communicates the retro personality and core value proposition \u2014 real cars, real prices, zero dealership hassle.",
+          "eyebrow": "Welcome to the Lot",
+          "headline": "Find Your Next Ride. No Haggling Required.",
+          "subheadline": "Thousands of inspected, priced-right used cars \u2014 browsed from your couch, reserved in minutes.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Browse the Inventory",
+              "target_page": "product"
+            },
+            {
+              "label": "How It Works",
+              "target_page": "home"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Retro pixel-art style used car lot at night with neon sign reading REVVLOT and rows of cars under string lights",
+              "purpose": "Hero visual that sets the nostalgic 90s tone and makes the brand instantly memorable",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Build instant credibility with marketplace scale numbers that signal RevvLot is a trusted, active platform.",
+          "eyebrow": "By the Numbers",
+          "headline": "The Lot Doesn't Lie",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "12,400+",
+              "description": "Vehicles currently listed across all makes and models",
+              "metadata": {}
+            },
+            {
+              "title": "98%",
+              "description": "Of buyers say they'd recommend RevvLot to a friend",
+              "metadata": {}
+            },
+            {
+              "title": "48 Hours",
+              "description": "Average time from reservation to keys in hand",
+              "metadata": {}
+            },
+            {
+              "title": "50 States",
+              "description": "Nationwide inventory with local pickup and delivery options",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Explain the three core advantages of using RevvLot over a traditional dealership or generic classifieds site.",
+          "eyebrow": "Why RevvLot",
+          "headline": "We Built the Dealership We Always Wanted",
+          "subheadline": "Transparent pricing. Honest history. A reservation system that actually works.",
+          "body": null,
+          "items": [
+            {
+              "title": "Every Car, Fully Inspected",
+              "description": "Our 120-point mechanical checklist means you know exactly what you're getting before you ever touch the steering wheel.",
+              "metadata": {
+                "icon": "checkmark_badge"
+              }
+            },
+            {
+              "title": "Market Price Guarantee",
+              "description": "Every listing is benchmarked against live market data so you never overpay. The price you see is the price you pay.",
+              "metadata": {
+                "icon": "price_tag"
+              }
+            },
+            {
+              "title": "Reserve in 5 Minutes",
+              "description": "Spot a car you love? Lock it down with a fully refundable $99 hold before someone else grabs it.",
+              "metadata": {
+                "icon": "key"
+              }
+            },
+            {
+              "title": "Full Vehicle History",
+              "description": "Accidents, ownership records, service logs \u2014 all attached to every listing, no extra charge.",
+              "metadata": {
+                "icon": "document_history"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See a Sample Listing",
+              "target_page": "product"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-3-asset-1",
+              "kind": "icon",
+              "subject": "Set of four retro-styled line icons: a mechanic's wrench with a checkmark, a price tag with a star, a vintage car key, and a folded document with a timeline",
+              "purpose": "Visual anchors for each feature grid card, reinforcing the 90s web aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "home-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-4",
+          "type": "timeline",
+          "intent": "Walk the visitor through the simple step-by-step process of buying a car on RevvLot so it feels approachable and frictionless.",
+          "eyebrow": "How It Works",
+          "headline": "From Browse to Keys \u2014 Here's the Play-by-Play",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Step 1 \u2014 Browse",
+              "description": "Filter by make, model, year, price, and mileage. Every listing includes photos, specs, and a full history report.",
+              "metadata": {
+                "step": "1"
+              }
+            },
+            {
+              "title": "Step 2 \u2014 Inspect",
+              "description": "Read the 120-point inspection report, watch the walkaround video, and ask our team any questions via live chat.",
+              "metadata": {
+                "step": "2"
+              }
+            },
+            {
+              "title": "Step 3 \u2014 Reserve",
+              "description": "Place a fully refundable $99 hold to take the car off the market while you finalize your decision.",
+              "metadata": {
+                "step": "3"
+              }
+            },
+            {
+              "title": "Step 4 \u2014 Close",
+              "description": "Complete paperwork online or in person at your nearest RevvLot partner location. Pick up or get it delivered.",
+              "metadata": {
+                "step": "4"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Start Browsing",
+              "target_page": "product"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "testimonial",
+          "intent": "Provide social proof from real buyers to overcome skepticism and reinforce the brand promise of a stress-free buying experience.",
+          "eyebrow": "Straight From the Drivers",
+          "headline": "Don't Take Our Word for It",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Marcus T. \u2014 Portland, OR",
+              "description": "\"I reserved my 2019 Civic on a Tuesday night and had the keys by Thursday. The inspection report was legit \u2014 no surprises. RevvLot is the real deal.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            },
+            {
+              "title": "Priya S. \u2014 Austin, TX",
+              "description": "\"Every other site felt like a trap. RevvLot showed me the actual market price right on the listing. I knew I wasn't getting played. Bought my Subaru the same week.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            },
+            {
+              "title": "Derek W. \u2014 Chicago, IL",
+              "description": "\"The $99 hold feature saved me. I found my truck on a Friday, locked it in, and closed Monday. Old-school hustle with new-school tools \u2014 exactly what the tagline says.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "title": "Browse Inventory",
+      "role": "listing",
+      "goal": "Give visitors a rich, filterable view of available inventory so they can quickly find vehicles that match their needs and click into a detailed listing.",
+      "meta_description": "Browse thousands of inspected used cars on RevvLot. Filter by make, model, year, price, and mileage. Every listing includes full history and inspection reports.",
+      "sections": [
+        {
+          "id": "product-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the inventory browser and set expectations for the depth and quality of listings available.",
+          "eyebrow": "The Inventory",
+          "headline": "12,400 Rides. One Honest Lot.",
+          "subheadline": "Every car inspected. Every price benchmarked. No fluff, no filler.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "product-section-1-asset-1",
+              "kind": "pattern",
+              "subject": "Repeating retro grid pattern of tiny pixel-art car silhouettes in a halftone dot arrangement, evoking a 90s auto magazine print texture",
+              "purpose": "Background texture for the page header that reinforces the retro marketplace aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "product-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product-section-2",
+          "type": "feature_grid",
+          "intent": "Expose the primary filter and search controls so visitors can immediately narrow inventory to their needs.",
+          "eyebrow": "Find Your Match",
+          "headline": "Filter the Lot Your Way",
+          "subheadline": null,
+          "body": "Use the controls below to narrow by make, model, year range, price, mileage, body style, fuel type, and transmission. Every filter updates results instantly.",
+          "items": [
+            {
+              "title": "Make & Model",
+              "description": "Search across 40+ brands from Honda and Toyota to Ford, Chevy, BMW, and beyond.",
+              "metadata": {
+                "filter_type": "search"
+              }
+            },
+            {
+              "title": "Price Range",
+              "description": "Set your budget from $4,000 to $60,000+. Every price is market-validated.",
+              "metadata": {
+                "filter_type": "range"
+              }
+            },
+            {
+              "title": "Mileage",
+              "description": "Filter for low-mileage gems or high-value workhorse vehicles depending on your priorities.",
+              "metadata": {
+                "filter_type": "range"
+              }
+            },
+            {
+              "title": "Body Style",
+              "description": "Sedan, SUV, truck, hatchback, coupe, minivan, or convertible \u2014 your choice.",
+              "metadata": {
+                "filter_type": "multi_select"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "product-section-3",
+          "type": "item_grid",
+          "intent": "Display the actual vehicle listing cards so visitors can scan inventory, compare options, and click into a vehicle they want to learn more about.",
+          "eyebrow": "Available Now",
+          "headline": "Today's Featured Listings",
+          "subheadline": "Sorted by best value. Updated every 6 hours.",
+          "body": null,
+          "items": [
+            {
+              "title": "2020 Honda Civic EX \u2014 $18,400",
+              "description": "42,000 miles \u00b7 Automatic \u00b7 FWD \u00b7 Inspected \u00b7 Clean Title \u00b7 1 Owner",
+              "metadata": {
+                "badge": "Best Value",
+                "fuel": "Gas",
+                "location": "Denver, CO"
+              }
+            },
+            {
+              "title": "2018 Toyota RAV4 XLE \u2014 $21,900",
+              "description": "58,000 miles \u00b7 Automatic \u00b7 AWD \u00b7 Inspected \u00b7 Clean Title \u00b7 2 Owners",
+              "metadata": {
+                "badge": "Popular",
+                "fuel": "Gas",
+                "location": "Phoenix, AZ"
+              }
+            },
+            {
+              "title": "2019 Ford F-150 XLT \u2014 $29,500",
+              "description": "61,000 miles \u00b7 Automatic \u00b7 4WD \u00b7 Inspected \u00b7 Clean Title \u00b7 1 Owner",
+              "metadata": {
+                "badge": "Fast Mover",
+                "fuel": "Gas",
+                "location": "Dallas, TX"
+              }
+            },
+            {
+              "title": "2021 Subaru Outback Premium \u2014 $26,750",
+              "description": "31,000 miles \u00b7 CVT \u00b7 AWD \u00b7 Inspected \u00b7 Clean Title \u00b7 1 Owner",
+              "metadata": {
+                "badge": "Low Miles",
+                "fuel": "Gas",
+                "location": "Seattle, WA"
+              }
+            },
+            {
+              "title": "2017 BMW 3 Series 330i \u2014 $23,100",
+              "description": "72,000 miles \u00b7 Automatic \u00b7 RWD \u00b7 Inspected \u00b7 Clean Title \u00b7 2 Owners",
+              "metadata": {
+                "badge": "Luxury Pick",
+                "fuel": "Gas",
+                "location": "Atlanta, GA"
+              }
+            },
+            {
+              "title": "2022 Hyundai Ioniq 5 SE \u2014 $34,200",
+              "description": "19,000 miles \u00b7 Single-Speed \u00b7 AWD \u00b7 Inspected \u00b7 Clean Title \u00b7 1 Owner",
+              "metadata": {
+                "badge": "EV Deal",
+                "fuel": "Electric",
+                "location": "San Jose, CA"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Full Details",
+              "target_page": "specs"
+            },
+            {
+              "label": "Reserve This Car",
+              "target_page": "reserve"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "product-section-3-asset-1",
+              "kind": "icon",
+              "subject": "Retro badge icons for listing cards: pixel-style ribbon badges labeled Best Value, Popular, Fast Mover, Low Miles, Luxury Pick, and EV Deal",
+              "purpose": "Visual listing card badges that help buyers quickly identify standout vehicles in the grid",
+              "quantity": 1,
+              "used_by": [
+                "product-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "product-section-4",
+          "type": "comparison",
+          "intent": "Help undecided buyers compare two popular vehicle categories side-by-side to guide their decision toward a listing.",
+          "eyebrow": "Not Sure What to Get?",
+          "headline": "Sedan vs. SUV: Which One's Your Speed?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Sedan",
+              "description": "Lower price point, better fuel economy, easier to park. Best for daily commuters and city drivers.",
+              "metadata": {
+                "avg_price": "$16,500",
+                "avg_mpg": "32 MPG",
+                "avg_mileage": "55,000 mi"
+              }
+            },
+            {
+              "title": "SUV",
+              "description": "More cargo room, higher ride height, available AWD. Best for families, road trippers, and all-weather drivers.",
+              "metadata": {
+                "avg_price": "$24,200",
+                "avg_mpg": "26 MPG",
+                "avg_mileage": "51,000 mi"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Browse Sedans",
+              "target_page": "product"
+            },
+            {
+              "label": "Browse SUVs",
+              "target_page": "product"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "product-section-5",
+          "type": "cta",
+          "intent": "Re-engage visitors who have scrolled through listings without clicking into a car by offering a personalized recommendation prompt.",
+          "eyebrow": "Can't Decide?",
+          "headline": "Tell Us What You Need. We'll Find the Match.",
+          "subheadline": "Answer 4 quick questions and we'll surface the top 3 cars that fit your budget, lifestyle, and must-haves.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get My Matches",
+              "target_page": "product"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "specs",
+      "title": "Vehicle Specs",
+      "role": "detail",
+      "goal": "Give the visitor every technical and historical detail they need to make a confident purchase decision for a specific vehicle.",
+      "meta_description": "Full specs, inspection report, vehicle history, and pricing breakdown for every RevvLot listing. Know exactly what you're buying before you reserve.",
+      "sections": [
+        {
+          "id": "specs-section-1",
+          "type": "page_header",
+          "intent": "Introduce the specific vehicle listing with its key identity details and set the tone for a deep-dive information page.",
+          "eyebrow": "Vehicle Detail",
+          "headline": "2020 Honda Civic EX \u2014 Lunar Silver Metallic",
+          "subheadline": "42,000 miles \u00b7 1 Owner \u00b7 Clean Title \u00b7 Inspected & Certified \u00b7 Listed at $18,400",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve This Car \u2014 $99 Hold",
+              "target_page": "reserve"
+            },
+            {
+              "label": "See the Gallery",
+              "target_page": "gallery"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "specs-section-1-asset-1",
+              "kind": "mockup",
+              "subject": "Retro-styled vehicle listing dashboard card showing make, model, year, mileage, price, and inspection score in a pixelated 90s UI panel layout",
+              "purpose": "Visual summary card for the vehicle that anchors the page header and mimics a retro computer readout aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "specs-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specs-section-2",
+          "type": "feature_grid",
+          "intent": "Present the core mechanical and configuration specs in a scannable grid so technical buyers can quickly verify the vehicle meets their requirements.",
+          "eyebrow": "Under the Hood",
+          "headline": "Full Mechanical Specs",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Engine",
+              "description": "2.0L 4-Cylinder DOHC i-VTEC \u2014 158 hp / 138 lb-ft torque",
+              "metadata": {
+                "category": "Powertrain"
+              }
+            },
+            {
+              "title": "Transmission",
+              "description": "CVT Automatic with paddle shifters",
+              "metadata": {
+                "category": "Powertrain"
+              }
+            },
+            {
+              "title": "Drivetrain",
+              "description": "Front-Wheel Drive (FWD)",
+              "metadata": {
+                "category": "Powertrain"
+              }
+            },
+            {
+              "title": "Fuel Economy",
+              "description": "31 MPG City / 40 MPG Highway / 35 MPG Combined",
+              "metadata": {
+                "category": "Efficiency"
+              }
+            },
+            {
+              "title": "Exterior Color",
+              "description": "Lunar Silver Metallic",
+              "metadata": {
+                "category": "Appearance"
+              }
+            },
+            {
+              "title": "Interior",
+              "description": "Black cloth seating with heated front seats and dual-zone climate control",
+              "metadata": {
+                "category": "Comfort"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "specs-section-3",
+          "type": "stats",
+          "intent": "Highlight the 120-point inspection results as a confidence-building scorecard so the buyer trusts the vehicle's condition.",
+          "eyebrow": "RevvLot Inspection Report",
+          "headline": "This Car Passed. Here's the Proof.",
+          "subheadline": "Our certified mechanics checked 120 items across 8 systems. Here's the summary.",
+          "body": null,
+          "items": [
+            {
+              "title": "120 / 120",
+              "description": "Inspection points checked and passed",
+              "metadata": {
+                "system": "Overall"
+              }
+            },
+            {
+              "title": "Grade A",
+              "description": "Engine and transmission \u2014 no leaks, no codes, smooth operation",
+              "metadata": {
+                "system": "Powertrain"
+              }
+            },
+            {
+              "title": "8mm Front / 7mm Rear",
+              "description": "Brake pad depth \u2014 well above the 3mm replacement threshold",
+              "metadata": {
+                "system": "Brakes"
+              }
+            },
+            {
+              "title": "7/32 Tread",
+              "description": "Tire depth on all four corners \u2014 factory-fresh minimum is 10/32",
+              "metadata": {
+                "system": "Tires"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Download Full Inspection Report",
+              "target_page": "specs"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "specs-section-3-asset-1",
+              "kind": "chart",
+              "subject": "Retro-styled radial gauge or pixel-bar chart showing inspection scores across 8 vehicle systems: Engine, Transmission, Brakes, Tires, Electrical, Interior, Exterior, Safety",
+              "purpose": "Visual inspection scorecard that makes the 120-point report scannable and trustworthy at a glance",
+              "quantity": 1,
+              "used_by": [
+                "specs-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specs-section-4",
+          "type": "timeline",
+          "intent": "Show the vehicle's ownership and service history in chronological order so the buyer can trace its life and feel confident about its past.",
+          "eyebrow": "Vehicle History",
+          "headline": "Where This Car Has Been",
+          "subheadline": "1 owner. 3 service records. No accidents. No drama.",
+          "body": null,
+          "items": [
+            {
+              "title": "March 2020 \u2014 Original Purchase",
+              "description": "Sold new at Honda of Denver to a private owner. Title issued in Colorado.",
+              "metadata": {
+                "event": "purchase"
+              }
+            },
+            {
+              "title": "November 2020 \u2014 First Service",
+              "description": "Oil change and tire rotation at 7,500 miles. Performed at dealership.",
+              "metadata": {
+                "event": "service"
+              }
+            },
+            {
+              "title": "June 2022 \u2014 Second Service",
+              "description": "Oil change, cabin air filter replacement, and brake fluid flush at 28,000 miles.",
+              "metadata": {
+                "event": "service"
+              }
+            },
+            {
+              "title": "January 2024 \u2014 Third Service",
+              "description": "Oil change and multi-point inspection at 40,500 miles. All systems clear.",
+              "metadata": {
+                "event": "service"
+              }
+            },
+            {
+              "title": "April 2024 \u2014 Listed on RevvLot",
+              "description": "Vehicle submitted for RevvLot 120-point inspection. Passed with Grade A rating. Priced at $18,400.",
+              "metadata": {
+                "event": "listing"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "specs-section-5",
+          "type": "cta",
+          "intent": "Convert the informed buyer into a reservation with a clear, low-risk call to action that emphasizes the refundable hold and scarcity.",
+          "eyebrow": "Ready to Make It Yours?",
+          "headline": "This Civic Won't Sit Long. Lock It In.",
+          "subheadline": "Place a fully refundable $99 hold right now. No commitment, no pressure \u2014 just your name on the windshield.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve for $99 \u2014 Fully Refundable",
+              "target_page": "reserve"
+            },
+            {
+              "label": "View the Photo Gallery",
+              "target_page": "gallery"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "gallery",
+      "title": "Photo Gallery",
+      "role": "detail",
+      "goal": "Give the buyer a thorough visual walkthrough of the vehicle's exterior, interior, and mechanical condition to build visual confidence before reserving.",
+      "meta_description": "Browse the full photo gallery for this RevvLot listing. Exterior, interior, engine bay, and condition close-ups \u2014 every angle, no surprises.",
+      "sections": [
+        {
+          "id": "gallery-section-1",
+          "type": "page_header",
+          "intent": "Set the context for the gallery page and remind the visitor which vehicle they're viewing before they dive into the photos.",
+          "eyebrow": "Photo Gallery",
+          "headline": "See Every Inch. No Surprises.",
+          "subheadline": "2020 Honda Civic EX \u00b7 42,000 miles \u00b7 Lunar Silver Metallic \u00b7 47 photos across 6 categories",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Back to Full Specs",
+              "target_page": "specs"
+            },
+            {
+              "label": "Reserve This Car",
+              "target_page": "reserve"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "gallery-section-2",
+          "type": "gallery",
+          "intent": "Display the exterior walk-around photos so the buyer can assess body condition, paint, trim, and overall presentation from all angles.",
+          "eyebrow": "Exterior",
+          "headline": "Outside: All Four Corners Covered",
+          "subheadline": "Front, rear, driver side, passenger side, roof, and close-ups of any wear points.",
+          "body": null,
+          "items": [
+            {
+              "title": "Front 3/4 View",
+              "description": "Full front angle showing hood, grille, headlights, and bumper. No damage noted.",
+              "metadata": {
+                "photo_count": "4"
+              }
+            },
+            {
+              "title": "Rear 3/4 View",
+              "description": "Full rear angle showing taillights, bumper, and trunk. Minor wheel scuff on rear passenger rim.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            },
+            {
+              "title": "Driver Side Profile",
+              "description": "Full side shot. Paint is consistent. No door dings or panel damage.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            },
+            {
+              "title": "Passenger Side Profile",
+              "description": "Full side shot. Rocker panel clean. No scratches or dents.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "gallery-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "Top-down orthographic pixel-art diagram of a sedan with numbered hotspot markers indicating photo capture points around the vehicle perimeter",
+              "purpose": "Interactive visual guide showing where each exterior photo was taken, giving buyers spatial context for the gallery",
+              "quantity": 1,
+              "used_by": [
+                "gallery-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gallery-section-3",
+          "type": "gallery",
+          "intent": "Show the interior condition photos so the buyer can evaluate cabin cleanliness, seat wear, dashboard condition, and tech features.",
+          "eyebrow": "Interior",
+          "headline": "Inside: Clean Cabin, No Odors, No Stains",
+          "subheadline": "Dashboard, seats, cargo area, and all touchpoints documented.",
+          "body": null,
+          "items": [
+            {
+              "title": "Front Seats & Dashboard",
+              "description": "Cloth seats show minimal wear. No tears or staining. Dual-zone climate controls intact.",
+              "metadata": {
+                "photo_count": "5"
+              }
+            },
+            {
+              "title": "Rear Seats & Floor",
+              "description": "Rear bench clean. Floor mats in good condition. No pet hair or odors noted.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            },
+            {
+              "title": "Infotainment & Controls",
+              "description": "7-inch touchscreen operational. Apple CarPlay and Android Auto confirmed working.",
+              "metadata": {
+                "photo_count": "4"
+              }
+            },
+            {
+              "title": "Trunk & Cargo Area",
+              "description": "Cargo liner present. Spare tire and jack intact. No water intrusion.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "gallery-section-4",
+          "type": "gallery",
+          "intent": "Document the engine bay and undercarriage condition to satisfy mechanically-minded buyers who want to see what's under the hood.",
+          "eyebrow": "Mechanical",
+          "headline": "Under the Hood: Clean Bay, No Leaks",
+          "subheadline": "Engine bay, undercarriage, and fluid levels \u2014 all documented by our certified inspector.",
+          "body": null,
+          "items": [
+            {
+              "title": "Engine Bay Overview",
+              "description": "2.0L i-VTEC engine. No visible leaks. Hoses and belts in good condition. OEM air filter.",
+              "metadata": {
+                "photo_count": "4"
+              }
+            },
+            {
+              "title": "Fluid Levels",
+              "description": "Oil, coolant, brake fluid, and washer fluid all at or above minimum fill lines.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            },
+            {
+              "title": "Undercarriage",
+              "description": "No rust or corrosion. Exhaust system intact. Suspension components show normal wear.",
+              "metadata": {
+                "photo_count": "3"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "gallery-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Retro pixel-style icons for mechanical gallery categories: engine block, fluid bottle, and undercarriage cross-section",
+              "purpose": "Category icons for the mechanical gallery section tabs that reinforce the retro tech aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "gallery-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gallery-section-5",
+          "type": "cta",
+          "intent": "Capture the buyer's intent at the end of the gallery when visual confidence is at its peak, with a direct push to reserve.",
+          "eyebrow": "Seen Enough to Know?",
+          "headline": "47 Photos. 0 Surprises. Time to Make Your Move.",
+          "subheadline": "Reserve with a fully refundable $99 hold and take this Civic off the market today.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve for $99 \u2014 Fully Refundable",
+              "target_page": "reserve"
+            },
+            {
+              "label": "Review Full Specs First",
+              "target_page": "specs"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "reserve",
+      "title": "Reserve Your Car",
+      "role": "conversion",
+      "goal": "Convert a decided buyer into a confirmed reservation by walking them through the $99 hold process with maximum clarity, minimum friction, and strong trust signals.",
+      "meta_description": "Reserve your RevvLot vehicle with a fully refundable $99 hold. Lock in your car today and complete the purchase on your timeline \u2014 no pressure, no commitment.",
+      "sections": [
+        {
+          "id": "reserve-section-1",
+          "type": "page_header",
+          "intent": "Reassure the buyer they've made the right call and frame the reservation as a low-risk, empowering action \u2014 not a commitment.",
+          "eyebrow": "You're Almost There",
+          "headline": "Lock It In. The Lot Won't Wait.",
+          "subheadline": "Your $99 hold is fully refundable. No commitment until you're ready to close.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "reserve-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Retro pixel-art scene of a car with a RESERVED windshield placard and a hand holding an oversized key, styled like a 90s video game item unlock screen",
+              "purpose": "Emotional reward illustration at the top of the reservation page that makes the buyer feel like they've already won",
+              "quantity": 1,
+              "used_by": [
+                "reserve-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reserve-section-2",
+          "type": "story_block",
+          "intent": "Recap the specific vehicle being reserved so the buyer feels confident they're locking in the right car before entering any payment information.",
+          "eyebrow": "Your Selected Vehicle",
+          "headline": "2020 Honda Civic EX \u2014 Lunar Silver Metallic",
+          "subheadline": "42,000 miles \u00b7 $18,400 \u00b7 Denver, CO",
+          "body": "You're reserving this 1-owner, Grade A inspected Civic EX. Your $99 hold takes it off the market immediately. We'll reach out within 2 business hours to confirm next steps. If you change your mind for any reason, your $99 is refunded in full \u2014 no questions asked.",
+          "items": [
+            {
+              "title": "Reservation Hold Fee",
+              "description": "$99 \u2014 Fully refundable at any time before closing",
+              "metadata": {
+                "line_item": "hold"
+              }
+            },
+            {
+              "title": "Vehicle Price",
+              "description": "$18,400 \u2014 Market-validated, no hidden fees",
+              "metadata": {
+                "line_item": "price"
+              }
+            },
+            {
+              "title": "Estimated Total with Tax & Title",
+              "description": "$19,640 \u2014 Final figure confirmed at closing based on your location",
+              "metadata": {
+                "line_item": "total"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "reserve-section-3",
+          "type": "contact_block",
+          "intent": "Capture the buyer's contact and payment information to process the reservation hold and initiate the closing workflow.",
+          "eyebrow": "Step 1 of 2 \u2014 Your Info",
+          "headline": "Tell Us Who You Are",
+          "subheadline": "We'll use this to confirm your reservation and connect you with your dedicated RevvLot advisor.",
+          "body": null,
+          "items": [
+            {
+              "title": "Full Name",
+              "description": "First and last name as it appears on your ID",
+              "metadata": {
+                "field_type": "text",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Email Address",
+              "description": "Reservation confirmation will be sent here",
+              "metadata": {
+                "field_type": "email",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Phone Number",
+              "description": "Your advisor will call or text within 2 business hours",
+              "metadata": {
+                "field_type": "tel",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Preferred Contact Method",
+              "description": "Call, text, or email \u2014 your choice",
+              "metadata": {
+                "field_type": "select",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Financing Needed?",
+              "description": "Let us know if you'd like RevvLot financing options or if you're paying cash or using your own lender",
+              "metadata": {
+                "field_type": "radio",
+                "required": "false"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Continue to Payment \u2014 $99 Hold",
+              "target_page": "reserve"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "reserve-section-4",
+          "type": "feature_grid",
+          "intent": "Neutralize last-minute hesitation by restating the key trust and safety guarantees of the RevvLot reservation system right next to the form.",
+          "eyebrow": "Why You Can Reserve With Confidence",
+          "headline": "The RevvLot Guarantee",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "100% Refundable Hold",
+              "description": "Changed your mind? Get your $99 back instantly, no forms, no runaround, no awkward calls.",
+              "metadata": {
+                "icon": "shield_check"
+              }
+            },
+            {
+              "title": "No Obligation to Buy",
+              "description": "A reservation is not a purchase. You have full control over the timeline and final decision.",
+              "metadata": {
+                "icon": "handshake"
+              }
+            },
+            {
+              "title": "Secure Payment Processing",
+              "description": "Your payment info is encrypted and never stored. We use bank-level SSL security on every transaction.",
+              "metadata": {
+                "icon": "lock_badge"
+              }
+            },
+            {
+              "title": "Dedicated Advisor Assigned",
+              "description": "A real human RevvLot advisor is assigned to your reservation within 2 hours to guide you through closing.",
+              "metadata": {
+                "icon": "person_badge"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "reserve-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Set of four retro pixel-art trust icons: a shield with a checkmark, two hands in a handshake, a padlock with a badge, and a person silhouette with a star badge",
+              "purpose": "Trust signal icons for the guarantee grid that visually reinforce the safety of the reservation process",
+              "quantity": 1,
+              "used_by": [
+                "reserve-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reserve-section-5",
+          "type": "faq",
+          "intent": "Answer the most common pre-reservation questions to eliminate the final objections that prevent buyers from completing the hold.",
+          "eyebrow": "Got Questions?",
+          "headline": "Everything You're Wondering About the $99 Hold",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Is the $99 really refundable?",
+              "description": "Yes. 100%. If you decide not to buy for any reason \u2014 or no reason at all \u2014 we refund your $99 within 1 business day. No questions, no fees, no hassle.",
+              "metadata": {}
+            },
+            {
+              "title": "How long does the hold last?",
+              "description": "Your hold keeps the vehicle off the market for 5 business days. Need more time? Contact your advisor and we'll work with you.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I still negotiate the price after reserving?",
+              "description": "The listed price is already market-validated and firm. What you see is what you pay \u2014 no negotiation theater.",
+              "metadata": {}
+            },
+            {
+              "title": "What happens after I place the hold?",
+              "description": "You'll get an email confirmation immediately. Your RevvLot advisor will contact you within 2 business hours to schedule inspection, arrange financing if needed, and confirm delivery or pickup.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I reserve more than one car?",
+              "description": "You can place holds on up to 2 vehicles at a time. Each hold is independent and fully refundable.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Reserve Now \u2014 $99 Fully Refundable",
+              "target_page": "reserve"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

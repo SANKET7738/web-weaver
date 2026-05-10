@@ -1,0 +1,19 @@
+{
+  "id": "ww-00041",
+  "version": "0.1",
+  "site_domain": "portfolio",
+  "site_subdomain": "creative developer portfolio",
+  "design_aesthetic": "warm_artisanal",
+  "layout_family": "dashboard_product",
+  "page_set": [
+    "home",
+    "work",
+    "experiments",
+    "writing",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 20,
+  "source": "web-weaver.concept_sampler"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ww-00038",
+  "version": "0.1",
+  "site_domain": "nonprofit",
+  "site_subdomain": "ocean cleanup initiative",
+  "design_aesthetic": "accessible_plain",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "programs",
+    "volunteer",
+    "resources",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 17,
+  "source": "web-weaver.concept_sampler"
+}

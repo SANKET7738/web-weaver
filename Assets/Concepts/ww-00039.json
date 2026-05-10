@@ -1,0 +1,19 @@
+{
+  "id": "ww-00039",
+  "version": "0.1",
+  "site_domain": "retail_ecommerce",
+  "site_subdomain": "tea subscription service",
+  "design_aesthetic": "neumorphism",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "shop",
+    "subscriptions",
+    "faq",
+    "contact"
+  ],
+  "difficulty": "medium",
+  "seed": 2569918234,
+  "sample_index": 18,
+  "source": "web-weaver.concept_sampler"
+}

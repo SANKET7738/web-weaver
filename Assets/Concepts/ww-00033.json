@@ -1,0 +1,19 @@
+{
+  "id": "ww-00033",
+  "version": "0.1",
+  "site_domain": "fashion_ecommerce",
+  "site_subdomain": "lingerie brand",
+  "design_aesthetic": "clinical_health",
+  "layout_family": "dashboard_product",
+  "page_set": [
+    "home",
+    "collection",
+    "materials",
+    "campaign",
+    "stockists"
+  ],
+  "difficulty": "medium",
+  "seed": 2569918234,
+  "sample_index": 12,
+  "source": "web-weaver.concept_sampler"
+}

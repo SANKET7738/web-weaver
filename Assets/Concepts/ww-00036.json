@@ -1,0 +1,19 @@
+{
+  "id": "ww-00036",
+  "version": "0.1",
+  "site_domain": "legal_professional",
+  "site_subdomain": "tax accounting studio",
+  "design_aesthetic": "corporate_clean",
+  "layout_family": "sidebar_navigation",
+  "page_set": [
+    "home",
+    "services",
+    "team",
+    "insights",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 15,
+  "source": "web-weaver.concept_sampler"
+}

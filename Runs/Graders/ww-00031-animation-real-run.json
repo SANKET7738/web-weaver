@@ -1,0 +1,170 @@
+{
+  "job_dir": "jobs/2026-05-11__03-23-19/harbor__yuBfZ9q",
+  "harbor_task_dir": "Runs/SiteGeneration/ww-00031/attempt-003/harbor",
+  "results": {
+    "animation_temporal": {
+      "page_01": {
+        "score": 0.6774143245645378,
+        "components": {
+          "temporal_corr": 0.9768635473839011,
+          "onload_match": 0.8962338920758137,
+          "bottom_hold_match": 0.15914553423389846
+        },
+        "metadata": {
+          "grader": "animation_temporal",
+          "elapsed_ms": 802.5383330023033,
+          "num_bins": 16
+        },
+        "elapsed_ms": 821.6662080012611
+      },
+      "page_02": {
+        "score": 0.5474424967885465,
+        "components": {
+          "temporal_corr": 0.9670195413101464,
+          "onload_match": 0.6177331005524632,
+          "bottom_hold_match": 0.057574848503029935
+        },
+        "metadata": {
+          "grader": "animation_temporal",
+          "elapsed_ms": 644.6852500012028,
+          "num_bins": 16
+        },
+        "elapsed_ms": 650.4490829975111
+      },
+      "page_03": {
+        "score": 0.7676241873226531,
+        "components": {
+          "temporal_corr": 0.89126826203046,
+          "onload_match": 0.4712823919685782,
+          "bottom_hold_match": 0.9403219079689213
+        },
+        "metadata": {
+          "grader": "animation_temporal",
+          "elapsed_ms": 648.5643330015591,
+          "num_bins": 16
+        },
+        "elapsed_ms": 653.2408330022008
+      },
+      "page_04": {
+        "score": 0.7839895156864342,
+        "components": {
+          "temporal_corr": 0.9968587051825478,
+          "onload_match": 0.8982607977106375,
+          "bottom_hold_match": 0.4568490441661174
+        },
+        "metadata": {
+          "grader": "animation_temporal",
+          "elapsed_ms": 653.3134580022306,
+          "num_bins": 16
+        },
+        "elapsed_ms": 659.5261669936008
+      },
+      "page_05": {
+        "score": 0.6018255021409917,
+        "components": {
+          "temporal_corr": 0.9616651978937157,
+          "onload_match": 0.652835716438291,
+          "bottom_hold_match": 0.1909755920909684
+        },
+        "metadata": {
+          "grader": "animation_temporal",
+          "elapsed_ms": 702.5118750025285,
+          "num_bins": 16
+        },
+        "elapsed_ms": 710.1111670053797
+      }
+    },
+    "animation_vlm": {
+      "page_01": {
+        "score": 0.76,
+        "components": {
+          "entrance_match": 0.6,
+          "scroll_reveal_match": 0.8,
+          "ambient_motion_match": 0.8,
+          "intensity_calibration": 0.6,
+          "steady_state_match": 1.0
+        },
+        "reasons": {
+          "entrance_match": "Reference shows a staged entrance with text appearing then the underline highlight sweeping in and illustration appearing, while the agent jumps to a near-complete state by t=0.88s without the same progressive build.",
+          "scroll_reveal_match": "Both sequences progress through similar sections during scroll at roughly matching timestamps, though the agent's reveals appear less staged than the reference's underline/highlight reveals.",
+          "ambient_motion_match": "The final bottom-hold frames in both sequences look essentially static with no visible ambient looped motion difference.",
+          "intensity_calibration": "Overall motion energy is comparable with similar scroll pacing and section transitions, though the agent's entrance is more abrupt than the reference's layered build-up.",
+          "steady_state_match": "The final frames match closely with the same footer layout, purple background, CTA, and footer columns visible."
+        },
+        "elapsed_ms": 9317.971583004692
+      },
+      "page_02": {
+        "score": 0.72,
+        "components": {
+          "entrance_match": 0.4,
+          "scroll_reveal_match": 0.8,
+          "ambient_motion_match": 0.8,
+          "intensity_calibration": 0.6,
+          "steady_state_match": 1.0
+        },
+        "reasons": {
+          "entrance_match": "Reference reveals 'Three days drawn from the best of jazz culture.' progressively word-by-word with a staggered fade-in across t=0-2s, while the agent jumps from blank to fully-formed text by frame 2 with no staged reveal.",
+          "scroll_reveal_match": "Both sequences show the sections appearing in similar order during scroll, but the reference doesn't show distinctive per-card reveals and the agent's progression roughly tracks it.",
+          "ambient_motion_match": "Reference's bottom-hold frames (14-16) appear static, and the agent's final frames are likewise static, matching the lack of ambient motion.",
+          "intensity_calibration": "The agent has noticeably less motion energy than the reference because it skips the signature staggered headline entrance, but otherwise the scroll energy is similar.",
+          "steady_state_match": "The final frame of the agent closely matches the reference's bottom-of-page footer state with the same CTA, footer columns, and layout."
+        },
+        "elapsed_ms": 9376.541124998766
+      },
+      "page_03": {
+        "score": 0.72,
+        "components": {
+          "entrance_match": 0.6,
+          "scroll_reveal_match": 0.6,
+          "ambient_motion_match": 0.8,
+          "intensity_calibration": 0.6,
+          "steady_state_match": 1.0
+        },
+        "reasons": {
+          "entrance_match": "Reference shows a progressive text reveal where 'Forty/Three stages/Zero bad seats' appears first then the larger Inkwell Jazz Festival title builds in, while the agent shows all the text essentially present from frame 2 with little staged buildup.",
+          "scroll_reveal_match": "Both sequences progress through the same sections at roughly comparable timestamps with cards and content appearing during scroll, though the agent's reveals look more like plain scrolling rather than distinct triggered reveals.",
+          "ambient_motion_match": "The final hold frames in both sequences appear essentially static with no obvious looped ambient motion in either, so they match by absence.",
+          "intensity_calibration": "Overall motion energy is in the same ballpark \u2014 restrained editorial feel with a text entrance and scroll progression \u2014 though the agent's entrance is less elaborate than the reference's layered build.",
+          "steady_state_match": "The final frame of the agent closely matches the reference's footer state with the same CTA section, footer columns, and tagline visible."
+        },
+        "elapsed_ms": 9982.33262499707
+      },
+      "page_04": {
+        "score": 0.68,
+        "components": {
+          "entrance_match": 0.4,
+          "scroll_reveal_match": 0.8,
+          "ambient_motion_match": 0.6,
+          "intensity_calibration": 0.6,
+          "steady_state_match": 1.0
+        },
+        "reasons": {
+          "entrance_match": "Reference shows a clear text reveal where 'Know' appears first then the rest of the headline builds in, while the agent jumps from blank to fully-formed headline without the staged word reveal.",
+          "scroll_reveal_match": "Scroll progression timing roughly matches and sections appear at comparable timestamps, though the agent lacks the subtle squiggle underline reveal seen in the reference.",
+          "ambient_motion_match": "The reference shows an ambient compass/arrow rotation on the map (frame 8) which the agent's map appears to lack, and final frames look identical and static in both.",
+          "intensity_calibration": "Overall motion energy is slightly lower in the agent due to missing entrance staging and ambient compass spin, but the general restrained calibration is comparable.",
+          "steady_state_match": "The final frame of the agent matches the reference's final state closely with the same footer, FAQ section, and layout."
+        },
+        "elapsed_ms": 9603.402332999394
+      },
+      "page_05": {
+        "score": 0.76,
+        "components": {
+          "entrance_match": 0.6,
+          "scroll_reveal_match": 0.8,
+          "ambient_motion_match": 0.8,
+          "intensity_calibration": 0.8,
+          "steady_state_match": 0.8
+        },
+        "reasons": {
+          "entrance_match": "Reference shows the heading already fully rendered at t=0 with minimal change in the top-hold window, while the agent shows a clear text fade-in entrance from t=0 to t=0.8s, so the entrance behavior differs somewhat.",
+          "scroll_reveal_match": "Both sequences progress through scroll at similar cadence revealing the ticket cards, testimonials, and footer at roughly matching timestamps without distinct reveal animations.",
+          "ambient_motion_match": "The final bottom-hold frames in both sequences appear essentially static with no visible looped/ambient motion in either.",
+          "intensity_calibration": "Overall motion energy is comparable - both are restrained with scroll being the dominant motion, though the agent adds an extra entrance fade not present in the reference.",
+          "steady_state_match": "Final frames match closely with the same footer layout, CTA buttons, and purple background section, though minor text/styling differences exist."
+        },
+        "elapsed_ms": 8542.077250000148
+      }
+    }
+  }
+}

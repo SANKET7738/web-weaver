@@ -1,0 +1,19 @@
+{
+  "id": "ww-00040",
+  "version": "0.1",
+  "site_domain": "nonprofit",
+  "site_subdomain": "local journalism nonprofit",
+  "design_aesthetic": "cyberpunk",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "programs",
+    "volunteer",
+    "resources",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 19,
+  "source": "web-weaver.concept_sampler"
+}

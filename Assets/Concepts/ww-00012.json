@@ -1,0 +1,19 @@
+{
+  "id": "ww-00012",
+  "version": "0.1",
+  "site_domain": "arts_culture",
+  "site_subdomain": "photography exhibition",
+  "design_aesthetic": "ai_lab",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "season",
+    "performances",
+    "tickets",
+    "visit"
+  ],
+  "difficulty": "hard",
+  "seed": 88463792,
+  "sample_index": 1,
+  "source": "web-weaver.concept_sampler"
+}

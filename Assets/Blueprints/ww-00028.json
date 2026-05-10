@@ -1,0 +1,647 @@
+{
+  "id": "ww-00028",
+  "version": "0.1",
+  "concept_id": "ww-00028",
+  "identity": {
+    "name": "Hearthstone Law",
+    "tagline": "Your legacy, carefully crafted.",
+    "one_line_description": "Hearthstone Law is a boutique estate planning practice that helps families and individuals protect their assets, honor their wishes, and secure their loved ones' futures through thoughtful, personalized legal counsel.",
+    "domain": "legal_professional",
+    "subdomain": "estate planning practice",
+    "voice": [
+      "warm",
+      "authoritative",
+      "trustworthy",
+      "precise"
+    ],
+    "target_audience": "Adults aged 35\u201370 who are building wealth, raising families, or approaching retirement and want professional guidance to create wills, trusts, powers of attorney, and comprehensive estate plans."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately establish trust and warmth, communicate the firm's core value proposition in estate planning, and guide visitors toward booking a consultation or exploring services.",
+      "meta_description": "Hearthstone Law helps families protect what matters most through expert estate planning, wills, trusts, and powers of attorney. Schedule your consultation today.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Capture attention and emotionally connect with visitors by speaking directly to the desire to protect family and legacy, while establishing Hearthstone Law as a trusted, established firm.",
+          "eyebrow": "Estate Planning Attorneys",
+          "headline": "Protect What You've Built. Provide for Those You Love.",
+          "subheadline": "Hearthstone Law crafts personalized estate plans that honor your wishes, safeguard your assets, and give your family lasting peace of mind.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Schedule a Free Consultation",
+              "target_page": "book"
+            },
+            {
+              "label": "Explore Our Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A stylized house with a protective shield and document scroll, rendered in a tactile skeuomorphic style suggesting permanence and care.",
+              "purpose": "Anchor the hero visually with a warm, trustworthy symbol that bridges home, protection, and legal documentation.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Quickly orient visitors to the firm's key practice areas so they can self-identify their need and feel confident the firm handles their situation.",
+          "eyebrow": "What We Do",
+          "headline": "Comprehensive Estate Planning Under One Roof",
+          "subheadline": "From simple wills to complex trust structures, we guide you through every step.",
+          "body": null,
+          "items": [
+            {
+              "title": "Wills & Testaments",
+              "description": "Clearly document your wishes for asset distribution, guardianship of minor children, and final arrangements.",
+              "metadata": {}
+            },
+            {
+              "title": "Revocable Living Trusts",
+              "description": "Avoid probate, maintain privacy, and ensure seamless transfer of your estate to your beneficiaries.",
+              "metadata": {}
+            },
+            {
+              "title": "Powers of Attorney",
+              "description": "Designate trusted individuals to manage your financial and medical decisions if you become incapacitated.",
+              "metadata": {}
+            },
+            {
+              "title": "Healthcare Directives",
+              "description": "Articulate your medical preferences in advance so your family never faces impossible decisions alone.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "testimonial",
+          "intent": "Build social proof and emotional resonance by showing real client experiences, reinforcing that Hearthstone Law delivers both legal expertise and genuine human care.",
+          "eyebrow": "Client Stories",
+          "headline": "Families Who Found Peace of Mind",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Margaret & Thomas R., Retired Educators",
+              "description": "\"We put off estate planning for years because it felt overwhelming. Hearthstone made the entire process feel manageable and even meaningful. Our children now have a clear roadmap.\"",
+              "metadata": {}
+            },
+            {
+              "title": "David K., Small Business Owner",
+              "description": "\"I needed a plan that protected both my business and my family. The team at Hearthstone understood the complexity and delivered a trust structure that gave me complete confidence.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Sandra L., Single Parent",
+              "description": "\"As a single mom, making sure my kids are cared for if something happens to me was everything. Hearthstone guided me with patience and real expertise.\"",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "cta",
+          "intent": "Convert warmed-up visitors into booked consultations with a direct, low-friction invitation that reinforces the firm's approachability.",
+          "eyebrow": "Take the First Step",
+          "headline": "Your Estate Plan Starts with a Conversation",
+          "subheadline": "Schedule a complimentary 30-minute consultation and discover exactly what your family needs to be protected.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book Your Free Consultation",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "role": "editorial",
+      "goal": "Humanize the firm by telling the story of its founding philosophy, the attorneys behind it, and the values that guide every client relationship, building deep trust before a visitor commits to working with the firm.",
+      "meta_description": "Meet the Hearthstone Law team \u2014 experienced estate planning attorneys dedicated to helping families protect their legacies with care, clarity, and integrity.",
+      "sections": [
+        {
+          "id": "about-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the About page by framing the firm's identity around people and purpose rather than credentials alone.",
+          "eyebrow": "Our Story",
+          "headline": "Built on the Belief That Every Family Deserves a Plan",
+          "subheadline": "Hearthstone Law was founded on the conviction that estate planning is one of the most profound acts of love a person can undertake.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-2",
+          "type": "story_block",
+          "intent": "Tell the firm's founding narrative in a compelling, personal way that distinguishes Hearthstone from transactional legal practices and creates emotional alignment with the visitor.",
+          "eyebrow": "Why We Do This Work",
+          "headline": "A Practice Born from Personal Experience",
+          "subheadline": null,
+          "body": "Founding attorney Eleanor Marsh began her career at a large regional firm, where she watched families navigate the chaos of losing a loved one without a plan in place. She saw estates tied up in probate for years, sibling relationships fractured over ambiguous wills, and grieving spouses left without access to basic funds. In 2009, she opened Hearthstone Law with a singular mission: to make thoughtful, thorough estate planning accessible to every family \u2014 not just the wealthy few. Today, the firm has helped over 1,400 families across the region put plans in place they can trust.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "about-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A stylized timeline ribbon showing key milestones of a law firm's growth, rendered with a skeuomorphic document-and-seal aesthetic.",
+              "purpose": "Visually reinforce the firm's history and longevity alongside the founding narrative.",
+              "quantity": 1,
+              "used_by": [
+                "about-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "about-section-3",
+          "type": "item_grid",
+          "intent": "Introduce the attorneys and key staff so visitors can put faces and expertise to the firm, building personal connection and confidence in the team.",
+          "eyebrow": "The Team",
+          "headline": "Attorneys Who Listen First, Then Plan",
+          "subheadline": "Our attorneys combine deep legal expertise with a genuine commitment to understanding each client's unique family situation.",
+          "body": null,
+          "items": [
+            {
+              "title": "Eleanor Marsh, J.D., LL.M.",
+              "description": "Founding attorney and estate planning specialist with 20+ years of experience. Eleanor earned her LL.M. in Taxation from Georgetown and has been recognized as a Top Estate Planning Attorney by the State Bar Association for six consecutive years.",
+              "metadata": {
+                "role": "Founding Attorney"
+              }
+            },
+            {
+              "title": "James Okafor, J.D.",
+              "description": "James focuses on trust administration, business succession planning, and high-net-worth estate strategies. He brings 12 years of experience and a reputation for making complex structures easy to understand.",
+              "metadata": {
+                "role": "Senior Associate"
+              }
+            },
+            {
+              "title": "Priya Nair, J.D.",
+              "description": "Priya specializes in blended family estate planning, special needs trusts, and Medicaid planning. She is known for her empathetic approach and meticulous attention to detail.",
+              "metadata": {
+                "role": "Associate Attorney"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-4",
+          "type": "feature_grid",
+          "intent": "Articulate the firm's core values in a tangible, specific way that differentiates Hearthstone from competitors and gives visitors a clear sense of what working with the firm feels like.",
+          "eyebrow": "Our Values",
+          "headline": "The Principles That Guide Every Plan We Write",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Clarity Over Complexity",
+              "description": "We translate legal language into plain English so you always understand exactly what your documents say and why.",
+              "metadata": {}
+            },
+            {
+              "title": "Plans That Fit Your Life",
+              "description": "No templates. Every estate plan is built around your specific family, assets, and intentions.",
+              "metadata": {}
+            },
+            {
+              "title": "Relationships, Not Transactions",
+              "description": "We maintain long-term relationships with clients, updating plans as life changes so your estate plan always reflects your current wishes.",
+              "metadata": {}
+            },
+            {
+              "title": "Accessible Expertise",
+              "description": "Exceptional estate planning should not be a luxury. We offer transparent pricing and flexible consultations to serve families at every stage.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Work With Our Team",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "role": "overview",
+      "goal": "Give visitors a clear, comprehensive picture of every service the firm offers, help them identify which services apply to their situation, and move them toward booking a consultation.",
+      "meta_description": "Explore Hearthstone Law's full range of estate planning services including wills, trusts, powers of attorney, healthcare directives, and business succession planning.",
+      "sections": [
+        {
+          "id": "services-section-1",
+          "type": "page_header",
+          "intent": "Frame the services page as a resource for discovery, inviting visitors to find the services that match their life stage and needs.",
+          "eyebrow": "Our Practice Areas",
+          "headline": "Every Tool You Need to Protect Your Legacy",
+          "subheadline": "Estate planning is not one-size-fits-all. Explore our full range of services and find the plan that fits your family.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "services-section-1-asset-1",
+              "kind": "icon",
+              "subject": "A set of five distinct skeuomorphic legal document icons representing wills, trusts, power of attorney, healthcare directives, and business succession.",
+              "purpose": "Provide visual anchors for each service category card, making the grid scannable and grounded in recognizable legal symbolism.",
+              "quantity": 1,
+              "used_by": [
+                "services-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-section-2",
+          "type": "item_grid",
+          "intent": "Present the core estate planning services as distinct, digestible cards that explain what each service is, who needs it, and what it accomplishes.",
+          "eyebrow": "Core Services",
+          "headline": "Plans Designed for Every Stage of Life",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Last Will & Testament",
+              "description": "A legally binding document that specifies how your assets will be distributed, names guardians for minor children, and appoints an executor to carry out your wishes. Ideal for individuals and families at any asset level.",
+              "metadata": {
+                "ideal_for": "Individuals, parents with minor children"
+              }
+            },
+            {
+              "title": "Revocable Living Trust",
+              "description": "A flexible trust that holds your assets during your lifetime and transfers them to beneficiaries without probate. Maintains privacy and allows you to retain full control while you are living.",
+              "metadata": {
+                "ideal_for": "Homeowners, those with significant assets, blended families"
+              }
+            },
+            {
+              "title": "Durable Power of Attorney",
+              "description": "Designates a trusted agent to manage your financial affairs \u2014 paying bills, managing investments, filing taxes \u2014 if you become unable to do so yourself.",
+              "metadata": {
+                "ideal_for": "All adults, especially those with aging parents or health concerns"
+              }
+            },
+            {
+              "title": "Healthcare Directive & Living Will",
+              "description": "Documents your medical treatment preferences and designates a healthcare proxy to make decisions on your behalf if you are incapacitated.",
+              "metadata": {
+                "ideal_for": "All adults 18 and older"
+              }
+            },
+            {
+              "title": "Special Needs Trust",
+              "description": "Provides for a family member with disabilities without disqualifying them from government benefits such as Medicaid or SSI. Carefully structured to supplement, not replace, public assistance.",
+              "metadata": {
+                "ideal_for": "Families with a disabled child or dependent"
+              }
+            },
+            {
+              "title": "Business Succession Planning",
+              "description": "Ensures your business continues smoothly after your retirement, incapacity, or death. Includes buy-sell agreements, ownership transfer strategies, and key-person planning.",
+              "metadata": {
+                "ideal_for": "Business owners, partners, entrepreneurs"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-3",
+          "type": "story_block",
+          "intent": "Explain the firm's process so visitors understand what working with Hearthstone actually looks like, reducing anxiety about getting started.",
+          "eyebrow": "How It Works",
+          "headline": "From First Conversation to Signed Documents \u2014 We Guide Every Step",
+          "subheadline": null,
+          "body": "Our process begins with a complimentary consultation where we listen to your goals, family situation, and concerns. From there, we design a customized plan, walk you through every document in plain language, and refine it until it perfectly reflects your wishes. Once signed and executed, we store your plan securely and invite you back for a complimentary review every three years \u2014 or whenever a major life event occurs.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-4",
+          "type": "cta",
+          "intent": "Convert visitors who have reviewed the services into booked consultations by offering a clear, confident next step.",
+          "eyebrow": "Ready to Begin?",
+          "headline": "Let's Build the Right Plan for Your Family",
+          "subheadline": "Schedule a free 30-minute consultation and walk away with a clear picture of exactly what your estate plan should include.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Free Consultation",
+              "target_page": "book"
+            },
+            {
+              "label": "Read Our Planning Guides",
+              "target_page": "articles"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "articles",
+      "title": "Articles",
+      "role": "editorial",
+      "goal": "Establish Hearthstone Law as a trusted educational authority in estate planning, provide genuine value to visitors researching their options, and build SEO-driven organic discovery.",
+      "meta_description": "Read Hearthstone Law's estate planning guides and articles covering wills, trusts, probate, powers of attorney, and more \u2014 written in plain English for families.",
+      "sections": [
+        {
+          "id": "articles-section-1",
+          "type": "page_header",
+          "intent": "Frame the articles section as a helpful resource library, not a marketing channel, to set the right tone for educational content.",
+          "eyebrow": "Planning Guides & Insights",
+          "headline": "Understand Your Options Before You Decide",
+          "subheadline": "Our attorneys write plainly about estate planning so you can make informed decisions with confidence.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "articles-section-2",
+          "type": "article_list",
+          "intent": "Surface the most valuable and popular articles to help visitors quickly find content relevant to their situation.",
+          "eyebrow": "Featured Articles",
+          "headline": "Start Here: The Essentials of Estate Planning",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Will vs. Trust: Which One Does Your Family Actually Need?",
+              "description": "A practical comparison of wills and revocable living trusts \u2014 when each is appropriate, what they cost, and how they interact with probate.",
+              "metadata": {
+                "category": "Planning Basics",
+                "read_time": "7 min read"
+              }
+            },
+            {
+              "title": "The 5 Documents Every Adult Should Have in Place",
+              "description": "Beyond a will, a complete estate plan includes four other critical documents. Here is what each one does and why it matters.",
+              "metadata": {
+                "category": "Getting Started",
+                "read_time": "5 min read"
+              }
+            },
+            {
+              "title": "What Happens If You Die Without a Will in This State?",
+              "description": "Intestate succession laws determine who inherits your assets if you have no will. The results often surprise families.",
+              "metadata": {
+                "category": "Probate & Intestacy",
+                "read_time": "6 min read"
+              }
+            },
+            {
+              "title": "How to Choose the Right Executor for Your Estate",
+              "description": "The executor role carries real legal responsibility. Learn what qualities to look for and what questions to ask before you name someone.",
+              "metadata": {
+                "category": "Wills & Executors",
+                "read_time": "5 min read"
+              }
+            },
+            {
+              "title": "Estate Planning for Blended Families: Navigating Competing Interests",
+              "description": "Second marriages and stepchildren create unique estate planning challenges. Discover the strategies that protect everyone fairly.",
+              "metadata": {
+                "category": "Family Planning",
+                "read_time": "8 min read"
+              }
+            },
+            {
+              "title": "When Should You Update Your Estate Plan?",
+              "description": "Marriage, divorce, new children, a move to another state \u2014 life events that require an immediate review of your existing documents.",
+              "metadata": {
+                "category": "Plan Maintenance",
+                "read_time": "4 min read"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "articles-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A skeuomorphic open book with a bookmark and a small magnifying glass, representing legal research and accessible knowledge.",
+              "purpose": "Provide a visual motif for the articles section that communicates learning and expertise without feeling corporate.",
+              "quantity": 1,
+              "used_by": [
+                "articles-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "articles-section-3",
+          "type": "feature_grid",
+          "intent": "Organize the article library by topic category so returning visitors and researchers can navigate to their area of interest efficiently.",
+          "eyebrow": "Browse by Topic",
+          "headline": "Find the Guidance That Fits Your Situation",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Planning Basics",
+              "description": "Foundational guides for anyone new to estate planning \u2014 what it is, why it matters, and where to start.",
+              "metadata": {}
+            },
+            {
+              "title": "Trusts & Probate",
+              "description": "In-depth explanations of trust structures, probate avoidance strategies, and trust administration.",
+              "metadata": {}
+            },
+            {
+              "title": "Family & Life Events",
+              "description": "Planning guidance for marriage, divorce, new children, blended families, and caring for aging parents.",
+              "metadata": {}
+            },
+            {
+              "title": "Business Owners",
+              "description": "Succession planning, buy-sell agreements, and protecting your business as part of your broader estate.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "articles-section-4",
+          "type": "cta",
+          "intent": "Convert readers who have engaged with educational content into consultation bookings by connecting their newfound knowledge to a clear next action.",
+          "eyebrow": "Ready to Put This Into Action?",
+          "headline": "Knowledge Is the First Step. A Plan Is the Next One.",
+          "subheadline": "Bring your questions to a free consultation and let our attorneys help you turn what you've learned into a plan that protects your family.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Free Consultation",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "title": "Book a Consultation",
+      "role": "conversion",
+      "goal": "Convert motivated visitors into confirmed consultation appointments by removing friction, reinforcing trust, and making the booking process feel simple, welcoming, and worthwhile.",
+      "meta_description": "Schedule your free 30-minute estate planning consultation with Hearthstone Law. Meet with an experienced attorney and leave with a clear plan for protecting your family.",
+      "sections": [
+        {
+          "id": "book-section-1",
+          "type": "page_header",
+          "intent": "Set a calm, confident tone that reassures visitors they are making a smart, easy decision by booking, and that the firm is ready to meet them where they are.",
+          "eyebrow": "Free 30-Minute Consultation",
+          "headline": "Let's Talk About What Your Family Needs",
+          "subheadline": "No pressure. No jargon. Just an honest conversation about your goals and how we can help you protect what matters most.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "book-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A skeuomorphic desk calendar with a single date highlighted and a small pen resting on it, evoking a warm and organized appointment-setting moment.",
+              "purpose": "Reinforce the booking action visually with a familiar, tactile symbol that feels approachable rather than transactional.",
+              "quantity": 1,
+              "used_by": [
+                "book-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "book-section-2",
+          "type": "contact_block",
+          "intent": "Present the booking form and contact options in a clear, welcoming layout that minimizes friction and gives visitors multiple ways to connect with the firm.",
+          "eyebrow": "Schedule Your Appointment",
+          "headline": "Choose the Time That Works for You",
+          "subheadline": "We offer consultations by phone, video, or in-person at our office. Select your preference below.",
+          "body": "Fill out the short form and a member of our team will confirm your appointment within one business day. Prefer to call? Reach us directly at (555) 847-2200, Monday through Friday, 9am\u20135pm.",
+          "items": [
+            {
+              "title": "Phone Consultation",
+              "description": "A relaxed 30-minute call with one of our estate planning attorneys from the comfort of your home.",
+              "metadata": {}
+            },
+            {
+              "title": "Video Consultation",
+              "description": "A face-to-face meeting via secure video call \u2014 no travel required.",
+              "metadata": {}
+            },
+            {
+              "title": "In-Person Meeting",
+              "description": "Visit our office and meet your attorney in a comfortable, private setting.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "book-section-3",
+          "type": "feature_grid",
+          "intent": "Reduce last-minute hesitation by clearly stating what the visitor will get from the consultation, making the value concrete and the decision easy.",
+          "eyebrow": "What to Expect",
+          "headline": "Your Free Consultation Includes",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "A Review of Your Current Situation",
+              "description": "We'll listen to your family structure, asset overview, and any existing documents you have in place.",
+              "metadata": {}
+            },
+            {
+              "title": "A Clear Explanation of Your Options",
+              "description": "We'll explain exactly which documents and structures apply to your situation \u2014 in plain English, not legalese.",
+              "metadata": {}
+            },
+            {
+              "title": "An Honest Assessment of Gaps",
+              "description": "We'll identify what's missing or outdated in your current plan and explain why it matters.",
+              "metadata": {}
+            },
+            {
+              "title": "A Recommended Next Step",
+              "description": "You'll leave with a clear, actionable recommendation \u2014 no obligation to proceed, but a firm direction if you choose to.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "book-section-4",
+          "type": "testimonial",
+          "intent": "Provide final social proof at the point of conversion to reassure hesitant visitors that booking was the right decision for others like them.",
+          "eyebrow": "What Clients Say",
+          "headline": "The Consultation Was Worth Every Minute",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Robert & Anne T., Homeowners",
+              "description": "\"We walked in thinking we just needed a simple will. After the consultation, we understood why a trust made far more sense for our situation. We left with a real plan \u2014 not just a to-do item.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Carlos M., Entrepreneur",
+              "description": "\"I had been putting this off for three years. The consultation took 30 minutes and answered every question I had. I wished I'd done it sooner.\"",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

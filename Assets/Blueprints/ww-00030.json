@@ -1,0 +1,463 @@
+{
+  "id": "ww-00030",
+  "version": "0.1",
+  "concept_id": "ww-00030",
+  "identity": {
+    "name": "Axiom Hotel",
+    "tagline": "Precision. Comfort. Forward.",
+    "one_line_description": "Axiom Hotel is a boutique business hotel that fuses the clarity of an AI-era workspace with the warmth of curated hospitality, designed for the modern professional.",
+    "domain": "hospitality",
+    "subdomain": "boutique business hotel",
+    "voice": [
+      "precise",
+      "intelligent",
+      "calm",
+      "forward-thinking"
+    ],
+    "target_audience": "Business travelers, tech executives, and innovation-driven professionals who expect seamless productivity, thoughtful design, and a stay that feels as sharp as their work."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately communicate Axiom Hotel's identity as a precision-engineered boutique business hotel and guide visitors toward exploring accommodations or making contact.",
+      "meta_description": "Axiom Hotel \u2014 a boutique business hotel built for the modern professional. Precision comfort, intelligent spaces, and seamless stays in the heart of the city.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Establish the brand's core promise and draw the visitor into the Axiom world with a bold, intelligent first impression.",
+          "eyebrow": "Welcome to Axiom Hotel",
+          "headline": "Where Every Stay Is Engineered for Excellence",
+          "subheadline": "A boutique business hotel designed with the precision of the future and the warmth of true hospitality.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Rooms",
+              "target_page": "accommodations"
+            },
+            {
+              "label": "View Current Offers",
+              "target_page": "offers"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Highlight the three core pillars of the Axiom experience to quickly orient the visitor on what makes this hotel distinct.",
+          "eyebrow": "The Axiom Difference",
+          "headline": "Built for the Way You Work and Rest",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Intelligent Workspaces",
+              "description": "Every room and suite is configured as a high-performance environment \u2014 ergonomic setups, ultra-fast connectivity, and distraction-free acoustics.",
+              "metadata": {}
+            },
+            {
+              "title": "Curated Calm",
+              "description": "Thoughtfully designed interiors that balance focused energy with restorative stillness, so you arrive sharp and leave recharged.",
+              "metadata": {}
+            },
+            {
+              "title": "Frictionless Service",
+              "description": "From seamless digital check-in to 24-hour concierge intelligence, every interaction is designed to remove friction from your day.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Convert engaged visitors into bookers or inquiry leads before they leave the homepage.",
+          "eyebrow": "Ready to Experience Axiom?",
+          "headline": "Your Next Stay Starts Here",
+          "subheadline": "Explore tailored packages, premium rooms, and exclusive offers crafted for business travelers.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book Your Stay",
+              "target_page": "contact"
+            },
+            {
+              "label": "See Our Offers",
+              "target_page": "offers"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "accommodations",
+      "title": "Accommodations",
+      "role": "overview",
+      "goal": "Present each room and suite category with enough detail and clarity that a visitor can confidently select the right accommodation for their needs.",
+      "meta_description": "Discover Axiom Hotel's range of intelligently designed rooms and suites \u2014 built for business travelers who demand precision, comfort, and connectivity.",
+      "sections": [
+        {
+          "id": "accommodations-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the accommodations section and frame the rooms as precision-crafted environments rather than standard hotel offerings.",
+          "eyebrow": "Accommodations",
+          "headline": "Rooms Designed Like Systems. Felt Like Home.",
+          "subheadline": "Each space at Axiom is calibrated for focus, rest, and everything in between.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "accommodations-section-2",
+          "type": "item_grid",
+          "intent": "Showcase all room categories with concise, benefit-led descriptions so visitors can compare and choose the right fit.",
+          "eyebrow": "Our Room Categories",
+          "headline": "Find Your Optimal Configuration",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Signal Room",
+              "description": "Our entry-level smart room. Compact, connected, and precisely outfitted with a standing desk, 4K display, and blackout acoustics for the focused solo traveler.",
+              "metadata": {
+                "size": "28 sqm",
+                "occupancy": "1 guest",
+                "connectivity": "10 Gbps fiber"
+              }
+            },
+            {
+              "title": "Logic Suite",
+              "description": "A spacious suite with a dedicated work lounge, dual-monitor docking station, and a separate rest zone engineered for deep recovery sleep.",
+              "metadata": {
+                "size": "48 sqm",
+                "occupancy": "1\u20132 guests",
+                "connectivity": "10 Gbps fiber"
+              }
+            },
+            {
+              "title": "Executive Node",
+              "description": "Designed for senior professionals. Includes a private meeting alcove, premium ergonomic seating, and a curated minibar stocked with brain-performance essentials.",
+              "metadata": {
+                "size": "62 sqm",
+                "occupancy": "1\u20132 guests",
+                "connectivity": "10 Gbps fiber + VPN hardware"
+              }
+            },
+            {
+              "title": "Apex Penthouse",
+              "description": "The pinnacle of the Axiom experience. A full-floor suite with a panoramic city view, private boardroom, and a dedicated 24-hour concierge line.",
+              "metadata": {
+                "size": "120 sqm",
+                "occupancy": "up to 4 guests",
+                "connectivity": "Dedicated private network"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Inquire About Availability",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "accommodations-section-3",
+          "type": "feature_grid",
+          "intent": "Reinforce the value of every room by listing the standard amenities and technology features that come with every Axiom stay.",
+          "eyebrow": "Standard Across All Rooms",
+          "headline": "Every Room Comes Fully Loaded",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Ultra-High-Speed Fiber",
+              "description": "Symmetrical 10 Gbps connectivity available in every room, with zero throttling and enterprise-grade uptime guarantees.",
+              "metadata": {}
+            },
+            {
+              "title": "Smart Climate Control",
+              "description": "AI-assisted temperature and air quality management that learns your preferences within hours of check-in.",
+              "metadata": {}
+            },
+            {
+              "title": "Acoustic Engineering",
+              "description": "Triple-glazed windows and sound-dampening wall panels ensure a silent environment whether you're on a call or asleep.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "offers",
+      "title": "Offers",
+      "role": "conversion",
+      "goal": "Present curated packages and exclusive rates that motivate business travelers to commit to a booking by communicating clear, high-value propositions.",
+      "meta_description": "Explore Axiom Hotel's exclusive packages and offers \u2014 from extended stay rates to corporate partnerships crafted for business travelers.",
+      "sections": [
+        {
+          "id": "offers-section-1",
+          "type": "page_header",
+          "intent": "Frame the offers page as a destination for smart value rather than generic discounts, consistent with the intelligent brand voice.",
+          "eyebrow": "Current Offers",
+          "headline": "Optimized Rates for the Way You Travel",
+          "subheadline": "Tailored packages built around how modern professionals actually use their time.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "offers-section-2",
+          "type": "pricing",
+          "intent": "Display the core offer packages with clear benefits and pricing signals so visitors can quickly identify the best fit.",
+          "eyebrow": "Featured Packages",
+          "headline": "Choose Your Configuration",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Sprint Stay",
+              "description": "Perfect for the 1\u20133 night focused trip. Includes complimentary high-speed breakfast, same-day laundry, and early check-in when available.",
+              "metadata": {
+                "rate": "From $220/night",
+                "best_for": "Short business trips"
+              }
+            },
+            {
+              "title": "Deep Work Week",
+              "description": "Seven nights engineered for productivity. Includes a dedicated co-working desk, daily in-room catering credits, and a weekly strategy concierge session.",
+              "metadata": {
+                "rate": "From $1,350/week",
+                "best_for": "Extended project stays"
+              }
+            },
+            {
+              "title": "Corporate Alliance",
+              "description": "A custom rate agreement for companies sending five or more travelers per quarter. Includes priority booking, invoicing, and a dedicated account manager.",
+              "metadata": {
+                "rate": "Custom pricing",
+                "best_for": "Corporate accounts"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Request Corporate Rates",
+              "target_page": "contact"
+            },
+            {
+              "label": "Book a Package",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "offers-section-3",
+          "type": "cta",
+          "intent": "Create urgency and drive direct bookings by highlighting a limited-time or seasonal promotion.",
+          "eyebrow": "Limited Availability",
+          "headline": "Q3 Early Access: 20% Off Logic Suites",
+          "subheadline": "Book any Logic Suite stay of three nights or more before the end of the month and lock in our best rate of the quarter.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Claim This Offer",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "journal",
+      "title": "Journal",
+      "role": "editorial",
+      "goal": "Build authority and brand affinity by publishing thoughtful, intelligent content relevant to business travelers \u2014 reinforcing Axiom's identity as a forward-thinking destination.",
+      "meta_description": "The Axiom Journal \u2014 insights, perspectives, and stories for the modern business traveler. Productivity, travel intelligence, and the future of work on the road.",
+      "sections": [
+        {
+          "id": "journal-section-1",
+          "type": "page_header",
+          "intent": "Introduce the journal as an editorial space with a distinct voice that reflects Axiom's intelligent, forward-thinking brand.",
+          "eyebrow": "The Axiom Journal",
+          "headline": "Dispatches from the Edge of How We Work",
+          "subheadline": "Perspectives on productivity, travel, and the evolving art of doing business anywhere.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "journal-section-2",
+          "type": "article_list",
+          "intent": "Showcase a curated selection of recent journal entries to demonstrate the depth and relevance of Axiom's editorial voice.",
+          "eyebrow": "Latest Entries",
+          "headline": "What We're Thinking About",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The Science of the Perfect Work Hotel Room",
+              "description": "We break down the environmental variables \u2014 light, acoustics, temperature, and layout \u2014 that separate a productive stay from a forgettable one.",
+              "metadata": {
+                "category": "Productivity",
+                "read_time": "6 min read"
+              }
+            },
+            {
+              "title": "Why Your Wi-Fi Speed Is a Business Decision",
+              "description": "Slow hotel internet isn't just annoying \u2014 it's a measurable drag on output. Here's what to look for and why Axiom built its network differently.",
+              "metadata": {
+                "category": "Technology",
+                "read_time": "4 min read"
+              }
+            },
+            {
+              "title": "The Rise of the Micro-Headquarters",
+              "description": "More executives are using boutique hotels as temporary command centers. We explore the trend and what it means for how companies think about travel.",
+              "metadata": {
+                "category": "Business Travel",
+                "read_time": "7 min read"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "journal-section-3",
+          "type": "cta",
+          "intent": "Convert journal readers into hotel guests by bridging the editorial experience back to the core product.",
+          "eyebrow": "Stay Curious. Stay Sharp.",
+          "headline": "Experience Axiom for Yourself",
+          "subheadline": "The ideas in this journal are built into every room, every service, and every detail of your stay.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Accommodations",
+              "target_page": "accommodations"
+            },
+            {
+              "label": "Get in Touch",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Give visitors a clear, low-friction way to make a booking inquiry, request corporate rates, or reach the concierge team \u2014 closing the conversion loop.",
+      "meta_description": "Contact Axiom Hotel to book a stay, request corporate rates, or connect with our concierge team. We respond within one business hour.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a confident, welcoming tone for the contact page that reflects Axiom's promise of frictionless service.",
+          "eyebrow": "Get in Touch",
+          "headline": "We're Ready When You Are",
+          "subheadline": "Whether you're booking for yourself or your entire team, our concierge team responds within one business hour.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide all contact channels and a structured inquiry form so visitors can reach Axiom through their preferred method.",
+          "eyebrow": "Reach the Axiom Team",
+          "headline": "Start Your Inquiry",
+          "subheadline": null,
+          "body": "Fill in your details below and a member of our concierge team will respond within one business hour. For urgent requests, call us directly or use our live chat.",
+          "items": [
+            {
+              "title": "Reservations",
+              "description": "For room bookings, package inquiries, and availability checks.",
+              "metadata": {
+                "email": "reservations@axiomhotel.com",
+                "phone": "+1 (800) 294-0011"
+              }
+            },
+            {
+              "title": "Corporate Accounts",
+              "description": "For companies seeking Alliance rates, invoicing, or multi-traveler agreements.",
+              "metadata": {
+                "email": "corporate@axiomhotel.com"
+              }
+            },
+            {
+              "title": "Concierge",
+              "description": "For in-stay requests, special arrangements, or anything else your stay requires.",
+              "metadata": {
+                "phone": "+1 (800) 294-0022",
+                "availability": "24 hours, 7 days"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send Inquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "map_block",
+          "intent": "Help visitors locate the hotel and understand its proximity to key business districts, transport hubs, and landmarks.",
+          "eyebrow": "Find Us",
+          "headline": "Positioned at the Center of Everything",
+          "subheadline": "Located in the financial district, Axiom Hotel is minutes from the convention center, major transit lines, and the city's top corporate campuses.",
+          "body": null,
+          "items": [
+            {
+              "title": "Address",
+              "description": "14 Meridian Plaza, Financial District, New York, NY 10004",
+              "metadata": {}
+            },
+            {
+              "title": "Nearest Transit",
+              "description": "2 minutes walk to Fulton Street Station (A, C, J, Z, 2, 3, 4, 5 lines). Direct AirTrain connection to JFK available.",
+              "metadata": {}
+            },
+            {
+              "title": "Parking",
+              "description": "Valet parking available 24 hours. Self-park garage on Meridian Lane with validated rates for Axiom guests.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

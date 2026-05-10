@@ -1,0 +1,1069 @@
+{
+  "id": "ww-00034",
+  "version": "0.1",
+  "concept_id": "ww-00034",
+  "identity": {
+    "name": "BRUTALK",
+    "tagline": "No Filters. Just Fluency.",
+    "one_line_description": "BRUTALK is a raw, no-nonsense language learning platform that strips away the fluff and delivers real-world fluency through structured classes, expert instructors, and brutal honesty about what it takes to learn a language.",
+    "domain": "education",
+    "subdomain": "language learning platform",
+    "voice": [
+      "blunt",
+      "bold",
+      "energetic",
+      "direct",
+      "unpolished"
+    ],
+    "target_audience": "Ambitious adult learners aged 18\u201340 who are frustrated with slow, gamified language apps and want a serious, structured, instructor-led path to real fluency."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Hit the visitor hard with a brand arrival that feels unmistakable \u2014 bold, raw, and immediately clear about what BRUTALK is and who it's for. Anchor the visitor with a confrontational hero moment, then build trust through proof, offerings, and a final aggressive CTA that pushes them to act.",
+      "meta_description": "BRUTALK is the language learning platform for people who are done messing around. Real classes. Real instructors. Real fluency. No filters.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver a confrontational, unmistakable arrival moment \u2014 the brand's raw energy should hit before the visitor reads a single word. This section exists to declare what BRUTALK is and to immediately qualify the right visitor while repelling the wrong one.",
+          "eyebrow": "Language Learning. Unfiltered.",
+          "headline": "Stop Playing Games. Start Speaking.",
+          "subheadline": "BRUTALK is the structured language platform for people who want fluency, not points. Real instructors, real classes, real results.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "See All Classes",
+              "target_page": "classes"
+            },
+            {
+              "label": "View Pricing",
+              "target_page": "pricing"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "logo",
+              "subject": "BRUTALK wordmark \u2014 heavy block letterforms, high-contrast, with a single diagonal slash cutting through the lettering to suggest forward momentum and rule-breaking",
+              "purpose": "Establish the brand identity at the hero level with maximum visual impact",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Let the numbers feel alive as they enter view \u2014 each figure should land like a punch, reinforcing credibility and scale without softening the brand voice. This section converts skeptics by grounding the bold claims in raw data.",
+          "eyebrow": "The Numbers Don't Lie",
+          "headline": "Results That Speak for Themselves",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "12,400+",
+              "description": "Active learners enrolled across all languages and levels",
+              "metadata": {}
+            },
+            {
+              "title": "94%",
+              "description": "Of students report measurable conversational progress within 8 weeks",
+              "metadata": {}
+            },
+            {
+              "title": "18 Languages",
+              "description": "Offered across beginner, intermediate, and advanced tracks",
+              "metadata": {}
+            },
+            {
+              "title": "200+ Instructors",
+              "description": "Native and near-native speakers with verified teaching credentials",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Staggered reveal as the visitor scrolls \u2014 each card drops in with purpose, making the platform's advantages feel deliberate and earned rather than listed. This section answers the question 'Why BRUTALK over everything else?'",
+          "eyebrow": "Why BRUTALK Works",
+          "headline": "We Cut Everything That Doesn't Make You Fluent",
+          "subheadline": "No streaks. No badges. No filler. Just the mechanics of language acquisition done right.",
+          "body": null,
+          "items": [
+            {
+              "title": "Live Instructor Sessions",
+              "description": "Every class is taught live by a credentialed native-speaker instructor. No pre-recorded loops. No chatbots.",
+              "metadata": {}
+            },
+            {
+              "title": "Structured Progression Tracks",
+              "description": "Classes follow a deliberate CEFR-aligned curriculum from A1 to C2 so you always know exactly where you stand.",
+              "metadata": {}
+            },
+            {
+              "title": "Small Cohorts, Real Pressure",
+              "description": "Classes are capped at 10 students. You will be called on. That's the point.",
+              "metadata": {}
+            },
+            {
+              "title": "Weekly Speaking Assessments",
+              "description": "Instructors score your spoken output every week. Honest feedback, not encouragement theater.",
+              "metadata": {}
+            },
+            {
+              "title": "Flexible Scheduling",
+              "description": "Morning, afternoon, and evening slots across time zones. No excuse not to show up.",
+              "metadata": {}
+            },
+            {
+              "title": "Community Practice Rooms",
+              "description": "Unstructured peer practice sessions between classes to build real conversational reflex.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Explore the Classes",
+              "target_page": "classes"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "A slow ambient warmth that invites the visitor to linger \u2014 real voices from real learners cut through the brand's hard edge with human proof. This section earns emotional trust after the rational case has been made.",
+          "eyebrow": "Heard From the Trenches",
+          "headline": "People Who Stopped Dabbling and Started Speaking",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Marta V. \u2014 Spanish \u2192 German, B2",
+              "description": "\"I tried three apps and two YouTube channels. BRUTALK was the first thing that actually made me uncomfortable enough to improve. I passed my B2 exam in 14 weeks.\"",
+              "metadata": {
+                "language": "German",
+                "level": "B2"
+              }
+            },
+            {
+              "title": "James O. \u2014 English \u2192 Mandarin, HSK 3",
+              "description": "\"The small class size means you can't hide. I hated it for the first two weeks. Now I order food in Mandarin every single day.\"",
+              "metadata": {
+                "language": "Mandarin",
+                "level": "HSK 3"
+              }
+            },
+            {
+              "title": "Priya S. \u2014 Hindi \u2192 French, B1",
+              "description": "\"My instructor gave me feedback that stung. It was exactly what I needed. Six months later I'm living in Lyon and actually surviving.\"",
+              "metadata": {
+                "language": "French",
+                "level": "B1"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "A single confident flourish on the close \u2014 the final section should feel like a door being kicked open, not a polite invitation. Push the visitor to commit with urgency and clarity.",
+          "eyebrow": "No More Excuses",
+          "headline": "Pick a Language. Book a Class. Show Up.",
+          "subheadline": "Your next cohort starts this week. Seats are capped. First session is on us.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Claim Your Free First Class",
+              "target_page": "pricing"
+            },
+            {
+              "label": "See the Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "Repeating raw typographic grid pattern using bold block letterforms of language codes \u2014 ES, FR, DE, ZH, JP, AR \u2014 arranged in a dense, offset brick-like tiling",
+              "purpose": "Fill the CTA section background with kinetic brand texture that signals linguistic breadth without using photography",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classes",
+      "title": "Classes",
+      "role": "overview",
+      "goal": "Give the visitor a comprehensive, no-nonsense overview of every language and level available on the platform. Each class card should feel like a direct challenge \u2014 here's what you're signing up for, here's what it demands. Staggered card reveal should make the catalog feel alive and abundant.",
+      "meta_description": "Browse BRUTALK's full catalog of live language classes across 18 languages and six CEFR levels. Small cohorts, real instructors, real progress.",
+      "sections": [
+        {
+          "id": "classes-section-1",
+          "type": "page_header",
+          "intent": "Frame the catalog with the brand's raw directness \u2014 this isn't a menu to browse passively, it's a challenge to pick a language and commit.",
+          "eyebrow": "The Full Catalog",
+          "headline": "18 Languages. 6 Levels. Zero Filler.",
+          "subheadline": "Every class is live, instructor-led, and capped at 10 students. Pick your language. Pick your level. Get in.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "classes-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Abstract globe constructed entirely from bold typographic letterforms and language script fragments \u2014 Latin, Cyrillic, Arabic, Hanzi, Hiragana \u2014 arranged in a raw collage style with no smooth gradients",
+              "purpose": "Anchor the page header with a visual that signals global language breadth in the brutalist aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "classes-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-section-2",
+          "type": "item_grid",
+          "intent": "The core catalog \u2014 each card drops in with staggered energy as the visitor scrolls, making the breadth of offerings feel earned and substantial. Every card must communicate the language, level, pace, and what the student will be able to do by the end.",
+          "eyebrow": "Featured Languages",
+          "headline": "Choose Your Target Language",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Spanish \u2014 All Levels",
+              "description": "From survival phrases to near-native fluency. The most enrolled language on the platform. 6 active cohorts running this month.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "6",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "Mandarin Chinese \u2014 All Levels",
+              "description": "Character recognition, tonal accuracy, and spoken fluency built in parallel. Includes dedicated HSK prep tracks.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "4",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "French \u2014 All Levels",
+              "description": "Parisian register and practical spoken French from day one. Grammar is taught in context, never in isolation.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "5",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "German \u2014 All Levels",
+              "description": "Structured, rigorous, and deeply satisfying. Case grammar is not avoided \u2014 it's drilled until it becomes reflex.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "3",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "Japanese \u2014 All Levels",
+              "description": "Three scripts, two politeness registers, and a curriculum that doesn't pretend any of it is easy.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "3",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "Arabic \u2014 All Levels",
+              "description": "Modern Standard Arabic with dialect exposure. Right-to-left script from week one.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "2",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "Portuguese \u2014 All Levels",
+              "description": "Brazilian and European tracks available. Pronunciation differences addressed head-on from the start.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "2",
+                "session_length": "90 min"
+              }
+            },
+            {
+              "title": "Korean \u2014 All Levels",
+              "description": "Hangul literacy in week one, conversational Korean by week six. K-drama references are not the curriculum.",
+              "metadata": {
+                "levels": "A1\u2013C2",
+                "cohorts": "2",
+                "session_length": "90 min"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Check the Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "classes-section-3",
+          "type": "comparison",
+          "intent": "A deliberate, almost confrontational stillness \u2014 this section holds the visitor in place and forces a clear-eyed comparison between BRUTALK's approach and the passive, app-based alternatives they've probably already tried and abandoned.",
+          "eyebrow": "BRUTALK vs. Everything Else",
+          "headline": "This Is What Serious Language Learning Looks Like",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Live human instructor",
+              "description": "BRUTALK: Every session. Apps: Never.",
+              "metadata": {
+                "brutalk": "Yes",
+                "typical_app": "No"
+              }
+            },
+            {
+              "title": "Real-time spoken feedback",
+              "description": "BRUTALK: Weekly scored assessments. Apps: Auto-graded multiple choice.",
+              "metadata": {
+                "brutalk": "Yes",
+                "typical_app": "No"
+              }
+            },
+            {
+              "title": "Cohort accountability",
+              "description": "BRUTALK: Max 10 students per class. Apps: Solo, anonymous, no pressure.",
+              "metadata": {
+                "brutalk": "Yes",
+                "typical_app": "No"
+              }
+            },
+            {
+              "title": "CEFR-aligned progression",
+              "description": "BRUTALK: Structured A1\u2013C2 tracks. Apps: Gamified levels with no external validity.",
+              "metadata": {
+                "brutalk": "Yes",
+                "typical_app": "No"
+              }
+            },
+            {
+              "title": "Completion accountability",
+              "description": "BRUTALK: Instructors track attendance and flag disengagement. Apps: Your streak breaks silently.",
+              "metadata": {
+                "brutalk": "Yes",
+                "typical_app": "No"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "classes-section-4",
+          "type": "faq",
+          "intent": "Neutralize the objections that stop a serious learner from enrolling \u2014 answered bluntly and without corporate softening, consistent with the brand voice.",
+          "eyebrow": "Straight Answers",
+          "headline": "Questions We Get. Answered Honestly.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do I need any prior knowledge to start?",
+              "description": "No. A1 classes start from absolute zero. You don't need to know a single word. But you do need to show up and participate.",
+              "metadata": {}
+            },
+            {
+              "title": "What happens if I miss a class?",
+              "description": "You'll receive a session summary and access to the instructor's notes. You will not receive a recording. Attendance matters.",
+              "metadata": {}
+            },
+            {
+              "title": "How long is each class?",
+              "description": "90 minutes per session. Most tracks run two sessions per week. That's three hours of live instruction weekly \u2014 the minimum effective dose.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I switch levels mid-track?",
+              "description": "Yes, with instructor approval after a brief spoken assessment. We don't let students self-diagnose their level \u2014 that's how people stagnate.",
+              "metadata": {}
+            },
+            {
+              "title": "Are classes recorded?",
+              "description": "No. This is a deliberate choice. Presence is the product. You learn by doing, not by watching yourself do it later.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See Pricing & Plans",
+              "target_page": "pricing"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "classes-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Set of six minimalist language-script icons \u2014 each a single bold glyph representing a different writing system (Latin A, Arabic \u0639, Hanzi \u8bed, Hiragana \u3042, Cyrillic \u042f, Hangul \ud55c) rendered in thick strokes on a raw square tile",
+              "purpose": "Provide visual anchors for the FAQ and catalog sections to reinforce the multi-language identity without photography",
+              "quantity": 1,
+              "used_by": [
+                "classes-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-section-5",
+          "type": "cta",
+          "intent": "Close the classes page with a confident push \u2014 the visitor has seen the catalog, understood the approach, and run out of reasons to delay. Make the next step feel obvious and urgent.",
+          "eyebrow": "Ready to Commit?",
+          "headline": "Your Cohort Is Forming Right Now.",
+          "subheadline": "Seats fill fast. Don't spend another week thinking about it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View the Schedule",
+              "target_page": "schedule"
+            },
+            {
+              "label": "See Pricing",
+              "target_page": "pricing"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "title": "Schedule",
+      "role": "listing",
+      "goal": "Give the visitor a clear, scannable, no-excuses view of every upcoming class session across all languages and levels. The schedule should feel like a timetable posted on a wall \u2014 raw, functional, and authoritative. Remove every barrier between the visitor and booking a seat.",
+      "meta_description": "Find your next BRUTALK class session. Live language classes running morning, afternoon, and evening across all time zones. Browse by language, level, or date.",
+      "sections": [
+        {
+          "id": "schedule-section-1",
+          "type": "page_header",
+          "intent": "Set the functional tone of the schedule page \u2014 this is a working tool, not a marketing page. The header should orient the visitor immediately and push them to filter and find their session.",
+          "eyebrow": "This Week's Sessions",
+          "headline": "Find Your Class. Book Your Seat. Show Up.",
+          "subheadline": "Sessions run seven days a week across morning, afternoon, and evening slots. All times shown in your local zone.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "schedule-section-1-asset-1",
+              "kind": "icon",
+              "subject": "Brutalist calendar icon \u2014 a thick-bordered square grid with bold date numerals and a heavy slash or marker accent, suggesting urgency and scheduling rather than softness",
+              "purpose": "Anchor the schedule page header with a functional visual that reinforces the timetable nature of the page",
+              "quantity": 1,
+              "used_by": [
+                "schedule-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schedule-section-2",
+          "type": "item_grid",
+          "intent": "The core schedule listing \u2014 each session card is a direct, scannable unit of information. Cards should feel like entries on a physical bulletin board: language, level, instructor, time, seats remaining. The staggered reveal makes the volume of sessions feel abundant without being overwhelming.",
+          "eyebrow": "Upcoming Sessions \u2014 All Languages",
+          "headline": "This Week's Live Classes",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Spanish A1 \u2014 Monday 07:00 UTC",
+              "description": "Instructor: Carlos M. | Cohort: 7/10 seats filled | Duration: 90 min | Track: Foundations Block 1",
+              "metadata": {
+                "language": "Spanish",
+                "level": "A1",
+                "seats_remaining": "3",
+                "instructor": "Carlos M."
+              }
+            },
+            {
+              "title": "French B1 \u2014 Monday 18:00 UTC",
+              "description": "Instructor: Am\u00e9lie D. | Cohort: 9/10 seats filled | Duration: 90 min | Track: Intermediate Conversation",
+              "metadata": {
+                "language": "French",
+                "level": "B1",
+                "seats_remaining": "1",
+                "instructor": "Am\u00e9lie D."
+              }
+            },
+            {
+              "title": "Mandarin A2 \u2014 Tuesday 09:00 UTC",
+              "description": "Instructor: Wei L. | Cohort: 5/10 seats filled | Duration: 90 min | Track: Character & Tone Block 2",
+              "metadata": {
+                "language": "Mandarin",
+                "level": "A2",
+                "seats_remaining": "5",
+                "instructor": "Wei L."
+              }
+            },
+            {
+              "title": "German B2 \u2014 Tuesday 19:00 UTC",
+              "description": "Instructor: Hanna K. | Cohort: 8/10 seats filled | Duration: 90 min | Track: Advanced Grammar & Output",
+              "metadata": {
+                "language": "German",
+                "level": "B2",
+                "seats_remaining": "2",
+                "instructor": "Hanna K."
+              }
+            },
+            {
+              "title": "Japanese A1 \u2014 Wednesday 06:00 UTC",
+              "description": "Instructor: Yuki T. | Cohort: 6/10 seats filled | Duration: 90 min | Track: Script & Survival Block 1",
+              "metadata": {
+                "language": "Japanese",
+                "level": "A1",
+                "seats_remaining": "4",
+                "instructor": "Yuki T."
+              }
+            },
+            {
+              "title": "Arabic A1 \u2014 Wednesday 17:00 UTC",
+              "description": "Instructor: Layla N. | Cohort: 4/10 seats filled | Duration: 90 min | Track: Script Foundations",
+              "metadata": {
+                "language": "Arabic",
+                "level": "A1",
+                "seats_remaining": "6",
+                "instructor": "Layla N."
+              }
+            },
+            {
+              "title": "Korean B1 \u2014 Thursday 20:00 UTC",
+              "description": "Instructor: Jisoo P. | Cohort: 10/10 seats filled | Duration: 90 min | Track: Intermediate Spoken Output \u2014 WAITLIST",
+              "metadata": {
+                "language": "Korean",
+                "level": "B1",
+                "seats_remaining": "0",
+                "instructor": "Jisoo P."
+              }
+            },
+            {
+              "title": "Portuguese A2 \u2014 Friday 08:00 UTC",
+              "description": "Instructor: Rafael B. | Cohort: 3/10 seats filled | Duration: 90 min | Track: Brazilian Conversational Block 2",
+              "metadata": {
+                "language": "Portuguese",
+                "level": "A2",
+                "seats_remaining": "7",
+                "instructor": "Rafael B."
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Instructors",
+              "target_page": "instructors"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "schedule-section-3",
+          "type": "stats",
+          "intent": "Let the scheduling numbers feel alive as they enter view \u2014 a quick burst of data that proves the platform is active, running, and full of real people learning right now. Reinforces FOMO without manufactured urgency.",
+          "eyebrow": "Live Right Now",
+          "headline": "The Platform Is Always Running",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "47 Sessions",
+              "description": "Scheduled across all languages this week alone",
+              "metadata": {}
+            },
+            {
+              "title": "7 Days a Week",
+              "description": "Classes run every day including weekends \u2014 no gaps in your momentum",
+              "metadata": {}
+            },
+            {
+              "title": "3 Time Slots Daily",
+              "description": "Morning, afternoon, and evening sessions to fit any schedule or time zone",
+              "metadata": {}
+            },
+            {
+              "title": "Avg. 2.1 Seats Left",
+              "description": "Average remaining seats per session this week \u2014 book early",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "schedule-section-4",
+          "type": "story_block",
+          "intent": "A moment of deliberate stillness in a functional page \u2014 explain the philosophy behind the schedule structure so the visitor understands that session timing and frequency are not arbitrary but are built around proven acquisition science.",
+          "eyebrow": "Why the Schedule Is Built This Way",
+          "headline": "Frequency Is the Mechanism. Not Motivation.",
+          "subheadline": null,
+          "body": "Language acquisition research is unambiguous: distributed practice beats marathon sessions. BRUTALK's schedule is built around two 90-minute live sessions per week \u2014 enough frequency to maintain active recall, short enough to demand full presence every time. We don't offer daily classes because daily classes produce fatigue, not fluency. We don't offer weekly classes because one session a week produces forgetting, not progress. Two sessions. Ninety minutes each. Every week. That's the dose.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "schedule-section-4-asset-1",
+              "kind": "chart",
+              "subject": "Minimalist retention curve chart \u2014 a stark, high-contrast line graph showing memory retention over time with and without spaced repetition, rendered in raw block style with no decorative elements",
+              "purpose": "Visualize the science behind the scheduling philosophy in a way that is credible and consistent with the brutalist aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "schedule-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schedule-section-5",
+          "type": "cta",
+          "intent": "A final confident push at the bottom of the schedule page \u2014 the visitor has seen the sessions, understood the structure, and now needs to be told exactly what to do next. No softness. Just action.",
+          "eyebrow": "Seats Go Fast",
+          "headline": "Stop Watching the Schedule. Get On It.",
+          "subheadline": "Pick your language, pick your level, and claim your seat before the cohort fills.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Browse Classes",
+              "target_page": "classes"
+            },
+            {
+              "label": "See Pricing",
+              "target_page": "pricing"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "instructors",
+      "title": "Instructors",
+      "role": "overview",
+      "goal": "Make the instructors the human proof of the platform's credibility. Each instructor profile should feel like a fighter's record \u2014 credentials, languages, track record, teaching philosophy. The visitor should leave this page trusting that the people teaching them are the real thing.",
+      "meta_description": "Meet BRUTALK's 200+ credentialed language instructors. Native and near-native speakers with verified teaching backgrounds and a no-nonsense approach to fluency.",
+      "sections": [
+        {
+          "id": "instructors-section-1",
+          "type": "page_header",
+          "intent": "Frame the instructors not as friendly tutors but as serious language professionals. The header should feel like the entrance to a dojo \u2014 you're meeting people who will push you.",
+          "eyebrow": "The People Who Will Push You",
+          "headline": "200+ Instructors. Zero Passengers.",
+          "subheadline": "Every BRUTALK instructor is a credentialed native or near-native speaker with verified teaching experience. No hobbyists. No enthusiasts. Professionals only.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "instructors-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Abstract grid of bold portrait silhouettes \u2014 12 simplified human head outlines arranged in a raw 4x3 card grid, each with a different bold language script character overlaid on the face area, suggesting diversity and expertise without photography",
+              "purpose": "Establish the human scale of the instructor roster at the page header without using photographs",
+              "quantity": 1,
+              "used_by": [
+                "instructors-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "instructors-section-2",
+          "type": "item_grid",
+          "intent": "The instructor roster \u2014 each card is a professional record, not a bio. Name, language specialty, credentials, teaching philosophy in one punchy line. Cards arrive in a staggered reveal that makes the roster feel deep and authoritative.",
+          "eyebrow": "Featured Instructors",
+          "headline": "The Roster",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Carlos Mendoza \u2014 Spanish",
+              "description": "Native Argentinian Spanish. DELE examiner. 9 years of adult instruction. Teaching philosophy: 'Mistakes are data. Make more of them.'",
+              "metadata": {
+                "language": "Spanish",
+                "credential": "DELE Examiner",
+                "years": "9"
+              }
+            },
+            {
+              "title": "Am\u00e9lie Durand \u2014 French",
+              "description": "Native Parisian French. DALF certified examiner. Former Alliance Fran\u00e7aise instructor. 11 years. 'Accent is not the goal. Clarity is.'",
+              "metadata": {
+                "language": "French",
+                "credential": "DALF Examiner",
+                "years": "11"
+              }
+            },
+            {
+              "title": "Wei Lin \u2014 Mandarin",
+              "description": "Native Shanghainese Mandarin. HSK curriculum specialist. 7 years of structured adult instruction. 'Tones are not optional. Neither is showing up.'",
+              "metadata": {
+                "language": "Mandarin",
+                "credential": "HSK Specialist",
+                "years": "7"
+              }
+            },
+            {
+              "title": "Hanna K\u00fchn \u2014 German",
+              "description": "Native Berliner German. TestDaF examiner. Linguistics MA. 12 years. 'German grammar is a system. Systems can be learned. Stop fearing it.'",
+              "metadata": {
+                "language": "German",
+                "credential": "TestDaF Examiner",
+                "years": "12"
+              }
+            },
+            {
+              "title": "Yuki Tanaka \u2014 Japanese",
+              "description": "Native Tokyo Japanese. JLPT curriculum developer. 8 years. 'Three scripts is not a problem. It is a structure. We build it together.'",
+              "metadata": {
+                "language": "Japanese",
+                "credential": "JLPT Developer",
+                "years": "8"
+              }
+            },
+            {
+              "title": "Layla Nasser \u2014 Arabic",
+              "description": "Native Egyptian Arabic, MSA specialist. 6 years of adult instruction. 'The script is not the hard part. The hard part is what you say with it.'",
+              "metadata": {
+                "language": "Arabic",
+                "credential": "MSA Specialist",
+                "years": "6"
+              }
+            },
+            {
+              "title": "Jisoo Park \u2014 Korean",
+              "description": "Native Seoul Korean. TOPIK examiner. 5 years. 'Hangul in a week. Conversation in six. Fluency is a choice you make every session.'",
+              "metadata": {
+                "language": "Korean",
+                "credential": "TOPIK Examiner",
+                "years": "5"
+              }
+            },
+            {
+              "title": "Rafael Braga \u2014 Portuguese",
+              "description": "Native S\u00e3o Paulo Portuguese. CELPE-Bras examiner. 10 years. 'Brazilian Portuguese is not a dialect. It is a language. Treat it like one.'",
+              "metadata": {
+                "language": "Portuguese",
+                "credential": "CELPE-Bras Examiner",
+                "years": "10"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "instructors-section-3",
+          "type": "story_block",
+          "intent": "A deliberate pause in the roster \u2014 explain the instructor vetting process with the same bluntness the brand uses everywhere else. This section builds institutional trust by showing that instructor quality is not accidental.",
+          "eyebrow": "How We Hire",
+          "headline": "Getting On This Roster Is Not Easy.",
+          "subheadline": null,
+          "body": "Every BRUTALK instructor application goes through a four-stage vetting process: a language proficiency assessment at C2 or native level, a live teaching demonstration with a panel of senior instructors, a curriculum design exercise reviewed by our academic team, and a six-week probationary cohort with student feedback scoring. We reject approximately 80% of applicants. The 20% who make it through are the ones your fluency depends on. We don't apologize for the bar being high.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "instructors-section-4",
+          "type": "timeline",
+          "intent": "Walk the visitor through the instructor vetting pipeline step by step \u2014 each stage should feel weighty and sequential, building confidence that the people teaching on BRUTALK have genuinely earned their place.",
+          "eyebrow": "The Vetting Pipeline",
+          "headline": "Four Stages. No Shortcuts.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Stage 1 \u2014 Proficiency Assessment",
+              "description": "All applicants complete a standardized C2-level written and spoken proficiency test in their target language. Native speakers are not exempt.",
+              "metadata": {
+                "stage": "1"
+              }
+            },
+            {
+              "title": "Stage 2 \u2014 Live Teaching Demo",
+              "description": "A 30-minute live class delivered to a panel of three senior BRUTALK instructors acting as students. Evaluated on clarity, pacing, error correction, and engagement.",
+              "metadata": {
+                "stage": "2"
+              }
+            },
+            {
+              "title": "Stage 3 \u2014 Curriculum Design Exercise",
+              "description": "Applicants design a 4-week A2 lesson plan aligned to CEFR descriptors. Reviewed by our academic advisory board for rigor and originality.",
+              "metadata": {
+                "stage": "3"
+              }
+            },
+            {
+              "title": "Stage 4 \u2014 Probationary Cohort",
+              "description": "Accepted applicants run one live cohort under observation. Student feedback is collected, scored, and reviewed. Instructors who pass are offered a permanent contract.",
+              "metadata": {
+                "stage": "4"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "instructors-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Set of four bold stage-marker icons \u2014 each a thick-bordered circle containing a heavy numeral (1, 2, 3, 4) with a checkmark or arrow variant, rendered in raw brutalist style",
+              "purpose": "Provide visual anchors for each stage of the vetting timeline, reinforcing the sequential and rigorous nature of the process",
+              "quantity": 1,
+              "used_by": [
+                "instructors-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "instructors-section-5",
+          "type": "cta",
+          "intent": "Close the instructors page by connecting the human proof directly to enrollment action \u2014 the visitor has met the instructors and understood the vetting; now push them to find their class and their instructor.",
+          "eyebrow": "You've Met the Team",
+          "headline": "Now Find Your Instructor and Book Your Seat.",
+          "subheadline": "Every instructor on this page is teaching a live session this week. One of those seats has your name on it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Browse the Schedule",
+              "target_page": "schedule"
+            },
+            {
+              "label": "See All Classes",
+              "target_page": "classes"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "role": "conversion",
+      "goal": "Convert the visitor who has already been convinced by the rest of the site. Pricing should feel transparent, fair, and unapologetic. No dark patterns, no hidden tiers, no enterprise-speak. Three plans, clearly differentiated, with a confident close that makes the decision feel obvious.",
+      "meta_description": "BRUTALK pricing \u2014 three straightforward plans for serious language learners. Monthly and term-based options. First class free. No contracts.",
+      "sections": [
+        {
+          "id": "pricing-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for a pricing page that refuses to be evasive \u2014 the headline should disarm any anxiety about cost by leading with radical transparency and brand confidence.",
+          "eyebrow": "Straightforward Pricing",
+          "headline": "What It Costs. What You Get. Nothing Hidden.",
+          "subheadline": "Three plans. No contracts. No auto-renew surprises. Cancel any time with 7 days notice.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "pricing-section-2",
+          "type": "pricing",
+          "intent": "The core pricing cards \u2014 each plan should feel like a clear, honest offer with no artificial inflation of the middle tier. Cards should arrive with a confident, deliberate reveal that makes the choice feel weighty but simple.",
+          "eyebrow": "Choose Your Plan",
+          "headline": "Three Plans. One Goal: Fluency.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Starter \u2014 $79/month",
+              "description": "Two live sessions per week in one language. Access to community practice rooms. Weekly instructor feedback summary. Best for: learners testing the BRUTALK method.",
+              "metadata": {
+                "sessions_per_week": "2",
+                "languages": "1",
+                "community_access": "Yes",
+                "assessment": "Summary only",
+                "highlighted": "false"
+              }
+            },
+            {
+              "title": "Committed \u2014 $139/month",
+              "description": "Four live sessions per week across up to two languages. Full weekly spoken assessment with scored rubric. Priority seat booking. Access to all practice rooms. Best for: learners with a real deadline or target exam.",
+              "metadata": {
+                "sessions_per_week": "4",
+                "languages": "2",
+                "community_access": "Yes",
+                "assessment": "Full scored rubric",
+                "highlighted": "true"
+              }
+            },
+            {
+              "title": "Intensive \u2014 $229/month",
+              "description": "Unlimited live sessions across any language and level. Daily instructor office hours. Monthly one-on-one progress review. Dedicated cohort placement support. Best for: learners who are fully committed to fluency in the shortest possible time.",
+              "metadata": {
+                "sessions_per_week": "Unlimited",
+                "languages": "Any",
+                "community_access": "Yes",
+                "assessment": "Full + 1-on-1 monthly",
+                "highlighted": "false"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Start with a Free Class",
+              "target_page": null
+            },
+            {
+              "label": "See the Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "pricing-section-2-asset-1",
+              "kind": "chart",
+              "subject": "Brutalist horizontal bar comparison chart showing the three pricing tiers side by side across five feature dimensions \u2014 sessions per week, languages, assessment depth, priority access, 1-on-1 support \u2014 rendered in thick strokes with bold labels and no decorative softening",
+              "purpose": "Give visitors a scannable visual summary of plan differences that reinforces the transparency promise of the page",
+              "quantity": 1,
+              "used_by": [
+                "pricing-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pricing-section-3",
+          "type": "stats",
+          "intent": "Anchor the pricing decision in ROI data \u2014 let the value numbers feel alive as they enter view, reframing the monthly cost against measurable outcomes so the price feels like an investment rather than an expense.",
+          "eyebrow": "The Value Calculation",
+          "headline": "What You're Actually Paying For",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "$9.87/session",
+              "description": "Average cost per live 90-minute instructor-led session on the Committed plan \u2014 less than a language textbook",
+              "metadata": {}
+            },
+            {
+              "title": "8 Weeks",
+              "description": "Average time for Committed plan students to reach their stated conversational milestone",
+              "metadata": {}
+            },
+            {
+              "title": "94% Satisfaction",
+              "description": "Of students who complete a full 8-week track rate the instruction quality as excellent or outstanding",
+              "metadata": {}
+            },
+            {
+              "title": "3x Faster",
+              "description": "BRUTALK students reach B1 conversational level on average three times faster than self-directed app learners",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "pricing-section-4",
+          "type": "faq",
+          "intent": "Handle the last-mile objections that stop a convinced visitor from pulling the trigger on payment \u2014 answered with the same brutal honesty the brand uses everywhere.",
+          "eyebrow": "Before You Commit",
+          "headline": "The Questions That Are Stopping You. Answered.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Is the first class really free?",
+              "description": "Yes. Pick any available session, book a seat, show up. No card required. If it's not for you, we'd rather know now.",
+              "metadata": {}
+            },
+            {
+              "title": "What if I need to pause my plan?",
+              "description": "You can pause for up to 30 days once per billing cycle. More than that and you'll need to cancel and re-enroll. We don't do indefinite holds.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I upgrade or downgrade mid-month?",
+              "description": "Yes. Changes take effect at the start of your next billing cycle. Prorated credits are applied automatically.",
+              "metadata": {}
+            },
+            {
+              "title": "Are there discounts for students or educators?",
+              "description": "We offer a 20% discount for verified full-time students and a 15% discount for language educators. Apply via the account settings after sign-up.",
+              "metadata": {}
+            },
+            {
+              "title": "What if my instructor leaves the platform?",
+              "description": "You'll be placed in a new cohort with a comparable instructor within 48 hours. No sessions missed, no credit lost.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "pricing-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Brutalist shield icon with a bold checkmark inside \u2014 thick border, raw corner treatment, no gradients \u2014 suggesting a guarantee or trust signal",
+              "purpose": "Provide a visual trust anchor near the FAQ section to reinforce the platform's commitment to transparency and fairness",
+              "quantity": 1,
+              "used_by": [
+                "pricing-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pricing-section-5",
+          "type": "cta",
+          "intent": "The final close \u2014 a single confident flourish that removes every remaining excuse and makes the next action feel inevitable. The visitor has read the pricing, seen the value, and had their objections answered. Now close.",
+          "eyebrow": "Your First Class Is Free",
+          "headline": "The Only Thing Left to Do Is Start.",
+          "subheadline": "Book your free first class today. No card. No commitment. Just 90 minutes that could change how you speak for the rest of your life.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book My Free Class",
+              "target_page": "schedule"
+            },
+            {
+              "label": "Meet the Instructors",
+              "target_page": "instructors"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

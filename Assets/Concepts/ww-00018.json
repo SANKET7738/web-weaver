@@ -1,0 +1,19 @@
+{
+  "id": "ww-00018",
+  "version": "0.1",
+  "site_domain": "media_magazine",
+  "site_subdomain": "sports analysis magazine",
+  "design_aesthetic": "dark_futuristic",
+  "layout_family": "editorial_grid",
+  "page_set": [
+    "home",
+    "latest",
+    "culture",
+    "reviews",
+    "newsletter"
+  ],
+  "difficulty": "hard",
+  "seed": 88463792,
+  "sample_index": 7,
+  "source": "web-weaver.concept_sampler"
+}

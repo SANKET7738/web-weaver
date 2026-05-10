@@ -1,0 +1,19 @@
+{
+  "id": "ww-00032",
+  "version": "0.1",
+  "site_domain": "food_beverage_cpg",
+  "site_subdomain": "small-batch hot sauce brand",
+  "design_aesthetic": "memphis_playful",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "products",
+    "story",
+    "stockists",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 11,
+  "source": "web-weaver.concept_sampler"
+}

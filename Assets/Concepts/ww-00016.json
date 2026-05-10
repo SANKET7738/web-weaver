@@ -1,0 +1,19 @@
+{
+  "id": "ww-00016",
+  "version": "0.1",
+  "site_domain": "nonprofit",
+  "site_subdomain": "community legal aid group",
+  "design_aesthetic": "museum_catalog",
+  "layout_family": "gallery_first",
+  "page_set": [
+    "home",
+    "community",
+    "events",
+    "reports",
+    "donate"
+  ],
+  "difficulty": "hard",
+  "seed": 88463792,
+  "sample_index": 5,
+  "source": "web-weaver.concept_sampler"
+}

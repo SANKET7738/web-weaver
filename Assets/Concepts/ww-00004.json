@@ -1,0 +1,19 @@
+{
+  "id": "ww-00004",
+  "version": "0.1",
+  "site_domain": "environment_energy",
+  "site_subdomain": "climate risk analytics platform",
+  "design_aesthetic": "dark_futuristic",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "campaign",
+    "actions",
+    "reports",
+    "donate"
+  ],
+  "difficulty": "easy",
+  "seed": 42,
+  "sample_index": 4,
+  "source": "web-weaver.concept_sampler"
+}

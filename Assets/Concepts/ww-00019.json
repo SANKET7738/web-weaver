@@ -1,0 +1,19 @@
+{
+  "id": "ww-00019",
+  "version": "0.1",
+  "site_domain": "arts_culture",
+  "site_subdomain": "contemporary art museum",
+  "design_aesthetic": "glassmorphism",
+  "layout_family": "editorial_grid",
+  "page_set": [
+    "home",
+    "about",
+    "archive",
+    "programs",
+    "donate"
+  ],
+  "difficulty": "hard",
+  "seed": 88463792,
+  "sample_index": 8,
+  "source": "web-weaver.concept_sampler"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ww-00006",
+  "version": "0.1",
+  "site_domain": "sports",
+  "site_subdomain": "rowing club",
+  "design_aesthetic": "bento_modular",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "team",
+    "schedule",
+    "tickets",
+    "shop"
+  ],
+  "difficulty": "medium",
+  "seed": 42,
+  "sample_index": 6,
+  "source": "web-weaver.concept_sampler"
+}

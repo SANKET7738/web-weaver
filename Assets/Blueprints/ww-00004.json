@@ -1,0 +1,432 @@
+{
+  "id": "ww-00004",
+  "version": "0.1",
+  "concept_id": "ww-00004",
+  "identity": {
+    "name": "Veridian",
+    "tagline": "See the risk. Shape the future.",
+    "one_line_description": "Veridian is a climate risk analytics platform that helps organizations understand, model, and act on environmental threats before they become catastrophic liabilities.",
+    "domain": "environment_energy",
+    "subdomain": "climate risk analytics platform",
+    "voice": [
+      "precise",
+      "urgent",
+      "authoritative",
+      "forward-looking"
+    ],
+    "target_audience": "Risk officers, sustainability directors, climate policy teams, and institutional investors at corporations, financial institutions, and government agencies who need rigorous climate data to make high-stakes decisions."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately communicate the gravity of climate risk and position Veridian as the definitive intelligence platform for organizations that cannot afford to be caught off guard.",
+      "meta_description": "Veridian is a climate risk analytics platform delivering real-time environmental threat modeling, scenario analysis, and actionable intelligence for enterprise and government decision-makers.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Arrest attention with the scale of the climate risk problem and establish Veridian as the authoritative lens through which organizations can see what is coming.",
+          "eyebrow": "Climate Risk Intelligence",
+          "headline": "The Planet Is Sending Signals. Are You Reading Them?",
+          "subheadline": "Veridian translates decades of climate data into precise, forward-looking risk intelligence so your organization can act before the crisis arrives.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Platform",
+              "target_page": "actions"
+            },
+            {
+              "label": "View Latest Reports",
+              "target_page": "reports"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Introduce the three core capabilities of the platform so visitors immediately understand what Veridian does and why it is different from generic ESG tools.",
+          "eyebrow": "Core Capabilities",
+          "headline": "Intelligence Built for the Stakes of This Moment",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Real-Time Threat Monitoring",
+              "description": "Track wildfires, flooding, drought indices, and extreme heat events as they evolve, mapped to your asset locations and supply chains.",
+              "metadata": {}
+            },
+            {
+              "title": "Scenario Modeling Engine",
+              "description": "Run IPCC-aligned 1.5\u00b0C, 2\u00b0C, and 4\u00b0C warming pathways against your portfolio to stress-test exposure under multiple futures.",
+              "metadata": {}
+            },
+            {
+              "title": "Regulatory Risk Mapping",
+              "description": "Stay ahead of evolving climate disclosure mandates \u2014 from SEC climate rules to TCFD and CSRD \u2014 with jurisdiction-level compliance tracking.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Features",
+              "target_page": "actions"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Convert engaged visitors into leads or donors by surfacing a clear next step at the bottom of the landing experience.",
+          "eyebrow": "Join the Mission",
+          "headline": "The Window to Act Is Narrowing. Start Now.",
+          "subheadline": "Whether you are protecting a portfolio, a city, or a community, Veridian gives you the data to make every decision count.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request a Demo",
+              "target_page": "campaign"
+            },
+            {
+              "label": "Support the Work",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "title": "Campaign",
+      "role": "overview",
+      "goal": "Tell the story of Veridian's current flagship initiative \u2014 the Global Climate Exposure Index \u2014 and rally organizations and individuals to participate, fund, or amplify it.",
+      "meta_description": "The Veridian Global Climate Exposure Index is a landmark campaign to map physical climate risk for every major asset class on Earth. Learn how to get involved.",
+      "sections": [
+        {
+          "id": "campaign-section-1",
+          "type": "page_header",
+          "intent": "Frame the campaign with urgency and mission, making visitors feel they are entering a consequential, time-sensitive initiative.",
+          "eyebrow": "Active Campaign",
+          "headline": "The Global Climate Exposure Index",
+          "subheadline": "A first-of-its-kind open risk atlas mapping physical climate threats to critical infrastructure, financial assets, and communities across 190 countries.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-2",
+          "type": "story_block",
+          "intent": "Explain why this campaign exists and what is at stake if the data gap is not closed, building emotional and intellectual investment in the mission.",
+          "eyebrow": "Why It Matters",
+          "headline": "Half the World's Infrastructure Has Never Been Assessed for Climate Risk",
+          "subheadline": null,
+          "body": "Governments issue bonds. Pension funds allocate capital. Cities build hospitals. All without knowing whether those assets will still be viable in 20 years under a warming climate. The Global Climate Exposure Index is closing that gap \u2014 systematically, transparently, and at scale. Every dataset we publish is free for policymakers, NGOs, and academic researchers. Every corporate and institutional subscriber funds the expansion of the commons.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Download the Campaign Brief",
+              "target_page": "reports"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-3",
+          "type": "stats",
+          "intent": "Anchor the campaign's credibility and momentum with hard numbers that demonstrate real-world scale and urgency.",
+          "eyebrow": "Campaign Progress",
+          "headline": "The Index Is Already Live. The Work Is Far From Over.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "190",
+              "description": "Countries covered in the current index release",
+              "metadata": {}
+            },
+            {
+              "title": "2.4M",
+              "description": "Individual assets mapped to climate hazard zones",
+              "metadata": {}
+            },
+            {
+              "title": "47",
+              "description": "Government and institutional partners contributing data",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "actions",
+      "title": "Actions",
+      "role": "conversion",
+      "goal": "Guide organizations and individuals to take concrete steps \u2014 from subscribing to the platform, to joining the open data consortium, to reducing their own climate footprint.",
+      "meta_description": "Take action with Veridian. Explore platform subscriptions, join the open climate data consortium, and access tools to reduce your organization's climate exposure.",
+      "sections": [
+        {
+          "id": "actions-section-1",
+          "type": "page_header",
+          "intent": "Set a tone of agency and empowerment \u2014 this page is about what visitors can do, not just what they can learn.",
+          "eyebrow": "Take Action",
+          "headline": "Knowledge Without Action Is Just Anxiety.",
+          "subheadline": "Veridian gives you the tools, the data, and the network to move from awareness to impact \u2014 at every scale of ambition.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "actions-section-2",
+          "type": "pricing",
+          "intent": "Present platform access tiers clearly so organizations can self-select the right level of engagement and begin the conversion process.",
+          "eyebrow": "Platform Access",
+          "headline": "Choose the Level of Intelligence Your Organization Needs",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Open Access",
+              "description": "Free public tier. Access the Global Climate Exposure Index, country-level hazard summaries, and downloadable CSV datasets. Ideal for researchers, journalists, and NGOs.",
+              "metadata": {
+                "price": "Free",
+                "cta": "Get Started"
+              }
+            },
+            {
+              "title": "Enterprise Intelligence",
+              "description": "Full platform access including asset-level risk scoring, scenario modeling, regulatory compliance dashboards, and API integration. Dedicated climate risk analyst support included.",
+              "metadata": {
+                "price": "Custom Pricing",
+                "cta": "Request a Demo"
+              }
+            },
+            {
+              "title": "Government & Institutional",
+              "description": "Tailored deployments for national adaptation planning, municipal resilience programs, and multilateral climate finance. Includes co-branded reporting and policy briefing services.",
+              "metadata": {
+                "price": "Contact Us",
+                "cta": "Schedule a Briefing"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Request a Demo",
+              "target_page": "campaign"
+            },
+            {
+              "label": "Contact Our Team",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "actions-section-3",
+          "type": "feature_grid",
+          "intent": "Surface specific actions beyond platform subscription \u2014 ways to participate in the broader Veridian mission and climate data ecosystem.",
+          "eyebrow": "More Ways to Engage",
+          "headline": "Your Participation Extends the Reach of the Data",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Join the Open Data Consortium",
+              "description": "Share your organization's environmental monitoring data and gain reciprocal access to the consortium's aggregated global dataset.",
+              "metadata": {}
+            },
+            {
+              "title": "Contribute to the Index",
+              "description": "Academic institutions and research labs can submit peer-reviewed datasets for integration into the Global Climate Exposure Index.",
+              "metadata": {}
+            },
+            {
+              "title": "Fund the Commons",
+              "description": "Philanthropic contributions directly fund free-tier access for under-resourced governments and climate-vulnerable communities.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Support the Work",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "reports",
+      "title": "Reports",
+      "role": "editorial",
+      "goal": "Establish Veridian as the intellectual authority on climate risk by surfacing flagship research, sector-specific briefs, and data releases that decision-makers can act on.",
+      "meta_description": "Browse Veridian's climate risk reports, sector exposure briefs, scenario analysis papers, and open data releases. Authoritative intelligence for enterprise and policy audiences.",
+      "sections": [
+        {
+          "id": "reports-section-1",
+          "type": "page_header",
+          "intent": "Frame the reports library as a living, growing body of authoritative climate intelligence \u2014 not a static archive.",
+          "eyebrow": "Research & Intelligence",
+          "headline": "The Data That Decision-Makers Reach for First",
+          "subheadline": "From sector exposure briefs to full scenario analysis papers, Veridian's research library is updated continuously as the climate system evolves.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "reports-section-2",
+          "type": "article_list",
+          "intent": "Surface the most recent and impactful reports so visitors immediately encounter high-value content and are drawn deeper into the platform.",
+          "eyebrow": "Latest Releases",
+          "headline": "What We Published This Quarter",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "2024 Global Physical Risk Outlook",
+              "description": "A comprehensive assessment of physical climate hazards \u2014 heat stress, flooding, wildfire, and water scarcity \u2014 across 12 major economies, with 2030 and 2050 projections.",
+              "metadata": {
+                "type": "Flagship Report",
+                "date": "Q4 2024"
+              }
+            },
+            {
+              "title": "Real Estate Under a 2\u00b0C World",
+              "description": "Sector-specific exposure analysis for commercial and residential real estate portfolios in coastal and arid regions, aligned with TCFD physical risk disclosures.",
+              "metadata": {
+                "type": "Sector Brief",
+                "date": "Q3 2024"
+              }
+            },
+            {
+              "title": "Supply Chain Fragility Index: Agriculture",
+              "description": "How shifting precipitation patterns and extreme heat events are reshaping agricultural supply chain reliability across Southeast Asia, Sub-Saharan Africa, and the US Midwest.",
+              "metadata": {
+                "type": "Data Release",
+                "date": "Q3 2024"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Browse All Reports",
+              "target_page": "reports"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "reports-section-3",
+          "type": "cta",
+          "intent": "Convert report readers into platform users or donors by surfacing a clear next step at the end of the editorial experience.",
+          "eyebrow": "Go Deeper",
+          "headline": "Reports Are the Surface. The Platform Is the Depth.",
+          "subheadline": "Access the full dataset, scenario modeling tools, and asset-level risk scores behind every report \u2014 available to Enterprise and Institutional subscribers.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Platform Features",
+              "target_page": "actions"
+            },
+            {
+              "label": "Support Open Access Research",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "donate",
+      "title": "Donate",
+      "role": "conversion",
+      "goal": "Inspire philanthropic contributions by connecting donors to the tangible impact their support enables \u2014 specifically the expansion of free climate data access for vulnerable communities and under-resourced governments.",
+      "meta_description": "Support Veridian's mission to make climate risk intelligence a global public good. Your contribution funds free data access for communities that need it most.",
+      "sections": [
+        {
+          "id": "donate-section-1",
+          "type": "page_header",
+          "intent": "Open with a values-driven statement that frames the donation not as charity but as a strategic investment in a more climate-resilient world.",
+          "eyebrow": "Support the Mission",
+          "headline": "Climate Risk Data Should Not Be a Privilege.",
+          "subheadline": "The communities most exposed to climate catastrophe are often the least equipped to analyze it. Your support changes that equation.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "donate-section-2",
+          "type": "story_block",
+          "intent": "Make the impact of a donation concrete and emotionally resonant by showing exactly where the funding goes and who it reaches.",
+          "eyebrow": "Where Your Support Goes",
+          "headline": "Every Dollar Extends the Reach of the Commons",
+          "subheadline": null,
+          "body": "Veridian's Open Access tier is entirely donor-funded. When a small island nation's planning ministry needs flood risk projections for its coastline, or when a climate-vulnerable municipality in the Global South needs drought modeling to plan its water infrastructure, that access is made possible by contributors like you. We publish a full annual impact report detailing every grant, every dataset unlocked, and every institution served \u2014 because transparency is the foundation of trust.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "donate-section-3",
+          "type": "item_grid",
+          "intent": "Present concrete giving levels with specific, named outcomes so donors understand exactly what their contribution unlocks.",
+          "eyebrow": "Giving Levels",
+          "headline": "Choose the Impact You Want to Make",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Data Seed \u2014 $250",
+              "description": "Funds one month of Open Access for a single under-resourced government ministry or research institution in a climate-vulnerable nation.",
+              "metadata": {}
+            },
+            {
+              "title": "Index Contributor \u2014 $1,000",
+              "description": "Sponsors the integration of one new country-level hazard dataset into the Global Climate Exposure Index, permanently expanding the public commons.",
+              "metadata": {}
+            },
+            {
+              "title": "Climate Commons Partner \u2014 $10,000+",
+              "description": "Named partnership supporting a full year of Open Access for an entire region, plus recognition in Veridian's annual impact report and research acknowledgments.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Donate Now",
+              "target_page": null
+            },
+            {
+              "label": "Read the Impact Report",
+              "target_page": "reports"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

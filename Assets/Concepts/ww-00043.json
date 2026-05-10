@@ -1,0 +1,19 @@
+{
+  "id": "ww-00043",
+  "version": "0.1",
+  "site_domain": "wellness_fitness",
+  "site_subdomain": "dance fitness studio",
+  "design_aesthetic": "scientific_lab",
+  "layout_family": "split_panel",
+  "page_set": [
+    "home",
+    "classes",
+    "schedule",
+    "coaches",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 55545830,
+  "sample_index": 2,
+  "source": "web-weaver.concept_sampler"
+}

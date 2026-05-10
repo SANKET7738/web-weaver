@@ -1,0 +1,465 @@
+Batch start: Sun May 10 23:33:39 IST 2026
+===== ww-00021 attempt-002 -> Runs/Graders/ww-00021-real-run.json
+  trial: jobs/2026-05-10__22-07-13/harbor__sYcUCcB
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.715    9312ms
+  design2code                page_02  score=0.760    8408ms
+  design2code                page_03  score=0.736    5083ms
+  design2code                page_04  score=0.782    7848ms
+  design2code                page_05  score=0.814    7638ms
+
+  design2code_vlm            page_01  score=0.703   17326ms
+  design2code_vlm            page_02  score=0.752   19675ms
+  design2code_vlm            page_03  score=0.725   16221ms
+  design2code_vlm            page_04  score=0.775   17966ms
+  design2code_vlm            page_05  score=0.807   16135ms
+
+  design2code_vlm_sliced     page_01  score=0.796   12577ms
+  design2code_vlm_sliced     page_02  score=0.772   14328ms
+  design2code_vlm_sliced     page_03  score=0.767   14048ms
+  design2code_vlm_sliced     page_04  score=0.736   14263ms
+  design2code_vlm_sliced     page_05  score=0.727   11955ms
+
+  waffle                     page_01  score=0.643    6946ms
+  waffle                     page_02  score=0.684    8888ms
+  waffle                     page_03  score=0.661    5584ms
+  waffle                     page_04  score=0.704    8484ms
+  waffle                     page_05  score=0.731    8407ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.743   33591ms
+  perceptual                 page_02  score=0.771   34148ms
+  perceptual                 page_03  score=0.759   41208ms
+  perceptual                 page_04  score=0.805   39315ms
+  perceptual                 page_05  score=0.759   39535ms
+
+  clip_only                  page_01  score=0.957     208ms
+  clip_only                  page_02  score=0.941     146ms
+  clip_only                  page_03  score=0.939     184ms
+  clip_only                  page_04  score=0.946     186ms
+  clip_only                  page_05  score=0.970     168ms
+
+  vlm_judge                  page_01  score=0.880   10773ms
+  vlm_judge                  page_02  score=0.900    9925ms
+  vlm_judge                  page_03  score=0.860   12998ms
+  vlm_judge                  page_04  score=0.940   12018ms
+  vlm_judge                  page_05  score=0.980    7850ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.761      5
+design2code_vlm             0.752      5
+design2code_vlm_sliced      0.760      5
+waffle                      0.684      5
+perceptual                  0.767      5
+clip_only                   0.951      5
+vlm_judge                   0.912      5
+
+Wrote Runs/Graders/ww-00021-real-run.json
+  done Sun May 10 23:41:35 IST 2026
+===== ww-00022 attempt-002 -> Runs/Graders/ww-00022-real-run.json
+  trial: jobs/2026-05-10__23-01-03/harbor__pvzvKno
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.667   15264ms
+  design2code                page_02  score=0.670   12336ms
+  design2code                page_03  score=0.652   15747ms
+  design2code                page_04  score=0.691   16030ms
+  design2code                page_05  score=0.614   10945ms
+
+  design2code_vlm            page_01  score=0.654   23620ms
+  design2code_vlm            page_02  score=0.643   21355ms
+  design2code_vlm            page_03  score=0.639   25359ms
+  design2code_vlm            page_04  score=0.683   28523ms
+  design2code_vlm            page_05  score=0.612   20873ms
+
+  design2code_vlm_sliced     page_01  score=0.675   16707ms
+  design2code_vlm_sliced     page_02  score=0.594   22394ms
+  design2code_vlm_sliced     page_03  score=0.554   20300ms
+  design2code_vlm_sliced     page_04  score=0.621   19854ms
+  design2code_vlm_sliced     page_05  score=0.654   15350ms
+
+  waffle                     page_01  score=0.598   15299ms
+  waffle                     page_02  score=0.600   16276ms
+  waffle                     page_03  score=0.584   19257ms
+  waffle                     page_04  score=0.620   20877ms
+  waffle                     page_05  score=0.551   13884ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.663   57195ms
+  perceptual                 page_02  score=0.609   39874ms
+  perceptual                 page_03  score=0.511   43118ms
+  perceptual                 page_04  score=0.583   49886ms
+  perceptual                 page_05  score=0.517   42123ms
+
+  clip_only                  page_01  score=0.966     453ms
+  clip_only                  page_02  score=0.966     165ms
+  clip_only                  page_03  score=0.951     174ms
+  clip_only                  page_04  score=0.916     181ms
+  clip_only                  page_05  score=0.914     177ms
+
+  vlm_judge                  page_01  score=0.840   10453ms
+  vlm_judge                  page_02  score=0.800   12630ms
+  vlm_judge                  page_03  score=0.860   10757ms
+  vlm_judge                  page_04  score=0.860   15258ms
+  vlm_judge                  page_05  score=0.860   11168ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.659      5
+design2code_vlm             0.646      5
+design2code_vlm_sliced      0.620      5
+waffle                      0.591      5
+perceptual                  0.577      5
+clip_only                   0.943      5
+vlm_judge                   0.844      5
+
+Wrote Runs/Graders/ww-00022-real-run.json
+  done Sun May 10 23:52:40 IST 2026
+===== ww-00024 attempt-002 -> Runs/Graders/ww-00024-real-run.json
+  trial: jobs/2026-05-10__23-18-36/harbor__PgZVXWV
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.744    5779ms
+  design2code                page_02  score=0.738    5503ms
+  design2code                page_03  score=0.728    4098ms
+  design2code                page_04  score=0.789    6672ms
+  design2code                page_05  score=0.780    3881ms
+
+  design2code_vlm            page_01  score=0.760   15354ms
+  design2code_vlm            page_02  score=0.721   19326ms
+  design2code_vlm            page_03  score=0.712   23292ms
+  design2code_vlm            page_04  score=0.791   20906ms
+  design2code_vlm            page_05  score=0.756   17098ms
+
+  design2code_vlm_sliced     page_01  score=0.706   15894ms
+  design2code_vlm_sliced     page_02  score=0.702   15302ms
+  design2code_vlm_sliced     page_03  score=0.719   13690ms
+  design2code_vlm_sliced     page_04  score=0.744   19606ms
+  design2code_vlm_sliced     page_05  score=0.716   16725ms
+
+  waffle                     page_01  score=0.667    6326ms
+  waffle                     page_02  score=0.664    8399ms
+  waffle                     page_03  score=0.658    5237ms
+  waffle                     page_04  score=0.709    8456ms
+  waffle                     page_05  score=0.702    5649ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.673   35308ms
+  perceptual                 page_02  score=0.629   54311ms
+  perceptual                 page_03  score=0.765   24433ms
+  perceptual                 page_04  score=0.753   28530ms
+  perceptual                 page_05  score=0.780   34262ms
+
+  clip_only                  page_01  score=0.851     309ms
+  clip_only                  page_02  score=0.922     279ms
+  clip_only                  page_03  score=0.954     207ms
+  clip_only                  page_04  score=0.943     243ms
+  clip_only                  page_05  score=0.951     213ms
+
+  vlm_judge                  page_01  score=0.980   10147ms
+  vlm_judge                  page_02  score=0.960    8094ms
+  vlm_judge                  page_03  score=0.840   13822ms
+  vlm_judge                  page_04  score=0.980   13737ms
+  vlm_judge                  page_05  score=0.780   16004ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.756      5
+design2code_vlm             0.748      5
+design2code_vlm_sliced      0.717      5
+waffle                      0.680      5
+perceptual                  0.720      5
+clip_only                   0.924      5
+vlm_judge                   0.908      5
+
+Wrote Runs/Graders/ww-00024-real-run.json
+  done Mon May 11 00:00:39 IST 2026
+===== ww-00025 attempt-001 -> Runs/Graders/ww-00025-real-run.json
+  trial: jobs/2026-05-10__23-01-44/harbor__7Hzeq2P
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.663    8832ms
+  design2code                page_02  score=0.750    9256ms
+  design2code                page_03  score=0.711   10600ms
+  design2code                page_04  score=0.686    8537ms
+  design2code                page_05  score=0.679    6511ms
+
+  design2code_vlm            page_01  score=0.652   15269ms
+  design2code_vlm            page_02  score=0.743   18021ms
+  design2code_vlm            page_03  score=0.696   21812ms
+  design2code_vlm            page_04  score=0.680   20040ms
+  design2code_vlm            page_05  score=0.673   20821ms
+
+  design2code_vlm_sliced     page_01  score=0.645   16971ms
+  design2code_vlm_sliced     page_02  score=0.673   20480ms
+  design2code_vlm_sliced     page_03  score=0.642   20891ms
+  design2code_vlm_sliced     page_04  score=0.577   18219ms
+  design2code_vlm_sliced     page_05  score=0.625   14446ms
+
+  waffle                     page_01  score=0.595    9353ms
+  waffle                     page_02  score=0.672   11864ms
+  waffle                     page_03  score=0.637   13427ms
+  waffle                     page_04  score=0.616   11043ms
+  waffle                     page_05  score=0.609    7569ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.568   32420ms
+  perceptual                 page_02  score=0.619   21343ms
+  perceptual                 page_03  score=0.582   33900ms
+  perceptual                 page_04  score=0.490   30934ms
+  perceptual                 page_05  score=0.571   23406ms
+
+  clip_only                  page_01  score=0.876     209ms
+  clip_only                  page_02  score=0.951     134ms
+  clip_only                  page_03  score=0.940     176ms
+  clip_only                  page_04  score=0.926     163ms
+  clip_only                  page_05  score=0.924     143ms
+
+  vlm_judge                  page_01  score=0.800   11760ms
+  vlm_judge                  page_02  score=0.860   11799ms
+  vlm_judge                  page_03  score=0.840    7588ms
+  vlm_judge                  page_04  score=0.880   12186ms
+  vlm_judge                  page_05  score=0.880   12579ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.698      5
+design2code_vlm             0.689      5
+design2code_vlm_sliced      0.632      5
+waffle                      0.626      5
+perceptual                  0.566      5
+clip_only                   0.923      5
+vlm_judge                   0.852      5
+
+Wrote Runs/Graders/ww-00025-real-run.json
+  done Mon May 11 00:08:44 IST 2026
+===== ww-00028 attempt-001 -> Runs/Graders/ww-00028-real-run.json
+  trial: jobs/2026-05-10__23-07-46/harbor__M2a7ech
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.816    6283ms
+  design2code                page_02  score=0.743    4878ms
+  design2code                page_03  score=0.717    3409ms
+  design2code                page_04  score=0.762    5535ms
+  design2code                page_05  score=0.787    4397ms
+
+  design2code_vlm            page_01  score=0.807   15864ms
+  design2code_vlm            page_02  score=0.733   16580ms
+  design2code_vlm            page_03  score=0.717   15780ms
+  design2code_vlm            page_04  score=0.767   14339ms
+  design2code_vlm            page_05  score=0.777   16490ms
+
+  design2code_vlm_sliced     page_01  score=0.757   14309ms
+  design2code_vlm_sliced     page_02  score=0.729   12922ms
+  design2code_vlm_sliced     page_03  score=0.643   16486ms
+  design2code_vlm_sliced     page_04  score=0.673   15807ms
+  design2code_vlm_sliced     page_05  score=0.717   17576ms
+
+  waffle                     page_01  score=0.737    4402ms
+  waffle                     page_02  score=0.670    5358ms
+  waffle                     page_03  score=0.648    3861ms
+  waffle                     page_04  score=0.689    5874ms
+  waffle                     page_05  score=0.710    4903ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.804   22687ms
+  perceptual                 page_02  score=0.690   21535ms
+  perceptual                 page_03  score=0.709   18006ms
+  perceptual                 page_04  score=0.782   15704ms
+  perceptual                 page_05  score=0.749   18037ms
+
+  clip_only                  page_01  score=0.939     173ms
+  clip_only                  page_02  score=0.926     139ms
+  clip_only                  page_03  score=0.897     124ms
+  clip_only                  page_04  score=0.944     120ms
+  clip_only                  page_05  score=0.950     126ms
+
+  vlm_judge                  page_01  score=0.880    7875ms
+  vlm_judge                  page_02  score=0.900   10954ms
+  vlm_judge                  page_03  score=0.900   12561ms
+  vlm_judge                  page_04  score=0.980   13243ms
+  vlm_judge                  page_05  score=0.900   11694ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.765      5
+design2code_vlm             0.761      5
+design2code_vlm_sliced      0.704      5
+waffle                      0.691      5
+perceptual                  0.747      5
+clip_only                   0.931      5
+vlm_judge                   0.912      5
+
+Wrote Runs/Graders/ww-00028-real-run.json
+  done Mon May 11 00:14:44 IST 2026
+===== ww-00029 attempt-001 -> Runs/Graders/ww-00029-real-run.json
+  trial: jobs/2026-05-10__23-08-13/harbor__VvBt6TR
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.820    6146ms
+  design2code                page_02  score=0.770    3787ms
+  design2code                page_03  score=0.763    4707ms
+  design2code                page_04  score=0.748    5684ms
+  design2code                page_05  score=0.814    2764ms
+
+  design2code_vlm            page_01  score=0.826   18005ms
+  design2code_vlm            page_02  score=0.764   16353ms
+  design2code_vlm            page_03  score=0.764   13431ms
+  design2code_vlm            page_04  score=0.738   17204ms
+  design2code_vlm            page_05  score=0.814   14900ms
+
+  design2code_vlm_sliced     page_01  score=0.767   12133ms
+  design2code_vlm_sliced     page_02  score=0.621   15252ms
+  design2code_vlm_sliced     page_03  score=0.684   17311ms
+  design2code_vlm_sliced     page_04  score=0.755   16276ms
+  design2code_vlm_sliced     page_05  score=0.752   12085ms
+
+  waffle                     page_01  score=0.735    4118ms
+  waffle                     page_02  score=0.688    4114ms
+  waffle                     page_03  score=0.684    5051ms
+  waffle                     page_04  score=0.669    6128ms
+  waffle                     page_05  score=0.730    3159ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.726   15229ms
+  perceptual                 page_02  score=0.645   14464ms
+  perceptual                 page_03  score=0.673   13775ms
+  perceptual                 page_04  score=0.643   17025ms
+  perceptual                 page_05  score=0.735   12668ms
+
+  clip_only                  page_01  score=0.858     160ms
+  clip_only                  page_02  score=0.941     121ms
+  clip_only                  page_03  score=0.895     115ms
+  clip_only                  page_04  score=0.885     124ms
+  clip_only                  page_05  score=0.901     115ms
+
+  vlm_judge                  page_01  score=0.900    8388ms
+  vlm_judge                  page_02  score=0.900   12020ms
+  vlm_judge                  page_03  score=0.920   13179ms
+  vlm_judge                  page_04  score=0.840   12178ms
+  vlm_judge                  page_05  score=0.900   10241ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.783      5
+design2code_vlm             0.781      5
+design2code_vlm_sliced      0.716      5
+waffle                      0.701      5
+perceptual                  0.684      5
+clip_only                   0.896      5
+vlm_judge                   0.892      5
+
+Wrote Runs/Graders/ww-00029-real-run.json
+  done Mon May 11 00:20:14 IST 2026
+===== ww-00030 attempt-001 -> Runs/Graders/ww-00030-real-run.json
+  trial: jobs/2026-05-10__23-08-39/harbor__zXt6EKc
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Scoring 5 page(s) against 7 grader(s)
+
+  design2code                page_01  score=0.784    6326ms
+  design2code                page_02  score=0.742    6152ms
+  design2code                page_03  score=0.723    4041ms
+  design2code                page_04  score=0.747    3797ms
+  design2code                page_05  score=0.758    5290ms
+
+  design2code_vlm            page_01  score=0.778   17180ms
+  design2code_vlm            page_02  score=0.732   18979ms
+  design2code_vlm            page_03  score=0.714   16553ms
+  design2code_vlm            page_04  score=0.728   19140ms
+  design2code_vlm            page_05  score=0.761   16568ms
+
+  design2code_vlm_sliced     page_01  score=0.747   16194ms
+  design2code_vlm_sliced     page_02  score=0.710   11535ms
+  design2code_vlm_sliced     page_03  score=0.709   17124ms
+  design2code_vlm_sliced     page_04  score=0.710   15169ms
+  design2code_vlm_sliced     page_05  score=0.675   14610ms
+
+  waffle                     page_01  score=0.703    4302ms
+  waffle                     page_02  score=0.668    6440ms
+  waffle                     page_03  score=0.651    4326ms
+  waffle                     page_04  score=0.672    4080ms
+  waffle                     page_05  score=0.684    5661ms
+
+Setting up [LPIPS] perceptual loss: trunk [vgg], v[0.1], spatial [off]
+Loading model from: /Users/sanket/code/px-work-trial/web-weaver/.venv/lib/python3.12/site-packages/lpips/weights/v0.1/vgg.pth
+  perceptual                 page_01  score=0.715   19880ms
+  perceptual                 page_02  score=0.676   21669ms
+  perceptual                 page_03  score=0.736   18263ms
+  perceptual                 page_04  score=0.761   16205ms
+  perceptual                 page_05  score=0.743   18065ms
+
+  clip_only                  page_01  score=0.963     162ms
+  clip_only                  page_02  score=0.946     123ms
+  clip_only                  page_03  score=0.966     115ms
+  clip_only                  page_04  score=0.972     108ms
+  clip_only                  page_05  score=0.958     119ms
+
+  vlm_judge                  page_01  score=0.920   14014ms
+  vlm_judge                  page_02  score=0.940    8530ms
+  vlm_judge                  page_03  score=0.960    9727ms
+  vlm_judge                  page_04  score=0.840   15770ms
+  vlm_judge                  page_05  score=0.900   10547ms
+
+=== Per-grader means ===
+grader                       mean  pages
+----------------------------------------
+design2code                 0.751      5
+design2code_vlm             0.743      5
+design2code_vlm_sliced      0.710      5
+waffle                      0.676      5
+perceptual                  0.726      5
+clip_only                   0.961      5
+vlm_judge                   0.912      5
+
+Wrote Runs/Graders/ww-00030-real-run.json
+  done Mon May 11 00:26:22 IST 2026
+Batch complete: Mon May 11 00:26:22 IST 2026

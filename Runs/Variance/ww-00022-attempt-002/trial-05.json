@@ -1,0 +1,965 @@
+{
+  "job_dir": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9",
+  "harbor_task_dir": "Runs/SiteGeneration/ww-00022/attempt-002/harbor",
+  "rows": [
+    {
+      "grader": "design2code",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.6595416971191496,
+      "components": {
+        "block_match": 0.6451482605378267,
+        "text": 0.49560924416684615,
+        "position": 0.9521543765895479,
+        "color": 0.370313695170365,
+        "block_ssim": 0.41761440934578464,
+        "edge_ssim": 0.7691577608373361,
+        "clip": 0.9667941331863403
+      },
+      "elapsed_ms": 15008.024208000279,
+      "metadata": {
+        "grader": "design2code",
+        "elapsed_ms": 15000.56974999461,
+        "agent_block_count": 318,
+        "truth_block_count": 349,
+        "matched_pairs": 313
+      }
+    },
+    {
+      "grader": "design2code",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.6962958416648038,
+      "components": {
+        "block_match": 0.9593073896478348,
+        "text": 0.5329134019256998,
+        "position": 0.957289960034344,
+        "color": 0.3193187495413757,
+        "block_ssim": 0.3749706266197919,
+        "edge_ssim": 0.7648896184072859,
+        "clip": 0.9653811454772949
+      },
+      "elapsed_ms": 12467.182083004445,
+      "metadata": {
+        "grader": "design2code",
+        "elapsed_ms": 12459.760792000452,
+        "agent_block_count": 331,
+        "truth_block_count": 361,
+        "matched_pairs": 324
+      }
+    },
+    {
+      "grader": "design2code",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.6689959536984678,
+      "components": {
+        "block_match": 0.982964444845902,
+        "text": 0.3511435457263613,
+        "position": 0.9449280534226225,
+        "color": 0.32157283103949025,
+        "block_ssim": 0.3886786987980482,
+        "edge_ssim": 0.7417424032672535,
+        "clip": 0.9519416987895966
+      },
+      "elapsed_ms": 16952.009665998048,
+      "metadata": {
+        "grader": "design2code",
+        "elapsed_ms": 16941.39654200262,
+        "agent_block_count": 402,
+        "truth_block_count": 410,
+        "matched_pairs": 380
+      }
+    },
+    {
+      "grader": "design2code",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.7053733004611843,
+      "components": {
+        "block_match": 0.9848562056153608,
+        "text": 0.4564651718330129,
+        "position": 0.9632307128638791,
+        "color": 0.40175024281615174,
+        "block_ssim": 0.4800667267735077,
+        "edge_ssim": 0.7276832451581946,
+        "clip": 0.9235607981681824
+      },
+      "elapsed_ms": 16300.571374995343,
+      "metadata": {
+        "grader": "design2code",
+        "elapsed_ms": 16287.778958001581,
+        "agent_block_count": 394,
+        "truth_block_count": 384,
+        "matched_pairs": 379
+      }
+    },
+    {
+      "grader": "design2code",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.6281907012315343,
+      "components": {
+        "block_match": 0.5174636822875032,
+        "text": 0.4280961990101212,
+        "position": 0.9607798198818114,
+        "color": 0.4132900444124791,
+        "block_ssim": 0.43223952558824064,
+        "edge_ssim": 0.7618500840615263,
+        "clip": 0.8836155533790588
+      },
+      "elapsed_ms": 11292.239875001542,
+      "metadata": {
+        "grader": "design2code",
+        "elapsed_ms": 11279.66337500402,
+        "agent_block_count": 291,
+        "truth_block_count": 338,
+        "matched_pairs": 283
+      }
+    },
+    {
+      "grader": "design2code_vlm",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.6499996780925296,
+      "components": {
+        "block_match": 0.6451482605378267,
+        "text": 0.49560924416684615,
+        "position": 0.9521543765895479,
+        "color": 0.370313695170365,
+        "block_ssim": 0.41761440934578464,
+        "edge_ssim": 0.7691577608373361,
+        "vlm_judge": 0.9
+      },
+      "elapsed_ms": 18969.881707998866,
+      "metadata": {
+        "grader": "design2code_vlm",
+        "elapsed_ms": 18962.056750002375,
+        "agent_block_count": 318,
+        "truth_block_count": 349,
+        "matched_pairs": 313,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 0.8,
+          "typography_hierarchy": 1.0,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 1.0,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.675527106596619,
+      "components": {
+        "block_match": 0.9593073896478348,
+        "text": 0.5329134019256998,
+        "position": 0.957289960034344,
+        "color": 0.3193187495413757,
+        "block_ssim": 0.3749706266197919,
+        "edge_ssim": 0.7648896184072859,
+        "vlm_judge": 0.82
+      },
+      "elapsed_ms": 21418.163250004,
+      "metadata": {
+        "grader": "design2code_vlm",
+        "elapsed_ms": 21408.008790996973,
+        "agent_block_count": 331,
+        "truth_block_count": 361,
+        "matched_pairs": 324,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 0.6,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 0.8,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.6,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.6615757110142397,
+      "components": {
+        "block_match": 0.982964444845902,
+        "text": 0.3511435457263613,
+        "position": 0.9449280534226225,
+        "color": 0.32157283103949025,
+        "block_ssim": 0.3886786987980482,
+        "edge_ssim": 0.7417424032672535,
+        "vlm_judge": 0.9
+      },
+      "elapsed_ms": 28518.928750003397,
+      "metadata": {
+        "grader": "design2code_vlm",
+        "elapsed_ms": 28511.04425000085,
+        "agent_block_count": 402,
+        "truth_block_count": 410,
+        "matched_pairs": 380,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 1.0,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.7105789007228724,
+      "components": {
+        "block_match": 0.9848562056153608,
+        "text": 0.4564651718330129,
+        "position": 0.9632307128638791,
+        "color": 0.40175024281615174,
+        "block_ssim": 0.4800667267735077,
+        "edge_ssim": 0.7276832451581946,
+        "vlm_judge": 0.96
+      },
+      "elapsed_ms": 26872.67866700131,
+      "metadata": {
+        "grader": "design2code_vlm",
+        "elapsed_ms": 26863.937374997477,
+        "agent_block_count": 394,
+        "truth_block_count": 384,
+        "matched_pairs": 379,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 1.0,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 1.0,
+          "asset_placement": 1.0,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 1.0
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.6248170507488117,
+      "components": {
+        "block_match": 0.5174636822875032,
+        "text": 0.4280961990101212,
+        "position": 0.9607798198818114,
+        "color": 0.4132900444124791,
+        "block_ssim": 0.43223952558824064,
+        "edge_ssim": 0.7618500840615263,
+        "vlm_judge": 0.86
+      },
+      "elapsed_ms": 18784.193832994788,
+      "metadata": {
+        "grader": "design2code_vlm",
+        "elapsed_ms": 18765.503333997913,
+        "agent_block_count": 291,
+        "truth_block_count": 338,
+        "matched_pairs": 283,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 0.8,
+          "asset_placement": 0.6,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm_sliced",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.6939889957748304,
+      "components": {
+        "block_match": 0.7177103313161877,
+        "text": 0.6483466798014365,
+        "position": 0.9074875108935285,
+        "color": 0.46567226686578406,
+        "block_ssim": 0.478757745637769,
+        "edge_ssim": 0.7399484359091062,
+        "vlm_judge": 0.9
+      },
+      "elapsed_ms": 13668.516666002688,
+      "metadata": {
+        "grader": "design2code_vlm_sliced",
+        "elapsed_ms": 13663.63166699739,
+        "slice_pairs_scored": 6,
+        "degraded_to_tall": false,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 0.8,
+          "typography_hierarchy": 1.0,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 1.0,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm_sliced",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.6829749408739304,
+      "components": {
+        "block_match": 0.9323363281840781,
+        "text": 0.5456196679877211,
+        "position": 0.9298608327499668,
+        "color": 0.3442586136110084,
+        "block_ssim": 0.4056098951787538,
+        "edge_ssim": 0.7631392484059838,
+        "vlm_judge": 0.86
+      },
+      "elapsed_ms": 16183.102000002691,
+      "metadata": {
+        "grader": "design2code_vlm_sliced",
+        "elapsed_ms": 16176.933583999926,
+        "slice_pairs_scored": 5,
+        "degraded_to_tall": false,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 0.8,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 0.8,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm_sliced",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.6111179137143494,
+      "components": {
+        "block_match": 0.710983791860717,
+        "text": 0.3650548295912988,
+        "position": 0.8533474920392543,
+        "color": 0.32991968562911805,
+        "block_ssim": 0.38140016082883743,
+        "edge_ssim": 0.7371194360512192,
+        "vlm_judge": 0.9
+      },
+      "elapsed_ms": 16586.455249998835,
+      "metadata": {
+        "grader": "design2code_vlm_sliced",
+        "elapsed_ms": 16578.47891599522,
+        "slice_pairs_scored": 5,
+        "degraded_to_tall": false,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 1.0,
+          "asset_placement": 1.0,
+          "text_content_fidelity": 0.8,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm_sliced",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.6979152295692236,
+      "components": {
+        "block_match": 0.7371254447439979,
+        "text": 0.6640949019322454,
+        "position": 0.9421121560452624,
+        "color": 0.4663721589864056,
+        "block_ssim": 0.4732747991215172,
+        "edge_ssim": 0.7024271461551367,
+        "vlm_judge": 0.9
+      },
+      "elapsed_ms": 20354.35495799902,
+      "metadata": {
+        "grader": "design2code_vlm_sliced",
+        "elapsed_ms": 20349.736916003167,
+        "slice_pairs_scored": 6,
+        "degraded_to_tall": false,
+        "vlm_rubric": {
+          "layout_fidelity": 0.8,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 1.0,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 0.8,
+          "asset_placement": 1.0,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "design2code_vlm_sliced",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.6907023456945022,
+      "components": {
+        "block_match": 0.799964973750959,
+        "text": 0.7012096983273395,
+        "position": 0.8983885959169601,
+        "color": 0.3875554675773054,
+        "block_ssim": 0.3976802235129367,
+        "edge_ssim": 0.7701174607760137,
+        "vlm_judge": 0.88
+      },
+      "elapsed_ms": 13955.524791999778,
+      "metadata": {
+        "grader": "design2code_vlm_sliced",
+        "elapsed_ms": 13949.366167005792,
+        "slice_pairs_scored": 6,
+        "degraded_to_tall": false,
+        "vlm_rubric": {
+          "layout_fidelity": 1.0,
+          "color_accuracy": 1.0,
+          "typography_hierarchy": 0.8,
+          "spacing_and_rhythm": 0.8,
+          "component_structure": 0.8,
+          "asset_placement": 0.8,
+          "text_content_fidelity": 1.0,
+          "visual_polish": 0.8,
+          "semantic_correctness": 1.0,
+          "overall_similarity": 0.8
+        }
+      }
+    },
+    {
+      "grader": "waffle",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.592191434241994,
+      "components": {
+        "block_match": 0.6451482605378267,
+        "text": 0.49560924416684615,
+        "position": 0.9521543765895479,
+        "color": 0.370313695170365,
+        "block_ssim": 0.41761440934578464,
+        "edge_ssim": 0.7691577608373361,
+        "clip": 0.9667941331863403,
+        "cw_ssim": 0.12073959410190582
+      },
+      "elapsed_ms": 12825.439457999892,
+      "metadata": {
+        "grader": "waffle",
+        "elapsed_ms": 12811.424166000506,
+        "agent_block_count": 318,
+        "truth_block_count": 349,
+        "matched_pairs": 313
+      }
+    },
+    {
+      "grader": "waffle",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.623639014725279,
+      "components": {
+        "block_match": 0.9593073896478348,
+        "text": 0.5329134019256998,
+        "position": 0.957289960034344,
+        "color": 0.3193187495413757,
+        "block_ssim": 0.3749706266197919,
+        "edge_ssim": 0.7648896184072859,
+        "clip": 0.9653811454772949,
+        "cw_ssim": 0.11504122614860535
+      },
+      "elapsed_ms": 13276.026375002402,
+      "metadata": {
+        "grader": "waffle",
+        "elapsed_ms": 13266.919792004046,
+        "agent_block_count": 331,
+        "truth_block_count": 361,
+        "matched_pairs": 324
+      }
+    },
+    {
+      "grader": "waffle",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.5993209636082972,
+      "components": {
+        "block_match": 0.982964444845902,
+        "text": 0.3511435457263613,
+        "position": 0.9449280534226225,
+        "color": 0.32157283103949025,
+        "block_ssim": 0.3886786987980482,
+        "edge_ssim": 0.7417424032672535,
+        "clip": 0.9519416987895966,
+        "cw_ssim": 0.11159603297710419
+      },
+      "elapsed_ms": 17815.001790993847,
+      "metadata": {
+        "grader": "waffle",
+        "elapsed_ms": 17804.44562499906,
+        "agent_block_count": 402,
+        "truth_block_count": 410,
+        "matched_pairs": 380
+      }
+    },
+    {
+      "grader": "waffle",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.6335028563238032,
+      "components": {
+        "block_match": 0.9848562056153608,
+        "text": 0.4564651718330129,
+        "position": 0.9632307128638791,
+        "color": 0.40175024281615174,
+        "block_ssim": 0.4800667267735077,
+        "edge_ssim": 0.7276832451581946,
+        "clip": 0.9235607981681824,
+        "cw_ssim": 0.13040974736213684
+      },
+      "elapsed_ms": 17191.076915994927,
+      "metadata": {
+        "grader": "waffle",
+        "elapsed_ms": 17179.859709001903,
+        "agent_block_count": 394,
+        "truth_block_count": 384,
+        "matched_pairs": 379
+      }
+    },
+    {
+      "grader": "waffle",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.564468831466663,
+      "components": {
+        "block_match": 0.5174636822875032,
+        "text": 0.4280961990101212,
+        "position": 0.9607798198818114,
+        "color": 0.4132900444124791,
+        "block_ssim": 0.43223952558824064,
+        "edge_ssim": 0.7618500840615263,
+        "clip": 0.8836155533790588,
+        "cw_ssim": 0.11841574311256409
+      },
+      "elapsed_ms": 12625.962332997005,
+      "metadata": {
+        "grader": "waffle",
+        "elapsed_ms": 12613.883790996624,
+        "agent_block_count": 291,
+        "truth_block_count": 338,
+        "matched_pairs": 283
+      }
+    },
+    {
+      "grader": "perceptual",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.679680737276956,
+      "components": {
+        "ssim": 0.7112001228731564,
+        "lpips": 0.6481613516807556
+      },
+      "elapsed_ms": 45922.758209002495,
+      "metadata": {
+        "grader": "perceptual",
+        "elapsed_ms": 45917.37037499843
+      }
+    },
+    {
+      "grader": "perceptual",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.5575210668004358,
+      "components": {
+        "ssim": 0.5893332197977711,
+        "lpips": 0.5257089138031006
+      },
+      "elapsed_ms": 40366.48887499905,
+      "metadata": {
+        "grader": "perceptual",
+        "elapsed_ms": 40358.63458299718
+      }
+    },
+    {
+      "grader": "perceptual",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.5893111049994071,
+      "components": {
+        "ssim": 0.5997797488896528,
+        "lpips": 0.5788424611091614
+      },
+      "elapsed_ms": 42874.93374999758,
+      "metadata": {
+        "grader": "perceptual",
+        "elapsed_ms": 42867.50575000042
+      }
+    },
+    {
+      "grader": "perceptual",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.6401647052494293,
+      "components": {
+        "ssim": 0.6553365630562316,
+        "lpips": 0.624992847442627
+      },
+      "elapsed_ms": 48282.18866699899,
+      "metadata": {
+        "grader": "perceptual",
+        "elapsed_ms": 48274.69887500047
+      }
+    },
+    {
+      "grader": "perceptual",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.557387307694291,
+      "components": {
+        "ssim": 0.5813004680687883,
+        "lpips": 0.5334741473197937
+      },
+      "elapsed_ms": 43429.68466700404,
+      "metadata": {
+        "grader": "perceptual",
+        "elapsed_ms": 43422.046457999386
+      }
+    },
+    {
+      "grader": "clip_only",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.9667941331863403,
+      "components": {
+        "clip": 0.9667941331863403
+      },
+      "elapsed_ms": 247.085082999547,
+      "metadata": {
+        "grader": "clip_only",
+        "elapsed_ms": 241.48595899896463
+      }
+    },
+    {
+      "grader": "clip_only",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.9653811454772949,
+      "components": {
+        "clip": 0.9653811454772949
+      },
+      "elapsed_ms": 165.95975000382168,
+      "metadata": {
+        "grader": "clip_only",
+        "elapsed_ms": 162.03824999684002
+      }
+    },
+    {
+      "grader": "clip_only",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.9519416987895966,
+      "components": {
+        "clip": 0.9519416987895966
+      },
+      "elapsed_ms": 183.34495900489856,
+      "metadata": {
+        "grader": "clip_only",
+        "elapsed_ms": 178.50199999520555
+      }
+    },
+    {
+      "grader": "clip_only",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.9235607981681824,
+      "components": {
+        "clip": 0.9235607981681824
+      },
+      "elapsed_ms": 191.3682919985149,
+      "metadata": {
+        "grader": "clip_only",
+        "elapsed_ms": 186.96762499894248
+      }
+    },
+    {
+      "grader": "clip_only",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.8836155533790588,
+      "components": {
+        "clip": 0.8836155533790588
+      },
+      "elapsed_ms": 190.49975000234554,
+      "metadata": {
+        "grader": "clip_only",
+        "elapsed_ms": 185.55191600171383
+      }
+    },
+    {
+      "grader": "vlm_judge",
+      "page_index": 1,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_01_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_01_full.png",
+      "score": 0.88,
+      "components": {
+        "layout_fidelity": 1.0,
+        "color_accuracy": 0.8,
+        "typography_hierarchy": 1.0,
+        "spacing_and_rhythm": 0.8,
+        "component_structure": 1.0,
+        "asset_placement": 0.6,
+        "text_content_fidelity": 1.0,
+        "visual_polish": 0.8,
+        "semantic_correctness": 1.0,
+        "overall_similarity": 0.8
+      },
+      "elapsed_ms": 11305.031750001945,
+      "metadata": {
+        "grader": "vlm_judge",
+        "model": "claude-opus-4-7",
+        "elapsed_ms": 11302.833209003438,
+        "input_tokens": 6135,
+        "output_tokens": 588,
+        "rubric_reasons": {
+          "layout_fidelity": "All sections appear in the same vertical order with matching column structures and timeline layout.",
+          "color_accuracy": "Accent colors match well but the IGNITE heading appears more pink/magenta vs the reference's yellow, and the robot illustration lacks the glowing background.",
+          "typography_hierarchy": "Font families, weights, and size relationships between headings, subtitles, and body text closely mirror the reference.",
+          "spacing_and_rhythm": "Padding and whitespace are very similar though the 'Your First Build Starts Now' heading wraps differently (3 lines vs 2 lines).",
+          "component_structure": "Cards, buttons, stats, and timeline components have matching internal structure with badges, headings, and descriptions.",
+          "asset_placement": "The robot illustration is in the right place but lacks the radial glow/halo and surrounding lightning/sparkle elements present in the reference.",
+          "text_content_fidelity": "Text content appears to match the reference essentially verbatim across all sections.",
+          "visual_polish": "Overall finish is high but the missing robot background glow and the off-color IGNITE word reduce polish slightly.",
+          "semantic_correctness": "Clearly the same robotics club landing page with identical purpose and sections.",
+          "overall_similarity": "Very close replication with only minor color and illustration detail differences."
+        }
+      }
+    },
+    {
+      "grader": "vlm_judge",
+      "page_index": 2,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_02_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_02_full.png",
+      "score": 0.84,
+      "components": {
+        "layout_fidelity": 0.8,
+        "color_accuracy": 0.8,
+        "typography_hierarchy": 0.8,
+        "spacing_and_rhythm": 0.8,
+        "component_structure": 0.8,
+        "asset_placement": 0.8,
+        "text_content_fidelity": 1.0,
+        "visual_polish": 0.8,
+        "semantic_correctness": 1.0,
+        "overall_similarity": 0.8
+      },
+      "elapsed_ms": 11139.907333003066,
+      "metadata": {
+        "grader": "vlm_judge",
+        "model": "claude-opus-4-7",
+        "elapsed_ms": 11137.370874996122,
+        "input_tokens": 6595,
+        "output_tokens": 560,
+        "rubric_reasons": {
+          "layout_fidelity": "Same sections in same order with similar column structure, though hero layout has the GARAGE side text in different position.",
+          "color_accuracy": "Yellow, pink, cyan accents and dark backgrounds plus pink-orange gradient all closely match the reference.",
+          "typography_hierarchy": "Bold condensed display headings, small caps labels, and body text hierarchy closely mirror the reference.",
+          "spacing_and_rhythm": "Section padding and density are close, though the hero feels slightly more compact and value cards have minor spacing differences.",
+          "component_structure": "Value cards, team member cards, stats, and buttons are all present with matching internal structure.",
+          "asset_placement": "Garage illustration and starburst chart are placed correctly and in similar style, though the side 'GARAGE' vertical text appears truncated/different.",
+          "text_content_fidelity": "Text content matches the reference very closely across all sections including names, values, and stats.",
+          "visual_polish": "Overall finish is high and comparable to reference, with only minor roughness in the chart labels and side text.",
+          "semantic_correctness": "Clearly the same About page for BoltWorks robotics club.",
+          "overall_similarity": "Very close replica with only minor layout and asset detail differences."
+        }
+      }
+    },
+    {
+      "grader": "vlm_judge",
+      "page_index": 3,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_03_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_03_full.png",
+      "score": 0.92,
+      "components": {
+        "layout_fidelity": 1.0,
+        "color_accuracy": 0.8,
+        "typography_hierarchy": 1.0,
+        "spacing_and_rhythm": 0.8,
+        "component_structure": 1.0,
+        "asset_placement": 1.0,
+        "text_content_fidelity": 1.0,
+        "visual_polish": 0.8,
+        "semantic_correctness": 1.0,
+        "overall_similarity": 0.8
+      },
+      "elapsed_ms": 8303.09491600201,
+      "metadata": {
+        "grader": "vlm_judge",
+        "model": "claude-opus-4-7",
+        "elapsed_ms": 8300.291874998948,
+        "input_tokens": 6043,
+        "output_tokens": 573,
+        "rubric_reasons": {
+          "layout_fidelity": "All sections appear in the same vertical order with matching column structures including the icon row, department grid, division cards, and testimonials.",
+          "color_accuracy": "Yellow accent, dark background, pink-orange gradient, and yellow CTA section all match closely with only minor variations in division card gradients.",
+          "typography_hierarchy": "Heading weights, condensed display font, and body type hierarchy are well replicated across sections.",
+          "spacing_and_rhythm": "Padding and density are very close, though the hero text wraps slightly differently and division cards have minor spacing differences.",
+          "component_structure": "Department cards, division cards, testimonial blocks, and footer all share the same internal structure with badges and labels intact.",
+          "asset_placement": "Icons, division ribbon labels, and quote marks are placed correctly and styled consistently with the reference.",
+          "text_content_fidelity": "Nearly all body copy, headings, ages, and quotes match the reference verbatim.",
+          "visual_polish": "The page looks finished and polished with consistent styling matching the reference's level of finish.",
+          "semantic_correctness": "Clearly the same departments/divisions page for BoltWorks robotics club.",
+          "overall_similarity": "Very close reproduction with only minor differences in gradients and text wrapping."
+        }
+      }
+    },
+    {
+      "grader": "vlm_judge",
+      "page_index": 4,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_04_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_04_full.png",
+      "score": 0.9,
+      "components": {
+        "layout_fidelity": 0.8,
+        "color_accuracy": 1.0,
+        "typography_hierarchy": 1.0,
+        "spacing_and_rhythm": 0.8,
+        "component_structure": 0.8,
+        "asset_placement": 1.0,
+        "text_content_fidelity": 1.0,
+        "visual_polish": 0.8,
+        "semantic_correctness": 1.0,
+        "overall_similarity": 0.8
+      },
+      "elapsed_ms": 7997.1564169973135,
+      "metadata": {
+        "grader": "vlm_judge",
+        "model": "claude-opus-4-7",
+        "elapsed_ms": 7993.718707999506,
+        "input_tokens": 5767,
+        "output_tokens": 534,
+        "rubric_reasons": {
+          "layout_fidelity": "All sections appear in the same vertical order with similar column structures, though the DriveMetrix card spans full width instead of being in a grid.",
+          "color_accuracy": "Yellow accents, black backgrounds, and the pink-to-orange gradient section all match closely.",
+          "typography_hierarchy": "Bold condensed display headings, tag pills, and body text hierarchy match the reference very closely.",
+          "spacing_and_rhythm": "Section padding and density are similar, with minor differences in card spacing where the last project spans full width.",
+          "component_structure": "Cards, tag pills, buttons, bar chart, and timeline cards all replicate the reference's internal structure well.",
+          "asset_placement": "The lightbulb/robot arm illustration is placed correctly with matching style, and the bar chart appears in the right spot.",
+          "text_content_fidelity": "Text content matches the reference nearly verbatim across all sections.",
+          "visual_polish": "The page looks polished and finished, matching the reference's quality level closely.",
+          "semantic_correctness": "Clearly the same research/projects page for BoltWorks club.",
+          "overall_similarity": "Very close replication with only minor layout differences in one card row."
+        }
+      }
+    },
+    {
+      "grader": "vlm_judge",
+      "page_index": 5,
+      "agent": "jobs/2026-05-11__01-25-01/harbor__U2tHMP9/verifier/agent_screenshots/page_05_full.png",
+      "truth": "Runs/SiteGeneration/ww-00022/attempt-002/harbor/environment/prompt/screenshots/page_05_full.png",
+      "score": 0.9,
+      "components": {
+        "layout_fidelity": 1.0,
+        "color_accuracy": 1.0,
+        "typography_hierarchy": 0.8,
+        "spacing_and_rhythm": 0.8,
+        "component_structure": 1.0,
+        "asset_placement": 0.8,
+        "text_content_fidelity": 1.0,
+        "visual_polish": 0.8,
+        "semantic_correctness": 1.0,
+        "overall_similarity": 0.8
+      },
+      "elapsed_ms": 7991.591749996587,
+      "metadata": {
+        "grader": "vlm_judge",
+        "model": "claude-opus-4-7",
+        "elapsed_ms": 7988.677250003093,
+        "input_tokens": 5767,
+        "output_tokens": 550,
+        "rubric_reasons": {
+          "layout_fidelity": "All major sections appear in the same vertical order with matching two-column contact layout and FAQ structure.",
+          "color_accuracy": "Black, yellow, pink-to-orange gradient, and cyan accents are well matched throughout.",
+          "typography_hierarchy": "Bold condensed display font and hierarchy of headings/labels/body closely match the reference.",
+          "spacing_and_rhythm": "Padding and density are similar though the generated page feels slightly more compact in some sections.",
+          "component_structure": "Form fields, info cards with action buttons, FAQ rows, and CTA buttons mirror the reference structure.",
+          "asset_placement": "Battery/lightning illustration and grid map with location markers are positioned correctly, though the map is simpler and missing some pink dots/labels.",
+          "text_content_fidelity": "Headings, labels, and body copy match the reference text very closely.",
+          "visual_polish": "Overall finish is close to the reference with only minor roughness in the map illustration.",
+          "semantic_correctness": "Clearly the same contact page with form, location, FAQ, and CTA sections.",
+          "overall_similarity": "The generated page is a strong replica with only minor differences in the map graphic and spacing."
+        }
+      }
+    }
+  ],
+  "per_grader_mean": {
+    "design2code": 0.671679498835028,
+    "design2code_vlm": 0.6644996894350145,
+    "design2code_vlm_sliced": 0.6753398851253671,
+    "waffle": 0.6026246200732073,
+    "perceptual": 0.6048129844041038,
+    "clip_only": 0.9382586658000946,
+    "vlm_judge": 0.8880000000000001
+  }
+}

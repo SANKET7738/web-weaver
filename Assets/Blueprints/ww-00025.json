@@ -1,0 +1,1008 @@
+{
+  "id": "ww-00025",
+  "version": "0.1",
+  "concept_id": "ww-00025",
+  "identity": {
+    "name": "NEONRIFT",
+    "tagline": "Plug In. Power Up. Dominate.",
+    "one_line_description": "NEONRIFT is a cyberpunk-themed esports tournament platform where elite teams compete for glory across high-stakes digital arenas.",
+    "domain": "gaming_entertainment",
+    "subdomain": "esports tournament",
+    "voice": [
+      "electric",
+      "aggressive",
+      "immersive",
+      "bold",
+      "gritty"
+    ],
+    "target_audience": "Competitive gamers, esports fans aged 16\u201332, team managers, and tournament spectators who live and breathe competitive gaming culture."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Instantly communicate the intensity and prestige of the NEONRIFT tournament, drive visitors to register or explore the schedule, and establish the cyberpunk brand identity.",
+      "meta_description": "NEONRIFT Esports \u2014 the premier cyberpunk-themed competitive gaming tournament. Register your team, check the schedule, and claim your place in the arena.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver an immediate, high-voltage first impression that communicates scale, danger, and prestige. Hook competitive gamers with urgency and identity.",
+          "eyebrow": "Season 4 \u2014 Now Live",
+          "headline": "The Grid Does Not Forgive the Weak.",
+          "subheadline": "NEONRIFT Season 4 is open. 64 teams. One champion. Zero mercy.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Register Your Team",
+              "target_page": "contact"
+            },
+            {
+              "label": "View the Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Cyberpunk arena silhouette with neon grid lines, towering digital pylons, and a fractured city skyline in the background",
+              "purpose": "Hero backdrop illustration that sets the dystopian tournament atmosphere",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Establish credibility and scale by surfacing tournament-wide numbers that impress both new visitors and returning competitors.",
+          "eyebrow": "By the Numbers",
+          "headline": "The Stats Don't Lie.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "64",
+              "description": "Teams Competing in Season 4",
+              "metadata": {
+                "unit": "Teams"
+              }
+            },
+            {
+              "title": "$120,000",
+              "description": "Total Prize Pool Across All Brackets",
+              "metadata": {
+                "unit": "USD"
+              }
+            },
+            {
+              "title": "18",
+              "description": "Matches Scheduled Across 6 Weeks",
+              "metadata": {
+                "unit": "Matches"
+              }
+            },
+            {
+              "title": "2.4M+",
+              "description": "Live Stream Views in Season 3",
+              "metadata": {
+                "unit": "Views"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Explain the unique competitive format and features of NEONRIFT that differentiate it from generic tournaments.",
+          "eyebrow": "Why NEONRIFT",
+          "headline": "Built for the Ruthless. Designed for the Relentless.",
+          "subheadline": "Every element of NEONRIFT is engineered to push competitors to their limit.",
+          "body": null,
+          "items": [
+            {
+              "title": "Double-Elimination Bracket",
+              "description": "No single mistake ends your run. Fight back from the losers bracket and prove your resilience.",
+              "metadata": {}
+            },
+            {
+              "title": "Live Streamed Matches",
+              "description": "Every match broadcast live with professional commentary, real-time stats, and highlight replays.",
+              "metadata": {}
+            },
+            {
+              "title": "Ranked Divisions",
+              "description": "Three divisions \u2014 Neon, Void, and Apex \u2014 ensure every team competes at the right level.",
+              "metadata": {}
+            },
+            {
+              "title": "Team Profiles & Stats",
+              "description": "Full performance dashboards for every registered team, updated after every match.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Meet the Teams",
+              "target_page": "team"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "timeline",
+          "intent": "Give visitors a quick overview of the Season 4 roadmap so they understand where the tournament is right now and what's coming next.",
+          "eyebrow": "Season 4 Roadmap",
+          "headline": "The Path to the Apex Championship.",
+          "subheadline": "Six weeks. Three phases. One throne.",
+          "body": null,
+          "items": [
+            {
+              "title": "Week 1\u20132: Group Stage",
+              "description": "All 64 teams compete in round-robin group matches. Top 32 advance.",
+              "metadata": {
+                "status": "Active"
+              }
+            },
+            {
+              "title": "Week 3\u20134: Elimination Rounds",
+              "description": "Double-elimination bracket narrows the field to the final 8.",
+              "metadata": {
+                "status": "Upcoming"
+              }
+            },
+            {
+              "title": "Week 5: Semi-Finals",
+              "description": "The last four teams battle across two high-stakes semi-final nights.",
+              "metadata": {
+                "status": "Upcoming"
+              }
+            },
+            {
+              "title": "Week 6: Apex Grand Final",
+              "description": "The championship match \u2014 streamed live to hundreds of thousands of viewers.",
+              "metadata": {
+                "status": "Upcoming"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Full Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-4-asset-1",
+              "kind": "icon",
+              "subject": "Cyberpunk trophy with circuit-board engravings and neon glow lines radiating outward",
+              "purpose": "Visual anchor for the championship milestone in the season roadmap timeline",
+              "quantity": 1,
+              "used_by": [
+                "home-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Convert high-intent visitors at the bottom of the home page by directing them to register or shop for merch.",
+          "eyebrow": "Your Move",
+          "headline": "Are You Ready to Enter the Grid?",
+          "subheadline": "Spots are limited. Teams that hesitate get left behind.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Register Now",
+              "target_page": "contact"
+            },
+            {
+              "label": "Shop NEONRIFT Merch",
+              "target_page": "merch"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "title": "Teams",
+      "role": "overview",
+      "goal": "Showcase every competing team with rich profiles, stats, and division standings so fans can follow their favorites and rivals can scout the competition.",
+      "meta_description": "Meet the 64 teams competing in NEONRIFT Season 4. Browse rosters, stats, division standings, and team histories.",
+      "sections": [
+        {
+          "id": "team-section-1",
+          "type": "page_header",
+          "intent": "Set the stage for the teams overview page with a powerful framing statement that reinforces the competitive atmosphere.",
+          "eyebrow": "Season 4 Competitors",
+          "headline": "64 Teams. One Will Survive.",
+          "subheadline": "Browse every crew that dared to enter the grid. Study them. Know them. Beat them.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "team-section-1-asset-1",
+              "kind": "pattern",
+              "subject": "Repeating hexagonal grid pattern with faint circuit-trace lines and glitch-distortion breaks, evoking a digital battle map",
+              "purpose": "Page header background texture that reinforces the cyberpunk team-battle theme",
+              "quantity": 1,
+              "used_by": [
+                "team-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "team-section-2",
+          "type": "stats",
+          "intent": "Surface division-level standings at a glance before the visitor digs into individual team cards.",
+          "eyebrow": "Division Standings",
+          "headline": "Where Every Division Stands Right Now.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Apex Division",
+              "description": "Top 16 teams. Average win rate: 71%. Most dominant: Team VORTEX.",
+              "metadata": {
+                "division": "Apex"
+              }
+            },
+            {
+              "title": "Void Division",
+              "description": "Mid-tier 24 teams. Average win rate: 54%. Rising threat: Team CIPHER.",
+              "metadata": {
+                "division": "Void"
+              }
+            },
+            {
+              "title": "Neon Division",
+              "description": "Entry-level 24 teams. Average win rate: 41%. Breakout squad: Team FLUX.",
+              "metadata": {
+                "division": "Neon"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "team-section-3",
+          "type": "item_grid",
+          "intent": "Display the featured Apex Division teams as cards with key stats, giving fans and competitors a quick but rich overview of the top-tier competition.",
+          "eyebrow": "Apex Division",
+          "headline": "The Elite Eight of the Grid.",
+          "subheadline": "These teams have earned their place at the top. For now.",
+          "body": null,
+          "items": [
+            {
+              "title": "Team VORTEX",
+              "description": "5-time season veterans. Known for aggressive early-game pushes and iron-clad coordination.",
+              "metadata": {
+                "wins": "12",
+                "losses": "2",
+                "rank": "#1"
+              }
+            },
+            {
+              "title": "Team CIPHER",
+              "description": "Tactical masterminds who dismantle opponents with data-driven strategies and zero waste.",
+              "metadata": {
+                "wins": "11",
+                "losses": "3",
+                "rank": "#2"
+              }
+            },
+            {
+              "title": "Team PHANTASM",
+              "description": "Stealth-focused squad with a reputation for clutch plays in the final minutes of every match.",
+              "metadata": {
+                "wins": "10",
+                "losses": "4",
+                "rank": "#3"
+              }
+            },
+            {
+              "title": "Team OVERLOAD",
+              "description": "Brute-force style with the highest damage output in the tournament. Loud, fast, and relentless.",
+              "metadata": {
+                "wins": "9",
+                "losses": "5",
+                "rank": "#4"
+              }
+            },
+            {
+              "title": "Team NULL",
+              "description": "The dark horses of Season 4. Unranked last season, now sitting in the top five.",
+              "metadata": {
+                "wins": "9",
+                "losses": "5",
+                "rank": "#5"
+              }
+            },
+            {
+              "title": "Team RAZE",
+              "description": "Known for explosive team fights and a roster with three former championship MVPs.",
+              "metadata": {
+                "wins": "8",
+                "losses": "6",
+                "rank": "#6"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "team-section-3-asset-1",
+              "kind": "icon",
+              "subject": "Stylized team shield emblem with a lightning bolt fracture and neon circuit detail, usable as a generic team badge placeholder",
+              "purpose": "Default team card badge icon for teams without a custom emblem submission",
+              "quantity": 1,
+              "used_by": [
+                "team-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "team-section-4",
+          "type": "item_grid",
+          "intent": "Highlight notable Void and Neon Division teams to give mid-tier and rising competitors visibility and fan engagement.",
+          "eyebrow": "Void & Neon Divisions",
+          "headline": "The Ones Climbing the Ladder.",
+          "subheadline": "Today's underdogs. Tomorrow's contenders.",
+          "body": null,
+          "items": [
+            {
+              "title": "Team FLUX",
+              "description": "Neon Division's most-watched team. Explosive play style with a loyal fanbase already forming.",
+              "metadata": {
+                "division": "Neon",
+                "wins": "7",
+                "losses": "3"
+              }
+            },
+            {
+              "title": "Team STATIC",
+              "description": "Void Division veterans who narrowly missed Apex last season. Hungry for the upgrade.",
+              "metadata": {
+                "division": "Void",
+                "wins": "8",
+                "losses": "4"
+              }
+            },
+            {
+              "title": "Team GLITCH",
+              "description": "Chaotic but effective. Their unpredictable rotations confuse even seasoned analysts.",
+              "metadata": {
+                "division": "Neon",
+                "wins": "6",
+                "losses": "4"
+              }
+            },
+            {
+              "title": "Team DREAD",
+              "description": "Void Division's most disciplined squad. Slow, methodical, and nearly impossible to tilt.",
+              "metadata": {
+                "division": "Void",
+                "wins": "7",
+                "losses": "5"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "team-section-5",
+          "type": "cta",
+          "intent": "Invite new teams to register and push existing fans toward the schedule to follow upcoming matches.",
+          "eyebrow": "Join the Roster",
+          "headline": "Think Your Team Has What It Takes?",
+          "subheadline": "Registration for Season 4 late entries is still open. Claim your slot before the grid locks.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Register Your Team",
+              "target_page": "contact"
+            },
+            {
+              "label": "View Match Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "title": "Schedule",
+      "role": "editorial",
+      "goal": "Give competitors and fans a complete, easy-to-scan match schedule with dates, matchups, division context, and stream links so they never miss a match.",
+      "meta_description": "NEONRIFT Season 4 full match schedule. Browse all upcoming and completed matches by week, division, and team.",
+      "sections": [
+        {
+          "id": "schedule-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the schedule page and build anticipation for upcoming matches.",
+          "eyebrow": "Season 4 Match Schedule",
+          "headline": "Every Battle. Every Date. Every Division.",
+          "subheadline": "The full NEONRIFT Season 4 schedule \u2014 updated in real time as results come in.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "schedule-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "Cyberpunk countdown clock with neon digits, circuit-board clock face, and glitch scan lines \u2014 representing match timing and urgency",
+              "purpose": "Page header visual that reinforces time-sensitivity and match countdown atmosphere",
+              "quantity": 1,
+              "used_by": [
+                "schedule-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schedule-section-2",
+          "type": "timeline",
+          "intent": "Show the Week 1\u20132 Group Stage matches in chronological order so fans can track the opening phase of the tournament.",
+          "eyebrow": "Week 1\u20132 \u2014 Group Stage",
+          "headline": "The Opening Salvos.",
+          "subheadline": "Round-robin group matches determine who advances. Every point matters.",
+          "body": null,
+          "items": [
+            {
+              "title": "Day 1 \u2014 Group A Opener",
+              "description": "Team VORTEX vs. Team GLITCH | Apex vs. Neon crossover exhibition. Stream: NeonriftLive.",
+              "metadata": {
+                "date": "June 3",
+                "status": "Completed",
+                "result": "VORTEX 2\u20130"
+              }
+            },
+            {
+              "title": "Day 2 \u2014 Group B Clash",
+              "description": "Team CIPHER vs. Team STATIC | Tactical battle between two data-driven rosters.",
+              "metadata": {
+                "date": "June 4",
+                "status": "Completed",
+                "result": "CIPHER 2\u20131"
+              }
+            },
+            {
+              "title": "Day 4 \u2014 Group C Showdown",
+              "description": "Team PHANTASM vs. Team FLUX | Stealth vs. speed \u2014 analysts are split on the prediction.",
+              "metadata": {
+                "date": "June 6",
+                "status": "Completed",
+                "result": "PHANTASM 2\u20130"
+              }
+            },
+            {
+              "title": "Day 6 \u2014 Group D Feature Match",
+              "description": "Team OVERLOAD vs. Team DREAD | Brute force meets iron defense. This one goes the distance.",
+              "metadata": {
+                "date": "June 8",
+                "status": "Completed",
+                "result": "DREAD 2\u20131"
+              }
+            },
+            {
+              "title": "Day 8 \u2014 Group Stage Finals",
+              "description": "Top two teams from each group advance. Final standings locked after today.",
+              "metadata": {
+                "date": "June 10",
+                "status": "Upcoming",
+                "result": "TBD"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "schedule-section-3",
+          "type": "timeline",
+          "intent": "Preview the elimination rounds so fans and teams can plan ahead and understand the bracket structure.",
+          "eyebrow": "Week 3\u20134 \u2014 Elimination Rounds",
+          "headline": "The Bracket Opens. The Weak Fall.",
+          "subheadline": "Double-elimination. Losers get one more chance. Champions take both.",
+          "body": null,
+          "items": [
+            {
+              "title": "Round of 32 \u2014 Winners Bracket",
+              "description": "16 matches across two nights. Top seeds face off. No soft draws at this stage.",
+              "metadata": {
+                "date": "June 14\u201315",
+                "status": "Upcoming"
+              }
+            },
+            {
+              "title": "Round of 32 \u2014 Losers Bracket",
+              "description": "Teams that dropped their first match fight for survival. One more loss and you're out.",
+              "metadata": {
+                "date": "June 16",
+                "status": "Upcoming"
+              }
+            },
+            {
+              "title": "Round of 16 \u2014 Winners Bracket",
+              "description": "Eight matches. Eight eliminations. The field narrows fast.",
+              "metadata": {
+                "date": "June 18\u201319",
+                "status": "Upcoming"
+              }
+            },
+            {
+              "title": "Losers Bracket Finals",
+              "description": "The last survivors from the losers bracket earn their spot in the semi-finals.",
+              "metadata": {
+                "date": "June 21",
+                "status": "Upcoming"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "schedule-section-3-asset-1",
+              "kind": "chart",
+              "subject": "Double-elimination bracket diagram rendered in neon-on-dark style, showing 8 slots with connecting match lines and winner/loser bracket paths",
+              "purpose": "Visual bracket overview that helps fans and teams understand the elimination structure at a glance",
+              "quantity": 1,
+              "used_by": [
+                "schedule-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "schedule-section-4",
+          "type": "item_grid",
+          "intent": "Highlight the most anticipated upcoming feature matches to build hype and drive stream viewership.",
+          "eyebrow": "Must-Watch Matches",
+          "headline": "The Matchups Everyone Is Talking About.",
+          "subheadline": "These clashes will define Season 4. Don't miss a second.",
+          "body": null,
+          "items": [
+            {
+              "title": "VORTEX vs. CIPHER",
+              "description": "The two top seeds meet in the Winners Bracket Round of 16. Season-defining rivalry.",
+              "metadata": {
+                "date": "June 18",
+                "division": "Apex",
+                "stream": "NeonriftLive"
+              }
+            },
+            {
+              "title": "NULL vs. PHANTASM",
+              "description": "The dark horse faces the stealth assassins. Analysts have no idea who comes out ahead.",
+              "metadata": {
+                "date": "June 19",
+                "division": "Apex",
+                "stream": "NeonriftLive"
+              }
+            },
+            {
+              "title": "FLUX vs. STATIC",
+              "description": "A Neon vs. Void crossover grudge match with a huge social media following.",
+              "metadata": {
+                "date": "June 16",
+                "division": "Cross-Division",
+                "stream": "NeonriftLive"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "schedule-section-5",
+          "type": "cta",
+          "intent": "Drive fans to follow the live streams and prompt teams to confirm their match readiness through the contact page.",
+          "eyebrow": "Never Miss a Match",
+          "headline": "Live. Loud. Unfiltered.",
+          "subheadline": "Every NEONRIFT match is streamed live. Follow us for real-time alerts and post-match breakdowns.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Register Your Team",
+              "target_page": "contact"
+            },
+            {
+              "label": "Meet the Competitors",
+              "target_page": "team"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "merch",
+      "title": "Merch",
+      "role": "conversion",
+      "goal": "Convert fans and competitors into buyers by showcasing the NEONRIFT merchandise line with strong product storytelling and clear purchase prompts.",
+      "meta_description": "Shop official NEONRIFT esports merch \u2014 hoodies, jerseys, accessories, and limited-edition drops designed for the cyberpunk competitor.",
+      "sections": [
+        {
+          "id": "merch-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the merch store with brand-forward copy that makes buying feel like joining a movement, not just shopping.",
+          "eyebrow": "Official NEONRIFT Store",
+          "headline": "Wear the Grid. Own the Identity.",
+          "subheadline": "Limited drops. Cyberpunk-forged. Built for those who compete and those who watch.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "merch-section-1-asset-1",
+              "kind": "logo",
+              "subject": "NEONRIFT wordmark logo with a glitch-split effect on the letters, neon underline stroke, and a small circuit-node detail integrated into the R",
+              "purpose": "Brand logo lockup used as the merch store header identity mark and product watermark",
+              "quantity": 1,
+              "used_by": [
+                "merch-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "merch-section-2",
+          "type": "item_grid",
+          "intent": "Showcase the core merchandise collection with product names, descriptions, and pricing to drive purchase intent.",
+          "eyebrow": "Core Collection",
+          "headline": "The Essentials. No Filler.",
+          "subheadline": "Every piece designed to signal that you're part of the NEONRIFT world.",
+          "body": null,
+          "items": [
+            {
+              "title": "NEONRIFT Competitor Hoodie",
+              "description": "Heavy-weight fleece with embroidered chest logo and glitch-print sleeve graphics. Unisex sizing.",
+              "metadata": {
+                "price": "$74.99",
+                "tag": "Bestseller"
+              }
+            },
+            {
+              "title": "Apex Division Jersey",
+              "description": "Performance-fit esports jersey with full sublimation print, moisture-wicking fabric, and team number customization.",
+              "metadata": {
+                "price": "$59.99",
+                "tag": "Customizable"
+              }
+            },
+            {
+              "title": "NEONRIFT Snapback Cap",
+              "description": "Six-panel structured cap with embroidered neon logo and adjustable snap closure.",
+              "metadata": {
+                "price": "$34.99",
+                "tag": "New"
+              }
+            },
+            {
+              "title": "Grid Operator Tee",
+              "description": "Oversized streetwear tee with a large back print of the NEONRIFT arena map graphic.",
+              "metadata": {
+                "price": "$29.99",
+                "tag": ""
+              }
+            },
+            {
+              "title": "Void Division Zip-Up",
+              "description": "Slim-fit zip hoodie with tonal Void Division patch and reflective logo detail.",
+              "metadata": {
+                "price": "$64.99",
+                "tag": "Limited"
+              }
+            },
+            {
+              "title": "NEONRIFT Wrist Sleeve Set",
+              "description": "Two-pack compression wrist sleeves with circuit-trace print. Worn by competitors in the arena.",
+              "metadata": {
+                "price": "$19.99",
+                "tag": "Gear"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Register to Unlock Team Discounts",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "merch-section-2-asset-1",
+              "kind": "mockup",
+              "subject": "Flat-lay mockup outline of a hoodie with geometric neon circuit-trace print lines and a glitch logo placement on the chest \u2014 SVG wireframe style",
+              "purpose": "Product card visual placeholder for the hoodie item in the core collection grid",
+              "quantity": 1,
+              "used_by": [
+                "merch-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "merch-section-3",
+          "type": "item_grid",
+          "intent": "Create urgency and exclusivity with a limited-edition drop section that rewards fast action and fan loyalty.",
+          "eyebrow": "Limited Drops",
+          "headline": "Once They're Gone, They're Gone.",
+          "subheadline": "Season 4 exclusive drops available only while stock lasts.",
+          "body": null,
+          "items": [
+            {
+              "title": "Season 4 Championship Tee",
+              "description": "Commemorative tee released only during the live Grand Final. Features the final bracket printed on the back.",
+              "metadata": {
+                "price": "$39.99",
+                "availability": "Grand Final Week Only"
+              }
+            },
+            {
+              "title": "Team VORTEX Fan Pack",
+              "description": "Includes a VORTEX team sticker sheet, lanyard, and mini-banner. Official licensed product.",
+              "metadata": {
+                "price": "$24.99",
+                "availability": "Limited to 200 Units"
+              }
+            },
+            {
+              "title": "Glitch Edition Hoodie",
+              "description": "All-over glitch-distortion print hoodie in a run of only 150 units. No restock guaranteed.",
+              "metadata": {
+                "price": "$89.99",
+                "availability": "Only 38 Left"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "merch-section-4",
+          "type": "feature_grid",
+          "intent": "Reduce purchase hesitation by communicating the quality, shipping, and customer experience commitments behind the NEONRIFT store.",
+          "eyebrow": "Why Shop NEONRIFT",
+          "headline": "No Lag. No Excuses. Just Quality.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Official Tournament Merch",
+              "description": "Every product is officially licensed and endorsed by the NEONRIFT organization.",
+              "metadata": {}
+            },
+            {
+              "title": "Ships Worldwide",
+              "description": "We deliver to over 80 countries. Tracked shipping with 5\u201310 business day standard delivery.",
+              "metadata": {}
+            },
+            {
+              "title": "Team Discount Program",
+              "description": "Registered Season 4 teams receive 20% off all orders. Register to unlock your code.",
+              "metadata": {}
+            },
+            {
+              "title": "Hassle-Free Returns",
+              "description": "Not satisfied? We offer 30-day returns on all unworn, tagged items. No questions asked.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "merch-section-5",
+          "type": "cta",
+          "intent": "Close the merch page with a conversion-focused push and a secondary path toward team registration.",
+          "eyebrow": "Gear Up",
+          "headline": "You Can't Enter the Grid Underdressed.",
+          "subheadline": "Grab your NEONRIFT gear before the next drop sells out.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop the Full Collection",
+              "target_page": null
+            },
+            {
+              "label": "Register Your Team",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Enable team registrations, media inquiries, sponsor outreach, and general questions through a clear and approachable contact experience that matches the NEONRIFT brand.",
+      "meta_description": "Contact NEONRIFT \u2014 register your team for Season 4, submit a media inquiry, explore sponsorship opportunities, or ask us anything.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors to the contact page with brand-consistent language that makes reaching out feel like an act of commitment, not admin.",
+          "eyebrow": "Make Contact",
+          "headline": "Step Into the Arena. We're Listening.",
+          "subheadline": "Whether you're registering a team, pitching a sponsorship, or just asking a question \u2014 we respond within 24 hours.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "feature_grid",
+          "intent": "Segment the different reasons a visitor might contact NEONRIFT so they feel guided rather than dropped into a generic form.",
+          "eyebrow": "How Can We Help?",
+          "headline": "Choose Your Channel.",
+          "subheadline": "Different missions. Same fast response.",
+          "body": null,
+          "items": [
+            {
+              "title": "Team Registration",
+              "description": "Ready to compete? Submit your team details and we'll confirm your slot in the relevant division within 48 hours.",
+              "metadata": {
+                "contact": "register@neonrift.gg"
+              }
+            },
+            {
+              "title": "Sponsorship & Partnerships",
+              "description": "Reach 2.4 million live viewers. Explore title sponsorship, team sponsorship, and broadcast partnership packages.",
+              "metadata": {
+                "contact": "sponsors@neonrift.gg"
+              }
+            },
+            {
+              "title": "Media & Press",
+              "description": "Journalists, content creators, and streamers \u2014 request credentials, interviews, and press kits here.",
+              "metadata": {
+                "contact": "media@neonrift.gg"
+              }
+            },
+            {
+              "title": "General Inquiries",
+              "description": "Everything else \u2014 fan questions, technical issues, merch problems, or just saying hello.",
+              "metadata": {
+                "contact": "hello@neonrift.gg"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-2-asset-1",
+              "kind": "icon",
+              "subject": "Set of four cyberpunk-style contact category icons: a team shield, a handshake circuit, a camera lens with glitch lines, and a speech bubble with a neon pulse",
+              "purpose": "Icon set for each contact category card to visually differentiate the four inquiry types",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-3",
+          "type": "contact_block",
+          "intent": "Provide the primary team registration and general inquiry form so visitors can take action directly on the page.",
+          "eyebrow": "Send a Transmission",
+          "headline": "Drop Us a Message.",
+          "subheadline": "Fill out the form below and a member of the NEONRIFT operations team will be in touch within 24 hours.",
+          "body": "Fields: Full Name, Team Name (if applicable), Inquiry Type (Team Registration / Sponsorship / Media / General), Email Address, Message. By submitting you agree to our privacy policy.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Submit Your Message",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "faq",
+          "intent": "Pre-empt the most common questions from prospective teams and fans to reduce support volume and build confidence in the registration process.",
+          "eyebrow": "FAQ",
+          "headline": "Questions from the Grid.",
+          "subheadline": "The answers you need before you hit send.",
+          "body": null,
+          "items": [
+            {
+              "title": "How many players does a team need to register?",
+              "description": "Teams must register a minimum of 5 active players and up to 2 substitute players. All players must be 16 or older.",
+              "metadata": {}
+            },
+            {
+              "title": "Is there an entry fee?",
+              "description": "Neon Division entry is free. Void Division requires a $50 registration fee. Apex Division is invite-only based on Season 3 performance.",
+              "metadata": {}
+            },
+            {
+              "title": "What games are included in Season 4?",
+              "description": "Season 4 features three titles: Voidstrike (FPS), GridRacer (Racing), and Cipher Protocol (Tactical Strategy). Teams compete in one title per division.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I watch matches for free?",
+              "description": "Yes. All matches are streamed free on NeonriftLive. Premium subscribers get access to multi-stream views, VODs, and stat overlays.",
+              "metadata": {}
+            },
+            {
+              "title": "When does team registration close?",
+              "description": "Late registration closes 72 hours before the first Group Stage match. Spots are first-come, first-served.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-5",
+          "type": "cta",
+          "intent": "Close the contact page by reinforcing the community aspect of NEONRIFT and pushing undecided visitors toward the team or schedule pages.",
+          "eyebrow": "The Grid Awaits",
+          "headline": "Don't Watch from the Sidelines.",
+          "subheadline": "Explore the teams, study the schedule, and decide if you have what it takes to compete.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Meet the Teams",
+              "target_page": "team"
+            },
+            {
+              "label": "View the Schedule",
+              "target_page": "schedule"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "contact-section-5-asset-1",
+              "kind": "illustration",
+              "subject": "Top-down isometric view of a cyberpunk esports arena floor with glowing lane markers, team stations, and neon grid lines \u2014 minimal and diagrammatic",
+              "purpose": "Atmospheric closing illustration that reinforces the physical arena identity and scale of the tournament",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

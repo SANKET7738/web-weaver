@@ -1,0 +1,19 @@
+{
+  "id": "ww-00007",
+  "version": "0.1",
+  "site_domain": "portfolio",
+  "site_subdomain": "UX researcher portfolio",
+  "design_aesthetic": "streetwear_graphic",
+  "layout_family": "editorial_grid",
+  "page_set": [
+    "home",
+    "work",
+    "about",
+    "journal",
+    "contact"
+  ],
+  "difficulty": "medium",
+  "seed": 42,
+  "sample_index": 7,
+  "source": "web-weaver.concept_sampler"
+}

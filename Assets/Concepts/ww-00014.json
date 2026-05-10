@@ -1,0 +1,19 @@
+{
+  "id": "ww-00014",
+  "version": "0.1",
+  "site_domain": "retail_ecommerce",
+  "site_subdomain": "home fragrance brand",
+  "design_aesthetic": "luxury_editorial",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "collection",
+    "product",
+    "care-guide",
+    "stockists"
+  ],
+  "difficulty": "medium",
+  "seed": 88463792,
+  "sample_index": 3,
+  "source": "web-weaver.concept_sampler"
+}

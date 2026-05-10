@@ -1,0 +1,19 @@
+{
+  "id": "ww-00037",
+  "version": "0.1",
+  "site_domain": "fintech",
+  "site_subdomain": "merchant cashflow analytics platform",
+  "design_aesthetic": "industrial_technical",
+  "layout_family": "dashboard_product",
+  "page_set": [
+    "home",
+    "solutions",
+    "customers",
+    "resources",
+    "contact"
+  ],
+  "difficulty": "medium",
+  "seed": 2569918234,
+  "sample_index": 16,
+  "source": "web-weaver.concept_sampler"
+}

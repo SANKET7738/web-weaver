@@ -1,0 +1,1137 @@
+{
+  "id": "ww-00017",
+  "version": "0.1",
+  "concept_id": "ww-00017",
+  "identity": {
+    "name": "Sproutly",
+    "tagline": "Dressed for every adventure.",
+    "one_line_description": "Sproutly is a kids clothing label that makes bright, durable, and playfully designed clothes for children who never stop moving.",
+    "domain": "kids_family",
+    "subdomain": "kids clothing label",
+    "voice": [
+      "warm",
+      "playful",
+      "encouraging",
+      "clear"
+    ],
+    "target_audience": "Parents of children aged 2\u201312 who want stylish, comfortable, and hard-wearing kids' clothing that keeps up with active, imaginative play."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Capture attention instantly with a bold, joyful gallery of kids in Sproutly clothes, establish the brand's playful personality, and guide parents toward exploring collections or enrolling in the loyalty club \u2014 anchored by an unmistakable arrival moment that feels like stepping into a world built for childhood.",
+      "meta_description": "Sproutly makes bright, durable kids' clothing for every adventure. Shop collections built for play, comfort, and unstoppable kids.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver an immediate, high-energy arrival moment \u2014 a full-bleed gallery hero that floods the visitor with color and movement, making the brand's personality unmistakable in the first second.",
+          "eyebrow": "New Season Is Here",
+          "headline": "Dressed for Every Adventure.",
+          "subheadline": "Playful clothes built tough for kids who never stop moving.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop Collections",
+              "target_page": "classes"
+            },
+            {
+              "label": "Meet Our Story",
+              "target_page": "teachers"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A cheerful cartoon child running through a field wearing a bright outfit, arms wide open, with small stars and leaves trailing behind",
+              "purpose": "Hero visual that instantly communicates the brand's joyful, active spirit",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Quickly communicate the three brand pillars \u2014 playful design, tough durability, and safe materials \u2014 so parents feel confident this is the right brand for their kids.",
+          "eyebrow": "Why Sproutly",
+          "headline": "Made for Kids. Trusted by Parents.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Designs Kids Actually Love",
+              "description": "Bold prints, fun characters, and bright palettes that make getting dressed the best part of the morning.",
+              "metadata": {}
+            },
+            {
+              "title": "Built to Survive Play",
+              "description": "Reinforced knees, double-stitched seams, and fabrics that wash 100 times and still look great.",
+              "metadata": {}
+            },
+            {
+              "title": "Safe & Soft Materials",
+              "description": "OEKO-TEX certified fabrics free from harmful chemicals, gentle on sensitive skin.",
+              "metadata": {}
+            },
+            {
+              "title": "Grows With Your Child",
+              "description": "Adjustable waistbands and generous cuts designed to last a full season \u2014 and then some.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "home-section-2-asset-1",
+              "kind": "icon",
+              "subject": "Set of four simple line icons: a paint palette, a shield with a star, a leaf, and a stretchy fabric swatch",
+              "purpose": "Visual anchors for each brand pillar in the feature grid",
+              "quantity": 1,
+              "used_by": [
+                "home-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-3",
+          "type": "gallery",
+          "intent": "Let the clothes do the talking \u2014 a lively image gallery showcasing the current season's key pieces styled on active kids, creating desire and inspiring parents to explore the full range.",
+          "eyebrow": "Fall / Winter Collection",
+          "headline": "This Season's Favorites",
+          "subheadline": "From muddy parks to birthday parties \u2014 we've got every occasion covered.",
+          "body": null,
+          "items": [
+            {
+              "title": "Adventure Anorak",
+              "description": "Water-resistant shell in sunrise orange with reflective trim.",
+              "metadata": {
+                "age_range": "3\u20138 yrs",
+                "category": "Outerwear"
+              }
+            },
+            {
+              "title": "Explorer Dungarees",
+              "description": "Rugged canvas with reinforced knees and a dozen pockets.",
+              "metadata": {
+                "age_range": "2\u201310 yrs",
+                "category": "Bottoms"
+              }
+            },
+            {
+              "title": "Stargazer Pyjama Set",
+              "description": "Ultra-soft jersey with glow-in-the-dark constellation print.",
+              "metadata": {
+                "age_range": "2\u201312 yrs",
+                "category": "Sleepwear"
+              }
+            },
+            {
+              "title": "Rainbow Stripe Tee",
+              "description": "Everyday essential in 100% organic cotton with a bold stripe.",
+              "metadata": {
+                "age_range": "2\u201312 yrs",
+                "category": "Tops"
+              }
+            },
+            {
+              "title": "Puddle-Jump Wellies",
+              "description": "Lightweight rubber boots with easy-grip handles and fun prints.",
+              "metadata": {
+                "age_range": "4\u20139 yrs",
+                "category": "Footwear"
+              }
+            },
+            {
+              "title": "Cozy Fleece Hoodie",
+              "description": "Recycled fleece in earthy tones \u2014 warm, soft, and pill-resistant.",
+              "metadata": {
+                "age_range": "3\u201312 yrs",
+                "category": "Knitwear"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View All Collections",
+              "target_page": "classes"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "stats",
+          "intent": "Let the numbers feel alive as they scroll into view \u2014 social proof that builds instant trust and reassures parents they are joining a community of happy families.",
+          "eyebrow": "Sproutly by the Numbers",
+          "headline": "A Brand Families Come Back To",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "50,000+",
+              "description": "Happy families dressed by Sproutly",
+              "metadata": {}
+            },
+            {
+              "title": "4.9 / 5",
+              "description": "Average parent rating across all products",
+              "metadata": {}
+            },
+            {
+              "title": "100%",
+              "description": "OEKO-TEX certified fabrics in every garment",
+              "metadata": {}
+            },
+            {
+              "title": "3 Seasons",
+              "description": "Average product lifespan reported by parents",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "testimonial",
+          "intent": "A slow, ambient warmth \u2014 real parent voices that make new visitors feel seen and reassured, reinforcing trust with genuine stories about how Sproutly fits into family life.",
+          "eyebrow": "Parent Stories",
+          "headline": "What Families Are Saying",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Mia, mum of three",
+              "description": "\"I've tried every kids' brand out there. Sproutly is the only one where the colours haven't faded after a term of school runs and muddy weekends.\"",
+              "metadata": {
+                "location": "Bristol, UK"
+              }
+            },
+            {
+              "title": "James, dad of a 5-year-old",
+              "description": "\"My son refuses to wear anything else now. The dinosaur print hoodie is basically a second skin at this point.\"",
+              "metadata": {
+                "location": "Edinburgh, UK"
+              }
+            },
+            {
+              "title": "Priya, mum of twins",
+              "description": "\"Sizing up has never been easier. The adjustable waistbands genuinely bought us an extra six months per pair of trousers.\"",
+              "metadata": {
+                "location": "London, UK"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-6",
+          "type": "cta",
+          "intent": "Close the home page with a confident, warm flourish that invites parents into the Sproutly loyalty club \u2014 a single clear action that turns a visitor into a community member.",
+          "eyebrow": "Join the Club",
+          "headline": "Get Early Access, Exclusive Drops & 10% Off Your First Order",
+          "subheadline": "Join thousands of parents who never miss a new Sproutly collection.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join Sproutly Club",
+              "target_page": "enroll"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-6-asset-1",
+              "kind": "pattern",
+              "subject": "Repeating pattern of tiny stars, leaves, and small cartoon animals on a soft background, tiling seamlessly",
+              "purpose": "Background texture for the CTA section that feels playful and brand-consistent without competing with the copy",
+              "quantity": 1,
+              "used_by": [
+                "home-section-6"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "classes",
+      "title": "Collections",
+      "role": "overview",
+      "goal": "Give parents a clear, browsable overview of every Sproutly clothing collection, organised by category and age range, so they can quickly find what their child needs and feel excited about what they discover \u2014 a gallery-first layout that lets the clothes lead.",
+      "meta_description": "Browse all Sproutly kids' clothing collections \u2014 outerwear, tops, bottoms, sleepwear, and footwear for ages 2\u201312.",
+      "sections": [
+        {
+          "id": "classes-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor immediately \u2014 they're in the right place to find clothes for their child \u2014 and set an energetic, exploratory tone for the browsing experience ahead.",
+          "eyebrow": "Collections",
+          "headline": "Find the Perfect Outfit for Every Adventure",
+          "subheadline": "Sorted by category, sized for every stage of childhood.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "classes-section-2",
+          "type": "feature_grid",
+          "intent": "Present the main clothing categories as bold, tappable entry points so parents can navigate directly to what they need \u2014 outerwear, tops, bottoms, sleepwear, accessories.",
+          "eyebrow": "Shop by Category",
+          "headline": "Every Wardrobe Essential, Covered",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Outerwear",
+              "description": "Waterproof anoraks, padded gilets, and cosy fleece jackets ready for any weather.",
+              "metadata": {
+                "age_range": "2\u201312 yrs"
+              }
+            },
+            {
+              "title": "Tops & Tees",
+              "description": "Organic cotton basics, graphic tees, and long-sleeves in prints kids choose themselves.",
+              "metadata": {
+                "age_range": "2\u201312 yrs"
+              }
+            },
+            {
+              "title": "Bottoms",
+              "description": "Dungarees, joggers, leggings, and shorts with flexible fits and reinforced knees.",
+              "metadata": {
+                "age_range": "2\u201312 yrs"
+              }
+            },
+            {
+              "title": "Sleepwear",
+              "description": "Soft jersey pyjama sets and sleep suits for bedtime rituals kids actually look forward to.",
+              "metadata": {
+                "age_range": "2\u201312 yrs"
+              }
+            },
+            {
+              "title": "Footwear",
+              "description": "Wellies, trainers, and sandals built for little feet on big missions.",
+              "metadata": {
+                "age_range": "4\u201312 yrs"
+              }
+            },
+            {
+              "title": "Accessories",
+              "description": "Beanies, scarves, backpacks, and sun hats to complete every outfit.",
+              "metadata": {
+                "age_range": "2\u201312 yrs"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "classes-section-2-asset-1",
+              "kind": "icon",
+              "subject": "Set of six playful outline icons: a rain jacket, a folded t-shirt, a pair of trousers, pyjamas with stars, a welly boot, and a small backpack",
+              "purpose": "Category navigation icons that make each clothing section instantly recognisable and fun",
+              "quantity": 1,
+              "used_by": [
+                "classes-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-section-3",
+          "type": "gallery",
+          "intent": "Showcase the current season's hero pieces in a generous gallery grid \u2014 the visual centrepiece of the page where parents linger, imagine outfits, and build their basket.",
+          "eyebrow": "Fall / Winter 2025",
+          "headline": "This Season's Must-Haves",
+          "subheadline": "New arrivals dropping every two weeks through the season.",
+          "body": null,
+          "items": [
+            {
+              "title": "Sunrise Anorak",
+              "description": "Water-resistant shell with a cosy fleece lining. Rolls into its own pocket.",
+              "metadata": {
+                "age_range": "3\u201310 yrs",
+                "price_from": "\u00a349"
+              }
+            },
+            {
+              "title": "Forest Print Joggers",
+              "description": "Brushed cotton with an elasticated waist and deep side pockets.",
+              "metadata": {
+                "age_range": "2\u201310 yrs",
+                "price_from": "\u00a322"
+              }
+            },
+            {
+              "title": "Dino Graphic Tee",
+              "description": "100% organic cotton with a glow-in-the-dark dinosaur print.",
+              "metadata": {
+                "age_range": "2\u201312 yrs",
+                "price_from": "\u00a314"
+              }
+            },
+            {
+              "title": "Stargazer PJ Set",
+              "description": "Ultra-soft jersey with constellation print and glow-in-the-dark stars.",
+              "metadata": {
+                "age_range": "2\u201312 yrs",
+                "price_from": "\u00a328"
+              }
+            },
+            {
+              "title": "Puddle-Jump Wellies",
+              "description": "Lightweight rubber with easy-pull handles and a frog print.",
+              "metadata": {
+                "age_range": "4\u20139 yrs",
+                "price_from": "\u00a332"
+              }
+            },
+            {
+              "title": "Rainbow Stripe Hoodie",
+              "description": "Recycled fleece in a bold stripe, kangaroo pocket and thumbholes.",
+              "metadata": {
+                "age_range": "3\u201312 yrs",
+                "price_from": "\u00a336"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "classes-section-4",
+          "type": "item_grid",
+          "intent": "Help parents filter by age range so they can zero in on exactly the right size tier for their child without scrolling through irrelevant items.",
+          "eyebrow": "Shop by Age",
+          "headline": "The Right Fit for Every Stage",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Tiny Explorers (2\u20134 yrs)",
+              "description": "Easy-on, easy-off designs with wide necks and elastic everything \u2014 because toddlers won't wait.",
+              "metadata": {}
+            },
+            {
+              "title": "Little Adventurers (4\u20137 yrs)",
+              "description": "Bolder prints and more pockets for the age group that needs to carry absolutely everything.",
+              "metadata": {}
+            },
+            {
+              "title": "Big Kids (7\u201312 yrs)",
+              "description": "Style-conscious cuts and grown-up colourways that kids this age actually want to wear.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "classes-section-4-asset-1",
+              "kind": "illustration",
+              "subject": "Three cartoon children of increasing height standing side by side, each in a distinct Sproutly outfit, with a playful height ruler graphic behind them",
+              "purpose": "Visual age-range selector illustration that makes the size tiers feel friendly and easy to navigate",
+              "quantity": 1,
+              "used_by": [
+                "classes-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "classes-section-5",
+          "type": "story_block",
+          "intent": "Reassure parents about material ethics and sustainability credentials \u2014 a calm, trustworthy moment mid-page that deepens brand confidence before they commit to a purchase.",
+          "eyebrow": "Our Materials Promise",
+          "headline": "Clothes You Can Feel Good About Buying",
+          "subheadline": null,
+          "body": "Every Sproutly garment is made from OEKO-TEX certified fabrics \u2014 free from harmful chemicals and tested safe for sensitive skin. Where possible we use organic cotton, recycled fibres, and low-impact dyes. Because the planet your kids play on matters as much as the clothes they wear on it.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Our Full Materials Story",
+              "target_page": "teachers"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "classes-section-6",
+          "type": "cta",
+          "intent": "Convert browsing intent into action \u2014 a confident, warm close that nudges parents to join the Sproutly Club for early access to new drops and a welcome discount.",
+          "eyebrow": "Never Miss a Drop",
+          "headline": "Join the Club for Early Access & 10% Off",
+          "subheadline": "New collections drop every two weeks. Be first in line.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join Sproutly Club",
+              "target_page": "enroll"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "classes-section-6-asset-1",
+              "kind": "pattern",
+              "subject": "Seamless repeating pattern of small clothing items \u2014 tiny tees, miniature wellies, little stars \u2014 scattered playfully across the background",
+              "purpose": "Decorative background for the CTA block that keeps the section feeling brand-consistent and lively",
+              "quantity": 1,
+              "used_by": [
+                "classes-section-6"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "teachers",
+      "title": "Our Story & Team",
+      "role": "editorial",
+      "goal": "Build genuine emotional connection by telling the Sproutly origin story, introducing the people behind the brand, and communicating the values that drive every design decision \u2014 turning a clothing label into a brand parents feel proud to support.",
+      "meta_description": "Meet the team behind Sproutly \u2014 the designers, parents, and makers who create kids' clothes built for real adventures.",
+      "sections": [
+        {
+          "id": "teachers-section-1",
+          "type": "page_header",
+          "intent": "Set the editorial tone for a page that is about people and purpose, not product \u2014 signalling to the visitor that this is where the brand's heart lives.",
+          "eyebrow": "Our Story",
+          "headline": "We Started Sproutly Because Our Kids Kept Outgrowing Everything \u2014 Including Boring Clothes.",
+          "subheadline": "A brand born on a rainy Tuesday, in a kitchen, by two parents who'd had enough.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "teachers-section-2",
+          "type": "story_block",
+          "intent": "Tell the founding story with warmth and specificity \u2014 a deliberate, unhurried narrative that makes the brand feel human, relatable, and rooted in real parenting experience.",
+          "eyebrow": "How It Started",
+          "headline": "From a Kitchen Table to 50,000 Families",
+          "subheadline": null,
+          "body": "In 2018, designers and parents Anya and Tom Beckett were standing in a changing room watching their daughter refuse to wear yet another scratchy, grey, shapeless outfit. They drove home, sketched their first design on the back of a school letter, and called it Sproutly. The idea was simple: make clothes that kids choose to wear, that survive a full season of actual childhood, and that parents don't feel guilty buying. Six years later, Sproutly dresses children in 14 countries \u2014 and Anya's daughter still has opinions about what she wears.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "teachers-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A warm, simple illustration of two adults sketching a children's outfit at a kitchen table, surrounded by fabric swatches, cups of tea, and a child's drawing on the fridge",
+              "purpose": "Humanises the brand origin story and makes the founding moment feel personal and real",
+              "quantity": 1,
+              "used_by": [
+                "teachers-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "teachers-section-3",
+          "type": "feature_grid",
+          "intent": "Articulate the brand values as clear, memorable principles \u2014 giving parents a framework for understanding why Sproutly makes every decision it does.",
+          "eyebrow": "What We Stand For",
+          "headline": "Three Things We'll Never Compromise On",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Joy in Every Stitch",
+              "description": "If a child wouldn't choose it themselves, we don't make it. Design starts with what kids love, then we make it parent-approved.",
+              "metadata": {}
+            },
+            {
+              "title": "Honest Materials",
+              "description": "No greenwashing. Every fabric claim is certified, every supply chain is audited, and we publish our full supplier list online.",
+              "metadata": {}
+            },
+            {
+              "title": "Clothes That Last",
+              "description": "We design for three seasons, not one. Durability is a feature, not a bonus \u2014 because landfill isn't an option.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "teachers-section-4",
+          "type": "item_grid",
+          "intent": "Introduce the core team with warmth and personality \u2014 putting real faces and voices behind the brand so parents feel they know who is making decisions about their children's clothes.",
+          "eyebrow": "The Team",
+          "headline": "Meet the People Behind the Label",
+          "subheadline": "Designers, parents, makers, and a few very opinionated kids.",
+          "body": null,
+          "items": [
+            {
+              "title": "Anya Beckett \u2014 Co-Founder & Creative Director",
+              "description": "Former textile designer turned full-time parent turned brand founder. Anya leads every collection with a single question: would my daughter actually wear this?",
+              "metadata": {
+                "based_in": "Bristol"
+              }
+            },
+            {
+              "title": "Tom Beckett \u2014 Co-Founder & Head of Product",
+              "description": "Engineer by training, dad by calling. Tom obsesses over seam strength, wash tests, and the exact right weight of a hood drawstring.",
+              "metadata": {
+                "based_in": "Bristol"
+              }
+            },
+            {
+              "title": "Kezia Osei \u2014 Head of Design",
+              "description": "Kezia brings 10 years of childrenswear experience and a colour instinct that has produced six of Sproutly's best-selling prints.",
+              "metadata": {
+                "based_in": "London"
+              }
+            },
+            {
+              "title": "Marcus Lim \u2014 Sustainability Lead",
+              "description": "Marcus audits every supplier, certifies every fabric claim, and makes sure Sproutly's environmental commitments are real \u2014 not just marketing.",
+              "metadata": {
+                "based_in": "Manchester"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "teachers-section-4-asset-1",
+              "kind": "illustration",
+              "subject": "Four friendly, stylised portrait avatars in a consistent illustrative style \u2014 each with a distinct look, warm expression, and a small visual detail that hints at their role",
+              "purpose": "Team member portraits that feel human and brand-consistent without requiring photography",
+              "quantity": 1,
+              "used_by": [
+                "teachers-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "teachers-section-5",
+          "type": "timeline",
+          "intent": "Show the brand's growth journey as a series of proud milestones \u2014 building credibility and demonstrating momentum in a way that feels like a story unfolding, not a sales pitch.",
+          "eyebrow": "Our Journey",
+          "headline": "Six Years of Growing Up Together",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "2018 \u2014 First Sketch",
+              "description": "Anya and Tom design the first Sproutly collection from their kitchen table. Twelve pieces. Sold out in 48 hours.",
+              "metadata": {}
+            },
+            {
+              "title": "2019 \u2014 First Stockist",
+              "description": "Sproutly lands its first independent boutique stockist in Bristol, followed by six more within the year.",
+              "metadata": {}
+            },
+            {
+              "title": "2020 \u2014 Online Launch",
+              "description": "The Sproutly webstore launches. 1,000 orders in the first month, despite everything going on in the world.",
+              "metadata": {}
+            },
+            {
+              "title": "2022 \u2014 OEKO-TEX Certified",
+              "description": "Every Sproutly fabric earns OEKO-TEX certification. The team celebrates with a very long lunch.",
+              "metadata": {}
+            },
+            {
+              "title": "2024 \u2014 50,000 Families",
+              "description": "Sproutly dresses children in 14 countries. The kitchen table is now a studio with 18 people in it.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "teachers-section-6",
+          "type": "cta",
+          "intent": "A warm, personal close \u2014 inviting parents who now feel connected to the brand story to take the next step and become part of the Sproutly community.",
+          "eyebrow": "Be Part of the Story",
+          "headline": "Join the Sproutly Club and Help Us Write the Next Chapter",
+          "subheadline": "Early access, exclusive drops, and a community of parents who get it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join the Club",
+              "target_page": "enroll"
+            },
+            {
+              "label": "Browse Collections",
+              "target_page": "classes"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "teachers-section-6-asset-1",
+              "kind": "illustration",
+              "subject": "A simple, warm illustration of a group of diverse children playing together outdoors, each wearing a different Sproutly piece, with a sun and clouds above",
+              "purpose": "Emotional close to the brand story page \u2014 reinforces community and the joy the brand exists to create",
+              "quantity": 1,
+              "used_by": [
+                "teachers-section-6"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "role": "support",
+      "goal": "Proactively answer every question a parent has before buying \u2014 about sizing, materials, washing, returns, delivery, and sustainability \u2014 reducing friction and building the final layer of purchase confidence.",
+      "meta_description": "Got questions about Sproutly kids' clothing? Find answers about sizing, materials, delivery, returns, and our sustainability commitments.",
+      "sections": [
+        {
+          "id": "faq-section-1",
+          "type": "page_header",
+          "intent": "Welcome the visitor with a friendly, helpful tone that signals this page is genuinely useful \u2014 not a legal document \u2014 and positions Sproutly as a brand that anticipates parent concerns.",
+          "eyebrow": "Help Centre",
+          "headline": "Questions? We've Got Answers.",
+          "subheadline": "Everything parents ask us, answered honestly.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "faq-section-2",
+          "type": "faq",
+          "intent": "Address sizing and fit questions \u2014 the number one barrier to buying kids' clothing online \u2014 with clear, reassuring guidance that reduces return rates and builds confidence.",
+          "eyebrow": "Sizing & Fit",
+          "headline": "Will It Actually Fit My Child?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "How does Sproutly sizing work?",
+              "description": "Our sizes are based on height in centimetres rather than age, because children grow at very different rates. Each product page includes a full measurement guide.",
+              "metadata": {}
+            },
+            {
+              "title": "Do your clothes run large or small?",
+              "description": "Sproutly clothes are cut with a generous, active fit. If your child is between sizes, we recommend sizing up \u2014 especially in outerwear.",
+              "metadata": {}
+            },
+            {
+              "title": "What if it doesn't fit?",
+              "description": "No problem. We offer free exchanges on all full-price items within 60 days of purchase. Just use the returns portal in your account.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you have a size guide?",
+              "description": "Yes \u2014 every product page links to our full size guide with chest, waist, and height measurements for every size we make.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "faq-section-2-asset-1",
+              "kind": "chart",
+              "subject": "A clean, friendly size guide chart showing Sproutly size tiers mapped to height ranges and approximate age ranges, with a simple illustrated child silhouette for scale",
+              "purpose": "Visual sizing reference that reduces purchase anxiety and return rates",
+              "quantity": 1,
+              "used_by": [
+                "faq-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "faq-section-3",
+          "type": "faq",
+          "intent": "Reassure parents about fabric safety, washing care, and durability \u2014 the second most common concern for parents buying kids' clothes online.",
+          "eyebrow": "Materials & Care",
+          "headline": "What Are Sproutly Clothes Made Of?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Are Sproutly fabrics safe for sensitive skin?",
+              "description": "Yes. Every fabric we use is OEKO-TEX Standard 100 certified, meaning it's been tested and proven free from over 100 harmful substances.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you use organic cotton?",
+              "description": "Where possible, yes. Our basics range \u2014 tees, pyjamas, and underlayers \u2014 is made from GOTS-certified organic cotton. Outerwear uses recycled synthetic fibres.",
+              "metadata": {}
+            },
+            {
+              "title": "How should I wash Sproutly clothes?",
+              "description": "Most items are machine washable at 30\u00b0C. Detailed care instructions are printed on every label and available on each product page.",
+              "metadata": {}
+            },
+            {
+              "title": "Will the colours fade after washing?",
+              "description": "We use low-impact, colour-fast dyes and test every print to withstand at least 100 washes. We're proud to say most parents report colours still looking great after a full season.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "faq-section-4",
+          "type": "faq",
+          "intent": "Remove delivery and returns friction \u2014 practical questions that, if left unanswered, cause cart abandonment at the final step.",
+          "eyebrow": "Delivery & Returns",
+          "headline": "When Will It Arrive \u2014 and What If I Need to Send It Back?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "How long does delivery take?",
+              "description": "Standard UK delivery takes 3\u20135 working days. Express next-day delivery is available for orders placed before 1pm Monday\u2013Friday.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you ship internationally?",
+              "description": "Yes \u2014 we ship to 30+ countries. International delivery times and costs are calculated at checkout based on your location.",
+              "metadata": {}
+            },
+            {
+              "title": "What is your returns policy?",
+              "description": "We accept returns on unworn, unwashed items with tags attached within 60 days of purchase. Full-price items qualify for free returns via our online portal.",
+              "metadata": {}
+            },
+            {
+              "title": "How long does a refund take?",
+              "description": "Once we receive your return, refunds are processed within 5 working days back to your original payment method.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "faq-section-5",
+          "type": "faq",
+          "intent": "Answer sustainability questions honestly \u2014 parents who care about ethics need specific, verifiable answers, not vague promises.",
+          "eyebrow": "Sustainability",
+          "headline": "How Sustainable Is Sproutly, Really?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Are you a sustainable brand?",
+              "description": "We're honest about this: we're on a journey, not at the destination. We publish an annual impact report detailing exactly where we are and where we're heading.",
+              "metadata": {}
+            },
+            {
+              "title": "Where are your clothes made?",
+              "description": "Our garments are made in Portugal and Turkey in factories we visit annually. Full supplier details are published on our website.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you use recycled packaging?",
+              "description": "Yes \u2014 all Sproutly packaging is made from 100% recycled materials and is itself fully recyclable. We removed all single-use plastic from our packaging in 2021.",
+              "metadata": {}
+            },
+            {
+              "title": "What happens to clothes that don't sell?",
+              "description": "Unsold stock is donated to children's charities in the UK. We have never sent deadstock to landfill.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "faq-section-5-asset-1",
+              "kind": "icon",
+              "subject": "A simple, friendly circular icon showing a leaf inside a recycling loop arrow, representing the brand's sustainability commitment",
+              "purpose": "Visual anchor for the sustainability FAQ section that reinforces the brand's environmental values",
+              "quantity": 1,
+              "used_by": [
+                "faq-section-5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "faq-section-6",
+          "type": "contact_block",
+          "intent": "Catch any parent whose question wasn't answered above \u2014 offering a warm, low-friction way to reach the team and reinforcing that Sproutly is run by real, responsive people.",
+          "eyebrow": "Still Have Questions?",
+          "headline": "We're Here \u2014 Real People, Real Answers.",
+          "subheadline": "Our customer team is made up of parents too. We get it.",
+          "body": "Drop us a message and we'll get back to you within one working day. You can also find us on Instagram @sproutlykids where we answer questions in DMs every day.",
+          "items": [
+            {
+              "title": "Email Us",
+              "description": "hello@sproutly.com \u2014 we reply within one working day.",
+              "metadata": {}
+            },
+            {
+              "title": "Instagram",
+              "description": "@sproutlykids \u2014 DMs open daily.",
+              "metadata": {}
+            },
+            {
+              "title": "Phone",
+              "description": "0117 000 1234 \u2014 Monday to Friday, 9am\u20135pm GMT.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Join the Club",
+              "target_page": "enroll"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "enroll",
+      "title": "Join Sproutly Club",
+      "role": "conversion",
+      "goal": "Convert interested parents into Sproutly Club members with a clear, warm, and friction-free sign-up experience \u2014 communicating the benefits, handling final objections, and closing with a single confident action.",
+      "meta_description": "Join the Sproutly Club for early access to new collections, exclusive member discounts, and a community of parents who love great kids' clothing.",
+      "sections": [
+        {
+          "id": "enroll-section-1",
+          "type": "hero",
+          "intent": "A single confident arrival \u2014 the conversion page hero should feel like an invitation, not a form. Warm, direct, and benefit-led so the parent immediately understands what they're getting.",
+          "eyebrow": "Sproutly Club",
+          "headline": "First In. Best Dressed.",
+          "subheadline": "Join thousands of parents who get early access, exclusive drops, and 10% off their first order.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join Free \u2014 Takes 30 Seconds",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "enroll-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A cheerful illustrated badge or membership card in a playful style, decorated with stars, a small Sproutly sprout logo, and the words 'Sproutly Club Member'",
+              "purpose": "Hero visual that makes membership feel tangible, special, and worth having",
+              "quantity": 1,
+              "used_by": [
+                "enroll-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enroll-section-2",
+          "type": "feature_grid",
+          "intent": "Spell out the membership benefits clearly and specifically \u2014 parents need to know exactly what they're signing up for before they give an email address.",
+          "eyebrow": "Member Benefits",
+          "headline": "What You Get as a Sproutly Club Member",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "10% Off Your First Order",
+              "description": "A welcome discount applied automatically at checkout the moment you join.",
+              "metadata": {}
+            },
+            {
+              "title": "Early Access to New Collections",
+              "description": "Shop new drops 48 hours before they go public \u2014 so you get the sizes and prints you actually want.",
+              "metadata": {}
+            },
+            {
+              "title": "Exclusive Member Drops",
+              "description": "Limited pieces made only for Club members, never available in the main shop.",
+              "metadata": {}
+            },
+            {
+              "title": "Birthday Surprise",
+              "description": "Tell us your child's birthday and we'll send a little something special every year.",
+              "metadata": {}
+            },
+            {
+              "title": "Free Standard Delivery",
+              "description": "Free UK delivery on every order, every time \u2014 no minimum spend.",
+              "metadata": {}
+            },
+            {
+              "title": "The Sproutly Digest",
+              "description": "A monthly email with styling ideas, care tips, and behind-the-scenes looks at new designs in progress.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "enroll-section-2-asset-1",
+              "kind": "icon",
+              "subject": "Set of six small, friendly icons: a percentage tag, a clock with an early-access arrow, a gift box, a birthday cake, a delivery van, and an envelope with a sprout",
+              "purpose": "Visual anchors for each membership benefit that make the grid scannable and engaging",
+              "quantity": 1,
+              "used_by": [
+                "enroll-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enroll-section-3",
+          "type": "testimonial",
+          "intent": "Provide final social proof from existing Club members \u2014 real parent voices that dissolve last-minute hesitation before the sign-up form.",
+          "eyebrow": "Members Love It",
+          "headline": "Don't Take Our Word For It",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Sarah, mum of two",
+              "description": "\"I joined for the 10% off and stayed for the early access. I've never missed a size since.\"",
+              "metadata": {
+                "member_since": "2022"
+              }
+            },
+            {
+              "title": "Ravi, dad of a 7-year-old",
+              "description": "\"The birthday surprise genuinely made my son's week. He talked about it for days. Totally worth it.\"",
+              "metadata": {
+                "member_since": "2023"
+              }
+            },
+            {
+              "title": "Claire, mum of three",
+              "description": "\"Free delivery alone pays for itself. I order little and often now instead of dreading big shops.\"",
+              "metadata": {
+                "member_since": "2021"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "enroll-section-4",
+          "type": "faq",
+          "intent": "Handle the handful of questions that stop a parent from completing the sign-up \u2014 is it free, can I cancel, what do you do with my data \u2014 answered briefly and honestly.",
+          "eyebrow": "Quick Questions",
+          "headline": "Anything Holding You Back?",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Is the Sproutly Club free to join?",
+              "description": "Yes, completely free. No subscription fee, no credit card required.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I leave whenever I want?",
+              "description": "Of course. You can unsubscribe from any email with one click, and close your account at any time with no questions asked.",
+              "metadata": {}
+            },
+            {
+              "title": "What do you do with my data?",
+              "description": "We use your email to send you Sproutly Club communications only. We never sell or share your data with third parties. Full details in our Privacy Policy.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I use the 10% welcome discount on sale items?",
+              "description": "The welcome discount applies to full-price items only and is valid for 30 days from joining.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "enroll-section-5",
+          "type": "contact_block",
+          "intent": "The conversion close \u2014 the actual sign-up form presented as a warm, simple, and welcoming action. One confident flourish that completes the visitor's journey from curious browser to Sproutly Club member.",
+          "eyebrow": "You're Almost In",
+          "headline": "Join the Sproutly Club \u2014 It's Free, It's Fast, and Your Kids Will Thank You.",
+          "subheadline": "Enter your details below and your 10% welcome discount will be waiting in your inbox.",
+          "body": "We'll only ever send you things worth reading. You can unsubscribe any time.",
+          "items": [
+            {
+              "title": "First Name",
+              "description": "So we can say hello properly.",
+              "metadata": {
+                "field_type": "text"
+              }
+            },
+            {
+              "title": "Email Address",
+              "description": "Where we'll send your welcome discount and early access alerts.",
+              "metadata": {
+                "field_type": "email"
+              }
+            },
+            {
+              "title": "Child's Birthday (optional)",
+              "description": "So we can send a birthday surprise \u2014 no year needed, just day and month.",
+              "metadata": {
+                "field_type": "date"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Join Sproutly Club",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "enroll-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A soft, celebratory confetti pattern made of tiny stars, sprouts, and dots in brand colours, tiling seamlessly as a background",
+              "purpose": "Background texture for the sign-up section that makes the conversion moment feel like a celebration rather than a form",
+              "quantity": 1,
+              "used_by": [
+                "enroll-section-5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enroll-section-6",
+          "type": "cta",
+          "intent": "Offer a graceful exit for parents who aren't ready to join yet \u2014 redirecting them to browse collections so the visit still has value and the door stays open.",
+          "eyebrow": "Not Ready to Join Yet?",
+          "headline": "Explore the Collections First \u2014 No Pressure.",
+          "subheadline": "Come back whenever you're ready. The Club will be here.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Browse Collections",
+              "target_page": "classes"
+            },
+            {
+              "label": "Read Our Story",
+              "target_page": "teachers"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

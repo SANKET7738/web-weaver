@@ -1,0 +1,19 @@
+{
+  "id": "ww-00013",
+  "version": "0.1",
+  "site_domain": "arts_culture",
+  "site_subdomain": "cultural heritage archive",
+  "design_aesthetic": "streetwear_graphic",
+  "layout_family": "editorial_grid",
+  "page_set": [
+    "home",
+    "about",
+    "archive",
+    "programs",
+    "donate"
+  ],
+  "difficulty": "easy",
+  "seed": 88463792,
+  "sample_index": 2,
+  "source": "web-weaver.concept_sampler"
+}

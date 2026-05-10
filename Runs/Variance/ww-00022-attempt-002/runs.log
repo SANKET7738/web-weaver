@@ -1,0 +1,20 @@
+===== run_variance_runs.sh starting at Mon May 11 00:35:59 IST 2026
+  task=ww-00022 attempt=attempt-002 n=10 agent=claude-code model=claude-opus-4-7
+  experiment dir: Runs/Variance/ww-00022-attempt-002
+----- trial 01 starting at 2026-05-10T19:05:59Z
+===== run_variance_runs.sh starting at Mon May 11 00:36:08 IST 2026
+  task=ww-00022 attempt=attempt-002 n=10 agent=claude-code model=claude-opus-4-7
+  experiment dir: Runs/Variance/ww-00022-attempt-002
+----- trial 01 starting at 2026-05-10T19:06:09Z
+  trial 01 finished at 2026-05-10T19:16:45Z: status=completed reward=1.000000 job=2026-05-11__00-36-00 trial=harbor__yXGGniE
+----- trial 02 starting at 2026-05-10T19:16:45Z
+  trial 01 finished at 2026-05-10T19:17:37Z: status=completed reward=1.000000 job=2026-05-11__00-36-09 trial=harbor__aFxJPht
+----- trial 02 starting at 2026-05-10T19:17:37Z
+  trial 02 finished at 2026-05-10T19:29:12Z: status=completed reward=1.000000 job=2026-05-11__00-46-46 trial=harbor__VMSezLK
+----- trial 03 starting at 2026-05-10T19:29:12Z
+  trial 03 finished at 2026-05-10T19:41:55Z: status=completed reward=1.000000 job=2026-05-11__00-59-13 trial=harbor__WSp23MF
+----- trial 04 starting at 2026-05-10T19:41:55Z
+  trial 04 finished at 2026-05-10T19:55:01Z: status=completed reward=1.000000 job=2026-05-11__01-11-55 trial=harbor__df4XJxq
+----- trial 05 starting at 2026-05-10T19:55:01Z
+  trial 05 finished at 2026-05-10T20:15:07Z: status=completed reward=1.000000 job=2026-05-11__01-25-01 trial=harbor__U2tHMP9
+----- trial 06 starting at 2026-05-10T20:15:07Z

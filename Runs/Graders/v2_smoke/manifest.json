@@ -1,0 +1,459 @@
+{
+  "task_id": "ww-00008",
+  "harbor_task_dir": "/Users/sanket/code/px-work-trial/web-weaver/Runs/SiteGeneration/ww-00008/attempt-005/harbor",
+  "page_count": 5,
+  "tier_definitions": [
+    {
+      "index": 1,
+      "label": "tier_01_verbatim",
+      "description": "verbatim copy of reference"
+    },
+    {
+      "index": 2,
+      "label": "tier_02_minor",
+      "description": "minor CSS/hue perturbation"
+    },
+    {
+      "index": 3,
+      "label": "tier_03_section_removed",
+      "description": "one section removed per page"
+    },
+    {
+      "index": 4,
+      "label": "tier_04_shuffle_repaint",
+      "description": "shuffled sections and grayscale palette"
+    },
+    {
+      "index": 5,
+      "label": "tier_05_blank",
+      "description": "empty <body>"
+    },
+    {
+      "index": 6,
+      "label": "tier_06_within_block_drift",
+      "description": "same structure, drifted colors/fonts/icons"
+    },
+    {
+      "index": 7,
+      "label": "adv_01_brand_color_blank",
+      "description": "blank body with reference dominant bg color"
+    },
+    {
+      "index": 8,
+      "label": "adv_02_color_block",
+      "description": "single full-viewport colored block"
+    },
+    {
+      "index": 9,
+      "label": "adv_03_text_dump",
+      "description": "raw text dump, no styling"
+    }
+  ],
+  "test_cases": [
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_01_verbatim",
+      "tier_index": 1,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_01_verbatim/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_01_verbatim",
+      "tier_index": 1,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_01_verbatim/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_01_verbatim",
+      "tier_index": 1,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_01_verbatim/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_01_verbatim",
+      "tier_index": 1,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_01_verbatim/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_01_verbatim",
+      "tier_index": 1,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_01_verbatim/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_02_minor",
+      "tier_index": 2,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_02_minor/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_02_minor",
+      "tier_index": 2,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_02_minor/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_02_minor",
+      "tier_index": 2,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_02_minor/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_02_minor",
+      "tier_index": 2,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_02_minor/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_02_minor",
+      "tier_index": 2,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_02_minor/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_03_section_removed",
+      "tier_index": 3,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_03_section_removed/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_03_section_removed",
+      "tier_index": 3,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_03_section_removed/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_03_section_removed",
+      "tier_index": 3,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_03_section_removed/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_03_section_removed",
+      "tier_index": 3,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_03_section_removed/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_03_section_removed",
+      "tier_index": 3,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_03_section_removed/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_04_shuffle_repaint",
+      "tier_index": 4,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_04_shuffle_repaint/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_04_shuffle_repaint",
+      "tier_index": 4,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_04_shuffle_repaint/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_04_shuffle_repaint",
+      "tier_index": 4,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_04_shuffle_repaint/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_04_shuffle_repaint",
+      "tier_index": 4,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_04_shuffle_repaint/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_04_shuffle_repaint",
+      "tier_index": 4,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_04_shuffle_repaint/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_05_blank",
+      "tier_index": 5,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_05_blank/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_05_blank",
+      "tier_index": 5,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_05_blank/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_05_blank",
+      "tier_index": 5,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_05_blank/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_05_blank",
+      "tier_index": 5,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_05_blank/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_05_blank",
+      "tier_index": 5,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_05_blank/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_06_within_block_drift",
+      "tier_index": 6,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_06_within_block_drift/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_06_within_block_drift",
+      "tier_index": 6,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_06_within_block_drift/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_06_within_block_drift",
+      "tier_index": 6,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_06_within_block_drift/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_06_within_block_drift",
+      "tier_index": 6,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_06_within_block_drift/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "tier_06_within_block_drift",
+      "tier_index": 6,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/tier_06_within_block_drift/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_01_brand_color_blank",
+      "tier_index": 7,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_01_brand_color_blank/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_01_brand_color_blank",
+      "tier_index": 7,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_01_brand_color_blank/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_01_brand_color_blank",
+      "tier_index": 7,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_01_brand_color_blank/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_01_brand_color_blank",
+      "tier_index": 7,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_01_brand_color_blank/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_01_brand_color_blank",
+      "tier_index": 7,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_01_brand_color_blank/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_02_color_block",
+      "tier_index": 8,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_02_color_block/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_02_color_block",
+      "tier_index": 8,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_02_color_block/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_02_color_block",
+      "tier_index": 8,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_02_color_block/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_02_color_block",
+      "tier_index": 8,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_02_color_block/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_02_color_block",
+      "tier_index": 8,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_02_color_block/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_03_text_dump",
+      "tier_index": 9,
+      "page_index": 1,
+      "page_filename": "index.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_03_text_dump/page_01.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_01.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_03_text_dump",
+      "tier_index": 9,
+      "page_index": 2,
+      "page_filename": "page_02.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_03_text_dump/page_02.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_02.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_03_text_dump",
+      "tier_index": 9,
+      "page_index": 3,
+      "page_filename": "page_03.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_03_text_dump/page_03.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_03.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_03_text_dump",
+      "tier_index": 9,
+      "page_index": 4,
+      "page_filename": "page_04.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_03_text_dump/page_04.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_04.png"
+    },
+    {
+      "task_id": "ww-00008",
+      "tier": "adv_03_text_dump",
+      "tier_index": 9,
+      "page_index": 5,
+      "page_filename": "page_05.html",
+      "agent_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/adv_03_text_dump/page_05.png",
+      "truth_screenshot": "/Users/sanket/code/px-work-trial/web-weaver/Runs/Graders/v2_smoke/truth/page_05.png"
+    }
+  ]
+}

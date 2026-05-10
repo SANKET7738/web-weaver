@@ -1,0 +1,19 @@
+{
+  "id": "ww-00005",
+  "version": "0.1",
+  "site_domain": "sports",
+  "site_subdomain": "cycling race team",
+  "design_aesthetic": "luxury_editorial",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "athletes",
+    "performance",
+    "stories",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 42,
+  "sample_index": 5,
+  "source": "web-weaver.concept_sampler"
+}

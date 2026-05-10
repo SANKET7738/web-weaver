@@ -1,0 +1,536 @@
+{
+  "id": "ww-00024",
+  "version": "0.1",
+  "concept_id": "ww-00024",
+  "identity": {
+    "name": "Pinnacle Estates",
+    "tagline": "Where Exceptional Homes Find Exceptional People.",
+    "one_line_description": "Pinnacle Estates is a luxury real estate brokerage connecting discerning buyers and sellers with the most prestigious properties on the market.",
+    "domain": "real_estate",
+    "subdomain": "luxury real estate brokerage",
+    "voice": [
+      "authoritative",
+      "refined",
+      "trustworthy",
+      "precise"
+    ],
+    "target_audience": "High-net-worth individuals, investors, and relocating executives seeking premium residential and investment properties in sought-after markets."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Pinnacle Estates as the premier luxury brokerage, immediately communicate prestige and expertise, and guide visitors toward browsing listings or connecting with an agent.",
+      "meta_description": "Pinnacle Estates is a luxury real estate brokerage offering exclusive residential and investment properties. Discover exceptional homes with our elite team of agents.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Capture attention immediately with a bold brand statement that signals luxury, trust, and exclusivity, and direct visitors to explore listings or contact the team.",
+          "eyebrow": "Luxury Real Estate Brokerage",
+          "headline": "The Standard for Exceptional Living",
+          "subheadline": "From penthouse residences to private estates, Pinnacle Estates represents the properties that define a city's skyline \u2014 and the clients who shape it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Listings",
+              "target_page": "listings"
+            },
+            {
+              "label": "Speak with an Agent",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Build immediate credibility with concrete performance figures that reinforce Pinnacle Estates' market authority and track record.",
+          "eyebrow": "Our Track Record",
+          "headline": "Numbers That Speak for Themselves",
+          "subheadline": "A decade of landmark transactions, satisfied clients, and record-setting sales.",
+          "body": null,
+          "items": [
+            {
+              "title": "$4.2B+",
+              "description": "Total transaction volume closed since founding.",
+              "metadata": {}
+            },
+            {
+              "title": "1,800+",
+              "description": "Luxury properties successfully sold or leased.",
+              "metadata": {}
+            },
+            {
+              "title": "97%",
+              "description": "Client satisfaction rate across all closed transactions.",
+              "metadata": {}
+            },
+            {
+              "title": "14",
+              "description": "Premier neighborhoods served across the metropolitan area.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Close the page with a direct, confident invitation to begin the property search or schedule a private consultation, reinforcing the white-glove service promise.",
+          "eyebrow": "Begin Your Search",
+          "headline": "Your Next Chapter Starts Here",
+          "subheadline": "Whether you are buying, selling, or investing, our advisors are ready to guide you with precision and discretion.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View All Listings",
+              "target_page": "listings"
+            },
+            {
+              "label": "Contact Us",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "listings",
+      "title": "Listings",
+      "role": "listing",
+      "goal": "Present the current portfolio of luxury properties in a clean, browsable format that allows visitors to evaluate options and take action toward scheduling a showing.",
+      "meta_description": "Browse Pinnacle Estates' exclusive portfolio of luxury homes, penthouses, and private estates currently available for sale or lease.",
+      "sections": [
+        {
+          "id": "listings-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the listings section and set expectations for the caliber of properties they are about to browse.",
+          "eyebrow": "Available Properties",
+          "headline": "Curated Homes. Uncompromising Standards.",
+          "subheadline": "Every listing in our portfolio is personally vetted by our senior advisors to ensure it meets the Pinnacle standard of excellence.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "listings-section-2",
+          "type": "item_grid",
+          "intent": "Display the active property listings in a structured card format, giving visitors enough detail to evaluate each property and prompt inquiries.",
+          "eyebrow": "Featured Properties",
+          "headline": "Properties Currently Available",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The Alderton Penthouse \u2014 $8,750,000",
+              "description": "5 bed | 5.5 bath | 6,200 sq ft. A full-floor penthouse in the heart of the financial district with panoramic skyline views and a private rooftop terrace.",
+              "metadata": {
+                "type": "Penthouse",
+                "status": "For Sale",
+                "neighborhood": "Financial District"
+              }
+            },
+            {
+              "title": "Harborview Estate \u2014 $5,200,000",
+              "description": "6 bed | 7 bath | 9,400 sq ft. A gated waterfront estate featuring a private dock, infinity pool, and a chef's kitchen designed for grand entertaining.",
+              "metadata": {
+                "type": "Estate",
+                "status": "For Sale",
+                "neighborhood": "Harbor Heights"
+              }
+            },
+            {
+              "title": "The Whitmore Residence \u2014 $3,400,000",
+              "description": "4 bed | 4 bath | 4,100 sq ft. A meticulously restored pre-war townhouse with original architectural details and a landscaped private garden.",
+              "metadata": {
+                "type": "Townhouse",
+                "status": "For Sale",
+                "neighborhood": "Westfield Park"
+              }
+            },
+            {
+              "title": "Skyline Loft 42A \u2014 $2,100,000",
+              "description": "3 bed | 3 bath | 2,850 sq ft. An open-plan loft on the 42nd floor of a landmark building with floor-to-ceiling windows and concierge services.",
+              "metadata": {
+                "type": "Loft",
+                "status": "For Sale",
+                "neighborhood": "Midtown Arts"
+              }
+            },
+            {
+              "title": "Ridgecrest Manor \u2014 $11,500,000",
+              "description": "7 bed | 9 bath | 14,200 sq ft. A trophy estate on 3.5 private acres with a motor court, wine cellar, home theater, and guest cottage.",
+              "metadata": {
+                "type": "Manor",
+                "status": "For Sale",
+                "neighborhood": "Ridgecrest Hills"
+              }
+            },
+            {
+              "title": "The Calloway \u2014 $6,800/mo",
+              "description": "2 bed | 2 bath | 1,950 sq ft. A fully furnished luxury rental in a boutique full-service building steps from the city's premier dining and cultural venues.",
+              "metadata": {
+                "type": "Apartment",
+                "status": "For Lease",
+                "neighborhood": "Gallery Row"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Schedule a Private Showing",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "listings-section-3",
+          "type": "cta",
+          "intent": "Encourage visitors who did not find an exact match to reach out for off-market or upcoming inventory, reinforcing the brokerage's insider access.",
+          "eyebrow": "Not Finding the Right Fit?",
+          "headline": "Access Our Off-Market Portfolio",
+          "subheadline": "Some of our most exceptional properties never appear publicly. Speak with an advisor to explore exclusive, pre-market opportunities.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request a Private Consultation",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "neighborhoods",
+      "title": "Neighborhoods",
+      "role": "overview",
+      "goal": "Help buyers understand the distinct character of each premier neighborhood in the portfolio, positioning Pinnacle Estates as a knowledgeable local authority.",
+      "meta_description": "Explore the premier neighborhoods where Pinnacle Estates operates. Discover the lifestyle, character, and real estate landscape of each distinctive community.",
+      "sections": [
+        {
+          "id": "neighborhoods-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for a neighborhood-by-neighborhood exploration and frame Pinnacle Estates as the definitive guide to the city's most desirable addresses.",
+          "eyebrow": "Local Expertise",
+          "headline": "Know the Neighborhood Before You Choose a Home",
+          "subheadline": "The right address is about more than square footage. Our neighborhood guides give you the full picture \u2014 lifestyle, community, and long-term value.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "neighborhoods-section-2",
+          "type": "item_grid",
+          "intent": "Present each key neighborhood as its own card with enough character detail to help buyers self-select and imagine their lifestyle there.",
+          "eyebrow": "Premier Neighborhoods",
+          "headline": "The Addresses That Define the City",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Financial District",
+              "description": "The pulse of the city's commerce, with sleek high-rises, Michelin-starred dining, and unrivaled connectivity. Ideal for executives and urban professionals.",
+              "metadata": {
+                "avg_price": "$3.2M",
+                "property_types": "Penthouses, Condos"
+              }
+            },
+            {
+              "title": "Harbor Heights",
+              "description": "Sweeping waterfront views, yacht clubs, and a relaxed coastal atmosphere just minutes from the city center. A sanctuary for those who want space and prestige.",
+              "metadata": {
+                "avg_price": "$5.8M",
+                "property_types": "Estates, Villas"
+              }
+            },
+            {
+              "title": "Westfield Park",
+              "description": "Tree-lined streets, historic brownstones, and a walkable village core with boutique shops and acclaimed restaurants. Timeless, established, and deeply coveted.",
+              "metadata": {
+                "avg_price": "$2.9M",
+                "property_types": "Townhouses, Single-Family"
+              }
+            },
+            {
+              "title": "Ridgecrest Hills",
+              "description": "Gated estates on expansive lots with sweeping hilltop views. The city's most private and prestigious residential enclave, favored by executives and celebrities.",
+              "metadata": {
+                "avg_price": "$9.4M",
+                "property_types": "Manors, Estates"
+              }
+            },
+            {
+              "title": "Midtown Arts",
+              "description": "A vibrant cultural district where galleries, live music venues, and acclaimed chefs converge. Attracts creative professionals and design-forward buyers.",
+              "metadata": {
+                "avg_price": "$1.8M",
+                "property_types": "Lofts, Condos"
+              }
+            },
+            {
+              "title": "Gallery Row",
+              "description": "A curated enclave of boutique residences, world-class art institutions, and quiet, walkable streets. Refined, cosmopolitan, and consistently in demand.",
+              "metadata": {
+                "avg_price": "$2.4M",
+                "property_types": "Apartments, Condos"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Listings by Neighborhood",
+              "target_page": "listings"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "neighborhoods-section-3",
+          "type": "cta",
+          "intent": "Invite visitors to get personalized neighborhood guidance from an agent, reinforcing the brokerage's local expertise and white-glove advisory approach.",
+          "eyebrow": "Need a Local Perspective?",
+          "headline": "Let an Advisor Guide Your Search",
+          "subheadline": "Our agents live and work in these neighborhoods. They can match your lifestyle priorities to the right community with insight no algorithm can replicate.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Talk to a Neighborhood Specialist",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "agents",
+      "title": "Agents",
+      "role": "overview",
+      "goal": "Introduce the brokerage's team of elite agents, build personal trust, and make it easy for visitors to identify and connect with the right advisor for their needs.",
+      "meta_description": "Meet the Pinnacle Estates team \u2014 a handpicked group of luxury real estate advisors with deep market knowledge and a proven record of exceptional results.",
+      "sections": [
+        {
+          "id": "agents-section-1",
+          "type": "page_header",
+          "intent": "Frame the team as the brokerage's defining asset and set expectations for the caliber and character of the advisors visitors are about to meet.",
+          "eyebrow": "Our Advisors",
+          "headline": "Expertise You Can Trust. Discretion You Can Rely On.",
+          "subheadline": "Every Pinnacle agent is selected for their market mastery, negotiation acumen, and unwavering commitment to the client experience.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "agents-section-2",
+          "type": "item_grid",
+          "intent": "Present each agent as a professional card with credentials and specialty areas, enabling visitors to identify the most relevant advisor for their situation.",
+          "eyebrow": "Meet the Team",
+          "headline": "The Advisors Behind the Results",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Victoria Harland \u2014 Managing Director",
+              "description": "With over 22 years in luxury residential sales, Victoria has closed more than $900M in transactions. She specializes in trophy properties and estate sales across Ridgecrest Hills and Harbor Heights.",
+              "metadata": {
+                "specialty": "Trophy Estates",
+                "languages": "English, French",
+                "transactions": "$900M+"
+              }
+            },
+            {
+              "title": "Marcus Chen \u2014 Senior Advisor",
+              "description": "A former investment banker, Marcus brings a data-driven approach to luxury acquisitions and portfolio strategy. His clients include institutional investors and family offices.",
+              "metadata": {
+                "specialty": "Investment Acquisitions",
+                "languages": "English, Mandarin",
+                "transactions": "$420M+"
+              }
+            },
+            {
+              "title": "Isabelle Fontaine \u2014 Luxury Residential Specialist",
+              "description": "Isabelle's refined taste and deep relationships in the design and architecture community make her the go-to advisor for buyers seeking architecturally significant homes.",
+              "metadata": {
+                "specialty": "Design-Forward Residences",
+                "languages": "English, French, Italian",
+                "transactions": "$310M+"
+              }
+            },
+            {
+              "title": "James Whitmore \u2014 Urban Properties Advisor",
+              "description": "James is the city's leading specialist in high-floor condominiums and penthouses, with an unmatched command of the Financial District and Midtown Arts markets.",
+              "metadata": {
+                "specialty": "Penthouses & Condos",
+                "languages": "English, Spanish",
+                "transactions": "$275M+"
+              }
+            },
+            {
+              "title": "Priya Nair \u2014 Relocation Specialist",
+              "description": "Priya guides executives and international clients through seamless relocations, offering end-to-end advisory from neighborhood selection to closing and beyond.",
+              "metadata": {
+                "specialty": "Executive Relocation",
+                "languages": "English, Hindi, Tamil",
+                "transactions": "$195M+"
+              }
+            },
+            {
+              "title": "Daniel Osei \u2014 Emerging Markets Advisor",
+              "description": "Daniel focuses on high-growth neighborhoods and off-market opportunities, helping forward-thinking buyers identify value before it becomes obvious to the market.",
+              "metadata": {
+                "specialty": "Off-Market & Emerging Areas",
+                "languages": "English, French",
+                "transactions": "$160M+"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Connect with an Advisor",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "agents-section-3",
+          "type": "cta",
+          "intent": "Prompt visitors to take the final step of reaching out to the team, reinforcing the ease and quality of the first consultation experience.",
+          "eyebrow": "Ready to Get Started?",
+          "headline": "Your Advisor Is One Conversation Away",
+          "subheadline": "Schedule a private, no-obligation consultation with a Pinnacle advisor and begin your search with the guidance of the city's finest real estate team.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Schedule a Consultation",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Provide a clear, professional, and frictionless way for prospective clients to reach the brokerage, reinforcing trust and the white-glove service promise at every touchpoint.",
+      "meta_description": "Get in touch with Pinnacle Estates. Reach our team of luxury real estate advisors to schedule a consultation, request a listing, or ask any question.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a welcoming and professional tone for the contact experience, reassuring visitors that their inquiry will be handled with discretion and speed.",
+          "eyebrow": "Get in Touch",
+          "headline": "We're Here When You're Ready",
+          "subheadline": "Whether you have a specific property in mind or are just beginning your search, our team responds to every inquiry within one business day.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide the primary contact form alongside direct contact details, giving visitors multiple comfortable channels to initiate a conversation.",
+          "eyebrow": "Reach Our Team",
+          "headline": "Start the Conversation",
+          "subheadline": "Complete the form below or reach us directly. All inquiries are handled with the utmost confidentiality.",
+          "body": "Our advisors are available Monday through Saturday, 9:00 AM to 7:00 PM. For urgent matters, please call our main line directly.",
+          "items": [
+            {
+              "title": "Main Office",
+              "description": "1 Pinnacle Plaza, Suite 4200, New York, NY 10004",
+              "metadata": {
+                "type": "address"
+              }
+            },
+            {
+              "title": "Phone",
+              "description": "+1 (212) 555-0190",
+              "metadata": {
+                "type": "phone"
+              }
+            },
+            {
+              "title": "Email",
+              "description": "advisors@pinnacleestates.com",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Office Hours",
+              "description": "Monday \u2013 Saturday: 9:00 AM \u2013 7:00 PM",
+              "metadata": {
+                "type": "hours"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Submit Your Inquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "feature_grid",
+          "intent": "Reinforce the quality of the client experience by articulating what happens after a visitor reaches out, reducing anxiety and setting clear expectations.",
+          "eyebrow": "What to Expect",
+          "headline": "The Pinnacle Client Experience",
+          "subheadline": "From first contact to closing day, every step is handled with precision, care, and complete transparency.",
+          "body": null,
+          "items": [
+            {
+              "title": "Same-Day Acknowledgment",
+              "description": "Every inquiry receives a personal acknowledgment from a senior advisor within hours, not days.",
+              "metadata": {}
+            },
+            {
+              "title": "Tailored Property Briefing",
+              "description": "We prepare a curated selection of properties aligned to your criteria before your first consultation.",
+              "metadata": {}
+            },
+            {
+              "title": "Complete Discretion",
+              "description": "All client information and search parameters are treated with absolute confidentiality at every stage.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Meet Our Agents",
+              "target_page": "agents"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

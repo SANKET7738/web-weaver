@@ -1,0 +1,19 @@
+{
+  "id": "ww-00011",
+  "version": "0.1",
+  "site_domain": "sports",
+  "site_subdomain": "tennis academy",
+  "design_aesthetic": "heritage_classic",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "club",
+    "fixtures",
+    "news",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 1813378646,
+  "sample_index": 1,
+  "source": "web-weaver.concept_sampler"
+}
