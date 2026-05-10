@@ -130,15 +130,6 @@ changes.
 
 ### How each grader scored on average
 
-<table>
-<tr>
-<td width="60%">
-
-![Per-grader score across 12 sites](figures/grader-summary-box.png)
-
-</td>
-<td width="40%">
-
 | Grader | mean | std | min | max |
 |---|---|---|---|---|
 | `design2code` | **0.742** | 0.037 | 0.659 | 0.783 |
@@ -149,9 +140,7 @@ changes.
 | `clip_only` | 0.928 | **0.021** | 0.895 | 0.961 |
 | `vlm_judge` | 0.876 | 0.038 | 0.784 | 0.912 |
 
-</td>
-</tr>
-</table>
+![Per-grader score across 12 sites](figures/grader-summary-box.png)
 
 Box plot: each box covers the middle half of the 12 site means
 (25th-75th percentile), the line inside is the median, whiskers
