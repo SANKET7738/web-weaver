@@ -159,3 +159,140 @@ Just the technical terms that appear above, in plain words.
 - **Cosine similarity**: how similar two vectors point in the same
   direction. 1 = same direction, 0 = perpendicular, -1 = opposite.
   We rescale to `[0, 1]` with `(cos + 1) / 2`.
+
+## Analysis on real Claude-Code runs
+
+We scored Claude Code (Opus 4.7) on 12 generated sites (ww-00008 plus
+ww-00020 through ww-00030, skipping ww-00031). One run per site, all
+five pages of each site, all seven graders. **n = 12 sites × 7 graders
+× 5 pages = 420 grader/page scores.** Setup is intentionally boring:
+same agent, same model, same harness, same graders — only the site
+changes.
+
+### How each grader scored on average
+
+| Grader | mean | std | min | max |
+|---|---|---|---|---|
+| `design2code` | **0.742** | 0.037 | 0.659 | 0.783 |
+| `design2code_vlm` | 0.735 | 0.038 | 0.646 | 0.781 |
+| `design2code_vlm_sliced` | **0.701** | 0.038 | 0.620 | 0.760 |
+| `waffle` | 0.667 | 0.034 | 0.591 | 0.704 |
+| `perceptual` | 0.691 | **0.078** | 0.566 | 0.776 |
+| `clip_only` | 0.928 | **0.021** | 0.895 | 0.961 |
+| `vlm_judge` | 0.876 | 0.038 | 0.784 | 0.912 |
+
+Two extremes worth flagging:
+
+- `clip_only` sits at 0.928 with std 0.021 — almost everything looks
+  great to it, regardless of whether the page is actually right.
+  Compressed range, near-useless for ranking.
+- `perceptual` has the widest spread (std 0.078) but for the wrong
+  reason — it's mostly reacting to whitespace and background colors,
+  not whether the page is structurally correct.
+
+The `design2code` family lands in the useful middle: enough range to
+separate sites, low enough std (0.037-0.038) that the differences are
+real, not noise.
+
+### Per-site scores (12 sites)
+
+| task | design2code | d2c_vlm | sliced | vlm_judge | clip_only |
+|---|---|---|---|---|---|
+| ww-00008 | 0.707 | 0.708 | 0.706 | 0.892 | 0.912 |
+| ww-00020 | 0.750 | 0.735 | 0.705 | 0.784 | 0.910 |
+| ww-00021 | 0.761 | 0.752 | 0.760 | 0.912 | 0.951 |
+| ww-00022 | **0.659** | **0.646** | **0.620** | 0.844 | 0.943 |
+| ww-00023 | 0.746 | 0.733 | 0.724 | 0.856 | 0.934 |
+| ww-00024 | 0.756 | 0.748 | 0.717 | 0.908 | 0.924 |
+| ww-00025 | 0.698 | 0.689 | 0.632 | 0.852 | 0.923 |
+| ww-00026 | 0.782 | 0.776 | 0.718 | 0.876 | 0.951 |
+| ww-00027 | 0.750 | 0.743 | 0.695 | 0.868 | 0.895 |
+| ww-00028 | 0.765 | 0.761 | 0.704 | 0.912 | 0.931 |
+| ww-00029 | **0.783** | **0.781** | 0.716 | 0.892 | 0.896 |
+| ww-00030 | 0.751 | 0.743 | 0.710 | 0.912 | **0.961** |
+
+Hardest site (across the structural graders): **ww-00022**.
+Easiest: **ww-00029** / **ww-00026** / **ww-00028**.
+The 0.12-point gap between hardest and easiest is real — Claude Code
+is genuinely better on some site designs than others, and the graders
+detect that gap rather than smoothing it away.
+
+### Do the graders agree on which site is best?
+
+Spearman rank correlation between graders. 1.00 = identical ranking,
+0.00 = totally different ranking, -1.00 = inverted ranking.
+
+| | design2code | d2c_vlm | sliced | waffle | perceptual | vlm_judge | clip_only |
+|---|---|---|---|---|---|---|---|
+| design2code | — | **0.98** | 0.56 | **0.99** | 0.59 | 0.64 | 0.10 |
+| d2c_vlm | 0.98 | — | 0.52 | 0.97 | 0.52 | 0.64 | 0.01 |
+| sliced | 0.56 | 0.52 | — | 0.57 | 0.49 | 0.43 | 0.39 |
+| waffle | 0.99 | 0.97 | 0.57 | — | 0.63 | 0.63 | 0.15 |
+| perceptual | 0.59 | 0.52 | 0.49 | 0.63 | — | 0.29 | 0.36 |
+| vlm_judge | 0.64 | 0.64 | 0.43 | 0.63 | 0.29 | — | 0.36 |
+| clip_only | 0.10 | 0.01 | 0.39 | 0.15 | 0.36 | 0.36 | — |
+
+Three things jump out:
+
+1. **`design2code`, `design2code_vlm`, and `waffle` all rank sites
+   the same way** (ρ ≥ 0.97). They argue about the *number* but not
+   about which site is better than which. Implication: if you only
+   care about ranking, plain `design2code` is enough; the extra cost
+   of the VLM hybrid and the extra cost of CW-SSIM aren't buying new
+   ranking information.
+2. **`design2code_vlm_sliced` ranks sites genuinely differently**
+   (ρ ≈ 0.52 with d2c_vlm). Per-slice scoring penalizes "one bad
+   section in an otherwise fine page" much harder than page-level
+   averaging does. This is real complementary signal — keep it.
+3. **`clip_only` is essentially independent of the structural graders
+   (ρ = 0.10 with `design2code`).** CLIP is sorting sites by what
+   *kind of page* they are, not whether they were built correctly.
+   Confirms the perverse-incentive failure mode the literature warned
+   about, on real agent output.
+
+### Where Claude is weakest (component-level breakdown)
+
+`design2code` averages across its seven components on the 12 sites:
+
+| component | mean | std | what it's checking |
+|---|---|---|---|
+| position | 0.951 | 0.012 | are matched blocks centered in the right spot |
+| clip | 0.928 | 0.034 | does the page look like the right *kind* of page |
+| block_match | 0.894 | 0.123 | did we find the same blocks at all |
+| edge_ssim | 0.783 | 0.044 | are the outlines (text shapes, borders) similar |
+| **text** | **0.567** | 0.094 | do the matched blocks contain the same words |
+| **color** | **0.565** | 0.124 | do the matched blocks use the same colors |
+| **block_ssim** | **0.509** | 0.083 | do the matched blocks render similarly inside |
+
+The three lowest — text, color, block_ssim — line up with what we see
+when reviewing Claude Code's output by eye: **fonts are off, colors
+are off, illustrations are off.** The components correctly point at
+the failure axes; they don't compress everything to a single
+indistinguishable number.
+
+Position and CLIP are consistently high (0.95, 0.93) — Claude gets
+section *positions* and overall page *type* right. Where it fails is
+within-block fidelity, which v1 graders were blind to.
+
+### What this means for picking a grader
+
+| Grader | Verdict |
+|---|---|
+| `design2code` v2 | Free, ~5s/page, mean 0.742. **Best speed/quality tradeoff. Use as primary.** |
+| `design2code_vlm` | +1 Claude vision call. Almost identical ranking to v2 (ρ 0.98). **Drop or keep as a sanity check.** |
+| `design2code_vlm_sliced` | +1 Claude vision call. Genuinely different ranking (ρ 0.52). **Keep — complementary signal, useful for tighter RL gradients.** |
+| `waffle` | Almost identical to v2 (ρ 0.99). **Pure duplication. Keep only as a baseline.** |
+| `perceptual` | Most unstable across sites (std 0.078) and reacts to the wrong things. **Baseline only.** |
+| `clip_only` | Independent of structural correctness. **Baseline only — never use as RL reward.** |
+| `vlm_judge` | Genuine new signal (ρ 0.64), but compresses everything above 0.78. **Diagnostic / offline-only, not RL reward.** |
+
+### What's *not* in this section
+
+- **Within-task variance.** We have n=1 per site here. Whether
+  re-running Claude Code on the same site produces a tight or wide
+  spread is the *next* experiment — n=10 same-task variance run, in
+  progress on `ww-00022/attempt-002`.
+- **Whether 0.742 is "right".** The graders agree internally, but
+  internal agreement isn't ground truth. A small human study would
+  pin down whether the absolute level is well-calibrated.
+- **Why ww-00022 scores lowest.** Eyeball needed.
