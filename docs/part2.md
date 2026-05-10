@@ -66,24 +66,19 @@ each grader):
 
 ### Per-page video pairs and full component breakdown
 
-> **Note on video playback.** GitHub's markdown renderer strips
-> inline `<video>` tags from repo-content markdown for security
-> reasons. Click any of the play links below — they open GitHub's
-> built-in mp4 viewer in a new tab, which is a real video player
-> with scrubber, controls, and full-screen. The reference and agent
-> recordings use the identical capture protocol (1440×1000, 2.5s
-> top-hold, eased scroll, 2.0s bottom-hold) so they're directly
-> comparable frame-for-frame.
-
-Each row links to the reference recording (left) and Claude Code's
-recording (right). Below each pair is the full component breakdown
-from both graders.
+Each row plays the reference recording (left) and Claude Code's
+recording (right) side by side. Below each pair is the full
+component breakdown from both graders.
 
 #### page_01 — home
 
-| Truth | Agent (Claude Code) |
-|---|---|
-| [▶ play truth-page_01.mp4](videos/ww-00031/truth-page_01.mp4) | [▶ play agent-page_01.mp4](videos/ww-00031/agent-page_01.mp4) |
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_01.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_01.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
 
 | grader | score | components |
 |---|---|---|
@@ -92,9 +87,13 @@ from both graders.
 
 #### page_02 — lineup
 
-| Truth | Agent (Claude Code) |
-|---|---|
-| [▶ play truth-page_02.mp4](videos/ww-00031/truth-page_02.mp4) | [▶ play agent-page_02.mp4](videos/ww-00031/agent-page_02.mp4) |
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_02.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_02.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
 
 | grader | score | components |
 |---|---|---|
@@ -103,9 +102,13 @@ from both graders.
 
 #### page_03 — tickets
 
-| Truth | Agent (Claude Code) |
-|---|---|
-| [▶ play truth-page_03.mp4](videos/ww-00031/truth-page_03.mp4) | [▶ play agent-page_03.mp4](videos/ww-00031/agent-page_03.mp4) |
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_03.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_03.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
 
 | grader | score | components |
 |---|---|---|
@@ -114,9 +117,13 @@ from both graders.
 
 #### page_04 — map
 
-| Truth | Agent (Claude Code) |
-|---|---|
-| [▶ play truth-page_04.mp4](videos/ww-00031/truth-page_04.mp4) | [▶ play agent-page_04.mp4](videos/ww-00031/agent-page_04.mp4) |
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_04.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_04.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
 
 | grader | score | components |
 |---|---|---|
@@ -125,9 +132,13 @@ from both graders.
 
 #### page_05 — experience
 
-| Truth | Agent (Claude Code) |
-|---|---|
-| [▶ play truth-page_05.mp4](videos/ww-00031/truth-page_05.mp4) | [▶ play agent-page_05.mp4](videos/ww-00031/agent-page_05.mp4) |
+<table>
+<tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
+<tr>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_05.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_05.mp4" controls width="420" muted></video></td>
+</tr>
+</table>
 
 | grader | score | components |
 |---|---|---|
