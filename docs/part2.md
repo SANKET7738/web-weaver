@@ -1,5 +1,21 @@
 # Part 2: animation graders
 
+> ⚠️ **View this file locally to see the videos.**
+> GitHub's markdown sanitizer strips `<video>` tags from repo-content
+> markdown, so the side-by-side reference/agent recordings further
+> down won't render on github.com. Clone the repo and open
+> `docs/part2.md` in VS Code (or any markdown previewer that allows
+> `<video>` tags) to see the videos play inline.
+>
+> ```bash
+> git clone https://github.com/SANKET7738/web-weaver.git
+> cd web-weaver
+> code docs/part2.md   # or: open in your preferred markdown viewer
+> ```
+>
+> The mp4 files themselves live at `docs/videos/ww-00031/{truth,agent}-page_NN.mp4`
+> and can also be played directly in any video player.
+
 When a task includes screen recordings of motion design (not just
 still screenshots), we add two more graders that operate on mp4s
 instead of PNGs.
