@@ -18,8 +18,8 @@ to the original.
 
 ## Pseudo-code per grader
 
-Each grader returns a value in `[0, 1]`. Components are also each in
-`[0, 1]`. `mean(...)` is plain arithmetic mean.
+All graders and components return values in `[0, 1]`. `mean(...)` is
+arithmetic mean.
 
 ### `design2code`
 
@@ -121,12 +121,10 @@ score = mean(response.scores) / 5                # rescale 1..5 -> 0..1
 
 ## Analysis on real Claude-Code runs
 
-We scored Claude Code (Opus 4.7) on 12 generated sites (ww-00008 plus
-ww-00020 through ww-00030, skipping ww-00031). One run per site, all
-five pages of each site, all seven graders. **n = 12 sites × 7 graders
-× 5 pages = 420 grader/page scores.** Setup is intentionally boring:
-same agent, same model, same harness, same graders — only the site
-changes.
+We scored Claude Code (Opus 4.7) on 12 generated sites (ww-00008,
+ww-00020–ww-00030, no ww-00031), one run per site, five pages each,
+all seven graders. **n = 12 × 7 × 5 = 420 page-grader scores.** Same
+agent, same model, same harness, same graders — only the site changes.
 
 ### How each grader scored on average
 
@@ -142,58 +140,43 @@ changes.
 
 ![Per-grader score across 12 sites](figures/grader-summary-box.png)
 
-Box plot: each box covers the middle half of the 12 site means
-(25th-75th percentile), the line inside is the median, whiskers
-stretch to min/max, and any dots outside the whiskers are sites that
-look like outliers.
+Box plot: each box covers the 25th–75th percentile of the 12 site
+means, line = median, whiskers = min/max, dots = outliers.
 
-Two extremes worth flagging:
+Two extremes:
 
-- `clip_only` sits at mean 0.928 with all 12 sites packed into a tiny
-  band near the top — almost everything looks great to it, regardless
-  of whether the page is actually right. Compressed range,
+- `clip_only`: all 12 sites packed near 0.93. Compressed range,
   near-useless for ranking.
-- `perceptual` has the widest spread (std 0.078) but for the wrong
-  reason — it's mostly reacting to whitespace and background colors,
-  not whether the page is structurally correct.
+- `perceptual`: widest spread (std 0.078), but driven by whitespace
+  and background colors, not structural correctness.
 
-The `design2code` family lands in the useful middle: enough range to
-separate sites, low enough variance that the differences are real,
-not noise.
+The `design2code` family lands in the useful middle — enough range
+to separate sites, low enough variance that differences are real.
 
 ### Per-site scores (12 sites)
 
 ![Per-site scores parallel coordinates](figures/per-site-C-parallel.png)
 
-One line per site. Each line connects that site's score on the five
-graders, left to right. Line color follows the site's rank on
-`design2code` (yellow = highest, purple = lowest), so you can read
-"does this site stay near the top across all graders?" by following
-one color all the way across.
+One line per site connecting its score on the five graders. Line
+color = site's rank on `design2code` (yellow = highest, purple =
+lowest), so following one color reads "does this site stay near the
+top everywhere?".
 
 What jumps out:
 
 - **Big step up between `sliced` and `vlm_judge`.** Every site climbs
-  ~0.15 points there. The VLM rubric and CLIP both score the same
-  pages much higher than the structural graders do. This is the
-  "structural graders penalize hard, semantic graders are lenient"
-  pattern, visible in one figure.
-- **`clip_only` is the highest band.** All 12 sites are crammed
-  between ~0.89 and ~0.96 — confirms the "compressed range" issue.
-- **Lines cross between graders.** Where the lines re-order, the
-  graders disagree on ranking. The biggest re-ordering happens between
-  `sliced` and `vlm_judge` (sites that look bad to the structural
-  graders are not necessarily the same sites that look bad to Claude).
-- **ww-00022** (dark purple) sits at the bottom of the structural
-  graders but climbs into mid-pack for `vlm_judge` and `clip_only` —
-  the structural graders agree it's the worst, the semantic graders
-  don't see it that way.
+  ~0.15 points. Structural graders penalize hard, semantic graders
+  are lenient.
+- **`clip_only` is the highest band**, all sites crammed between
+  ~0.89 and ~0.96.
+- **Lines cross** = graders disagree on ranking. The biggest crossing
+  is between `sliced` and `vlm_judge`.
+- **ww-00022** (dark purple) is bottom on structural graders, mid-pack
+  on semantic ones.
 
-Hardest site (across the structural graders): **ww-00022**.
-Easiest: **ww-00029** / **ww-00026** / **ww-00028**.
-The 0.12-point gap between hardest and easiest is real — Claude Code
-is genuinely better on some site designs than others, and the graders
-detect that gap rather than smoothing it away.
+Hardest site: **ww-00022**. Easiest: **ww-00029** / **ww-00026** /
+**ww-00028**. The 0.12-point hardest-vs-easiest gap is real — Claude
+Code is genuinely better on some site designs than others.
 
 ### Do the graders agree on which site is best?
 
@@ -212,21 +195,18 @@ Spearman rank correlation between graders. 1.00 = identical ranking,
 
 Three things jump out:
 
-1. **`design2code`, `design2code_vlm`, and `waffle` all rank sites
-   the same way** (ρ ≥ 0.97). They argue about the *number* but not
-   about which site is better than which. Implication: if you only
-   care about ranking, plain `design2code` is enough; the extra cost
-   of the VLM hybrid and the extra cost of CW-SSIM aren't buying new
-   ranking information.
-2. **`design2code_vlm_sliced` ranks sites genuinely differently**
-   (ρ ≈ 0.52 with d2c_vlm). Per-slice scoring penalizes "one bad
-   section in an otherwise fine page" much harder than page-level
-   averaging does. This is real complementary signal — keep it.
-3. **`clip_only` is essentially independent of the structural graders
-   (ρ = 0.10 with `design2code`).** CLIP is sorting sites by what
-   *kind of page* they are, not whether they were built correctly.
-   Confirms the perverse-incentive failure mode the literature warned
-   about, on real agent output.
+1. **`design2code`, `design2code_vlm`, and `waffle` rank sites
+   identically** (ρ ≥ 0.97). They argue about the *number*, not the
+   *order*. If you only care about ranking, plain `design2code` is
+   enough — the VLM hybrid and CW-SSIM add no new ranking info.
+2. **`design2code_vlm_sliced` ranks differently** (ρ ≈ 0.52 with
+   d2c_vlm). Per-slice scoring penalizes "one bad section in an
+   otherwise fine page" much harder than page-level averaging does.
+   Real complementary signal — keep it.
+3. **`clip_only` is independent of structural graders** (ρ = 0.10
+   with `design2code`). CLIP ranks by *kind of page*, not whether
+   it was built correctly. Confirms the perverse-incentive failure
+   mode on real agent output.
 
 ### Where Claude is weakest (component-level breakdown)
 
@@ -242,14 +222,13 @@ Three things jump out:
 | **color** | **0.565** | 0.124 | do the matched blocks use the same colors |
 | **block_ssim** | **0.509** | 0.083 | do the matched blocks render similarly inside |
 
-The three lowest — text, color, block_ssim — line up with what we see
-when reviewing Claude Code's output by eye: **fonts are off, colors
-are off, illustrations are off.** The components correctly point at
-the failure axes; they don't compress everything to a single
-indistinguishable number.
+The three lowest — text, color, block_ssim — match the failure modes
+we see by eye: **fonts off, colors off, illustrations off.** The
+components correctly point at the failure axes; they don't compress
+everything to one number.
 
-Position and CLIP are consistently high (0.95, 0.93) — Claude gets
-section *positions* and overall page *type* right. Where it fails is
+Position and CLIP are consistently high — Claude gets section
+*positions* and overall page *type* right. The failures are
 within-block fidelity, which v1 graders were blind to.
 
 ### Worked example: where the graders disagree most
@@ -268,40 +247,33 @@ page, scored by every grader:
 
 ![ww-00022 page_05 — truth (left) vs Claude Code's render (right)](figures/ww-00022-page-05-side-by-side.png)
 
-**Truth (left)** vs **agent's render (right)**. Eyeball check: same
-hero headline, same yellow-and-red gradient form, same dark contact
-card on the right, same map illustration, same "things people usually
-ask us first" FAQ block, same yellow CTA, same footer. The agent's
-version differs in three small ways:
+**Truth (left)** vs **agent's render (right)**. Same hero headline,
+yellow-and-red gradient form, dark contact card, map illustration,
+FAQ block, yellow CTA, footer. Three differences:
 
-- the map illustration has fewer nodes / a simpler track,
-- the FAQ items are numbered "01, 02, 03..." (the truth isn't),
-- the rendered page is ~16% taller (more vertical whitespace).
+- map illustration: fewer nodes, simpler track,
+- FAQ items: numbered "01, 02, 03…" (truth isn't),
+- agent is ~16% taller (more vertical whitespace).
 
-A human looking at this would probably say "yes, same page, ~80%
-right". `vlm_judge` (0.860) and `clip_only` (0.914) agree.
+A human would say "same page, ~80% right". `vlm_judge` (0.860) and
+`clip_only` (0.914) agree.
 
-**Why `waffle` says 0.551:** the height mismatch wrecks `cw_ssim`
-(the wavelet metric collapses to 0.115 because every coefficient is
-at a shifted vertical position). On a tall multi-section page that
-also confuses the page-level `block_match` (0.455 — the matcher
-mismatches similar-looking dark cards across the page), which
-cascades into bad `block_ssim` (0.391), `color` (0.369), and `text`
-(0.462). Eight components, one of them in the floor (`cw_ssim`),
-others poisoned by upstream matching errors → mean 0.551.
+**Why `waffle` says 0.551:** the height mismatch collapses `cw_ssim`
+to 0.115 (wavelet coefficients are all at shifted positions). The
+same offset also confuses page-level `block_match` (0.455 — similar
+dark cards get mismatched across the page), cascading into
+`block_ssim` (0.391), `color` (0.369), and `text` (0.462). One
+component on the floor + four poisoned by upstream errors → 0.551.
 
-**Why `design2code_vlm_sliced` says 0.654:** no `cw_ssim` component
-at all, and the page is sliced into 1440×1000 viewports before
-matching. Each viewport in the agent is matched against the *same*
-viewport in the truth, so the matcher recovers — `block_match` jumps
-from 0.455 → 0.682, `text` from 0.462 → 0.628. The VLM rubric on
-the full image floats in another 0.840.
+**Why `design2code_vlm_sliced` says 0.654:** no `cw_ssim`, and
+matching is done per 1440×1000 viewport against the same viewport in
+the truth. `block_match` recovers 0.455 → 0.682, `text` 0.462 →
+0.628. The VLM rubric adds another 0.840.
 
 **Take-away:** `waffle` over-punishes long pages where the agent
-rendered the right content slightly stretched. `design2code_vlm_sliced`
-and `vlm_judge` correctly score this as "mostly right". For RL reward,
-this is the failure mode that matters — you don't want the reward to
-crash on a near-correct attempt because of a height mismatch.
+rendered the right content slightly stretched. `sliced` and
+`vlm_judge` correctly score this as "mostly right". For RL reward,
+you don't want a height mismatch to crash a near-correct attempt.
 
 ### Worked example: where sliced rates an attempt highest
 
@@ -319,45 +291,34 @@ game café "Rollout". Same page, every grader:
 
 ![ww-00021 page_01 — truth (left) vs Claude Code's render (right)](figures/ww-00021-page-01-side-by-side.png)
 
-Same exercise: eyeball the two screenshots. Same hero headline ("Your
-Next Favourite Game Night Is Waiting"), same dark-purple → cream
-hero, same "By the Numbers" stats row (500+, 12,000+, 4.9, 7 Days),
-same 4-card "More Than a Café" grid (Massive Game Library / Expert
-Game Guides / Café & Bar Menu / Private Event Rooms), same dark
-testimonials section with three quote cards, same yellow CTA, same
-footer. The only meaningful difference is the **hero illustration**:
-the truth has a detailed scene (board, dice, cards, meeples, coffee
-cup) and the agent has a simplified version (board + dice + cards,
-no meeples, no coffee cup, slightly different palette).
+Same exercise. Same hero headline ("Your Next Favourite Game Night Is
+Waiting"), dark-purple → cream hero, "By the Numbers" row (500+,
+12,000+, 4.9, 7 Days), 4-card "More Than a Café" grid, dark
+testimonials, yellow CTA, footer. Only meaningful diff: the **hero
+illustration** — truth has board + dice + cards + meeples + coffee
+cup; agent has board + dice + cards, no meeples or coffee.
 
-A human would say "this is essentially correct, with one section
-slightly less detailed". `clip_only` (0.957), `vlm_judge` (0.880)
-and `design2code_vlm_sliced` (0.796) all land in the right
-neighborhood.
+A human says "essentially correct, one section less detailed".
+`clip_only` (0.957), `vlm_judge` (0.880), and `sliced` (0.796) all
+land there.
 
-**Why `waffle` still says 0.643:** the same `cw_ssim` failure mode
-shows up — `cw_ssim = 0.139` on this page (the heights only differ
-by 2.6%, but the wavelet metric is sensitive to even modest
-translation). On top of that, the page-level `block_match = 0.605`
-because the simplified hero illustration changes the bounding-box
-structure, which throws the global Hungarian matcher and cascades
-into `color = 0.499`, `text = 0.597`.
+**Why `waffle` still says 0.643:** same `cw_ssim = 0.139` failure
+(heights differ only 2.6%, but the metric is sensitive to even
+modest translation). The simplified hero changes bounding-box
+structure, which crashes page-level `block_match` to 0.605 and
+cascades into `color` (0.499) and `text` (0.597).
 
-**Why `design2code_vlm_sliced` lands at 0.796:** per-slice matching
-isolates the hero into its own viewport, where the matcher only
-needs to align "headline block + illustration block" rather than
-the whole page. That recovers `block_match` from 0.605 → 0.934.
-`text` recovers from 0.597 → 0.767 once the OCR'd content is paired
-correctly. Plus no `cw_ssim` to drag it down.
+**Why `sliced` lands at 0.796:** per-slice matching isolates the
+hero into its own viewport — the matcher only aligns "headline +
+illustration" instead of the whole page. `block_match` recovers
+0.605 → 0.934, `text` 0.597 → 0.767. No `cw_ssim` drag.
 
-**Take-away on the bright side:** sliced isn't *just* about avoiding
-waffle's failure modes. When the agent is genuinely close, sliced
-correctly says "0.8 — pretty good" while waffle still penalizes for
-~0.15. This is the exact behaviour you want from an RL reward: high
-when the attempt is close, lower when it's far. Compressed scores
-(`clip_only` saying 0.957 for a page that's ~80% right) and
-brittle-low scores (`waffle` saying 0.643) both fail this test in
-opposite directions; sliced threads the needle.
+**Take-away:** sliced isn't *just* about avoiding waffle's failures.
+On a genuinely-close attempt, sliced says "0.8 — pretty good" while
+waffle still penalizes ~0.15. Exactly the behaviour an RL reward
+needs: high when close, lower when far. Compressed scores
+(`clip_only` saying 0.957) and brittle-low scores (`waffle` saying
+0.643) fail in opposite directions; sliced threads the needle.
 
 ### What this means for picking a grader
 
@@ -373,11 +334,10 @@ opposite directions; sliced threads the needle.
 
 ### Within-task variance (n = 5 reruns on the same task)
 
-Cross-task numbers above used n=1 run per site, so we can't tell
-whether a grader's score for a site is the *real* score or a one-off
-unlucky sample. To check, we re-ran Claude Code Opus 4.7 five times
-on the same task (**ww-00022 / attempt-002**) and scored every
-trial with all seven graders.
+Cross-task numbers above used n=1 per site, so we can't tell whether
+a score is the *real* score or a one-off draw. To check, we re-ran
+Claude Code Opus 4.7 five times on **ww-00022 / attempt-002** and
+scored every trial with all seven graders.
 
 | Grader | mean | std | min | max | range |
 |---|---|---|---|---|---|
@@ -389,39 +349,32 @@ trial with all seven graders.
 | `clip_only` | 0.934 | 0.007 | 0.921 | 0.941 | 0.020 |
 | `vlm_judge` | 0.851 | **0.027** | 0.816 | 0.888 | 0.072 |
 
-Four things to take away:
+Four take-aways:
 
-1. **Structural graders are very stable across reruns.** `design2code`,
+1. **Structural graders are stable across reruns.** `design2code`,
    `waffle`, `perceptual` all sit at std ≈ 0.008-0.009. Five
-   independent Claude Code runs on the same task produce nearly the
-   same number — the agent is consistent and the graders detect that
-   consistency.
+   independent runs on the same task produce nearly the same number.
 
-2. **Within-task std is ~4× smaller than cross-task std.** For
-   `design2code`: within-task std is **0.009**, cross-task std is
-   **0.037**. That ratio is exactly what we want — it means
-   cross-task variation is mostly *real task-difficulty variation*,
-   not measurement noise from the grader. The graders separate sites
-   that genuinely are harder/easier; they aren't just adding random
-   wobble.
+2. **Within-task std is ~4× smaller than cross-task std.**
+   `design2code`: 0.009 vs 0.037. That ratio means cross-task
+   variation is *real task-difficulty variation*, not measurement
+   noise. The graders separate genuinely-harder from genuinely-easier
+   sites; they aren't adding random wobble.
 
 3. **`design2code_vlm_sliced` is the most variable structural grader
-   within a task (std 0.023).** ~2.5× more variable than plain
-   `design2code`. Per-slice scoring is more sensitive to which
-   sections the agent happened to render well that run — which is
-   the same sensitivity that gives it the complementary cross-task
-   signal. The signal/noise tradeoff is genuine, not a bug.
+   within a task** (std 0.023, ~2.5× `design2code`). Per-slice scoring
+   is sensitive to which sections happened to render well — the same
+   sensitivity that gives it the cross-task complementary signal. The
+   signal/noise tradeoff is genuine, not a bug.
 
-4. **`vlm_judge` is the noisiest grader overall (std 0.027).** Two
-   compounding noise sources: agent run variance + Claude vision API
-   call noise. Re-confirms the "diagnostic only, not RL reward"
-   recommendation.
+4. **`vlm_judge` is the noisiest overall** (std 0.027) — agent run
+   variance + Claude vision API call noise compound. Re-confirms
+   diagnostic-only.
 
-The original cross-task ww-00022 score was 0.659 on `design2code`.
-The within-task distribution puts the true mean at **0.679 ± 0.009**,
-so the cross-task number was a slightly unlucky draw (1 standard
-deviation low). The qualitative ranking ("ww-00022 is the hardest
-site") is unchanged regardless.
+The cross-task ww-00022 score was 0.659 on `design2code`. The
+within-task distribution puts the true mean at **0.679 ± 0.009** —
+the cross-task number was 1 std low, an unlucky draw. The qualitative
+ranking ("ww-00022 is the hardest site") is unchanged.
 
 ### Best and worst attempts inside the variance run
 
@@ -430,42 +383,36 @@ extremes were:
 
 | extreme | trial | page | sliced | what changed |
 |---|---|---|---|---|
-| **lowest** | 03 | page_03 | **0.525** | agent missed the bright pink-orange gradient backgrounds, kept everything on the dark base — `color = 0.23` is the killer component |
-| **highest** | 01 | page_05 | **0.710** | a near-faithful render of the BoltWorks contact page (same hero, form, map, FAQ, CTA) — all components in their normal range |
+| **lowest** | 03 | page_03 | **0.525** | agent missed the bright pink-orange gradient backgrounds, kept everything dark — `color = 0.23` is the killer |
+| **highest** | 01 | page_05 | **0.710** | near-faithful contact page render — all components in normal range |
 
 **Lowest** (trial 03 / page_03 — "Departments" page):
 
 ![worst variance attempt — trial 03 / page 03](figures/variance-lowest-trial03-page3.png)
 
-The truth has two large gradient sections (pink → orange behind
-"Which Division is Right for You?", and a yellow-to-pink stage behind
-the division cards). The agent kept the entire page on the dark base
-color and rendered those sections as plain dark panels. That alone
-crashes `color` to 0.23 and `block_match` to 0.47 (because the dark
-sections of agent + dark sections of truth get mismatched against
-each other). Same content, very different palette → sliced reports
-0.525.
+Truth has two large gradient sections (pink → orange behind "Which
+Division is Right for You?", and yellow-to-pink behind the division
+cards). Agent rendered them as plain dark panels. Crashes `color`
+to 0.23 and `block_match` to 0.47 (dark sections get mismatched
+across the page). Same content, very different palette → 0.525.
 
-**Highest** (trial 01 / page_05 — "Contact" page, same page family as
-the cross-task worked example):
+**Highest** (trial 01 / page_05 — Contact page, same family as the
+cross-task example):
 
 ![best variance attempt — trial 01 / page 05](figures/variance-highest-trial01-page5.png)
 
-Hero with the lightning-emblem, yellow-to-pink contact form on the
-left, dark contact card on the right, map illustration, FAQ list,
-yellow "best time to join was last season" CTA, footer — all present
-and reasonably faithful. Differences are minor (slightly different
-form input states, a thinner map track). `color = 0.43`, `text =
-0.73`, `block_match = 0.78`, `vlm_judge = 0.88` — every component in
-its normal-good range → sliced 0.710.
+Lightning-emblem hero, yellow-to-pink contact form, dark contact
+card, map, FAQ, yellow CTA, footer — all present, reasonably
+faithful. Minor diffs in form input states and map track. `color =
+0.43`, `text = 0.73`, `block_match = 0.78`, `vlm_judge = 0.88` →
+0.710.
 
-**What this confirms:** within the same task, the spread between
-Claude's best and worst attempts on `sliced` is **0.525 → 0.710 =
-0.185 points**. That's bigger than the entire cross-task std (0.038)
-and bigger than the within-task std (0.023). The grader is correctly
-distinguishing "the agent botched the palette this run" (lowest) from
-"the agent nailed the layout this run" (highest), within the same
-task. That's the per-attempt discrimination we need for an RL reward.
+**What this confirms:** within the same task, Claude's best vs worst
+attempt on `sliced` is **0.525 → 0.710 = 0.185 points** — bigger
+than the cross-task std (0.038) and the within-task std (0.023). The
+grader distinguishes "botched the palette" (lowest) from "nailed the
+layout" (highest) within the same task. That's the per-attempt
+discrimination an RL reward needs.
 
 ### What's *not* in this section
 
