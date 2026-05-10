@@ -423,6 +423,50 @@ so the cross-task number was a slightly unlucky draw (1 standard
 deviation low). The qualitative ranking ("ww-00022 is the hardest
 site") is unchanged regardless.
 
+### Best and worst attempts inside the variance run
+
+Across the 25 page-runs (5 trials × 5 pages), `design2code_vlm_sliced`
+extremes were:
+
+| extreme | trial | page | sliced | what changed |
+|---|---|---|---|---|
+| **lowest** | 03 | page_03 | **0.525** | agent missed the bright pink-orange gradient backgrounds, kept everything on the dark base — `color = 0.23` is the killer component |
+| **highest** | 01 | page_05 | **0.710** | a near-faithful render of the BoltWorks contact page (same hero, form, map, FAQ, CTA) — all components in their normal range |
+
+**Lowest** (trial 03 / page_03 — "Departments" page):
+
+![worst variance attempt — trial 03 / page 03](figures/variance-lowest-trial03-page3.png)
+
+The truth has two large gradient sections (pink → orange behind
+"Which Division is Right for You?", and a yellow-to-pink stage behind
+the division cards). The agent kept the entire page on the dark base
+color and rendered those sections as plain dark panels. That alone
+crashes `color` to 0.23 and `block_match` to 0.47 (because the dark
+sections of agent + dark sections of truth get mismatched against
+each other). Same content, very different palette → sliced reports
+0.525.
+
+**Highest** (trial 01 / page_05 — "Contact" page, same page family as
+the cross-task worked example):
+
+![best variance attempt — trial 01 / page 05](figures/variance-highest-trial01-page5.png)
+
+Hero with the lightning-emblem, yellow-to-pink contact form on the
+left, dark contact card on the right, map illustration, FAQ list,
+yellow "best time to join was last season" CTA, footer — all present
+and reasonably faithful. Differences are minor (slightly different
+form input states, a thinner map track). `color = 0.43`, `text =
+0.73`, `block_match = 0.78`, `vlm_judge = 0.88` — every component in
+its normal-good range → sliced 0.710.
+
+**What this confirms:** within the same task, the spread between
+Claude's best and worst attempts on `sliced` is **0.525 → 0.710 =
+0.185 points**. That's bigger than the entire cross-task std (0.038)
+and bigger than the within-task std (0.023). The grader is correctly
+distinguishing "the agent botched the palette this run" (lowest) from
+"the agent nailed the layout this run" (highest), within the same
+task. That's the per-attempt discrimination we need for an RL reward.
+
 ### What's *not* in this section
 
 - **Whether 0.742 is "right".** The graders agree internally, but
