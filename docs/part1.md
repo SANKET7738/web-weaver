@@ -130,28 +130,23 @@ changes.
 
 ### How each grader scored on average
 
-| Grader | mean | std | min | max |
-|---|---|---|---|---|
-| `design2code` | **0.742** | 0.037 | 0.659 | 0.783 |
-| `design2code_vlm` | 0.735 | 0.038 | 0.646 | 0.781 |
-| `design2code_vlm_sliced` | **0.701** | 0.038 | 0.620 | 0.760 |
-| `waffle` | 0.667 | 0.034 | 0.591 | 0.704 |
-| `perceptual` | 0.691 | **0.078** | 0.566 | 0.776 |
-| `clip_only` | 0.928 | **0.021** | 0.895 | 0.961 |
-| `vlm_judge` | 0.876 | 0.038 | 0.784 | 0.912 |
+![Per-grader score across 12 sites](figures/grader-summary-strip.png)
+
+One dot per site (n=12). Bold horizontal bar = mean across sites.
 
 Two extremes worth flagging:
 
-- `clip_only` sits at 0.928 with std 0.021 — almost everything looks
-  great to it, regardless of whether the page is actually right.
-  Compressed range, near-useless for ranking.
+- `clip_only` sits at mean 0.928 with all 12 sites packed into a tiny
+  band near the top — almost everything looks great to it, regardless
+  of whether the page is actually right. Compressed range,
+  near-useless for ranking.
 - `perceptual` has the widest spread (std 0.078) but for the wrong
   reason — it's mostly reacting to whitespace and background colors,
   not whether the page is structurally correct.
 
 The `design2code` family lands in the useful middle: enough range to
-separate sites, low enough std (0.037-0.038) that the differences are
-real, not noise.
+separate sites, low enough variance that the differences are real,
+not noise.
 
 ### Per-site scores (12 sites)
 
