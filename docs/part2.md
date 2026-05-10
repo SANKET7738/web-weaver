@@ -75,8 +75,8 @@ component breakdown from both graders.
 <table>
 <tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
 <tr>
-<td><video src="videos/ww-00031/truth-page_01.mp4" controls width="420" muted></video></td>
-<td><video src="videos/ww-00031/agent-page_01.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_01.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_01.mp4" controls width="420" muted></video></td>
 </tr>
 </table>
 
@@ -90,8 +90,8 @@ component breakdown from both graders.
 <table>
 <tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
 <tr>
-<td><video src="videos/ww-00031/truth-page_02.mp4" controls width="420" muted></video></td>
-<td><video src="videos/ww-00031/agent-page_02.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_02.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_02.mp4" controls width="420" muted></video></td>
 </tr>
 </table>
 
@@ -105,8 +105,8 @@ component breakdown from both graders.
 <table>
 <tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
 <tr>
-<td><video src="videos/ww-00031/truth-page_03.mp4" controls width="420" muted></video></td>
-<td><video src="videos/ww-00031/agent-page_03.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_03.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_03.mp4" controls width="420" muted></video></td>
 </tr>
 </table>
 
@@ -120,8 +120,8 @@ component breakdown from both graders.
 <table>
 <tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
 <tr>
-<td><video src="videos/ww-00031/truth-page_04.mp4" controls width="420" muted></video></td>
-<td><video src="videos/ww-00031/agent-page_04.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_04.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_04.mp4" controls width="420" muted></video></td>
 </tr>
 </table>
 
@@ -135,8 +135,8 @@ component breakdown from both graders.
 <table>
 <tr><th>Truth</th><th>Agent (Claude Code)</th></tr>
 <tr>
-<td><video src="videos/ww-00031/truth-page_05.mp4" controls width="420" muted></video></td>
-<td><video src="videos/ww-00031/agent-page_05.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/truth-page_05.mp4" controls width="420" muted></video></td>
+<td><video src="https://github.com/SANKET7738/web-weaver/raw/main/docs/videos/ww-00031/agent-page_05.mp4" controls width="420" muted></video></td>
 </tr>
 </table>
 
