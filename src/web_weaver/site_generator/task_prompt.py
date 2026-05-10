@@ -51,7 +51,7 @@ def build_entrypoint_script() -> str:
     return f"""#!/bin/bash
 set -euo pipefail
 
-mkdir -p /workspace/output/reference_site /workspace/logs /workspace/validation
+mkdir -p /workspace/output/reference_site /workspace/logs /workspace/validation/screenshots /workspace/validation/screenrecordings
 cd /workspace
 
 log() {{
@@ -124,6 +124,30 @@ else
   set -e
   echo "${{PLAYWRIGHT_EXIT_CODE}}" > /workspace/logs/playwright_exit_code.txt
   log "Playwright sanity check exited with code ${{PLAYWRIGHT_EXIT_CODE}}"
+
+  log "Capturing viewport screenshot slices"
+  set +e
+  node /workspace/capture_screenshots.js \\
+    --blueprint /workspace/input/blueprint.json \\
+    --base-url http://127.0.0.1:{DEFAULT_PORT} \\
+    --out-dir /workspace/validation/screenshots \\
+    --report /workspace/validation/screenshot_capture_report.json
+  SCREENSHOT_CAPTURE_EXIT_CODE=$?
+  set -e
+  echo "${{SCREENSHOT_CAPTURE_EXIT_CODE}}" > /workspace/logs/screenshot_capture_exit_code.txt
+  log "Screenshot capture exited with code ${{SCREENSHOT_CAPTURE_EXIT_CODE}}"
+
+  log "Capturing screen recordings"
+  set +e
+  node /workspace/capture_screenrecordings.js \\
+    --blueprint /workspace/input/blueprint.json \\
+    --base-url http://127.0.0.1:{DEFAULT_PORT} \\
+    --out-dir /workspace/validation/screenrecordings \\
+    --report /workspace/validation/screenrecording_capture_report.json
+  SCREENRECORDING_CAPTURE_EXIT_CODE=$?
+  set -e
+  echo "${{SCREENRECORDING_CAPTURE_EXIT_CODE}}" > /workspace/logs/screenrecording_capture_exit_code.txt
+  log "Screen recording capture exited with code ${{SCREENRECORDING_CAPTURE_EXIT_CODE}}"
 fi
 
 wait "${{SERVER_PID}}"

@@ -8,6 +8,12 @@ from web_weaver.site_generator.dockerfile_template import render_dockerfile
 from web_weaver.site_generator.playwright_checker_template import (
     render_playwright_checker_script,
 )
+from web_weaver.site_generator.screenshot_capture_template import (
+    render_screenshot_capture_script,
+)
+from web_weaver.site_generator.screenrecording_capture_template import (
+    render_screenrecording_capture_script,
+)
 from web_weaver.site_generator.sanity_checker_template import (
     render_sanity_checker_script,
 )
@@ -86,6 +92,18 @@ def prepare_env(
         encoding="utf-8",
     )
     playwright_checker_path.chmod(0o755)
+    screenshot_capture_path = context_dir / "capture_screenshots.js"
+    screenshot_capture_path.write_text(
+        render_screenshot_capture_script(),
+        encoding="utf-8",
+    )
+    screenshot_capture_path.chmod(0o755)
+    screenrecording_capture_path = context_dir / "capture_screenrecordings.js"
+    screenrecording_capture_path.write_text(
+        render_screenrecording_capture_script(),
+        encoding="utf-8",
+    )
+    screenrecording_capture_path.chmod(0o755)
 
 
 def resolve_task_artifacts(task_id: str) -> dict[str, Path]:
