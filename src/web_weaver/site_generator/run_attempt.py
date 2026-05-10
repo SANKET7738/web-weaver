@@ -101,6 +101,8 @@ def build_docker_run_command(
         f"{attempt.logs_dir.resolve()}:/workspace/logs",
         "-v",
         f"{attempt.validation_dir.resolve()}:/workspace/validation",
+        "-v",
+        f"{attempt.harbor_dir.resolve()}:/workspace/harbor",
     ]
 
     if env_file and env_file.exists():

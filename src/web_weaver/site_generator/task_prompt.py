@@ -148,7 +148,29 @@ else
   set -e
   echo "${{SCREENRECORDING_CAPTURE_EXIT_CODE}}" > /workspace/logs/screenrecording_capture_exit_code.txt
   log "Screen recording capture exited with code ${{SCREENRECORDING_CAPTURE_EXIT_CODE}}"
+
+  if [ "${{SANITY_EXIT_CODE:-1}}" = "0" ] \\
+     && [ "${{PLAYWRIGHT_EXIT_CODE:-1}}" = "0" ] \\
+     && [ "${{SCREENSHOT_CAPTURE_EXIT_CODE:-1}}" = "0" ] \\
+     && [ "${{SCREENRECORDING_CAPTURE_EXIT_CODE:-1}}" = "0" ]; then
+    log "All validations passed; assembling Harbor task at /workspace/harbor"
+    set +e
+    python3 /workspace/assemble_harbor.py > /workspace/logs/harbor_assemble.log 2>&1
+    HARBOR_ASSEMBLE_EXIT_CODE=$?
+    set -e
+    echo "${{HARBOR_ASSEMBLE_EXIT_CODE}}" > /workspace/logs/harbor_assemble_exit_code.txt
+    log "Harbor assembly exited with code ${{HARBOR_ASSEMBLE_EXIT_CODE}}"
+  else
+    log "Skipping Harbor assembly because one or more validations failed"
+    echo "skipped" > /workspace/logs/harbor_assemble_exit_code.txt
+  fi
 fi
 
-wait "${{SERVER_PID}}"
+if [ -n "${{SERVER_PID:-}}" ] && kill -0 "${{SERVER_PID}}" 2>/dev/null; then
+  log "Stopping static server (PID ${{SERVER_PID}})"
+  kill "${{SERVER_PID}}" 2>/dev/null || true
+  wait "${{SERVER_PID}}" 2>/dev/null || true
+fi
+
+log "Site generation pipeline complete; exiting"
 """

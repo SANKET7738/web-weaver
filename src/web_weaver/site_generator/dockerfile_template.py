@@ -22,7 +22,7 @@ RUN npm install -g @anthropic-ai/claude-code playwright \\
     && chmod -R a+rx /ms-playwright
 
 RUN useradd -m -s /bin/bash agent \\
-    && mkdir -p /workspace/input /workspace/output/reference_site /workspace/logs /workspace/validation/screenshots /workspace/validation/screenrecordings \\
+    && mkdir -p /workspace/input /workspace/output/reference_site /workspace/logs /workspace/validation/screenshots /workspace/validation/screenrecordings /workspace/harbor /workspace/harbor_template \\
     && chown -R agent:agent /workspace
 
 USER agent
@@ -37,8 +37,10 @@ COPY --chown=agent:agent sanity_check.py /workspace/sanity_check.py
 COPY --chown=agent:agent playwright_check.js /workspace/playwright_check.js
 COPY --chown=agent:agent capture_screenshots.js /workspace/capture_screenshots.js
 COPY --chown=agent:agent capture_screenrecordings.js /workspace/capture_screenrecordings.js
+COPY --chown=agent:agent assemble_harbor.py /workspace/assemble_harbor.py
+COPY --chown=agent:agent harbor_template /workspace/harbor_template
 
-RUN chmod +x /workspace/entrypoint.sh /workspace/sanity_check.py /workspace/playwright_check.js /workspace/capture_screenshots.js /workspace/capture_screenrecordings.js
+RUN chmod +x /workspace/entrypoint.sh /workspace/sanity_check.py /workspace/playwright_check.js /workspace/capture_screenshots.js /workspace/capture_screenrecordings.js /workspace/assemble_harbor.py
 
 EXPOSE {DEFAULT_PORT}
 

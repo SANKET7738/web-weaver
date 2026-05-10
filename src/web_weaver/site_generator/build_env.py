@@ -1,3 +1,4 @@
+import json
 import re
 import shutil
 import tempfile
@@ -5,6 +6,16 @@ from pathlib import Path
 
 from web_weaver.site_generator.docker_utils import image_exists, run_docker_command
 from web_weaver.site_generator.dockerfile_template import render_dockerfile
+from web_weaver.site_generator.harbor_templates import (
+    harbor_image_tag,
+    render_assemble_harbor_script,
+    render_harbor_dockerfile,
+    render_harbor_instruction_md,
+    render_harbor_oracle_script,
+    render_harbor_placeholder_grader_script,
+    render_harbor_task_toml,
+    render_harbor_test_script,
+)
 from web_weaver.site_generator.playwright_checker_template import (
     render_playwright_checker_script,
 )
@@ -104,6 +115,56 @@ def prepare_env(
         encoding="utf-8",
     )
     screenrecording_capture_path.chmod(0o755)
+
+    _bake_harbor_templates(task_id=task_id, context_dir=context_dir)
+
+
+def _bake_harbor_templates(*, task_id: str, context_dir: Path) -> None:
+    blueprint_path = context_dir / "blueprint.json"
+    blueprint = json.loads(blueprint_path.read_text(encoding="utf-8"))
+    pages = blueprint.get("pages") or []
+    if not pages:
+        raise ValueError(f"Blueprint for task {task_id} has no pages")
+    page_count = len(pages)
+
+    harbor_template_dir = context_dir / "harbor_template"
+    harbor_template_dir.mkdir(parents=True, exist_ok=True)
+
+    (harbor_template_dir / "Dockerfile").write_text(
+        render_harbor_dockerfile(),
+        encoding="utf-8",
+    )
+    (harbor_template_dir / "instruction.md").write_text(
+        render_harbor_instruction_md(page_count=page_count),
+        encoding="utf-8",
+    )
+    (harbor_template_dir / "task.toml").write_text(
+        render_harbor_task_toml(
+            task_id=task_id,
+            page_count=page_count,
+            docker_image=harbor_image_tag(task_id),
+        ),
+        encoding="utf-8",
+    )
+    solve_path = harbor_template_dir / "solve.sh"
+    solve_path.write_text(render_harbor_oracle_script(), encoding="utf-8")
+    solve_path.chmod(0o755)
+    test_path = harbor_template_dir / "test.sh"
+    test_path.write_text(render_harbor_test_script(), encoding="utf-8")
+    test_path.chmod(0o755)
+
+    grader_dir = harbor_template_dir / "grader"
+    grader_dir.mkdir(parents=True, exist_ok=True)
+    grader_path = grader_dir / "run.py"
+    grader_path.write_text(
+        render_harbor_placeholder_grader_script(),
+        encoding="utf-8",
+    )
+    grader_path.chmod(0o755)
+
+    assemble_path = context_dir / "assemble_harbor.py"
+    assemble_path.write_text(render_assemble_harbor_script(), encoding="utf-8")
+    assemble_path.chmod(0o755)
 
 
 def resolve_task_artifacts(task_id: str) -> dict[str, Path]:
