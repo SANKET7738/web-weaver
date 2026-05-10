@@ -1,0 +1,957 @@
+{
+  "id": "ww-00003",
+  "version": "0.1",
+  "concept_id": "ww-00003",
+  "identity": {
+    "name": "Clearmind Therapy",
+    "tagline": "Space to breathe. Room to grow.",
+    "one_line_description": "Clearmind Therapy is a modern mental health practice connecting individuals, couples, and families with compassionate, evidence-based therapists in a calm, structured environment.",
+    "domain": "healthcare",
+    "subdomain": "mental health therapy practice",
+    "voice": [
+      "warm",
+      "grounded",
+      "clear",
+      "reassuring",
+      "human"
+    ],
+    "target_audience": "Adults aged 22\u201355 seeking individual, couples, or family therapy for anxiety, depression, life transitions, or relationship challenges \u2014 including first-time therapy seekers who need a trustworthy, low-pressure entry point."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Welcome visitors with warmth and clarity, immediately communicate what Clearmind Therapy offers, reduce the anxiety of first contact, and guide visitors toward booking or learning more.",
+      "meta_description": "Clearmind Therapy offers compassionate, evidence-based mental health care for individuals, couples, and families. Meet our practitioners and take your first step today.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Establish emotional safety and brand identity immediately. Reassure visitors that this is a welcoming, professional space \u2014 not clinical or intimidating.",
+          "eyebrow": "Mental Health Therapy",
+          "headline": "You deserve a space that feels like yours.",
+          "subheadline": "Clearmind Therapy connects you with licensed therapists who meet you where you are \u2014 and help you move forward.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Find Your Therapist",
+              "target_page": "practitioners"
+            },
+            {
+              "label": "Explore Our Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A calm, modular arrangement of soft geometric shapes suggesting open windows, plants, and a comfortable chair \u2014 evoking a therapy room without literal depiction.",
+              "purpose": "Set an emotionally warm, bento-style visual tone in the hero without using photography.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Build credibility quickly through concrete practice metrics that signal experience, reach, and trust.",
+          "eyebrow": "Our Practice at a Glance",
+          "headline": "Thousands of sessions. One goal: your wellbeing.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "12+",
+              "description": "Licensed therapists across specialties",
+              "metadata": {}
+            },
+            {
+              "title": "4,800+",
+              "description": "Sessions completed in the past year",
+              "metadata": {}
+            },
+            {
+              "title": "96%",
+              "description": "Client satisfaction rating",
+              "metadata": {}
+            },
+            {
+              "title": "Same-week",
+              "description": "Appointments typically available",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Explain the core value pillars of Clearmind Therapy in a modular, scannable format that mirrors the bento aesthetic and helps visitors self-identify with an approach.",
+          "eyebrow": "Why Clearmind",
+          "headline": "Therapy that fits your life \u2014 not the other way around.",
+          "subheadline": "We built our practice around you: your schedule, your pace, your goals.",
+          "body": null,
+          "items": [
+            {
+              "title": "Evidence-Based Methods",
+              "description": "Our therapists use CBT, DBT, EMDR, and other proven modalities tailored to your unique needs.",
+              "metadata": {}
+            },
+            {
+              "title": "In-Person & Telehealth",
+              "description": "Choose what works for you \u2014 a private office setting or a secure video session from home.",
+              "metadata": {}
+            },
+            {
+              "title": "Diverse Specialties",
+              "description": "From anxiety and depression to grief, trauma, and relationship challenges, we have the right fit.",
+              "metadata": {}
+            },
+            {
+              "title": "No Waitlist Pressure",
+              "description": "We prioritize timely access. Most clients are matched and seen within the same week.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "Humanize the practice through real client voices, reducing hesitation and building emotional trust for first-time therapy seekers.",
+          "eyebrow": "Client Stories",
+          "headline": "Healing happens here.",
+          "subheadline": "Hear from people who took the first step \u2014 and kept going.",
+          "body": null,
+          "items": [
+            {
+              "title": "\"I finally feel understood.\"",
+              "description": "After years of avoiding therapy, Clearmind made it feel approachable. My therapist listens without judgment and gives me real tools.",
+              "metadata": {
+                "attribution": "\u2014 Maya R., Individual Therapy Client"
+              }
+            },
+            {
+              "title": "\"Our relationship is stronger than ever.\"",
+              "description": "Couples therapy here gave my partner and me a language we didn't have before. We argue less and connect more.",
+              "metadata": {
+                "attribution": "\u2014 James & Priya T., Couples Therapy Clients"
+              }
+            },
+            {
+              "title": "\"I didn't know how much I needed this.\"",
+              "description": "I came in for work stress and discovered so much more about myself. The process was gentle and completely at my pace.",
+              "metadata": {
+                "attribution": "\u2014 Daniel K., Individual Therapy Client"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the home page with a warm, low-pressure invitation to take the first step \u2014 whether that's booking, reading resources, or reaching out with questions.",
+          "eyebrow": "Ready When You Are",
+          "headline": "Your first session starts with a single conversation.",
+          "subheadline": "No commitment required. Just a free 15-minute call to find the right fit.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Free Consultation",
+              "target_page": "contact"
+            },
+            {
+              "label": "Read Our Resources",
+              "target_page": "resources"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A subtle repeating bento-grid pattern of small rounded rectangles at varying opacities, evoking calm structure and organized space.",
+              "purpose": "Add visual texture to the CTA section background without distracting from the message.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "role": "overview",
+      "goal": "Help visitors understand the full range of therapy services offered, identify which service matches their needs, and move confidently toward booking.",
+      "meta_description": "Explore Clearmind Therapy's services: individual therapy, couples counseling, family therapy, teen support, and telehealth options \u2014 all evidence-based and personalized.",
+      "sections": [
+        {
+          "id": "services-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the services page with a clear, reassuring framing that therapy is not one-size-fits-all.",
+          "eyebrow": "What We Offer",
+          "headline": "Therapy shaped around you.",
+          "subheadline": "Whether you're navigating anxiety, relationship strain, or a major life change, we have a path forward designed for your situation.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-2",
+          "type": "item_grid",
+          "intent": "Present each therapy service as a distinct, modular card so visitors can quickly identify the right offering and understand what it addresses.",
+          "eyebrow": "Our Services",
+          "headline": "Find the support that fits your life.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Individual Therapy",
+              "description": "One-on-one sessions focused on your personal goals \u2014 managing anxiety, depression, trauma, grief, self-esteem, or life transitions.",
+              "metadata": {
+                "session_length": "50 minutes",
+                "format": "In-person or telehealth"
+              }
+            },
+            {
+              "title": "Couples Counseling",
+              "description": "Guided sessions to improve communication, rebuild trust, and navigate conflict \u2014 whether you're in crisis or simply want to grow closer.",
+              "metadata": {
+                "session_length": "60\u201380 minutes",
+                "format": "In-person or telehealth"
+              }
+            },
+            {
+              "title": "Family Therapy",
+              "description": "Structured conversations that help families work through tension, improve dynamics, and support every member \u2014 especially during major changes.",
+              "metadata": {
+                "session_length": "60 minutes",
+                "format": "In-person preferred"
+              }
+            },
+            {
+              "title": "Teen & Adolescent Support",
+              "description": "Therapy tailored to teens aged 13\u201317 dealing with academic pressure, identity, social anxiety, or family stress \u2014 in a judgment-free space.",
+              "metadata": {
+                "session_length": "50 minutes",
+                "format": "In-person or telehealth"
+              }
+            },
+            {
+              "title": "Telehealth Sessions",
+              "description": "Secure, HIPAA-compliant video therapy from anywhere \u2014 ideal for busy schedules, remote clients, or those who prefer the comfort of home.",
+              "metadata": {
+                "session_length": "50 minutes",
+                "format": "Video only"
+              }
+            },
+            {
+              "title": "Psychiatric Consultation",
+              "description": "Medication evaluation and management in coordination with your therapist, offered by our licensed psychiatric nurse practitioner.",
+              "metadata": {
+                "session_length": "30\u201360 minutes",
+                "format": "In-person or telehealth"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Book a Consultation",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "services-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A set of six minimal line icons representing each service: a single person, two interlinked figures, a family group, a teen silhouette, a video screen, and a medical clipboard.",
+              "purpose": "Give each service card a simple visual anchor that aids scanning without requiring photography.",
+              "quantity": 1,
+              "used_by": [
+                "services-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "services-section-3",
+          "type": "comparison",
+          "intent": "Help visitors who are unsure whether in-person or telehealth is right for them make a confident, informed decision.",
+          "eyebrow": "In-Person vs. Telehealth",
+          "headline": "Both paths lead to real progress.",
+          "subheadline": "Here's how to decide what works best for you.",
+          "body": null,
+          "items": [
+            {
+              "title": "In-Person Therapy",
+              "description": "Best for clients who value face-to-face connection, a dedicated physical space to decompress, and minimal screen time during sessions.",
+              "metadata": {
+                "availability": "Mon\u2013Sat",
+                "location": "Our downtown office suite"
+              }
+            },
+            {
+              "title": "Telehealth Therapy",
+              "description": "Best for clients with busy schedules, mobility limitations, or who simply feel more comfortable opening up from their own space.",
+              "metadata": {
+                "availability": "Mon\u2013Sun",
+                "location": "Anywhere with a secure connection"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-4",
+          "type": "faq",
+          "intent": "Remove common barriers to booking by answering the practical and emotional questions that hold first-time clients back.",
+          "eyebrow": "Common Questions",
+          "headline": "Answers before you even have to ask.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do you accept insurance?",
+              "description": "We accept most major insurance plans including Aetna, BlueCross BlueShield, Cigna, and United Healthcare. We also offer a sliding scale for self-pay clients.",
+              "metadata": {}
+            },
+            {
+              "title": "How do I know which service is right for me?",
+              "description": "Our free 15-minute consultation call is designed exactly for this. A care coordinator will listen and help match you with the right therapist and format.",
+              "metadata": {}
+            },
+            {
+              "title": "What if I don't connect with my therapist?",
+              "description": "Therapeutic fit matters deeply to us. If the match isn't right, we'll help you transition to another practitioner at no additional cost.",
+              "metadata": {}
+            },
+            {
+              "title": "How long does therapy typically last?",
+              "description": "It varies by person and goal. Some clients see meaningful progress in 8\u201312 sessions; others choose ongoing support. Your therapist will regularly check in on your progress.",
+              "metadata": {}
+            },
+            {
+              "title": "Is everything I share confidential?",
+              "description": "Yes. All sessions are fully confidential under HIPAA, with narrow legal exceptions your therapist will explain during your intake session.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Still have questions? Contact us",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-5",
+          "type": "cta",
+          "intent": "Convert visitors who have reviewed services into consultation bookings with a direct, warm call to action.",
+          "eyebrow": "Take the First Step",
+          "headline": "The right support is closer than you think.",
+          "subheadline": "Book a free 15-minute call and let us find the right fit for you.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Schedule a Free Call",
+              "target_page": "contact"
+            },
+            {
+              "label": "Meet Our Practitioners",
+              "target_page": "practitioners"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "services-section-5-asset-1",
+              "kind": "illustration",
+              "subject": "A simple modular grid of abstract shapes suggesting a pathway \u2014 stepping stones or connected bento blocks \u2014 leading toward an open horizon.",
+              "purpose": "Reinforce the metaphor of taking a step forward in the CTA section without using literal imagery.",
+              "quantity": 1,
+              "used_by": [
+                "services-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "title": "Practitioners",
+      "role": "detail",
+      "goal": "Build personal connection and trust by introducing each therapist as a real, qualified human being \u2014 helping visitors self-select the right practitioner before their first session.",
+      "meta_description": "Meet the licensed therapists and practitioners at Clearmind Therapy \u2014 specialists in anxiety, trauma, couples counseling, family therapy, and more.",
+      "sections": [
+        {
+          "id": "practitioners-section-1",
+          "type": "page_header",
+          "intent": "Frame the practitioners page as a trust-building exercise \u2014 this is where visitors choose their guide, so the tone must be warm and personal.",
+          "eyebrow": "Our Team",
+          "headline": "Meet the people in your corner.",
+          "subheadline": "Every Clearmind therapist is licensed, trained in evidence-based methods, and genuinely invested in your growth.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "practitioners-section-2",
+          "type": "item_grid",
+          "intent": "Introduce each practitioner as a distinct individual with their specialty, approach, and a human-sounding description \u2014 enabling visitors to self-match.",
+          "eyebrow": "Our Practitioners",
+          "headline": "Find the therapist who feels right.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Dr. Amara Osei, LPC",
+              "description": "Specializes in anxiety, racial identity, and life transitions. Amara uses a culturally affirming, CBT-rooted approach to help clients build resilience without losing themselves.",
+              "metadata": {
+                "specialty": "Anxiety, Identity, Life Transitions",
+                "format": "In-person & Telehealth",
+                "accepting": "New clients welcome"
+              }
+            },
+            {
+              "title": "Marcus Delray, LMFT",
+              "description": "A couples and family therapist with 10 years of experience using the Gottman Method. Marcus helps partners find their way back to each other through structured, empathetic dialogue.",
+              "metadata": {
+                "specialty": "Couples, Family, Communication",
+                "format": "In-person preferred",
+                "accepting": "Limited availability"
+              }
+            },
+            {
+              "title": "Dr. Lena Voss, PhD",
+              "description": "A trauma-focused psychologist trained in EMDR and somatic therapies. Lena works with survivors of complex trauma, PTSD, and childhood adversity.",
+              "metadata": {
+                "specialty": "Trauma, PTSD, EMDR",
+                "format": "In-person & Telehealth",
+                "accepting": "New clients welcome"
+              }
+            },
+            {
+              "title": "James Calloway, LCSW",
+              "description": "A solution-focused therapist who works with adults managing depression, burnout, and career stress. James blends CBT with mindfulness for practical, lasting change.",
+              "metadata": {
+                "specialty": "Depression, Burnout, Mindfulness",
+                "format": "Telehealth only",
+                "accepting": "New clients welcome"
+              }
+            },
+            {
+              "title": "Sofia Navarro, LPC",
+              "description": "Specializes in teen and adolescent therapy, helping young people navigate identity, peer pressure, academic stress, and family conflict in a non-judgmental space.",
+              "metadata": {
+                "specialty": "Teens, Adolescents, Family Conflict",
+                "format": "In-person & Telehealth",
+                "accepting": "New clients welcome"
+              }
+            },
+            {
+              "title": "Dr. Priya Mehta, PMHNP",
+              "description": "Our psychiatric nurse practitioner offering medication evaluation and management in close collaboration with your therapy team for integrated mental health care.",
+              "metadata": {
+                "specialty": "Psychiatry, Medication Management",
+                "format": "Telehealth only",
+                "accepting": "Limited availability"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Book with a Practitioner",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "practitioners-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A set of six abstract avatar illustrations using simple geometric shapes and muted tones \u2014 each unique in composition to represent individual practitioners without depicting real faces.",
+              "purpose": "Give each practitioner card a distinct, human-feeling visual identity in a programmatically generated bento style.",
+              "quantity": 1,
+              "used_by": [
+                "practitioners-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "practitioners-section-3",
+          "type": "story_block",
+          "intent": "Tell the origin story of the practice \u2014 why it was founded and what values drive it \u2014 to build institutional trust and differentiate Clearmind from generic therapy directories.",
+          "eyebrow": "Our Philosophy",
+          "headline": "Therapy is a relationship, not a transaction.",
+          "subheadline": null,
+          "body": "Clearmind Therapy was founded on a simple belief: that the quality of the relationship between therapist and client is the single most powerful predictor of healing. We don't rush intake. We don't overload caseloads. We hire practitioners who believe in their work and take the time to know each person they sit with. Every therapist on our team has been chosen not only for their credentials, but for their capacity to be genuinely present. That's the Clearmind difference.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "practitioners-section-4",
+          "type": "stats",
+          "intent": "Reinforce team credibility with collective credentials and experience metrics in a compact, scannable format.",
+          "eyebrow": "Our Collective Expertise",
+          "headline": "A team built on depth, not volume.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "12+",
+              "description": "Licensed practitioners on staff",
+              "metadata": {}
+            },
+            {
+              "title": "8",
+              "description": "Distinct therapy specialties covered",
+              "metadata": {}
+            },
+            {
+              "title": "140+",
+              "description": "Combined years of clinical experience",
+              "metadata": {}
+            },
+            {
+              "title": "6",
+              "description": "Languages spoken across our team",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "practitioners-section-4-asset-1",
+              "kind": "chart",
+              "subject": "A simple radial or segmented chart showing the distribution of therapy specialties across the practitioner team \u2014 e.g., anxiety, trauma, couples, teens, depression, psychiatry.",
+              "purpose": "Visually communicate the breadth of specialties in a compact, bento-friendly graphic.",
+              "quantity": 1,
+              "used_by": [
+                "practitioners-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "practitioners-section-5",
+          "type": "cta",
+          "intent": "Convert visitors who have reviewed practitioners into a booking action with a personal, confident prompt.",
+          "eyebrow": "Ready to Connect?",
+          "headline": "Your therapist is already on our team. Let's introduce you.",
+          "subheadline": "Tell us a little about what you're looking for and we'll match you within 24 hours.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request a Match",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore Our Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "resources",
+      "title": "Resources",
+      "role": "editorial",
+      "goal": "Establish Clearmind as a trustworthy mental health authority, provide genuine value to visitors at all stages of their journey, and build SEO presence through educational content.",
+      "meta_description": "Free mental health resources from Clearmind Therapy \u2014 articles, guides, and tools on anxiety, depression, relationships, self-care, and finding the right therapist.",
+      "sections": [
+        {
+          "id": "resources-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors to the resources section with a framing that positions the content as genuinely useful \u2014 not marketing material.",
+          "eyebrow": "Mental Health Resources",
+          "headline": "Knowledge that supports your journey.",
+          "subheadline": "Whether you're in therapy, considering it, or supporting someone you love \u2014 these resources are here for you.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "resources-section-2",
+          "type": "article_list",
+          "intent": "Surface the most valuable and relevant editorial content in a structured, scannable format \u2014 acting as the primary resource discovery mechanism.",
+          "eyebrow": "Featured Articles",
+          "headline": "Start here.",
+          "subheadline": "Our most-read guides, written by our clinical team.",
+          "body": null,
+          "items": [
+            {
+              "title": "What to Expect in Your First Therapy Session",
+              "description": "First sessions can feel daunting. Here's a step-by-step look at what actually happens \u2014 and how to make the most of it.",
+              "metadata": {
+                "category": "Getting Started",
+                "read_time": "5 min read"
+              }
+            },
+            {
+              "title": "CBT vs. DBT: Which Approach Is Right for You?",
+              "description": "Two of the most widely used therapy modalities explained side by side, with guidance on when each is most effective.",
+              "metadata": {
+                "category": "Therapy Methods",
+                "read_time": "7 min read"
+              }
+            },
+            {
+              "title": "Understanding Anxiety: More Than Just Worry",
+              "description": "A clinical but accessible breakdown of generalized anxiety disorder \u2014 its symptoms, causes, and most effective treatments.",
+              "metadata": {
+                "category": "Mental Health Conditions",
+                "read_time": "6 min read"
+              }
+            },
+            {
+              "title": "How to Talk to Your Partner About Starting Couples Therapy",
+              "description": "Practical, compassionate language for bringing up couples counseling without it feeling like an accusation.",
+              "metadata": {
+                "category": "Relationships",
+                "read_time": "4 min read"
+              }
+            },
+            {
+              "title": "Burnout Is Not Laziness: A Guide for High Achievers",
+              "description": "Why high-functioning professionals are among the most at-risk for burnout \u2014 and what recovery actually looks like.",
+              "metadata": {
+                "category": "Stress & Burnout",
+                "read_time": "8 min read"
+              }
+            },
+            {
+              "title": "Supporting a Teen Through Depression: A Parent's Guide",
+              "description": "Practical, evidence-informed advice for parents navigating a teenager's mental health \u2014 including when to seek professional help.",
+              "metadata": {
+                "category": "Teens & Families",
+                "read_time": "6 min read"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "resources-section-3",
+          "type": "feature_grid",
+          "intent": "Highlight the different types of resources and tools available so visitors with different needs can navigate to what's most relevant.",
+          "eyebrow": "Resource Library",
+          "headline": "Something for every stage of the journey.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Self-Assessment Tools",
+              "description": "Simple, clinically informed questionnaires to help you reflect on your anxiety, mood, relationship health, and stress levels.",
+              "metadata": {}
+            },
+            {
+              "title": "Therapist-Written Guides",
+              "description": "In-depth explainers on common mental health topics, written by our own practitioners and reviewed for clinical accuracy.",
+              "metadata": {}
+            },
+            {
+              "title": "Crisis & Support Lines",
+              "description": "A curated list of national and local crisis resources, hotlines, and emergency mental health contacts available 24/7.",
+              "metadata": {}
+            },
+            {
+              "title": "Mindfulness Exercises",
+              "description": "Guided breathing, grounding, and body-scan exercises you can practice between sessions to build daily resilience.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "resources-section-3-asset-1",
+              "kind": "icon",
+              "subject": "Four minimal line icons representing each resource type: a checklist for self-assessment, an open book for guides, a phone lifeline for crisis support, and a leaf for mindfulness.",
+              "purpose": "Give each resource category a simple, recognizable visual anchor in the bento-grid layout.",
+              "quantity": 1,
+              "used_by": [
+                "resources-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "resources-section-4",
+          "type": "story_block",
+          "intent": "Contextualize the resource library with a brief editorial statement from the clinical team, reinforcing the practice's commitment to education and destigmatization.",
+          "eyebrow": "From Our Clinical Team",
+          "headline": "We believe informed clients heal faster.",
+          "subheadline": null,
+          "body": "Every article, guide, and tool in our resource library was created or reviewed by a licensed Clearmind practitioner. We don't publish generic wellness content. We write about what we see in session \u2014 the real questions people ask, the real barriers they face, and the real strategies that work. Mental health literacy is part of the healing process, and we're committed to making it accessible to everyone, whether or not they're our clients.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "resources-section-5",
+          "type": "cta",
+          "intent": "Convert resource readers into therapy clients by offering a natural next step \u2014 moving from education to action.",
+          "eyebrow": "Ready to Go Deeper?",
+          "headline": "Reading is a great start. Talking is where change happens.",
+          "subheadline": "Book a free 15-minute consultation and take what you've learned into your first session.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Free Consultation",
+              "target_page": "contact"
+            },
+            {
+              "label": "Meet Our Practitioners",
+              "target_page": "practitioners"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "resources-section-5-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal open-book illustration with soft abstract shapes emerging from the pages, suggesting ideas or growth flowing outward from knowledge.",
+              "purpose": "Reinforce the editorial-to-action transition in the CTA section with a thematically relevant visual.",
+              "quantity": 1,
+              "used_by": [
+                "resources-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Remove all friction from the first point of contact \u2014 make it easy, clear, and emotionally safe for a visitor to reach out, book a consultation, or ask a question.",
+      "meta_description": "Contact Clearmind Therapy to book a free 15-minute consultation, ask about services, or find our office. We respond within one business day.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a low-pressure, welcoming tone for the contact page \u2014 reassure visitors that reaching out is a small, safe step, not a commitment.",
+          "eyebrow": "Get in Touch",
+          "headline": "Your first step doesn't have to be a big one.",
+          "subheadline": "A 15-minute call. A quick question. A note about what you're going through. We're here for all of it.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide the primary contact form with all necessary fields to gather enough information for a thoughtful, personalized response \u2014 without overwhelming the visitor.",
+          "eyebrow": "Book a Free Consultation",
+          "headline": "Tell us a little about yourself.",
+          "subheadline": "We'll match you with the right therapist and follow up within one business day.",
+          "body": "All information shared here is confidential and protected. We'll never share your details without your consent.",
+          "items": [
+            {
+              "title": "Full Name",
+              "description": "First and last name",
+              "metadata": {
+                "field_type": "text",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Email Address",
+              "description": "We'll use this to confirm your consultation",
+              "metadata": {
+                "field_type": "email",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Phone Number",
+              "description": "Optional \u2014 for those who prefer a callback",
+              "metadata": {
+                "field_type": "tel",
+                "required": "false"
+              }
+            },
+            {
+              "title": "What brings you here?",
+              "description": "A brief description of what you're looking for \u2014 no clinical language needed",
+              "metadata": {
+                "field_type": "textarea",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Preferred Format",
+              "description": "In-person, telehealth, or no preference",
+              "metadata": {
+                "field_type": "select",
+                "required": "false"
+              }
+            },
+            {
+              "title": "Insurance or Self-Pay",
+              "description": "Let us know so we can prepare relevant information",
+              "metadata": {
+                "field_type": "select",
+                "required": "false"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send My Request",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "map_block",
+          "intent": "Help in-person clients locate the office with clear address and practical visit information \u2014 reducing the uncertainty of showing up somewhere new.",
+          "eyebrow": "Visit Us",
+          "headline": "Our office is designed to feel like a retreat.",
+          "subheadline": "A calm, private suite in the heart of the city \u2014 easy to reach by transit or car.",
+          "body": "Clearmind Therapy is located at 214 Meridian Avenue, Suite 400, in the Midtown professional district. Street parking is available on Meridian and in the adjacent Meridian Garage. We are two blocks from the Central Station metro stop.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-3-asset-1",
+              "kind": "map",
+              "subject": "A clean, minimal illustrated street map showing the Clearmind Therapy office location, nearby transit stop, and parking garage \u2014 rendered in a flat, bento-compatible style.",
+              "purpose": "Help in-person clients orient themselves to the office location without relying on an embedded third-party map.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-4",
+          "type": "feature_grid",
+          "intent": "List all the practical ways to reach the practice \u2014 phone, email, telehealth link, and hours \u2014 so visitors with different preferences can choose their entry point.",
+          "eyebrow": "Other Ways to Reach Us",
+          "headline": "We're accessible on your terms.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Phone",
+              "description": "Call or text us at (555) 204-8800, Monday through Saturday, 8am\u20136pm. We return all messages within one business day.",
+              "metadata": {}
+            },
+            {
+              "title": "Email",
+              "description": "Reach us at hello@clearmindtherapy.com for non-urgent inquiries. Expect a response within 24 hours on business days.",
+              "metadata": {}
+            },
+            {
+              "title": "Telehealth Entry",
+              "description": "Existing clients can access their secure video session link through the client portal. New clients receive a link after booking.",
+              "metadata": {}
+            },
+            {
+              "title": "Office Hours",
+              "description": "In-person sessions available Monday\u2013Friday 8am\u20137pm and Saturday 9am\u20133pm. Telehealth available seven days a week.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-5",
+          "type": "faq",
+          "intent": "Address the final practical questions that arise at the contact stage \u2014 insurance, cancellation, and what to expect after submitting the form \u2014 to remove last-mile hesitation.",
+          "eyebrow": "Before You Hit Send",
+          "headline": "A few things people usually ask us.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "How quickly will I hear back?",
+              "description": "We respond to all consultation requests within one business day. Most clients hear back the same afternoon.",
+              "metadata": {}
+            },
+            {
+              "title": "Is the consultation really free?",
+              "description": "Yes \u2014 always. The 15-minute call is designed to help us understand your needs and answer your questions, with no obligation to book.",
+              "metadata": {}
+            },
+            {
+              "title": "What if I'm not sure I'm ready for therapy?",
+              "description": "That's exactly what the consultation is for. Many of our clients use it just to ask questions and get a feel for the process before committing.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you have a cancellation policy?",
+              "description": "We ask for 24 hours' notice for cancellations or rescheduling. Late cancellations may incur a fee, which your therapist will explain at intake.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I request a specific therapist?",
+              "description": "Absolutely. If you've reviewed our practitioners page and have a preference, let us know in your message and we'll do our best to accommodate.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Back to Practitioners",
+              "target_page": "practitioners"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "contact-section-5-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal illustration of two abstract figures facing each other across a small table \u2014 suggesting a calm, open conversation in a safe space.",
+              "purpose": "Add a warm, human visual element to the FAQ section that reinforces the approachability of reaching out.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RevvLot — Old School Hustle. New School Wheels.</title>
+<meta name="description" content="RevvLot is the retro-cool used car marketplace where you find, inspect, and reserve quality pre-owned vehicles — no pressure, no games, just great deals.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="home">
+
+<!-- Inline icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wrench" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M6 30 L18 18"/><circle cx="18" cy="14" r="4"/><rect x="20" y="22" width="14" height="14" fill="currentColor" opacity="0.15"/><polyline points="22,28 25,31 33,21" stroke-width="3"/></g></symbol>
+  <symbol id="i-tag" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="2"><polygon points="6,6 22,6 34,18 22,34 6,22"/><circle cx="12" cy="12" r="2.5" fill="currentColor"/><polygon points="22,16 24,20 28,21 25,24 26,28 22,26 18,28 19,24 16,21 20,20" fill="currentColor"/></g></symbol>
+  <symbol id="i-key" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="20" r="6"/><circle cx="12" cy="20" r="2" fill="currentColor"/><path d="M18 20 H34 M28 20 V26 M32 20 V24"/></g></symbol>
+  <symbol id="i-doc" viewBox="0 0 40 40"><g fill="none" stroke="currentColor" stroke-width="2"><polygon points="8,4 26,4 32,10 32,36 8,36"/><polyline points="26,4 26,10 32,10"/><line x1="12" y1="16" x2="28" y2="16"/><line x1="12" y1="22" x2="28" y2="22"/><line x1="12" y1="28" x2="22" y2="28"/></g></symbol>
+</svg>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Primary">
+  <a class="nav-logo" href="index.html">
+    <span class="pixel-spark"></span>
+    REVVLOT
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="product.html">Inventory</a></li>
+    <li><a href="specs.html">Specs</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="reserve.html">Reserve</a></li>
+  </ul>
+  <a href="reserve.html" class="nav-cta">Reserve $99</a>
+</nav>
+
+<!-- HERO -->
+<section id="home-section-1" data-section-type="hero" class="hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Welcome to the Lot</p>
+      <h1 class="hero-headline">
+        FIND YOUR NEXT RIDE.
+        <span class="line-2">NO HAGGLING REQUIRED.</span>
+      </h1>
+      <p class="hero-sub">Thousands of inspected, priced-right used cars — browsed from your couch, reserved in minutes.</p>
+      <div class="btn-row">
+        <a href="product.html" class="btn">Browse the Inventory</a>
+        <a href="#home-section-4" class="btn btn-secondary">How It Works</a>
+      </div>
+    </div>
+    <div class="hero-illustration">
+      <div class="browser-window">
+        <div class="browser-bar">
+          <div class="browser-dots">
+            <span class="browser-dot dot-magenta"></span>
+            <span class="browser-dot dot-lime"></span>
+            <span class="browser-dot dot-cyan"></span>
+          </div>
+          <span class="browser-url">revvlot.com/lot</span>
+        </div>
+        <div class="browser-content">
+          <img src="assets/lot-night.svg" alt="Pixel-art used car lot at night with REVVLOT neon sign and rows of cars under string lights" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="purple-rule"></div>
+
+<!-- STATS -->
+<section id="home-section-2" data-section-type="stats" class="stats-bg tight">
+  <div style="position:relative; z-index:2;">
+    <p class="eyebrow lime">By the Numbers</p>
+    <h2 class="section-title">The Lot Doesn't Lie</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-cat">Vehicles Listed</div>
+        <div class="stat-num">12,400+</div>
+        <p class="stat-desc">Vehicles currently listed across all makes and models</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-cat">Buyer Satisfaction</div>
+        <div class="stat-num">98%</div>
+        <p class="stat-desc">Of buyers say they'd recommend RevvLot to a friend</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-cat">Turnaround Time</div>
+        <div class="stat-num">48 Hours</div>
+        <p class="stat-desc">Average time from reservation to keys in hand</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-cat">Coverage</div>
+        <div class="stat-num">50 States</div>
+        <p class="stat-desc">Nationwide inventory with local pickup and delivery options</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="purple-rule"></div>
+
+<!-- FEATURE GRID -->
+<section id="home-section-3" data-section-type="feature_grid" class="dark">
+  <div class="feature-block">
+    <div class="feature-text">
+      <p class="eyebrow purple">Why RevvLot</p>
+      <h2 class="section-title" style="font-size:20px;">We Built the Dealership We Always Wanted</h2>
+      <p class="section-sub">Transparent pricing. Honest history. A reservation system that actually works.</p>
+      <a href="product.html" class="btn btn-purple" style="margin-top:32px;">See a Sample Listing</a>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <svg class="feature-icon"><use href="#i-wrench"></use></svg>
+        <h3>Every Car, Fully Inspected</h3>
+        <p>Our 120-point mechanical checklist means you know exactly what you're getting before you ever touch the steering wheel.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon"><use href="#i-tag"></use></svg>
+        <h3>Market Price Guarantee</h3>
+        <p>Every listing is benchmarked against live market data so you never overpay. The price you see is the price you pay.</p>
+      </div>
+      <div class="feature-card">
+        <svg class="feature-icon"><use href="#i-key"></use></svg>
+        <h3>Reserve in 5 Minutes</h3>
+        <p>Spot a car you love? Lock it down with a fully refundable $99 hold before someone else grabs it.</p>
+      </div>
+      <div class="feature-card offset">
+        <svg class="feature-icon"><use href="#i-doc"></use></svg>
+        <h3>Full Vehicle History</h3>
+        <p>Accidents, ownership records, service logs — all attached to every listing, no extra charge.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="home-section-4" data-section-type="timeline" class="dark">
+  <p class="eyebrow">How It Works</p>
+  <h2 class="section-title">From Browse to Keys — Here's the Play-by-Play</h2>
+  <div class="timeline-row">
+    <div class="tl-step">
+      <div class="tl-node">1</div>
+      <h4>Step 1 — Browse</h4>
+      <p>Filter by make, model, year, price, and mileage. Every listing includes photos, specs, and a full history report.</p>
+    </div>
+    <div class="tl-step">
+      <div class="tl-node">2</div>
+      <h4>Step 2 — Inspect</h4>
+      <p>Read the 120-point inspection report, watch the walkaround video, and ask our team any questions via live chat.</p>
+    </div>
+    <div class="tl-step">
+      <div class="tl-node">3</div>
+      <h4>Step 3 — Reserve</h4>
+      <p>Place a fully refundable $99 hold to take the car off the market while you finalize your decision.</p>
+    </div>
+    <div class="tl-step">
+      <div class="tl-node">4</div>
+      <h4>Step 4 — Close</h4>
+      <p>Complete paperwork online or in person at your nearest RevvLot partner location. Pick up or get it delivered.</p>
+    </div>
+  </div>
+  <div class="text-center" style="margin-top:40px;">
+    <a href="product.html" class="btn">Start Browsing</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="home-section-5" data-section-type="testimonial" class="purple">
+  <p class="eyebrow lime">Straight From the Drivers</p>
+  <h2 class="section-title dark">Don't Take Our Word for It</h2>
+  <div class="testimonials-stack">
+    <div class="testimonial-card tcard-1">
+      <span class="quote-mark">&#10077;</span>
+      <p>"I reserved my 2019 Civic on a Tuesday night and had the keys by Thursday. The inspection report was legit — no surprises. RevvLot is the real deal."</p>
+      <div class="attribution">Marcus T. — Portland, OR</div>
+      <span class="rating-sticker">★★★★★</span>
+    </div>
+    <div class="testimonial-card tcard-2">
+      <span class="quote-mark">&#10077;</span>
+      <p>"Every other site felt like a trap. RevvLot showed me the actual market price right on the listing. I knew I wasn't getting played. Bought my Subaru the same week."</p>
+      <div class="attribution">Priya S. — Austin, TX</div>
+      <span class="rating-sticker">★★★★★</span>
+    </div>
+    <div class="testimonial-card tcard-3">
+      <span class="quote-mark">&#10077;</span>
+      <p>"The $99 hold feature saved me. I found my truck on a Friday, locked it in, and closed Monday. Old-school hustle with new-school tools — exactly what the tagline says."</p>
+      <div class="attribution">Derek W. — Chicago, IL</div>
+      <span class="rating-sticker">★★★★★</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html">
+        <span class="pixel-spark"></span>REVVLOT
+      </a>
+      <p style="font-size:13px; color:var(--crt-white); opacity:0.7; max-width:320px; margin-top:12px;">Old School Hustle. New School Wheels. Inspected pre-owned cars from a marketplace that respects your time.</p>
+    </div>
+    <div>
+      <h4>Browse</h4>
+      <ul>
+        <li><a href="product.html">Inventory</a></li>
+        <li><a href="product.html">Sedans</a></li>
+        <li><a href="product.html">SUVs</a></li>
+        <li><a href="product.html">Trucks</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Buy</h4>
+      <ul>
+        <li><a href="specs.html">Specs</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="reserve.html">Reserve</a></li>
+        <li><a href="reserve.html">Financing</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Lot HQ</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Inspection Standard</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 REVVLOT — Lot Black Industries</span>
+    <span>BOOTING REVVLOT.OS v0.42 // STATUS: OK</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

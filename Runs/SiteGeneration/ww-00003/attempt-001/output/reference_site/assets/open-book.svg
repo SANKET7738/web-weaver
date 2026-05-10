@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="Open book with abstract shapes flowing from the pages">
+  <!-- Book base -->
+  <path d="M40 200 L160 180 L280 200 L280 260 L160 240 L40 260 Z" fill="#FFFFFF" opacity="0.08"/>
+  <path d="M40 200 L160 180 L280 200" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  <path d="M40 200 L40 260 L160 240 L160 180" stroke="#4AAE8C" stroke-width="2" fill="none"/>
+  <path d="M280 200 L280 260 L160 240 L160 180" stroke="#4AAE8C" stroke-width="2" fill="none"/>
+  <line x1="160" y1="180" x2="160" y2="240" stroke="#FFFFFF" stroke-width="2"/>
+  <!-- Page lines -->
+  <line x1="60" y1="216" x2="148" y2="208" stroke="#D6F0E8" stroke-width="1.5"/>
+  <line x1="60" y1="228" x2="140" y2="220" stroke="#D6F0E8" stroke-width="1.5"/>
+  <line x1="172" y1="208" x2="260" y2="216" stroke="#D6F0E8" stroke-width="1.5"/>
+  <line x1="180" y1="220" x2="260" y2="228" stroke="#D6F0E8" stroke-width="1.5"/>
+
+  <!-- Rising shapes -->
+  <circle cx="100" cy="120" r="22" fill="#4AAE8C" opacity="0.6"/>
+  <circle cx="160" cy="80" r="14" fill="#D6F0E8"/>
+  <circle cx="216" cy="116" r="18" fill="#4AAE8C" opacity="0.45"/>
+  <rect x="138" y="120" width="32" height="32" rx="8" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="186" y="60" width="22" height="22" rx="6" fill="#4AAE8C" opacity="0.7"/>
+  <path d="M70 156 Q100 130 130 156" stroke="#D6F0E8" stroke-width="2" fill="none"/>
+  <path d="M190 156 Q220 130 250 156" stroke="#D6F0E8" stroke-width="2" fill="none"/>
+
+  <!-- Tiny dots -->
+  <circle cx="80" cy="80" r="3" fill="#D6F0E8"/>
+  <circle cx="240" cy="60" r="3" fill="#D6F0E8"/>
+  <circle cx="120" cy="50" r="2.5" fill="#FFFFFF"/>
+  <circle cx="220" cy="40" r="2.5" fill="#FFFFFF"/>
+</svg>

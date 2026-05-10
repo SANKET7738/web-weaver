@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-label="Retro pixel-art used car lot at night with REVVLOT neon sign and string lights">
+  <defs>
+    <pattern id="starsP" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#110022"/>
+      <rect x="6" y="8" width="2" height="2" fill="#FFFF00"/>
+      <rect x="22" y="20" width="2" height="2" fill="#E8E8E8"/>
+      <rect x="32" y="6" width="2" height="2" fill="#00CCFF"/>
+      <rect x="14" y="32" width="2" height="2" fill="#FF00CC"/>
+    </pattern>
+  </defs>
+  <!-- Sky -->
+  <rect width="720" height="320" fill="url(#starsP)"/>
+  <!-- Crescent moon -->
+  <circle cx="600" cy="80" r="30" fill="#FFFF00"/>
+  <circle cx="612" cy="74" r="28" fill="#110022"/>
+  <!-- Distant skyline -->
+  <rect x="0" y="240" width="60" height="80" fill="#220044"/>
+  <rect x="60" y="220" width="50" height="100" fill="#330055"/>
+  <rect x="110" y="250" width="40" height="70" fill="#220044"/>
+  <rect x="610" y="240" width="60" height="80" fill="#220044"/>
+  <rect x="670" y="260" width="50" height="60" fill="#330055"/>
+  <!-- skyline windows -->
+  <g fill="#FFFF00">
+    <rect x="10" y="252" width="4" height="4"/>
+    <rect x="22" y="252" width="4" height="4"/>
+    <rect x="40" y="270" width="4" height="4"/>
+    <rect x="68" y="232" width="4" height="4"/>
+    <rect x="80" y="252" width="4" height="4"/>
+    <rect x="92" y="262" width="4" height="4"/>
+    <rect x="120" y="262" width="4" height="4"/>
+    <rect x="138" y="278" width="4" height="4"/>
+    <rect x="620" y="252" width="4" height="4"/>
+    <rect x="638" y="270" width="4" height="4"/>
+    <rect x="676" y="278" width="4" height="4"/>
+    <rect x="700" y="278" width="4" height="4"/>
+  </g>
+  <!-- String lights -->
+  <polyline points="0,40 80,60 160,40 240,70 320,40 400,70 480,40 560,70 640,40 720,60" fill="none" stroke="#444444" stroke-width="2"/>
+  <g>
+    <circle cx="40" cy="50" r="5" fill="#FF00CC"/>
+    <circle cx="120" cy="52" r="5" fill="#FFFF00"/>
+    <circle cx="200" cy="56" r="5" fill="#00FF33"/>
+    <circle cx="280" cy="58" r="5" fill="#00CCFF"/>
+    <circle cx="360" cy="56" r="5" fill="#FF00CC"/>
+    <circle cx="440" cy="58" r="5" fill="#FFFF00"/>
+    <circle cx="520" cy="56" r="5" fill="#00FF33"/>
+    <circle cx="600" cy="56" r="5" fill="#00CCFF"/>
+    <circle cx="680" cy="52" r="5" fill="#FF00CC"/>
+  </g>
+
+  <!-- REVVLOT Neon sign -->
+  <g transform="translate(170, 90)">
+    <rect x="-10" y="-10" width="400" height="100" fill="#220033" stroke="#FF00CC" stroke-width="4"/>
+    <text x="190" y="60" font-family="Arial Black, sans-serif" font-size="60" fill="#00FF33" text-anchor="middle" stroke="#FF00CC" stroke-width="2">REVVLOT</text>
+    <!-- arrow under -->
+    <polygon points="0,90 380,90 360,108 20,108" fill="#FFFF00"/>
+    <text x="190" y="104" font-family="Arial Black, sans-serif" font-size="14" fill="#110022" text-anchor="middle" letter-spacing="3">USED CARS ★ NO HAGGLE</text>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="320" width="720" height="160" fill="#330055"/>
+  <!-- parking lot stripes -->
+  <g stroke="#FFFF00" stroke-width="3" stroke-dasharray="1 0">
+    <line x1="40" y1="350" x2="60" y2="470"/>
+    <line x1="180" y1="350" x2="180" y2="470"/>
+    <line x1="320" y1="350" x2="320" y2="470"/>
+    <line x1="460" y1="350" x2="460" y2="470"/>
+    <line x1="600" y1="350" x2="640" y2="470"/>
+  </g>
+  <!-- Cars row -->
+  <g>
+    <!-- Car 1 -->
+    <g transform="translate(60,360)">
+      <rect x="0" y="20" width="100" height="40" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+      <rect x="14" y="0" width="72" height="24" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+      <rect x="20" y="6" width="22" height="14" fill="#00CCFF"/>
+      <rect x="58" y="6" width="22" height="14" fill="#00CCFF"/>
+      <circle cx="22" cy="62" r="8" fill="#110022"/>
+      <circle cx="78" cy="62" r="8" fill="#110022"/>
+      <circle cx="22" cy="62" r="3" fill="#C0C0C0"/>
+      <circle cx="78" cy="62" r="3" fill="#C0C0C0"/>
+      <rect x="-4" y="40" width="8" height="6" fill="#FFFF00"/>
+    </g>
+    <!-- Car 2 -->
+    <g transform="translate(200,365)">
+      <rect x="0" y="16" width="110" height="40" fill="#00FF33" stroke="#110022" stroke-width="2"/>
+      <polygon points="14,0 96,0 86,16 24,16" fill="#00FF33" stroke="#110022" stroke-width="2"/>
+      <rect x="22" y="2" width="26" height="14" fill="#110022"/>
+      <rect x="62" y="2" width="26" height="14" fill="#110022"/>
+      <circle cx="22" cy="58" r="8" fill="#110022"/>
+      <circle cx="88" cy="58" r="8" fill="#110022"/>
+      <circle cx="22" cy="58" r="3" fill="#C0C0C0"/>
+      <circle cx="88" cy="58" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 3 (truck) -->
+    <g transform="translate(340,355)">
+      <rect x="0" y="20" width="120" height="40" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+      <rect x="14" y="0" width="50" height="22" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+      <rect x="20" y="6" width="36" height="14" fill="#00CCFF"/>
+      <circle cx="24" cy="62" r="9" fill="#110022"/>
+      <circle cx="96" cy="62" r="9" fill="#110022"/>
+      <circle cx="24" cy="62" r="3" fill="#C0C0C0"/>
+      <circle cx="96" cy="62" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 4 -->
+    <g transform="translate(490,360)">
+      <rect x="0" y="20" width="100" height="40" fill="#00CCFF" stroke="#110022" stroke-width="2"/>
+      <rect x="14" y="0" width="72" height="24" fill="#00CCFF" stroke="#110022" stroke-width="2"/>
+      <rect x="20" y="6" width="22" height="14" fill="#110022"/>
+      <rect x="58" y="6" width="22" height="14" fill="#110022"/>
+      <circle cx="22" cy="62" r="8" fill="#110022"/>
+      <circle cx="78" cy="62" r="8" fill="#110022"/>
+      <circle cx="22" cy="62" r="3" fill="#C0C0C0"/>
+      <circle cx="78" cy="62" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 5 -->
+    <g transform="translate(620,365)">
+      <rect x="0" y="16" width="90" height="38" fill="#E8E8E8" stroke="#110022" stroke-width="2"/>
+      <polygon points="14,0 76,0 70,16 20,16" fill="#E8E8E8" stroke="#110022" stroke-width="2"/>
+      <rect x="20" y="2" width="20" height="14" fill="#110022"/>
+      <rect x="50" y="2" width="20" height="14" fill="#110022"/>
+      <circle cx="20" cy="56" r="7" fill="#110022"/>
+      <circle cx="70" cy="56" r="7" fill="#110022"/>
+    </g>
+  </g>
+  <!-- Lot light pole -->
+  <g>
+    <rect x="20" y="240" width="3" height="100" fill="#C0C0C0"/>
+    <rect x="14" y="234" width="16" height="8" fill="#C0C0C0"/>
+    <ellipse cx="22" cy="270" rx="60" ry="14" fill="#FFFF00" opacity="0.16"/>
+  </g>
+  <!-- price tags above cars -->
+  <g font-family="VT323, monospace" font-size="14" fill="#110022">
+    <rect x="58" y="338" width="40" height="14" fill="#FFFF00"/>
+    <text x="78" y="350" text-anchor="middle">$18K</text>
+    <rect x="216" y="343" width="40" height="14" fill="#00FF33"/>
+    <text x="236" y="355" text-anchor="middle">$21K</text>
+    <rect x="362" y="333" width="40" height="14" fill="#FF00CC" stroke="#110022"/>
+    <text x="382" y="345" text-anchor="middle" fill="#110022">$29K</text>
+    <rect x="510" y="338" width="40" height="14" fill="#FFFF00"/>
+    <text x="530" y="350" text-anchor="middle">$23K</text>
+  </g>
+</svg>

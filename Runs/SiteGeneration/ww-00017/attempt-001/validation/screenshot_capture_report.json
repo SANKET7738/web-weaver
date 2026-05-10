@@ -1,0 +1,300 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 28,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 6162,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 4000,
+          "path": "home/home_005.png"
+        },
+        {
+          "index": 6,
+          "scroll_y": 5000,
+          "path": "home/home_006.png"
+        },
+        {
+          "index": 7,
+          "scroll_y": 5162,
+          "path": "home/home_007.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 394867
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "classes",
+      "route": "/classes.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4517,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "classes/classes_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "classes/classes_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "classes/classes_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "classes/classes_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3517,
+          "path": "classes/classes_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "classes/classes_full.png",
+        "bytes": 327205
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "teachers",
+      "route": "/teachers.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 6029,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "teachers/teachers_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "teachers/teachers_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "teachers/teachers_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "teachers/teachers_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 4000,
+          "path": "teachers/teachers_005.png"
+        },
+        {
+          "index": 6,
+          "scroll_y": 5000,
+          "path": "teachers/teachers_006.png"
+        },
+        {
+          "index": 7,
+          "scroll_y": 5029,
+          "path": "teachers/teachers_007.png"
+        }
+      ],
+      "full_page": {
+        "path": "teachers/teachers_full.png",
+        "bytes": 476347
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "faq",
+      "route": "/faq.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3764,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "faq/faq_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "faq/faq_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "faq/faq_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2764,
+          "path": "faq/faq_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "faq/faq_full.png",
+        "bytes": 319940
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "enroll",
+      "route": "/enroll.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4450,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "enroll/enroll_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "enroll/enroll_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "enroll/enroll_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "enroll/enroll_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3450,
+          "path": "enroll/enroll_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "enroll/enroll_full.png",
+        "bytes": 378506
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent",
+          "position": "fixed"
+        }
+      ]
+    }
+  ]
+}

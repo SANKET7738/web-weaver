@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security &amp; Trust — Nullpoint</title>
+  <meta name="description" content="Nullpoint's security architecture: SOC 2 Type II certified, end-to-end encryption, zero PII storage, pen-tested annually, and compliant with GDPR, CCPA, and HIPAA.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="security">
+
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Nullpoint home">
+        <svg class="nav__logo-mark" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav__links" id="primary-nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="features.html">Features</a>
+        <a class="nav__link" href="enterprise.html">Enterprise</a>
+        <a class="nav__link is-active" href="security.html">Security</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+        <a class="nav__cta" href="contact.html">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HEADER (INK) ================================= -->
+    <section id="security-section-1" data-section-type="page_header" class="page-header page-header--ink">
+      <div class="container page-header__grid-split">
+        <div>
+          <p class="eyebrow">Security &amp; Trust</p>
+          <div class="page-header__rule"></div>
+          <h1 class="page-header__headline" style="color:#F5F5F5; font-size:60px; font-weight:800;">
+            Security is not a feature.<br>It is the architecture.
+          </h1>
+          <p class="subheadline" style="color:#9A9A9A; max-width:480px;">This page documents how Nullpoint is built, audited, and operated — so your security team can evaluate us on facts.</p>
+        </div>
+
+        <!-- Stack diagram -->
+        <div class="stack-diagram" role="img" aria-label="Layered security architecture diagram">
+          <div class="stack-diagram__band"><span class="label">Edge</span><span class="desc">PII Stripping</span></div>
+          <div class="stack-diagram__band"><span class="label">Transit</span><span class="desc">TLS 1.3</span></div>
+          <div class="stack-diagram__band"><span class="label">Storage</span><span class="desc">AES-256</span></div>
+          <div class="stack-diagram__band"><span class="label">Access</span><span class="desc">RBAC + SSO</span></div>
+          <div class="stack-diagram__band"><span class="label">Audit</span><span class="desc">Immutable Logs</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFRASTRUCTURE SECURITY =========================== -->
+    <section id="security-section-2" data-section-type="feature_grid" class="section section--white">
+      <div class="container">
+        <p class="eyebrow">Infrastructure Security</p>
+        <h2 class="headline-section headline-section--md" style="margin-top:8px; max-width:680px;">Defense in depth, from the edge to the archive.</h2>
+
+        <div class="security-features">
+          <article class="security-feature">
+            <h3 class="security-feature__title">TLS 1.3 Everywhere</h3>
+            <p class="security-feature__desc">All data in transit is encrypted with TLS 1.3. We enforce HSTS and reject connections from clients that cannot support modern cipher suites.</p>
+          </article>
+          <article class="security-feature">
+            <h3 class="security-feature__title">AES-256 At Rest</h3>
+            <p class="security-feature__desc">All stored data is encrypted with AES-256. Encryption keys are managed by a dedicated KMS with automatic 90-day rotation.</p>
+          </article>
+          <article class="security-feature">
+            <h3 class="security-feature__title">Zero-Trust Network Architecture</h3>
+            <p class="security-feature__desc">Internal services communicate over mTLS. No service has implicit trust. Every request is authenticated and authorized independently.</p>
+          </article>
+          <article class="security-feature">
+            <h3 class="security-feature__title">Immutable Audit Logs</h3>
+            <p class="security-feature__desc">All system and user actions are written to an append-only, cryptographically signed audit log. Logs cannot be modified or deleted by any user, including admins.</p>
+          </article>
+          <article class="security-feature">
+            <h3 class="security-feature__title">Annual Penetration Testing</h3>
+            <p class="security-feature__desc">We contract an independent third-party firm for full-scope penetration testing every year. Executive summaries are available to enterprise customers under NDA.</p>
+          </article>
+          <article class="security-feature">
+            <h3 class="security-feature__title">Vulnerability Disclosure Program</h3>
+            <p class="security-feature__desc">Our responsible disclosure program is open to all researchers. Critical findings are triaged within 24 hours and patched within 72 hours.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & COMPLIANCE ======================== -->
+    <section id="security-section-3" data-section-type="item_grid" class="section section--mist section__rule-top">
+      <div class="container">
+        <p class="eyebrow">Certifications &amp; Compliance</p>
+        <h2 class="headline-section headline-section--md" style="margin-top:8px; max-width:560px;">Audited, certified, and verifiable.</h2>
+        <p class="subheadline" style="max-width:560px;">We don't self-certify. Every claim on this page is backed by a third-party audit or a legal opinion.</p>
+
+        <div class="cert-grid">
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status">Certified</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <polygon points="16,3 28,10 28,22 16,29 4,22 4,10" stroke="#0A0A0A" stroke-width="1.5"/>
+                <polygon points="16,9 23,13 23,21 16,25 9,21 9,13" stroke="#0A0A0A" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">SOC 2 Type II</h3>
+            <p class="cert-card__meta">Renewed Annually</p>
+            <p class="cert-card__desc">Annual audit covering Security, Availability, and Confidentiality trust service criteria. Report available to enterprise customers under NDA.</p>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status">Compliant</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <circle cx="16" cy="16" r="13" stroke="#0A0A0A" stroke-width="1.5"/>
+                <g fill="#0A0A0A">
+                  <circle cx="16" cy="6" r="1.2"/>
+                  <circle cx="22" cy="9" r="1.2"/>
+                  <circle cx="25" cy="15" r="1.2"/>
+                  <circle cx="22" cy="22" r="1.2"/>
+                  <circle cx="16" cy="25" r="1.2"/>
+                  <circle cx="10" cy="22" r="1.2"/>
+                  <circle cx="7" cy="15" r="1.2"/>
+                  <circle cx="10" cy="9" r="1.2"/>
+                </g>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">GDPR</h3>
+            <p class="cert-card__meta">Region: EU</p>
+            <p class="cert-card__desc">Nullpoint operates as a Data Processor under GDPR Article 28. Our DPA is pre-signed and available for immediate download. No negotiations required for standard terms.</p>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status">Compliant</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <path d="M5 7l11-3 11 3v8c0 7-5 11-11 13-6-2-11-6-11-13V7z" stroke="#0A0A0A" stroke-width="1.5"/>
+                <path d="M11 17h10M11 21h10" stroke="#0A0A0A" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">CCPA</h3>
+            <p class="cert-card__meta">Region: California</p>
+            <p class="cert-card__desc">We qualify as a Service Provider under CCPA. We do not sell or share personal information. Our CCPA addendum is included in all customer agreements.</p>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status">BAA Available</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <path d="M16 3l11 4v8c0 7-5 11-11 14-6-3-11-7-11-14V7l11-4z" stroke="#0A0A0A" stroke-width="1.5"/>
+                <path d="M16 11v10M11 16h10" stroke="#0A0A0A" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">HIPAA</h3>
+            <p class="cert-card__meta">Region: US</p>
+            <p class="cert-card__desc">Enterprise customers in healthcare can execute a Business Associate Agreement (BAA). Our infrastructure meets HIPAA Technical Safeguard requirements.</p>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status cert-status--pending">In Progress</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <circle cx="16" cy="16" r="13" stroke="#0A0A0A" stroke-width="1.5"/>
+                <rect x="11" y="11" width="10" height="10" stroke="#0A0A0A" stroke-width="1.2"/>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">ISO 27001</h3>
+            <p class="cert-card__meta">Expected: Q4</p>
+            <p class="cert-card__desc">Nullpoint is currently pursuing ISO 27001 certification. Gap analysis is complete and Stage 1 audit is scheduled for Q3.</p>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-card__top">
+              <span class="cert-status">Certified</span>
+              <svg class="cert-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+                <circle cx="16" cy="16" r="13" stroke="#0A0A0A" stroke-width="1.5"/>
+                <path d="M5 18c4-6 18-6 22 0" stroke="#0A0A0A" stroke-width="1.5" fill="none"/>
+                <line x1="9" y1="22" x2="9" y2="26" stroke="#0A0A0A" stroke-width="1.5"/>
+                <line x1="23" y1="22" x2="23" y2="26" stroke="#0A0A0A" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3 class="cert-card__title">Privacy Shield Successor (DPF)</h3>
+            <p class="cert-card__meta">Region: EU–US</p>
+            <p class="cert-card__desc">Nullpoint is certified under the EU-US Data Privacy Framework, enabling lawful transatlantic data transfers without Standard Contractual Clauses.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY BLOCK ======================================= -->
+    <section id="security-section-4" data-section-type="story_block" class="story">
+      <div class="container">
+        <div class="story__inner">
+          <p class="eyebrow">Our Privacy Philosophy</p>
+          <h2 class="story__head">We built Nullpoint on a simple premise: the best way to protect user data is to never collect it.</h2>
+          <p class="story__body">Most analytics companies approach privacy as a compliance problem — a set of rules to satisfy while collecting as much data as possible. We approached it as a design constraint. If a feature requires personal data, we ask whether there is a privacy-preserving alternative that delivers equivalent insight. In most cases, there is. <span class="mono-inline">Differential privacy</span>, <span class="mono-inline">k-anonymity thresholds</span>, and <span class="mono-inline">aggregate-only APIs</span> are not afterthoughts at Nullpoint — they are the foundation. The result is a platform where your users' privacy is protected not by policy, but by architecture.</p>
+          <p class="story__pullquote">You cannot leak what you never collected.</p>
+          <div class="story__links">
+            <a class="editorial-link" href="#">Read Our Privacy Policy <span class="editorial-link__arrow">→</span></a>
+            <a class="editorial-link" href="#">Download Our DPA <span class="editorial-link__arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA PANEL (INK) =================================== -->
+    <section id="security-section-5" data-section-type="cta" class="cta-panel cta-panel--signal-top" style="padding-top:96px; padding-bottom:96px;">
+      <div class="container cta-panel__inner">
+        <p class="eyebrow">Ready to Evaluate?</p>
+        <h2 class="cta-panel__head" style="font-size:48px;">Send us your security questionnaire. We'll fill it out.</h2>
+        <p class="cta-panel__sub" style="max-width:520px;">Our security team responds to vendor questionnaires within 2 business days. Enterprise prospects can request a dedicated security review call.</p>
+        <div class="cta-panel__cta-row">
+          <a class="btn btn--primary btn--lg" href="contact.html">Contact Security Team</a>
+          <a class="btn btn--ghost-light btn--lg" href="enterprise.html">View Enterprise Plan</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">
+        <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </span>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="enterprise.html">Enterprise</a>
+        <a href="security.html">Security</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <span class="site-footer__legal">© 2024 Nullpoint · GDPR · CCPA · SOC 2 Type II</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

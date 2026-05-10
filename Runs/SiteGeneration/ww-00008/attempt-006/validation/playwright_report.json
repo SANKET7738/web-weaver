@@ -1,0 +1,858 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "RevvLot — Old School Hustle. New School Wheels.",
+            "bodyTextLength": 3211,
+            "scrollHeight": 4068,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 900,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 392.1875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 695.84375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 1152.1875,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 580.640625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "product.html",
+              "index.html#home-section-4",
+              "product.html",
+              "product.html",
+              "#",
+              "#",
+              "#",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "RevvLot — Old School Hustle. New School Wheels.",
+            "bodyTextLength": 3211,
+            "scrollHeight": 7036,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 848.390625,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 834.109375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1445.421875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 1709,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 1203.046875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "product.html",
+              "index.html#home-section-4",
+              "product.html",
+              "product.html",
+              "#",
+              "#",
+              "#",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "route": "/product.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Browse Inventory — RevvLot",
+            "bodyTextLength": 2964,
+            "scrollHeight": 3686,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "product-section-1",
+                "width": 1440,
+                "height": 412.28125,
+                "visible": true
+              },
+              {
+                "id": "product-section-2",
+                "width": 1440,
+                "height": 544.046875,
+                "visible": true
+              },
+              {
+                "id": "product-section-3",
+                "width": 1440,
+                "height": 1117.984375,
+                "visible": true
+              },
+              {
+                "id": "product-section-4",
+                "width": 1440,
+                "height": 618.4375,
+                "visible": true
+              },
+              {
+                "id": "product-section-5",
+                "width": 1440,
+                "height": 660.296875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#product-section-3",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Browse Inventory — RevvLot",
+            "bodyTextLength": 2964,
+            "scrollHeight": 7122,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "product-section-1",
+                "width": 390,
+                "height": 347.46875,
+                "visible": true
+              },
+              {
+                "id": "product-section-2",
+                "width": 390,
+                "height": 1180,
+                "visible": true
+              },
+              {
+                "id": "product-section-3",
+                "width": 390,
+                "height": 2927.421875,
+                "visible": true
+              },
+              {
+                "id": "product-section-4",
+                "width": 390,
+                "height": 1151.78125,
+                "visible": true
+              },
+              {
+                "id": "product-section-5",
+                "width": 390,
+                "height": 650.6875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#product-section-3",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "specs",
+      "route": "/specs.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Vehicle Specs — RevvLot",
+            "bodyTextLength": 2716,
+            "scrollHeight": 3792,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "specs-section-1",
+                "width": 1440,
+                "height": 476.359375,
+                "visible": true
+              },
+              {
+                "id": "specs-section-2",
+                "width": 1440,
+                "height": 521.0625,
+                "visible": true
+              },
+              {
+                "id": "specs-section-3",
+                "width": 1440,
+                "height": 988.515625,
+                "visible": true
+              },
+              {
+                "id": "specs-section-4",
+                "width": 1440,
+                "height": 942.078125,
+                "visible": true
+              },
+              {
+                "id": "specs-section-5",
+                "width": 1440,
+                "height": 554.296875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "reserve.html",
+              "gallery.html",
+              "#",
+              "reserve.html",
+              "gallery.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Vehicle Specs — RevvLot",
+            "bodyTextLength": 2716,
+            "scrollHeight": 6361,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "specs-section-1",
+                "width": 390,
+                "height": 870.296875,
+                "visible": true
+              },
+              {
+                "id": "specs-section-2",
+                "width": 390,
+                "height": 1119.984375,
+                "visible": true
+              },
+              {
+                "id": "specs-section-3",
+                "width": 390,
+                "height": 1291.921875,
+                "visible": true
+              },
+              {
+                "id": "specs-section-4",
+                "width": 390,
+                "height": 1576.109375,
+                "visible": true
+              },
+              {
+                "id": "specs-section-5",
+                "width": 390,
+                "height": 661.84375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "reserve.html",
+              "gallery.html",
+              "#",
+              "reserve.html",
+              "gallery.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "gallery",
+      "route": "/gallery.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Photo Gallery — RevvLot",
+            "bodyTextLength": 2286,
+            "scrollHeight": 3679,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "gallery-section-1",
+                "width": 1440,
+                "height": 279.21875,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-2",
+                "width": 1440,
+                "height": 1440.375,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-3",
+                "width": 1440,
+                "height": 541.03125,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-4",
+                "width": 1440,
+                "height": 659.40625,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-5",
+                "width": 1440,
+                "height": 451.21875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "#",
+              "reserve.html",
+              "specs.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Photo Gallery — RevvLot",
+            "bodyTextLength": 2286,
+            "scrollHeight": 6108,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "gallery-section-1",
+                "width": 390,
+                "height": 371.96875,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-2",
+                "width": 390,
+                "height": 1951.9375,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-3",
+                "width": 390,
+                "height": 762.71875,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-4",
+                "width": 390,
+                "height": 1506.84375,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-5",
+                "width": 390,
+                "height": 674.921875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "#",
+              "reserve.html",
+              "specs.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "reserve",
+      "route": "/reserve.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Reserve Your Car — RevvLot",
+            "bodyTextLength": 3747,
+            "scrollHeight": 4195,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "reserve-section-1",
+                "width": 1440,
+                "height": 480,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-2",
+                "width": 1440,
+                "height": 545.328125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-3",
+                "width": 1440,
+                "height": 1041.859375,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-4",
+                "width": 1440,
+                "height": 781.234375,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-5",
+                "width": 1440,
+                "height": 1025,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Reserve Your Car — RevvLot",
+            "bodyTextLength": 3747,
+            "scrollHeight": 6566,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "reserve-section-1",
+                "width": 390,
+                "height": 607.375,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-2",
+                "width": 390,
+                "height": 812.8125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-3",
+                "width": 390,
+                "height": 1588.53125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-4",
+                "width": 390,
+                "height": 1389.75,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-5",
+                "width": 390,
+                "height": 1313.90625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

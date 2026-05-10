@@ -1,0 +1,239 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 20
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3783,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2783,
+          "path": "home/home_004.png"
+        }
+      ],
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3774,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "services/services_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "services/services_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "services/services_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2774,
+          "path": "services/services_004.png"
+        }
+      ],
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "route": "/practitioners.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3891,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "practitioners/practitioners_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "practitioners/practitioners_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "practitioners/practitioners_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2891,
+          "path": "practitioners/practitioners_004.png"
+        }
+      ],
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "resources",
+      "route": "/resources.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3858,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "resources/resources_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "resources/resources_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "resources/resources_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2858,
+          "path": "resources/resources_004.png"
+        }
+      ],
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3390,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2390,
+          "path": "contact/contact_004.png"
+        }
+      ],
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

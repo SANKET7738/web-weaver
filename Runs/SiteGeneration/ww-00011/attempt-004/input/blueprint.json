@@ -1,0 +1,1023 @@
+{
+  "id": "ww-00011",
+  "version": "0.1",
+  "concept_id": "ww-00011",
+  "identity": {
+    "name": "Courtside & Crown",
+    "tagline": "Where Tradition Meets the Game.",
+    "one_line_description": "Courtside & Crown is a heritage tennis academy website that showcases elite coaching programmes, club history, match fixtures, and news for players and families who value tradition, excellence, and community.",
+    "domain": "sports",
+    "subdomain": "tennis academy",
+    "voice": [
+      "distinguished",
+      "warm",
+      "authoritative",
+      "storied"
+    ],
+    "target_audience": "Aspiring and competitive tennis players aged 8\u201360, their parents, and club members who appreciate a classic sporting tradition, structured coaching pathways, and a strong sense of community belonging."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately establish Courtside & Crown as a prestigious, heritage-rooted tennis academy, inspire confidence in new visitors, and guide them toward exploring the club, fixtures, and coaching programmes.",
+      "meta_description": "Welcome to Courtside & Crown Tennis Academy \u2014 where tradition, elite coaching, and community come together on court. Discover our programmes, fixtures, and club story.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Make an immediate, powerful first impression that communicates the academy's heritage prestige and competitive excellence, prompting visitors to explore further.",
+          "eyebrow": "Est. 1923 \u00b7 A Century of Champions",
+          "headline": "The Court Has Always Called the Worthy",
+          "subheadline": "A hundred years of excellence, discipline, and championship spirit \u2014 now open to the next generation.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Discover the Club",
+              "target_page": "club"
+            },
+            {
+              "label": "View Fixtures",
+              "target_page": "fixtures"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A classic tennis racket crossed with a laurel wreath, rendered in a vintage crest style with fine line detail.",
+              "purpose": "Hero centrepiece emblem that anchors the heritage aesthetic and communicates prestige at a glance.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Validate the academy's authority and track record with compelling numbers that build trust and credibility for new visitors.",
+          "eyebrow": "The Record Speaks",
+          "headline": "A Legacy Written in Wins",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "100+",
+              "description": "Years of continuous operation as a premier tennis institution.",
+              "metadata": {}
+            },
+            {
+              "title": "3,200+",
+              "description": "Members across junior, adult, and competitive squads.",
+              "metadata": {}
+            },
+            {
+              "title": "47",
+              "description": "Regional and national titles claimed by our players.",
+              "metadata": {}
+            },
+            {
+              "title": "12",
+              "description": "Certified LTA coaches on staff, including two former tour professionals.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Introduce the core pillars of the academy \u2014 coaching, competition, and community \u2014 to help visitors quickly understand what Courtside & Crown offers.",
+          "eyebrow": "What We Offer",
+          "headline": "Three Pillars of the Courtside Way",
+          "subheadline": "Every programme, every match, every membership is built on these foundations.",
+          "body": null,
+          "items": [
+            {
+              "title": "Elite Coaching Pathways",
+              "description": "From first-time juniors to seasoned competitors, our structured LTA-aligned programmes develop technique, tactics, and mental resilience.",
+              "metadata": {
+                "icon": "racket"
+              }
+            },
+            {
+              "title": "Competitive Fixtures",
+              "description": "Regular league matches, inter-club tournaments, and open championships give every member a stage to test their progress.",
+              "metadata": {
+                "icon": "trophy"
+              }
+            },
+            {
+              "title": "Club Community",
+              "description": "Social tennis, club nights, member events, and a clubhouse steeped in history make Courtside & Crown a home away from home.",
+              "metadata": {
+                "icon": "shield"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Explore Programmes",
+              "target_page": "club"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "Build emotional trust through the voices of real members \u2014 parents, juniors, and adult players \u2014 reinforcing the academy's reputation for transformation and belonging.",
+          "eyebrow": "Member Stories",
+          "headline": "Heard on the Terrace",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Margaret T., Club Member since 1998",
+              "description": "\"Courtside & Crown gave my daughter more than a backhand \u2014 it gave her confidence, discipline, and friendships that have lasted a lifetime.\"",
+              "metadata": {}
+            },
+            {
+              "title": "James R., Junior Squad Captain",
+              "description": "\"Training here feels different. The coaches push you, the history pushes you, and when you win, you feel like you're adding your name to something real.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Dr. Priya N., Adult Beginner Programme",
+              "description": "\"I started at forty with no experience. Within a year I was playing club matches. The welcome here is as warm as the competition is fierce.\"",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Convert engaged visitors into enquiries or members by presenting a clear, inviting call to action at the bottom of the home page.",
+          "eyebrow": "Your First Step Starts Here",
+          "headline": "Ready to Step onto the Court?",
+          "subheadline": "Whether you are a complete beginner or a seasoned competitor, there is a place for you at Courtside & Crown.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get in Touch",
+              "target_page": "contact"
+            },
+            {
+              "label": "Read the Latest News",
+              "target_page": "news"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A repeating diagonal tennis court line pattern with subtle diamond grid motifs, reminiscent of vintage sporting print backgrounds.",
+              "purpose": "CTA section background texture that reinforces the heritage aesthetic without distracting from the call to action.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "club",
+      "title": "The Club",
+      "role": "overview",
+      "goal": "Tell the full story of Courtside & Crown \u2014 its history, coaching staff, membership tiers, and facilities \u2014 so that prospective members have everything they need to commit.",
+      "meta_description": "Learn about Courtside & Crown Tennis Academy \u2014 our century of history, expert coaching team, membership options, and world-class facilities.",
+      "sections": [
+        {
+          "id": "club-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the Club page as a proud, authoritative account of who we are and what we stand for.",
+          "eyebrow": "Our Story",
+          "headline": "A Club Built on Courts and Character",
+          "subheadline": "Since 1923, Courtside & Crown has shaped players and people in equal measure.",
+          "body": "What began as a small grass-court club in the heart of the county has grown into one of the region's most respected tennis academies. Our walls carry the portraits of champions; our courts carry the footsteps of thousands of members whose lives were changed by the game.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "club-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A vintage-style timeline banner showing key milestones of the club from 1923 to present, with small iconographic markers for each decade.",
+              "purpose": "Visual anchor for the club history narrative that communicates longevity and prestige in a single glance.",
+              "quantity": 1,
+              "used_by": [
+                "club-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "club-section-2",
+          "type": "timeline",
+          "intent": "Chronicle the academy's most significant milestones to deepen emotional investment and reinforce the heritage brand story.",
+          "eyebrow": "Our History",
+          "headline": "One Hundred Years, One Unbroken Tradition",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "1923 \u2014 Founded",
+              "description": "Courtside & Crown opens with four grass courts and thirty founding members on the Harrowfield estate.",
+              "metadata": {}
+            },
+            {
+              "title": "1951 \u2014 First County Title",
+              "description": "Our men's first team claims the county championship for the first time, cementing our competitive reputation.",
+              "metadata": {}
+            },
+            {
+              "title": "1974 \u2014 Clubhouse Expansion",
+              "description": "The iconic red-brick clubhouse is extended, adding a viewing terrace, lounge, and junior changing facilities.",
+              "metadata": {}
+            },
+            {
+              "title": "1989 \u2014 Junior Academy Launched",
+              "description": "A dedicated junior coaching pathway is introduced, producing three national-ranked juniors within a decade.",
+              "metadata": {}
+            },
+            {
+              "title": "2003 \u2014 Indoor Courts Added",
+              "description": "Two all-weather indoor courts ensure year-round play and open the academy to a wider community.",
+              "metadata": {}
+            },
+            {
+              "title": "2023 \u2014 Centenary Season",
+              "description": "Courtside & Crown celebrates 100 years with a centenary tournament, alumni weekend, and the launch of our scholarship programme.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "club-section-3",
+          "type": "item_grid",
+          "intent": "Introduce the coaching team with credibility and warmth, so prospective members trust the people who will guide their development.",
+          "eyebrow": "Our Coaches",
+          "headline": "Guided by the Best in the Game",
+          "subheadline": "Every coach at Courtside & Crown holds LTA Level 3 or above certification and brings a passion for player development.",
+          "body": null,
+          "items": [
+            {
+              "title": "Head Coach \u2014 William Ashford",
+              "description": "Former ATP Challenger circuit player and LTA Level 5 Master Professional. William leads the performance squad and oversees all coaching standards.",
+              "metadata": {
+                "credential": "LTA Level 5 Master Professional",
+                "speciality": "Performance & Tactics"
+              }
+            },
+            {
+              "title": "Junior Development Coach \u2014 Sasha Merritt",
+              "description": "Specialist in 8\u201316 junior development with a decade of experience producing county-ranked players from grassroots beginnings.",
+              "metadata": {
+                "credential": "LTA Level 4",
+                "speciality": "Junior Development"
+              }
+            },
+            {
+              "title": "Adult & Beginner Coach \u2014 Fiona Calloway",
+              "description": "Renowned for her patient, encouraging approach, Fiona runs all adult beginner and improver programmes with infectious enthusiasm.",
+              "metadata": {
+                "credential": "LTA Level 3",
+                "speciality": "Adult Beginners & Improvers"
+              }
+            },
+            {
+              "title": "Strength & Conditioning \u2014 Marcus Obi",
+              "description": "A certified S&C specialist who works with our competitive squads on physical conditioning, injury prevention, and athletic longevity.",
+              "metadata": {
+                "credential": "UKSCA Accredited",
+                "speciality": "Athletic Performance"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Enquire About Coaching",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "club-section-4",
+          "type": "pricing",
+          "intent": "Present membership tiers clearly so prospective members can self-select the right option and take the next step without friction.",
+          "eyebrow": "Membership",
+          "headline": "Find Your Place at the Club",
+          "subheadline": "Every membership includes full court access, club events, and the right to wear the Courtside & Crown badge with pride.",
+          "body": null,
+          "items": [
+            {
+              "title": "Junior Membership",
+              "description": "For players aged 8\u201317. Includes group coaching sessions, junior squad access, and inter-club match entry.",
+              "metadata": {
+                "price": "\u00a3195 / year",
+                "highlight": "Most Popular for Families"
+              }
+            },
+            {
+              "title": "Adult Social Membership",
+              "description": "For recreational adult players. Full court booking access, club nights, and social tournaments year-round.",
+              "metadata": {
+                "price": "\u00a3320 / year",
+                "highlight": ""
+              }
+            },
+            {
+              "title": "Performance Membership",
+              "description": "For competitive adults and advanced juniors. Includes priority coaching slots, performance squad sessions, and match analysis.",
+              "metadata": {
+                "price": "\u00a3580 / year",
+                "highlight": "Best for Competitors"
+              }
+            },
+            {
+              "title": "Family Membership",
+              "description": "Up to two adults and three juniors under one roof. Full access to all programmes and a dedicated family match day experience.",
+              "metadata": {
+                "price": "\u00a3895 / year",
+                "highlight": "Best Value"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Apply for Membership",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "club-section-4-asset-1",
+              "kind": "icon",
+              "subject": "A set of four membership badge icons \u2014 a laurel sprig for junior, a racket for social, a trophy for performance, and a family crest shield for family \u2014 each in a classic medallion style.",
+              "purpose": "Visual differentiators for each membership tier card that reinforce the heritage aesthetic and make the pricing grid scannable.",
+              "quantity": 1,
+              "used_by": [
+                "club-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "club-section-5",
+          "type": "feature_grid",
+          "intent": "Highlight the physical facilities of the academy to reassure prospective members that the infrastructure matches the reputation.",
+          "eyebrow": "Our Facilities",
+          "headline": "Courts Worthy of Champions",
+          "subheadline": "Eight courts, a storied clubhouse, and everything a serious player needs to thrive.",
+          "body": null,
+          "items": [
+            {
+              "title": "4 Grass Courts",
+              "description": "Meticulously maintained to Wimbledon-standard specifications, open from May through September.",
+              "metadata": {}
+            },
+            {
+              "title": "2 All-Weather Hard Courts",
+              "description": "Available twelve months a year for training, club matches, and private hire.",
+              "metadata": {}
+            },
+            {
+              "title": "2 Indoor Courts",
+              "description": "Climate-controlled and floodlit, ensuring no session is ever cancelled by the British weather.",
+              "metadata": {}
+            },
+            {
+              "title": "Heritage Clubhouse",
+              "description": "A warm, members-only space featuring a lounge, bar, trophy room, and viewing terrace overlooking the grass courts.",
+              "metadata": {}
+            },
+            {
+              "title": "Ball Machine Studio",
+              "description": "A dedicated solo practice bay equipped with a professional ball machine for drilling at any time.",
+              "metadata": {}
+            },
+            {
+              "title": "Fitness Suite",
+              "description": "A compact on-site gym tailored for tennis-specific conditioning, used by our performance squad daily.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "fixtures",
+      "title": "Fixtures",
+      "role": "listing",
+      "goal": "Give members and supporters a clear, well-organised view of all upcoming and recent match fixtures across all squads, so they can plan attendance and track results.",
+      "meta_description": "View all upcoming and recent match fixtures for Courtside & Crown Tennis Academy \u2014 junior, adult, and competitive squads across all leagues and tournaments.",
+      "sections": [
+        {
+          "id": "fixtures-section-1",
+          "type": "page_header",
+          "intent": "Orient visitors to the Fixtures page and set the competitive, spirited tone of the section.",
+          "eyebrow": "Season 2024\u201325",
+          "headline": "Every Match Is a Chapter in the Story",
+          "subheadline": "From junior leagues to open championships, here is where Courtside & Crown competes.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "fixtures-section-1-asset-1",
+              "kind": "icon",
+              "subject": "A vintage scoreboard icon rendered in classic flip-board style with a tennis ball motif, evoking a traditional match-day programme cover.",
+              "purpose": "Page header accent that immediately signals competitive match content and reinforces the heritage aesthetic.",
+              "quantity": 1,
+              "used_by": [
+                "fixtures-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fixtures-section-2",
+          "type": "stats",
+          "intent": "Provide a quick season-at-a-glance summary so members can immediately gauge how the club is performing across all squads.",
+          "eyebrow": "Season at a Glance",
+          "headline": "The Scoreboard So Far",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "24",
+              "description": "Fixtures played across all squads this season.",
+              "metadata": {}
+            },
+            {
+              "title": "17W \u00b7 5D \u00b7 2L",
+              "description": "Combined record for senior competitive squads.",
+              "metadata": {}
+            },
+            {
+              "title": "3",
+              "description": "Squads currently top of their respective league tables.",
+              "metadata": {}
+            },
+            {
+              "title": "6",
+              "description": "Upcoming fixtures in the next 30 days.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "fixtures-section-2-asset-1",
+              "kind": "chart",
+              "subject": "A classic horizontal bar chart showing win/draw/loss ratios for each squad (Men's 1st, Women's 1st, Mixed, Junior A) in a vintage sporting ledger style.",
+              "purpose": "Visual performance summary that makes the season record immediately readable and reinforces the competitive narrative.",
+              "quantity": 1,
+              "used_by": [
+                "fixtures-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fixtures-section-3",
+          "type": "article_list",
+          "intent": "List all upcoming fixtures in a clear, scannable format so members can plan attendance and supporters can follow the schedule.",
+          "eyebrow": "Upcoming Fixtures",
+          "headline": "Next on Court",
+          "subheadline": "All fixtures subject to weather and court availability. Check the news page for late changes.",
+          "body": null,
+          "items": [
+            {
+              "title": "Men's 1st XV \u2014 County League Div. 1",
+              "description": "Courtside & Crown vs. Elmwood LTC \u2014 Saturday 14 September, 2:00 PM. Home fixture, Grass Court 1.",
+              "metadata": {
+                "squad": "Men's 1st",
+                "type": "League",
+                "venue": "Home"
+              }
+            },
+            {
+              "title": "Women's 1st Team \u2014 County League Div. 2",
+              "description": "Courtside & Crown vs. Hartfield TC \u2014 Sunday 15 September, 11:00 AM. Away fixture at Hartfield.",
+              "metadata": {
+                "squad": "Women's 1st",
+                "type": "League",
+                "venue": "Away"
+              }
+            },
+            {
+              "title": "Junior A Squad \u2014 Regional Championship",
+              "description": "Courtside & Crown Junior A vs. Northgate Academy \u2014 Saturday 21 September, 10:00 AM. Home fixture, Hard Court 1 & 2.",
+              "metadata": {
+                "squad": "Junior A",
+                "type": "Championship",
+                "venue": "Home"
+              }
+            },
+            {
+              "title": "Mixed Doubles \u2014 Club Open Tournament",
+              "description": "Annual Club Open Mixed Doubles \u2014 Saturday 28 September, all day. All courts in use. Members and guests welcome.",
+              "metadata": {
+                "squad": "Mixed",
+                "type": "Open Tournament",
+                "venue": "Home"
+              }
+            },
+            {
+              "title": "Men's 2nd Team \u2014 County League Div. 3",
+              "description": "Courtside & Crown 2nds vs. Riverside TC \u2014 Sunday 29 September, 1:00 PM. Away fixture at Riverside.",
+              "metadata": {
+                "squad": "Men's 2nd",
+                "type": "League",
+                "venue": "Away"
+              }
+            },
+            {
+              "title": "Junior B Squad \u2014 Development League",
+              "description": "Courtside & Crown Junior B vs. Ashton Park TC \u2014 Saturday 5 October, 9:30 AM. Home fixture, Hard Court 2.",
+              "metadata": {
+                "squad": "Junior B",
+                "type": "Development League",
+                "venue": "Home"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "fixtures-section-4",
+          "type": "article_list",
+          "intent": "Display recent results so members and supporters can follow the club's competitive progress across all squads.",
+          "eyebrow": "Recent Results",
+          "headline": "How We Have Played",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Men's 1st \u2014 Won 5\u20131 vs. Thornbury LTC",
+              "description": "A commanding home victory in the County League. William Ashford's performance squad delivered a masterclass in net play.",
+              "metadata": {
+                "result": "Win",
+                "score": "5\u20131",
+                "date": "7 September 2024"
+              }
+            },
+            {
+              "title": "Women's 1st \u2014 Drew 3\u20133 vs. Crestfield TC",
+              "description": "A hard-fought away draw in difficult conditions. The team showed exceptional resilience in the deciding doubles.",
+              "metadata": {
+                "result": "Draw",
+                "score": "3\u20133",
+                "date": "8 September 2024"
+              }
+            },
+            {
+              "title": "Junior A \u2014 Won 4\u20130 vs. Sandgate Academy",
+              "description": "A clean sweep for our Junior A squad in the Regional Championship group stage. Outstanding singles performances across the board.",
+              "metadata": {
+                "result": "Win",
+                "score": "4\u20130",
+                "date": "31 August 2024"
+              }
+            },
+            {
+              "title": "Mixed Doubles \u2014 Lost 2\u20134 vs. Kensington Park TC",
+              "description": "A narrow defeat in the county mixed doubles league. Strong showing from our new pairing in the second rubber.",
+              "metadata": {
+                "result": "Loss",
+                "score": "2\u20134",
+                "date": "25 August 2024"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "fixtures-section-5",
+          "type": "cta",
+          "intent": "Encourage non-members watching the fixtures page to take the next step and join the club to participate in competitive tennis.",
+          "eyebrow": "Want to Compete?",
+          "headline": "Earn Your Place on the Team Sheet",
+          "subheadline": "Our squads are always looking for committed players. Get in touch to discuss squad trials and competitive membership.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Contact the Club",
+              "target_page": "contact"
+            },
+            {
+              "label": "Learn About Membership",
+              "target_page": "club"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "news",
+      "title": "News",
+      "role": "editorial",
+      "goal": "Keep members, supporters, and prospective members informed and engaged with club news, coaching updates, player achievements, and event announcements.",
+      "meta_description": "The latest news from Courtside & Crown Tennis Academy \u2014 match reports, coaching updates, player achievements, events, and club announcements.",
+      "sections": [
+        {
+          "id": "news-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors to the news section and set an editorial, club-magazine tone that feels both authoritative and warm.",
+          "eyebrow": "The Courtside Chronicle",
+          "headline": "News, Stories & Dispatches from the Club",
+          "subheadline": "The latest from our courts, our coaches, and our community \u2014 told with the care this club deserves.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "news-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A vintage newspaper masthead-style banner reading 'The Courtside Chronicle' with a small tennis racket and laurel ornament, in the style of a 1930s sporting gazette.",
+              "purpose": "Editorial identity mark for the news section that reinforces the heritage voice and makes the page feel like a curated club publication.",
+              "quantity": 1,
+              "used_by": [
+                "news-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "news-section-2",
+          "type": "article_list",
+          "intent": "Feature the most important and recent news stories prominently so returning visitors immediately see what is new at the club.",
+          "eyebrow": "Latest Stories",
+          "headline": "Fresh from the Courts",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Centenary Scholarship Fund Now Open for Applications",
+              "description": "In honour of our 100th year, the Courtside & Crown Foundation is offering three full junior memberships and coaching bursaries to talented players from underserved backgrounds. Applications close 31 October.",
+              "metadata": {
+                "category": "Club Announcement",
+                "date": "10 September 2024"
+              }
+            },
+            {
+              "title": "James Rutherford Named in County Under-18 Squad",
+              "description": "Courtside & Crown Junior A captain James Rutherford has been selected for the county Under-18 representative squad following an outstanding summer season. A proud moment for the whole club.",
+              "metadata": {
+                "category": "Player Achievement",
+                "date": "6 September 2024"
+              }
+            },
+            {
+              "title": "New Ball Machine Studio Opens This Weekend",
+              "description": "Our newly installed ball machine practice studio is open to all members from Saturday 14 September. Book a solo session through the members portal or contact the club office.",
+              "metadata": {
+                "category": "Facilities",
+                "date": "3 September 2024"
+              }
+            },
+            {
+              "title": "Season Review: Men's 1st Team Summer Campaign",
+              "description": "Head Coach William Ashford reflects on a summer campaign that saw the men's first team win eight of ten league matches and reach the county cup semi-final for the first time since 2011.",
+              "metadata": {
+                "category": "Match Report",
+                "date": "28 August 2024"
+              }
+            },
+            {
+              "title": "Club Open Tournament \u2014 Entries Now Accepted",
+              "description": "The annual Courtside & Crown Club Open Mixed Doubles Tournament returns on 28 September. Open to members and invited guests. Entry forms available at reception or via the contact page.",
+              "metadata": {
+                "category": "Events",
+                "date": "20 August 2024"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "news-section-3",
+          "type": "story_block",
+          "intent": "Feature a longer, in-depth editorial piece that deepens the brand story and creates a sense of a living, breathing club culture.",
+          "eyebrow": "Featured Story",
+          "headline": "One Hundred Years of Courtside & Crown: A Century Remembered",
+          "subheadline": "From four grass courts on a country estate to a thriving academy of three thousand members \u2014 the story of how a club became a community.",
+          "body": "When Colonel Edmund Harrowfield laid out the first four courts on his estate in the summer of 1923, he could not have imagined that a century later, thousands of players would call this place their sporting home. What began as a gentlemen's pastime became, over the decades, a school of champions, a refuge for beginners, and a gathering place for families across the county. The centenary season is not a celebration of the past alone \u2014 it is a declaration of intent. The next hundred years start now.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Read the Full History",
+              "target_page": "club"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "news-section-3-asset-1",
+              "kind": "pattern",
+              "subject": "A decorative border pattern composed of alternating tennis balls, rackets, and laurel sprigs arranged in a classic Victorian sporting frieze style.",
+              "purpose": "Editorial section frame that gives the featured story the visual weight of a heritage magazine spread without requiring photography.",
+              "quantity": 1,
+              "used_by": [
+                "news-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "news-section-4",
+          "type": "item_grid",
+          "intent": "Organise news by category so regular visitors can quickly navigate to the type of content most relevant to them.",
+          "eyebrow": "Browse by Category",
+          "headline": "Every Corner of Club Life, Covered",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Match Reports",
+              "description": "Full accounts of every competitive fixture, written by our coaching staff and senior squad captains.",
+              "metadata": {
+                "count": "18 articles"
+              }
+            },
+            {
+              "title": "Player Achievements",
+              "description": "Celebrating the milestones, rankings, and representative honours earned by our members.",
+              "metadata": {
+                "count": "11 articles"
+              }
+            },
+            {
+              "title": "Coaching & Development",
+              "description": "Tips, programme updates, and expert insight from our LTA-certified coaching team.",
+              "metadata": {
+                "count": "9 articles"
+              }
+            },
+            {
+              "title": "Club Events & Social",
+              "description": "Announcements and recaps of tournaments, club nights, charity events, and member gatherings.",
+              "metadata": {
+                "count": "14 articles"
+              }
+            },
+            {
+              "title": "Facilities & Club News",
+              "description": "Updates on courts, infrastructure, membership, and all official club communications.",
+              "metadata": {
+                "count": "7 articles"
+              }
+            },
+            {
+              "title": "Junior Academy",
+              "description": "News dedicated to our junior programme \u2014 squad selections, development milestones, and young player spotlights.",
+              "metadata": {
+                "count": "12 articles"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "news-section-5",
+          "type": "cta",
+          "intent": "Invite readers to stay connected with the club by contacting the office or exploring membership, converting editorial engagement into action.",
+          "eyebrow": "Stay in the Loop",
+          "headline": "Never Miss a Story from the Club",
+          "subheadline": "Contact us to join the members mailing list, or enquire about membership to become part of the Courtside & Crown story yourself.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Contact the Club",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore Membership",
+              "target_page": "club"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Make it easy for prospective members, coaching enquirers, event organisers, and press to reach the right person at the club, and to visit in person.",
+      "meta_description": "Get in touch with Courtside & Crown Tennis Academy \u2014 membership enquiries, coaching bookings, event hire, and directions to the club.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors warmly to the contact page and signal that the club is accessible, friendly, and responsive \u2014 not intimidating.",
+          "eyebrow": "We Are Always on Court",
+          "headline": "Come and Have a Word with Us",
+          "subheadline": "Whether you are ready to join, curious about coaching, or planning an event \u2014 the door to Courtside & Crown is always open.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide all essential contact information \u2014 phone, email, address, and opening hours \u2014 in a clear, easily scannable format.",
+          "eyebrow": "Reach Us",
+          "headline": "The Club Office",
+          "subheadline": null,
+          "body": "Our club office is staffed Monday through Saturday. For urgent match-day enquiries, please call the clubhouse directly. We aim to respond to all written enquiries within one working day.",
+          "items": [
+            {
+              "title": "Address",
+              "description": "Harrowfield Estate, Courtside Lane, Ashbourne, Derbyshire, DE6 1HF",
+              "metadata": {
+                "icon": "location"
+              }
+            },
+            {
+              "title": "Telephone",
+              "description": "+44 (0)1335 740 920",
+              "metadata": {
+                "icon": "phone"
+              }
+            },
+            {
+              "title": "Email \u2014 General Enquiries",
+              "description": "hello@courtsideandcrown.co.uk",
+              "metadata": {
+                "icon": "mail"
+              }
+            },
+            {
+              "title": "Email \u2014 Coaching & Memberships",
+              "description": "coaching@courtsideandcrown.co.uk",
+              "metadata": {
+                "icon": "mail"
+              }
+            },
+            {
+              "title": "Office Hours",
+              "description": "Monday \u2013 Friday: 9:00 AM \u2013 6:00 PM \u00b7 Saturday: 9:00 AM \u2013 1:00 PM \u00b7 Sunday: Closed (Clubhouse open for match days)",
+              "metadata": {
+                "icon": "clock"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-2-asset-1",
+              "kind": "map",
+              "subject": "A simplified illustrated site map of the Courtside & Crown grounds showing the eight courts, clubhouse, car park, and entrance gate, rendered in a vintage estate map style.",
+              "purpose": "Visual orientation tool that helps visitors plan their visit and reinforces the heritage character of the grounds without requiring an embedded third-party map.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-3",
+          "type": "feature_grid",
+          "intent": "Break down the different types of enquiry so visitors can direct themselves to the right contact point, reducing friction and improving response quality.",
+          "eyebrow": "What Can We Help With?",
+          "headline": "Find the Right Door",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Membership Enquiries",
+              "description": "Interested in joining as a junior, adult, or family member? Our membership secretary will walk you through every option and arrange a complimentary trial session.",
+              "metadata": {
+                "contact": "membership@courtsideandcrown.co.uk"
+              }
+            },
+            {
+              "title": "Coaching & Programmes",
+              "description": "Want to book a lesson, enquire about squad entry, or discuss a bespoke coaching plan? Contact our head coach William Ashford directly.",
+              "metadata": {
+                "contact": "coaching@courtsideandcrown.co.uk"
+              }
+            },
+            {
+              "title": "Court & Venue Hire",
+              "description": "Our courts and clubhouse are available for private hire, corporate events, and charity fundraisers. Contact our events team for availability and rates.",
+              "metadata": {
+                "contact": "events@courtsideandcrown.co.uk"
+              }
+            },
+            {
+              "title": "Press & Media",
+              "description": "For interview requests, photography access, centenary feature enquiries, or club history research, please contact our club secretary.",
+              "metadata": {
+                "contact": "secretary@courtsideandcrown.co.uk"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "faq",
+          "intent": "Answer the most common questions from prospective members and coaching enquirers to reduce barriers and pre-qualify visitors before they get in touch.",
+          "eyebrow": "Common Questions",
+          "headline": "Before You Write, We May Already Have Your Answer",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do I need to be an experienced player to join?",
+              "description": "Not at all. We welcome complete beginners of all ages. Our adult beginner programme and junior starter sessions are designed for players with no prior experience.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I try the club before committing to membership?",
+              "description": "Yes. We offer a complimentary trial session for all prospective members. Contact the office to arrange a suitable time.",
+              "metadata": {}
+            },
+            {
+              "title": "How do I enter a squad or competitive team?",
+              "description": "Competitive squad places are allocated following a brief assessment session with our head coach. Contact the coaching team to arrange a trial.",
+              "metadata": {}
+            },
+            {
+              "title": "Is the club suitable for children with disabilities?",
+              "description": "Courtside & Crown is committed to inclusive tennis. We offer adapted tennis sessions and our facilities are accessible. Please contact us to discuss your child's specific needs.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I hire a court without being a member?",
+              "description": "Non-member court hire is available at weekday off-peak times, subject to availability. Contact the office for rates and booking.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-4-asset-1",
+              "kind": "icon",
+              "subject": "A set of small circular heritage badge icons representing each enquiry type \u2014 a key for membership, a racket for coaching, a building for venue hire, and a quill pen for press \u2014 in a classic wax-seal style.",
+              "purpose": "Visual identifiers for each enquiry category that make the contact page scannable and reinforce the distinguished, heritage character of the club.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-5",
+          "type": "cta",
+          "intent": "Close the contact page with a final warm, encouraging invitation that motivates hesitant visitors to take the first step.",
+          "eyebrow": "The First Step Is the Easiest",
+          "headline": "Your Court Is Waiting",
+          "subheadline": "There has never been a better time to join Courtside & Crown. Get in touch today and we will take care of the rest.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Send Us a Message",
+              "target_page": null
+            },
+            {
+              "label": "View Fixtures & Events",
+              "target_page": "fixtures"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

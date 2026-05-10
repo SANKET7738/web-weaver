@@ -1,0 +1,13 @@
+[2026-05-10T10:13:47+00:00] Starting Claude Code with timeout 1800 seconds
+[2026-05-10T10:26:56+00:00] Claude exited with code 0
+[2026-05-10T10:26:56+00:00] Started static server on 0.0.0.0:3000 with PID 158
+[2026-05-10T10:26:57+00:00] Running site generation sanity check
+[2026-05-10T10:26:58+00:00] Sanity check exited with code 0
+[2026-05-10T10:26:58+00:00] Running Playwright browser sanity check
+[2026-05-10T10:27:00+00:00] Playwright sanity check exited with code 0
+[2026-05-10T10:27:00+00:00] Capturing viewport screenshot slices
+[2026-05-10T10:27:09+00:00] Screenshot capture exited with code 0
+[2026-05-10T10:27:09+00:00] Capturing screen recordings
+[2026-05-10T10:28:02+00:00] Screen recording capture exited with code 0
+[2026-05-10T10:28:02+00:00] All validations passed; assembling Harbor task at /workspace/harbor
+[2026-05-10T10:28:02+00:00] Harbor assembly exited with code 0

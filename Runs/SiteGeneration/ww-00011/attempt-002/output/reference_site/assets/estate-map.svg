@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360">
+  <defs>
+    <pattern id="parchment" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#F5F0E8"/>
+      <circle cx="1" cy="1" r="0.4" fill="#EAE3D2"/>
+      <circle cx="4" cy="4" r="0.4" fill="#EAE3D2"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="360" fill="url(#parchment)"/>
+
+  <!-- Compass rose -->
+  <g transform="translate(420,42)" fill="none" stroke="#7D1D3F" stroke-width="0.8">
+    <circle r="14"/>
+    <path d="M 0 -14 L 3 0 L 0 14 L -3 0 Z" fill="#7D1D3F" stroke="none"/>
+    <text y="-18" text-anchor="middle" font-family="Playfair Display, serif" font-size="9" fill="#7D1D3F">N</text>
+  </g>
+
+  <!-- Title cartouche -->
+  <g transform="translate(40,30)">
+    <rect width="200" height="40" fill="none" stroke="#B8962E" stroke-width="1"/>
+    <rect x="3" y="3" width="194" height="34" fill="none" stroke="#B8962E" stroke-width="0.5"/>
+    <text x="100" y="20" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="13" fill="#1B2A4A">Harrowfield Estate</text>
+    <text x="100" y="32" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="8" fill="#4A4E5A" letter-spacing="2">EST. 1923</text>
+  </g>
+
+  <!-- Trees -->
+  <g fill="#2D5016" opacity="0.55">
+    <circle cx="40" cy="100" r="6"/>
+    <circle cx="50" cy="115" r="5"/>
+    <circle cx="38" cy="130" r="6"/>
+    <circle cx="55" cy="145" r="5"/>
+    <circle cx="42" cy="170" r="6"/>
+    <circle cx="58" cy="195" r="5"/>
+    <circle cx="42" cy="215" r="6"/>
+    <circle cx="55" cy="235" r="5"/>
+    <circle cx="42" cy="260" r="6"/>
+    <circle cx="55" cy="285" r="5"/>
+    <circle cx="42" cy="310" r="6"/>
+    <circle cx="440" cy="100" r="6"/>
+    <circle cx="430" cy="115" r="5"/>
+    <circle cx="442" cy="130" r="6"/>
+    <circle cx="425" cy="145" r="5"/>
+    <circle cx="442" cy="170" r="6"/>
+    <circle cx="425" cy="195" r="5"/>
+    <circle cx="442" cy="215" r="6"/>
+    <circle cx="425" cy="235" r="5"/>
+    <circle cx="442" cy="260" r="6"/>
+  </g>
+
+  <!-- Grass courts (4) - top-left -->
+  <g stroke="#1B2A4A" stroke-width="0.8" fill="#EAE3D2">
+    <rect x="80" y="90" width="64" height="36" />
+    <line x1="80" y1="108" x2="144" y2="108" stroke="#1B2A4A" stroke-width="0.5"/>
+    <rect x="80" y="132" width="64" height="36"/>
+    <line x1="80" y1="150" x2="144" y2="150" stroke="#1B2A4A" stroke-width="0.5"/>
+    <rect x="152" y="90" width="64" height="36"/>
+    <line x1="152" y1="108" x2="216" y2="108" stroke="#1B2A4A" stroke-width="0.5"/>
+    <rect x="152" y="132" width="64" height="36"/>
+    <line x1="152" y1="150" x2="216" y2="150" stroke="#1B2A4A" stroke-width="0.5"/>
+  </g>
+  <text x="148" y="84" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="8" letter-spacing="1.6" fill="#7D1D3F">GRASS COURTS</text>
+
+  <!-- Hard courts (2) - bottom-left -->
+  <g stroke="#1B2A4A" stroke-width="0.8" fill="#D6D9E0">
+    <rect x="80" y="220" width="64" height="36"/>
+    <line x1="80" y1="238" x2="144" y2="238" stroke="#1B2A4A" stroke-width="0.5"/>
+    <rect x="152" y="220" width="64" height="36"/>
+    <line x1="152" y1="238" x2="216" y2="238" stroke="#1B2A4A" stroke-width="0.5"/>
+  </g>
+  <text x="148" y="270" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="8" letter-spacing="1.6" fill="#7D1D3F">HARD COURTS</text>
+
+  <!-- Indoor courts (2) - right side -->
+  <g stroke="#1B2A4A" stroke-width="0.8" fill="#F5F0E8">
+    <rect x="260" y="220" width="100" height="46"/>
+    <line x1="260" y1="243" x2="360" y2="243" stroke="#1B2A4A" stroke-width="0.5"/>
+    <line x1="310" y1="220" x2="310" y2="266" stroke="#1B2A4A" stroke-width="0.5"/>
+    <text x="310" y="247" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="9" fill="#1B2A4A">Indoor Halls</text>
+  </g>
+
+  <!-- Clubhouse -->
+  <g transform="translate(260,90)">
+    <rect x="0" y="0" width="100" height="56" fill="#7D1D3F" opacity="0.85" stroke="#1B2A4A" stroke-width="1"/>
+    <polygon points="0,0 50,-16 100,0" fill="#1B2A4A"/>
+    <rect x="42" y="32" width="16" height="24" fill="#F5F0E8" stroke="#1B2A4A" stroke-width="0.5"/>
+    <rect x="14" y="14" width="14" height="14" fill="#F5F0E8" stroke="#1B2A4A" stroke-width="0.4"/>
+    <rect x="72" y="14" width="14" height="14" fill="#F5F0E8" stroke="#1B2A4A" stroke-width="0.4"/>
+    <text x="50" y="74" text-anchor="middle" font-family="Playfair Display, serif" font-style="italic" font-size="11" fill="#1B2A4A">Clubhouse</text>
+  </g>
+
+  <!-- Path / driveway -->
+  <path d="M 240 360 Q 240 320 240 280 Q 240 200 240 156" fill="none" stroke="#B8962E" stroke-width="1" stroke-dasharray="3 2"/>
+  <path d="M 240 156 Q 240 120 285 110" fill="none" stroke="#B8962E" stroke-width="1" stroke-dasharray="3 2"/>
+
+  <!-- Entrance gate -->
+  <g transform="translate(240,346)">
+    <rect x="-18" y="-6" width="6" height="14" fill="none" stroke="#7D1D3F" stroke-width="1"/>
+    <rect x="12" y="-6" width="6" height="14" fill="none" stroke="#7D1D3F" stroke-width="1"/>
+    <line x1="-18" y1="-8" x2="18" y2="-8" stroke="#7D1D3F" stroke-width="1"/>
+    <text x="0" y="-12" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="7" letter-spacing="1.4" fill="#7D1D3F">MAIN GATE</text>
+  </g>
+
+  <!-- Car park -->
+  <g transform="translate(310,295)">
+    <rect width="60" height="36" fill="none" stroke="#1B2A4A" stroke-width="0.7" stroke-dasharray="2 2"/>
+    <text x="30" y="20" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="7" letter-spacing="1.4" fill="#4A4E5A">CAR PARK</text>
+  </g>
+
+  <!-- Border ornament -->
+  <rect x="6" y="6" width="468" height="348" fill="none" stroke="#B8962E" stroke-width="0.6"/>
+</svg>

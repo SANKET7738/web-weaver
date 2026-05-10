@@ -1,0 +1,47 @@
+{
+  "valid": true,
+  "checks": {
+    "file_structure": true,
+    "page_files": true,
+    "routes": true,
+    "content_coverage": true,
+    "section_coverage": true,
+    "palette_usage": true,
+    "font_usage": true,
+    "asset_coverage": true,
+    "policy": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_texts": 119,
+    "matched_texts": 113,
+    "content_coverage": 0.9496,
+    "expected_sections": 25,
+    "matched_section_ids": 25,
+    "section_coverage": 1.0,
+    "palette_colors_used": 8,
+    "palette_colors_expected": 8,
+    "palette_colors_matched": [
+      "#00f5ff",
+      "#0a0a0a",
+      "#1c1c2e",
+      "#2e2e44",
+      "#aaff00",
+      "#cc00ff",
+      "#e8f0f2",
+      "#ff2d78"
+    ],
+    "font_matches": 3,
+    "fonts_matched": [
+      "Press Start 2P",
+      "IBM Plex Mono",
+      "Archivo"
+    ],
+    "asset_sections": 10,
+    "covered_asset_sections": 9,
+    "asset_coverage": 0.9,
+    "policy_violations": []
+  },
+  "failures": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ww-00017",
+  "version": "0.1",
+  "site_domain": "kids_family",
+  "site_subdomain": "kids clothing label",
+  "design_aesthetic": "friendly_consumer_app",
+  "layout_family": "gallery_first",
+  "page_set": [
+    "home",
+    "classes",
+    "teachers",
+    "faq",
+    "enroll"
+  ],
+  "difficulty": "medium",
+  "seed": 88463792,
+  "sample_index": 6,
+  "source": "web-weaver.concept_sampler"
+}

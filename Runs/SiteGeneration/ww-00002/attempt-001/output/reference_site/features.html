@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features — Nullpoint</title>
+  <meta name="description" content="Explore Nullpoint's full feature set: cookieless event tracking, real-time funnels, cohort analysis, compliance exports, and developer-first SDKs.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="features">
+
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Nullpoint home">
+        <svg class="nav__logo-mark" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav__links" id="primary-nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link is-active" href="features.html">Features</a>
+        <a class="nav__link" href="enterprise.html">Enterprise</a>
+        <a class="nav__link" href="security.html">Security</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+        <a class="nav__cta" href="contact.html">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HEADER ======================================= -->
+    <section id="features-section-1" data-section-type="page_header" class="page-header page-header--dark">
+      <div class="container">
+        <p class="eyebrow">Platform Features</p>
+        <h1 class="page-header__headline page-header__headline--xl" style="max-width:920px;">Every feature starts with the question: does this require personal data?</h1>
+        <p class="subheadline" style="max-width:560px;">If the answer is yes, we find a better way. Here's what that looks like in practice.</p>
+      </div>
+    </section>
+
+    <!-- DATA COLLECTION =================================== -->
+    <section id="features-section-2" data-section-type="feature_grid" class="section section--white">
+      <div class="container">
+        <div style="display:grid; grid-template-columns: 7fr 5fr; gap:48px; align-items:flex-start;">
+          <div>
+            <p class="eyebrow">Data Collection</p>
+            <h2 class="headline-section" style="margin-top:8px; max-width:560px;">Capture what matters. Discard what doesn't.</h2>
+            <p class="subheadline" style="max-width:520px;">Nullpoint's ingestion layer strips PII at the edge before data ever reaches our servers.</p>
+          </div>
+
+          <!-- Edge filter diagram -->
+          <svg viewBox="0 0 320 220" aria-label="Edge-side PII stripping diagram" style="width:100%; max-width:340px; justify-self:end;">
+            <rect x="1" y="1" width="318" height="218" fill="#F5F5F5" stroke="#DEDEDE"/>
+            <!-- Browser -->
+            <rect x="20" y="20" width="80" height="50" fill="none" stroke="#0A0A0A" stroke-width="1.5"/>
+            <text x="60" y="45" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#0A0A0A" letter-spacing="1.2">BROWSER</text>
+            <text x="60" y="60" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#4A4A4A">events + PII</text>
+            <!-- Server -->
+            <rect x="20" y="150" width="80" height="50" fill="none" stroke="#0A0A0A" stroke-width="1.5"/>
+            <text x="60" y="175" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#0A0A0A" letter-spacing="1.2">SERVER</text>
+            <text x="60" y="190" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#4A4A4A">events + PII</text>
+            <!-- Edge filter (signal) -->
+            <rect x="135" y="80" width="80" height="60" fill="#fff" stroke="#E5001A" stroke-width="2"/>
+            <text x="175" y="105" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#E5001A" letter-spacing="1.4">EDGE</text>
+            <text x="175" y="120" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#4A4A4A">PII stripped</text>
+            <!-- Warehouse (verified) -->
+            <rect x="240" y="85" width="60" height="50" fill="none" stroke="#00875A" stroke-width="1.5"/>
+            <text x="270" y="108" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#00875A" letter-spacing="1.2">CLEAN</text>
+            <text x="270" y="122" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="9" fill="#00875A">DATA</text>
+            <!-- Arrows -->
+            <line x1="100" y1="45" x2="135" y2="100" stroke="#4A4A4A" stroke-width="1.5"/>
+            <line x1="100" y1="175" x2="135" y2="120" stroke="#4A4A4A" stroke-width="1.5"/>
+            <line x1="215" y1="110" x2="240" y2="110" stroke="#4A4A4A" stroke-width="1.5"/>
+            <polygon points="240,110 235,107 235,113" fill="#4A4A4A"/>
+          </svg>
+        </div>
+
+        <div class="feature-grid feature-grid--two" style="margin-top:48px;">
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Collection</span>
+            <h3 class="feature-card__title">Edge-Side PII Stripping</h3>
+            <p class="feature-card__desc">Our collection script inspects payloads at the network edge and removes any field matching known PII patterns — emails, IPs, device IDs — before transmission.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Collection</span>
+            <h3 class="feature-card__title">Schema-Enforced Events</h3>
+            <p class="feature-card__desc">Define your event taxonomy once. Nullpoint rejects malformed or unexpected fields at ingest, keeping your data clean and your schema honest.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Collection</span>
+            <h3 class="feature-card__title">Server-Side &amp; Client-Side SDKs</h3>
+            <p class="feature-card__desc">Track from the browser, mobile app, or your backend. All SDKs share the same typed event model and produce identical output.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Collection</span>
+            <h3 class="feature-card__title">Retroactive Event Replay</h3>
+            <p class="feature-card__desc">Updated your schema? Replay historical events through the new model without re-instrumenting your product.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALYSIS & INSIGHTS =============================== -->
+    <section id="features-section-3" data-section-type="feature_grid" class="section section--mist section__rule-top">
+      <div class="container">
+        <p class="eyebrow">Analysis &amp; Insights</p>
+        <h2 class="headline-section" style="margin-top:8px; max-width:540px;">Depth without compromise.</h2>
+        <p class="subheadline" style="max-width:520px;">Funnel analysis, cohorts, retention curves, and path analysis — all computed on anonymized aggregates.</p>
+
+        <div class="feature-grid feature-grid--two" style="margin-top:48px;">
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Analysis</span>
+            <h3 class="feature-card__title">Conversion Funnels</h3>
+            <p class="feature-card__desc">Build multi-step funnels in seconds. Filter by plan, region, or any custom property. See exactly where users drop off and why.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Analysis</span>
+            <h3 class="feature-card__title">Cohort Retention</h3>
+            <p class="feature-card__desc">Group users by signup week, feature adoption, or custom segments and track how retention curves evolve over time.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Analysis</span>
+            <h3 class="feature-card__title">User Path Analysis</h3>
+            <p class="feature-card__desc">Visualize the most common journeys through your product without ever knowing who took them.</p>
+          </article>
+          <article class="feature-card feature-card--tagged">
+            <span class="tag">Analysis</span>
+            <h3 class="feature-card__title">Custom Dashboards</h3>
+            <p class="feature-card__desc">Drag-and-drop chart builder with 14 chart types. Share live dashboards with stakeholders via a read-only link — no login required.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARISON ======================================== -->
+    <section id="features-section-4" data-section-type="comparison" class="compare">
+      <div class="container">
+        <div class="compare__head">
+          <p class="eyebrow">How We Compare</p>
+          <h2 class="headline-section" style="color:#F5F5F5; margin-top:8px;">Legacy analytics was built before privacy mattered. We started after.</h2>
+          <p class="compare__body">Most analytics platforms were architected in an era of unlimited data collection. Privacy features were bolted on later as regulatory pressure mounted. Nullpoint was designed from the ground up with the assumption that personal data should never be collected in the first place.</p>
+        </div>
+
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th scope="col">Feature</th>
+              <th scope="col" class="nullpoint">Nullpoint</th>
+              <th scope="col" class="legacy">Legacy Platforms</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="feature-name">Cookieless Tracking</td>
+              <td class="nullpoint-cell">Native</td>
+              <td class="legacy-cell">Add-on / degraded</td>
+            </tr>
+            <tr>
+              <td class="feature-name">GDPR Compliance</td>
+              <td class="nullpoint-cell">Automatic</td>
+              <td class="legacy-cell">Manual DPA required</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Data Ownership</td>
+              <td class="nullpoint-cell">Full ownership</td>
+              <td class="legacy-cell">Shared use clauses</td>
+            </tr>
+            <tr>
+              <td class="feature-name">Script Weight</td>
+              <td class="nullpoint-cell">&lt; 1 KB</td>
+              <td class="legacy-cell">17–45 KB</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="compare__cta">
+          <a class="btn btn--ghost-light" href="security.html">See Security Architecture</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPLIANCE & REPORTING ============================ -->
+    <section id="features-section-5" data-section-type="feature_grid" class="section section--mist" style="padding-bottom:112px;">
+      <div class="container">
+        <p class="eyebrow">Compliance &amp; Reporting</p>
+        <h2 class="headline-section" style="margin-top:8px; max-width:680px;">Your compliance team will ask for this. We already built it.</h2>
+
+        <div class="feature-grid feature-grid--two" style="margin-top:48px;">
+          <article class="feature-card feature-card--icon">
+            <!-- Document w/ clock -->
+            <svg class="feature-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+              <path d="M7 4h12l4 4v20H7z" stroke="#0A0A0A" stroke-width="1.5"/>
+              <path d="M19 4v4h4" stroke="#0A0A0A" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="5" stroke="#00875A" stroke-width="1.5" fill="#F5F5F5"/>
+              <path d="M20 17.5v3l2 1.5" stroke="#00875A" stroke-width="1.5"/>
+            </svg>
+            <span class="tag">Compliance</span>
+            <h3 class="feature-card__title">GDPR Article 30 Records</h3>
+            <p class="feature-card__desc">Auto-generated Records of Processing Activities, updated in real time as your event schema changes.</p>
+          </article>
+
+          <article class="feature-card feature-card--icon">
+            <!-- Magnifier over grid -->
+            <svg class="feature-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+              <rect x="3" y="3" width="18" height="18" stroke="#0A0A0A" stroke-width="1.5"/>
+              <line x1="3" y1="9" x2="21" y2="9" stroke="#00875A" stroke-width="1.2"/>
+              <line x1="3" y1="15" x2="21" y2="15" stroke="#00875A" stroke-width="1.2"/>
+              <line x1="9" y1="3" x2="9" y2="21" stroke="#00875A" stroke-width="1.2"/>
+              <line x1="15" y1="3" x2="15" y2="21" stroke="#00875A" stroke-width="1.2"/>
+              <circle cx="22" cy="22" r="5" stroke="#0A0A0A" stroke-width="1.5"/>
+              <line x1="26" y1="26" x2="29" y2="29" stroke="#0A0A0A" stroke-width="1.5"/>
+            </svg>
+            <span class="tag">Compliance</span>
+            <h3 class="feature-card__title">CCPA Data Inventory</h3>
+            <p class="feature-card__desc">One-click export of all data categories processed, with retention schedules and purpose descriptions.</p>
+          </article>
+
+          <article class="feature-card feature-card--icon">
+            <!-- Shield checkmark -->
+            <svg class="feature-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+              <path d="M16 3l11 4v8c0 7-5 11-11 14-6-3-11-7-11-14V7l11-4z" stroke="#0A0A0A" stroke-width="1.5"/>
+              <path d="M11 16l4 4 7-7" stroke="#00875A" stroke-width="2" stroke-linecap="square"/>
+            </svg>
+            <span class="tag">Compliance</span>
+            <h3 class="feature-card__title">SOC 2 Type II Report</h3>
+            <p class="feature-card__desc">Our annual SOC 2 Type II report is available to enterprise customers under NDA. Controls cover availability, security, and confidentiality.</p>
+          </article>
+
+          <article class="feature-card feature-card--icon">
+            <!-- Lock with key -->
+            <svg class="feature-card__icon" viewBox="0 0 32 32" aria-hidden="true" fill="none">
+              <rect x="6" y="14" width="14" height="12" stroke="#0A0A0A" stroke-width="1.5"/>
+              <path d="M8 14V10a5 5 0 0 1 10 0v4" stroke="#0A0A0A" stroke-width="1.5"/>
+              <circle cx="25" cy="20" r="3" stroke="#00875A" stroke-width="1.5"/>
+              <line x1="22" y1="20" x2="20" y2="20" stroke="#00875A" stroke-width="1.5"/>
+              <line x1="20" y1="20" x2="20" y2="22.5" stroke="#00875A" stroke-width="1.5"/>
+            </svg>
+            <span class="tag">Compliance</span>
+            <h3 class="feature-card__title">Custom Audit Trails</h3>
+            <p class="feature-card__desc">Every configuration change, export, and access event is logged with actor, timestamp, and IP — exportable for internal audits.</p>
+          </article>
+        </div>
+
+        <div class="cta-row" style="margin-top:56px;">
+          <a class="btn btn--primary" href="enterprise.html">View Enterprise Plan</a>
+          <a class="btn btn--secondary" href="security.html">Read Security Details</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">
+        <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </span>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="enterprise.html">Enterprise</a>
+        <a href="security.html">Security</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <span class="site-footer__legal">© 2024 Nullpoint · GDPR · CCPA · SOC 2 Type II</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

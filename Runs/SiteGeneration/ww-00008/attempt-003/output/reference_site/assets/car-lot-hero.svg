@@ -1,0 +1,181 @@
+<svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" preserveAspectRatio="xMidYMax meet">
+  <defs>
+    <pattern id="stars" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#110022"/>
+      <rect x="6" y="9" width="2" height="2" fill="#FFFF00"/>
+      <rect x="22" y="3" width="2" height="2" fill="#FFFFFF"/>
+      <rect x="33" y="17" width="2" height="2" fill="#00CCFF"/>
+      <rect x="14" y="29" width="2" height="2" fill="#FF00CC"/>
+      <rect x="29" y="34" width="2" height="2" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="600" height="280" fill="url(#stars)"/>
+
+  <!-- Distant moon -->
+  <circle cx="510" cy="60" r="28" fill="#FFFF00"/>
+  <circle cx="500" cy="55" r="24" fill="#110022"/>
+
+  <!-- City silhouette -->
+  <rect x="0" y="180" width="40" height="100" fill="#220044"/>
+  <rect x="40" y="200" width="20" height="80" fill="#220044"/>
+  <rect x="60" y="160" width="36" height="120" fill="#220044"/>
+  <rect x="96" y="190" width="24" height="90" fill="#220044"/>
+  <rect x="120" y="170" width="40" height="110" fill="#220044"/>
+  <rect x="180" y="200" width="40" height="80" fill="#220044"/>
+  <rect x="540" y="180" width="60" height="100" fill="#220044"/>
+  <!-- city lights -->
+  <rect x="10" y="200" width="4" height="4" fill="#FFFF00"/>
+  <rect x="20" y="220" width="4" height="4" fill="#FFFF00"/>
+  <rect x="76" y="200" width="4" height="4" fill="#FFFF00"/>
+  <rect x="76" y="220" width="4" height="4" fill="#FF00CC"/>
+  <rect x="125" y="200" width="4" height="4" fill="#00CCFF"/>
+  <rect x="135" y="220" width="4" height="4" fill="#FFFF00"/>
+  <rect x="555" y="200" width="4" height="4" fill="#FF00CC"/>
+  <rect x="570" y="220" width="4" height="4" fill="#00CCFF"/>
+
+  <!-- String lights across top -->
+  <path d="M0 50 Q 150 100 300 50 T 600 50" fill="none" stroke="#888" stroke-width="1"/>
+  <circle cx="40" cy="68" r="4" fill="#FFFF00"/>
+  <circle cx="100" cy="80" r="4" fill="#FF00CC"/>
+  <circle cx="160" cy="78" r="4" fill="#00FF33"/>
+  <circle cx="220" cy="68" r="4" fill="#00CCFF"/>
+  <circle cx="280" cy="60" r="4" fill="#FFFF00"/>
+  <circle cx="340" cy="60" r="4" fill="#FF00CC"/>
+  <circle cx="400" cy="68" r="4" fill="#00FF33"/>
+  <circle cx="460" cy="80" r="4" fill="#00CCFF"/>
+  <circle cx="520" cy="78" r="4" fill="#FFFF00"/>
+  <circle cx="580" cy="68" r="4" fill="#FF00CC"/>
+
+  <!-- Big neon REVVLOT sign -->
+  <g transform="translate(170, 90)">
+    <rect x="-8" y="-10" width="270" height="80" fill="#110022" stroke="#888" stroke-width="2"/>
+    <text x="125" y="42" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="44" fill="#FF00CC" stroke="#00FF33" stroke-width="1.5">REVVLOT</text>
+    <text x="125" y="64" text-anchor="middle" font-family="VT323, monospace" font-size="14" fill="#FFFF00">★ HONEST USED CARS ★</text>
+    <!-- sign poles -->
+    <rect x="0" y="68" width="6" height="60" fill="#444"/>
+    <rect x="248" y="68" width="6" height="60" fill="#444"/>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="280" width="600" height="200" fill="#220033"/>
+  <!-- pavement lines -->
+  <rect x="0" y="320" width="600" height="2" fill="#440066"/>
+  <rect x="0" y="380" width="600" height="2" fill="#440066"/>
+  <rect x="0" y="440" width="600" height="2" fill="#440066"/>
+
+  <!-- Cars row 1 (back) -->
+  <g transform="translate(40, 290)">
+    <rect x="0" y="6" width="60" height="20" fill="#FF00CC"/>
+    <rect x="6" y="0" width="48" height="10" fill="#FF00CC"/>
+    <rect x="10" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="36" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="44" y="22" width="10" height="8" fill="#222"/>
+  </g>
+  <g transform="translate(120, 290)">
+    <rect x="0" y="6" width="60" height="20" fill="#00CCFF"/>
+    <rect x="6" y="0" width="48" height="10" fill="#00CCFF"/>
+    <rect x="10" y="2" width="14" height="6" fill="#FFFFCC"/>
+    <rect x="36" y="2" width="14" height="6" fill="#FFFFCC"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="44" y="22" width="10" height="8" fill="#222"/>
+  </g>
+  <g transform="translate(200, 290)">
+    <rect x="0" y="4" width="64" height="22" fill="#FFFF00"/>
+    <rect x="4" y="0" width="56" height="10" fill="#FFFF00"/>
+    <rect x="10" y="2" width="16" height="6" fill="#88CCFF"/>
+    <rect x="38" y="2" width="16" height="6" fill="#88CCFF"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="48" y="22" width="10" height="8" fill="#222"/>
+  </g>
+  <g transform="translate(284, 290)">
+    <rect x="0" y="6" width="60" height="20" fill="#00FF33"/>
+    <rect x="6" y="0" width="48" height="10" fill="#00FF33"/>
+    <rect x="10" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="36" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="44" y="22" width="10" height="8" fill="#222"/>
+  </g>
+  <g transform="translate(364, 290)">
+    <rect x="0" y="6" width="60" height="20" fill="#FF6600"/>
+    <rect x="6" y="0" width="48" height="10" fill="#FF6600"/>
+    <rect x="10" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="36" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="44" y="22" width="10" height="8" fill="#222"/>
+  </g>
+  <g transform="translate(444, 290)">
+    <rect x="0" y="6" width="60" height="20" fill="#FF0033"/>
+    <rect x="6" y="0" width="48" height="10" fill="#FF0033"/>
+    <rect x="10" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="36" y="2" width="14" height="6" fill="#88CCFF"/>
+    <rect x="6" y="22" width="10" height="8" fill="#222"/>
+    <rect x="44" y="22" width="10" height="8" fill="#222"/>
+  </g>
+
+  <!-- Cars row 2 -->
+  <g transform="translate(20, 350)">
+    <rect x="0" y="6" width="80" height="26" fill="#FFFFFF"/>
+    <rect x="8" y="0" width="64" height="12" fill="#FFFFFF"/>
+    <rect x="14" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="46" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="8" y="28" width="12" height="10" fill="#222"/>
+    <rect x="60" y="28" width="12" height="10" fill="#222"/>
+    <rect x="0" y="14" width="4" height="4" fill="#FFFF00"/>
+    <rect x="76" y="14" width="4" height="4" fill="#FFFF00"/>
+  </g>
+  <g transform="translate(130, 350)">
+    <rect x="0" y="6" width="80" height="26" fill="#0033CC"/>
+    <rect x="8" y="0" width="64" height="12" fill="#0033CC"/>
+    <rect x="14" y="2" width="20" height="8" fill="#FFCC66"/>
+    <rect x="46" y="2" width="20" height="8" fill="#FFCC66"/>
+    <rect x="8" y="28" width="12" height="10" fill="#222"/>
+    <rect x="60" y="28" width="12" height="10" fill="#222"/>
+    <rect x="0" y="14" width="4" height="4" fill="#FFFF00"/>
+    <rect x="76" y="14" width="4" height="4" fill="#FFFF00"/>
+  </g>
+  <g transform="translate(240, 350)">
+    <rect x="0" y="6" width="80" height="26" fill="#CC0066"/>
+    <rect x="8" y="0" width="64" height="12" fill="#CC0066"/>
+    <rect x="14" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="46" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="8" y="28" width="12" height="10" fill="#222"/>
+    <rect x="60" y="28" width="12" height="10" fill="#222"/>
+    <rect x="0" y="14" width="4" height="4" fill="#FFFF00"/>
+    <rect x="76" y="14" width="4" height="4" fill="#FFFF00"/>
+  </g>
+  <g transform="translate(350, 350)">
+    <rect x="0" y="6" width="80" height="26" fill="#FFCC00"/>
+    <rect x="8" y="0" width="64" height="12" fill="#FFCC00"/>
+    <rect x="14" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="46" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="8" y="28" width="12" height="10" fill="#222"/>
+    <rect x="60" y="28" width="12" height="10" fill="#222"/>
+    <rect x="0" y="14" width="4" height="4" fill="#FFFF00"/>
+    <rect x="76" y="14" width="4" height="4" fill="#FFFF00"/>
+  </g>
+  <g transform="translate(460, 350)">
+    <rect x="0" y="6" width="80" height="26" fill="#33CC33"/>
+    <rect x="8" y="0" width="64" height="12" fill="#33CC33"/>
+    <rect x="14" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="46" y="2" width="20" height="8" fill="#88CCFF"/>
+    <rect x="8" y="28" width="12" height="10" fill="#222"/>
+    <rect x="60" y="28" width="12" height="10" fill="#222"/>
+    <rect x="0" y="14" width="4" height="4" fill="#FFFF00"/>
+    <rect x="76" y="14" width="4" height="4" fill="#FFFF00"/>
+  </g>
+
+  <!-- Spotlights on ground -->
+  <ellipse cx="60" cy="450" rx="50" ry="6" fill="#FFFF00" opacity="0.18"/>
+  <ellipse cx="200" cy="450" rx="50" ry="6" fill="#FF00CC" opacity="0.18"/>
+  <ellipse cx="340" cy="450" rx="50" ry="6" fill="#00FF33" opacity="0.18"/>
+  <ellipse cx="480" cy="450" rx="50" ry="6" fill="#00CCFF" opacity="0.18"/>
+
+  <!-- Foreground "FOR SALE" mini sign -->
+  <g transform="translate(20, 410)">
+    <rect x="0" y="0" width="80" height="22" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+    <text x="40" y="16" text-anchor="middle" font-family="VT323, monospace" font-size="16" fill="#110022">FOR SALE!</text>
+  </g>
+</svg>

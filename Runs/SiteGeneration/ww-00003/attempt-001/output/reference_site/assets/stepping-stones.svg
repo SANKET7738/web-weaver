@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Modular stepping stones leading to an open horizon">
+  <!-- Horizon arcs -->
+  <circle cx="320" cy="60" r="32" fill="#4AAE8C" opacity="0.25"/>
+  <circle cx="320" cy="60" r="18" fill="#4AAE8C" opacity="0.5"/>
+  <line x1="0" y1="148" x2="360" y2="148" stroke="#E8EEF4" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Stepping bento blocks -->
+  <rect x="20" y="180" width="60" height="60" rx="14" fill="#E8EEF4"/>
+  <rect x="100" y="160" width="60" height="60" rx="14" fill="#D6F0E8"/>
+  <rect x="180" y="140" width="60" height="60" rx="14" fill="#4AAE8C" opacity="0.85"/>
+  <rect x="260" y="120" width="60" height="60" rx="14" fill="#1A2332"/>
+
+  <!-- Connection dots -->
+  <circle cx="90" cy="210" r="3" fill="#6B7A8F" opacity="0.4"/>
+  <circle cx="170" cy="190" r="3" fill="#6B7A8F" opacity="0.4"/>
+  <circle cx="250" cy="170" r="3" fill="#6B7A8F" opacity="0.4"/>
+
+  <!-- Subtle small markers -->
+  <circle cx="50" cy="210" r="6" fill="#FFFFFF"/>
+  <circle cx="130" cy="190" r="6" fill="#FFFFFF"/>
+  <circle cx="210" cy="170" r="6" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="290" cy="150" r="8" fill="#4AAE8C"/>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 280" preserveAspectRatio="xMidYMid meet">
+  <rect width="340" height="280" fill="#110022"/>
+  <!-- starry bg -->
+  <g fill="#FFFF00">
+    <rect x="20" y="20" width="2" height="2"/>
+    <rect x="60" y="40" width="2" height="2"/>
+    <rect x="120" y="14" width="2" height="2"/>
+    <rect x="280" y="30" width="2" height="2"/>
+    <rect x="300" y="50" width="2" height="2"/>
+    <rect x="200" y="22" width="2" height="2" fill="#FF00CC"/>
+  </g>
+
+  <!-- car -->
+  <g>
+    <!-- shadow -->
+    <ellipse cx="170" cy="240" rx="120" ry="8" fill="#000" opacity="0.7"/>
+    <!-- body -->
+    <rect x="50" y="180" width="240" height="50" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+    <!-- top -->
+    <rect x="90" y="140" width="160" height="42" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+    <!-- windshield -->
+    <rect x="100" y="148" width="50" height="32" fill="#00CCFF"/>
+    <rect x="158" y="148" width="40" height="32" fill="#00CCFF"/>
+    <rect x="206" y="148" width="38" height="32" fill="#00CCFF"/>
+    <!-- RESERVED placard -->
+    <rect x="120" y="120" width="100" height="22" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+    <text x="170" y="136" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="14" fill="#110022">RESERVED</text>
+    <!-- headlight -->
+    <rect x="50" y="190" width="14" height="14" fill="#FFFF00"/>
+    <rect x="276" y="190" width="14" height="14" fill="#FF0000"/>
+    <!-- wheels -->
+    <circle cx="100" cy="230" r="18" fill="#110022" stroke="#C0C0C0" stroke-width="2"/>
+    <circle cx="100" cy="230" r="6" fill="#C0C0C0"/>
+    <circle cx="240" cy="230" r="18" fill="#110022" stroke="#C0C0C0" stroke-width="2"/>
+    <circle cx="240" cy="230" r="6" fill="#C0C0C0"/>
+  </g>
+
+  <!-- Hand & key -->
+  <g transform="translate(195,40)">
+    <!-- arm/hand -->
+    <rect x="0" y="20" width="28" height="40" fill="#FFE0BD" stroke="#110022" stroke-width="2"/>
+    <rect x="0" y="56" width="40" height="14" fill="#FFE0BD" stroke="#110022" stroke-width="2"/>
+    <!-- key -->
+    <g transform="translate(40,52)">
+      <circle cx="14" cy="10" r="14" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+      <circle cx="14" cy="10" r="4" fill="#110022"/>
+      <rect x="28" y="6" width="60" height="9" fill="#FFFF00" stroke="#110022" stroke-width="2"/>
+      <rect x="74" y="14" width="6" height="8" fill="#110022"/>
+      <rect x="84" y="14" width="4" height="6" fill="#110022"/>
+    </g>
+    <!-- sparkle -->
+    <text x="80" y="20" font-family="Arial Black" font-size="22" fill="#00FF33">★</text>
+  </g>
+
+  <!-- pixel ground -->
+  <rect x="0" y="248" width="340" height="32" fill="#6600CC"/>
+  <line x1="0" y1="252" x2="340" y2="252" stroke="#00FF33" stroke-width="2"/>
+</svg>

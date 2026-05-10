@@ -1,0 +1,1018 @@
+{
+  "id": "ww-00002",
+  "version": "0.1",
+  "concept_id": "ww-00002",
+  "identity": {
+    "name": "Nullpoint",
+    "tagline": "Analytics without the exposure.",
+    "one_line_description": "Nullpoint is a privacy-first analytics platform that gives SaaS teams precise behavioral insights without collecting, storing, or selling personal data.",
+    "domain": "saas",
+    "subdomain": "privacy-first analytics platform",
+    "voice": [
+      "precise",
+      "principled",
+      "confident",
+      "direct"
+    ],
+    "target_audience": "CTOs, product managers, and data engineers at privacy-conscious SaaS companies \u2014 especially those operating under GDPR, CCPA, or HIPAA compliance requirements."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Nullpoint as the definitive privacy-first analytics platform, communicate the core value proposition immediately, build trust through proof points, and drive visitors toward a trial or demo.",
+      "meta_description": "Nullpoint gives SaaS teams actionable product analytics with zero personal data collection. GDPR-ready, cookieless, and built for compliance from day one.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver the brand promise immediately \u2014 powerful analytics that never compromises user privacy \u2014 and give visitors a clear next action.",
+          "eyebrow": "Privacy-First Product Analytics",
+          "headline": "Know your product. Protect your users.",
+          "subheadline": "Nullpoint gives your team precise behavioral insights without cookies, fingerprinting, or personal data collection. Compliance built in. No trade-offs.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Start Free Trial",
+              "target_page": "contact"
+            },
+            {
+              "label": "See All Features",
+              "target_page": "features"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A clean dashboard interface showing an analytics funnel chart with anonymized user flow paths \u2014 no names, no identifiers, only aggregate shapes and numbers",
+              "purpose": "Visually communicate the product's core promise: rich data, zero personal exposure",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Anchor credibility with hard numbers that demonstrate scale, trust, and compliance impact before the visitor scrolls deeper.",
+          "eyebrow": "By the Numbers",
+          "headline": "Trusted by teams who take privacy seriously.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "4.2 Billion",
+              "description": "Events processed monthly with zero PII stored",
+              "metadata": {}
+            },
+            {
+              "title": "99.98%",
+              "description": "Uptime SLA across all regions",
+              "metadata": {}
+            },
+            {
+              "title": "GDPR \u00b7 CCPA \u00b7 HIPAA",
+              "description": "Full compliance framework out of the box",
+              "metadata": {}
+            },
+            {
+              "title": "< 1 KB",
+              "description": "Script payload \u2014 the lightest analytics tag in its class",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Summarize the three pillars of the platform \u2014 privacy architecture, analytics depth, and developer experience \u2014 so visitors understand what differentiates Nullpoint at a glance.",
+          "eyebrow": "Why Nullpoint",
+          "headline": "Everything you need to understand your product. Nothing you shouldn't collect.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Cookieless by Design",
+              "description": "No cookies, no fingerprinting, no consent banners required. Nullpoint's sampling engine derives insights from aggregated signals, not individual identities.",
+              "metadata": {}
+            },
+            {
+              "title": "Real-Time Funnel Analysis",
+              "description": "Track conversions, drop-offs, and feature adoption as they happen \u2014 with cohort breakdowns and path analysis that rival legacy tools.",
+              "metadata": {}
+            },
+            {
+              "title": "One-Line Integration",
+              "description": "A single script tag or SDK call connects your product. SDKs for React, Vue, Node, Python, and Go ship with type-safe event schemas.",
+              "metadata": {}
+            },
+            {
+              "title": "Data Residency Control",
+              "description": "Choose EU, US, or APAC data residency. All data is encrypted in transit and at rest. You own your data \u2014 we never touch it for any other purpose.",
+              "metadata": {}
+            },
+            {
+              "title": "Audit-Ready Exports",
+              "description": "One-click compliance reports for GDPR Article 30 records, CCPA data inventories, and custom audit trails for enterprise legal teams.",
+              "metadata": {}
+            },
+            {
+              "title": "Team Workspaces",
+              "description": "Role-based access controls, shared dashboards, and annotation layers let product, engineering, and compliance teams collaborate without stepping on each other.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Explore All Features",
+              "target_page": "features"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "Provide social proof from real practitioners \u2014 product leads and compliance officers \u2014 who can validate both the analytics quality and the privacy claims.",
+          "eyebrow": "What Our Customers Say",
+          "headline": "Built for the teams who can't afford to get privacy wrong.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Maren Holst, VP of Product \u2014 Clarive Health",
+              "description": "\"We evaluated six analytics platforms. Nullpoint was the only one our legal team approved without a single revision. And the funnel data is honestly better than what we had before.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Tom\u00e1s Reyes, CTO \u2014 Formstack Labs",
+              "description": "\"The cookieless architecture removed our consent-banner headache entirely. We went from 38% consent acceptance to 100% data completeness overnight.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Priya Anand, Head of Data \u2014 Vercel-scale startup",
+              "description": "\"The SDK is the cleanest I've ever integrated. Typed events, zero config, and the dashboard was populated in under ten minutes.\"",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the page with a decisive conversion moment, giving visitors a clear path to trial or enterprise inquiry.",
+          "eyebrow": "Get Started Today",
+          "headline": "Analytics that respects your users \u2014 and your compliance team.",
+          "subheadline": "No credit card required. Full-featured 14-day trial. Cancel any time.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Start Free Trial",
+              "target_page": "contact"
+            },
+            {
+              "label": "Talk to Enterprise Sales",
+              "target_page": "enterprise"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A sparse Swiss-grid dot matrix pattern suggesting data points without forming identifiable shapes \u2014 geometric, minimal, neutral",
+              "purpose": "Provide a subtle branded background texture that reinforces the data-driven, privacy-neutral aesthetic of the platform",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "features",
+      "title": "Features",
+      "role": "overview",
+      "goal": "Give product evaluators a complete, structured view of every capability Nullpoint offers, organized by workflow \u2014 from data collection through analysis to reporting \u2014 so they can confidently assess fit.",
+      "meta_description": "Explore Nullpoint's full feature set: cookieless event tracking, real-time funnels, cohort analysis, compliance exports, and developer-first SDKs.",
+      "sections": [
+        {
+          "id": "features-section-1",
+          "type": "page_header",
+          "intent": "Set the context for a deep-dive features page and reinforce that every capability was designed with privacy as a constraint, not an afterthought.",
+          "eyebrow": "Platform Features",
+          "headline": "Every feature starts with the question: does this require personal data?",
+          "subheadline": "If the answer is yes, we find a better way. Here's what that looks like in practice.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "features-section-2",
+          "type": "feature_grid",
+          "intent": "Detail the data collection and ingestion capabilities that form the foundation of the platform.",
+          "eyebrow": "Data Collection",
+          "headline": "Capture what matters. Discard what doesn't.",
+          "subheadline": "Nullpoint's ingestion layer strips PII at the edge before data ever reaches our servers.",
+          "body": null,
+          "items": [
+            {
+              "title": "Edge-Side PII Stripping",
+              "description": "Our collection script inspects payloads at the network edge and removes any field matching known PII patterns \u2014 emails, IPs, device IDs \u2014 before transmission.",
+              "metadata": {
+                "tag": "Collection"
+              }
+            },
+            {
+              "title": "Schema-Enforced Events",
+              "description": "Define your event taxonomy once. Nullpoint rejects malformed or unexpected fields at ingest, keeping your data clean and your schema honest.",
+              "metadata": {
+                "tag": "Collection"
+              }
+            },
+            {
+              "title": "Server-Side & Client-Side SDKs",
+              "description": "Track from the browser, mobile app, or your backend. All SDKs share the same typed event model and produce identical output.",
+              "metadata": {
+                "tag": "Collection"
+              }
+            },
+            {
+              "title": "Retroactive Event Replay",
+              "description": "Updated your schema? Replay historical events through the new model without re-instrumenting your product.",
+              "metadata": {
+                "tag": "Collection"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "features-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A schematic diagram showing data flowing from a browser and server through an edge filter node that strips PII fields, then passing clean aggregated data into a warehouse icon",
+              "purpose": "Make the abstract concept of edge-side PII stripping visually concrete and trustworthy",
+              "quantity": 1,
+              "used_by": [
+                "features-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "features-section-3",
+          "type": "feature_grid",
+          "intent": "Showcase the analysis and visualization tools that make Nullpoint's insights as powerful as legacy analytics platforms.",
+          "eyebrow": "Analysis & Insights",
+          "headline": "Depth without compromise.",
+          "subheadline": "Funnel analysis, cohorts, retention curves, and path analysis \u2014 all computed on anonymized aggregates.",
+          "body": null,
+          "items": [
+            {
+              "title": "Conversion Funnels",
+              "description": "Build multi-step funnels in seconds. Filter by plan, region, or any custom property. See exactly where users drop off and why.",
+              "metadata": {
+                "tag": "Analysis"
+              }
+            },
+            {
+              "title": "Cohort Retention",
+              "description": "Group users by signup week, feature adoption, or custom segments and track how retention curves evolve over time.",
+              "metadata": {
+                "tag": "Analysis"
+              }
+            },
+            {
+              "title": "User Path Analysis",
+              "description": "Visualize the most common journeys through your product without ever knowing who took them.",
+              "metadata": {
+                "tag": "Analysis"
+              }
+            },
+            {
+              "title": "Custom Dashboards",
+              "description": "Drag-and-drop chart builder with 14 chart types. Share live dashboards with stakeholders via a read-only link \u2014 no login required.",
+              "metadata": {
+                "tag": "Analysis"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "features-section-4",
+          "type": "comparison",
+          "intent": "Directly compare Nullpoint against traditional analytics platforms to help evaluators articulate the difference to internal stakeholders.",
+          "eyebrow": "How We Compare",
+          "headline": "Legacy analytics was built before privacy mattered. We started after.",
+          "subheadline": null,
+          "body": "Most analytics platforms were architected in an era of unlimited data collection. Privacy features were bolted on later as regulatory pressure mounted. Nullpoint was designed from the ground up with the assumption that personal data should never be collected in the first place.",
+          "items": [
+            {
+              "title": "Cookieless Tracking",
+              "description": "Nullpoint: Native. No consent banner needed. Legacy platforms: Requires cookie consent, degrades with refusal.",
+              "metadata": {
+                "nullpoint": "Native",
+                "legacy": "Add-on / degraded"
+              }
+            },
+            {
+              "title": "GDPR Compliance",
+              "description": "Nullpoint: Automatic \u2014 no DPA negotiation required. Legacy platforms: Requires Data Processing Agreement and manual configuration.",
+              "metadata": {
+                "nullpoint": "Automatic",
+                "legacy": "Manual DPA required"
+              }
+            },
+            {
+              "title": "Data Ownership",
+              "description": "Nullpoint: You own your data. We never use it for modeling or advertising. Legacy platforms: Data may be used for platform-wide modeling.",
+              "metadata": {
+                "nullpoint": "Full ownership",
+                "legacy": "Shared use clauses"
+              }
+            },
+            {
+              "title": "Script Weight",
+              "description": "Nullpoint: Under 1 KB gzipped. Legacy platforms: Typically 17\u201345 KB, impacting Core Web Vitals.",
+              "metadata": {
+                "nullpoint": "< 1 KB",
+                "legacy": "17\u201345 KB"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See Security Architecture",
+              "target_page": "security"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "features-section-5",
+          "type": "feature_grid",
+          "intent": "Highlight compliance and reporting features that matter specifically to legal, finance, and executive stakeholders.",
+          "eyebrow": "Compliance & Reporting",
+          "headline": "Your compliance team will ask for this. We already built it.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "GDPR Article 30 Records",
+              "description": "Auto-generated Records of Processing Activities, updated in real time as your event schema changes.",
+              "metadata": {
+                "tag": "Compliance"
+              }
+            },
+            {
+              "title": "CCPA Data Inventory",
+              "description": "One-click export of all data categories processed, with retention schedules and purpose descriptions.",
+              "metadata": {
+                "tag": "Compliance"
+              }
+            },
+            {
+              "title": "SOC 2 Type II Report",
+              "description": "Our annual SOC 2 Type II report is available to enterprise customers under NDA. Controls cover availability, security, and confidentiality.",
+              "metadata": {
+                "tag": "Compliance"
+              }
+            },
+            {
+              "title": "Custom Audit Trails",
+              "description": "Every configuration change, export, and access event is logged with actor, timestamp, and IP \u2014 exportable for internal audits.",
+              "metadata": {
+                "tag": "Compliance"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Enterprise Plan",
+              "target_page": "enterprise"
+            },
+            {
+              "label": "Read Security Details",
+              "target_page": "security"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "features-section-5-asset-1",
+              "kind": "icon",
+              "subject": "A set of four minimal line-art icons representing: a shield with a checkmark, a document with a clock, a lock with a key, and a magnifying glass over a grid \u2014 each representing a compliance feature",
+              "purpose": "Give each compliance feature a distinct visual anchor in the grid without using photography",
+              "quantity": 1,
+              "used_by": [
+                "features-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "enterprise",
+      "title": "Enterprise",
+      "role": "conversion",
+      "goal": "Convert enterprise prospects \u2014 typically CTOs, VPs of Engineering, and procurement teams \u2014 by demonstrating that Nullpoint meets the scale, security, and contractual requirements of large organizations.",
+      "meta_description": "Nullpoint Enterprise delivers dedicated infrastructure, SSO, custom data residency, SLA guarantees, and white-glove onboarding for compliance-critical organizations.",
+      "sections": [
+        {
+          "id": "enterprise-section-1",
+          "type": "page_header",
+          "intent": "Signal immediately that this page is for enterprise buyers and that Nullpoint has invested in the infrastructure and support structures that large organizations require.",
+          "eyebrow": "Enterprise Plan",
+          "headline": "Analytics infrastructure built for organizations that can't cut corners.",
+          "subheadline": "Dedicated environments, contractual compliance guarantees, and a team that treats your deployment as a partnership \u2014 not a ticket.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request a Demo",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "enterprise-section-2",
+          "type": "feature_grid",
+          "intent": "List the enterprise-specific capabilities that differentiate the enterprise tier from self-serve plans.",
+          "eyebrow": "Enterprise Capabilities",
+          "headline": "Everything in Pro, plus the infrastructure your legal team requires.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Dedicated Cloud Environment",
+              "description": "Your data never shares infrastructure with other customers. Single-tenant deployment in your preferred cloud region.",
+              "metadata": {}
+            },
+            {
+              "title": "SAML SSO & SCIM Provisioning",
+              "description": "Integrate with Okta, Azure AD, or any SAML 2.0 provider. Automate user provisioning and deprovisioning via SCIM.",
+              "metadata": {}
+            },
+            {
+              "title": "Custom Data Residency",
+              "description": "Pin your data to a specific country or jurisdiction. Supported regions include EU (Frankfurt), US (Virginia), and APAC (Singapore).",
+              "metadata": {}
+            },
+            {
+              "title": "99.99% Uptime SLA",
+              "description": "Financially backed uptime commitment with prorated credits for any breach. Status page and incident postmortems included.",
+              "metadata": {}
+            },
+            {
+              "title": "Custom Data Retention Policies",
+              "description": "Set per-event or per-workspace retention windows from 30 days to 7 years. Automated deletion with audit confirmation.",
+              "metadata": {}
+            },
+            {
+              "title": "Dedicated Customer Success",
+              "description": "A named CSM and solutions engineer available via Slack, email, and quarterly business reviews.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "enterprise-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal architectural diagram showing a single-tenant dedicated cloud environment with labeled zones for ingestion, processing, storage, and export \u2014 connected by clean directional lines",
+              "purpose": "Help enterprise buyers visualize the isolation and control that dedicated infrastructure provides",
+              "quantity": 1,
+              "used_by": [
+                "enterprise-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "enterprise-section-3",
+          "type": "stats",
+          "intent": "Reinforce enterprise credibility with scale and trust metrics that resonate with procurement and engineering leadership.",
+          "eyebrow": "Enterprise Scale",
+          "headline": "Built for the demands of production at scale.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "500+",
+              "description": "Enterprise customers across 34 countries",
+              "metadata": {}
+            },
+            {
+              "title": "10 Billion+",
+              "description": "Events ingested per month at peak enterprise load",
+              "metadata": {}
+            },
+            {
+              "title": "< 50 ms",
+              "description": "P99 ingestion latency at full throughput",
+              "metadata": {}
+            },
+            {
+              "title": "24 / 7 / 365",
+              "description": "Dedicated support coverage for Enterprise tier",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "enterprise-section-4",
+          "type": "timeline",
+          "intent": "Reduce procurement anxiety by showing exactly what the enterprise onboarding process looks like \u2014 making the path from contract to production feel predictable and well-supported.",
+          "eyebrow": "Onboarding Process",
+          "headline": "From signed contract to production data in 14 days.",
+          "subheadline": "Our enterprise onboarding is a structured program, not a help-center link.",
+          "body": null,
+          "items": [
+            {
+              "title": "Day 1\u20132: Environment Provisioning",
+              "description": "Dedicated infrastructure spun up in your chosen region. SSO configured. Admin accounts created.",
+              "metadata": {
+                "phase": "1"
+              }
+            },
+            {
+              "title": "Day 3\u20135: Schema Workshop",
+              "description": "Your solutions engineer runs a half-day event taxonomy workshop with your product and engineering teams.",
+              "metadata": {
+                "phase": "2"
+              }
+            },
+            {
+              "title": "Day 6\u201310: Integration & QA",
+              "description": "SDK integration with guided code review. Event validation in staging. QA sign-off from Nullpoint engineering.",
+              "metadata": {
+                "phase": "3"
+              }
+            },
+            {
+              "title": "Day 11\u201313: Dashboard Build",
+              "description": "We build your first five dashboards from your KPI list. Your team is trained on the builder.",
+              "metadata": {
+                "phase": "4"
+              }
+            },
+            {
+              "title": "Day 14: Go Live",
+              "description": "Production launch with live monitoring. Your CSM on call for the first 48 hours.",
+              "metadata": {
+                "phase": "5"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Request a Demo",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "enterprise-section-5",
+          "type": "cta",
+          "intent": "Close the enterprise page with a direct invitation to engage sales \u2014 framed as a conversation, not a form.",
+          "eyebrow": "Let's Talk",
+          "headline": "Your compliance requirements are not a problem. They're our specialty.",
+          "subheadline": "Talk to an enterprise solutions engineer who understands GDPR, HIPAA, and the difference between data minimization and data loss.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Request Enterprise Demo",
+              "target_page": "contact"
+            },
+            {
+              "label": "Download Security Overview",
+              "target_page": "security"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "enterprise-section-5-asset-1",
+              "kind": "mockup",
+              "subject": "A minimal wireframe mockup of the Nullpoint enterprise dashboard showing a multi-workspace sidebar, a live event stream panel, and a compliance status widget \u2014 all with anonymized placeholder data",
+              "purpose": "Give enterprise prospects a tangible preview of the product experience before they commit to a demo",
+              "quantity": 1,
+              "used_by": [
+                "enterprise-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "title": "Security",
+      "role": "editorial",
+      "goal": "Provide a thorough, transparent account of Nullpoint's security architecture, certifications, and data governance practices \u2014 written for technical and legal evaluators who need evidence, not marketing language.",
+      "meta_description": "Nullpoint's security architecture: SOC 2 Type II certified, end-to-end encryption, zero PII storage, pen-tested annually, and compliant with GDPR, CCPA, and HIPAA.",
+      "sections": [
+        {
+          "id": "security-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for a technically credible, evidence-based page that treats security as a discipline, not a marketing claim.",
+          "eyebrow": "Security & Trust",
+          "headline": "Security is not a feature. It is the architecture.",
+          "subheadline": "This page documents how Nullpoint is built, audited, and operated \u2014 so your security team can evaluate us on facts.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "security-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A layered security stack diagram showing five horizontal bands labeled: Edge (PII stripping), Transit (TLS 1.3), Storage (AES-256), Access (RBAC/SSO), and Audit (immutable logs) \u2014 in a clean Swiss-grid style",
+              "purpose": "Give technical evaluators an immediate visual model of the security architecture before they read the detail",
+              "quantity": 1,
+              "used_by": [
+                "security-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "security-section-2",
+          "type": "feature_grid",
+          "intent": "Document the core infrastructure security controls that protect data at every layer.",
+          "eyebrow": "Infrastructure Security",
+          "headline": "Defense in depth, from the edge to the archive.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "TLS 1.3 Everywhere",
+              "description": "All data in transit is encrypted with TLS 1.3. We enforce HSTS and reject connections from clients that cannot support modern cipher suites.",
+              "metadata": {}
+            },
+            {
+              "title": "AES-256 At Rest",
+              "description": "All stored data is encrypted with AES-256. Encryption keys are managed by a dedicated KMS with automatic 90-day rotation.",
+              "metadata": {}
+            },
+            {
+              "title": "Zero-Trust Network Architecture",
+              "description": "Internal services communicate over mTLS. No service has implicit trust. Every request is authenticated and authorized independently.",
+              "metadata": {}
+            },
+            {
+              "title": "Immutable Audit Logs",
+              "description": "All system and user actions are written to an append-only, cryptographically signed audit log. Logs cannot be modified or deleted by any user, including admins.",
+              "metadata": {}
+            },
+            {
+              "title": "Annual Penetration Testing",
+              "description": "We contract an independent third-party firm for full-scope penetration testing every year. Executive summaries are available to enterprise customers under NDA.",
+              "metadata": {}
+            },
+            {
+              "title": "Vulnerability Disclosure Program",
+              "description": "Our responsible disclosure program is open to all researchers. Critical findings are triaged within 24 hours and patched within 72 hours.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "security-section-3",
+          "type": "item_grid",
+          "intent": "List all certifications, compliance frameworks, and regulatory standards that Nullpoint has achieved or maintains.",
+          "eyebrow": "Certifications & Compliance",
+          "headline": "Audited, certified, and verifiable.",
+          "subheadline": "We don't self-certify. Every claim on this page is backed by a third-party audit or a legal opinion.",
+          "body": null,
+          "items": [
+            {
+              "title": "SOC 2 Type II",
+              "description": "Annual audit covering Security, Availability, and Confidentiality trust service criteria. Report available to enterprise customers under NDA.",
+              "metadata": {
+                "status": "Certified",
+                "renewed": "Annually"
+              }
+            },
+            {
+              "title": "GDPR",
+              "description": "Nullpoint operates as a Data Processor under GDPR Article 28. Our DPA is pre-signed and available for immediate download. No negotiations required for standard terms.",
+              "metadata": {
+                "status": "Compliant",
+                "region": "EU"
+              }
+            },
+            {
+              "title": "CCPA",
+              "description": "We qualify as a Service Provider under CCPA. We do not sell or share personal information. Our CCPA addendum is included in all customer agreements.",
+              "metadata": {
+                "status": "Compliant",
+                "region": "California"
+              }
+            },
+            {
+              "title": "HIPAA",
+              "description": "Enterprise customers in healthcare can execute a Business Associate Agreement (BAA). Our infrastructure meets HIPAA Technical Safeguard requirements.",
+              "metadata": {
+                "status": "BAA Available",
+                "region": "US"
+              }
+            },
+            {
+              "title": "ISO 27001",
+              "description": "Nullpoint is currently pursuing ISO 27001 certification. Gap analysis is complete and Stage 1 audit is scheduled for Q3.",
+              "metadata": {
+                "status": "In Progress",
+                "expected": "Q4"
+              }
+            },
+            {
+              "title": "Privacy Shield Successor (DPF)",
+              "description": "Nullpoint is certified under the EU-US Data Privacy Framework, enabling lawful transatlantic data transfers without Standard Contractual Clauses.",
+              "metadata": {
+                "status": "Certified",
+                "region": "EU\u2013US"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "security-section-3-asset-1",
+              "kind": "icon",
+              "subject": "A set of six minimal badge-style icons, each representing a certification or compliance framework: SOC 2, GDPR, CCPA, HIPAA, ISO 27001, and DPF \u2014 rendered as clean geometric seals",
+              "purpose": "Give each certification a distinct visual identity that communicates authority and verifiability",
+              "quantity": 1,
+              "used_by": [
+                "security-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "security-section-4",
+          "type": "story_block",
+          "intent": "Explain the privacy architecture philosophy in plain language \u2014 written for legal and executive readers who want to understand the principle, not just the controls.",
+          "eyebrow": "Our Privacy Philosophy",
+          "headline": "We built Nullpoint on a simple premise: the best way to protect user data is to never collect it.",
+          "subheadline": null,
+          "body": "Most analytics companies approach privacy as a compliance problem \u2014 a set of rules to satisfy while collecting as much data as possible. We approached it as a design constraint. If a feature requires personal data, we ask whether there is a privacy-preserving alternative that delivers equivalent insight. In most cases, there is. Differential privacy, k-anonymity thresholds, and aggregate-only APIs are not afterthoughts at Nullpoint \u2014 they are the foundation. The result is a platform where your users' privacy is protected not by policy, but by architecture. You cannot leak what you never collected.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Read Our Privacy Policy",
+              "target_page": null
+            },
+            {
+              "label": "Download Our DPA",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "security-section-5",
+          "type": "cta",
+          "intent": "Convert security-page visitors \u2014 who are typically deep in evaluation \u2014 into enterprise conversations or trial signups.",
+          "eyebrow": "Ready to Evaluate?",
+          "headline": "Send us your security questionnaire. We'll fill it out.",
+          "subheadline": "Our security team responds to vendor questionnaires within 2 business days. Enterprise prospects can request a dedicated security review call.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Contact Security Team",
+              "target_page": "contact"
+            },
+            {
+              "label": "View Enterprise Plan",
+              "target_page": "enterprise"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Give visitors a clear, low-friction path to reach the right team \u2014 whether they are starting a trial, requesting an enterprise demo, or submitting a security inquiry \u2014 without making them feel like a lead.",
+      "meta_description": "Get in touch with Nullpoint. Start a free trial, request an enterprise demo, or reach our security team directly.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a direct, respectful tone for the contact page \u2014 no hype, just clarity about who to reach and how.",
+          "eyebrow": "Get in Touch",
+          "headline": "The right person will read this.",
+          "subheadline": "We route every inquiry to a human who can actually help \u2014 not a support queue. Typical response time is under 4 hours on business days.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "item_grid",
+          "intent": "Give visitors a clear map of the different contact paths available so they can self-select the right route without confusion.",
+          "eyebrow": "Contact Options",
+          "headline": "Choose the path that fits your situation.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Start a Free Trial",
+              "description": "No credit card. No sales call required. Sign up and have your first events flowing in under 15 minutes. Our onboarding sequence will guide you.",
+              "metadata": {
+                "route": "self-serve",
+                "response": "Instant"
+              }
+            },
+            {
+              "title": "Request an Enterprise Demo",
+              "description": "A 45-minute live demo with a solutions engineer tailored to your stack, compliance requirements, and team structure. Available in all time zones.",
+              "metadata": {
+                "route": "sales",
+                "response": "Within 4 hours"
+              }
+            },
+            {
+              "title": "Security & Compliance Inquiry",
+              "description": "Send your vendor security questionnaire, request our SOC 2 report, or schedule a security review call with our infrastructure team.",
+              "metadata": {
+                "route": "security",
+                "response": "Within 2 business days"
+              }
+            },
+            {
+              "title": "Partner & Integration Inquiry",
+              "description": "Building an integration, a plugin, or a co-marketing opportunity? Reach our partnerships team directly.",
+              "metadata": {
+                "route": "partnerships",
+                "response": "Within 5 business days"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "contact_block",
+          "intent": "Present the primary contact form with clear field labels and routing logic so visitors can reach the right team with minimal effort.",
+          "eyebrow": "Send a Message",
+          "headline": "Tell us what you need.",
+          "subheadline": "Select your inquiry type and we'll route your message to the right team automatically.",
+          "body": null,
+          "items": [
+            {
+              "title": "Full Name",
+              "description": "Your first and last name.",
+              "metadata": {
+                "field_type": "text",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Work Email",
+              "description": "We respond to work emails only. Personal email addresses may delay routing.",
+              "metadata": {
+                "field_type": "email",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Company Name",
+              "description": "The organization you represent.",
+              "metadata": {
+                "field_type": "text",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Inquiry Type",
+              "description": "Trial, Enterprise Demo, Security Review, or Partnership.",
+              "metadata": {
+                "field_type": "select",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Message",
+              "description": "Tell us about your use case, team size, compliance requirements, or anything else that helps us prepare.",
+              "metadata": {
+                "field_type": "textarea",
+                "required": "false"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send Message",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "story_block",
+          "intent": "Humanize the brand at the point of contact by showing the team behind Nullpoint \u2014 reinforcing that real experts, not bots, handle inquiries.",
+          "eyebrow": "Who You're Talking To",
+          "headline": "Our team has shipped analytics infrastructure at companies you've heard of.",
+          "subheadline": null,
+          "body": "Nullpoint was founded by engineers and privacy lawyers who spent years watching analytics platforms extract more data than they needed and explain it away in terms of service. We built the platform we wished existed. When you contact us, you're talking to people who have debugged GDPR DPAs, written SOC 2 control matrices, and argued about k-anonymity thresholds at 11pm. We take your compliance requirements seriously because we've lived them.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-4-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal Swiss-grid style illustration of three abstract human silhouettes at a shared workspace \u2014 geometric, genderless, no facial features \u2014 suggesting a small expert team",
+              "purpose": "Add human warmth to the contact page without using photography, reinforcing that real people respond to inquiries",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-5",
+          "type": "faq",
+          "intent": "Pre-empt the most common questions that arise at the contact stage to reduce friction and increase form submission confidence.",
+          "eyebrow": "Common Questions",
+          "headline": "Before you hit send.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do I need a credit card to start a trial?",
+              "description": "No. The 14-day trial is fully featured and requires only a work email address. You will not be charged unless you explicitly upgrade.",
+              "metadata": {}
+            },
+            {
+              "title": "How long does an enterprise evaluation take?",
+              "description": "Most enterprise evaluations run 3\u20134 weeks from first demo to signed contract. We provide a dedicated sandbox environment and a security package on day one.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I get your SOC 2 report before signing anything?",
+              "description": "Yes. We provide our SOC 2 Type II executive summary under a standard mutual NDA. Full report access is included in the enterprise evaluation package.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you offer volume discounts for high-event-volume customers?",
+              "description": "Yes. Enterprise pricing is based on monthly event volume with tiered discounts. Our solutions engineers will model pricing against your current or projected usage.",
+              "metadata": {}
+            },
+            {
+              "title": "What happens to my data if I cancel?",
+              "description": "You have 30 days after cancellation to export all your data via our API or dashboard. After 30 days, all data is permanently and verifiably deleted. You receive a deletion certificate.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-5-asset-1",
+              "kind": "icon",
+              "subject": "A minimal question-mark icon rendered as a clean geometric glyph in Swiss-modern style \u2014 suitable as a section marker for the FAQ block",
+              "purpose": "Provide a lightweight visual anchor for the FAQ section without adding decorative weight",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

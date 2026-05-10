@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nullpoint</title>
+  <meta name="description" content="Get in touch with Nullpoint. Start a free trial, request an enterprise demo, or reach our security team directly.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="contact">
+
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Nullpoint home">
+        <svg class="nav__logo-mark" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav__links" id="primary-nav" aria-label="Primary">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="features.html">Features</a>
+        <a class="nav__link" href="enterprise.html">Enterprise</a>
+        <a class="nav__link" href="security.html">Security</a>
+        <a class="nav__link is-active" href="contact.html">Contact</a>
+        <a class="nav__cta" href="#contact-section-3">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- PAGE HEADER ======================================= -->
+    <section id="contact-section-1" data-section-type="page_header" class="page-header">
+      <div class="container">
+        <p class="eyebrow">Get In Touch</p>
+        <h1 class="page-header__headline page-header__headline--xl" style="max-width:720px; font-size:64px;">The right person will read this.</h1>
+        <p class="subheadline" style="max-width:560px;">We route every inquiry to a human who can actually help — not a support queue. Typical response time is under 4 hours on business days.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT OPTIONS =================================== -->
+    <section id="contact-section-2" data-section-type="item_grid" class="section section--mist">
+      <div class="container">
+        <p class="eyebrow eyebrow--slate">Contact Options</p>
+        <h2 class="headline-section" style="margin-top:8px; max-width:680px; font-size:42px;">Choose the path that fits your situation.</h2>
+
+        <div class="contact-options">
+          <article class="option-card">
+            <h3 class="option-card__title">Start a Free Trial</h3>
+            <p class="option-card__desc">No credit card. No sales call required. Sign up and have your first events flowing in under 15 minutes. Our onboarding sequence will guide you.</p>
+            <div class="option-card__meta">
+              <span class="meta-pill">Route: Self-serve</span>
+              <span class="meta-pill meta-pill--verified">Response: Instant</span>
+            </div>
+            <span class="option-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="option-card">
+            <h3 class="option-card__title">Request an Enterprise Demo</h3>
+            <p class="option-card__desc">A 45-minute live demo with a solutions engineer tailored to your stack, compliance requirements, and team structure. Available in all time zones.</p>
+            <div class="option-card__meta">
+              <span class="meta-pill">Route: Sales</span>
+              <span class="meta-pill meta-pill--verified">Response: Within 4 hours</span>
+            </div>
+            <span class="option-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="option-card">
+            <h3 class="option-card__title">Security &amp; Compliance Inquiry</h3>
+            <p class="option-card__desc">Send your vendor security questionnaire, request our SOC 2 report, or schedule a security review call with our infrastructure team.</p>
+            <div class="option-card__meta">
+              <span class="meta-pill">Route: Security</span>
+              <span class="meta-pill meta-pill--verified">Response: Within 2 business days</span>
+            </div>
+            <span class="option-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="option-card">
+            <h3 class="option-card__title">Partner &amp; Integration Inquiry</h3>
+            <p class="option-card__desc">Building an integration, a plugin, or a co-marketing opportunity? Reach our partnerships team directly.</p>
+            <div class="option-card__meta">
+              <span class="meta-pill">Route: Partnerships</span>
+              <span class="meta-pill">Response: Within 5 business days</span>
+            </div>
+            <span class="option-card__arrow" aria-hidden="true">→</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM ====================================== -->
+    <section id="contact-section-3" data-section-type="contact_block" class="contact-form-section">
+      <div class="container">
+        <div class="contact-form-grid">
+          <div>
+            <p class="eyebrow">Send a Message</p>
+            <h2 class="headline-section" style="margin-top:8px; font-size:42px;">Tell us what you need.</h2>
+            <p class="subheadline" style="max-width:480px; font-size:16px;">Select your inquiry type and we'll route your message to the right team automatically.</p>
+
+            <form class="contact-form" novalidate>
+              <div class="form-field">
+                <label for="full-name">Full Name <span class="req">*</span></label>
+                <input type="text" id="full-name" name="full_name" placeholder="Your first and last name">
+              </div>
+              <div class="form-field">
+                <label for="work-email">Work Email <span class="req">*</span></label>
+                <input type="email" id="work-email" name="work_email" placeholder="you@company.com">
+                <span class="form-help">We respond to work emails only.</span>
+              </div>
+              <div class="form-field">
+                <label for="company">Company Name <span class="req">*</span></label>
+                <input type="text" id="company" name="company" placeholder="The organization you represent">
+              </div>
+              <div class="form-field">
+                <label for="inquiry">Inquiry Type <span class="req">*</span></label>
+                <select id="inquiry" name="inquiry">
+                  <option value="">Select one…</option>
+                  <option value="trial">Trial</option>
+                  <option value="enterprise">Enterprise Demo</option>
+                  <option value="security">Security Review</option>
+                  <option value="partnership">Partnership</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your use case, team size, compliance requirements…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">Send Message</button>
+            </form>
+          </div>
+
+          <aside class="trust-sidebar" aria-label="Trust & response info">
+            <div>
+              <p class="trust-sidebar__label">Why we ask for your work email</p>
+              <p class="trust-sidebar__text">Work emails route to the right inbox automatically. Personal emails are deprioritized but still answered.</p>
+            </div>
+            <hr>
+            <div>
+              <p class="trust-sidebar__label">Response Times</p>
+              <ul class="trust-sidebar__list">
+                <li>Trial <span class="sla">Instant</span></li>
+                <li>Enterprise Demo <span class="sla">4 hrs</span></li>
+                <li>Security <span class="sla">2 days</span></li>
+                <li>Partnership <span class="sla">5 days</span></li>
+              </ul>
+            </div>
+            <hr>
+            <div>
+              <p class="trust-sidebar__label">Your Data</p>
+              <p class="trust-sidebar__text"><span class="trust-sidebar__shield" aria-hidden="true">✦</span> This form is not tracked. We collect only what you type here.</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM STORY (DARK) ================================= -->
+    <section id="contact-section-4" data-section-type="story_block" class="story-dark">
+      <div class="container">
+        <div class="story-dark__grid">
+          <div>
+            <p class="eyebrow">Who You're Talking To</p>
+            <h2 class="story-dark__head">Our team has shipped analytics infrastructure at companies you've heard of.</h2>
+            <p class="story-dark__body">Nullpoint was founded by engineers and privacy lawyers who spent years watching analytics platforms extract more data than they needed and explain it away in terms of service. We built the platform we wished existed. When you contact us, you're talking to people who have debugged GDPR DPAs, written SOC 2 control matrices, and argued about k-anonymity thresholds at 11pm. We take your compliance requirements seriously because we've lived them.</p>
+          </div>
+
+          <!-- Three abstract figures -->
+          <svg viewBox="0 0 380 240" aria-label="Abstract Swiss-grid illustration of three team members at a workspace" style="max-width:100%; width:380px; justify-self:center;">
+            <!-- Workspace surface -->
+            <line x1="20" y1="190" x2="360" y2="190" stroke="#F5F5F5" stroke-width="1.5"/>
+            <!-- Figure 1 -->
+            <g stroke="#F5F5F5" stroke-width="1.5" fill="none">
+              <circle cx="80" cy="90" r="18"/>
+              <path d="M62 130 L62 190 M98 130 L98 190 M62 130 L98 130 Z"/>
+              <rect x="58" y="125" width="44" height="6" fill="#F5F5F5"/>
+            </g>
+            <!-- Figure 2 (with red accent monitor) -->
+            <g stroke="#F5F5F5" stroke-width="1.5" fill="none">
+              <circle cx="190" cy="80" r="18"/>
+              <path d="M170 120 L170 190 M210 120 L210 190 M170 120 L210 120 Z"/>
+              <rect x="166" y="115" width="48" height="6" fill="#F5F5F5"/>
+            </g>
+            <!-- Monitor (Signal accent) -->
+            <rect x="175" y="138" width="30" height="20" fill="#E5001A"/>
+            <line x1="190" y1="158" x2="190" y2="170" stroke="#E5001A" stroke-width="1.5"/>
+            <!-- Figure 3 -->
+            <g stroke="#F5F5F5" stroke-width="1.5" fill="none">
+              <circle cx="300" cy="90" r="18"/>
+              <path d="M282 130 L282 190 M318 130 L318 190 M282 130 L318 130 Z"/>
+              <rect x="278" y="125" width="44" height="6" fill="#F5F5F5"/>
+            </g>
+            <!-- Floor reference grid -->
+            <line x1="20" y1="210" x2="360" y2="210" stroke="#4A4A4A" stroke-width="1"/>
+            <line x1="20" y1="220" x2="360" y2="220" stroke="#4A4A4A" stroke-width="1" stroke-dasharray="2,4"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ =============================================== -->
+    <section id="contact-section-5" data-section-type="faq" class="section section--white">
+      <div class="container">
+        <div class="faq-grid">
+          <div class="faq-grid__label">
+            <p class="eyebrow eyebrow--slate">Common Questions</p>
+            <h2 class="headline-section headline-section--sm" style="margin-top:8px;">Before you hit send.</h2>
+            <!-- Geometric question mark -->
+            <svg class="faq-grid__icon" viewBox="0 0 48 48" aria-hidden="true" fill="none">
+              <path d="M14 16c0-6 5-9 10-9s10 3 10 9c0 6-7 7-10 11v4" stroke="#E5001A" stroke-width="3" stroke-linecap="square"/>
+              <rect x="22" y="38" width="4" height="4" fill="#E5001A"/>
+            </svg>
+          </div>
+
+          <div class="faq-list">
+            <article class="faq-item">
+              <h3 class="faq-item__q">Do I need a credit card to start a trial?</h3>
+              <p class="faq-item__a">No. The 14-day trial is fully featured and requires only a work email address. You will not be charged unless you explicitly upgrade.</p>
+              <span class="faq-item__plus" aria-hidden="true">+</span>
+            </article>
+            <article class="faq-item">
+              <h3 class="faq-item__q">How long does an enterprise evaluation take?</h3>
+              <p class="faq-item__a">Most enterprise evaluations run 3–4 weeks from first demo to signed contract. We provide a dedicated sandbox environment and a security package on day one.</p>
+              <span class="faq-item__plus" aria-hidden="true">+</span>
+            </article>
+            <article class="faq-item">
+              <h3 class="faq-item__q">Can I get your SOC 2 report before signing anything?</h3>
+              <p class="faq-item__a">Yes. We provide our SOC 2 Type II executive summary under a standard mutual NDA. Full report access is included in the enterprise evaluation package.</p>
+              <span class="faq-item__plus" aria-hidden="true">+</span>
+            </article>
+            <article class="faq-item">
+              <h3 class="faq-item__q">Do you offer volume discounts for high-event-volume customers?</h3>
+              <p class="faq-item__a">Yes. Enterprise pricing is based on monthly event volume with tiered discounts. Our solutions engineers will model pricing against your current or projected usage.</p>
+              <span class="faq-item__plus" aria-hidden="true">+</span>
+            </article>
+            <article class="faq-item">
+              <h3 class="faq-item__q">What happens to my data if I cancel?</h3>
+              <p class="faq-item__a">You have 30 days after cancellation to export all your data via our API or dashboard. After 30 days, all data is permanently and verifiably deleted. You receive a deletion certificate.</p>
+              <span class="faq-item__plus" aria-hidden="true">+</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">
+        <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </span>
+      <nav class="site-footer__links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="enterprise.html">Enterprise</a>
+        <a href="security.html">Security</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <span class="site-footer__legal">© 2024 Nullpoint · GDPR · CCPA · SOC 2 Type II</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

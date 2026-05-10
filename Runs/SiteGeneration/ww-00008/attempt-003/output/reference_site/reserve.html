@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserve Your Car — RevvLot</title>
+<meta name="description" content="Reserve your RevvLot vehicle with a fully refundable $99 hold. Lock in your car today and complete the purchase on your timeline — no pressure, no commitment.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="reserve">
+
+<div class="under-construction-strip">★ ★ ★ Best viewed in Netscape Navigator 4.0 — RevvLot.com © 1998–Forever ★ ★ ★</div>
+
+<header class="site-nav">
+  <div class="site-nav__bar">
+    <a href="index.html" class="site-nav__brand">REVV<span class="dot">·</span>LOT</a>
+    <nav class="site-nav__links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="product.html">Browse Inventory</a>
+      <a href="specs.html">Vehicle Specs</a>
+      <a href="gallery.html">Photo Gallery</a>
+      <a href="reserve.html" class="is-active">Reserve</a>
+    </nav>
+    <div class="site-nav__counter" data-hit-counter="847291">00847291</div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="reserve-section-1" data-section-type="page_header" class="reserve-hero">
+  <div class="container reserve-hero__inner">
+    <div class="reserve-hero__copy">
+      <span class="eyebrow-pixel">You're Almost There</span>
+      <h1>LOCK IT IN.<span class="line2">THE LOT WON'T WAIT.</span></h1>
+      <p class="reserve-hero__sub">Your $99 hold is fully refundable. No commitment until you're ready to close.</p>
+    </div>
+    <div class="reserve-hero__art">
+      <object type="image/svg+xml" data="assets/reserve-art.svg" aria-label="Pixel art reserved car with key"></object>
+    </div>
+  </div>
+</section>
+
+<hr class="rainbow-rule">
+
+<!-- STORY BLOCK / RECAP -->
+<section id="reserve-section-2" data-section-type="story_block" class="reserve-story">
+  <div class="container">
+    <span class="eyebrow-pixel">Your Selected Vehicle</span>
+    <div class="recap-card">
+      <span class="badge88 recap-card__sticker" style="background:var(--honk);border-color:var(--magenta);color:var(--midnight)">GRADE A INSPECTED</span>
+      <h3>2020 Honda Civic EX — Lunar Silver Metallic</h3>
+      <div class="recap-card__sub">42,000 Miles · $18,400 · Denver, CO</div>
+      <p class="recap-card__body">You're reserving this 1-owner, Grade A inspected Civic EX. Your $99 hold takes it off the market immediately. We'll reach out within 2 business hours to confirm next steps. If you change your mind for any reason, your $99 is refunded in full — no questions asked.</p>
+      <div class="recap-table">
+        <div class="recap-row">
+          <span class="recap-row__label">Reservation Hold</span>
+          <span class="recap-row__val">$99 — Fully refundable at any time before closing</span>
+        </div>
+        <div class="recap-row">
+          <span class="recap-row__label">Vehicle Price</span>
+          <span class="recap-row__val"><span class="price-chip">$18,400</span> Market-validated, no hidden fees</span>
+        </div>
+        <div class="recap-row">
+          <span class="recap-row__label">Estimated Total</span>
+          <span class="recap-row__val">$19,640 — Final figure confirmed at closing based on your location</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span class="star">★</span> YOUR HOLD IS FULLY REFUNDABLE <span class="star">★</span> NO COMMITMENT REQUIRED <span class="star">★</span> SECURE SSL PAYMENT <span class="star">★</span> ADVISOR ASSIGNED WITHIN 2 HOURS <span class="star">★</span> YOUR HOLD IS FULLY REFUNDABLE <span class="star">★</span>
+  </div>
+</div>
+
+<hr class="rainbow-rule rainbow-rule--thin">
+
+<!-- CONTACT FORM -->
+<section id="reserve-section-3" data-section-type="contact_block" class="reserve-form-section">
+  <div class="container">
+    <span class="eyebrow-pixel sky">Step 1 of 2 — Your Info</span>
+    <div class="reserve-tabs" aria-hidden="true">
+      <span class="reserve-tab">STEP 1 — YOUR INFO</span>
+      <span class="reserve-tab is-inactive">STEP 2 — PAYMENT</span>
+    </div>
+    <div class="reserve-form-grid">
+      <div class="col-left">
+        <h2>Tell Us Who You Are</h2>
+        <p>We'll use this to confirm your reservation and connect you with your dedicated RevvLot advisor.</p>
+        <form class="reserve-form-panel" onsubmit="event.preventDefault(); return false;">
+          <div class="form-group">
+            <label for="rv-name">Full Name</label>
+            <span class="hint">First and last name as it appears on your ID</span>
+            <input id="rv-name" type="text" placeholder="Jane Driver">
+          </div>
+          <div class="form-group">
+            <label for="rv-email">Email Address</label>
+            <span class="hint">Reservation confirmation will be sent here</span>
+            <input id="rv-email" type="email" placeholder="jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="rv-phone">Phone Number</label>
+            <span class="hint">Your advisor will call or text within 2 business hours</span>
+            <input id="rv-phone" type="tel" placeholder="(555) 555-1234">
+          </div>
+          <div class="form-group">
+            <label for="rv-method">Preferred Contact Method</label>
+            <span class="hint">Call, text, or email — your choice</span>
+            <select id="rv-method">
+              <option>Phone Call</option>
+              <option>Text Message</option>
+              <option>Email</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Financing Needed?</label>
+            <span class="hint">Let us know if you'd like RevvLot financing options or if you're paying cash or using your own lender</span>
+            <div class="form-radio-group">
+              <label><input type="radio" name="financing" checked> RevvLot financing</label>
+              <label><input type="radio" name="financing"> Cash purchase</label>
+              <label><input type="radio" name="financing"> Outside lender</label>
+            </div>
+          </div>
+          <button type="submit" class="form-submit">🔒 Continue to Payment — $99 Hold</button>
+        </form>
+      </div>
+      <aside class="trust-sidebar">
+        <h4>Why It's Safe to Reserve</h4>
+        <ul>
+          <li>$99 is 100% refundable</li>
+          <li>No purchase obligation</li>
+          <li>Bank-level SSL encryption</li>
+          <li>Advisor in 2 business hours</li>
+        </ul>
+        <span class="badge88 badge88--ssl" style="align-self:center">SECURE CHECKOUT</span>
+        <div class="trust-sidebar__counter">VISITORS TODAY: <span data-hit-counter="847">00000847</span></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<hr class="rainbow-rule rainbow-rule--thin">
+
+<!-- GUARANTEE -->
+<section id="reserve-section-4" data-section-type="feature_grid" class="reserve-guarantee">
+  <div class="container">
+    <span class="eyebrow-pixel grape">Why You Can Reserve With Confidence</span>
+    <h2>The RevvLot Guarantee</h2>
+    <hr class="rainbow-rule rainbow-rule--thin">
+    <div class="guarantee-grid">
+      <article class="guarantee-card">
+        <svg class="guarantee-card__icon" viewBox="0 0 48 48">
+          <path d="M24 4 l16 6 l0 14 c0 10 -8 18 -16 20 c-8 -2 -16 -10 -16 -20 l0 -14z" fill="#FFFF00" stroke="#6600CC" stroke-width="2"/>
+          <path d="M16 24 l6 6 l12 -12" stroke="#6600CC" stroke-width="3" fill="none"/>
+        </svg>
+        <h3 class="guarantee-card__title">100% Refundable Hold</h3>
+        <p class="guarantee-card__desc">Changed your mind? Get your $99 back instantly, no forms, no runaround, no awkward calls.</p>
+      </article>
+      <article class="guarantee-card">
+        <svg class="guarantee-card__icon" viewBox="0 0 48 48">
+          <path d="M4 24 l8 -8 l8 4 l8 -4 l8 4 l8 -4 l0 16 l-40 0z" fill="#FFFF00" stroke="#6600CC" stroke-width="2"/>
+          <line x1="20" y1="24" x2="28" y2="24" stroke="#6600CC" stroke-width="3"/>
+          <circle cx="20" cy="24" r="2" fill="#6600CC"/>
+          <circle cx="28" cy="24" r="2" fill="#6600CC"/>
+        </svg>
+        <h3 class="guarantee-card__title">No Obligation to Buy</h3>
+        <p class="guarantee-card__desc">A reservation is not a purchase. You have full control over the timeline and final decision.</p>
+      </article>
+      <article class="guarantee-card">
+        <svg class="guarantee-card__icon" viewBox="0 0 48 48">
+          <rect x="10" y="20" width="28" height="22" fill="#FFFF00" stroke="#6600CC" stroke-width="2"/>
+          <path d="M16 20 l0 -6 a8 8 0 0 1 16 0 l0 6" fill="none" stroke="#6600CC" stroke-width="3"/>
+          <circle cx="24" cy="30" r="3" fill="#6600CC"/>
+          <rect x="22" y="32" width="4" height="6" fill="#6600CC"/>
+          <rect x="36" y="6" width="8" height="8" fill="#FF00CC" stroke="#110022" stroke-width="2"/>
+        </svg>
+        <h3 class="guarantee-card__title">Secure Payment Processing</h3>
+        <span class="ssl-chip">SSL SECURED</span>
+        <p class="guarantee-card__desc">Your payment info is encrypted and never stored. We use bank-level SSL security on every transaction.</p>
+      </article>
+      <article class="guarantee-card">
+        <svg class="guarantee-card__icon" viewBox="0 0 48 48">
+          <circle cx="24" cy="14" r="8" fill="#FFFF00" stroke="#6600CC" stroke-width="2"/>
+          <path d="M8 44 c0 -10 8 -18 16 -18 c8 0 16 8 16 18 z" fill="#FFFF00" stroke="#6600CC" stroke-width="2"/>
+          <polygon points="36,4 39,11 46,11 40,16 42,23 36,19 30,23 32,16 26,11 33,11" fill="#FF00CC"/>
+        </svg>
+        <h3 class="guarantee-card__title">Dedicated Advisor Assigned</h3>
+        <p class="guarantee-card__desc">A real human RevvLot advisor is assigned to your reservation within 2 hours to guide you through closing.</p>
+      </article>
+    </div>
+    <div class="reserve-guarantee__badges">
+      <span class="badge88 badge88--dark">NO OBLIGATION</span>
+      <span class="badge88 badge88--dark">100% REFUND</span>
+      <span class="badge88 badge88--dark">ADVISOR ASSIGNED</span>
+    </div>
+  </div>
+</section>
+
+<hr class="rainbow-rule rainbow-rule--thin">
+
+<!-- FAQ -->
+<section id="reserve-section-5" data-section-type="faq" class="faq-section">
+  <div class="container">
+    <span class="eyebrow-pixel">Got Questions?</span>
+    <h2>Everything You're Wondering About the $99 Hold</h2>
+    <ul class="faq-list">
+      <li class="faq-item">
+        <h3 class="faq-item__q">Is the $99 really refundable?</h3>
+        <p class="faq-item__a">Yes. 100%. If you decide not to buy for any reason — or no reason at all — we refund your $99 within 1 business day. No questions, no fees, no hassle.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-item__q">How long does the hold last?</h3>
+        <p class="faq-item__a">Your hold keeps the vehicle off the market for 5 business days. Need more time? Contact your advisor and we'll work with you.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-item__q">Can I still negotiate the price after reserving?</h3>
+        <p class="faq-item__a">The listed price is already market-validated and firm. What you see is what you pay — no negotiation theater.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-item__q">What happens after I place the hold?</h3>
+        <p class="faq-item__a">You'll get an email confirmation immediately. Your RevvLot advisor will contact you within 2 business hours to schedule inspection, arrange financing if needed, and confirm delivery or pickup.</p>
+      </li>
+      <li class="faq-item">
+        <h3 class="faq-item__q">Can I reserve more than one car?</h3>
+        <p class="faq-item__a">You can place holds on up to 2 vehicles at a time. Each hold is independent and fully refundable.</p>
+      </li>
+    </ul>
+
+    <hr class="rainbow-rule rainbow-rule--thin" style="margin-top:32px">
+
+    <div class="faq-cta-block">
+      <a class="btn btn--big" href="reserve.html">Reserve Now — $99 Fully Refundable</a>
+      <div class="faq-cta-block__row"><span class="star">★</span> No commitment. No pressure. 100% refundable. <span class="star">★</span></div>
+      <div style="display:flex;justify-content:center"><div class="hit-counter">CARS RESERVED TODAY: <span data-hit-counter="14">00000014</span></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <div class="site-footer__brand">REVVLOT</div>
+        <p style="color:var(--chrome);font-size:13px;line-height:1.6">Old School Hustle. New School Wheels. The retro-styled used car marketplace where buyers browse, inspect, and reserve quality pre-owned vehicles with full transparency and zero dealership drama.</p>
+      </div>
+      <div>
+        <h4>Inventory</h4>
+        <ul>
+          <li><a href="product.html">Browse All</a></li>
+          <li><a href="product.html">Sedans</a></li>
+          <li><a href="product.html">SUVs</a></li>
+          <li><a href="product.html">Trucks</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <ul>
+          <li><a href="specs.html">Sample Specs</a></li>
+          <li><a href="gallery.html">Photo Gallery</a></li>
+          <li><a href="reserve.html">Reserve a Car</a></li>
+          <li><a href="index.html#home-section-4">How It Works</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Webring</h4>
+        <div class="badge-row">
+          <span class="badge88">SSL SECURE</span>
+          <span class="badge88 badge88--lime">A+ BBB</span>
+          <span class="badge88 badge88--sky">CARFAX</span>
+          <span class="badge88 badge88--ssl">EST 1998</span>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© RevvLot ‘98 — Best Viewed @ 800×600</span>
+      <span>★ NO COOKIES, JUST KEYS ★</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

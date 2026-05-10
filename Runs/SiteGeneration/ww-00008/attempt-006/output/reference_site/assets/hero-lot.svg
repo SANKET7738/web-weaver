@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#110022"/>
+      <stop offset="60%" stop-color="#220044"/>
+      <stop offset="100%" stop-color="#440066"/>
+    </linearGradient>
+    <pattern id="stars" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="3" y="3" width="2" height="2" fill="#FFFF00"/>
+      <rect x="20" y="14" width="2" height="2" fill="#FFFFFF"/>
+      <rect x="32" y="28" width="2" height="2" fill="#FF00CC"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="280" fill="url(#sky)"/>
+  <rect width="700" height="280" fill="url(#stars)"/>
+  <rect y="280" width="700" height="180" fill="#110022"/>
+
+  <!-- Moon -->
+  <circle cx="580" cy="60" r="28" fill="#FFFF00"/>
+  <circle cx="572" cy="55" r="6" fill="#FF00CC" opacity="0.5"/>
+
+  <!-- Big neon REVVLOT sign -->
+  <g transform="translate(350,90)">
+    <rect x="-160" y="-46" width="320" height="92" fill="#110022" stroke="#FF00CC" stroke-width="4"/>
+    <text x="0" y="14" font-family="'Arial Black', sans-serif" font-size="56" fill="#00FF33" text-anchor="middle" font-weight="900">REVVLOT</text>
+    <text x="0" y="14" font-family="'Arial Black', sans-serif" font-size="56" fill="none" stroke="#FF00CC" stroke-width="1" text-anchor="middle" font-weight="900">REVVLOT</text>
+    <!-- bulbs -->
+    <g fill="#FFFF00">
+      <circle cx="-150" cy="-40" r="3"/><circle cx="-120" cy="-40" r="3"/>
+      <circle cx="-90" cy="-40" r="3"/><circle cx="-60" cy="-40" r="3"/>
+      <circle cx="-30" cy="-40" r="3"/><circle cx="0" cy="-40" r="3"/>
+      <circle cx="30" cy="-40" r="3"/><circle cx="60" cy="-40" r="3"/>
+      <circle cx="90" cy="-40" r="3"/><circle cx="120" cy="-40" r="3"/>
+      <circle cx="150" cy="-40" r="3"/>
+      <circle cx="-150" cy="40" r="3"/><circle cx="-120" cy="40" r="3"/>
+      <circle cx="-90" cy="40" r="3"/><circle cx="-60" cy="40" r="3"/>
+      <circle cx="-30" cy="40" r="3"/><circle cx="0" cy="40" r="3"/>
+      <circle cx="30" cy="40" r="3"/><circle cx="60" cy="40" r="3"/>
+      <circle cx="90" cy="40" r="3"/><circle cx="120" cy="40" r="3"/>
+      <circle cx="150" cy="40" r="3"/>
+    </g>
+  </g>
+  <!-- Sign post -->
+  <rect x="346" y="136" width="8" height="120" fill="#C0C0C0"/>
+
+  <!-- String lights -->
+  <path d="M0,180 Q175,220 350,180 T700,180" stroke="#FFFF00" stroke-width="1.5" fill="none"/>
+  <g fill="#FFFF00">
+    <circle cx="40" cy="190" r="3"/>
+    <circle cx="100" cy="200" r="3" fill="#FF00CC"/>
+    <circle cx="160" cy="207" r="3" fill="#00CCFF"/>
+    <circle cx="230" cy="203" r="3"/>
+    <circle cx="290" cy="195" r="3" fill="#00FF33"/>
+    <circle cx="410" cy="195" r="3" fill="#FF00CC"/>
+    <circle cx="470" cy="203" r="3"/>
+    <circle cx="540" cy="207" r="3" fill="#00CCFF"/>
+    <circle cx="600" cy="200" r="3" fill="#00FF33"/>
+    <circle cx="660" cy="190" r="3"/>
+  </g>
+
+  <!-- Lot ground -->
+  <rect y="260" width="700" height="200" fill="#110022"/>
+  <line x1="0" y1="260" x2="700" y2="260" stroke="#00FF33" stroke-width="2"/>
+
+  <!-- Parking lines -->
+  <g stroke="#FFFF00" stroke-width="2" stroke-dasharray="6 6">
+    <line x1="60" y1="280" x2="100" y2="450"/>
+    <line x1="180" y1="280" x2="220" y2="450"/>
+    <line x1="300" y1="280" x2="340" y2="450"/>
+    <line x1="420" y1="280" x2="460" y2="450"/>
+    <line x1="540" y1="280" x2="580" y2="450"/>
+  </g>
+
+  <!-- Cars (pixel-art style boxy) -->
+  <g>
+    <!-- Car 1 -->
+    <g transform="translate(90,330)">
+      <rect x="0" y="0" width="80" height="22" fill="#00FF33"/>
+      <rect x="14" y="-14" width="52" height="14" fill="#00FF33"/>
+      <rect x="18" y="-12" width="14" height="10" fill="#00CCFF"/>
+      <rect x="40" y="-12" width="22" height="10" fill="#00CCFF"/>
+      <circle cx="14" cy="22" r="6" fill="#110022"/>
+      <circle cx="14" cy="22" r="3" fill="#C0C0C0"/>
+      <circle cx="66" cy="22" r="6" fill="#110022"/>
+      <circle cx="66" cy="22" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 2 -->
+    <g transform="translate(210,330)">
+      <rect x="0" y="0" width="80" height="22" fill="#FF00CC"/>
+      <rect x="14" y="-14" width="52" height="14" fill="#FF00CC"/>
+      <rect x="18" y="-12" width="14" height="10" fill="#FFFF00"/>
+      <rect x="40" y="-12" width="22" height="10" fill="#FFFF00"/>
+      <circle cx="14" cy="22" r="6" fill="#110022"/>
+      <circle cx="14" cy="22" r="3" fill="#C0C0C0"/>
+      <circle cx="66" cy="22" r="6" fill="#110022"/>
+      <circle cx="66" cy="22" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 3 -->
+    <g transform="translate(330,330)">
+      <rect x="0" y="0" width="80" height="22" fill="#00CCFF"/>
+      <rect x="14" y="-14" width="52" height="14" fill="#00CCFF"/>
+      <rect x="18" y="-12" width="14" height="10" fill="#FFFFFF"/>
+      <rect x="40" y="-12" width="22" height="10" fill="#FFFFFF"/>
+      <circle cx="14" cy="22" r="6" fill="#110022"/>
+      <circle cx="14" cy="22" r="3" fill="#C0C0C0"/>
+      <circle cx="66" cy="22" r="6" fill="#110022"/>
+      <circle cx="66" cy="22" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 4 -->
+    <g transform="translate(450,330)">
+      <rect x="0" y="0" width="80" height="22" fill="#FFFF00"/>
+      <rect x="14" y="-14" width="52" height="14" fill="#FFFF00"/>
+      <rect x="18" y="-12" width="14" height="10" fill="#00FF33"/>
+      <rect x="40" y="-12" width="22" height="10" fill="#00FF33"/>
+      <circle cx="14" cy="22" r="6" fill="#110022"/>
+      <circle cx="14" cy="22" r="3" fill="#C0C0C0"/>
+      <circle cx="66" cy="22" r="6" fill="#110022"/>
+      <circle cx="66" cy="22" r="3" fill="#C0C0C0"/>
+    </g>
+    <!-- Car 5 -->
+    <g transform="translate(570,330)">
+      <rect x="0" y="0" width="80" height="22" fill="#E8E8E8"/>
+      <rect x="14" y="-14" width="52" height="14" fill="#E8E8E8"/>
+      <rect x="18" y="-12" width="14" height="10" fill="#FF00CC"/>
+      <rect x="40" y="-12" width="22" height="10" fill="#FF00CC"/>
+      <circle cx="14" cy="22" r="6" fill="#110022"/>
+      <circle cx="14" cy="22" r="3" fill="#C0C0C0"/>
+      <circle cx="66" cy="22" r="6" fill="#110022"/>
+      <circle cx="66" cy="22" r="3" fill="#C0C0C0"/>
+    </g>
+  </g>
+
+  <!-- Foreground asphalt detail -->
+  <line x1="0" y1="380" x2="700" y2="380" stroke="#FFFF00" stroke-width="2" stroke-dasharray="20 10"/>
+</svg>

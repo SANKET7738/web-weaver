@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 2500,
+  "bottom_hold_ms": 2000,
+  "min_scroll_ms": 7000,
+  "max_scroll_ms": 15000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 6162,
+      "max_scroll_y": 5162,
+      "scroll_duration_ms": 10324,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2733055
+    },
+    {
+      "slug": "classes",
+      "route": "/classes.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4517,
+      "max_scroll_y": 3517,
+      "scroll_duration_ms": 7034,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "classes.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2553126
+    },
+    {
+      "slug": "teachers",
+      "route": "/teachers.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 6029,
+      "max_scroll_y": 5029,
+      "scroll_duration_ms": 10058,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "teachers.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3176950
+    },
+    {
+      "slug": "faq",
+      "route": "/faq.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3764,
+      "max_scroll_y": 2764,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "faq.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1597381
+    },
+    {
+      "slug": "enroll",
+      "route": "/enroll.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4450,
+      "max_scroll_y": 3450,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "enroll.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2568893
+    }
+  ]
+}

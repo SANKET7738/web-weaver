@@ -1,0 +1,15 @@
+[2026-05-10T22:51:16+00:00] Starting Claude Code with framework=solid_tailwind and timeout 1800 seconds
+[2026-05-10T23:04:44+00:00] Claude exited with code 0
+[2026-05-10T23:04:44+00:00] Started static server on 0.0.0.0:3000 with PID 515
+[2026-05-10T23:04:46+00:00] Running site generation sanity check
+[2026-05-10T23:04:46+00:00] Sanity check exited with code 0
+[2026-05-10T23:04:46+00:00] Running Playwright browser sanity check
+[2026-05-10T23:04:47+00:00] Playwright sanity check exited with code 0
+[2026-05-10T23:04:47+00:00] Capturing viewport screenshot slices
+[2026-05-10T23:04:57+00:00] Screenshot capture exited with code 0
+[2026-05-10T23:04:57+00:00] Capturing screen recordings
+[2026-05-10T23:06:13+00:00] Screen recording capture exited with code 0
+[2026-05-10T23:06:13+00:00] All validations passed; assembling Harbor task at /workspace/harbor
+[2026-05-10T23:06:13+00:00] Harbor assembly exited with code 0
+[2026-05-10T23:06:13+00:00] Stopping static server (PID 515)
+[2026-05-10T23:06:13+00:00] Site generation pipeline complete; exiting

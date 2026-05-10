@@ -1,0 +1,110 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3810,
+      "max_scroll_y": 2810,
+      "scroll_duration_ms": 5620,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "path": "home.webm",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1205322
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3666,
+      "max_scroll_y": 2666,
+      "scroll_duration_ms": 5332,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "path": "services.webm",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1144997
+    },
+    {
+      "slug": "practitioners",
+      "route": "/practitioners.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3852,
+      "max_scroll_y": 2852,
+      "scroll_duration_ms": 5704,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "path": "practitioners.webm",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1141351
+    },
+    {
+      "slug": "resources",
+      "route": "/resources.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3920,
+      "max_scroll_y": 2920,
+      "scroll_duration_ms": 5840,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "path": "resources.webm",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 991210
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3605,
+      "max_scroll_y": 2605,
+      "scroll_duration_ms": 5210,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "path": "contact.webm",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1159014
+    }
+  ]
+}

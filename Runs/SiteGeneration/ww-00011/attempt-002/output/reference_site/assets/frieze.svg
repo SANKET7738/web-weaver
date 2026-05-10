@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 44" width="240" height="44" preserveAspectRatio="xMidYMid meet">
+  <g fill="none" stroke="#B8962E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tennis ball -->
+    <g transform="translate(20,22)">
+      <circle r="9" fill="none"/>
+      <path d="M -8 -3 Q 0 0 8 -3" />
+      <path d="M -8 3 Q 0 0 8 3" />
+    </g>
+    <!-- Laurel sprig -->
+    <g transform="translate(60,22)">
+      <path d="M -14 0 L 14 0" />
+      <path d="M -10 -2 q 4 -8 0 -8" />
+      <path d="M -4 -2 q 4 -8 0 -8" />
+      <path d="M 2 -2 q 4 -8 0 -8" />
+      <path d="M 8 -2 q 4 -8 0 -8" />
+      <path d="M -10 2 q 4 8 0 8" />
+      <path d="M -4 2 q 4 8 0 8" />
+      <path d="M 2 2 q 4 8 0 8" />
+      <path d="M 8 2 q 4 8 0 8" />
+    </g>
+    <!-- Racket -->
+    <g transform="translate(100,22) rotate(-30)">
+      <ellipse cx="0" cy="-4" rx="7" ry="9" fill="none"/>
+      <line x1="0" y1="5" x2="0" y2="14"/>
+      <line x1="-7" y1="-4" x2="7" y2="-4"/>
+      <line x1="-5" y1="-9" x2="5" y2="-9"/>
+      <line x1="-6" y1="0" x2="6" y2="0"/>
+      <line x1="0" y1="-13" x2="0" y2="5"/>
+      <line x1="-3" y1="-13" x2="-3" y2="5"/>
+      <line x1="3" y1="-13" x2="3" y2="5"/>
+    </g>
+    <!-- Diamond ornament -->
+    <g transform="translate(140,22)">
+      <path d="M 0 -8 L 8 0 L 0 8 L -8 0 Z" fill="#B8962E"/>
+    </g>
+    <!-- Tennis ball -->
+    <g transform="translate(180,22)">
+      <circle r="9" fill="none"/>
+      <path d="M -8 -3 Q 0 0 8 -3" />
+      <path d="M -8 3 Q 0 0 8 3" />
+    </g>
+    <!-- Laurel sprig -->
+    <g transform="translate(220,22)">
+      <path d="M -14 0 L 14 0" />
+      <path d="M -10 -2 q 4 -8 0 -8" />
+      <path d="M -4 -2 q 4 -8 0 -8" />
+      <path d="M 2 -2 q 4 -8 0 -8" />
+      <path d="M 8 -2 q 4 -8 0 -8" />
+      <path d="M -10 2 q 4 8 0 8" />
+      <path d="M -4 2 q 4 8 0 8" />
+      <path d="M 2 2 q 4 8 0 8" />
+      <path d="M 8 2 q 4 8 0 8" />
+    </g>
+  </g>
+  <line x1="0" y1="2" x2="240" y2="2" stroke="#B8962E" stroke-width="0.6"/>
+  <line x1="0" y1="42" x2="240" y2="42" stroke="#B8962E" stroke-width="0.6"/>
+</svg>

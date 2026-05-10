@@ -1,0 +1,260 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 20,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3105,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2105,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 269131
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "route": "/product.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3556,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "product/product_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "product/product_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "product/product_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2556,
+          "path": "product/product_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "product/product_full.png",
+        "bytes": 203519
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "specs",
+      "route": "/specs.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3998,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "specs/specs_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "specs/specs_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "specs/specs_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2998,
+          "path": "specs/specs_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "specs/specs_full.png",
+        "bytes": 251078
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "gallery",
+      "route": "/gallery.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3557,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "gallery/gallery_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "gallery/gallery_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "gallery/gallery_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2557,
+          "path": "gallery/gallery_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "gallery/gallery_full.png",
+        "bytes": 177343
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "reserve",
+      "route": "/reserve.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3984,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "reserve/reserve_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "reserve/reserve_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "reserve/reserve_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2984,
+          "path": "reserve/reserve_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "reserve/reserve_full.png",
+        "bytes": 230025
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

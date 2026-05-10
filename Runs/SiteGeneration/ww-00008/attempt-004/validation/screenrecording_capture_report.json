@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4550,
+      "max_scroll_y": 3550,
+      "scroll_duration_ms": 7100,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3485279
+    },
+    {
+      "slug": "product",
+      "route": "/product.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3713,
+      "max_scroll_y": 2713,
+      "scroll_duration_ms": 5426,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "product.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3193289
+    },
+    {
+      "slug": "specs",
+      "route": "/specs.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4029,
+      "max_scroll_y": 3029,
+      "scroll_duration_ms": 6058,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "specs.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2854518
+    },
+    {
+      "slug": "gallery",
+      "route": "/gallery.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3798,
+      "max_scroll_y": 2798,
+      "scroll_duration_ms": 5596,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "gallery.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2677101
+    },
+    {
+      "slug": "reserve",
+      "route": "/reserve.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4377,
+      "max_scroll_y": 3377,
+      "scroll_duration_ms": 6754,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "reserve.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3125046
+    }
+  ]
+}

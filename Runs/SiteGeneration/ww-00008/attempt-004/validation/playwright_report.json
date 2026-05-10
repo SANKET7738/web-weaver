@@ -1,0 +1,858 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "RevvLot — Old School Hustle. New School Wheels.",
+            "bodyTextLength": 3189,
+            "scrollHeight": 4550,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 880,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 492.46875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 805.5625,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 1237.09375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 731.875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "product.html",
+              "#home-section-4",
+              "product.html",
+              "product.html",
+              "#",
+              "#",
+              "#",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "RevvLot — Old School Hustle. New School Wheels.",
+            "bodyTextLength": 3189,
+            "scrollHeight": 7719,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 754.828125,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1028.0625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1499.140625,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 2194.984375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 1300.203125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "product.html",
+              "#home-section-4",
+              "product.html",
+              "product.html",
+              "#",
+              "#",
+              "#",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "route": "/product.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Browse Inventory — RevvLot",
+            "bodyTextLength": 3196,
+            "scrollHeight": 3713,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "product-section-1",
+                "width": 1440,
+                "height": 411.234375,
+                "visible": true
+              },
+              {
+                "id": "product-section-2",
+                "width": 1440,
+                "height": 580.46875,
+                "visible": true
+              },
+              {
+                "id": "product-section-3",
+                "width": 1440,
+                "height": 1107.5625,
+                "visible": true
+              },
+              {
+                "id": "product-section-4",
+                "width": 1440,
+                "height": 654.828125,
+                "visible": true
+              },
+              {
+                "id": "product-section-5",
+                "width": 1440,
+                "height": 561.703125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#product-section-3",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Browse Inventory — RevvLot",
+            "bodyTextLength": 3196,
+            "scrollHeight": 7390,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "product-section-1",
+                "width": 390,
+                "height": 368.875,
+                "visible": true
+              },
+              {
+                "id": "product-section-2",
+                "width": 390,
+                "height": 1244.25,
+                "visible": true
+              },
+              {
+                "id": "product-section-3",
+                "width": 390,
+                "height": 2941.125,
+                "visible": true
+              },
+              {
+                "id": "product-section-4",
+                "width": 390,
+                "height": 1236.5625,
+                "visible": true
+              },
+              {
+                "id": "product-section-5",
+                "width": 390,
+                "height": 689.265625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#product-section-3",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "specs",
+      "route": "/specs.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "2020 Honda Civic EX — Vehicle Specs · RevvLot",
+            "bodyTextLength": 2919,
+            "scrollHeight": 4029,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "specs-section-1",
+                "width": 1440,
+                "height": 539.53125,
+                "visible": true
+              },
+              {
+                "id": "specs-section-2",
+                "width": 1440,
+                "height": 565.90625,
+                "visible": true
+              },
+              {
+                "id": "specs-section-3",
+                "width": 1440,
+                "height": 964.75,
+                "visible": true
+              },
+              {
+                "id": "specs-section-4",
+                "width": 1440,
+                "height": 1003.53125,
+                "visible": true
+              },
+              {
+                "id": "specs-section-5",
+                "width": 1440,
+                "height": 557.859375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "reserve.html",
+              "gallery.html",
+              "#specs-section-3",
+              "#specs-section-4",
+              "reserve.html",
+              "gallery.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "2020 Honda Civic EX — Vehicle Specs · RevvLot",
+            "bodyTextLength": 2919,
+            "scrollHeight": 6805,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "specs-section-1",
+                "width": 390,
+                "height": 846.421875,
+                "visible": true
+              },
+              {
+                "id": "specs-section-2",
+                "width": 390,
+                "height": 1246.234375,
+                "visible": true
+              },
+              {
+                "id": "specs-section-3",
+                "width": 390,
+                "height": 1326.59375,
+                "visible": true
+              },
+              {
+                "id": "specs-section-4",
+                "width": 390,
+                "height": 1589.015625,
+                "visible": true
+              },
+              {
+                "id": "specs-section-5",
+                "width": 390,
+                "height": 908.265625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "reserve.html",
+              "gallery.html",
+              "#specs-section-3",
+              "#specs-section-4",
+              "reserve.html",
+              "gallery.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "gallery",
+      "route": "/gallery.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Photo Gallery — 2020 Honda Civic EX · RevvLot",
+            "bodyTextLength": 2299,
+            "scrollHeight": 3798,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "gallery-section-1",
+                "width": 1440,
+                "height": 318.625,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-2",
+                "width": 1440,
+                "height": 1383.8125,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-3",
+                "width": 1440,
+                "height": 528.765625,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-4",
+                "width": 1440,
+                "height": 635.953125,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-5",
+                "width": 1440,
+                "height": 533.5625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "reserve.html",
+              "specs.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Photo Gallery — 2020 Honda Civic EX · RevvLot",
+            "bodyTextLength": 2299,
+            "scrollHeight": 7060,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "gallery-section-1",
+                "width": 390,
+                "height": 623.953125,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-2",
+                "width": 390,
+                "height": 2043.40625,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-3",
+                "width": 390,
+                "height": 1034.703125,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-4",
+                "width": 390,
+                "height": 1576.921875,
+                "visible": true
+              },
+              {
+                "id": "gallery-section-5",
+                "width": 390,
+                "height": 892.4375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "specs.html",
+              "reserve.html",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "#gallery-section-3",
+              "reserve.html",
+              "specs.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "reserve",
+      "route": "/reserve.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Reserve Your Car — RevvLot",
+            "bodyTextLength": 3775,
+            "scrollHeight": 4377,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "reserve-section-1",
+                "width": 1440,
+                "height": 383.03125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-2",
+                "width": 1440,
+                "height": 572.125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-3",
+                "width": 1440,
+                "height": 993.75,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-4",
+                "width": 1440,
+                "height": 837.578125,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-5",
+                "width": 1440,
+                "height": 1151.453125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#reserve-section-3",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Reserve Your Car — RevvLot",
+            "bodyTextLength": 3775,
+            "scrollHeight": 7039,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "reserve-section-1",
+                "width": 390,
+                "height": 599.46875,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-2",
+                "width": 390,
+                "height": 893.75,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-3",
+                "width": 390,
+                "height": 1480.34375,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-4",
+                "width": 390,
+                "height": 1497.90625,
+                "visible": true
+              },
+              {
+                "id": "reserve-section-5",
+                "width": 390,
+                "height": 1636.421875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#reserve-section-3",
+              "product.html",
+              "specs.html",
+              "gallery.html",
+              "reserve.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

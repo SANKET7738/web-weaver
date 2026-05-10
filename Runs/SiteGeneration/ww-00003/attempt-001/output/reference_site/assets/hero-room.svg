@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Calm bento arrangement of soft geometric shapes evoking a therapy room">
+  <!-- Window block -->
+  <rect x="36" y="24" width="200" height="148" rx="20" fill="#D6F0E8"/>
+  <rect x="60" y="48" width="68" height="100" rx="6" fill="#FFFFFF"/>
+  <rect x="142" y="48" width="68" height="100" rx="6" fill="#FFFFFF"/>
+  <line x1="94" y1="48" x2="94" y2="148" stroke="#D6F0E8" stroke-width="2"/>
+  <line x1="176" y1="48" x2="176" y2="148" stroke="#D6F0E8" stroke-width="2"/>
+  <!-- Sun arc inside window -->
+  <circle cx="94" cy="120" r="14" fill="#4AAE8C" opacity="0.35"/>
+  <circle cx="176" cy="120" r="14" fill="#4AAE8C" opacity="0.35"/>
+
+  <!-- Plant block -->
+  <rect x="252" y="24" width="200" height="200" rx="20" fill="#E8EEF4"/>
+  <!-- Pot -->
+  <path d="M310 188 L394 188 L386 222 L318 222 Z" fill="#1A2332"/>
+  <rect x="304" y="180" width="96" height="12" rx="4" fill="#1A2332"/>
+  <!-- Leaves -->
+  <ellipse cx="352" cy="120" rx="28" ry="60" fill="#4AAE8C"/>
+  <ellipse cx="320" cy="148" rx="22" ry="44" fill="#4AAE8C" opacity="0.85" transform="rotate(-30 320 148)"/>
+  <ellipse cx="384" cy="148" rx="22" ry="44" fill="#4AAE8C" opacity="0.7" transform="rotate(30 384 148)"/>
+  <path d="M352 70 Q358 100 352 180" stroke="#1A2332" stroke-width="1.5" fill="none" opacity="0.3"/>
+
+  <!-- Chair block -->
+  <rect x="36" y="188" width="200" height="208" rx="20" fill="#FFFFFF" stroke="#E8EEF4" stroke-width="2"/>
+  <!-- Chair backrest -->
+  <path d="M76 244 Q76 218 102 218 L170 218 Q196 218 196 244 L196 320 Q196 332 184 332 L88 332 Q76 332 76 320 Z" fill="#D6F0E8"/>
+  <!-- Cushion -->
+  <rect x="84" y="262" width="104" height="56" rx="10" fill="#4AAE8C" opacity="0.45"/>
+  <!-- Legs -->
+  <rect x="92" y="332" width="6" height="34" rx="2" fill="#1A2332"/>
+  <rect x="174" y="332" width="6" height="34" rx="2" fill="#1A2332"/>
+
+  <!-- Small accent block -->
+  <rect x="252" y="240" width="92" height="92" rx="16" fill="#FFFFFF" stroke="#E8EEF4" stroke-width="2"/>
+  <circle cx="298" cy="286" r="22" fill="#D6F0E8"/>
+  <circle cx="298" cy="286" r="10" fill="#4AAE8C"/>
+
+  <!-- Small accent block 2 -->
+  <rect x="356" y="240" width="96" height="92" rx="16" fill="#D6F0E8"/>
+  <path d="M376 296 Q400 264 432 296" stroke="#1A2332" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="404" cy="282" r="6" fill="#E8715A"/>
+
+  <!-- Soft floor accent -->
+  <rect x="36" y="380" width="416" height="16" rx="8" fill="#E8EEF4"/>
+</svg>

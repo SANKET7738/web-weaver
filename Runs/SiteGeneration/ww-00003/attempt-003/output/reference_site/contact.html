@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Clearmind Therapy</title>
+  <meta name="description" content="Contact Clearmind Therapy to book a free 15-minute consultation, ask about services, or find our office. We respond within one business day." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page-slug="contact">
+  <header class="site-nav">
+    <div class="site-nav__inner">
+      <a class="brand" href="index.html" aria-label="Clearmind Therapy home">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect x="3" y="3" width="11" height="11" rx="3" fill="#4AAE8C"/>
+          <rect x="18" y="3" width="11" height="11" rx="3" fill="#D6F0E8"/>
+          <rect x="3" y="18" width="11" height="11" rx="3" fill="#E8EEF4"/>
+          <rect x="18" y="18" width="11" height="11" rx="3" fill="#FFFFFF" stroke="#4AAE8C" stroke-width="1.5"/>
+        </svg>
+        <span>Clearmind Therapy</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="practitioners.html">Practitioners</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html" class="is-active">Contact</a>
+        <a href="contact.html" class="nav-cta">Book a Session</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page header -->
+    <section id="contact-section-1" data-section-type="page_header" class="page-header" style="padding: 80px 0 64px;">
+      <div class="container">
+        <div class="page-header__inner">
+          <span class="eyebrow eyebrow--stone">Get in Touch</span>
+          <div class="page-header__rule" aria-hidden="true"></div>
+          <h1 class="headline-page">Your first step doesn't have to be a big one.</h1>
+          <p class="subheadline">A 15-minute call. A quick question. A note about what you're going through. We're here for all of it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact-section-2" data-section-type="contact_block" class="contact-form-section">
+      <div class="container container--narrow">
+        <div class="contact-form-grid">
+          <form class="contact-form" novalidate>
+            <span class="eyebrow eyebrow--stone">Book a Free Consultation</span>
+            <h2>Tell us a little about yourself.</h2>
+            <p>We'll match you with the right therapist and follow up within one business day.</p>
+
+            <div class="field-grid">
+              <div class="field">
+                <label for="full-name">Full Name<span class="required-dot" aria-hidden="true"></span></label>
+                <input id="full-name" name="full-name" type="text" placeholder="First and last name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email Address<span class="required-dot" aria-hidden="true"></span></label>
+                <input id="email" name="email" type="email" placeholder="we'll use this to confirm your consultation" required />
+              </div>
+
+              <div class="field field--full">
+                <label for="phone">Phone Number <span class="field-hint">Optional — for those who prefer a callback</span></label>
+                <input id="phone" name="phone" type="tel" placeholder="(555) 000-0000" />
+              </div>
+
+              <div class="field field--full">
+                <label for="message">What brings you here?<span class="required-dot" aria-hidden="true"></span> <span class="field-hint">A brief description of what you're looking for — no clinical language needed</span></label>
+                <textarea id="message" name="message" placeholder="Share what's on your mind..." required></textarea>
+              </div>
+
+              <div class="field">
+                <label for="format">Preferred Format <span class="field-hint">In-person, telehealth, or no preference</span></label>
+                <select id="format" name="format">
+                  <option value="">No preference</option>
+                  <option value="in-person">In-person</option>
+                  <option value="telehealth">Telehealth</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="payment">Insurance or Self-Pay <span class="field-hint">Let us know so we can prepare relevant information</span></label>
+                <select id="payment" name="payment">
+                  <option value="">Select an option</option>
+                  <option>Insurance</option>
+                  <option>Self-pay</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary">Send My Request</button>
+          </form>
+
+          <aside>
+            <div class="reassure-card">
+              <div class="reassure-card__intro">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="4" y="11" width="16" height="10" rx="2"/>
+                  <path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+                </svg>
+                <p>All information shared here is confidential and protected. We'll never share your details without your consent.</p>
+              </div>
+
+              <ul class="trust-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="5 12 10 17 19 7"/></svg>
+                  <span>No commitment required</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="5 12 10 17 19 7"/></svg>
+                  <span>Response within one business day</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="5 12 10 17 19 7"/></svg>
+                  <span>HIPAA-compliant and secure</span>
+                </li>
+              </ul>
+            </div>
+
+            <p class="callback-line">Prefer to call? Reach us at <span class="number">(555) 204-8800</span>.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map block -->
+    <section id="contact-section-3" data-section-type="map_block" class="section--compact map-section" style="padding: 80px 0;">
+      <div class="container container--narrow">
+        <div class="map-grid">
+          <div class="map-tile" aria-hidden="true">
+            <svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg">
+              <!-- background -->
+              <rect width="480" height="360" fill="#E8EEF4"/>
+              <!-- streets -->
+              <rect x="0" y="160" width="480" height="36" fill="#FFFFFF"/>
+              <rect x="220" y="0" width="36" height="360" fill="#FFFFFF"/>
+              <rect x="60" y="0" width="20" height="360" fill="#FFFFFF" opacity="0.5"/>
+              <rect x="380" y="0" width="20" height="360" fill="#FFFFFF" opacity="0.5"/>
+              <rect x="0" y="60" width="480" height="16" fill="#FFFFFF" opacity="0.6"/>
+              <rect x="0" y="280" width="480" height="16" fill="#FFFFFF" opacity="0.6"/>
+              <!-- buildings -->
+              <rect x="20" y="20" width="32" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="100" y="20" width="50" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="170" y="20" width="46" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="270" y="20" width="46" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="330" y="20" width="40" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="410" y="20" width="50" height="36" rx="2" fill="#FFFFFF"/>
+
+              <rect x="20" y="86" width="32" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="100" y="86" width="50" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="170" y="86" width="40" height="60" rx="2" fill="#FFFFFF"/>
+              <!-- highlighted office building -->
+              <rect x="270" y="86" width="46" height="60" rx="3" fill="#D6F0E8"/>
+              <rect x="330" y="86" width="40" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="410" y="86" width="50" height="60" rx="2" fill="#FFFFFF"/>
+
+              <rect x="20" y="208" width="32" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="100" y="208" width="50" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="170" y="208" width="40" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="270" y="208" width="46" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="330" y="208" width="40" height="60" rx="2" fill="#FFFFFF"/>
+              <rect x="410" y="208" width="50" height="60" rx="2" fill="#FFFFFF"/>
+
+              <rect x="20" y="306" width="32" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="100" y="306" width="50" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="170" y="306" width="40" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="270" y="306" width="46" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="330" y="306" width="40" height="36" rx="2" fill="#FFFFFF"/>
+              <rect x="410" y="306" width="50" height="36" rx="2" fill="#FFFFFF"/>
+
+              <!-- Park -->
+              <rect x="60" y="220" width="160" height="60" fill="#D6F0E8" opacity="0.6"/>
+              <text x="140" y="256" font-family="DM Sans" font-size="9" letter-spacing="1.2" fill="#6B7A8F" text-anchor="middle">MERIDIAN PARK</text>
+
+              <!-- street labels -->
+              <text x="240" y="184" font-family="DM Sans" font-size="9" letter-spacing="1" fill="#6B7A8F">MERIDIAN AVE</text>
+              <text x="232" y="350" font-family="DM Sans" font-size="9" letter-spacing="1" fill="#6B7A8F" transform="rotate(-90 232 350)">5TH ST</text>
+
+              <!-- Office pin -->
+              <circle cx="293" cy="116" r="22" fill="#4AAE8C" opacity="0.18"/>
+              <circle cx="293" cy="116" r="11" fill="#4AAE8C"/>
+              <circle cx="293" cy="116" r="4" fill="#FFFFFF"/>
+              <rect x="252" y="42" width="120" height="22" rx="11" fill="#1A2332"/>
+              <text x="312" y="56" font-family="DM Sans" font-weight="500" font-size="10" fill="#FFFFFF" text-anchor="middle">CLEARMIND THERAPY</text>
+
+              <!-- Metro -->
+              <circle cx="180" cy="178" r="8" fill="#4AAE8C"/>
+              <text x="180" y="182" font-family="DM Sans" font-weight="700" font-size="10" fill="#FFFFFF" text-anchor="middle">M</text>
+              <text x="180" y="200" font-family="DM Sans" font-size="9" letter-spacing="0.5" fill="#6B7A8F" text-anchor="middle">CENTRAL STATION</text>
+
+              <!-- Parking -->
+              <rect x="362" y="170" width="16" height="16" rx="3" fill="#6B7A8F"/>
+              <text x="370" y="182" font-family="DM Sans" font-weight="700" font-size="11" fill="#FFFFFF" text-anchor="middle">P</text>
+              <text x="370" y="200" font-family="DM Sans" font-size="9" letter-spacing="0.5" fill="#6B7A8F" text-anchor="middle">MERIDIAN GARAGE</text>
+            </svg>
+          </div>
+
+          <div class="map-info">
+            <span class="eyebrow eyebrow--stone">Visit Us</span>
+            <h2 class="headline-medium">Our office is designed to feel like a retreat.</h2>
+            <p class="subheadline" style="margin-top: 12px;">A calm, private suite in the heart of the city — easy to reach by transit or car.</p>
+            <p class="body-copy">Clearmind Therapy is located at <strong>214 Meridian Avenue, Suite 400</strong>, in the Midtown professional district. Street parking is available on Meridian and in the adjacent Meridian Garage. We are two blocks from the Central Station metro stop.</p>
+
+            <ul class="map-info-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Midtown Professional District</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 11h16M8 17v4M16 17v4"/></svg>
+                <span>Two blocks from Central Station</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h4a3 3 0 0 1 0 6h-4"/></svg>
+                <span>Street parking + Meridian Garage</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Channels -->
+    <section id="contact-section-4" data-section-type="feature_grid" class="contact-channels">
+      <div class="container container--narrow">
+        <div class="section-header section-header--center">
+          <span class="eyebrow eyebrow--stone">Other Ways to Reach Us</span>
+          <h2 class="headline-medium">We're accessible on your terms.</h2>
+        </div>
+        <div class="contact-channels__grid">
+          <article class="channel-card">
+            <div class="channel-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h4l3 6-4 3a14 14 0 0 0 7 7l3-4 6 3v4c0 1.1-.9 2-2 2A22 22 0 0 1 5 7c0-1.1.9-2 2-2z"/></svg>
+            </div>
+            <h3>Phone</h3>
+            <p>Call or text us at <span class="accent">(555) 204-8800</span>, Monday through Saturday, 8am–6pm. We return all messages within one business day.</p>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="24" height="18" rx="3"/><path d="M4 9l12 9 12-9"/></svg>
+            </div>
+            <h3>Email</h3>
+            <p>Reach us at <span class="accent">hello@clearmindtherapy.com</span> for non-urgent inquiries. Expect a response within 24 hours on business days.</p>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="16" rx="3"/><path d="m21 13 7-4v14l-7-4z"/></svg>
+            </div>
+            <h3>Telehealth Entry</h3>
+            <p>Existing clients can access their secure video session link through the client portal. New clients receive a link after booking.</p>
+          </article>
+
+          <article class="channel-card">
+            <div class="channel-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="11"/><path d="M16 9v7l4 3"/></svg>
+            </div>
+            <h3>Office Hours</h3>
+            <p>In-person sessions available Monday–Friday 8am–7pm and Saturday 9am–3pm. Telehealth available seven days a week.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact FAQ -->
+    <section id="contact-section-5" data-section-type="faq" class="section contact-faq">
+      <div class="container container--narrow">
+        <div class="contact-faq__grid">
+          <div class="contact-faq__list">
+            <div class="faq-list faq-list--cards">
+              <details class="faq-item" open>
+                <summary>
+                  How quickly will I hear back?
+                  <span class="faq-chevron"></span>
+                </summary>
+                <div class="faq-answer">We respond to all consultation requests within one business day. Most clients hear back the same afternoon.</div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Is the consultation really free?
+                  <span class="faq-chevron"></span>
+                </summary>
+                <div class="faq-answer">Yes — always. The 15-minute call is designed to help us understand your needs and answer your questions, with no obligation to book.</div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  What if I'm not sure I'm ready for therapy?
+                  <span class="faq-chevron"></span>
+                </summary>
+                <div class="faq-answer">That's exactly what the consultation is for. Many of our clients use it just to ask questions and get a feel for the process before committing.</div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Do you have a cancellation policy?
+                  <span class="faq-chevron"></span>
+                </summary>
+                <div class="faq-answer">We ask for 24 hours' notice for cancellations or rescheduling. Late cancellations may incur a fee, which your therapist will explain at intake.</div>
+              </details>
+
+              <details class="faq-item">
+                <summary>
+                  Can I request a specific therapist?
+                  <span class="faq-chevron"></span>
+                </summary>
+                <div class="faq-answer">Absolutely. If you've reviewed our practitioners page and have a preference, let us know in your message and we'll do our best to accommodate.</div>
+              </details>
+            </div>
+          </div>
+
+          <aside class="contact-faq__sidebar">
+            <span class="eyebrow eyebrow--stone">Before You Hit Send</span>
+            <h2>A few things people usually ask us.</h2>
+            <div class="contact-illo-tile" aria-hidden="true">
+              <svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+                <!-- background -->
+                <rect x="4" y="4" width="312" height="232" rx="16" fill="#E8EEF4"/>
+                <!-- table -->
+                <rect x="80" y="150" width="160" height="20" rx="6" fill="#D6F0E8"/>
+                <rect x="100" y="170" width="120" height="40" rx="4" fill="#D6F0E8" opacity="0.6"/>
+                <!-- left figure -->
+                <circle cx="100" cy="90" r="22" fill="#4AAE8C"/>
+                <path d="M70 154 Q70 124 100 124 Q130 124 130 154 L130 160 L70 160 Z" fill="#1A2332"/>
+                <!-- right figure -->
+                <circle cx="220" cy="90" r="22" fill="#6B7A8F"/>
+                <path d="M190 154 Q190 124 220 124 Q250 124 250 154 L250 160 L190 160 Z" fill="#4AAE8C"/>
+                <!-- speech accents -->
+                <circle cx="158" cy="60" r="6" fill="#4AAE8C" opacity="0.6"/>
+                <circle cx="170" cy="50" r="4" fill="#4AAE8C" opacity="0.4"/>
+                <circle cx="160" cy="44" r="3" fill="#4AAE8C"/>
+                <!-- accent dots -->
+                <circle cx="40" cy="40" r="4" fill="#4AAE8C"/>
+                <circle cx="280" cy="40" r="3" fill="#E8715A" opacity="0.7"/>
+              </svg>
+            </div>
+            <a class="btn btn-outline-sage" href="practitioners.html">Back to Practitioners</a>
+          </aside>
+        </div>
+
+        <p class="contact-faq__footer-line">Still have questions? Call us at <span class="number">(555) 204-8800</span> — we're happy to talk before you book.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a class="brand" href="index.html" style="color: var(--white);">
+            <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="11" height="11" rx="3" fill="#4AAE8C"/>
+              <rect x="18" y="3" width="11" height="11" rx="3" fill="#D6F0E8"/>
+              <rect x="3" y="18" width="11" height="11" rx="3" fill="#E8EEF4"/>
+              <rect x="18" y="18" width="11" height="11" rx="3" fill="#FFFFFF" stroke="#4AAE8C" stroke-width="1.5"/>
+            </svg>
+            <span>Clearmind Therapy</span>
+          </a>
+          <p style="margin-top:12px;">Space to breathe. Room to grow. Compassionate, evidence-based mental health care for individuals, couples, and families.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Practice</h4>
+          <ul>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="practitioners.html">Practitioners</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit</h4>
+          <ul>
+            <li>214 Meridian Avenue, Suite 400</li>
+            <li>Mon–Fri 8am–7pm</li>
+            <li>Sat 9am–3pm</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Reach Us</h4>
+          <ul>
+            <li>(555) 204-8800</li>
+            <li>hello@clearmindtherapy.com</li>
+            <li><a href="contact.html">Book a Free Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© Clearmind Therapy. All sessions are confidential and HIPAA-compliant.</span>
+        <span>Licensed mental health practice</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

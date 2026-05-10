@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nullpoint — Privacy-First Product Analytics</title>
+  <meta name="description" content="Nullpoint gives SaaS teams actionable product analytics with zero personal data collection. GDPR-ready, cookieless, and built for compliance from day one.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="home">
+
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Nullpoint home">
+        <svg class="nav__logo-mark" viewBox="0 0 18 18" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="18" fill="#E5001A"/>
+          <rect x="4" y="4" width="10" height="10" fill="#0A0A0A"/>
+          <rect x="7" y="7" width="4" height="4" fill="#F5F5F5"/>
+        </svg>
+        Nullpoint
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="nav__links" id="primary-nav" aria-label="Primary">
+        <a class="nav__link is-active" href="index.html">Home</a>
+        <a class="nav__link" href="features.html">Features</a>
+        <a class="nav__link" href="enterprise.html">Enterprise</a>
+        <a class="nav__link" href="security.html">Security</a>
+        <a class="nav__link" href="contact.html">Contact</a>
+        <a class="nav__cta" href="contact.html">Start Free Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO ============================================== -->
+    <section id="home-section-1" data-section-type="hero" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--bar">Privacy-First Product Analytics</p>
+          <h1 class="hero__headline">Know your product. Protect your users.</h1>
+          <p class="hero__sub">Nullpoint gives your team precise behavioral insights without cookies, fingerprinting, or personal data collection. Compliance built in. No trade-offs.</p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="contact.html">Start Free Trial</a>
+            <a class="btn btn--secondary" href="features.html">See All Features</a>
+          </div>
+        </div>
+
+        <!-- Hero asset: anonymized dashboard mockup -->
+        <div class="hero-mock" role="img" aria-label="Anonymized funnel analytics dashboard preview">
+          <div class="hero-mock__head">
+            <span><strong>Nullpoint</strong> · Funnel · Last 30 days</span>
+            <span>· · ·</span>
+          </div>
+          <div class="hero-mock__metrics">
+            <div class="hero-mock__metric">
+              <span class="lbl">Sessions</span>
+              <span class="num">412k</span>
+            </div>
+            <div class="hero-mock__metric hero-mock__metric--accent">
+              <span class="lbl">Conversion</span>
+              <span class="num">7.3%</span>
+            </div>
+            <div class="hero-mock__metric">
+              <span class="lbl">PII Stored</span>
+              <span class="num">0</span>
+            </div>
+          </div>
+          <div class="hero-mock__chart">
+            <div class="hero-mock__chart-title">
+              <span>Onboarding Funnel</span>
+              <em>Anonymized</em>
+            </div>
+            <div class="hero-mock__funnel">
+              <div class="hero-mock__bar"><span style="width:100%"></span><b>100%</b></div>
+              <div class="hero-mock__bar"><span style="width:78%"></span><b>78%</b></div>
+              <div class="hero-mock__bar"><span style="width:54%"></span><b>54%</b></div>
+              <div class="hero-mock__bar"><span style="width:41%"></span><b>41%</b></div>
+              <div class="hero-mock__bar"><span style="width:23%"></span><b>23%</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS ============================================= -->
+    <section id="home-section-2" data-section-type="stats" class="section stats">
+      <div class="container">
+        <div class="stats__head">
+          <p class="eyebrow">By the Numbers</p>
+          <h2 class="headline-section headline-section--sm">Trusted by teams who take privacy seriously.</h2>
+        </div>
+        <div class="stats__grid">
+          <div class="stat">
+            <div class="stat__num">4.2B</div>
+            <p class="stat__desc">Events processed monthly with zero PII stored</p>
+          </div>
+          <div class="stat">
+            <div class="stat__num">99.98%</div>
+            <p class="stat__desc">Uptime SLA across all regions</p>
+          </div>
+          <div class="stat">
+            <div class="stat__num stat__num--verified">
+              <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M8 1l6 2v4c0 4-2.5 6.5-6 8-3.5-1.5-6-4-6-8V3l6-2z"
+                  fill="none" stroke="#00875A" stroke-width="1.5"/>
+                <path d="M5 8.2l2 2 4-4" fill="none" stroke="#00875A" stroke-width="1.5" stroke-linecap="square"/>
+              </svg>
+              GDPR · CCPA · HIPAA
+            </div>
+            <p class="stat__desc">Full compliance framework out of the box</p>
+          </div>
+          <div class="stat">
+            <div class="stat__num stat__num--signal">&lt; 1 KB</div>
+            <p class="stat__desc">Script payload — the lightest analytics tag in its class</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE GRID ====================================== -->
+    <section id="home-section-3" data-section-type="feature_grid" class="section section--white">
+      <div class="container">
+        <div class="features-head">
+          <div class="features-head__title">
+            <p class="eyebrow">Why Nullpoint</p>
+            <h2 class="headline-section">Everything you need to understand your product. Nothing you shouldn't collect.</h2>
+          </div>
+          <a class="text-link" href="features.html">Explore All Features <span class="text-link__arrow">→</span></a>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card--lead">
+            <h3 class="feature-card__title">Cookieless by Design</h3>
+            <p class="feature-card__desc">No cookies, no fingerprinting, no consent banners required. Nullpoint's sampling engine derives insights from aggregated signals, not individual identities.</p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-card__title">Real-Time Funnel Analysis</h3>
+            <p class="feature-card__desc">Track conversions, drop-offs, and feature adoption as they happen — with cohort breakdowns and path analysis that rival legacy tools.</p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-card__title">One-Line Integration</h3>
+            <p class="feature-card__desc">A single script tag or SDK call connects your product. SDKs for React, Vue, Node, Python, and Go ship with type-safe event schemas.</p>
+            <code class="code-chip">npm install @nullpoint/sdk</code>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-card__title">Data Residency Control</h3>
+            <p class="feature-card__desc">Choose EU, US, or APAC data residency. All data is encrypted in transit and at rest. You own your data — we never touch it for any other purpose.</p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-card__title">
+              Audit-Ready Exports
+              <span class="verified-dot" aria-label="Compliance verified"></span>
+            </h3>
+            <p class="feature-card__desc">One-click compliance reports for GDPR Article 30 records, CCPA data inventories, and custom audit trails for enterprise legal teams.</p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-card__title">Team Workspaces</h3>
+            <p class="feature-card__desc">Role-based access controls, shared dashboards, and annotation layers let product, engineering, and compliance teams collaborate without stepping on each other.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS ====================================== -->
+    <section id="home-section-4" data-section-type="testimonial" class="section section--white section__rule-top">
+      <div class="container">
+        <p class="eyebrow">What Our Customers Say</p>
+        <h2 class="headline-section" style="max-width:680px; margin: 8px 0 56px;">Built for the teams who can't afford to get privacy wrong.</h2>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <span class="testimonial-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-card__quote">We evaluated six analytics platforms. Nullpoint was the only one our legal team approved without a single revision. And the funnel data is honestly better than what we had before.</p>
+            <hr class="testimonial-card__divider">
+            <p class="testimonial-card__attr">
+              <strong>Maren Holst</strong>
+              VP of Product · Clarive Health
+            </p>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="testimonial-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-card__quote">The cookieless architecture removed our consent-banner headache entirely. We went from 38% consent acceptance to 100% data completeness overnight.</p>
+            <hr class="testimonial-card__divider">
+            <p class="testimonial-card__attr">
+              <strong>Tomás Reyes</strong>
+              CTO · Formstack Labs
+            </p>
+          </article>
+
+          <article class="testimonial-card">
+            <span class="testimonial-card__quote-mark" aria-hidden="true">&ldquo;</span>
+            <p class="testimonial-card__quote">The SDK is the cleanest I've ever integrated. Typed events, zero config, and the dashboard was populated in under ten minutes.</p>
+            <hr class="testimonial-card__divider">
+            <p class="testimonial-card__attr">
+              <strong>Priya Anand</strong>
+              Head of Data · Vercel-scale startup
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA PANEL ========================================= -->
+    <section id="home-section-5" data-section-type="cta" class="cta-panel cta-panel--pattern">
+      <div class="container cta-panel__inner">
+        <p class="eyebrow">Get Started Today</p>
+        <h2 class="cta-panel__head">Analytics that respects your users — and your compliance team.</h2>
+        <p class="cta-panel__sub">No credit card required. Full-featured 14-day trial. Cancel any time.</p>
+        <div class="cta-panel__cta-row">
+          <a class="btn btn--primary btn--lg" href="contact.html">Start Free Trial</a>
+          <a class="btn btn--ghost-light btn--lg" href="enterprise.html">Talk to Enterprise Sales</a>
+        </div>
+
+        <div class="footer-strip">
+          <span class="footer-strip__brand">Nullpoint</span>
+          <nav class="footer-strip__links" aria-label="Site links">
+            <a href="#">Privacy Policy</a> ·
+            <a href="#">Terms</a> ·
+            <a href="security.html">Security</a> ·
+            <a href="contact.html">Contact</a>
+          </nav>
+          <span class="footer-strip__legal">© 2024 Nullpoint. All rights reserved.</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" role="img" aria-label="Two abstract figures facing each other in conversation">
+  <rect width="320" height="240" fill="#E8EEF4"/>
+  <!-- Floor / table base -->
+  <ellipse cx="160" cy="200" rx="120" ry="14" fill="#D6F0E8"/>
+  <!-- Table -->
+  <rect x="120" y="142" width="80" height="56" rx="6" fill="#D6F0E8"/>
+  <rect x="120" y="142" width="80" height="10" rx="4" fill="#4AAE8C" opacity="0.65"/>
+  <line x1="132" y1="152" x2="132" y2="198" stroke="#1A2332" stroke-width="1.5" opacity="0.4"/>
+  <line x1="188" y1="152" x2="188" y2="198" stroke="#1A2332" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Cup on table -->
+  <rect x="148" y="124" width="20" height="22" rx="4" fill="#4AAE8C"/>
+  <path d="M168 130 Q176 130 176 138 Q176 144 168 144" stroke="#4AAE8C" stroke-width="2" fill="none"/>
+  <line x1="152" y1="118" x2="152" y2="124" stroke="#6B7A8F" stroke-width="1.5"/>
+  <line x1="158" y1="116" x2="158" y2="124" stroke="#6B7A8F" stroke-width="1.5"/>
+  <line x1="164" y1="118" x2="164" y2="124" stroke="#6B7A8F" stroke-width="1.5"/>
+
+  <!-- Left figure -->
+  <circle cx="78" cy="80" r="22" fill="#4AAE8C" opacity="0.85"/>
+  <path d="M48 200 Q48 134 78 124 Q108 134 108 200 Z" fill="#4AAE8C" opacity="0.85"/>
+  <path d="M62 174 Q78 168 94 174" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- Right figure -->
+  <circle cx="242" cy="80" r="22" fill="#6B7A8F"/>
+  <path d="M212 200 Q212 134 242 124 Q272 134 272 200 Z" fill="#6B7A8F"/>
+  <path d="M226 174 Q242 168 258 174" stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.45"/>
+
+  <!-- Speech bubble -->
+  <ellipse cx="160" cy="50" rx="32" ry="14" fill="#FFFFFF"/>
+  <circle cx="156" cy="50" r="2" fill="#4AAE8C"/>
+  <circle cx="166" cy="50" r="2" fill="#4AAE8C"/>
+  <circle cx="146" cy="50" r="2" fill="#4AAE8C"/>
+</svg>

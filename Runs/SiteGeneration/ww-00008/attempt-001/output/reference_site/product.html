@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browse Inventory — RevvLot</title>
+<meta name="description" content="Browse thousands of inspected used cars on RevvLot. Filter by make, model, year, price, and mileage. Every listing includes full history and inspection reports.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="product">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="6"/><line x1="14" y1="14" x2="20" y2="20"/></g></symbol>
+</svg>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Primary">
+  <a class="nav-logo" href="index.html"><span class="pixel-spark"></span>REVVLOT</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="product.html" class="active">Inventory</a></li>
+    <li><a href="specs.html">Specs</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="reserve.html">Reserve</a></li>
+  </ul>
+  <a href="reserve.html" class="nav-cta">Reserve $99</a>
+</nav>
+
+<!-- PAGE HEADER -->
+<section id="product-section-1" data-section-type="page_header" class="page-header car-pattern">
+  <div style="position:relative; z-index:2;">
+    <p class="eyebrow lime">The Inventory</p>
+    <h1>12,400 Rides.<br>One Honest Lot.</h1>
+    <p class="ph-sub">Every car inspected. Every price benchmarked. No fluff, no filler.</p>
+  </div>
+</section>
+<div class="checker-strip"></div>
+
+<!-- FILTER -->
+<section id="product-section-2" data-section-type="feature_grid" class="filter-section">
+  <p class="eyebrow purple">Find Your Match</p>
+  <h2 class="section-title cyan">Filter the Lot Your Way</h2>
+  <p class="section-sub" style="max-width:600px;">Use the controls below to narrow by make, model, year range, price, mileage, body style, fuel type, and transmission. Every filter updates results instantly.</p>
+  <div class="filter-frame">
+    <div class="browser-bar">
+      <div class="browser-dots">
+        <span class="browser-dot dot-magenta"></span>
+        <span class="browser-dot dot-lime"></span>
+        <span class="browser-dot dot-cyan"></span>
+      </div>
+      <span class="browser-url">REVVLOT://FILTER.EXE</span>
+    </div>
+    <div class="filter-body">
+      <div class="filter-field">
+        <label>Make &amp; Model</label>
+        <input type="text" placeholder="TYPE MAKE OR MODEL...">
+        <p class="desc" style="font-size:11px; color:var(--gridline-gray); margin-top:6px;">40+ brands &mdash; Honda, Toyota, Ford, Chevy, BMW, &amp; more.</p>
+      </div>
+      <div class="filter-field">
+        <label>Price Range</label>
+        <div class="range-bar">
+          <div class="fill"></div>
+          <div class="thumb left"></div>
+          <div class="thumb right"></div>
+        </div>
+        <div class="range-meta"><span>$4,000</span><span>$60,000+</span></div>
+      </div>
+      <div class="filter-field">
+        <label>Mileage</label>
+        <div class="range-bar purple">
+          <div class="fill"></div>
+          <div class="thumb left"></div>
+          <div class="thumb right"></div>
+        </div>
+        <div class="range-meta"><span>0 mi</span><span>180,000 mi</span></div>
+      </div>
+      <div class="filter-field">
+        <label>Body Style</label>
+        <div class="chips">
+          <button class="chip active">Sedan</button>
+          <button class="chip">SUV</button>
+          <button class="chip">Truck</button>
+          <button class="chip">Hatch</button>
+          <button class="chip">Coupe</button>
+          <button class="chip">Van</button>
+          <button class="chip">Convert</button>
+        </div>
+      </div>
+    </div>
+    <button class="filter-search-btn">▶ Search the Lot &nbsp; →</button>
+  </div>
+</section>
+
+<!-- LISTINGS (signature) -->
+<section id="product-section-3" data-section-type="item_grid" class="signature-section">
+  <div class="container">
+    <p class="eyebrow lime">Available Now</p>
+    <div class="signature-headline">TODAY'S FEATURED LISTINGS</div>
+    <div class="signature-rule"></div>
+  </div>
+  <div class="checker-strip"></div>
+  <div class="container">
+    <p class="signature-sub">Sorted by best value. Updated every 6 hours.</p>
+    <div class="listing-grid">
+      <article class="listing-card">
+        <span class="listing-badge badge-best">Best Value</span>
+        <h3 class="listing-title">2020 HONDA<br>CIVIC EX</h3>
+        <span class="listing-price">$18,400</span>
+        <p class="listing-spec">42,000 MI · AUTO · FWD · GAS</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 1 OWNER</div>
+        <span class="listing-loc">Denver, CO</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+      <article class="listing-card">
+        <span class="listing-badge badge-pop">Popular</span>
+        <h3 class="listing-title">2018 TOYOTA<br>RAV4 XLE</h3>
+        <span class="listing-price">$21,900</span>
+        <p class="listing-spec">58,000 MI · AUTO · AWD · GAS</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 2 OWNERS</div>
+        <span class="listing-loc">Phoenix, AZ</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+      <article class="listing-card">
+        <span class="listing-badge badge-fast">Fast Mover</span>
+        <h3 class="listing-title">2019 FORD<br>F-150 XLT</h3>
+        <span class="listing-price">$29,500</span>
+        <p class="listing-spec">61,000 MI · AUTO · 4WD · GAS</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 1 OWNER</div>
+        <span class="listing-loc">Dallas, TX</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+      <article class="listing-card">
+        <span class="listing-badge badge-low">Low Miles</span>
+        <h3 class="listing-title">2021 SUBARU<br>OUTBACK PREM</h3>
+        <span class="listing-price">$26,750</span>
+        <p class="listing-spec">31,000 MI · CVT · AWD · GAS</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 1 OWNER</div>
+        <span class="listing-loc">Seattle, WA</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+      <article class="listing-card">
+        <span class="listing-badge badge-lux">Luxury Pick</span>
+        <h3 class="listing-title">2017 BMW<br>3 SERIES 330i</h3>
+        <span class="listing-price">$23,100</span>
+        <p class="listing-spec">72,000 MI · AUTO · RWD · GAS</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 2 OWNERS</div>
+        <span class="listing-loc">Atlanta, GA</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+      <article class="listing-card">
+        <span class="listing-badge badge-ev">EV Deal</span>
+        <h3 class="listing-title">2022 HYUNDAI<br>IONIQ 5 SE</h3>
+        <span class="listing-price">$34,200</span>
+        <p class="listing-spec">19,000 MI · 1-SPD · AWD · ELEC</p>
+        <div class="listing-status">INSPECTED · CLEAN TITLE · 1 OWNER</div>
+        <span class="listing-loc">San Jose, CA</span>
+        <hr class="listing-divider">
+        <div class="listing-cta-row">
+          <a href="specs.html" class="listing-btn">View Details</a>
+          <a href="reserve.html" class="listing-btn primary">Reserve</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section id="product-section-4" data-section-type="comparison" class="dark">
+  <p class="eyebrow purple">Not Sure What to Get?</p>
+  <h2 class="section-title">Sedan vs. SUV: Which One's Your Speed?</h2>
+  <div class="compare-grid">
+    <div class="compare-panel">
+      <div class="compare-header">SEDAN</div>
+      <div class="compare-body">
+        <p>Lower price point, better fuel economy, easier to park. Best for daily commuters and city drivers.</p>
+        <div class="compare-metric"><span class="label">Avg Price</span><span class="value">$16,500</span></div>
+        <div class="compare-metric"><span class="label">Avg Fuel Economy</span><span class="value">32 MPG</span></div>
+        <div class="compare-metric"><span class="label">Avg Mileage</span><span class="value">55,000 MI</span></div>
+        <div class="compare-cta">
+          <a href="product.html" class="listing-btn">Browse Sedans →</a>
+        </div>
+      </div>
+    </div>
+    <div class="compare-panel">
+      <div class="compare-header">SUV</div>
+      <div class="compare-body">
+        <p>More cargo room, higher ride height, available AWD. Best for families, road trippers, and all-weather drivers.</p>
+        <div class="compare-metric"><span class="label">Avg Price</span><span class="value">$24,200</span></div>
+        <div class="compare-metric"><span class="label">Avg Fuel Economy</span><span class="value">26 MPG</span></div>
+        <div class="compare-metric"><span class="label">Avg Mileage</span><span class="value">51,000 MI</span></div>
+        <div class="compare-cta">
+          <a href="product.html" class="listing-btn">Browse SUVs →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="checker-strip"></div>
+<section id="product-section-5" data-section-type="cta" class="cta-block">
+  <p class="eyebrow dark">Can't Decide?</p>
+  <h2>Tell Us What You Need.<br>We'll Find the Match.</h2>
+  <p>Answer 4 quick questions and we'll surface the top 3 cars that fit your budget, lifestyle, and must-haves.</p>
+  <div class="btn-row">
+    <a href="product.html" class="btn btn-dark-on-purple">Get My Matches →</a>
+  </div>
+</section>
+<div class="checker-strip"></div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="index.html"><span class="pixel-spark"></span>REVVLOT</a>
+      <p style="font-size:13px; color:var(--crt-white); opacity:0.7; max-width:320px; margin-top:12px;">Old School Hustle. New School Wheels.</p>
+    </div>
+    <div><h4>Browse</h4><ul><li><a href="product.html">Inventory</a></li><li><a href="product.html">Sedans</a></li><li><a href="product.html">SUVs</a></li><li><a href="product.html">Trucks</a></li></ul></div>
+    <div><h4>Buy</h4><ul><li><a href="specs.html">Specs</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="reserve.html">Reserve</a></li><li><a href="reserve.html">Financing</a></li></ul></div>
+    <div><h4>Lot HQ</h4><ul><li><a href="#">About</a></li><li><a href="#">Inspection Standard</a></li><li><a href="#">Locations</a></li><li><a href="#">Contact</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 REVVLOT — Lot Black Industries</span>
+    <span>BOOTING REVVLOT.OS v0.42 // STATUS: OK</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

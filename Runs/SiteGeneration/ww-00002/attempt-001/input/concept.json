@@ -1,0 +1,19 @@
+{
+  "id": "ww-00002",
+  "version": "0.1",
+  "site_domain": "saas",
+  "site_subdomain": "privacy-first analytics platform",
+  "design_aesthetic": "swiss_modern",
+  "layout_family": "classic_landing",
+  "page_set": [
+    "home",
+    "features",
+    "enterprise",
+    "security",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 42,
+  "sample_index": 2,
+  "source": "web-weaver.concept_sampler"
+}

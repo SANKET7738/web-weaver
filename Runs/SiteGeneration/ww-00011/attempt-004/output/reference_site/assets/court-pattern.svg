@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <pattern id="court" width="240" height="240" patternUnits="userSpaceOnUse" patternTransform="rotate(0)">
+      <g fill="none" stroke="#F5F0E8" stroke-width="1.2" opacity="0.85">
+        <!-- diagonal court lines -->
+        <line x1="0" y1="60" x2="240" y2="60"/>
+        <line x1="0" y1="180" x2="240" y2="180"/>
+        <line x1="60" y1="0" x2="60" y2="240"/>
+        <line x1="180" y1="0" x2="180" y2="240"/>
+        <!-- diamond grid motifs -->
+        <g stroke-width="0.8">
+          <path d="M120 30 L150 60 L120 90 L90 60 Z"/>
+          <path d="M120 150 L150 180 L120 210 L90 180 Z"/>
+          <path d="M30 90 L60 120 L30 150 L0 120 Z"/>
+          <path d="M210 90 L240 120 L210 150 L180 120 Z"/>
+        </g>
+        <!-- net suggestion -->
+        <line x1="0" y1="120" x2="240" y2="120" stroke-width="1.6"/>
+        <!-- center dot -->
+        <circle cx="120" cy="120" r="2" fill="#F5F0E8" stroke="none"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="240" height="240" fill="url(#court)"/>
+</svg>

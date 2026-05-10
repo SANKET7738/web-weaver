@@ -1,0 +1,790 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Clearmind Therapy — Space to breathe. Room to grow.",
+            "bodyTextLength": 2486,
+            "scrollHeight": 3810,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 646.546875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 463.875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 1023.46875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 705.34375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 519.5625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "services.html",
+              "services.html",
+              "contact.html",
+              "resources.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Clearmind Therapy — Space to breathe. Room to grow.",
+            "bodyTextLength": 2425,
+            "scrollHeight": 5640,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 746.53125,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 821.28125,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1309.9375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 1281.59375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 468.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "services.html",
+              "services.html",
+              "contact.html",
+              "resources.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Clearmind Therapy",
+            "bodyTextLength": 3055,
+            "scrollHeight": 3666,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 1440,
+                "height": 340.671875,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 1440,
+                "height": 956.25,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 1440,
+                "height": 570.234375,
+                "visible": true
+              },
+              {
+                "id": "services-section-4",
+                "width": 1440,
+                "height": 854.203125,
+                "visible": true
+              },
+              {
+                "id": "services-section-5",
+                "width": 1440,
+                "height": 493.5625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Clearmind Therapy",
+            "bodyTextLength": 2994,
+            "scrollHeight": 5898,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 390,
+                "height": 327.65625,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 390,
+                "height": 2134.03125,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 390,
+                "height": 1029.15625,
+                "visible": true
+              },
+              {
+                "id": "services-section-4",
+                "width": 390,
+                "height": 934.546875,
+                "visible": true
+              },
+              {
+                "id": "services-section-5",
+                "width": 390,
+                "height": 460.25,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "practitioners",
+      "route": "/practitioners.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Practitioners — Clearmind Therapy",
+            "bodyTextLength": 3455,
+            "scrollHeight": 3852,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "practitioners-section-1",
+                "width": 1440,
+                "height": 310.078125,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-2",
+                "width": 1440,
+                "height": 1366.875,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-3",
+                "width": 1440,
+                "height": 598.875,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-4",
+                "width": 1440,
+                "height": 607.0625,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-5",
+                "width": 1440,
+                "height": 517.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "services.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Practitioners — Clearmind Therapy",
+            "bodyTextLength": 3361,
+            "scrollHeight": 5730,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "practitioners-section-1",
+                "width": 390,
+                "height": 297.0625,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-2",
+                "width": 390,
+                "height": 2402.96875,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-3",
+                "width": 390,
+                "height": 517.5625,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-4",
+                "width": 390,
+                "height": 974.46875,
+                "visible": true
+              },
+              {
+                "id": "practitioners-section-5",
+                "width": 390,
+                "height": 525.8125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "services.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "resources",
+      "route": "/resources.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Resources — Clearmind Therapy",
+            "bodyTextLength": 3374,
+            "scrollHeight": 3920,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "resources-section-1",
+                "width": 1440,
+                "height": 400.46875,
+                "visible": true
+              },
+              {
+                "id": "resources-section-2",
+                "width": 1440,
+                "height": 1184.875,
+                "visible": true
+              },
+              {
+                "id": "resources-section-3",
+                "width": 1440,
+                "height": 822.28125,
+                "visible": true
+              },
+              {
+                "id": "resources-section-4",
+                "width": 1440,
+                "height": 505.625,
+                "visible": true
+              },
+              {
+                "id": "resources-section-5",
+                "width": 1440,
+                "height": 555.546875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Resources — Clearmind Therapy",
+            "bodyTextLength": 3313,
+            "scrollHeight": 5960,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "resources-section-1",
+                "width": 390,
+                "height": 297.0625,
+                "visible": true
+              },
+              {
+                "id": "resources-section-2",
+                "width": 390,
+                "height": 1958.765625,
+                "visible": true
+              },
+              {
+                "id": "resources-section-3",
+                "width": 390,
+                "height": 1366.1875,
+                "visible": true
+              },
+              {
+                "id": "resources-section-4",
+                "width": 390,
+                "height": 529.5625,
+                "visible": true
+              },
+              {
+                "id": "resources-section-5",
+                "width": 390,
+                "height": 796.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Clearmind Therapy",
+            "bodyTextLength": 3061,
+            "scrollHeight": 3605,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 397.46875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 883.921875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 602.1875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 505.53125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 765.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Clearmind Therapy",
+            "bodyTextLength": 3000,
+            "scrollHeight": 6159,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 382.0625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1509.578125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 886.46875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 390,
+                "height": 1123.15625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 390,
+                "height": 1245.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html",
+              "practitioners.html",
+              "index.html",
+              "services.html",
+              "practitioners.html",
+              "resources.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

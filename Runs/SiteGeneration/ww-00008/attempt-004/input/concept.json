@@ -1,0 +1,19 @@
+{
+  "id": "ww-00008",
+  "version": "0.1",
+  "site_domain": "automotive_mobility",
+  "site_subdomain": "used car marketplace",
+  "design_aesthetic": "retro_90s_web",
+  "layout_family": "dashboard_product",
+  "page_set": [
+    "home",
+    "product",
+    "specs",
+    "gallery",
+    "reserve"
+  ],
+  "difficulty": "hard",
+  "seed": 42,
+  "sample_index": 8,
+  "source": "web-weaver.concept_sampler"
+}

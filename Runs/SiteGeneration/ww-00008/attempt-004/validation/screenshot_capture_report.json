@@ -1,0 +1,275 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 23,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4550,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3550,
+          "path": "home/home_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 427449
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "product",
+      "route": "/product.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3713,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "product/product_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "product/product_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "product/product_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2713,
+          "path": "product/product_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "product/product_full.png",
+        "bytes": 368959
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "specs",
+      "route": "/specs.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4029,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "specs/specs_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "specs/specs_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "specs/specs_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "specs/specs_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3029,
+          "path": "specs/specs_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "specs/specs_full.png",
+        "bytes": 427266
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "gallery",
+      "route": "/gallery.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3798,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "gallery/gallery_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "gallery/gallery_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "gallery/gallery_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2798,
+          "path": "gallery/gallery_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "gallery/gallery_full.png",
+        "bytes": 318333
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "reserve",
+      "route": "/reserve.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4377,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "reserve/reserve_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "reserve/reserve_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "reserve/reserve_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "reserve/reserve_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3377,
+          "path": "reserve/reserve_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "reserve/reserve_full.png",
+        "bytes": 391032
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}
