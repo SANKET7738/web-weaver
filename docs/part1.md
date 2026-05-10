@@ -163,18 +163,31 @@ not noise.
 
 ### Per-site scores (12 sites)
 
-![Per-site scores heatmap](figures/per-site-A-heatmap.png)
+![Per-site scores parallel coordinates](figures/per-site-C-parallel.png)
 
-Heatmap of every site × grader combination. Cell color goes red →
-yellow → green as the score goes from low to high; the actual number
-is printed inside each cell so the figure is also the table. Two
-things jump out:
+One line per site. Each line connects that site's score on the five
+graders, left to right. Line color follows the site's rank on
+`design2code` (yellow = highest, purple = lowest), so you can read
+"does this site stay near the top across all graders?" by following
+one color all the way across.
 
-- The **`sliced` column** is consistently the most red-tinted — slicing
-  penalizes alignment drift harder than the page-level graders, so
-  every site loses ~0.05 there.
-- The **`clip_only` column** is wall-to-wall green — it's compressed
-  near 1.0 regardless of which site we're looking at.
+What jumps out:
+
+- **Big step up between `sliced` and `vlm_judge`.** Every site climbs
+  ~0.15 points there. The VLM rubric and CLIP both score the same
+  pages much higher than the structural graders do. This is the
+  "structural graders penalize hard, semantic graders are lenient"
+  pattern, visible in one figure.
+- **`clip_only` is the highest band.** All 12 sites are crammed
+  between ~0.89 and ~0.96 — confirms the "compressed range" issue.
+- **Lines cross between graders.** Where the lines re-order, the
+  graders disagree on ranking. The biggest re-ordering happens between
+  `sliced` and `vlm_judge` (sites that look bad to the structural
+  graders are not necessarily the same sites that look bad to Claude).
+- **ww-00022** (dark purple) sits at the bottom of the structural
+  graders but climbs into mid-pack for `vlm_judge` and `clip_only` —
+  the structural graders agree it's the worst, the semantic graders
+  don't see it that way.
 
 Hardest site (across the structural graders): **ww-00022**.
 Easiest: **ww-00029** / **ww-00026** / **ww-00028**.
