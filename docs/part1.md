@@ -200,13 +200,15 @@ detect that gap rather than smoothing it away.
 Spearman rank correlation between graders. 1.00 = identical ranking,
 0.00 = totally different ranking, -1.00 = inverted ranking.
 
-![Spearman rank correlation between graders](figures/corr-C-clustered.png)
-
-Rows and columns are re-ordered so similar graders sit next to each
-other. The diagonal "stripe" in the bottom-right is the redundant
-cluster — `design2code`, `d2c_vlm`, and `waffle` all rank sites
-nearly identically (ρ ≥ 0.97). The `clip_only` row at the top is the
-loner — it disagrees with everything else.
+| | design2code | d2c_vlm | sliced | waffle | perceptual | vlm_judge | clip_only |
+|---|---|---|---|---|---|---|---|
+| design2code | — | **0.98** | 0.56 | **0.99** | 0.59 | 0.64 | 0.10 |
+| d2c_vlm | 0.98 | — | 0.52 | 0.97 | 0.52 | 0.64 | 0.01 |
+| sliced | 0.56 | 0.52 | — | 0.57 | 0.49 | 0.43 | 0.39 |
+| waffle | 0.99 | 0.97 | 0.57 | — | 0.63 | 0.63 | 0.15 |
+| perceptual | 0.59 | 0.52 | 0.49 | 0.63 | — | 0.29 | 0.36 |
+| vlm_judge | 0.64 | 0.64 | 0.43 | 0.63 | 0.29 | — | 0.36 |
+| clip_only | 0.10 | 0.01 | 0.39 | 0.15 | 0.36 | 0.36 | — |
 
 Three things jump out:
 
