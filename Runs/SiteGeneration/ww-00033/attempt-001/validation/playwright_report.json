@@ -1,0 +1,410 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": true
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 20,
+    "visible_sections": 20,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Forma Intime — Precision Intimate Apparel",
+            "bodyTextLength": 1830,
+            "scrollHeight": 3340,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 920,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 563.0625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 803,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 586.5625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "stockists.html",
+              "collection.html",
+              "materials.html",
+              "materials.html",
+              "campaign.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "#",
+              "#",
+              "#",
+              "mailto:hello@formaintime.com",
+              "mailto:trade@formaintime.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "collection",
+      "route": "/collection.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Collection — Forma Intime",
+            "bodyTextLength": 2611,
+            "scrollHeight": 3549,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "collection-section-1",
+                "width": 1440,
+                "height": 489.546875,
+                "visible": true
+              },
+              {
+                "id": "collection-section-2",
+                "width": 1440,
+                "height": 1472.0625,
+                "visible": true
+              },
+              {
+                "id": "collection-section-3",
+                "width": 1440,
+                "height": 659.6875,
+                "visible": true
+              },
+              {
+                "id": "collection-section-4",
+                "width": 1440,
+                "height": 460.1875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "stockists.html",
+              "stockists.html",
+              "stockists.html",
+              "materials.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "#",
+              "#",
+              "#",
+              "mailto:hello@formaintime.com",
+              "mailto:trade@formaintime.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "materials",
+      "route": "/materials.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Materials — Forma Intime",
+            "bodyTextLength": 3059,
+            "scrollHeight": 4016,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "materials-section-1",
+                "width": 1440,
+                "height": 596.75,
+                "visible": true
+              },
+              {
+                "id": "materials-section-2",
+                "width": 1440,
+                "height": 717.0625,
+                "visible": true
+              },
+              {
+                "id": "materials-section-3",
+                "width": 1440,
+                "height": 1729.4375,
+                "visible": true
+              },
+              {
+                "id": "materials-section-4",
+                "width": 1440,
+                "height": 505.875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "stockists.html",
+              "collection.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "#",
+              "#",
+              "#",
+              "mailto:hello@formaintime.com",
+              "mailto:trade@formaintime.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "route": "/campaign.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Campaign — Forma Intime",
+            "bodyTextLength": 3038,
+            "scrollHeight": 3960,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "campaign-section-1",
+                "width": 1440,
+                "height": 880,
+                "visible": true
+              },
+              {
+                "id": "campaign-section-2",
+                "width": 1440,
+                "height": 617.890625,
+                "visible": true
+              },
+              {
+                "id": "campaign-section-3",
+                "width": 1440,
+                "height": 996.375,
+                "visible": true
+              },
+              {
+                "id": "campaign-section-4",
+                "width": 1440,
+                "height": 998.515625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "stockists.html",
+              "collection.html",
+              "collection.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "#",
+              "#",
+              "#",
+              "mailto:hello@formaintime.com",
+              "mailto:trade@formaintime.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Stockists — Forma Intime",
+            "bodyTextLength": 2717,
+            "scrollHeight": 2783,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "stockists-section-1",
+                "width": 1440,
+                "height": 489,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-2",
+                "width": 1440,
+                "height": 723,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-3",
+                "width": 1440,
+                "height": 577.90625,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-4",
+                "width": 1440,
+                "height": 525.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "stockists.html",
+              "mailto:trade@formaintime.com",
+              "mailto:trade@formaintime.com",
+              "collection.html",
+              "materials.html",
+              "campaign.html",
+              "stockists.html",
+              "#",
+              "#",
+              "#",
+              "mailto:hello@formaintime.com",
+              "mailto:trade@formaintime.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

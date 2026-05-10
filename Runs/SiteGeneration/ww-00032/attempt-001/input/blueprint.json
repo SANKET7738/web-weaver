@@ -1,0 +1,915 @@
+{
+  "id": "ww-00032",
+  "version": "0.1",
+  "concept_id": "ww-00032",
+  "identity": {
+    "name": "Lava Mouth",
+    "tagline": "Small batch. Big mouth. Real fire.",
+    "one_line_description": "Lava Mouth is a small-batch hot sauce brand making bold, playfully irreverent sauces for heat lovers who eat with personality.",
+    "domain": "food_beverage_cpg",
+    "subdomain": "small-batch hot sauce brand",
+    "voice": [
+      "bold",
+      "playful",
+      "irreverent",
+      "punchy",
+      "warm"
+    ],
+    "target_audience": "Adventurous home cooks, food-obsessed millennials and Gen Z consumers, hot sauce collectors, and spice-curious foodies who want flavor with their fire and a brand with genuine character."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Hit the visitor with an unmistakable arrival moment \u2014 loud, joyful, and immediately communicating that Lava Mouth is unlike any hot sauce brand they've encountered. Pull them into the product world and funnel curiosity toward the shop and the brand story.",
+      "meta_description": "Lava Mouth makes small-batch hot sauces with real fire and serious flavor. Explore our lineup and find your heat level.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Anchor the visitor with a kinetic, high-energy arrival moment. The headline should feel like it's shouted from a street market stall. Memphis geometric shapes and a bold mascot illustration frame the hero so the brand personality lands before a single scroll.",
+          "eyebrow": "Small-Batch Hot Sauce",
+          "headline": "Your Mouth Deserves More Fire",
+          "subheadline": "Handcrafted sauces that turn ordinary meals into unforgettable ones. Made in small batches. Eaten in large quantities.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop the Sauces",
+              "target_page": "products"
+            },
+            {
+              "label": "Meet the Maker",
+              "target_page": "story"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A cartoon chili pepper with a wide open grinning mouth and expressive eyes, surrounded by Memphis-style geometric shapes \u2014 triangles, squiggles, dots, and bold zigzag lines",
+              "purpose": "Hero mascot that instantly communicates the brand's playful, high-energy personality",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Introduce the three core brand pillars with short punchy copy and bold icons. Let the cards feel like they stagger into view as the visitor scrolls \u2014 each one landing with a little snap.",
+          "eyebrow": "Why Lava Mouth",
+          "headline": "Heat You Can Actually Taste",
+          "subheadline": "We don't just chase Scoville numbers. We chase flavor.",
+          "body": null,
+          "items": [
+            {
+              "title": "Small-Batch Always",
+              "description": "Every bottle is made in runs of 500 or fewer. No shortcuts, no industrial shortcuts, no cutting corners on the good stuff.",
+              "metadata": {}
+            },
+            {
+              "title": "Real Ingredients Only",
+              "description": "Fresh peppers, real garlic, actual fruit. If you can't pronounce it, it's not in our sauce.",
+              "metadata": {}
+            },
+            {
+              "title": "Heat With a Purpose",
+              "description": "Every sauce is built around a flavor story first. The heat is the punctuation, not the whole sentence.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "home-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A set of three Memphis-style bold icons: a small batch jar with a flame, a fresh chili pepper with a checkmark, and a flavor wave with a star burst",
+              "purpose": "Visual anchors for each brand pillar card in the feature grid",
+              "quantity": 1,
+              "used_by": [
+                "home-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-3",
+          "type": "item_grid",
+          "intent": "Tease the product lineup with just enough detail to create desire and push visitors to the full products page. Each product card should feel like a bold label peel \u2014 colorful, distinct, and collectible.",
+          "eyebrow": "The Lineup",
+          "headline": "Pick Your Poison",
+          "subheadline": "From smoky-sweet to face-meltingly hot \u2014 there's a Lava Mouth sauce for every kind of daring.",
+          "body": null,
+          "items": [
+            {
+              "title": "Mango Inferno",
+              "description": "Tropical sweetness meets habanero heat. The sauce that tricks you before it gets you.",
+              "metadata": {
+                "heat_level": "\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                "size": "5 oz"
+              }
+            },
+            {
+              "title": "Smoky Diablo",
+              "description": "Chipotle, roasted garlic, and a slow-building ancho heat. BBQ's best friend.",
+              "metadata": {
+                "heat_level": "\ud83d\udd25\ud83d\udd25",
+                "size": "5 oz"
+              }
+            },
+            {
+              "title": "Ghost Town",
+              "description": "Ghost pepper and roasted tomato. Not for the faint-hearted or the first date.",
+              "metadata": {
+                "heat_level": "\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                "size": "5 oz"
+              }
+            },
+            {
+              "title": "Serrano Verde",
+              "description": "Bright, grassy, and punchy. The everyday sauce that goes on literally everything.",
+              "metadata": {
+                "heat_level": "\ud83d\udd25",
+                "size": "5 oz"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Sauces",
+              "target_page": "products"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "stats",
+          "intent": "Let the numbers feel alive as they count into view \u2014 giving credibility and scale to a brand that feels small and personal. These stats prove Lava Mouth is a real, growing thing people love.",
+          "eyebrow": "By the Numbers",
+          "headline": "A Little Brand Making a Lot of Noise",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "12",
+              "description": "Sauce varieties crafted since launch",
+              "metadata": {}
+            },
+            {
+              "title": "40,000+",
+              "description": "Bottles sold and counting",
+              "metadata": {}
+            },
+            {
+              "title": "85+",
+              "description": "Stockists across the country",
+              "metadata": {}
+            },
+            {
+              "title": "500",
+              "description": "Maximum bottles per batch \u2014 always",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the home page with a confident, playful final flourish \u2014 a single bold invitation that makes not clicking feel like a missed opportunity. The energy here is celebratory and urgent in equal measure.",
+          "eyebrow": "Don't Be Mild",
+          "headline": "Life's Too Short for Boring Sauce",
+          "subheadline": "Grab a bottle \u2014 or four. Your tacos are waiting.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop Now",
+              "target_page": "products"
+            },
+            {
+              "label": "Find a Store Near You",
+              "target_page": "stockists"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "title": "Products",
+      "role": "overview",
+      "goal": "Give every sauce its moment to shine. This page is the full product catalog \u2014 a scrolling celebration of flavor and heat that makes each bottle feel like a personality. Visitors should leave knowing exactly which sauce is theirs.",
+      "meta_description": "Browse the full Lava Mouth small-batch hot sauce lineup. From mellow to face-melting, find your perfect heat level.",
+      "sections": [
+        {
+          "id": "products-section-1",
+          "type": "page_header",
+          "intent": "Introduce the product world with a bold, welcoming statement that frames the catalog as a collection of characters, not just SKUs. The tone is a market vendor calling you over.",
+          "eyebrow": "The Full Lineup",
+          "headline": "Every Sauce Has a Story",
+          "subheadline": "Small batches. Big personalities. Zero filler. Here's the whole crew.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "products-section-1-asset-1",
+              "kind": "pattern",
+              "subject": "A repeating Memphis-style background pattern of tiny chili peppers, flame shapes, zigzag lines, and polka dots arranged in a dense, energetic tile",
+              "purpose": "Page header background texture that signals the brand's playful visual world before any product is shown",
+              "quantity": 1,
+              "used_by": [
+                "products-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "products-section-2",
+          "type": "item_grid",
+          "intent": "Display the full sauce lineup as a staggered reveal grid \u2014 each card arriving with energy as the visitor scrolls. Each card should feel like a collectible label: distinct, bold, and full of character.",
+          "eyebrow": "Mild to Wild",
+          "headline": "Choose Your Heat Level",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Serrano Verde",
+              "description": "Bright and grassy with a citrus kick. Made with fresh serranos, lime zest, and a handful of cilantro. The sauce that lives on your counter permanently.",
+              "metadata": {
+                "heat_level": "Mild \ud83d\udd25",
+                "base": "Serrano pepper",
+                "best_on": "Eggs, tacos, avocado toast"
+              }
+            },
+            {
+              "title": "Smoky Diablo",
+              "description": "Slow-roasted chipotle, caramelized garlic, and ancho chili. Deep, smoky, and dangerously drinkable.",
+              "metadata": {
+                "heat_level": "Medium \ud83d\udd25\ud83d\udd25",
+                "base": "Chipotle & Ancho",
+                "best_on": "BBQ, burgers, roasted veg"
+              }
+            },
+            {
+              "title": "Mango Inferno",
+              "description": "Sun-ripe mango and habanero in a push-pull of sweet and scorching. The crowd favorite that always surprises.",
+              "metadata": {
+                "heat_level": "Hot \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                "base": "Habanero & Mango",
+                "best_on": "Grilled chicken, fish tacos, wings"
+              }
+            },
+            {
+              "title": "Pineapple Fury",
+              "description": "Pineapple, scotch bonnet, and a touch of ginger. Tropical on the nose, volcanic on the finish.",
+              "metadata": {
+                "heat_level": "Hot \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                "base": "Scotch Bonnet & Pineapple",
+                "best_on": "Pork, shrimp, pizza"
+              }
+            },
+            {
+              "title": "Ghost Town",
+              "description": "Ghost pepper, fire-roasted tomato, and smoked paprika. A complex, deeply serious sauce for people who know what they're doing.",
+              "metadata": {
+                "heat_level": "Extra Hot \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+                "base": "Ghost Pepper",
+                "best_on": "Chili, ramen, brave decisions"
+              }
+            },
+            {
+              "title": "Carolina Reaper's Edge",
+              "description": "Our hottest. Carolina Reaper blended with passion fruit and black garlic. Beautiful and absolutely unhinged.",
+              "metadata": {
+                "heat_level": "Extreme \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25+",
+                "base": "Carolina Reaper",
+                "best_on": "The bold, the reckless, the legendary"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Find a Stockist",
+              "target_page": "stockists"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "products-section-3",
+          "type": "comparison",
+          "intent": "Help undecided visitors navigate the heat spectrum with a clear, fun comparison that removes decision anxiety and turns choosing a sauce into a playful self-discovery moment.",
+          "eyebrow": "Heat Guide",
+          "headline": "Not Sure Where to Start?",
+          "subheadline": "Here's how our sauces stack up on the Lava Mouth Heat Scale.",
+          "body": "We rate our sauces on a five-flame scale that balances heat intensity with flavor complexity. A five-flame sauce isn't just hot \u2014 it's hot AND interesting. Use this guide to find your entry point, then work your way up.",
+          "items": [
+            {
+              "title": "\ud83d\udd25 Mild",
+              "description": "Flavor-forward, gentle warmth. Perfect for everyday use and heat newcomers.",
+              "metadata": {
+                "sauce": "Serrano Verde"
+              }
+            },
+            {
+              "title": "\ud83d\udd25\ud83d\udd25 Medium",
+              "description": "Noticeable heat that builds slowly. Great for those who want more than a whisper.",
+              "metadata": {
+                "sauce": "Smoky Diablo"
+              }
+            },
+            {
+              "title": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Hot",
+              "description": "A genuine burn with serious flavor complexity. The sweet spot for most heat lovers.",
+              "metadata": {
+                "sauces": "Mango Inferno, Pineapple Fury"
+              }
+            },
+            {
+              "title": "\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25 Extra Hot",
+              "description": "For experienced palates only. Intense, layered, and deeply satisfying if you can handle it.",
+              "metadata": {
+                "sauce": "Ghost Town"
+              }
+            },
+            {
+              "title": "\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25+ Extreme",
+              "description": "You've been warned. This is the frontier. Bring water. Bring a friend.",
+              "metadata": {
+                "sauce": "Carolina Reaper's Edge"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "products-section-3-asset-1",
+              "kind": "chart",
+              "subject": "A horizontal heat scale bar illustrated in Memphis style \u2014 a bold gradient bar from cool yellow to deep red, with five flame icons marking each heat tier, labeled with playful text",
+              "purpose": "Visual heat guide that makes the comparison section scannable and fun, reinforcing the brand's playful personality",
+              "quantity": 1,
+              "used_by": [
+                "products-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "products-section-4",
+          "type": "testimonial",
+          "intent": "Let real customer voices provide ambient social warmth \u2014 proof that Lava Mouth has a passionate community behind it. The tone here softens slightly into genuine human connection.",
+          "eyebrow": "The People Have Spoken",
+          "headline": "Hot Takes From Real Mouths",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Priya K., Austin TX",
+              "description": "Mango Inferno changed my entire relationship with hot sauce. I put it on my eggs every single morning. My roommates have started hiding it from me.",
+              "metadata": {
+                "sauce": "Mango Inferno"
+              }
+            },
+            {
+              "title": "Marcus D., Brooklyn NY",
+              "description": "Ghost Town is the real deal. Complex, smoky, and absolutely ferocious. I've been a hot sauce nerd for 15 years and this is one of the best I've had.",
+              "metadata": {
+                "sauce": "Ghost Town"
+              }
+            },
+            {
+              "title": "Jess T., Portland OR",
+              "description": "I bought Serrano Verde as a 'starter' sauce and now I've tried the whole lineup. Send help. Also send more Smoky Diablo.",
+              "metadata": {
+                "sauce": "Serrano Verde \u2192 Full Lineup"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "products-section-5",
+          "type": "cta",
+          "intent": "A confident, punchy close that drives visitors toward finding the product in person or online. The energy is fun urgency \u2014 a nudge, not a push.",
+          "eyebrow": "Ready to Commit?",
+          "headline": "Your Kitchen Needs This",
+          "subheadline": "Find Lava Mouth at a store near you or ask your favorite local shop to carry us.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Find a Stockist",
+              "target_page": "stockists"
+            },
+            {
+              "label": "Contact Us",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "title": "Our Story",
+      "role": "editorial",
+      "goal": "Tell the Lava Mouth origin story in a way that makes the brand feel human, earned, and worth rooting for. This is the page that converts casual buyers into loyal fans. The scroll should feel like reading a great short story \u2014 deliberate, warm, and surprising.",
+      "meta_description": "How a backyard obsession with peppers turned into Lava Mouth \u2014 the small-batch hot sauce brand built on flavor, fire, and stubbornness.",
+      "sections": [
+        {
+          "id": "story-section-1",
+          "type": "page_header",
+          "intent": "Open the story with a cinematic, emotionally charged statement that signals this page is different \u2014 slower, more personal, worth reading. A deliberate stillness after the energy of the rest of the site.",
+          "eyebrow": "The Origin",
+          "headline": "It Started With a Pepper Plant and a Dare",
+          "subheadline": "The honest, slightly embarrassing story of how Lava Mouth went from a backyard garden to a bottle on your shelf.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "story-section-2",
+          "type": "story_block",
+          "intent": "The founding story told in full \u2014 personal, funny, and genuine. This section should feel like the founder is talking directly to the reader. Slow, warm, and human.",
+          "eyebrow": "Chapter One",
+          "headline": "A Garden, a Blender, and a Very Unhappy Neighbor",
+          "subheadline": null,
+          "body": "In 2018, founder Dani Reyes planted a single row of ghost peppers in her Chicago apartment's community garden plot. By August, she had more peppers than she knew what to do with. By September, she had a blender, a dozen mason jars, and a sauce that her neighbors described as 'aggressively good' and 'slightly dangerous.' By December, she was selling out of a folding table at the Logan Square Farmers Market every Saturday. Nobody was more surprised than Dani.\n\nLava Mouth wasn't planned. It was grown. The early sauces were made in a rented commercial kitchen from midnight to 4am, labeled by hand at the kitchen table, and sold from the back of a hatchback. Every batch was an experiment. Most were brilliant. A few were spectacular failures that have been sworn to secrecy.\n\nThe name came from Dani's nephew, who tried the original ghost pepper sauce at age nine and announced \u2014 with tears streaming down his face \u2014 that his mouth felt like lava. He asked for more. The name stuck.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "story-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A Memphis-style illustrated scene of a small community garden plot with a single row of chili pepper plants growing vigorously, surrounded by bold geometric shapes and a tiny folding market table in the background",
+              "purpose": "Visual storytelling anchor for the founding narrative \u2014 sets the humble, scrappy origin scene in the brand's playful visual language",
+              "quantity": 1,
+              "used_by": [
+                "story-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "story-section-3",
+          "type": "timeline",
+          "intent": "Walk visitors through the brand's growth milestones in a way that feels like a victory lap \u2014 each moment building momentum and proving this is a real, growing brand with a real history. Let each milestone land with a little pop of energy.",
+          "eyebrow": "The Journey",
+          "headline": "From Mason Jars to Shelves Nationwide",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "2018 \u2014 The Garden",
+              "description": "First ghost pepper harvest. First batch. First farmers market table. First completely accidental business.",
+              "metadata": {}
+            },
+            {
+              "title": "2019 \u2014 The Kitchen",
+              "description": "Moved to a licensed commercial kitchen. Launched Serrano Verde and Smoky Diablo. First 10 local stockists.",
+              "metadata": {}
+            },
+            {
+              "title": "2020 \u2014 The Pivot",
+              "description": "Farmers markets closed. Online sales launched. Discovered that the internet also loves hot sauce, possibly more than anyone expected.",
+              "metadata": {}
+            },
+            {
+              "title": "2021 \u2014 The Shelf",
+              "description": "First regional grocery placement. 25 stockists. Mango Inferno launched and immediately became the best-selling sauce.",
+              "metadata": {}
+            },
+            {
+              "title": "2022 \u2014 The Team",
+              "description": "Hired first two full-time employees. Moved to a dedicated production facility. Still making every batch by hand.",
+              "metadata": {}
+            },
+            {
+              "title": "2023\u2013Now \u2014 The Movement",
+              "description": "85+ stockists. 40,000+ bottles sold. Six sauces in the permanent lineup. Still small-batch. Always will be.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "story-section-4",
+          "type": "story_block",
+          "intent": "Articulate the brand's philosophy and values \u2014 what Lava Mouth stands for beyond just hot sauce. This section should feel like a manifesto, warm and confident, not corporate.",
+          "eyebrow": "What We Believe",
+          "headline": "Flavor First. Heat Second. Always Small-Batch.",
+          "subheadline": null,
+          "body": "A lot of hot sauce brands are in the business of pain. We're in the business of flavor. The heat is real \u2014 sometimes brutally so \u2014 but every Lava Mouth sauce is built around a flavor profile first. The pepper comes second. That's the rule Dani set in 2018 and it hasn't changed.\n\nSmall-batch isn't a marketing phrase for us. It's a hard cap. Every run is 500 bottles or fewer. That means we can adjust recipes based on how the peppers are tasting that season. It means we can try new things without betting the whole company on them. It means every bottle you open is the result of someone's actual attention, not a formula running on autopilot.\n\nWe source our peppers from three family farms \u2014 two in New Mexico, one in the Yucat\u00e1n. We've worked with the same growers since year one. When the harvest is good, the sauce is extraordinary. When it's a tough season, we adjust. That's the deal.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "story-section-4-asset-1",
+              "kind": "illustration",
+              "subject": "A Memphis-style illustrated map of the United States with two bold markers in New Mexico and one in the Yucat\u00e1n region of Mexico, connected by dotted lines to a central production point in Chicago, surrounded by small chili pepper icons",
+              "purpose": "Visual anchor for the sourcing philosophy \u2014 makes the farm-to-bottle story tangible and geographic",
+              "quantity": 1,
+              "used_by": [
+                "story-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "story-section-5",
+          "type": "cta",
+          "intent": "Close the story page with a warm, personal invitation \u2014 the natural next step after falling in love with the brand. The energy here is like a handshake at the end of a great conversation.",
+          "eyebrow": "Now You Know Us",
+          "headline": "Come Find Your Sauce",
+          "subheadline": "The story's great, but the sauce is better. Go find the one that's yours.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop the Lineup",
+              "target_page": "products"
+            },
+            {
+              "label": "Find a Store",
+              "target_page": "stockists"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "title": "Stockists",
+      "role": "support",
+      "goal": "Help visitors find Lava Mouth in the real world \u2014 at local shops, specialty grocers, and restaurants. This page should feel like an exciting discovery map, not a dry directory. It should also invite new retailers to get on board.",
+      "meta_description": "Find Lava Mouth hot sauce at a store or restaurant near you. Browse our stockist directory or ask your local shop to carry us.",
+      "sections": [
+        {
+          "id": "stockists-section-1",
+          "type": "page_header",
+          "intent": "Frame the stockist page as an exciting discovery \u2014 the brand is out there in the world, and finding it locally is part of the experience. Energetic and welcoming.",
+          "eyebrow": "Find the Fire",
+          "headline": "Lava Mouth Is Out in the Wild",
+          "subheadline": "85+ shops, grocers, and restaurants across the country are already carrying the heat. Is yours?",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "stockists-section-1-asset-1",
+              "kind": "map",
+              "subject": "A stylized flat illustrated map of the continental United States with bold Memphis-style dot markers indicating stockist concentration in major cities, using flame or chili icons as location pins",
+              "purpose": "Visual proof of geographic reach \u2014 makes the brand feel established and discoverable across the country",
+              "quantity": 1,
+              "used_by": [
+                "stockists-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stockists-section-2",
+          "type": "item_grid",
+          "intent": "List stockists by region with enough detail to make finding them easy and feel like a curated recommendation. The tone is enthusiastic, like a friend telling you about a great shop.",
+          "eyebrow": "Where to Find Us",
+          "headline": "Our Stockist Family",
+          "subheadline": "From corner stores to specialty grocers \u2014 these are the spots that get it.",
+          "body": null,
+          "items": [
+            {
+              "title": "Midwest",
+              "description": "Logan Square Provisions, Chicago IL \u00b7 Spice & Co., Chicago IL \u00b7 The Good Food Store, Milwaukee WI \u00b7 Pepper & Salt Market, Minneapolis MN \u00b7 Local Roots Grocery, Indianapolis IN",
+              "metadata": {
+                "region": "Midwest",
+                "count": "18 locations"
+              }
+            },
+            {
+              "title": "Northeast",
+              "description": "Heatwave Specialty Foods, Brooklyn NY \u00b7 The Pantry NYC, New York NY \u00b7 Fire & Flavor, Boston MA \u00b7 Zest Market, Philadelphia PA \u00b7 The Hot Shelf, Washington DC",
+              "metadata": {
+                "region": "Northeast",
+                "count": "22 locations"
+              }
+            },
+            {
+              "title": "South",
+              "description": "Ember & Spice, Austin TX \u00b7 The Sauce Room, Nashville TN \u00b7 Coastal Heat, Charleston SC \u00b7 Pepper Palace, New Orleans LA \u00b7 Lone Star Provisions, Houston TX",
+              "metadata": {
+                "region": "South",
+                "count": "21 locations"
+              }
+            },
+            {
+              "title": "West",
+              "description": "Flame & Fork, Portland OR \u00b7 The Pepper Jar, Seattle WA \u00b7 Spice Route Market, San Francisco CA \u00b7 Heatseeker Grocery, Los Angeles CA \u00b7 Desert Fire Foods, Phoenix AZ",
+              "metadata": {
+                "region": "West",
+                "count": "24 locations"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stockists-section-3",
+          "type": "article_list",
+          "intent": "Highlight a few featured stockist partners with short editorial profiles \u2014 making these shops feel like part of the Lava Mouth community, not just a distribution list.",
+          "eyebrow": "Featured Partners",
+          "headline": "Shops That Really Get It",
+          "subheadline": "These stockists don't just carry Lava Mouth \u2014 they champion it.",
+          "body": null,
+          "items": [
+            {
+              "title": "Logan Square Provisions, Chicago",
+              "description": "Our original stockist and the shop that gave Lava Mouth its first shelf. Owner Marcus Webb has been a believer since the farmers market days. He keeps all six sauces in stock and hand-sells them to every curious customer.",
+              "metadata": {
+                "type": "Specialty Grocer",
+                "city": "Chicago, IL"
+              }
+            },
+            {
+              "title": "Heatwave Specialty Foods, Brooklyn",
+              "description": "New York's best hot sauce destination. The team at Heatwave curates their shelf like a gallery wall \u2014 only the best makes the cut. We're proud to be on it.",
+              "metadata": {
+                "type": "Specialty Retailer",
+                "city": "Brooklyn, NY"
+              }
+            },
+            {
+              "title": "Ember & Spice, Austin",
+              "description": "A beloved neighborhood shop in East Austin that stocks local and indie food brands exclusively. Their customers discovered Mango Inferno before anyone else in Texas.",
+              "metadata": {
+                "type": "Independent Grocer",
+                "city": "Austin, TX"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "stockists-section-3-asset-1",
+              "kind": "icon",
+              "subject": "A set of three Memphis-style bold store-type icons: a specialty grocer storefront, a retail shelf with bottles, and an independent market stall with an awning",
+              "purpose": "Visual identifiers for the featured stockist partner cards, reinforcing the indie, community-first brand values",
+              "quantity": 1,
+              "used_by": [
+                "stockists-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stockists-section-4",
+          "type": "stats",
+          "intent": "Quick-hit numbers that reinforce the brand's real-world reach and momentum \u2014 making the stockist network feel alive and growing. Let the numbers feel like they pop into view.",
+          "eyebrow": "The Network",
+          "headline": "Growing Every Month",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "85+",
+              "description": "Active stockist locations nationwide",
+              "metadata": {}
+            },
+            {
+              "title": "22",
+              "description": "States where you can find Lava Mouth",
+              "metadata": {}
+            },
+            {
+              "title": "3",
+              "description": "New stockists added on average every month",
+              "metadata": {}
+            },
+            {
+              "title": "100%",
+              "description": "Of stockists who started still carrying us",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stockists-section-5",
+          "type": "cta",
+          "intent": "Invite wholesale inquiries from retailers who want to carry Lava Mouth \u2014 turning the stockist page into a two-way door. The tone is enthusiastic and collaborative, not transactional.",
+          "eyebrow": "Carry the Heat",
+          "headline": "Want to Stock Lava Mouth in Your Shop?",
+          "subheadline": "We work with independent retailers, specialty grocers, restaurants, and food halls. Let's talk.",
+          "body": "We keep our wholesale program small and personal. Every new stockist gets a tasting kit, a shelf guide, and a direct line to Dani. We're not looking for volume \u2014 we're looking for the right shops.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get in Touch",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Make it easy and genuinely inviting to reach out \u2014 whether someone wants to wholesale, collaborate, ask a sauce question, or just say hello. The page should feel like a warm open door, not a support ticket form.",
+      "meta_description": "Get in touch with Lava Mouth. Wholesale inquiries, press, collaborations, or just want to talk hot sauce \u2014 we're here.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a warm, personal tone for the contact page \u2014 this isn't a corporate helpdesk, it's a small brand that actually wants to hear from you. The energy is open and a little playful.",
+          "eyebrow": "Say Hello",
+          "headline": "We're Real People Who Really Love Hot Sauce",
+          "subheadline": "Questions, wholesale inquiries, press, collabs, fan mail, complaints about Ghost Town being too hot \u2014 we read everything.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "feature_grid",
+          "intent": "Segment the reasons to get in touch so visitors can self-identify their inquiry type \u2014 reducing friction and setting expectations. Each card should feel like a warm welcome, not a department directory.",
+          "eyebrow": "How Can We Help?",
+          "headline": "Pick Your Reason to Reach Out",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Wholesale & Retail",
+              "description": "Want to stock Lava Mouth in your shop, restaurant, or food hall? We'd love to talk. We keep our wholesale program personal and we're always looking for the right partners.",
+              "metadata": {
+                "contact": "wholesale@lavamouthsauce.com"
+              }
+            },
+            {
+              "title": "Press & Media",
+              "description": "Working on a story, a review, or a feature? We're happy to chat, send samples, and connect you with Dani for an interview.",
+              "metadata": {
+                "contact": "press@lavamouthsauce.com"
+              }
+            },
+            {
+              "title": "Collaborations",
+              "description": "Chefs, food brands, event organizers \u2014 we love a good collab. If you've got an idea, we're all ears. And mouths.",
+              "metadata": {
+                "contact": "collabs@lavamouthsauce.com"
+              }
+            },
+            {
+              "title": "General Questions",
+              "description": "Can't find a sauce near you? Curious about ingredients? Just want to say hi? Use the form below or drop us a line directly.",
+              "metadata": {
+                "contact": "hello@lavamouthsauce.com"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A Memphis-style illustrated open envelope with a small chili pepper emerging from it like a letter, surrounded by bold geometric squiggles and star bursts",
+              "purpose": "Friendly visual anchor for the contact page that reinforces the approachable, playful brand tone",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-3",
+          "type": "contact_block",
+          "intent": "The actual contact form \u2014 kept simple, warm, and low-friction. The copy around the form should feel like an invitation, not a formality.",
+          "eyebrow": "Drop Us a Line",
+          "headline": "Send Us a Message",
+          "subheadline": "We aim to respond within one business day. Yes, a real human reads every message.",
+          "body": null,
+          "items": [
+            {
+              "title": "Name",
+              "description": "Your full name",
+              "metadata": {
+                "field_type": "text",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Email",
+              "description": "Your email address",
+              "metadata": {
+                "field_type": "email",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Reason for Reaching Out",
+              "description": "Wholesale, Press, Collab, General",
+              "metadata": {
+                "field_type": "select",
+                "required": "true"
+              }
+            },
+            {
+              "title": "Message",
+              "description": "Tell us what's on your mind",
+              "metadata": {
+                "field_type": "textarea",
+                "required": "true"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send It",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "story_block",
+          "intent": "A short, human note from Dani \u2014 giving the contact page a personal signature that makes the brand feel real and accessible. Deliberate stillness and warmth.",
+          "eyebrow": "From the Founder",
+          "headline": "Dani Reads Every Single One",
+          "subheadline": null,
+          "body": "I started Lava Mouth at a kitchen table and I still run it like I'm at that table. Every message that comes in gets read by me or someone on my tiny team. If you're a shop owner thinking about carrying us, a journalist working on a piece, or just someone who wants to tell me what you put Mango Inferno on last night \u2014 I genuinely want to hear it.\n\nThis is still a small brand. Your message matters.\n\n\u2014 Dani Reyes, Founder",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-5",
+          "type": "faq",
+          "intent": "Pre-empt the most common questions so visitors can self-serve before reaching out \u2014 reducing friction and demonstrating that Lava Mouth knows and cares about its community.",
+          "eyebrow": "Quick Answers",
+          "headline": "Things People Usually Ask Us",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do you ship directly to customers?",
+              "description": "Not yet \u2014 we currently sell exclusively through our retail and wholesale partners. Find your nearest stockist on our Stockists page, or ask your local specialty grocer to carry us.",
+              "metadata": {}
+            },
+            {
+              "title": "Are your sauces gluten-free?",
+              "description": "Yes. All Lava Mouth sauces are gluten-free and made without artificial preservatives. Full ingredient lists are available on each product page.",
+              "metadata": {}
+            },
+            {
+              "title": "How do I become a stockist?",
+              "description": "Fill out the contact form above with 'Wholesale' as your reason, or email wholesale@lavamouthsauce.com. We'll send you a tasting kit and get the conversation started.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I request a custom sauce for an event or restaurant?",
+              "description": "We occasionally take on custom collaboration projects. Reach out via the Collaborations email with your concept and timeline and we'll let you know if it's a fit.",
+              "metadata": {}
+            },
+            {
+              "title": "Where are your peppers sourced?",
+              "description": "We source from three family farms \u2014 two in New Mexico and one in the Yucat\u00e1n, Mexico. We've worked with the same growers since 2019.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Find a Stockist",
+              "target_page": "stockists"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

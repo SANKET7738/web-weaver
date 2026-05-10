@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Stockists — Find Lava Mouth Near You</title>
+<meta name="description" content="Find Lava Mouth hot sauce at a store or restaurant near you. Browse our stockist directory or ask your local shop to carry us." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;600;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page-slug="stockists">
+
+<nav class="nav" aria-label="Primary">
+  <a class="nav__brand" href="index.html">
+    <svg class="nav__brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+      <path d="M24 4 C 16 14, 8 18, 8 28 C 8 38, 16 44, 24 44 C 32 44, 40 38, 40 28 C 40 18, 32 14, 24 4 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+      <path d="M24 16 C 22 22, 22 26, 24 30 C 26 26, 26 22, 24 16 Z" fill="#FFD600" stroke="#1A1209" stroke-width="1.5"/>
+    </svg>
+    Lava Mouth
+  </a>
+  <ul class="nav__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="story.html">Story</a></li>
+    <li><a href="stockists.html" class="is-active">Stockists</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ============ PAGE HEADER WITH MAP ============ -->
+<section id="stockists-section-1" data-section-type="page_header" class="stockists-header">
+  <svg class="stockists-header__shape stockists-header__shape--squig1" viewBox="0 0 100 30" aria-hidden="true">
+    <path d="M0 15 Q 20 0, 40 15 T 80 15 T 120 15" stroke="#FF85A1" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </svg>
+  <svg class="stockists-header__shape stockists-header__shape--squig2" viewBox="0 0 80 30" aria-hidden="true">
+    <path d="M0 15 Q 20 0, 40 15 T 80 15" stroke="#FF85A1" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </svg>
+  <svg class="stockists-header__shape stockists-header__shape--squig3" viewBox="0 0 90 30" aria-hidden="true">
+    <path d="M0 15 Q 22 0, 45 15 T 90 15" stroke="#FF85A1" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </svg>
+  <div class="stockists-header__shape stockists-header__shape--tri" aria-hidden="true"></div>
+  <div class="stockists-header__shape stockists-header__shape--sq" aria-hidden="true"></div>
+
+  <div class="container stockists-header__grid">
+    <div class="stockists-header__text">
+      <span class="eyebrow eyebrow--pink">FIND THE FIRE</span>
+      <h1 class="stockists-header__h1">Lava Mouth Is Out in the Wild</h1>
+      <p class="stockists-header__sub">85+ shops, grocers, and restaurants across the country are already carrying the heat. Is yours?</p>
+    </div>
+    <div class="stockists-header__map">
+      <svg viewBox="0 0 600 380" aria-hidden="true">
+        <!-- USA stylized -->
+        <path d="M30 130 L80 100 L150 90 L220 85 L290 80 L360 80 L430 90 L490 100 L540 120 L570 150 L570 200 L540 240 L490 270 L420 290 L350 295 L280 295 L220 290 L160 280 L100 260 L60 230 L30 200 Z"
+          fill="#FFD600" stroke="#1A1209" stroke-width="3" stroke-linejoin="round"/>
+        <!-- Florida -->
+        <path d="M430 290 L450 320 L460 355 L470 360 L460 320 L450 290 Z" fill="#FFD600" stroke="#1A1209" stroke-width="3"/>
+        <!-- Texas tail -->
+        <path d="M240 280 L250 320 L270 340 L290 330 L280 305 Z" fill="#FFD600" stroke="#1A1209" stroke-width="3"/>
+        <!-- decorative state lines -->
+        <line x1="180" y1="100" x2="200" y2="280" stroke="#1A1209" stroke-width="1.5" opacity="0.3"/>
+        <line x1="260" y1="90" x2="270" y2="290" stroke="#1A1209" stroke-width="1.5" opacity="0.3"/>
+        <line x1="340" y1="85" x2="350" y2="290" stroke="#1A1209" stroke-width="1.5" opacity="0.3"/>
+        <line x1="420" y1="90" x2="425" y2="290" stroke="#1A1209" stroke-width="1.5" opacity="0.3"/>
+
+        <!-- Map pins (chili/flame icons) -->
+        <!-- Chicago -->
+        <g class="map-pin" transform="translate(360,160)">
+          <ellipse cx="0" cy="3" rx="14" ry="4" fill="rgba(0,0,0,0.2)"/>
+          <path d="M0 -36 C 8 -26 14 -16 12 -8 C 16 -16 22 -18 22 -4 C 22 8 12 14 4 12 C 10 6 4 0 0 -36Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+        </g>
+        <!-- NYC -->
+        <g class="map-pin" transform="translate(480,150)">
+          <ellipse cx="0" cy="3" rx="14" ry="4" fill="rgba(0,0,0,0.2)"/>
+          <path d="M0 -36 C 8 -26 14 -16 12 -8 C 16 -16 22 -18 22 -4 C 22 8 12 14 4 12 C 10 6 4 0 0 -36Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+        </g>
+        <!-- LA -->
+        <g class="map-pin" transform="translate(80,200)">
+          <ellipse cx="0" cy="3" rx="14" ry="4" fill="rgba(0,0,0,0.2)"/>
+          <path d="M0 -36 C 8 -26 14 -16 12 -8 C 16 -16 22 -18 22 -4 C 22 8 12 14 4 12 C 10 6 4 0 0 -36Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+        </g>
+        <!-- Portland -->
+        <g class="map-pin" transform="translate(80,120)">
+          <path d="M0 -28 C 6 -20 10 -12 8 -6 C 12 -12 16 -14 16 -2 C 16 6 8 10 2 8 C 8 4 4 0 0 -28Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Seattle -->
+        <g class="map-pin" transform="translate(110,100)">
+          <path d="M0 -28 C 6 -20 10 -12 8 -6 C 12 -12 16 -14 16 -2 C 16 6 8 10 2 8 C 8 4 4 0 0 -28Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Austin -->
+        <g class="map-pin" transform="translate(280,260)">
+          <path d="M0 -28 C 6 -20 10 -12 8 -6 C 12 -12 16 -14 16 -2 C 16 6 8 10 2 8 C 8 4 4 0 0 -28Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Houston -->
+        <g class="map-pin" transform="translate(310,275)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Nashville -->
+        <g class="map-pin" transform="translate(390,210)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- New Orleans -->
+        <g class="map-pin" transform="translate(370,275)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Charleston -->
+        <g class="map-pin" transform="translate(450,250)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- DC -->
+        <g class="map-pin" transform="translate(465,180)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Minneapolis -->
+        <g class="map-pin" transform="translate(310,130)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Phoenix -->
+        <g class="map-pin" transform="translate(140,240)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- Denver -->
+        <g class="map-pin" transform="translate(220,180)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+        <!-- SF -->
+        <g class="map-pin" transform="translate(40,180)">
+          <path d="M0 -24 C 5 -18 8 -10 7 -5 C 10 -10 13 -12 13 -2 C 13 5 7 8 2 7 C 7 3 3 0 0 -24Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.5"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGIONS GRID ============ -->
+<section id="stockists-section-2" data-section-type="item_grid" class="regions">
+  <div class="container">
+    <div class="regions__head reveal">
+      <span class="eyebrow eyebrow--yellow">WHERE TO FIND US</span>
+      <h2 class="regions__h2">Our Stockist Family</h2>
+      <p class="regions__sub">From corner stores to specialty grocers — these are the spots that get it.</p>
+    </div>
+
+    <div class="regions__grid stagger">
+      <article class="region-card region-card--midwest">
+        <div class="region-card__bar"></div>
+        <div class="region-card__body">
+          <h3 class="region-card__name">Midwest</h3>
+          <span class="region-card__count">18 LOCATIONS</span>
+          <div class="region-card__list">
+            Logan Square Provisions, Chicago IL<br>
+            Spice & Co., Chicago IL<br>
+            The Good Food Store, Milwaukee WI<br>
+            Pepper & Salt Market, Minneapolis MN<br>
+            Local Roots Grocery, Indianapolis IN
+          </div>
+        </div>
+        <div class="region-card__accent" aria-hidden="true"></div>
+      </article>
+
+      <article class="region-card region-card--northeast">
+        <div class="region-card__bar"></div>
+        <div class="region-card__body">
+          <h3 class="region-card__name">Northeast</h3>
+          <span class="region-card__count">22 LOCATIONS</span>
+          <div class="region-card__list">
+            Heatwave Specialty Foods, Brooklyn NY<br>
+            The Pantry NYC, New York NY<br>
+            Fire & Flavor, Boston MA<br>
+            Zest Market, Philadelphia PA<br>
+            The Hot Shelf, Washington DC
+          </div>
+        </div>
+        <div class="region-card__accent" aria-hidden="true"></div>
+      </article>
+
+      <article class="region-card region-card--south">
+        <div class="region-card__bar"></div>
+        <div class="region-card__body">
+          <h3 class="region-card__name">South</h3>
+          <span class="region-card__count">21 LOCATIONS</span>
+          <div class="region-card__list">
+            Ember & Spice, Austin TX<br>
+            The Sauce Room, Nashville TN<br>
+            Coastal Heat, Charleston SC<br>
+            Pepper Palace, New Orleans LA<br>
+            Lone Star Provisions, Houston TX
+          </div>
+        </div>
+        <div class="region-card__accent" aria-hidden="true"></div>
+      </article>
+
+      <article class="region-card region-card--west">
+        <div class="region-card__bar"></div>
+        <div class="region-card__body">
+          <h3 class="region-card__name">West</h3>
+          <span class="region-card__count">24 LOCATIONS</span>
+          <div class="region-card__list">
+            Flame & Fork, Portland OR<br>
+            The Pepper Jar, Seattle WA<br>
+            Spice Route Market, San Francisco CA<br>
+            Heatseeker Grocery, Los Angeles CA<br>
+            Desert Fire Foods, Phoenix AZ
+          </div>
+        </div>
+        <div class="region-card__accent" aria-hidden="true"></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PARTNERS ============ -->
+<section id="stockists-section-3" data-section-type="article_list" class="partners">
+  <div class="container">
+    <div class="partners__head reveal">
+      <span class="eyebrow eyebrow--black">FEATURED PARTNERS</span>
+      <h2 class="partners__h2">Shops That Really Get It</h2>
+      <p class="partners__sub">These stockists don't just carry Lava Mouth — they champion it.</p>
+    </div>
+
+    <div class="partners__grid stagger">
+      <article class="partner-card">
+        <span class="partner-card__squig" aria-hidden="true"></span>
+        <svg class="partner-card__icon" viewBox="0 0 60 60" aria-hidden="true">
+          <rect x="6" y="22" width="48" height="32" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+          <polygon points="3,22 30,6 57,22" fill="#1A1209"/>
+          <rect x="14" y="32" width="10" height="22" fill="#FFF5E1" stroke="#1A1209" stroke-width="2"/>
+          <rect x="28" y="32" width="24" height="14" fill="#FFD600" stroke="#1A1209" stroke-width="2"/>
+        </svg>
+        <div class="partner-card__tags">
+          <span class="partner-card__tag partner-card__tag--type">Specialty Grocer</span>
+          <span class="partner-card__tag partner-card__tag--city">Chicago, IL</span>
+        </div>
+        <h3 class="partner-card__name">Logan Square Provisions</h3>
+        <p class="partner-card__desc">Our original stockist and the shop that gave Lava Mouth its first shelf. Owner Marcus Webb has been a believer since the farmers market days. He keeps all six sauces in stock and hand-sells them to every curious customer.</p>
+      </article>
+
+      <article class="partner-card">
+        <span class="partner-card__squig" aria-hidden="true"></span>
+        <svg class="partner-card__icon" viewBox="0 0 60 60" aria-hidden="true">
+          <rect x="6" y="10" width="48" height="44" fill="#FFD600" stroke="#1A1209" stroke-width="3"/>
+          <line x1="6" y1="22" x2="54" y2="22" stroke="#1A1209" stroke-width="2"/>
+          <line x1="6" y1="34" x2="54" y2="34" stroke="#1A1209" stroke-width="2"/>
+          <line x1="6" y1="46" x2="54" y2="46" stroke="#1A1209" stroke-width="2"/>
+          <rect x="12" y="14" width="6" height="6" fill="#FF4D38" stroke="#1A1209" stroke-width="1"/>
+          <rect x="22" y="14" width="6" height="6" fill="#FF4D38" stroke="#1A1209" stroke-width="1"/>
+          <rect x="32" y="14" width="6" height="6" fill="#FF4D38" stroke="#1A1209" stroke-width="1"/>
+          <rect x="42" y="14" width="6" height="6" fill="#FF4D38" stroke="#1A1209" stroke-width="1"/>
+          <rect x="12" y="26" width="6" height="6" fill="#00B8A0" stroke="#1A1209" stroke-width="1"/>
+          <rect x="22" y="26" width="6" height="6" fill="#00B8A0" stroke="#1A1209" stroke-width="1"/>
+          <rect x="32" y="26" width="6" height="6" fill="#00B8A0" stroke="#1A1209" stroke-width="1"/>
+          <rect x="42" y="26" width="6" height="6" fill="#00B8A0" stroke="#1A1209" stroke-width="1"/>
+        </svg>
+        <div class="partner-card__tags">
+          <span class="partner-card__tag partner-card__tag--type">Specialty Retailer</span>
+          <span class="partner-card__tag partner-card__tag--city">Brooklyn, NY</span>
+        </div>
+        <h3 class="partner-card__name">Heatwave Specialty Foods</h3>
+        <p class="partner-card__desc">New York's best hot sauce destination. The team at Heatwave curates their shelf like a gallery wall — only the best makes the cut. We're proud to be on it.</p>
+      </article>
+
+      <article class="partner-card">
+        <span class="partner-card__squig" aria-hidden="true"></span>
+        <svg class="partner-card__icon" viewBox="0 0 60 60" aria-hidden="true">
+          <path d="M4 22 L30 6 L56 22 L52 26 L8 26 Z" fill="#FF85A1" stroke="#1A1209" stroke-width="3" stroke-linejoin="round"/>
+          <rect x="8" y="26" width="44" height="30" fill="#FFF5E1" stroke="#1A1209" stroke-width="3"/>
+          <line x1="14" y1="26" x2="14" y2="56" stroke="#FF4D38" stroke-width="3"/>
+          <line x1="22" y1="26" x2="22" y2="56" stroke="#FF4D38" stroke-width="3"/>
+          <line x1="30" y1="26" x2="30" y2="56" stroke="#FF4D38" stroke-width="3"/>
+          <line x1="38" y1="26" x2="38" y2="56" stroke="#FF4D38" stroke-width="3"/>
+          <line x1="46" y1="26" x2="46" y2="56" stroke="#FF4D38" stroke-width="3"/>
+        </svg>
+        <div class="partner-card__tags">
+          <span class="partner-card__tag partner-card__tag--type">Independent Grocer</span>
+          <span class="partner-card__tag partner-card__tag--city">Austin, TX</span>
+        </div>
+        <h3 class="partner-card__name">Ember & Spice</h3>
+        <p class="partner-card__desc">A beloved neighborhood shop in East Austin that stocks local and indie food brands exclusively. Their customers discovered Mango Inferno before anyone else in Texas.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS YELLOW ============ -->
+<section id="stockists-section-4" data-section-type="stats" class="stats-yellow">
+  <div class="container">
+    <div class="reveal">
+      <span class="eyebrow eyebrow--black">THE NETWORK</span>
+      <h2 class="stats-yellow__h2">Growing Every Month</h2>
+    </div>
+    <div class="stats-yellow__rule"></div>
+    <div class="stats-yellow__grid" data-counter-group>
+      <div class="stat-y">
+        <span class="stat-y__num" data-count="85" data-suffix="+">0</span>
+        <p class="stat-y__label">Active stockist locations nationwide</p>
+      </div>
+      <div class="stat-y">
+        <span class="stat-y__num" data-count="22">0</span>
+        <p class="stat-y__label">States where you can find Lava Mouth</p>
+      </div>
+      <div class="stat-y">
+        <span class="stat-y__num" data-count="3">0</span>
+        <p class="stat-y__label">New stockists added on average every month</p>
+      </div>
+      <div class="stat-y">
+        <span class="stat-y__num" data-count="100" data-suffix="%">0</span>
+        <p class="stat-y__label">Of stockists who started still carrying us</p>
+      </div>
+    </div>
+    <div class="stats-yellow__rule"></div>
+  </div>
+</section>
+
+<!-- ============ WHOLESALE CTA ============ -->
+<section id="stockists-section-5" data-section-type="cta" class="wholesale">
+  <div class="wholesale__strip" aria-hidden="true"></div>
+  <div class="container">
+    <div class="wholesale__inner">
+      <div class="wholesale__text reveal">
+        <span class="eyebrow eyebrow--pink">CARRY THE HEAT</span>
+        <h2 class="wholesale__h2">Want to Stock Lava Mouth in Your Shop?</h2>
+        <p class="wholesale__sub">We work with independent retailers, specialty grocers, restaurants, and food halls. Let's talk.</p>
+        <p class="wholesale__body">We keep our wholesale program small and personal. Every new stockist gets a tasting kit, a shelf guide, and a direct line to Dani. We're not looking for volume — we're looking for the right shops.</p>
+        <a class="btn wholesale__cta" href="contact.html">Get in Touch</a>
+      </div>
+      <div class="wholesale__shapes" aria-hidden="true">
+        <div class="wholesale__shape wholesale__shape--s1"></div>
+        <div class="wholesale__shape wholesale__shape--s2"></div>
+        <div class="wholesale__shape wholesale__shape--s3"></div>
+        <div class="wholesale__shape wholesale__shape--s4"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="footer__brand">Lava Mouth</div>
+        <p class="footer__tag">Small Batch. Big Mouth. Real Fire.</p>
+        <p style="margin-top:12px;font-size:14px;max-width:340px;">Bold, playfully irreverent sauces for heat lovers who eat with personality.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="story.html">Our Story</a>
+        <a href="stockists.html">Stockists</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer__col">
+        <h4>Say Hi</h4>
+        <p>hello@lavamouthsauce.com</p>
+        <p>wholesale@lavamouthsauce.com</p>
+        <p>press@lavamouthsauce.com</p>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Lava Mouth Hot Sauce Co.</span>
+      <span>Made in small batches in Chicago, IL.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

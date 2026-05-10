@@ -1,0 +1,19 @@
+{
+  "id": "ww-00035",
+  "version": "0.1",
+  "site_domain": "nonprofit",
+  "site_subdomain": "animal rescue shelter",
+  "design_aesthetic": "civic_institutional",
+  "layout_family": "classic_landing",
+  "page_set": [
+    "home",
+    "campaign",
+    "data",
+    "partners",
+    "donate"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 14,
+  "source": "web-weaver.concept_sampler"
+}

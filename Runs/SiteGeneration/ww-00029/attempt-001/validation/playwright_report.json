@@ -1,0 +1,668 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 15,
+    "visible_sections": 15,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "IronPop Gym — Lift Bold. Live Loud.",
+            "bodyTextLength": 1366,
+            "scrollHeight": 2590,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 920,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 699.28125,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 521.171875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "programs.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "IronPop Gym — Lift Bold. Live Loud.",
+            "bodyTextLength": 1326,
+            "scrollHeight": 3402,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 685.328125,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1320.0625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 476.546875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "programs.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "programs",
+      "route": "/programs.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Programs — IronPop Gym",
+            "bodyTextLength": 1983,
+            "scrollHeight": 2598,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "programs-section-1",
+                "width": 1440,
+                "height": 480,
+                "visible": true
+              },
+              {
+                "id": "programs-section-2",
+                "width": 1440,
+                "height": 1103.984375,
+                "visible": true
+              },
+              {
+                "id": "programs-section-3",
+                "width": 1440,
+                "height": 564.265625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Programs — IronPop Gym",
+            "bodyTextLength": 1934,
+            "scrollHeight": 4451,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "programs-section-1",
+                "width": 390,
+                "height": 490.546875,
+                "visible": true
+              },
+              {
+                "id": "programs-section-2",
+                "width": 390,
+                "height": 2510.828125,
+                "visible": true
+              },
+              {
+                "id": "programs-section-3",
+                "width": 390,
+                "height": 529.953125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "route": "/pricing.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pricing — IronPop Gym",
+            "bodyTextLength": 1863,
+            "scrollHeight": 2523,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "pricing-section-1",
+                "width": 1440,
+                "height": 520,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-2",
+                "width": 1440,
+                "height": 815.328125,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-3",
+                "width": 1440,
+                "height": 737.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pricing — IronPop Gym",
+            "bodyTextLength": 1823,
+            "scrollHeight": 4162,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "pricing-section-1",
+                "width": 390,
+                "height": 544.546875,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-2",
+                "width": 390,
+                "height": 1533.546875,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-3",
+                "width": 390,
+                "height": 1163.984375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "stories",
+      "route": "/stories.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Stories — IronPop Gym",
+            "bodyTextLength": 1982,
+            "scrollHeight": 2969,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "stories-section-1",
+                "width": 1440,
+                "height": 458.546875,
+                "visible": true
+              },
+              {
+                "id": "stories-section-2",
+                "width": 1440,
+                "height": 803.328125,
+                "visible": true
+              },
+              {
+                "id": "stories-section-3",
+                "width": 1440,
+                "height": 1257.390625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Stories — IronPop Gym",
+            "bodyTextLength": 1942,
+            "scrollHeight": 4448,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "stories-section-1",
+                "width": 390,
+                "height": 456.25,
+                "visible": true
+              },
+              {
+                "id": "stories-section-2",
+                "width": 390,
+                "height": 808.90625,
+                "visible": true
+              },
+              {
+                "id": "stories-section-3",
+                "width": 390,
+                "height": 2262.703125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "book.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "route": "/book.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Book — IronPop Gym",
+            "bodyTextLength": 1577,
+            "scrollHeight": 2512,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "book-section-1",
+                "width": 1440,
+                "height": 480,
+                "visible": true
+              },
+              {
+                "id": "book-section-2",
+                "width": 1440,
+                "height": 1070.59375,
+                "visible": true
+              },
+              {
+                "id": "book-section-3",
+                "width": 1440,
+                "height": 511.578125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "programs.html",
+              "stories.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Book — IronPop Gym",
+            "bodyTextLength": 1537,
+            "scrollHeight": 3786,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "book-section-1",
+                "width": 390,
+                "height": 489.53125,
+                "visible": true
+              },
+              {
+                "id": "book-section-2",
+                "width": 390,
+                "height": 1851.46875,
+                "visible": true
+              },
+              {
+                "id": "book-section-3",
+                "width": 390,
+                "height": 524.75,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "programs.html",
+              "pricing.html",
+              "stories.html",
+              "book.html",
+              "programs.html",
+              "stories.html",
+              "programs.html",
+              "pricing.html",
+              "book.html",
+              "stories.html",
+              "index.html",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

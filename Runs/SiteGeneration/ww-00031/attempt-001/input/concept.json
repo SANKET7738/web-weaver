@@ -1,0 +1,19 @@
+{
+  "id": "ww-00031",
+  "version": "0.1",
+  "site_domain": "events_festival",
+  "site_subdomain": "jazz festival",
+  "design_aesthetic": "handmade_illustrated",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "experience",
+    "lineup",
+    "map",
+    "tickets"
+  ],
+  "difficulty": "medium",
+  "seed": 2569918234,
+  "sample_index": 10,
+  "source": "web-weaver.concept_sampler"
+}

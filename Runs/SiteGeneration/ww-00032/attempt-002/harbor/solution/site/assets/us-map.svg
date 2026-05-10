@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" aria-label="USA stockist map">
+  <!-- Stylized USA blob -->
+  <path d="M 60 160
+           L 140 130 L 230 110 L 320 95 L 420 90 L 520 95 L 610 110 L 700 140 L 730 180 L 720 240 L 690 290 L 640 320 L 580 320 L 540 350 L 480 350 L 430 370 L 380 360 L 320 360 L 260 350 L 200 340 L 140 320 L 90 290 L 60 240 Z"
+        fill="#FFD600" stroke="#1A1209" stroke-width="6"/>
+  <!-- State divisions (rough) -->
+  <g stroke="#1A1209" stroke-width="2.5" opacity="0.55" fill="none" stroke-dasharray="3 6">
+    <line x1="180" y1="120" x2="180" y2="340"/>
+    <line x1="280" y1="100" x2="280" y2="360"/>
+    <line x1="370" y1="95" x2="370" y2="370"/>
+    <line x1="460" y1="92" x2="460" y2="360"/>
+    <line x1="560" y1="98" x2="560" y2="340"/>
+    <line x1="640" y1="115" x2="640" y2="320"/>
+    <line x1="100" y1="200" x2="700" y2="200"/>
+    <line x1="80" y1="260" x2="710" y2="260"/>
+  </g>
+  <!-- Florida -->
+  <path d="M 610 310 L 640 360 L 650 410 L 630 420 L 610 380 Z" fill="#FFD600" stroke="#1A1209" stroke-width="5"/>
+  <!-- Texas hook -->
+  <path d="M 360 350 L 390 380 L 410 410 L 380 415 L 350 380 Z" fill="#FFD600" stroke="#1A1209" stroke-width="5"/>
+
+  <!-- Pins / flame markers -->
+  <!-- Chicago -->
+  <g class="map-pin" data-city="Chicago, IL" tabindex="0" transform="translate(440,200)">
+    <path d="M 0 0 Q -16 -14 0 -36 Q 16 -14 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-24" r="6" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- NYC -->
+  <g class="map-pin" data-city="New York, NY" tabindex="0" transform="translate(630,190)">
+    <path d="M 0 0 Q -16 -14 0 -36 Q 16 -14 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-24" r="6" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- LA -->
+  <g class="map-pin" data-city="Los Angeles, CA" tabindex="0" transform="translate(150,280)">
+    <path d="M 0 0 Q -16 -14 0 -36 Q 16 -14 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-24" r="6" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Portland -->
+  <g class="map-pin" data-city="Portland, OR" tabindex="0" transform="translate(120,160)">
+    <path d="M 0 0 Q -14 -12 0 -32 Q 14 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-22" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Seattle -->
+  <g class="map-pin" data-city="Seattle, WA" tabindex="0" transform="translate(140,130)">
+    <path d="M 0 0 Q -14 -12 0 -32 Q 14 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-22" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Austin -->
+  <g class="map-pin" data-city="Austin, TX" tabindex="0" transform="translate(390,330)">
+    <path d="M 0 0 Q -14 -12 0 -32 Q 14 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-22" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Houston -->
+  <g class="map-pin" data-city="Houston, TX" tabindex="0" transform="translate(440,350)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Nashville -->
+  <g class="map-pin" data-city="Nashville, TN" tabindex="0" transform="translate(530,250)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- New Orleans -->
+  <g class="map-pin" data-city="New Orleans, LA" tabindex="0" transform="translate(510,330)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Boston -->
+  <g class="map-pin" data-city="Boston, MA" tabindex="0" transform="translate(660,170)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Phoenix -->
+  <g class="map-pin" data-city="Phoenix, AZ" tabindex="0" transform="translate(230,290)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+  <!-- Minneapolis -->
+  <g class="map-pin" data-city="Minneapolis, MN" tabindex="0" transform="translate(400,160)">
+    <path d="M 0 0 Q -12 -10 0 -28 Q 12 -10 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3.5"/>
+    <circle cx="0" cy="-20" r="4.5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2.5"/>
+  </g>
+</svg>

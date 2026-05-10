@@ -1,0 +1,235 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 15,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2421,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1421,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 178518
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "route": "/campaign.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2672,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "campaign/campaign_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "campaign/campaign_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1672,
+          "path": "campaign/campaign_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "campaign/campaign_full.png",
+        "bytes": 196343
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "route": "/data.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2146,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "data/data_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "data/data_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1146,
+          "path": "data/data_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "data/data_full.png",
+        "bytes": 158599
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "partners",
+      "route": "/partners.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2228,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "partners/partners_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "partners/partners_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1228,
+          "path": "partners/partners_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "partners/partners_full.png",
+        "bytes": 187978
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "donate",
+      "route": "/donate.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2273,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "donate/donate_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "donate/donate_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1273,
+          "path": "donate/donate_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "donate/donate_full.png",
+        "bytes": 167269
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

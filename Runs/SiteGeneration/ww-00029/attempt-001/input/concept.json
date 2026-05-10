@@ -1,0 +1,19 @@
+{
+  "id": "ww-00029",
+  "version": "0.1",
+  "site_domain": "wellness_fitness",
+  "site_subdomain": "strength training gym",
+  "design_aesthetic": "memphis_playful",
+  "layout_family": "split_panel",
+  "page_set": [
+    "home",
+    "programs",
+    "pricing",
+    "stories",
+    "book"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 8,
+  "source": "web-weaver.concept_sampler"
+}

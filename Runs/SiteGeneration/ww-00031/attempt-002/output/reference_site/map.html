@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festival Map — Inkwell Jazz Festival</title>
+  <meta name="description" content="Navigate Inkwell Jazz Festival with our illustrated festival map — find all three stages, the food village, workshops, accessibility routes, and everything in between at Riverside Meadows.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body data-page-slug="map">
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">
+        <svg class="nav-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="14" stroke="#2C2118" stroke-width="2" fill="#F5EDDA"/>
+          <path d="M10 20c3-2 6-6 8-12" stroke="#E8614A" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="20" cy="11" r="2.2" fill="#D4A72C"/>
+        </svg>
+        Inkwell
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-slug="home">Home</a></li>
+        <li><a href="experience.html" data-slug="experience">Experience</a></li>
+        <li><a href="lineup.html" data-slug="lineup">Lineup</a></li>
+        <li><a href="map.html" data-slug="map">Map</a></li>
+        <li><a href="tickets.html" data-slug="tickets">Tickets</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section id="map-section-1" data-section-type="page_header" class="map-header">
+    <div class="paper-texture"></div>
+    <div class="container">
+      <div class="map-header-grid">
+        <div>
+          <div class="eyebrow">Festival Grounds</div>
+          <h1 class="word-reveal" style="font-size:clamp(36px, 5.5vw, 72px); margin-top:14px;">Know your way before the first note plays.</h1>
+          <p class="sub fade-up" data-reveal data-delay="600" style="color:var(--c-smoke); margin-top:20px; max-width:560px; font-size:18px;">Riverside Meadows spans 40 acres. Here's how to find everything — and leave nothing unvisited.</p>
+        </div>
+        <div class="map-annotation fade-up" data-reveal data-delay="1000">
+          <svg viewBox="0 0 60 30" width="50" height="25" aria-hidden="true" style="display:inline-block;vertical-align:middle;margin-right:8px;">
+            <path d="M55 15 L 8 15" stroke="#6B7A3A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M14 9 L 4 15 L 14 21" stroke="#6B7A3A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          your adventure begins
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP BLOCK -->
+  <section id="map-section-2" data-section-type="map_block" class="map-section">
+    <div class="container">
+      <div class="eyebrow">Riverside Meadows · Inkwell 2025</div>
+      <h2>The grounds, drawn by hand.</h2>
+      <p class="sub">All three stages, the food village, workshop tents, first aid, and entrance gates — illustrated and annotated.</p>
+
+      <div class="map-canvas fade-scale" data-reveal>
+        <svg class="map-svg" viewBox="0 0 800 480" aria-hidden="false">
+          <!-- ground texture -->
+          <rect width="800" height="480" fill="#F5EDDA"/>
+          <g stroke="#C8BEA8" stroke-width="0.7" fill="none" opacity="0.5">
+            <path d="M40 60 Q 200 80, 380 60 T 760 80"/>
+            <path d="M30 140 Q 220 120, 420 140 T 770 130"/>
+            <path d="M40 220 Q 200 240, 380 230 T 770 240"/>
+            <path d="M30 320 Q 240 300, 420 320 T 770 310"/>
+            <path d="M40 400 Q 220 420, 420 400 T 770 410"/>
+          </g>
+
+          <!-- river -->
+          <path d="M0 30 Q 200 50, 400 40 T 800 60 L 800 110 Q 600 100, 400 110 T 0 90 Z"
+                fill="#7BBFD4" opacity="0.55" stroke="#5C3460" stroke-width="1.5"/>
+          <text x="60" y="78" font-family="Caveat, cursive" font-size="16" fill="#5C3460" font-style="italic" opacity="0.7">~ riverside ~</text>
+
+          <!-- pathways -->
+          <g stroke="#6B7A3A" stroke-width="2" stroke-dasharray="4 5" fill="none">
+            <path d="M120 460 Q 200 360, 280 280"/>
+            <path d="M280 280 Q 380 240, 480 280"/>
+            <path d="M480 280 Q 600 320, 700 280"/>
+            <path d="M280 280 Q 320 200, 400 160"/>
+          </g>
+
+          <!-- Main Stage (south-east) -->
+          <g>
+            <rect x="540" y="320" width="180" height="100" rx="8" fill="#5C3460" stroke="#2C2118" stroke-width="2"/>
+            <rect x="560" y="340" width="140" height="14" fill="#D4A72C"/>
+            <circle cx="610" cy="380" r="6" fill="#E8614A"/>
+            <circle cx="650" cy="380" r="6" fill="#E8614A"/>
+            <text class="map-label" x="630" y="420" text-anchor="middle" fill="#F5EDDA" font-size="14">Main Stage</text>
+          </g>
+
+          <!-- Inkwell Tent (north of main) -->
+          <g>
+            <path d="M520 150 L 580 100 L 640 150 Z" fill="#E8614A" stroke="#2C2118" stroke-width="2" stroke-linejoin="round"/>
+            <rect x="540" y="150" width="80" height="50" fill="#E8614A" stroke="#2C2118" stroke-width="2"/>
+            <path d="M540 200 L 580 170 L 620 200" stroke="#2C2118" stroke-width="1.5" fill="none"/>
+            <text class="map-label" x="580" y="225" text-anchor="middle">Inkwell Tent</text>
+          </g>
+
+          <!-- Sketch Stage (NW) -->
+          <g>
+            <rect x="180" y="180" width="140" height="70" rx="6" fill="#D4A72C" stroke="#2C2118" stroke-width="2"/>
+            <path d="M200 200 Q 250 215, 300 200" stroke="#2C2118" stroke-width="2" fill="none"/>
+            <circle cx="250" cy="220" r="5" fill="#2C2118"/>
+            <text class="map-label" x="250" y="270" text-anchor="middle">Sketch Stage</text>
+          </g>
+
+          <!-- Food Village (center) -->
+          <g>
+            <circle cx="400" cy="280" r="40" fill="#6B7A3A" stroke="#2C2118" stroke-width="2"/>
+            <circle cx="400" cy="280" r="22" fill="#F5EDDA"/>
+            <path d="M388 268 q 12 -10, 24 0" stroke="#2C2118" stroke-width="2" fill="none"/>
+            <circle cx="395" cy="282" r="2" fill="#2C2118"/>
+            <circle cx="405" cy="282" r="2" fill="#2C2118"/>
+            <text class="map-label" x="400" y="340" text-anchor="middle">Food Village</text>
+          </g>
+
+          <!-- Illustration Market (E of food, S of inkwell) -->
+          <g>
+            <rect x="490" y="240" width="80" height="50" rx="4" fill="#F5EDDA" stroke="#2C2118" stroke-width="2"/>
+            <path d="M490 260 L 570 260" stroke="#2C2118" stroke-width="1.5"/>
+            <text x="530" y="270" text-anchor="middle" font-family="Caveat, cursive" font-size="12" fill="#2C2118">~ Market ~</text>
+            <text class="map-label" x="530" y="310" text-anchor="middle">Illustration Market</text>
+          </g>
+
+          <!-- Workshop Area (NW corner) -->
+          <g>
+            <rect x="60" y="140" width="90" height="55" rx="4" fill="#7BBFD4" stroke="#2C2118" stroke-width="2"/>
+            <path d="M70 175 L 90 160 L 100 170 L 120 150" stroke="#2C2118" stroke-width="1.5" fill="none"/>
+            <text class="map-label" x="105" y="215" text-anchor="middle">Workshops</text>
+          </g>
+
+          <!-- Main Entrance / Gate A (bottom-left) -->
+          <g>
+            <path d="M60 440 L 60 400 L 160 400 L 160 440" fill="none" stroke="#2C2118" stroke-width="2.5" stroke-linejoin="round"/>
+            <rect x="100" y="412" width="20" height="28" fill="#E8614A" stroke="#2C2118" stroke-width="1.5"/>
+            <text class="map-label" x="110" y="460" text-anchor="middle">Main Entrance</text>
+          </g>
+
+          <!-- First Aid (right of entrance) -->
+          <g>
+            <rect x="250" y="400" width="50" height="40" rx="4" fill="#F5EDDA" stroke="#E8614A" stroke-width="2"/>
+            <path d="M275 408 v24 M263 420 h24" stroke="#E8614A" stroke-width="3" stroke-linecap="round"/>
+            <text class="map-label" x="275" y="460" text-anchor="middle">First Aid</text>
+          </g>
+
+          <!-- Accessibility route (subtle path with blue tint) -->
+          <path d="M70 420 Q 200 360, 380 360 Q 540 360, 620 360" stroke="#7BBFD4" stroke-width="4" stroke-dasharray="6 4" fill="none" opacity="0.8"/>
+          <text x="320" y="378" font-family="Caveat, cursive" font-size="13" fill="#5C3460" opacity="0.85">~ accessible route</text>
+
+          <!-- Trees / foliage scattered -->
+          <g fill="#6B7A3A" opacity="0.7">
+            <circle cx="350" cy="120" r="10"/>
+            <circle cx="370" cy="130" r="8"/>
+            <circle cx="700" cy="200" r="11"/>
+            <circle cx="720" cy="210" r="8"/>
+            <circle cx="80" cy="280" r="10"/>
+            <circle cx="100" cy="290" r="8"/>
+            <circle cx="180" cy="350" r="10"/>
+            <circle cx="200" cy="360" r="8"/>
+          </g>
+
+          <!-- Compass label -->
+          <text x="40" y="40" font-family="Caveat, cursive" font-size="14" fill="#5C3460">N ↑</text>
+        </svg>
+
+        <!-- Compass rose overlapping below -->
+        <div class="compass-rose" aria-hidden="true">
+          <svg viewBox="0 0 130 130">
+            <circle cx="65" cy="65" r="58" fill="#F5EDDA" stroke="#2C2118" stroke-width="2"/>
+            <circle cx="65" cy="65" r="40" fill="none" stroke="#C8BEA8" stroke-width="1" stroke-dasharray="3 3"/>
+            <path d="M65 12 L 75 65 L 65 60 L 55 65 Z" fill="#D4A72C" stroke="#2C2118" stroke-width="1.5"/>
+            <path d="M65 118 L 75 65 L 65 70 L 55 65 Z" fill="#5C3460" stroke="#2C2118" stroke-width="1.5"/>
+            <path d="M12 65 L 65 75 L 60 65 L 65 55 Z" fill="#6B7A3A" stroke="#2C2118" stroke-width="1.5"/>
+            <path d="M118 65 L 65 75 L 70 65 L 65 55 Z" fill="#E8614A" stroke="#2C2118" stroke-width="1.5"/>
+            <text x="65" y="32" text-anchor="middle" font-family="Caveat, cursive" font-size="14" fill="#2C2118" font-weight="700">N</text>
+            <text x="65" y="106" text-anchor="middle" font-family="Caveat, cursive" font-size="14" fill="#2C2118" font-weight="700">S</text>
+            <text x="22" y="70" text-anchor="middle" font-family="Caveat, cursive" font-size="14" fill="#2C2118" font-weight="700">W</text>
+            <text x="108" y="70" text-anchor="middle" font-family="Caveat, cursive" font-size="14" fill="#2C2118" font-weight="700">E</text>
+            <circle cx="65" cy="65" r="4" fill="#2C2118"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY LOCATIONS / FEATURE GRID -->
+  <section id="map-section-3" data-section-type="feature_grid" class="section section-parchment" style="padding-top:120px;">
+    <div class="container">
+      <div class="section-header fade-up" data-reveal>
+        <div class="eyebrow">Key Locations</div>
+        <h2>Everything you need to know about where to go.</h2>
+        <svg viewBox="0 0 80 14" width="80" height="14" aria-hidden="true" style="margin-top:8px;">
+          <path d="M2 7 Q 20 0, 40 7 T 78 7" stroke="#C8BEA8" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="feature-grid" data-stagger="100">
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#E8614A; color:#F5EDDA;">Entrance</span>
+          <h3 style="margin-top:8px;">Main Entrance &amp; Wristband Exchange</h3>
+          <p>Located on Meadow Lane, Gate A. Open from 10:00 AM each day. Bring your ticket QR code or printed confirmation for wristband collection.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#5C3460; color:#F5EDDA;">Stages</span>
+          <h3 style="margin-top:8px;">Main Stage</h3>
+          <p>South-east corner of the meadow. Capacity 8,000. Gates open 90 minutes before each headline set. Accessible viewing platform available on the west side.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#5C3460; color:#F5EDDA;">Stages</span>
+          <h3 style="margin-top:8px;">The Inkwell Tent</h3>
+          <p>North of the Main Stage, 5-minute walk. Capacity 600. No reserved seating — arrive early for late-night sets.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#D4A72C; color:#2C2118;">Food &amp; Drink</span>
+          <h3 style="margin-top:8px;">Food Village &amp; Bars</h3>
+          <p>Central meadow, between the Sketch Stage and the Illustration Market. Open from 11:00 AM daily. Cashless payment only — top up your festival card at any info point.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#6B7A3A; color:#F5EDDA;">Activities</span>
+          <h3 style="margin-top:8px;">Workshop &amp; Talk Tents</h3>
+          <p>North-west corner, adjacent to the Sketch Stage. Sessions run 10:00 AM – 6:00 PM each day. No booking required — just walk in.</p>
+        </div>
+        <div class="feature-card fade-up">
+          <span class="ticket-availability" style="background:#7BBFD4; color:#2C2118;">Facilities</span>
+          <h3 style="margin-top:8px;">Accessibility &amp; First Aid</h3>
+          <p>First Aid is located near Gate A and behind the Main Stage. Accessible entrances, viewing platforms, and quiet zones are marked in blue on the festival map.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="map-section-4" data-section-type="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header fade-up" data-reveal>
+        <div class="eyebrow eyebrow-olive">Before You Arrive</div>
+        <h2>Questions we've already answered for you.</h2>
+        <svg viewBox="0 0 100 14" width="100" height="14" aria-hidden="true" style="margin-top:8px;">
+          <path d="M2 7 Q 25 0, 50 7 T 98 7" stroke="#C8BEA8" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="faq-list" data-stagger="120">
+        <div class="faq-item fade-up">
+          <button class="faq-trigger" aria-expanded="false">
+            <span>Can I bring my own food and drink?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>Sealed water bottles and small snacks are welcome. Glass containers, alcohol, and large cool boxes are not permitted on the festival grounds.</p></div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-trigger" aria-expanded="false">
+            <span>Is there parking on site?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>Yes — Meadow Car Park is a 10-minute walk from Gate A. We strongly encourage the use of our shuttle bus service from Riverside Station, which runs every 20 minutes from 9:00 AM.</p></div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-trigger" aria-expanded="false">
+            <span>Is the festival accessible for wheelchair users?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>Inkwell is fully accessible. Accessible viewing platforms are available at all three stages, and accessible toilets are located throughout the site. Contact us in advance to arrange any additional support.</p></div>
+        </div>
+        <div class="faq-item fade-up">
+          <button class="faq-trigger" aria-expanded="false">
+            <span>What happens if it rains?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>Inkwell is an all-weather festival. The Inkwell Tent and Workshop Tents provide covered areas. We recommend layers and waterproofs — the music plays regardless.</p></div>
+        </div>
+      </div>
+      <div class="faq-cta-block fade-up" data-reveal data-delay="400">
+        <div class="faq-cta-note">ready when you are ↓</div>
+        <a href="tickets.html" class="btn btn-primary">Get Your Tickets</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">Inkwell Jazz Festival</div>
+      <div class="footer-note">~ See you at Riverside ~</div>
+    </div>
+    <div class="container footer-tiny">© 2025 Inkwell. Hand-drawn nights. Live-played magic.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

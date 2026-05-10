@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="280" height="280">
+  <rect width="280" height="280" fill="#FFF5E1"/>
+  <!-- Small chili pepper -->
+  <g transform="translate(40,40)">
+    <path d="M 0 12 Q -6 28 0 44 Q 14 50 18 38 Q 22 22 16 8 Q 8 0 0 12 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.4"/>
+    <path d="M 6 4 Q 12 -4 18 0" stroke="#1D7A3A" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Flame shape -->
+  <g transform="translate(140,38)">
+    <path d="M 14 0 Q 28 14 22 30 Q 24 40 14 44 Q 4 40 6 30 Q 0 14 14 0 Z" fill="#FFD600" stroke="#1A1209" stroke-width="2.4"/>
+    <path d="M 14 14 Q 22 22 18 30 Q 14 36 10 30 Q 6 22 14 14 Z" fill="#FF4D38"/>
+  </g>
+  <!-- Zigzag teal -->
+  <path d="M 200 30 L 210 50 L 220 30 L 230 50 L 240 30 L 250 50" stroke="#00B8A0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Dots -->
+  <circle cx="30" cy="120" r="5" fill="#FF85A1"/>
+  <circle cx="60" cy="140" r="5" fill="#FF85A1"/>
+  <circle cx="90" cy="120" r="5" fill="#FF85A1"/>
+  <circle cx="40" cy="170" r="5" fill="#FF85A1"/>
+  <!-- Squiggle -->
+  <path d="M 140 130 Q 160 110 180 130 T 220 130 T 260 130" stroke="#FF85A1" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Triangle -->
+  <polygon points="130,200 160,200 145,170" fill="#FFD600" stroke="#1A1209" stroke-width="2.4"/>
+  <!-- Small chili 2 -->
+  <g transform="translate(220,200) rotate(20)">
+    <path d="M 0 12 Q -6 28 0 44 Q 14 50 18 38 Q 22 22 16 8 Q 8 0 0 12 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2.4"/>
+  </g>
+  <!-- Cross / X -->
+  <path d="M 60 220 L 80 240 M 80 220 L 60 240" stroke="#00B8A0" stroke-width="4" stroke-linecap="round"/>
+  <!-- Dots cluster bottom right -->
+  <circle cx="190" cy="240" r="4" fill="#1A1209"/>
+  <circle cx="200" cy="252" r="4" fill="#1A1209"/>
+  <circle cx="210" cy="244" r="4" fill="#1A1209"/>
+  <!-- Squiggle small -->
+  <path d="M 80 80 Q 90 70 100 80 Q 110 90 120 80" stroke="#FF85A1" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

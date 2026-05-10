@@ -1,0 +1,657 @@
+{
+  "id": "ww-00031",
+  "version": "0.1",
+  "concept_id": "ww-00031",
+  "identity": {
+    "name": "Inkwell Jazz Festival",
+    "tagline": "Hand-drawn nights. Live-played magic.",
+    "one_line_description": "Inkwell Jazz Festival is an annual outdoor celebration of jazz music told through a warm, illustrated world of hand-lettered stages, soulful lineups, and unforgettable summer nights.",
+    "domain": "events_festival",
+    "subdomain": "jazz festival",
+    "voice": [
+      "warm",
+      "soulful",
+      "hand-crafted",
+      "inviting",
+      "lyrical"
+    ],
+    "target_audience": "Jazz lovers, live-music enthusiasts, and culture-seekers aged 25\u201355 who value authentic artistic experiences and seek a festival with soul, intimacy, and a distinct handmade character."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Welcome visitors with an unmistakable arrival moment that feels like opening a beautifully illustrated festival programme \u2014 establishing the Inkwell brand, the dates, and the emotional promise of the event, then guiding them toward the lineup and tickets.",
+      "meta_description": "Inkwell Jazz Festival \u2014 hand-drawn nights and live-played magic. Discover the lineup, explore the experience, and get your tickets for this summer's most soulful outdoor jazz celebration.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Anchor the visitor with an unmistakable arrival moment: a bold illustrated festival identity that feels like the ink is still wet on the poster, establishing the event name, dates, and the emotional promise of a singular jazz night under the open sky.",
+          "eyebrow": "July 18\u201320 \u00b7 Riverside Meadows",
+          "headline": "Where the music writes itself.",
+          "subheadline": "Three days. Forty artists. One hand-drawn world you'll never want to leave.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "See the Lineup",
+              "target_page": "lineup"
+            },
+            {
+              "label": "Get Tickets",
+              "target_page": "tickets"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A loose, hand-drawn festival banner featuring a jazz trumpet, scattered musical notes, and hand-lettered 'Inkwell Jazz Festival' text with an ink-splash texture",
+              "purpose": "Hero visual that immediately communicates the handmade illustrated aesthetic and sets the festival's artistic identity",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Let the numbers feel alive as they enter view \u2014 a kinetic counting moment that builds credibility and excitement, showing the scale and legacy of Inkwell without losing its intimate, hand-crafted character.",
+          "eyebrow": "By the Numbers",
+          "headline": "A festival that keeps growing \u2014 one note at a time.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "40+",
+              "description": "Artists across three stages",
+              "metadata": {}
+            },
+            {
+              "title": "3",
+              "description": "Days of uninterrupted live jazz",
+              "metadata": {}
+            },
+            {
+              "title": "12,000",
+              "description": "Guests expected this summer",
+              "metadata": {}
+            },
+            {
+              "title": "8th",
+              "description": "Year running at Riverside Meadows",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "story_block",
+          "intent": "Draw the visitor into the soul of the festival with a lyrical editorial passage that explains what makes Inkwell different \u2014 its handmade spirit, its community roots, and the feeling of being inside a living illustration.",
+          "eyebrow": "Our Story",
+          "headline": "Born from a love letter to jazz.",
+          "subheadline": "Inkwell started as a sketch on a napkin. Eight years later, it's the most anticipated jazz weekend of the summer.",
+          "body": "We didn't set out to build a festival. We set out to build a feeling \u2014 the kind you get when a saxophonist closes their eyes and the whole crowd holds its breath. Every stage, every set, every hand-lettered sign at Inkwell is made with that feeling in mind. Come as a stranger. Leave humming something you've never heard before.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Experience",
+              "target_page": "experience"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "cta",
+          "intent": "Close the home page with a confident final flourish \u2014 a warm, direct invitation to commit, reinforcing the scarcity of the moment and guiding the visitor to secure their place at the festival.",
+          "eyebrow": "Limited Tickets Available",
+          "headline": "Don't let this summer pass in silence.",
+          "subheadline": "Early-bird passes are selling fast. Reserve your spot before the ink dries.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get Your Tickets Now",
+              "target_page": "tickets"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "experience",
+      "title": "Experience",
+      "role": "editorial",
+      "goal": "Paint a rich, sensory picture of what it actually feels like to attend Inkwell Jazz Festival \u2014 the stages, the food, the workshops, and the atmosphere \u2014 so that first-time visitors feel they already belong there before they've bought a ticket.",
+      "meta_description": "Discover what awaits you at Inkwell Jazz Festival \u2014 three hand-crafted stages, artisan food villages, jazz workshops, and an atmosphere unlike any other outdoor music event.",
+      "sections": [
+        {
+          "id": "experience-section-1",
+          "type": "page_header",
+          "intent": "Set the editorial tone for the Experience page with a warm, illustrative header that feels like the opening spread of a festival zine \u2014 slow and deliberate, inviting the visitor to settle in and read.",
+          "eyebrow": "The Inkwell Experience",
+          "headline": "Three days drawn from the best of jazz culture.",
+          "subheadline": "From sunrise sessions to late-night jams, every moment at Inkwell is crafted by hand.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "experience-section-2",
+          "type": "feature_grid",
+          "intent": "Reveal the festival's key experience pillars in a staggered scroll \u2014 each card arriving like a new page turning \u2014 so visitors build a complete picture of everything Inkwell offers beyond the music.",
+          "eyebrow": "What's On",
+          "headline": "More than a concert. A whole world.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The Main Stage",
+              "description": "Our flagship open-air stage hosts headline acts each evening as the sun sets over Riverside Meadows. Capacity for 8,000 \u2014 intimate enough to feel the music.",
+              "metadata": {}
+            },
+            {
+              "title": "The Inkwell Tent",
+              "description": "A candlelit marquee for late-night sets, experimental jazz, and surprise collaborations. Capacity is deliberately small. Arrive early.",
+              "metadata": {}
+            },
+            {
+              "title": "The Sketch Stage",
+              "description": "Our daytime acoustic stage celebrates emerging artists and local talent. Every set is free to attend with a festival wristband.",
+              "metadata": {}
+            },
+            {
+              "title": "Jazz Workshops",
+              "description": "Sit in on masterclasses led by performing artists. Improvisation, composition, and music history sessions run throughout the weekend.",
+              "metadata": {}
+            },
+            {
+              "title": "The Food Village",
+              "description": "Over 30 independent food vendors, craft breweries, and specialty coffee roasters \u2014 all curated to match the handmade spirit of the festival.",
+              "metadata": {}
+            },
+            {
+              "title": "The Illustration Market",
+              "description": "A dedicated marketplace of independent artists, printmakers, and record sellers. Take home something hand-drawn as a memory of the weekend.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View the Full Lineup",
+              "target_page": "lineup"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "experience-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A set of hand-drawn style icons representing: a stage/microphone, a tent, an acoustic guitar, a music note, a food bowl, and a paintbrush \u2014 each with a loose ink-line aesthetic",
+              "purpose": "Feature grid icons that visually reinforce the handmade aesthetic while identifying each experience pillar at a glance",
+              "quantity": 1,
+              "used_by": [
+                "experience-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "experience-section-3",
+          "type": "story_block",
+          "intent": "Slow the scroll with a deliberate, ambient passage about the atmosphere and sensory texture of Inkwell \u2014 a moment of stillness that lets the visitor imagine themselves already there.",
+          "eyebrow": "The Feeling",
+          "headline": "You'll smell the cedar smoke before you hear the first note.",
+          "subheadline": null,
+          "body": "Inkwell is built for lingering. For the conversation that starts between sets. For the sketch you make on a paper cup. For the musician who plays an extra song because the crowd won't let them leave. We design every corner of the festival grounds the way a good album is sequenced \u2014 so that each moment leads naturally into the next, and the whole thing feels inevitable by the time it's over.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "experience-section-4",
+          "type": "cta",
+          "intent": "Convert the visitor who has now been fully seduced by the experience story \u2014 a single, warm, confident call to action that feels less like a sales push and more like a friend saying 'you really should come'.",
+          "eyebrow": "Join Us This July",
+          "headline": "Your weekend is waiting to be written.",
+          "subheadline": "Tickets are available in day passes and full weekend bundles.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Choose Your Tickets",
+              "target_page": "tickets"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "lineup",
+      "title": "Lineup",
+      "role": "listing",
+      "goal": "Present the full artist roster in a way that feels like flipping through a beautifully hand-lettered festival programme \u2014 building excitement for every name on the bill and making it easy to discover new artists alongside the headliners.",
+      "meta_description": "Meet the artists of Inkwell Jazz Festival 2025 \u2014 headliners, emerging voices, and local legends performing across three stages over three unforgettable days.",
+      "sections": [
+        {
+          "id": "lineup-section-1",
+          "type": "page_header",
+          "intent": "Open the lineup page with the energy of a freshly posted festival bill \u2014 bold, celebratory, and hand-drawn in spirit \u2014 so that visitors feel the excitement of discovery from the very first scroll.",
+          "eyebrow": "Inkwell Jazz Festival 2025",
+          "headline": "Forty artists. Three stages. Zero bad seats.",
+          "subheadline": "From jazz legends to the names you'll be telling your friends about next year.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "lineup-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A hand-lettered, poster-style festival lineup announcement illustration with layered text at varying scales, decorative ink flourishes, and a vintage concert bill composition",
+              "purpose": "Decorative page header visual that evokes the tradition of hand-drawn concert posters and reinforces the festival's illustrated identity",
+              "quantity": 1,
+              "used_by": [
+                "lineup-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lineup-section-2",
+          "type": "item_grid",
+          "intent": "Showcase the headline acts with the weight and presence they deserve \u2014 each name arriving with a staggered reveal that builds anticipation, like a poster being unveiled one artist at a time.",
+          "eyebrow": "Headliners",
+          "headline": "The names that draw the crowd.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Marlena Voss Quartet",
+              "description": "Friday Night \u00b7 Main Stage \u00b7 9:00 PM\nThe voice that redefined contemporary jazz. Marlena's set promises material from her landmark album 'Indigo Hours' alongside new arrangements premiered exclusively at Inkwell.",
+              "metadata": {
+                "day": "Friday",
+                "stage": "Main Stage",
+                "time": "9:00 PM"
+              }
+            },
+            {
+              "title": "The Coltrane Collective",
+              "description": "Saturday Night \u00b7 Main Stage \u00b7 9:30 PM\nA rotating ensemble of twelve musicians paying living tribute to the free jazz tradition. No two sets are the same. Expect the unexpected.",
+              "metadata": {
+                "day": "Saturday",
+                "stage": "Main Stage",
+                "time": "9:30 PM"
+              }
+            },
+            {
+              "title": "Esperanza Blue",
+              "description": "Sunday Night \u00b7 Main Stage \u00b7 8:45 PM\nClosing the festival with her signature blend of Afro-Cuban jazz and soul, Esperanza Blue brings the curtain down on Inkwell in the most joyful way imaginable.",
+              "metadata": {
+                "day": "Sunday",
+                "stage": "Main Stage",
+                "time": "8:45 PM"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "lineup-section-3",
+          "type": "item_grid",
+          "intent": "Introduce the supporting acts and emerging artists with the same care and craft as the headliners \u2014 communicating that every slot at Inkwell is curated, not filled, and that discovery is part of the festival's promise.",
+          "eyebrow": "Supporting Acts & Rising Voices",
+          "headline": "The artists you'll discover this weekend.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Theo Adkins Trio",
+              "description": "Friday \u00b7 The Inkwell Tent \u00b7 7:00 PM \u2014 Modal jazz with a modern edge. Theo's piano work has been called 'the most interesting thing happening in jazz right now.'",
+              "metadata": {
+                "day": "Friday",
+                "stage": "Inkwell Tent",
+                "time": "7:00 PM"
+              }
+            },
+            {
+              "title": "Sable & the Horns",
+              "description": "Saturday \u00b7 Sketch Stage \u00b7 2:00 PM \u2014 A seven-piece brass ensemble rooted in New Orleans tradition. Daytime perfection.",
+              "metadata": {
+                "day": "Saturday",
+                "stage": "Sketch Stage",
+                "time": "2:00 PM"
+              }
+            },
+            {
+              "title": "Nora Kimani",
+              "description": "Sunday \u00b7 Inkwell Tent \u00b7 6:30 PM \u2014 Vocalist and composer whose debut EP sold out on vinyl in 48 hours. Her Inkwell set is her largest to date.",
+              "metadata": {
+                "day": "Sunday",
+                "stage": "Inkwell Tent",
+                "time": "6:30 PM"
+              }
+            },
+            {
+              "title": "Riverside Collective",
+              "description": "Saturday \u00b7 Sketch Stage \u00b7 11:00 AM \u2014 Local heroes and Inkwell originals. The Collective has opened the festival every year since its founding.",
+              "metadata": {
+                "day": "Saturday",
+                "stage": "Sketch Stage",
+                "time": "11:00 AM"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "lineup-section-4",
+          "type": "cta",
+          "intent": "Convert lineup browsers into ticket buyers with a warm, direct close \u2014 the visitor has seen the bill and now needs one clear, confident nudge to act before they leave the page.",
+          "eyebrow": "Ready to Be There?",
+          "headline": "Pick your days. Pack your ears. We'll handle the rest.",
+          "subheadline": "Day passes and weekend bundles available. Limited capacity per stage.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get Tickets",
+              "target_page": "tickets"
+            },
+            {
+              "label": "Explore the Festival Map",
+              "target_page": "map"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "map",
+      "title": "Map",
+      "role": "support",
+      "goal": "Give attendees a clear, illustrated sense of the festival grounds \u2014 where each stage, entrance, food area, and facility is located \u2014 so they feel prepared and excited rather than overwhelmed when they arrive.",
+      "meta_description": "Navigate Inkwell Jazz Festival with our illustrated festival map \u2014 find all three stages, the food village, workshops, accessibility routes, and everything in between at Riverside Meadows.",
+      "sections": [
+        {
+          "id": "map-section-1",
+          "type": "page_header",
+          "intent": "Frame the map page as an adventure to be planned rather than a logistics problem to be solved \u2014 warm, illustrated language that makes orientation feel like part of the festival experience.",
+          "eyebrow": "Festival Grounds",
+          "headline": "Know your way before the first note plays.",
+          "subheadline": "Riverside Meadows spans 40 acres. Here's how to find everything \u2014 and leave nothing unvisited.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "map-section-2",
+          "type": "map_block",
+          "intent": "Present the illustrated festival grounds map as the centrepiece of the page \u2014 a hand-drawn, ink-style site plan that makes navigating the festival feel like reading a treasure map, with all key zones clearly labelled.",
+          "eyebrow": "Riverside Meadows \u00b7 Inkwell 2025",
+          "headline": "The grounds, drawn by hand.",
+          "subheadline": "All three stages, the food village, workshop tents, first aid, and entrance gates \u2014 illustrated and annotated.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "map-section-2-asset-1",
+              "kind": "map",
+              "subject": "A hand-drawn illustrated festival site map of 'Riverside Meadows' showing the Main Stage, Inkwell Tent, Sketch Stage, Food Village, Illustration Market, Workshop Area, Main Entrance, Accessibility Routes, and First Aid \u2014 rendered in an ink-sketch style with hand-lettered labels",
+              "purpose": "Primary navigational asset for the map page, communicating the festival layout in a way that is both functional and consistent with the handmade illustrated brand aesthetic",
+              "quantity": 1,
+              "used_by": [
+                "map-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "map-section-3",
+          "type": "feature_grid",
+          "intent": "Supplement the map with a scannable guide to key zones and practical details \u2014 so that first-time visitors can quickly find the information they need without feeling like they're reading a logistics document.",
+          "eyebrow": "Key Locations",
+          "headline": "Everything you need to know about where to go.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Main Entrance & Wristband Exchange",
+              "description": "Located on Meadow Lane, Gate A. Open from 10:00 AM each day. Bring your ticket QR code or printed confirmation for wristband collection.",
+              "metadata": {
+                "zone": "Entrance"
+              }
+            },
+            {
+              "title": "Main Stage",
+              "description": "South-east corner of the meadow. Capacity 8,000. Gates open 90 minutes before each headline set. Accessible viewing platform available on the west side.",
+              "metadata": {
+                "zone": "Stages"
+              }
+            },
+            {
+              "title": "The Inkwell Tent",
+              "description": "North of the Main Stage, 5-minute walk. Capacity 600. No reserved seating \u2014 arrive early for late-night sets.",
+              "metadata": {
+                "zone": "Stages"
+              }
+            },
+            {
+              "title": "Food Village & Bars",
+              "description": "Central meadow, between the Sketch Stage and the Illustration Market. Open from 11:00 AM daily. Cashless payment only \u2014 top up your festival card at any info point.",
+              "metadata": {
+                "zone": "Food & Drink"
+              }
+            },
+            {
+              "title": "Workshop & Talk Tents",
+              "description": "North-west corner, adjacent to the Sketch Stage. Sessions run 10:00 AM \u2013 6:00 PM each day. No booking required \u2014 just walk in.",
+              "metadata": {
+                "zone": "Activities"
+              }
+            },
+            {
+              "title": "Accessibility & First Aid",
+              "description": "First Aid is located near Gate A and behind the Main Stage. Accessible entrances, viewing platforms, and quiet zones are marked in blue on the festival map.",
+              "metadata": {
+                "zone": "Facilities"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "map-section-4",
+          "type": "faq",
+          "intent": "Pre-empt the most common practical questions attendees have before arriving \u2014 reducing friction and building confidence so that visitors feel fully prepared and excited rather than anxious.",
+          "eyebrow": "Before You Arrive",
+          "headline": "Questions we've already answered for you.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Can I bring my own food and drink?",
+              "description": "Sealed water bottles and small snacks are welcome. Glass containers, alcohol, and large cool boxes are not permitted on the festival grounds.",
+              "metadata": {}
+            },
+            {
+              "title": "Is there parking on site?",
+              "description": "Yes \u2014 Meadow Car Park is a 10-minute walk from Gate A. We strongly encourage the use of our shuttle bus service from Riverside Station, which runs every 20 minutes from 9:00 AM.",
+              "metadata": {}
+            },
+            {
+              "title": "Is the festival accessible for wheelchair users?",
+              "description": "Inkwell is fully accessible. Accessible viewing platforms are available at all three stages, and accessible toilets are located throughout the site. Contact us in advance to arrange any additional support.",
+              "metadata": {}
+            },
+            {
+              "title": "What happens if it rains?",
+              "description": "Inkwell is an all-weather festival. The Inkwell Tent and Workshop Tents provide covered areas. We recommend layers and waterproofs \u2014 the music plays regardless.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Get Your Tickets",
+              "target_page": "tickets"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "tickets",
+      "title": "Tickets",
+      "role": "conversion",
+      "goal": "Convert motivated visitors into confirmed ticket holders with a clear, warm, and trustworthy purchase experience \u2014 presenting ticket tiers honestly, reinforcing the value of the festival, and ending with a confident close that makes buying feel like the obvious next step.",
+      "meta_description": "Get your Inkwell Jazz Festival 2025 tickets \u2014 choose from day passes, weekend bundles, and VIP packages. Limited availability. Secure your spot at Riverside Meadows this July.",
+      "sections": [
+        {
+          "id": "tickets-section-1",
+          "type": "page_header",
+          "intent": "Open the tickets page with a warm, direct welcome that frames the purchase as the beginning of the experience rather than a transaction \u2014 setting an optimistic, low-pressure tone before the pricing is revealed.",
+          "eyebrow": "Inkwell Jazz Festival \u00b7 July 18\u201320, 2025",
+          "headline": "Your spot in the story starts here.",
+          "subheadline": "Choose the pass that fits your weekend. Every ticket includes access to all three stages and the Illustration Market.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "tickets-section-2",
+          "type": "pricing",
+          "intent": "Present the ticket tiers with clarity and warmth \u2014 each option arriving with enough detail that the visitor can choose confidently, without feeling overwhelmed or upsold against their will.",
+          "eyebrow": "2025 Ticket Options",
+          "headline": "Find your Inkwell.",
+          "subheadline": "All tickets are e-tickets. You'll receive your QR code by email within 24 hours of purchase.",
+          "body": null,
+          "items": [
+            {
+              "title": "Day Pass",
+              "description": "Single-day access to all stages and the festival grounds. Choose Friday, Saturday, or Sunday at checkout.\n\n\u2022 Access to all three stages\n\u2022 Illustration Market entry\n\u2022 Festival programme included",
+              "metadata": {
+                "price": "\u00a365",
+                "availability": "Available"
+              }
+            },
+            {
+              "title": "Weekend Bundle",
+              "description": "Full three-day access \u2014 the best way to experience everything Inkwell has to offer without missing a note.\n\n\u2022 All Day Pass inclusions \u00d7 3 days\n\u2022 Priority entry each morning\n\u2022 Exclusive weekend wristband",
+              "metadata": {
+                "price": "\u00a3160",
+                "availability": "Limited",
+                "recommended": "true"
+              }
+            },
+            {
+              "title": "VIP Weekend",
+              "description": "The complete Inkwell experience, elevated. Includes everything in the Weekend Bundle plus access to the VIP Lounge, artist meet-and-greet sessions, and a signed festival print.\n\n\u2022 All Weekend Bundle inclusions\n\u2022 VIP Lounge access\n\u2022 Artist meet & greet (two sessions)\n\u2022 Signed limited-edition festival print",
+              "metadata": {
+                "price": "\u00a3295",
+                "availability": "Very Limited"
+              }
+            },
+            {
+              "title": "Under-16 Day Pass",
+              "description": "Children aged 8\u201315 accompanied by a ticketed adult. Under-8s enter free.\n\n\u2022 Single-day access\n\u2022 Must be accompanied by a full-price ticket holder",
+              "metadata": {
+                "price": "\u00a325",
+                "availability": "Available"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Buy Tickets",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "tickets-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A hand-drawn festival wristband with ink-sketch texture, decorative musical note motifs, and the 'Inkwell Jazz Festival 2025' name hand-lettered along the band",
+              "purpose": "Decorative illustration on the tickets page that makes the purchase feel tangible and desirable \u2014 turning a digital transaction into an anticipatory, physical moment",
+              "quantity": 1,
+              "used_by": [
+                "tickets-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tickets-section-3",
+          "type": "testimonial",
+          "intent": "Provide a moment of ambient warmth and social proof just before the final close \u2014 letting the voices of past attendees do the persuasion quietly, like a recommendation from a trusted friend.",
+          "eyebrow": "From Past Inkwell Goers",
+          "headline": "Don't take our word for it.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "\"The most beautifully curated festival I've ever attended.\"",
+              "description": "\u2014 Priya M., Weekend Bundle holder, Inkwell 2024",
+              "metadata": {}
+            },
+            {
+              "title": "\"I came for Marlena Voss and stayed until the last note of Sunday. Worth every penny.\"",
+              "description": "\u2014 James T., VIP Weekend, Inkwell 2023",
+              "metadata": {}
+            },
+            {
+              "title": "\"The Inkwell Tent alone is worth the weekend pass. I discovered three artists I now listen to every day.\"",
+              "description": "\u2014 Simone R., Weekend Bundle holder, Inkwell 2024",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "tickets-section-4",
+          "type": "cta",
+          "intent": "End the page and the entire site journey with a single confident flourish \u2014 one final, warm, unhurried invitation that makes buying a ticket feel not like a decision, but like the natural conclusion of a story the visitor has already decided to be part of.",
+          "eyebrow": "The Ink is Almost Dry on This Year's Bill",
+          "headline": "Some stories you have to be there to read.",
+          "subheadline": "Tickets are limited. The music starts July 18th.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Secure Your Ticket",
+              "target_page": null
+            },
+            {
+              "label": "Explore the Lineup First",
+              "target_page": "lineup"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

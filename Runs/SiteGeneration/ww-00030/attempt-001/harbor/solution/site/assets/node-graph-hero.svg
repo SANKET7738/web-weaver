@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" fill="none">
+  <defs>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4E8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00D4E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Backdrop ambient glows in upper-right -->
+  <circle cx="1300" cy="200" r="320" fill="url(#violetGlow)" opacity="0.4"/>
+  <circle cx="1100" cy="380" r="220" fill="url(#nodeGlow)" opacity="0.3"/>
+
+  <!-- Connection lines (sparse on left, dense on upper-right) -->
+  <g stroke="#2E3A50" stroke-width="1" opacity="0.85">
+    <line x1="900" y1="120" x2="1080" y2="240"/>
+    <line x1="1080" y1="240" x2="1240" y2="180"/>
+    <line x1="1240" y1="180" x2="1380" y2="280"/>
+    <line x1="1380" y1="280" x2="1500" y2="210"/>
+    <line x1="1080" y1="240" x2="1180" y2="380"/>
+    <line x1="1180" y1="380" x2="1340" y2="430"/>
+    <line x1="1340" y1="430" x2="1480" y2="360"/>
+    <line x1="1240" y1="180" x2="1180" y2="380"/>
+    <line x1="900" y1="120" x2="1080" y2="80"/>
+    <line x1="1080" y1="80" x2="1240" y2="180"/>
+    <line x1="980" y1="380" x2="1180" y2="380"/>
+    <line x1="980" y1="380" x2="1080" y2="240"/>
+    <line x1="980" y1="380" x2="900" y2="500"/>
+    <line x1="900" y1="500" x2="780" y2="580"/>
+    <line x1="780" y1="580" x2="650" y2="640"/>
+    <line x1="650" y1="640" x2="500" y2="700"/>
+    <line x1="500" y1="700" x2="360" y2="760"/>
+    <line x1="900" y1="500" x2="1080" y2="580"/>
+    <line x1="1080" y1="580" x2="1240" y2="630"/>
+    <line x1="1240" y1="630" x2="1400" y2="540"/>
+    <line x1="1240" y1="630" x2="1380" y2="720"/>
+    <line x1="1340" y1="430" x2="1240" y2="630"/>
+    <line x1="1480" y1="360" x2="1500" y2="490"/>
+    <line x1="1500" y1="490" x2="1400" y2="540"/>
+  </g>
+
+  <g stroke="#00D4E8" stroke-width="1" opacity="0.55">
+    <line x1="1180" y1="380" x2="1080" y2="240"/>
+    <line x1="1240" y1="180" x2="1380" y2="280"/>
+    <line x1="900" y1="500" x2="780" y2="580"/>
+    <line x1="1240" y1="630" x2="1340" y2="430"/>
+    <line x1="1080" y1="80" x2="1240" y2="180"/>
+  </g>
+
+  <!-- Sparse left/lower-left nodes -->
+  <g fill="#2E3A50">
+    <circle cx="200" cy="780" r="2"/>
+    <circle cx="320" cy="800" r="2"/>
+    <circle cx="180" cy="640" r="2"/>
+    <circle cx="120" cy="500" r="2"/>
+    <circle cx="60" cy="700" r="2"/>
+    <circle cx="360" cy="760" r="3"/>
+    <circle cx="500" cy="700" r="3"/>
+    <circle cx="650" cy="640" r="3"/>
+  </g>
+
+  <!-- Dense upper-right nodes -->
+  <g fill="#00D4E8">
+    <circle cx="900" cy="120" r="3"/>
+    <circle cx="1080" cy="80" r="3"/>
+    <circle cx="1240" cy="180" r="4"/>
+    <circle cx="1380" cy="280" r="3"/>
+    <circle cx="1500" cy="210" r="3"/>
+    <circle cx="1080" cy="240" r="4"/>
+    <circle cx="1180" cy="380" r="5"/>
+    <circle cx="1340" cy="430" r="3"/>
+    <circle cx="1480" cy="360" r="3"/>
+    <circle cx="980" cy="380" r="3"/>
+    <circle cx="900" cy="500" r="3"/>
+    <circle cx="780" cy="580" r="3"/>
+    <circle cx="1080" cy="580" r="3"/>
+    <circle cx="1240" cy="630" r="4"/>
+    <circle cx="1400" cy="540" r="3"/>
+    <circle cx="1500" cy="490" r="3"/>
+    <circle cx="1380" cy="720" r="3"/>
+  </g>
+
+  <!-- Highlighted active nodes with rings -->
+  <g fill="none" stroke="#00D4E8" stroke-width="1">
+    <circle cx="1180" cy="380" r="10" opacity="0.5"/>
+    <circle cx="1240" cy="630" r="10" opacity="0.4"/>
+    <circle cx="1240" cy="180" r="9" opacity="0.5"/>
+  </g>
+
+  <!-- A few amethyst accents -->
+  <g fill="#C084FC">
+    <circle cx="1180" cy="380" r="2"/>
+    <circle cx="1240" cy="630" r="2"/>
+  </g>
+</svg>

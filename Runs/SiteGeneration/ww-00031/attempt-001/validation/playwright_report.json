@@ -1,0 +1,746 @@
+{
+  "valid": false,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": false
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 20,
+    "visible_sections": 20,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 5
+  },
+  "failures": [
+    "home mobile has horizontal overflow",
+    "experience mobile has horizontal overflow",
+    "lineup mobile has horizontal overflow",
+    "map mobile has horizontal overflow",
+    "tickets mobile has horizontal overflow"
+  ],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Inkwell Jazz Festival — Hand-drawn nights. Live-played magic.",
+            "bodyTextLength": 1575,
+            "scrollHeight": 3328,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 413.390625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 875.40625,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 560.875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "lineup.html",
+              "tickets.html",
+              "experience.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Inkwell Jazz Festival — Hand-drawn nights. Live-played magic.",
+            "bodyTextLength": 1563,
+            "scrollHeight": 3812,
+            "scrollWidth": 424,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 844,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 385.390625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1273.609375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 513.453125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "lineup.html",
+              "tickets.html",
+              "experience.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "experience",
+      "route": "/experience.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "The Experience — Inkwell Jazz Festival",
+            "bodyTextLength": 2128,
+            "scrollHeight": 3315,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "experience-section-1",
+                "width": 1440,
+                "height": 660.546875,
+                "visible": true
+              },
+              {
+                "id": "experience-section-2",
+                "width": 1440,
+                "height": 995.265625,
+                "visible": true
+              },
+              {
+                "id": "experience-section-3",
+                "width": 1440,
+                "height": 739.3125,
+                "visible": true
+              },
+              {
+                "id": "experience-section-4",
+                "width": 1440,
+                "height": 497.875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "lineup.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "The Experience — Inkwell Jazz Festival",
+            "bodyTextLength": 2116,
+            "scrollHeight": 4636,
+            "scrollWidth": 424,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "experience-section-1",
+                "width": 390,
+                "height": 486.359375,
+                "visible": true
+              },
+              {
+                "id": "experience-section-2",
+                "width": 390,
+                "height": 2154.078125,
+                "visible": true
+              },
+              {
+                "id": "experience-section-3",
+                "width": 390,
+                "height": 805.875,
+                "visible": true
+              },
+              {
+                "id": "experience-section-4",
+                "width": 390,
+                "height": 450.453125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "lineup.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "lineup",
+      "route": "/lineup.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lineup — Inkwell Jazz Festival 2025",
+            "bodyTextLength": 2184,
+            "scrollHeight": 3288,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "lineup-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-2",
+                "width": 1440,
+                "height": 607.953125,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-3",
+                "width": 1440,
+                "height": 626.171875,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-4",
+                "width": 1440,
+                "height": 632.0625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "tickets.html",
+              "map.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Lineup — Inkwell Jazz Festival 2025",
+            "bodyTextLength": 2172,
+            "scrollHeight": 4439,
+            "scrollWidth": 424,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "lineup-section-1",
+                "width": 390,
+                "height": 844,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-2",
+                "width": 390,
+                "height": 1214.1875,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-3",
+                "width": 390,
+                "height": 1020.890625,
+                "visible": true
+              },
+              {
+                "id": "lineup-section-4",
+                "width": 390,
+                "height": 620.328125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "tickets.html",
+              "map.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "map",
+      "route": "/map.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Festival Map — Inkwell Jazz Festival",
+            "bodyTextLength": 2834,
+            "scrollHeight": 3889,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "map-section-1",
+                "width": 1440,
+                "height": 606.546875,
+                "visible": true
+              },
+              {
+                "id": "map-section-2",
+                "width": 1440,
+                "height": 1158.9375,
+                "visible": true
+              },
+              {
+                "id": "map-section-3",
+                "width": 1440,
+                "height": 897.4375,
+                "visible": true
+              },
+              {
+                "id": "map-section-4",
+                "width": 1440,
+                "height": 804.0625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Festival Map — Inkwell Jazz Festival",
+            "bodyTextLength": 2785,
+            "scrollHeight": 4716,
+            "scrollWidth": 424,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "map-section-1",
+                "width": 390,
+                "height": 432.359375,
+                "visible": true
+              },
+              {
+                "id": "map-section-2",
+                "width": 390,
+                "height": 713.921875,
+                "visible": true
+              },
+              {
+                "id": "map-section-3",
+                "width": 390,
+                "height": 1962.859375,
+                "visible": true
+              },
+              {
+                "id": "map-section-4",
+                "width": 390,
+                "height": 867.34375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "tickets.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "tickets",
+      "route": "/tickets.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Tickets — Inkwell Jazz Festival 2025",
+            "bodyTextLength": 2284,
+            "scrollHeight": 3488,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "tickets-section-1",
+                "width": 1440,
+                "height": 577.359375,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-2",
+                "width": 1440,
+                "height": 1398.46875,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-3",
+                "width": 1440,
+                "height": 615.203125,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-4",
+                "width": 1440,
+                "height": 474.875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "lineup.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Tickets — Inkwell Jazz Festival 2025",
+            "bodyTextLength": 2272,
+            "scrollHeight": 5509,
+            "scrollWidth": 424,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "tickets-section-1",
+                "width": 390,
+                "height": 495.15625,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-2",
+                "width": 390,
+                "height": 2584.34375,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-3",
+                "width": 390,
+                "height": 1138.59375,
+                "visible": true
+              },
+              {
+                "id": "tickets-section-4",
+                "width": 390,
+                "height": 551.140625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "lineup.html",
+              "experience.html",
+              "lineup.html",
+              "map.html",
+              "tickets.html",
+              "#",
+              "#",
+              "#",
+              "#"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

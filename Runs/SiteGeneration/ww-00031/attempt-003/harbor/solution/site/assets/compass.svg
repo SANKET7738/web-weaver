@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" aria-hidden="true">
+  <g stroke="#2C2118" stroke-width="2" fill="none">
+    <circle cx="100" cy="100" r="80" fill="#F5EDDA"/>
+    <circle cx="100" cy="100" r="68" fill="none" stroke-dasharray="3 4"/>
+    <!-- N -->
+    <path d="M100 30 L 110 100 L 100 90 L 90 100 Z" fill="#E8614A"/>
+    <!-- S -->
+    <path d="M100 170 L 110 100 L 100 110 L 90 100 Z" fill="#2C2118"/>
+    <!-- E -->
+    <path d="M170 100 L 100 110 L 110 100 L 100 90 Z" fill="#D4A72C"/>
+    <!-- W -->
+    <path d="M30 100 L 100 110 L 90 100 L 100 90 Z" fill="#6B7A3A"/>
+    <circle cx="100" cy="100" r="6" fill="#2C2118"/>
+    <text x="100" y="24" font-family="Fraunces, serif" font-weight="900" font-size="16" fill="#2C2118" text-anchor="middle" stroke="none">N</text>
+    <text x="100" y="190" font-family="Fraunces, serif" font-weight="900" font-size="16" fill="#2C2118" text-anchor="middle" stroke="none">S</text>
+    <text x="186" y="106" font-family="Fraunces, serif" font-weight="900" font-size="16" fill="#2C2118" text-anchor="middle" stroke="none">E</text>
+    <text x="14" y="106" font-family="Fraunces, serif" font-weight="900" font-size="16" fill="#2C2118" text-anchor="middle" stroke="none">W</text>
+  </g>
+</svg>

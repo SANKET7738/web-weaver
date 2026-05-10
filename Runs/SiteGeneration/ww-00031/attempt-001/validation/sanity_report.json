@@ -1,0 +1,47 @@
+{
+  "valid": true,
+  "checks": {
+    "file_structure": true,
+    "page_files": true,
+    "routes": true,
+    "content_coverage": true,
+    "section_coverage": true,
+    "palette_usage": true,
+    "font_usage": true,
+    "asset_coverage": true,
+    "policy": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_texts": 71,
+    "matched_texts": 71,
+    "content_coverage": 1.0,
+    "expected_sections": 20,
+    "matched_section_ids": 20,
+    "section_coverage": 1.0,
+    "palette_colors_used": 8,
+    "palette_colors_expected": 8,
+    "palette_colors_matched": [
+      "#2c2118",
+      "#5c3460",
+      "#6b7a3a",
+      "#7bbfd4",
+      "#c8bea8",
+      "#d4a72c",
+      "#e8614a",
+      "#f5edda"
+    ],
+    "font_matches": 3,
+    "fonts_matched": [
+      "Fraunces",
+      "Nunito",
+      "Caveat"
+    ],
+    "asset_sections": 5,
+    "covered_asset_sections": 5,
+    "asset_coverage": 1.0,
+    "policy_violations": []
+  },
+  "failures": []
+}

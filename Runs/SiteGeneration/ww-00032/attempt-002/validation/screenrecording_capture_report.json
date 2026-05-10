@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 2500,
+  "bottom_hold_ms": 2000,
+  "min_scroll_ms": 7000,
+  "max_scroll_ms": 15000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4642,
+      "max_scroll_y": 3642,
+      "scroll_duration_ms": 7284,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2904218
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4685,
+      "max_scroll_y": 3685,
+      "scroll_duration_ms": 7370,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "products.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3661904
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 5439,
+      "max_scroll_y": 4439,
+      "scroll_duration_ms": 8878,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "story.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3778626
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4215,
+      "max_scroll_y": 3215,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "stockists.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3091558
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4111,
+      "max_scroll_y": 3111,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "contact.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2096571
+    }
+  ]
+}

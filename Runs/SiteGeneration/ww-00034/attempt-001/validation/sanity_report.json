@@ -1,0 +1,45 @@
+{
+  "valid": true,
+  "checks": {
+    "file_structure": true,
+    "page_files": true,
+    "routes": true,
+    "content_coverage": true,
+    "section_coverage": true,
+    "palette_usage": true,
+    "font_usage": true,
+    "asset_coverage": true,
+    "policy": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_texts": 114,
+    "matched_texts": 104,
+    "content_coverage": 0.9123,
+    "expected_sections": 25,
+    "matched_section_ids": 25,
+    "section_coverage": 1.0,
+    "palette_colors_used": 6,
+    "palette_colors_expected": 6,
+    "palette_colors_matched": [
+      "#0000ee",
+      "#0a0a0a",
+      "#1e1e1e",
+      "#e8000d",
+      "#f2f2f2",
+      "#ffd600"
+    ],
+    "font_matches": 3,
+    "fonts_matched": [
+      "'Arial Black', 'Arial Bold', Arial, sans-serif",
+      "'Courier New', Courier, monospace",
+      "VT323"
+    ],
+    "asset_sections": 10,
+    "covered_asset_sections": 9,
+    "asset_coverage": 0.9,
+    "policy_violations": []
+  },
+  "failures": []
+}

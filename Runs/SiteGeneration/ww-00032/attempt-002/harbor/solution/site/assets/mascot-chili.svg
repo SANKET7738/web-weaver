@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" fill="none" aria-label="Lava Mouth grinning chili mascot">
+  <!-- Memphis shapes behind mascot -->
+  <circle cx="60" cy="80" r="22" fill="#FFD600" stroke="#1A1209" stroke-width="4"/>
+  <polygon points="430,60 460,120 400,120" fill="#00B8A0" stroke="#1A1209" stroke-width="4"/>
+  <path d="M 380 280 Q 410 260 440 280 T 470 320" stroke="#FF85A1" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <rect x="20" y="380" width="48" height="14" fill="#FF85A1" stroke="#1A1209" stroke-width="3" transform="rotate(-12 44 387)"/>
+  <circle cx="46" cy="220" r="10" fill="#1A1209"/>
+  <circle cx="64" cy="244" r="6" fill="#1A1209"/>
+  <circle cx="38" cy="262" r="8" fill="#1A1209"/>
+
+  <!-- Stem leaf -->
+  <path d="M 230 70 Q 230 40 260 30 Q 290 40 280 70 Q 270 90 250 88 Z" fill="#1D7A3A" stroke="#1A1209" stroke-width="5"/>
+  <path d="M 250 60 Q 260 50 270 55" stroke="#FFF5E1" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Stem -->
+  <rect x="220" y="60" width="20" height="40" rx="6" fill="#1D7A3A" stroke="#1A1209" stroke-width="5"/>
+
+  <!-- Chili body -->
+  <path d="M 230 100 C 130 110 90 230 110 350 C 130 470 200 540 240 540 C 280 540 350 470 370 350 C 390 230 350 110 250 100 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="6"/>
+
+  <!-- Highlight -->
+  <path d="M 160 180 Q 130 270 145 360" stroke="#FFB1A4" stroke-width="14" stroke-linecap="round" fill="none"/>
+
+  <!-- Wide grin mouth -->
+  <path d="M 165 290 Q 240 380 320 290 Q 320 360 240 380 Q 160 360 165 290 Z" fill="#1A1209"/>
+  <!-- Tongue -->
+  <path d="M 200 340 Q 240 380 285 340 Q 285 365 240 372 Q 200 365 200 340 Z" fill="#FF85A1"/>
+  <!-- Teeth -->
+  <rect x="190" y="305" width="20" height="20" fill="#FFF5E1"/>
+  <rect x="218" y="312" width="20" height="22" fill="#FFF5E1"/>
+  <rect x="246" y="312" width="20" height="22" fill="#FFF5E1"/>
+  <rect x="274" y="305" width="20" height="20" fill="#FFF5E1"/>
+
+  <!-- Eyes -->
+  <ellipse cx="180" cy="220" rx="30" ry="34" fill="#FFF5E1" stroke="#1A1209" stroke-width="5"/>
+  <ellipse cx="305" cy="220" rx="30" ry="34" fill="#FFF5E1" stroke="#1A1209" stroke-width="5"/>
+  <circle cx="186" cy="226" r="14" fill="#1A1209"/>
+  <circle cx="311" cy="226" r="14" fill="#1A1209"/>
+  <circle cx="191" cy="221" r="5" fill="#FFF5E1"/>
+  <circle cx="316" cy="221" r="5" fill="#FFF5E1"/>
+
+  <!-- Brow -->
+  <path d="M 145 175 Q 180 158 215 175" stroke="#1A1209" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M 270 175 Q 305 158 340 175" stroke="#1A1209" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Cheek flush -->
+  <ellipse cx="140" cy="290" rx="22" ry="14" fill="#FF85A1" opacity="0.7"/>
+  <ellipse cx="345" cy="290" rx="22" ry="14" fill="#FF85A1" opacity="0.7"/>
+
+  <!-- Sweat drop -->
+  <path d="M 360 160 Q 350 175 360 190 Q 370 175 360 160 Z" fill="#7B2FBE" stroke="#1A1209" stroke-width="3"/>
+
+  <!-- Tip -->
+  <path d="M 240 540 Q 230 580 220 580 Q 235 595 250 580 Q 250 555 240 540 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="5"/>
+</svg>

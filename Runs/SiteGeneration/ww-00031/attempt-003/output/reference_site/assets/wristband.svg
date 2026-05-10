@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" aria-hidden="true">
+  <g stroke="#2C2118" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Band outline -->
+    <path d="M30 60 Q 240 30 450 60 L 450 140 Q 240 170 30 140 Z" fill="#F5EDDA"/>
+    <!-- Top stitching -->
+    <path d="M40 70 Q 240 42 440 70" stroke-dasharray="4 5"/>
+    <!-- Bottom stitching -->
+    <path d="M40 130 Q 240 158 440 130" stroke-dasharray="4 5"/>
+    <!-- Buckle/lock -->
+    <rect x="345" y="55" width="60" height="90" rx="6" fill="#D4A72C"/>
+    <circle cx="375" cy="100" r="6" fill="#2C2118"/>
+    <line x1="355" y1="75" x2="395" y2="75"/>
+    <line x1="355" y1="125" x2="395" y2="125"/>
+    <!-- Hand-lettered text band -->
+    <text x="180" y="92" font-family="'Fraunces', serif" font-weight="900" font-size="22" fill="#D4A72C" stroke="none" text-anchor="middle">INKWELL</text>
+    <text x="180" y="120" font-family="'Caveat', cursive" font-size="20" fill="#2C2118" stroke="none" text-anchor="middle">Jazz Festival · 2025</text>
+    <!-- Music note motifs -->
+    <g fill="#E8614A" stroke="none">
+      <ellipse cx="58" cy="100" rx="6" ry="4" transform="rotate(-15 58 100)"/>
+      <rect x="62" y="80" width="2.5" height="22"/>
+      <ellipse cx="100" cy="100" rx="6" ry="4" transform="rotate(-15 100 100)"/>
+      <rect x="104" y="80" width="2.5" height="22"/>
+      <ellipse cx="305" cy="100" rx="6" ry="4" transform="rotate(-15 305 100)"/>
+      <rect x="309" y="80" width="2.5" height="22"/>
+    </g>
+    <!-- Loose ink dots -->
+    <circle cx="80" cy="50" r="3" fill="#E8614A" stroke="none"/>
+    <circle cx="260" cy="48" r="2" fill="#D4A72C" stroke="none"/>
+    <circle cx="430" cy="150" r="2" fill="#E8614A" stroke="none"/>
+  </g>
+</svg>

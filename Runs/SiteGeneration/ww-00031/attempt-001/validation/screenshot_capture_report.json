@@ -1,0 +1,266 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 20,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3328,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2328,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 404912
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        },
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "pullquote reveal from-right",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "experience",
+      "route": "/experience.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3315,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "experience/experience_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "experience/experience_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "experience/experience_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2315,
+          "path": "experience/experience_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "experience/experience_full.png",
+        "bytes": 434915
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "lineup",
+      "route": "/lineup.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3288,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "lineup/lineup_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "lineup/lineup_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "lineup/lineup_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2288,
+          "path": "lineup/lineup_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "lineup/lineup_full.png",
+        "bytes": 450570
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "map",
+      "route": "/map.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3889,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "map/map_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "map/map_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "map/map_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2889,
+          "path": "map/map_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "map/map_full.png",
+        "bytes": 498555
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "tickets",
+      "route": "/tickets.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3488,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "tickets/tickets_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "tickets/tickets_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "tickets/tickets_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2488,
+          "path": "tickets/tickets_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "tickets/tickets_full.png",
+        "bytes": 480809
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

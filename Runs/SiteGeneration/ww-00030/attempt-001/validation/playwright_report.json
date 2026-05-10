@@ -1,0 +1,676 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 15,
+    "visible_sections": 15,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Axiom Hotel — Precision. Comfort. Forward.",
+            "bodyTextLength": 1389,
+            "scrollHeight": 2790,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 812.078125,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 591.140625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "offers.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Axiom Hotel — Precision. Comfort. Forward.",
+            "bodyTextLength": 1341,
+            "scrollHeight": 3899,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 795.046875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1561.671875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 631.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "offers.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "accommodations",
+      "route": "/accommodations.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Accommodations — Axiom Hotel",
+            "bodyTextLength": 2083,
+            "scrollHeight": 2927,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "accommodations-section-1",
+                "width": 1440,
+                "height": 609.5625,
+                "visible": true
+              },
+              {
+                "id": "accommodations-section-2",
+                "width": 1440,
+                "height": 1076.796875,
+                "visible": true
+              },
+              {
+                "id": "accommodations-section-3",
+                "width": 1440,
+                "height": 854.234375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Accommodations — Axiom Hotel",
+            "bodyTextLength": 2035,
+            "scrollHeight": 4226,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "accommodations-section-1",
+                "width": 390,
+                "height": 416.171875,
+                "visible": true
+              },
+              {
+                "id": "accommodations-section-2",
+                "width": 390,
+                "height": 1851.890625,
+                "visible": true
+              },
+              {
+                "id": "accommodations-section-3",
+                "width": 390,
+                "height": 1046.59375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "offers",
+      "route": "/offers.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Offers — Axiom Hotel",
+            "bodyTextLength": 1596,
+            "scrollHeight": 2649,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "offers-section-1",
+                "width": 1440,
+                "height": 666.5625,
+                "visible": true
+              },
+              {
+                "id": "offers-section-2",
+                "width": 1440,
+                "height": 925.984375,
+                "visible": true
+              },
+              {
+                "id": "offers-section-3",
+                "width": 1440,
+                "height": 669.390625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Offers — Axiom Hotel",
+            "bodyTextLength": 1548,
+            "scrollHeight": 3926,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "offers-section-1",
+                "width": 390,
+                "height": 502.859375,
+                "visible": true
+              },
+              {
+                "id": "offers-section-2",
+                "width": 390,
+                "height": 1855.296875,
+                "visible": true
+              },
+              {
+                "id": "offers-section-3",
+                "width": 390,
+                "height": 656.375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "journal",
+      "route": "/journal.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Journal — Axiom Hotel",
+            "bodyTextLength": 1453,
+            "scrollHeight": 2476,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "journal-section-1",
+                "width": 1440,
+                "height": 609.5625,
+                "visible": true
+              },
+              {
+                "id": "journal-section-2",
+                "width": 1440,
+                "height": 888.515625,
+                "visible": true
+              },
+              {
+                "id": "journal-section-3",
+                "width": 1440,
+                "height": 591.140625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "accommodations.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Journal — Axiom Hotel",
+            "bodyTextLength": 1405,
+            "scrollHeight": 3423,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "journal-section-1",
+                "width": 390,
+                "height": 445.859375,
+                "visible": true
+              },
+              {
+                "id": "journal-section-2",
+                "width": 390,
+                "height": 1434.125,
+                "visible": true
+              },
+              {
+                "id": "journal-section-3",
+                "width": 390,
+                "height": 631.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "accommodations.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Axiom Hotel",
+            "bodyTextLength": 1951,
+            "scrollHeight": 2922,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 529.765625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 1034.484375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 971.546875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Axiom Hotel",
+            "bodyTextLength": 1863,
+            "scrollHeight": 4193,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 403.859375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1843.0625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 1034.640625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "journal.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "accommodations.html",
+              "offers.html",
+              "contact.html",
+              "journal.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMid slice" fill="none">
+  <!-- Background base -->
+  <rect width="1600" height="420" fill="#0F1422"/>
+
+  <!-- Water bodies (offset) -->
+  <path d="M0 320 L160 300 L260 340 L360 320 L420 360 L520 380 L600 360 L680 400 L800 420 L0 420 Z" fill="#0A0E1A" opacity="0.8"/>
+  <path d="M1200 0 L1400 0 L1600 60 L1600 0 Z" fill="#0A0E1A" opacity="0.7"/>
+
+  <!-- Grid streets - vertical -->
+  <g stroke="#1E2535" stroke-width="1">
+    <line x1="120" y1="0" x2="120" y2="420"/>
+    <line x1="240" y1="0" x2="240" y2="420"/>
+    <line x1="360" y1="0" x2="360" y2="420"/>
+    <line x1="480" y1="0" x2="480" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="720" y1="0" x2="720" y2="420"/>
+    <line x1="840" y1="0" x2="840" y2="420"/>
+    <line x1="960" y1="0" x2="960" y2="420"/>
+    <line x1="1080" y1="0" x2="1080" y2="420"/>
+    <line x1="1200" y1="0" x2="1200" y2="420"/>
+    <line x1="1320" y1="0" x2="1320" y2="420"/>
+    <line x1="1440" y1="0" x2="1440" y2="420"/>
+  </g>
+  <!-- Grid streets - horizontal -->
+  <g stroke="#1E2535" stroke-width="1">
+    <line x1="0" y1="60" x2="1600" y2="60"/>
+    <line x1="0" y1="120" x2="1600" y2="120"/>
+    <line x1="0" y1="180" x2="1600" y2="180"/>
+    <line x1="0" y1="240" x2="1600" y2="240"/>
+    <line x1="0" y1="300" x2="1600" y2="300"/>
+    <line x1="0" y1="360" x2="1600" y2="360"/>
+  </g>
+
+  <!-- Major avenues (thicker) -->
+  <g stroke="#2E3A50" stroke-width="2">
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="960" y1="0" x2="960" y2="420"/>
+    <line x1="0" y1="180" x2="1600" y2="180"/>
+    <line x1="0" y1="280" x2="1600" y2="280"/>
+  </g>
+
+  <!-- Diagonal route (financial district avenue) -->
+  <path d="M0 380 L400 200 L900 130 L1300 80 L1600 60" stroke="#2E3A50" stroke-width="2.5" fill="none"/>
+
+  <!-- Building blocks -->
+  <g fill="#181F2D" stroke="#1E2535" stroke-width="0.5">
+    <rect x="130" y="70" width="100" height="40"/>
+    <rect x="250" y="70" width="100" height="40"/>
+    <rect x="370" y="70" width="100" height="40"/>
+    <rect x="490" y="70" width="100" height="40"/>
+    <rect x="610" y="70" width="100" height="40"/>
+    <rect x="730" y="70" width="100" height="40"/>
+    <rect x="850" y="70" width="100" height="40"/>
+    <rect x="970" y="70" width="100" height="40"/>
+    <rect x="1090" y="70" width="100" height="40"/>
+    <rect x="1210" y="70" width="100" height="40"/>
+    <rect x="1330" y="70" width="100" height="40"/>
+    <rect x="1450" y="70" width="100" height="40"/>
+
+    <rect x="130" y="130" width="100" height="40"/>
+    <rect x="250" y="130" width="100" height="40"/>
+    <rect x="370" y="130" width="100" height="40"/>
+    <rect x="490" y="130" width="100" height="40"/>
+    <rect x="610" y="130" width="100" height="40"/>
+    <rect x="730" y="130" width="100" height="40"/>
+    <rect x="850" y="130" width="100" height="40"/>
+    <rect x="970" y="130" width="100" height="40"/>
+    <rect x="1090" y="130" width="100" height="40"/>
+    <rect x="1210" y="130" width="100" height="40"/>
+    <rect x="1330" y="130" width="100" height="40"/>
+    <rect x="1450" y="130" width="100" height="40"/>
+
+    <rect x="130" y="190" width="100" height="40"/>
+    <rect x="250" y="190" width="100" height="40"/>
+    <rect x="370" y="190" width="100" height="40"/>
+    <rect x="490" y="190" width="100" height="40"/>
+    <rect x="610" y="190" width="100" height="40"/>
+    <rect x="730" y="190" width="100" height="40"/>
+    <rect x="850" y="190" width="100" height="40"/>
+    <rect x="970" y="190" width="100" height="40"/>
+    <rect x="1090" y="190" width="100" height="40"/>
+    <rect x="1210" y="190" width="100" height="40"/>
+    <rect x="1330" y="190" width="100" height="40"/>
+    <rect x="1450" y="190" width="100" height="40"/>
+
+    <rect x="130" y="250" width="100" height="20"/>
+    <rect x="250" y="250" width="100" height="20"/>
+    <rect x="370" y="250" width="100" height="20"/>
+    <rect x="490" y="250" width="100" height="20"/>
+    <rect x="610" y="250" width="100" height="20"/>
+    <rect x="730" y="250" width="100" height="20"/>
+    <rect x="850" y="250" width="100" height="20"/>
+    <rect x="970" y="250" width="100" height="20"/>
+    <rect x="1090" y="250" width="100" height="20"/>
+    <rect x="1210" y="250" width="100" height="20"/>
+  </g>
+
+  <!-- Highlight blocks near the hotel -->
+  <g fill="#222A3A" stroke="#2E3A50" stroke-width="0.8">
+    <rect x="730" y="190" width="100" height="40"/>
+    <rect x="850" y="190" width="100" height="40"/>
+    <rect x="730" y="130" width="100" height="40"/>
+  </g>
+
+  <!-- Park area -->
+  <rect x="370" y="190" width="100" height="40" fill="#162039" opacity="0.8"/>
+  <circle cx="420" cy="210" r="3" fill="#1E2535"/>
+  <circle cx="395" cy="200" r="2" fill="#1E2535"/>
+  <circle cx="445" cy="220" r="2" fill="#1E2535"/>
+
+  <!-- Subway/transit dots -->
+  <g fill="#7C3AED" opacity="0.6">
+    <circle cx="240" cy="280" r="3"/>
+    <circle cx="600" cy="280" r="3"/>
+    <circle cx="960" cy="280" r="3"/>
+    <circle cx="1320" cy="280" r="3"/>
+    <circle cx="600" cy="60" r="3"/>
+    <circle cx="960" cy="60" r="3"/>
+  </g>
+  <g fill="#00D4E8" opacity="0.5">
+    <circle cx="240" cy="280" r="6" fill="none" stroke="#00D4E8" stroke-width="0.5"/>
+    <circle cx="960" cy="280" r="6" fill="none" stroke="#00D4E8" stroke-width="0.5"/>
+  </g>
+
+  <!-- Ambient lights -->
+  <g opacity="0.4">
+    <circle cx="780" cy="200" r="40" fill="#7C3AED" opacity="0.15"/>
+    <circle cx="780" cy="200" r="80" fill="#7C3AED" opacity="0.06"/>
+  </g>
+</svg>

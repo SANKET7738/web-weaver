@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 480" aria-label="Backyard pepper garden">
+  <!-- Background sky -->
+  <rect width="520" height="480" fill="#FFF5E1"/>
+  <!-- Sun -->
+  <circle cx="430" cy="80" r="42" fill="#FFD600" stroke="#1A1209" stroke-width="4"/>
+  <!-- Sun rays -->
+  <g stroke="#FFD600" stroke-width="6" stroke-linecap="round">
+    <line x1="430" y1="20" x2="430" y2="6"/>
+    <line x1="380" y1="40" x2="368" y2="28"/>
+    <line x1="492" y1="40" x2="504" y2="28"/>
+    <line x1="370" y1="80" x2="354" y2="80"/>
+  </g>
+  <!-- Triangles (Memphis) -->
+  <polygon points="40,40 70,40 55,18" fill="#00B8A0" stroke="#1A1209" stroke-width="3"/>
+  <polygon points="120,30 140,30 130,12" fill="#FF85A1" stroke="#1A1209" stroke-width="3"/>
+  <!-- Squiggle -->
+  <path d="M 200 50 Q 215 35 230 50 Q 245 65 260 50" stroke="#FF85A1" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Ground -->
+  <rect x="0" y="320" width="520" height="160" fill="#1D7A3A"/>
+  <path d="M 0 320 L 520 320" stroke="#1A1209" stroke-width="5"/>
+  <!-- Dirt dots -->
+  <g fill="#1A1209">
+    <circle cx="40" cy="360" r="4"/>
+    <circle cx="80" cy="380" r="3"/>
+    <circle cx="200" cy="400" r="4"/>
+    <circle cx="350" cy="380" r="3"/>
+    <circle cx="460" cy="410" r="4"/>
+  </g>
+  <!-- Garden row plants -->
+  <g>
+    <!-- Plant 1 -->
+    <rect x="80" y="200" width="6" height="130" fill="#1D7A3A" stroke="#1A1209" stroke-width="3"/>
+    <path d="M 60 230 Q 70 210 90 220" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 105 250 Q 120 230 105 220" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <!-- chili -->
+    <path d="M 80 240 Q 70 280 85 305 Q 100 305 100 280 Q 100 250 92 240 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+  </g>
+  <g>
+    <!-- Plant 2 -->
+    <rect x="180" y="180" width="6" height="150" fill="#1D7A3A" stroke="#1A1209" stroke-width="3"/>
+    <path d="M 160 210 Q 170 190 190 200" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 205 230 Q 220 210 205 200" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 175 230 Q 165 275 180 295 Q 195 295 195 270 Q 195 240 188 230 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+  </g>
+  <g>
+    <!-- Plant 3 (ghost / pale chili) -->
+    <rect x="280" y="190" width="6" height="140" fill="#1D7A3A" stroke="#1A1209" stroke-width="3"/>
+    <path d="M 260 220 Q 270 200 290 210" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 305 240 Q 320 220 305 210" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 275 240 Q 265 295 280 315 Q 295 315 295 290 Q 295 250 288 240 Z" fill="#FFF5E1" stroke="#1A1209" stroke-width="3"/>
+  </g>
+  <g>
+    <!-- Plant 4 -->
+    <rect x="380" y="200" width="6" height="130" fill="#1D7A3A" stroke="#1A1209" stroke-width="3"/>
+    <path d="M 360 230 Q 370 210 390 220" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 405 250 Q 420 230 405 220" stroke="#1D7A3A" fill="#1D7A3A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 380 240 Q 370 280 385 300 Q 400 300 400 280 Q 400 250 392 240 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+  </g>
+  <!-- Folding market table (background) -->
+  <g transform="translate(370,360)">
+    <rect x="0" y="0" width="120" height="14" fill="#7B2FBE" stroke="#1A1209" stroke-width="3"/>
+    <rect x="6" y="14" width="6" height="60" fill="#1A1209"/>
+    <rect x="108" y="14" width="6" height="60" fill="#1A1209"/>
+    <!-- jar -->
+    <rect x="18" y="-22" width="16" height="22" rx="2" fill="#FF4D38" stroke="#1A1209" stroke-width="2"/>
+    <rect x="46" y="-22" width="16" height="22" rx="2" fill="#FFD600" stroke="#1A1209" stroke-width="2"/>
+    <rect x="74" y="-22" width="16" height="22" rx="2" fill="#1D7A3A" stroke="#1A1209" stroke-width="2"/>
+  </g>
+  <!-- Confetti dots -->
+  <circle cx="30" cy="100" r="6" fill="#FF85A1"/>
+  <circle cx="500" cy="180" r="5" fill="#FF85A1"/>
+  <circle cx="320" cy="80" r="6" fill="#FFD600" stroke="#1A1209" stroke-width="2"/>
+</svg>

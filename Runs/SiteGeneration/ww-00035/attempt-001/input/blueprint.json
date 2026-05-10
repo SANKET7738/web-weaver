@@ -1,0 +1,451 @@
+{
+  "id": "ww-00035",
+  "version": "0.1",
+  "concept_id": "ww-00035",
+  "identity": {
+    "name": "Haven & Paw",
+    "tagline": "Every animal deserves a safe place to land.",
+    "one_line_description": "Haven & Paw is a civic-minded animal rescue shelter connecting abandoned and at-risk animals with loving homes through transparent operations, community campaigns, and trusted partnerships.",
+    "domain": "nonprofit",
+    "subdomain": "animal rescue shelter",
+    "voice": [
+      "earnest",
+      "civic",
+      "clear",
+      "grounded",
+      "trustworthy"
+    ],
+    "target_audience": "Local community members, prospective adopters, recurring donors, corporate partners, and civic-minded volunteers who believe in accountable, mission-driven animal welfare."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Haven & Paw as the community's trusted animal rescue institution, orient first-time visitors to the mission and urgency, and guide them toward adoption, donation, or volunteering \u2014 anchored by an unmistakable civic arrival moment.",
+      "meta_description": "Haven & Paw is your community's animal rescue shelter \u2014 rescuing, rehabilitating, and rehoming animals in need. Adopt, donate, or volunteer today.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Anchor the visitor with a strong civic arrival moment that communicates the shelter's purpose and urgency without melodrama \u2014 a steady, institutional confidence that says 'we are here, we are doing the work.'",
+          "eyebrow": "Your Community Animal Shelter",
+          "headline": "A Safe Place for Every Animal That Needs One",
+          "subheadline": "Haven & Paw rescues, rehabilitates, and rehomes animals across the region. Open every day because animals need us every day.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Meet Animals Available for Adoption",
+              "target_page": "campaign"
+            },
+            {
+              "label": "Support Our Work",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Quickly orient visitors to the three pillars of the shelter's work \u2014 rescue, rehabilitation, and rehoming \u2014 so they understand the full scope of the mission before scrolling deeper.",
+          "eyebrow": "What We Do",
+          "headline": "Rescue. Rehabilitate. Rehome.",
+          "subheadline": "Three commitments that guide every decision we make.",
+          "body": null,
+          "items": [
+            {
+              "title": "Emergency Rescue",
+              "description": "We respond to calls for abandoned, injured, and at-risk animals 365 days a year, coordinating with local authorities and community members.",
+              "metadata": {}
+            },
+            {
+              "title": "Medical Rehabilitation",
+              "description": "Every animal in our care receives veterinary assessment, treatment, and the time they need to recover before meeting their future family.",
+              "metadata": {}
+            },
+            {
+              "title": "Responsible Rehoming",
+              "description": "Our adoption process matches animals with the right households \u2014 thorough, caring, and designed for lasting placements.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Close the home page with a confident civic call to action that invites the visitor to become part of the shelter's community \u2014 a single purposeful flourish that converts orientation into commitment.",
+          "eyebrow": "Join the Community",
+          "headline": "Animals Are Waiting. Your Help Makes the Difference.",
+          "subheadline": "Adopt a companion, donate to our operations, or give your time as a volunteer. Every action matters.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Adopt an Animal",
+              "target_page": "campaign"
+            },
+            {
+              "label": "Make a Donation",
+              "target_page": "donate"
+            },
+            {
+              "label": "View Our Partners",
+              "target_page": "partners"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "title": "Adoption Campaign",
+      "role": "overview",
+      "goal": "Present the shelter's current animals available for adoption in a clear, structured way that builds emotional connection and civic responsibility, and drives visitors toward completing an adoption inquiry.",
+      "meta_description": "Browse animals currently available for adoption at Haven & Paw. Dogs, cats, and small animals waiting for their forever homes.",
+      "sections": [
+        {
+          "id": "campaign-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the adoption experience \u2014 warm but grounded, institutional but human \u2014 so visitors feel they are entering a trusted, well-run process.",
+          "eyebrow": "Current Adoption Campaign",
+          "headline": "Find Your Next Family Member",
+          "subheadline": "Every animal listed here has been rescued, assessed, and cleared for adoption. They are ready. Are you?",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-2",
+          "type": "item_grid",
+          "intent": "Showcase featured animals available for adoption with enough detail to spark genuine connection, letting the profiles do the storytelling with quiet confidence.",
+          "eyebrow": "Animals Available Now",
+          "headline": "Meet the Animals Looking for Homes",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Biscuit \u2014 Labrador Mix, 3 years",
+              "description": "Gentle, house-trained, and great with children. Biscuit was surrendered when his owner relocated and has been with us for six weeks.",
+              "metadata": {
+                "status": "Available",
+                "size": "Large",
+                "temperament": "Calm, affectionate"
+              }
+            },
+            {
+              "title": "Mira \u2014 Domestic Shorthair Cat, 2 years",
+              "description": "Independent but curious, Mira does well in quieter homes. She arrived as a stray and has fully recovered from a minor respiratory illness.",
+              "metadata": {
+                "status": "Available",
+                "size": "Small",
+                "temperament": "Quiet, observant"
+              }
+            },
+            {
+              "title": "Theo \u2014 Beagle, 5 years",
+              "description": "A loyal companion who loves routine walks and calm evenings. Theo was transferred from an overcrowded municipal shelter.",
+              "metadata": {
+                "status": "Available",
+                "size": "Medium",
+                "temperament": "Loyal, routine-oriented"
+              }
+            },
+            {
+              "title": "Clover \u2014 Rabbit, 1 year",
+              "description": "Playful and social, Clover is ideal for families with older children or adults seeking a low-maintenance companion.",
+              "metadata": {
+                "status": "Available",
+                "size": "Small",
+                "temperament": "Playful, social"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Start an Adoption Inquiry",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-3",
+          "type": "story_block",
+          "intent": "Build trust in the adoption process by walking prospective adopters through the steps clearly and institutionally \u2014 reducing anxiety and increasing follow-through.",
+          "eyebrow": "How Adoption Works",
+          "headline": "A Process Built Around Lasting Matches",
+          "subheadline": "We take adoption seriously because the animals depend on it.",
+          "body": "Our adoption process begins with a brief application form, followed by a meet-and-greet at the shelter. Our team reviews each application to ensure the match is right for both the animal and the household. Most adoptions are finalized within five to seven business days. We remain available for post-adoption support at no cost.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Download the Adoption Guide",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "data",
+      "title": "Our Impact Data",
+      "role": "editorial",
+      "goal": "Demonstrate Haven & Paw's accountability and civic credibility through transparent operational data, reinforcing donor and partner confidence with numbers that feel alive and meaningful.",
+      "meta_description": "Explore Haven & Paw's rescue and adoption statistics, operational transparency reports, and year-over-year impact data.",
+      "sections": [
+        {
+          "id": "data-section-1",
+          "type": "page_header",
+          "intent": "Frame the data page as an act of institutional transparency \u2014 we share our numbers because we believe the community deserves to know exactly what their support achieves.",
+          "eyebrow": "Transparency & Accountability",
+          "headline": "The Numbers Behind Our Mission",
+          "subheadline": "We publish our impact data because trust is built on evidence, not promises.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "data-section-2",
+          "type": "stats",
+          "intent": "Let the key annual metrics feel alive as they enter view \u2014 each number a civic proof point that validates the shelter's work and invites continued investment.",
+          "eyebrow": "This Year at Haven & Paw",
+          "headline": "Measured Progress, Year After Year",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "1,847",
+              "description": "Animals rescued this year from abandonment, injury, or overcrowded municipal facilities.",
+              "metadata": {}
+            },
+            {
+              "title": "1,412",
+              "description": "Successful adoptions completed, placing animals into screened and approved homes.",
+              "metadata": {}
+            },
+            {
+              "title": "94%",
+              "description": "Live release rate \u2014 the percentage of animals in our care that leave through adoption, transfer, or return to owner.",
+              "metadata": {}
+            },
+            {
+              "title": "312",
+              "description": "Active volunteers who contributed time, skills, and care to our operations this year.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "data-section-3",
+          "type": "story_block",
+          "intent": "Contextualize the numbers with a plain-language operational summary that reinforces Haven & Paw's institutional integrity and responsible stewardship of community resources.",
+          "eyebrow": "How We Use Your Support",
+          "headline": "Every Dollar Accounted For",
+          "subheadline": "Our operating budget is community-funded and publicly reported.",
+          "body": "Approximately 68% of all funds received go directly to animal care \u2014 veterinary services, food, housing, and behavioral support. 18% supports shelter operations and staffing. 14% is invested in outreach, adoption campaigns, and community education. We publish a full annual report each January and make it available to anyone who asks.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "View Our Annual Report",
+              "target_page": null
+            },
+            {
+              "label": "Support the Mission",
+              "target_page": "donate"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "partners",
+      "title": "Partners & Community",
+      "role": "overview",
+      "goal": "Build institutional credibility by showcasing the network of civic organizations, veterinary partners, and corporate supporters that trust and sustain Haven & Paw, while inviting new partnerships.",
+      "meta_description": "Meet the civic organizations, veterinary practices, and community businesses that partner with Haven & Paw to support animal rescue in our region.",
+      "sections": [
+        {
+          "id": "partners-section-1",
+          "type": "page_header",
+          "intent": "Establish that Haven & Paw operates within a wider civic ecosystem \u2014 this is not a lone organization but a trusted node in a community-wide commitment to animal welfare.",
+          "eyebrow": "Community & Partnerships",
+          "headline": "We Don't Do This Alone",
+          "subheadline": "Haven & Paw works alongside veterinary practices, civic organizations, and local businesses who share our commitment to animal welfare.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "partners-section-2",
+          "type": "item_grid",
+          "intent": "Present current partners with enough context to validate the shelter's civic standing and signal to prospective partners the quality of the network they would be joining.",
+          "eyebrow": "Our Partners",
+          "headline": "Organizations That Stand With Us",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Riverside Veterinary Clinic",
+              "description": "Provides discounted veterinary services and emergency medical care for all animals entering our facility.",
+              "metadata": {
+                "type": "Veterinary Partner"
+              }
+            },
+            {
+              "title": "City Animal Control Division",
+              "description": "Our primary municipal partner for intake coordination, emergency response, and stray animal transfer.",
+              "metadata": {
+                "type": "Civic Agency"
+              }
+            },
+            {
+              "title": "Greenfield Pet Supply Co.",
+              "description": "Donates food, bedding, and supplies monthly, covering approximately 30% of our annual supply costs.",
+              "metadata": {
+                "type": "Corporate Sponsor"
+              }
+            },
+            {
+              "title": "Northside Community Foundation",
+              "description": "Provides annual grant funding that supports our low-income adoption assistance program.",
+              "metadata": {
+                "type": "Funding Partner"
+              }
+            },
+            {
+              "title": "Regional SPCA Network",
+              "description": "Coordinates inter-shelter animal transfers to reduce overcrowding and expand placement opportunities across the region.",
+              "metadata": {
+                "type": "Network Affiliate"
+              }
+            },
+            {
+              "title": "Westbrook High School",
+              "description": "Sends student volunteers each semester through their community service program, contributing hundreds of hours annually.",
+              "metadata": {
+                "type": "Community Partner"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "partners-section-3",
+          "type": "cta",
+          "intent": "Invite prospective partners to enter a conversation \u2014 a direct, civic-toned close that makes joining the partnership network feel like a natural and responsible choice.",
+          "eyebrow": "Become a Partner",
+          "headline": "Your Organization Can Make a Lasting Difference",
+          "subheadline": "We welcome partnerships with veterinary practices, civic organizations, foundations, and businesses aligned with our mission.",
+          "body": "Whether you can offer in-kind donations, grant funding, volunteer programs, or professional services, there is a meaningful role for your organization at Haven & Paw. We formalize all partnerships with a simple agreement and publish partner names in our annual report.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Inquire About Partnership",
+              "target_page": "donate"
+            },
+            {
+              "label": "View Our Impact Data",
+              "target_page": "data"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "donate",
+      "title": "Donate",
+      "role": "conversion",
+      "goal": "Convert motivated visitors into donors by making the giving process feel trustworthy, direct, and meaningful \u2014 closing the site's civic story with a confident, purposeful call to act.",
+      "meta_description": "Support Haven & Paw with a one-time or recurring donation. Every contribution funds direct animal care, emergency rescue, and community adoption programs.",
+      "sections": [
+        {
+          "id": "donate-section-1",
+          "type": "page_header",
+          "intent": "Frame the donation page as a civic act \u2014 not charity, but community investment \u2014 so donors feel the weight and dignity of what they are contributing to.",
+          "eyebrow": "Support Haven & Paw",
+          "headline": "Your Donation Funds Real Rescue Work",
+          "subheadline": "No overhead bloat. No vague promises. Your contribution goes directly to the animals and the people caring for them.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "donate-section-2",
+          "type": "feature_grid",
+          "intent": "Show donors exactly what their money does at specific giving levels, making the impact concrete and reducing hesitation through institutional specificity.",
+          "eyebrow": "What Your Gift Provides",
+          "headline": "Every Amount Has a Direct Impact",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "$25 \u2014 One Week of Food",
+              "description": "Covers a full week of nutritionally appropriate food for one animal in our care.",
+              "metadata": {}
+            },
+            {
+              "title": "$75 \u2014 Vaccination & Microchip",
+              "description": "Funds a complete vaccination course and microchipping for one animal before adoption.",
+              "metadata": {}
+            },
+            {
+              "title": "$150 \u2014 Emergency Veterinary Visit",
+              "description": "Covers the cost of an emergency intake exam and initial treatment for a newly rescued animal.",
+              "metadata": {}
+            },
+            {
+              "title": "$500 \u2014 Monthly Shelter Operations",
+              "description": "Contributes to one month of utilities, cleaning supplies, and facility maintenance for the shelter.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "donate-section-3",
+          "type": "contact_block",
+          "intent": "Provide a clear, friction-free giving form that reinforces trust through simplicity and institutional tone \u2014 a confident final flourish that makes completing the donation feel right and easy.",
+          "eyebrow": "Give Today",
+          "headline": "Make Your Contribution",
+          "subheadline": "Choose a one-time or monthly gift. All donations are tax-deductible. You will receive a receipt by email.",
+          "body": "Haven & Paw is a registered 501(c)(3) nonprofit organization. Tax ID available upon request. For questions about major gifts, planned giving, or in-kind donations, contact our development team directly.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Donate Now",
+              "target_page": null
+            },
+            {
+              "label": "Learn About Our Partners",
+              "target_page": "partners"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

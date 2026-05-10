@@ -1,0 +1,19 @@
+{
+  "id": "ww-00034",
+  "version": "0.1",
+  "site_domain": "education",
+  "site_subdomain": "language learning platform",
+  "design_aesthetic": "brutalist_raw",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "classes",
+    "schedule",
+    "instructors",
+    "pricing"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 13,
+  "source": "web-weaver.concept_sampler"
+}

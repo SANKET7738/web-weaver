@@ -1,0 +1,433 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": true
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lava Mouth — Small Batch. Big Mouth. Real Fire.",
+            "bodyTextLength": 2641,
+            "scrollHeight": 4743,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1153.59375,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 722,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 1236,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 500.59375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 627.78125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "/index.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/story.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/stockists.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Products — Lava Mouth",
+            "bodyTextLength": 3836,
+            "scrollHeight": 4393,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "products-section-1",
+                "width": 1440,
+                "height": 554,
+                "visible": true
+              },
+              {
+                "id": "products-section-2",
+                "width": 1440,
+                "height": 1126,
+                "visible": true
+              },
+              {
+                "id": "products-section-3",
+                "width": 1440,
+                "height": 988,
+                "visible": true
+              },
+              {
+                "id": "products-section-4",
+                "width": 1440,
+                "height": 661,
+                "visible": true
+              },
+              {
+                "id": "products-section-5",
+                "width": 1440,
+                "height": 560.78125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "/index.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html",
+              "/products.html",
+              "/products.html",
+              "/stockists.html",
+              "/stockists.html",
+              "/contact.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Story — Lava Mouth",
+            "bodyTextLength": 3668,
+            "scrollHeight": 5515,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "story-section-1",
+                "width": 1440,
+                "height": 864.390625,
+                "visible": true
+              },
+              {
+                "id": "story-section-2",
+                "width": 1440,
+                "height": 954.5,
+                "visible": true
+              },
+              {
+                "id": "story-section-3",
+                "width": 1440,
+                "height": 1506,
+                "visible": true
+              },
+              {
+                "id": "story-section-4",
+                "width": 1440,
+                "height": 1281.515625,
+                "visible": true
+              },
+              {
+                "id": "story-section-5",
+                "width": 1440,
+                "height": 465.390625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "/index.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html",
+              "/products.html",
+              "/products.html",
+              "/products.html",
+              "/stockists.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Stockists — Lava Mouth",
+            "bodyTextLength": 2781,
+            "scrollHeight": 4026,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "stockists-section-1",
+                "width": 1440,
+                "height": 783.921875,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-2",
+                "width": 1440,
+                "height": 884,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-3",
+                "width": 1440,
+                "height": 700.75,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-4",
+                "width": 1440,
+                "height": 606,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-5",
+                "width": 1440,
+                "height": 608,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "/index.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html",
+              "/products.html",
+              "/products.html",
+              "/contact.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Lava Mouth",
+            "bodyTextLength": 3085,
+            "scrollHeight": 4334,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 578,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 842.75,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 947,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 692.34375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 831,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "/index.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html",
+              "/products.html",
+              "/products.html",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com",
+              "mailto:collabs@lavamouthsauce.com",
+              "mailto:hello@lavamouthsauce.com",
+              "/stockists.html",
+              "/index.html",
+              "/products.html",
+              "/story.html",
+              "/stockists.html",
+              "/contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

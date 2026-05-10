@@ -1,0 +1,434 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": true
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lava Mouth · Small Batch. Big Mouth. Real Fire.",
+            "bodyTextLength": 2185,
+            "scrollHeight": 4642,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 732.078125,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 1216.921875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 552.0625,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 632.359375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "story.html",
+              "products.html",
+              "products.html",
+              "stockists.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:hello@lavamouthsauce.com",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Sauces · Lava Mouth",
+            "bodyTextLength": 3446,
+            "scrollHeight": 4685,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "products-section-1",
+                "width": 1440,
+                "height": 440.234375,
+                "visible": true
+              },
+              {
+                "id": "products-section-2",
+                "width": 1440,
+                "height": 1328.21875,
+                "visible": true
+              },
+              {
+                "id": "products-section-3",
+                "width": 1440,
+                "height": 1202.71875,
+                "visible": true
+              },
+              {
+                "id": "products-section-4",
+                "width": 1440,
+                "height": 683.859375,
+                "visible": true
+              },
+              {
+                "id": "products-section-5",
+                "width": 1440,
+                "height": 521.609375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "stockists.html",
+              "stockists.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:hello@lavamouthsauce.com",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Story · Lava Mouth",
+            "bodyTextLength": 3437,
+            "scrollHeight": 5439,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "story-section-1",
+                "width": 1440,
+                "height": 800,
+                "visible": true
+              },
+              {
+                "id": "story-section-2",
+                "width": 1440,
+                "height": 936.5625,
+                "visible": true
+              },
+              {
+                "id": "story-section-3",
+                "width": 1440,
+                "height": 1506.25,
+                "visible": true
+              },
+              {
+                "id": "story-section-4",
+                "width": 1440,
+                "height": 1212.171875,
+                "visible": true
+              },
+              {
+                "id": "story-section-5",
+                "width": 1440,
+                "height": 531.375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "stockists.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:hello@lavamouthsauce.com",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Stockists · Lava Mouth",
+            "bodyTextLength": 3004,
+            "scrollHeight": 4215,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "stockists-section-1",
+                "width": 1440,
+                "height": 750,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-2",
+                "width": 1440,
+                "height": 935.734375,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-3",
+                "width": 1440,
+                "height": 768.96875,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-4",
+                "width": 1440,
+                "height": 549.234375,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-5",
+                "width": 1440,
+                "height": 703,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:hello@lavamouthsauce.com",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact · Lava Mouth",
+            "bodyTextLength": 2755,
+            "scrollHeight": 4111,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 542.15625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 843.40625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 1011.953125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 672.921875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 588,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com",
+              "mailto:collabs@lavamouthsauce.com",
+              "mailto:hello@lavamouthsauce.com",
+              "stockists.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:hello@lavamouthsauce.com",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

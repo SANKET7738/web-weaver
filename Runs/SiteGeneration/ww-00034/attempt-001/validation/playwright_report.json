@@ -1,0 +1,435 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": true
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "BRUTALK — No Filters. Just Fluency.",
+            "bodyTextLength": 2387,
+            "scrollHeight": 3534,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 920,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 347.140625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 879.953125,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 548.34375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 658.75,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html",
+              "classes.html",
+              "pricing.html",
+              "classes.html",
+              "pricing.html",
+              "schedule.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "classes",
+      "route": "/classes.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Classes — BRUTALK",
+            "bodyTextLength": 3229,
+            "scrollHeight": 3977,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "classes-section-1",
+                "width": 1440,
+                "height": 747.640625,
+                "visible": true
+              },
+              {
+                "id": "classes-section-2",
+                "width": 1440,
+                "height": 903.828125,
+                "visible": true
+              },
+              {
+                "id": "classes-section-3",
+                "width": 1440,
+                "height": 896.703125,
+                "visible": true
+              },
+              {
+                "id": "classes-section-4",
+                "width": 1440,
+                "height": 732.96875,
+                "visible": true
+              },
+              {
+                "id": "classes-section-5",
+                "width": 1440,
+                "height": 515.96875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html",
+              "schedule.html",
+              "pricing.html",
+              "schedule.html",
+              "pricing.html",
+              "index.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Schedule — BRUTALK",
+            "bodyTextLength": 2906,
+            "scrollHeight": 3240,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "schedule-section-1",
+                "width": 1440,
+                "height": 425.5625,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-2",
+                "width": 1440,
+                "height": 1014.015625,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-3",
+                "width": 1440,
+                "height": 398.171875,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-4",
+                "width": 1440,
+                "height": 706,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-5",
+                "width": 1440,
+                "height": 515.96875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "pricing.html",
+              "instructors.html",
+              "classes.html",
+              "pricing.html",
+              "index.html",
+              "classes.html",
+              "instructors.html",
+              "pricing.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "instructors",
+      "route": "/instructors.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Instructors — BRUTALK",
+            "bodyTextLength": 3489,
+            "scrollHeight": 3528,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "instructors-section-1",
+                "width": 1440,
+                "height": 682.921875,
+                "visible": true
+              },
+              {
+                "id": "instructors-section-2",
+                "width": 1440,
+                "height": 949.046875,
+                "visible": true
+              },
+              {
+                "id": "instructors-section-3",
+                "width": 1440,
+                "height": 572.75,
+                "visible": true
+              },
+              {
+                "id": "instructors-section-4",
+                "width": 1440,
+                "height": 557.359375,
+                "visible": true
+              },
+              {
+                "id": "instructors-section-5",
+                "width": 1440,
+                "height": 585.96875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "schedule.html",
+              "classes.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "pricing.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "route": "/pricing.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pricing — BRUTALK",
+            "bodyTextLength": 3084,
+            "scrollHeight": 4185,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "pricing-section-1",
+                "width": 1440,
+                "height": 476.375,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-2",
+                "width": 1440,
+                "height": 1334.46875,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-3",
+                "width": 1440,
+                "height": 521.921875,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-4",
+                "width": 1440,
+                "height": 1048.765625,
+                "visible": true
+              },
+              {
+                "id": "pricing-section-5",
+                "width": 1440,
+                "height": 623.171875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html",
+              "pricing.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "schedule.html",
+              "schedule.html",
+              "instructors.html",
+              "index.html",
+              "classes.html",
+              "schedule.html",
+              "instructors.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

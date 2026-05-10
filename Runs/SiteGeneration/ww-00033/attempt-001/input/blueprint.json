@@ -1,0 +1,669 @@
+{
+  "id": "ww-00033",
+  "version": "0.1",
+  "concept_id": "ww-00033",
+  "identity": {
+    "name": "Forma Intime",
+    "tagline": "Engineered for the body. Worn by the self.",
+    "one_line_description": "Forma Intime is a precision lingerie brand that applies clinical rigor and material science to intimate apparel, creating pieces designed for real anatomy, daily comfort, and lasting integrity.",
+    "domain": "fashion_ecommerce",
+    "subdomain": "lingerie brand",
+    "voice": [
+      "precise",
+      "measured",
+      "confident",
+      "clean",
+      "quietly sensual"
+    ],
+    "target_audience": "Discerning women aged 28\u201345 who prioritize comfort, construction quality, and body-positive design over trend-driven aesthetics \u2014 shoppers who read ingredient labels and care about what touches their skin."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Anchor the visitor with an unmistakable arrival moment \u2014 establish Forma Intime as a precision-driven lingerie brand that treats the body with clinical respect, then guide them toward the collection and brand story with quiet authority.",
+      "meta_description": "Forma Intime \u2014 precision lingerie engineered for real anatomy. Discover collections built on material science, anatomical fit, and lasting comfort.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver a single, still, commanding arrival \u2014 the brand's core promise stated with clinical confidence, no noise. The visitor should feel they have found something serious and considered.",
+          "eyebrow": "Precision Intimate Apparel",
+          "headline": "Designed for the body. Not the mannequin.",
+          "subheadline": "Every Forma Intime piece begins with anatomy, not aesthetics \u2014 engineered for daily wear, real movement, and the skin that lives in it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Collection",
+              "target_page": "collection"
+            },
+            {
+              "label": "Our Materials",
+              "target_page": "materials"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Let the numbers feel alive as they enter view \u2014 surface the measurable proof points that distinguish Forma Intime: material certifications, fit data, and longevity metrics that speak the language of a clinically-minded audience.",
+          "eyebrow": "The Forma Standard",
+          "headline": "Numbers that matter to the body.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "6",
+              "description": "anatomical fit zones mapped per garment",
+              "metadata": {}
+            },
+            {
+              "title": "100%",
+              "description": "OEKO-TEX certified fabrics across all collections",
+              "metadata": {}
+            },
+            {
+              "title": "3\u00d7",
+              "description": "longer elastic retention versus industry average",
+              "metadata": {}
+            },
+            {
+              "title": "0",
+              "description": "synthetic fragrance or chemical finish treatments",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Staggered reveal as the visitor scrolls \u2014 introduce the three core brand pillars in a structured, dashboard-style grid that communicates the brand's methodical approach to intimate design.",
+          "eyebrow": "Why Forma Intime",
+          "headline": "Three principles. No compromises.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Anatomical Construction",
+              "description": "Each pattern is drafted against a library of 12 body profiles, not a single standard size. Seams follow the body's natural lines \u2014 never across pressure points.",
+              "metadata": {}
+            },
+            {
+              "title": "Material Integrity",
+              "description": "We source only certified, traceable fabrics: medical-grade modal, Tencel blends, and recycled nylon with verified colorfastness. What touches your skin is documented.",
+              "metadata": {}
+            },
+            {
+              "title": "Longevity Protocol",
+              "description": "Every garment is stress-tested for 200 wash cycles before release. We publish the results. Forma Intime pieces are designed to outlast fast fashion by years.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Read About Our Materials",
+              "target_page": "materials"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-3-asset-1",
+              "kind": "icon",
+              "subject": "Three minimal clinical icons representing body anatomy, a certified fabric swatch, and a wash-cycle durability loop",
+              "purpose": "Provide clean, diagrammatic visual anchors for each of the three brand pillars in the feature grid",
+              "quantity": 3,
+              "used_by": [
+                "home-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-4",
+          "type": "cta",
+          "intent": "A single confident flourish on the close \u2014 invite the visitor into the campaign world with a warm but precise tone, bridging clinical credibility to the emotional resonance of wearing something made for you.",
+          "eyebrow": "The Current Campaign",
+          "headline": "Intimacy is a form of precision.",
+          "subheadline": "See how Forma Intime's latest collection was built \u2014 from material sourcing to final fit session.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View the Campaign",
+              "target_page": "campaign"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "collection",
+      "title": "Collection",
+      "role": "overview",
+      "goal": "Present the full Forma Intime product range as a structured, scannable system \u2014 like a clinical product dashboard \u2014 so visitors can understand the collection architecture, identify their fit profile, and move confidently toward purchase or stockist discovery.",
+      "meta_description": "Browse the Forma Intime lingerie collection \u2014 anatomically constructed bras, briefs, and bodysuits in certified materials. Find your fit profile and explore each style.",
+      "sections": [
+        {
+          "id": "collection-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor with a precise, calm introduction to the collection \u2014 signal that what follows is organized, considered, and navigable.",
+          "eyebrow": "The Collection",
+          "headline": "Every style. Every anatomy.",
+          "subheadline": "Forma Intime's range is organized by fit profile, not by trend season. Find the construction that works for your body.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "collection-section-2",
+          "type": "item_grid",
+          "intent": "Surface the core product lines as a structured dashboard grid \u2014 each item presented with clinical clarity: name, construction note, and material callout. Let the grid feel like a well-organized product system, not a mood board.",
+          "eyebrow": "Core Lines",
+          "headline": "Built by function. Refined by form.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Forma Soft \u2014 Bralette",
+              "description": "Wire-free, seam-mapped construction for everyday wear. Medical-grade modal with four-way stretch. Sizes XS\u20133XL.",
+              "metadata": {
+                "fit_profile": "Low-impact, everyday",
+                "material": "92% Modal, 8% Elastane"
+              }
+            },
+            {
+              "title": "Forma Structure \u2014 Underwired Bra",
+              "description": "Anatomical underwire placement derived from 12-profile fit mapping. Reinforced channeling, zero-migration wire. Sizes 30A\u201342G.",
+              "metadata": {
+                "fit_profile": "Full support, defined silhouette",
+                "material": "78% Recycled Nylon, 22% Elastane"
+              }
+            },
+            {
+              "title": "Forma Base \u2014 High-Leg Brief",
+              "description": "Cut to follow the natural iliac line. No elastic overcasting at the leg opening \u2014 pressure-free all day.",
+              "metadata": {
+                "fit_profile": "Everyday, minimal",
+                "material": "95% TENCEL, 5% Elastane"
+              }
+            },
+            {
+              "title": "Forma Close \u2014 Bodysuit",
+              "description": "Single-layer torso construction with reinforced gusset and adjustable strap geometry. Designed for layering or standalone wear.",
+              "metadata": {
+                "fit_profile": "Structured, versatile",
+                "material": "80% Recycled Nylon, 20% Elastane"
+              }
+            },
+            {
+              "title": "Forma Night \u2014 Sleep Set",
+              "description": "Temperature-regulating modal-linen blend. Designed for sleep science: no restrictive bands, no pressure at the shoulder or thoracic spine.",
+              "metadata": {
+                "fit_profile": "Sleep, recovery",
+                "material": "60% Modal, 40% Linen"
+              }
+            },
+            {
+              "title": "Forma Sport \u2014 Performance Bra",
+              "description": "Encapsulation and compression hybrid. Tested at 200+ wash cycles. Racerback geometry engineered for scapular freedom.",
+              "metadata": {
+                "fit_profile": "High-impact, active",
+                "material": "76% Recycled Nylon, 24% Elastane"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Find a Stockist",
+              "target_page": "stockists"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "collection-section-2-asset-1",
+              "kind": "mockup",
+              "subject": "Flat-lay technical diagram of a bra silhouette with labeled anatomical fit zones marked in a clinical, diagrammatic style",
+              "purpose": "Reinforce the precision-fit narrative above the product grid and visually differentiate Forma Intime from conventional lingerie brands",
+              "quantity": 1,
+              "used_by": [
+                "collection-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "collection-section-3",
+          "type": "comparison",
+          "intent": "Give the visitor a clear, data-driven comparison of fit profiles across the collection \u2014 structured like a clinical reference table so they can self-select the right product line without guesswork.",
+          "eyebrow": "Fit Profile Guide",
+          "headline": "Which construction is right for you?",
+          "subheadline": "Compare support level, movement range, and material weight across all Forma Intime lines.",
+          "body": null,
+          "items": [
+            {
+              "title": "Forma Soft",
+              "description": "Support: Light | Movement: Full | Weight: Featherweight | Best for: Daily wear, low-impact activity",
+              "metadata": {}
+            },
+            {
+              "title": "Forma Structure",
+              "description": "Support: Full | Movement: Moderate | Weight: Medium | Best for: Defined silhouette, all-day structured wear",
+              "metadata": {}
+            },
+            {
+              "title": "Forma Sport",
+              "description": "Support: High | Movement: Controlled | Weight: Medium-heavy | Best for: High-impact exercise, active lifestyle",
+              "metadata": {}
+            },
+            {
+              "title": "Forma Night",
+              "description": "Support: None | Movement: Unrestricted | Weight: Ultralight | Best for: Sleep, rest, recovery",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "collection-section-4",
+          "type": "cta",
+          "intent": "Close the collection page with a confident, direct invitation \u2014 push the visitor toward finding a physical stockist or learning more about what makes the materials worth the investment.",
+          "eyebrow": "Ready to wear Forma Intime?",
+          "headline": "Find your nearest stockist or explore our materials.",
+          "subheadline": null,
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Find a Stockist",
+              "target_page": "stockists"
+            },
+            {
+              "label": "About Our Materials",
+              "target_page": "materials"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "materials",
+      "title": "Materials",
+      "role": "editorial",
+      "goal": "Build deep trust with the ingredient-conscious visitor by presenting Forma Intime's material sourcing, certification standards, and textile science as a transparent, documented system \u2014 the way a clinical brand presents its formulation data.",
+      "meta_description": "Forma Intime uses only OEKO-TEX certified, traceable fabrics. Learn about our medical-grade modal, recycled nylon, and TENCEL sourcing \u2014 and why it matters for skin health.",
+      "sections": [
+        {
+          "id": "materials-section-1",
+          "type": "page_header",
+          "intent": "Set a deliberate, authoritative tone for the materials story \u2014 signal to the visitor that this page contains real information, not marketing language.",
+          "eyebrow": "Material Science",
+          "headline": "What we use. Why it matters. Where it comes from.",
+          "subheadline": "Every Forma Intime fabric is selected against a clinical brief: skin compatibility, structural integrity, environmental traceability, and wash longevity.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "materials-section-2",
+          "type": "story_block",
+          "intent": "Slow, deliberate stillness \u2014 tell the origin story of Forma Intime's material philosophy in editorial prose, establishing the brand's commitment to transparency as a founding principle, not a marketing add-on.",
+          "eyebrow": "Our Material Brief",
+          "headline": "We started with a question dermatologists ask.",
+          "subheadline": null,
+          "body": "When Forma Intime was founded, the first question our design team asked wasn't 'what looks beautiful?' \u2014 it was 'what is safe to wear against the skin for 16 hours a day?' That question led us to dermatology literature, textile toxicology studies, and conversations with fabric mills that most fashion brands never have. Our material brief is a living document. Every fabric we use must pass four tests: OEKO-TEX Standard 100 certification, verified colorfastness at 60\u00b0C, elastic retention after 200 wash cycles, and documented supply chain traceability to the fiber source. If a fabric fails any one of these, it doesn't enter our range.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "materials-section-3",
+          "type": "feature_grid",
+          "intent": "Present each core material as a structured data card \u2014 clinical, informative, precise. The visitor should feel like they are reading a well-organized reference document, not a fabric marketing page.",
+          "eyebrow": "Our Certified Fabrics",
+          "headline": "Four materials. Documented from fiber to finish.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Medical-Grade Modal",
+              "description": "Derived from sustainably harvested beech wood. Softer than cotton, with a documented pH-neutral finish. Used in Forma Soft and Forma Night. OEKO-TEX Standard 100 certified. Hypoallergenic \u2014 suitable for sensitive and post-surgical skin.",
+              "metadata": {
+                "certification": "OEKO-TEX Standard 100",
+                "origin": "Austria / Slovenia"
+              }
+            },
+            {
+              "title": "Recycled Nylon (Econyl\u00ae)",
+              "description": "Regenerated from ocean-recovered fishing nets and industrial nylon waste. Maintains the same tensile strength and elastic recovery as virgin nylon. Used in Forma Structure and Forma Sport. GRS certified.",
+              "metadata": {
+                "certification": "GRS + OEKO-TEX",
+                "origin": "Italy"
+              }
+            },
+            {
+              "title": "TENCEL\u2122 Lyocell",
+              "description": "Closed-loop solvent production \u2014 99% of processing chemicals are recovered and reused. Moisture-wicking, temperature-regulating, and biodegradable. Used in Forma Base. Certified by the Lenzing Group.",
+              "metadata": {
+                "certification": "Lenzing TENCEL\u2122",
+                "origin": "Austria"
+              }
+            },
+            {
+              "title": "Linen-Modal Blend",
+              "description": "A proprietary blend developed with our Austrian mill partner. Linen's natural thermoregulation combined with modal's softness. Zero synthetic finish treatments. Used exclusively in Forma Night.",
+              "metadata": {
+                "certification": "OEKO-TEX Standard 100",
+                "origin": "Austria"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "materials-section-3-asset-1",
+              "kind": "chart",
+              "subject": "Horizontal bar chart comparing four Forma Intime fabrics across three clinical metrics: wash longevity score, skin pH compatibility rating, and elastic retention percentage",
+              "purpose": "Translate abstract material quality claims into a readable, data-driven visual that reinforces the clinical brand voice",
+              "quantity": 1,
+              "used_by": [
+                "materials-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "materials-section-4",
+          "type": "cta",
+          "intent": "A calm, confident close \u2014 invite the visitor who has read the material data to take the next logical step: see the collection built from these fabrics.",
+          "eyebrow": "From Material to Garment",
+          "headline": "See what these fabrics become.",
+          "subheadline": "Every Forma Intime style is documented with its full material composition and fit specification.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Collection",
+              "target_page": "collection"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "title": "Campaign",
+      "role": "editorial",
+      "goal": "Bridge the clinical precision of the brand with its emotional and human dimension \u2014 show the campaign story as a documented creative process, letting the visitor see the thinking behind the imagery, the casting choices, and the fit sessions that produced the current collection.",
+      "meta_description": "The Forma Intime campaign \u2014 behind the process, the fit sessions, and the women who shaped this collection. Precision has a human side.",
+      "sections": [
+        {
+          "id": "campaign-section-1",
+          "type": "hero",
+          "intent": "Arrive with quiet force \u2014 the campaign hero should feel like opening a clinical case study that turns out to be unexpectedly intimate. A single powerful statement that reframes what a lingerie campaign can say.",
+          "eyebrow": "Current Campaign \u2014 Forma Intime S/S",
+          "headline": "Intimacy is a form of precision.",
+          "subheadline": "This season's collection was built in collaboration with 40 women across 12 body profiles. This is their fit story.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Collection",
+              "target_page": "collection"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-2",
+          "type": "story_block",
+          "intent": "Slow, editorial unfolding \u2014 tell the process story of how this campaign was made, grounding the creative work in the same methodical rigor as the material sourcing. The visitor should feel the brand's consistency of character.",
+          "eyebrow": "The Process",
+          "headline": "We started with fit sessions, not mood boards.",
+          "subheadline": null,
+          "body": "For the current campaign, we invited 40 women to our fit studio over six weeks \u2014 not models, but women who wear Forma Intime daily. Each session began with a body mapping consultation: posture, movement range, pressure-point documentation. The garments were adjusted in real time. What you see in the campaign is the result of those sessions \u2014 not a styled interpretation of them. The lighting is clinical. The framing is direct. The women are wearing pieces that were fitted to their specific anatomy. We believe that is the most honest thing a lingerie brand can show.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "campaign-section-3",
+          "type": "item_grid",
+          "intent": "Present the campaign's featured pieces as a structured editorial grid \u2014 each item documented with the fit story behind it, creating a dashboard of precision and humanity together.",
+          "eyebrow": "Campaign Pieces",
+          "headline": "Six styles. Forty women. One brief.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Forma Soft in Chalk",
+              "description": "Worn by nine participants across three body profiles. The most-adjusted piece in the fit sessions \u2014 shoulder strap geometry was revised twice based on real session data.",
+              "metadata": {
+                "fit_sessions": "9 participants",
+                "adjustments": "2 revisions"
+              }
+            },
+            {
+              "title": "Forma Structure in Bone",
+              "description": "The campaign's most technically complex piece. Wire placement was confirmed against ultrasound breast tissue mapping data for four participants with asymmetrical profiles.",
+              "metadata": {
+                "fit_sessions": "4 specialist participants",
+                "adjustments": "Wire channel repositioned"
+              }
+            },
+            {
+              "title": "Forma Base in Ecru",
+              "description": "The most-worn piece across all 40 participants during the comfort endurance phase \u2014 worn for a full 12-hour session to document pressure-point data.",
+              "metadata": {
+                "fit_sessions": "40 participants",
+                "endurance_test": "12-hour wear"
+              }
+            },
+            {
+              "title": "Forma Night in Linen-Chalk",
+              "description": "Sleep-tested by eight participants over two weeks. Temperature regulation and sleep quality data informed the final linen-to-modal ratio.",
+              "metadata": {
+                "fit_sessions": "8 sleep-test participants",
+                "duration": "2-week trial"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Full Collection",
+              "target_page": "collection"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "campaign-section-3-asset-1",
+              "kind": "illustration",
+              "subject": "Minimal clinical line illustration of a body silhouette with annotated fit-session data points marked as fine measurement lines \u2014 suggesting a medical diagram crossed with fashion illustration",
+              "purpose": "Visually anchor the campaign's core concept \u2014 that fit is a documented, precise process \u2014 in a way that feels editorial but rigorous",
+              "quantity": 1,
+              "used_by": [
+                "campaign-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "campaign-section-4",
+          "type": "testimonial",
+          "intent": "A slow ambient warmth that invites lingering \u2014 let the women from the fit sessions speak in their own words, grounding the clinical brand story in lived, personal experience.",
+          "eyebrow": "From the Fit Sessions",
+          "headline": "What precision feels like.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Maren, 34 \u2014 Forma Structure participant",
+              "description": "\"I've been professionally fitted three times in my life. This was the first time someone asked me about my posture before they measured me. The bra fits differently because the conversation was different.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Yuki, 41 \u2014 Forma Night sleep-test participant",
+              "description": "\"I didn't expect to notice a difference. But I slept through the night for the first time in months during the trial. I don't know if it's the linen or the lack of elastic pressure. Probably both.\"",
+              "metadata": {}
+            },
+            {
+              "title": "Chiara, 29 \u2014 Forma Soft participant",
+              "description": "\"The strap adjustment they made in the second session \u2014 I'd never have known to ask for that. But once it was done, I couldn't feel the bra anymore. Which is exactly the point.\"",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "title": "Stockists",
+      "role": "support",
+      "goal": "Help the visitor find Forma Intime in the physical world \u2014 present stockist information as a clear, well-organized reference system that reflects the brand's clinical precision and respects the visitor's time.",
+      "meta_description": "Find Forma Intime at a stockist near you. Specialty lingerie boutiques and wellness retailers across Europe and North America, each trained in Forma's fit consultation method.",
+      "sections": [
+        {
+          "id": "stockists-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor immediately \u2014 this is a functional page and the header should be direct and reassuring, signaling that the information they need is organized and close.",
+          "eyebrow": "Where to Buy",
+          "headline": "Find Forma Intime near you.",
+          "subheadline": "We partner exclusively with specialty lingerie boutiques and wellness retailers whose staff are trained in Forma's anatomical fit consultation method.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "stockists-section-1-asset-1",
+              "kind": "map",
+              "subject": "Minimal dot-plot map of Europe and North America with stockist city locations marked as clean clinical data points \u2014 no decorative geography, just a precise location reference system",
+              "purpose": "Give the visitor an immediate geographic overview of stockist coverage before they scan the detailed list",
+              "quantity": 1,
+              "used_by": [
+                "stockists-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stockists-section-2",
+          "type": "item_grid",
+          "intent": "Present stockist listings as structured data cards \u2014 consistent, scannable, and precise. Each entry should read like a well-formatted clinical record: name, location, specialization, and fit consultation availability.",
+          "eyebrow": "Europe",
+          "headline": "European stockists.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Atelier Sous \u2014 Paris, France",
+              "description": "Specialist lingerie boutique in the 6th arrondissement. Forma-certified fit consultants on staff. Full range stocked.",
+              "metadata": {
+                "fit_consultation": "Available by appointment",
+                "range": "Full collection"
+              }
+            },
+            {
+              "title": "K\u00f6rper Studio \u2014 Berlin, Germany",
+              "description": "Wellness and intimate apparel retailer. Trained in Forma's body-mapping consultation method. Core and Sport lines stocked.",
+              "metadata": {
+                "fit_consultation": "Walk-in and appointment",
+                "range": "Forma Soft, Structure, Sport"
+              }
+            },
+            {
+              "title": "Linen & Form \u2014 Copenhagen, Denmark",
+              "description": "Slow-fashion boutique with a clinical wellness focus. Full range including Forma Night exclusively in Scandinavia.",
+              "metadata": {
+                "fit_consultation": "By appointment",
+                "range": "Full collection + Forma Night exclusive"
+              }
+            },
+            {
+              "title": "Studio Intimo \u2014 Milan, Italy",
+              "description": "Heritage Italian lingerie retailer, third generation. Forma Structure and Forma Close lines. Fit consultation available.",
+              "metadata": {
+                "fit_consultation": "Available",
+                "range": "Forma Structure, Close, Sport"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stockists-section-3",
+          "type": "item_grid",
+          "intent": "Continue the structured stockist reference for North America \u2014 same clinical card format, same precision, consistent brand experience across geographies.",
+          "eyebrow": "North America",
+          "headline": "North American stockists.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The Fitting Room \u2014 New York, USA",
+              "description": "Specialist lingerie boutique on the Upper West Side. Full Forma Intime range. Extended fit consultation sessions available on weekends.",
+              "metadata": {
+                "fit_consultation": "Weekend sessions available",
+                "range": "Full collection"
+              }
+            },
+            {
+              "title": "Form & Function \u2014 Toronto, Canada",
+              "description": "Wellness-focused intimate apparel retailer. Forma Soft, Base, and Night lines. Forma-certified fit consultant on staff.",
+              "metadata": {
+                "fit_consultation": "By appointment",
+                "range": "Forma Soft, Base, Night"
+              }
+            },
+            {
+              "title": "Meridian Lingerie \u2014 Los Angeles, USA",
+              "description": "Contemporary lingerie boutique with a functional design focus. Full range stocked. Group fit consultation workshops monthly.",
+              "metadata": {
+                "fit_consultation": "Individual + group workshops",
+                "range": "Full collection"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stockists-section-4",
+          "type": "contact_block",
+          "intent": "Close with a direct, warm but precise invitation for wholesale and retail partnership inquiries \u2014 consistent with the brand's clinical confidence, no soft-sell language.",
+          "eyebrow": "Retail Partnerships",
+          "headline": "Interested in stocking Forma Intime?",
+          "subheadline": "We partner with a small number of specialist retailers each year. If your store shares our commitment to anatomical fit and material transparency, we'd like to hear from you.",
+          "body": "Wholesale and stockist partnership enquiries: trade@formaintime.com. We respond to all qualified enquiries within five business days.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Send a Partnership Enquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

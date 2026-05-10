@@ -1,0 +1,260 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 20,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3340,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2340,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 189466
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "collection",
+      "route": "/collection.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3549,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "collection/collection_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "collection/collection_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "collection/collection_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2549,
+          "path": "collection/collection_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "collection/collection_full.png",
+        "bytes": 237980
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "materials",
+      "route": "/materials.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4016,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "materials/materials_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "materials/materials_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "materials/materials_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "materials/materials_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3016,
+          "path": "materials/materials_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "materials/materials_full.png",
+        "bytes": 277754
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "campaign",
+      "route": "/campaign.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3960,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "campaign/campaign_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "campaign/campaign_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "campaign/campaign_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2960,
+          "path": "campaign/campaign_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "campaign/campaign_full.png",
+        "bytes": 298867
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2783,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "stockists/stockists_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "stockists/stockists_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1783,
+          "path": "stockists/stockists_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "stockists/stockists_full.png",
+        "bytes": 224298
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

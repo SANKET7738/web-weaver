@@ -1,0 +1,235 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 15,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2590,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1590,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 191227
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "programs",
+      "route": "/programs.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2598,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "programs/programs_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "programs/programs_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1598,
+          "path": "programs/programs_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "programs/programs_full.png",
+        "bytes": 256229
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "route": "/pricing.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2523,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "pricing/pricing_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "pricing/pricing_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1523,
+          "path": "pricing/pricing_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "pricing/pricing_full.png",
+        "bytes": 240031
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "stories",
+      "route": "/stories.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2969,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "stories/stories_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "stories/stories_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1969,
+          "path": "stories/stories_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "stories/stories_full.png",
+        "bytes": 257909
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "route": "/book.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2512,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "book/book_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "book/book_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1512,
+          "path": "book/book_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "book/book_full.png",
+        "bytes": 218536
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

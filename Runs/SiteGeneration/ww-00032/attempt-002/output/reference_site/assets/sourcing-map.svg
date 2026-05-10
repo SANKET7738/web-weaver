@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" aria-label="Sourcing map: New Mexico, Yucatán, Chicago">
+  <rect width="480" height="360" fill="#FFF5E1"/>
+  <!-- Simple USA outline (stylized) -->
+  <path d="M 50 90 L 140 70 L 220 80 L 320 70 L 420 100 L 430 160 L 420 220 L 380 240 L 340 260 L 280 240 L 220 250 L 160 230 L 100 230 L 60 200 L 50 150 Z"
+        fill="#FFD600" stroke="#1A1209" stroke-width="4"/>
+  <!-- Mexico (rough) -->
+  <path d="M 220 250 L 280 240 L 340 260 L 350 290 L 320 320 L 280 330 L 240 320 L 220 300 Z"
+        fill="#FFD600" stroke="#1A1209" stroke-width="4"/>
+  <!-- Yucatán peninsula -->
+  <path d="M 320 320 L 360 320 L 365 340 L 345 350 L 330 340 Z" fill="#FFD600" stroke="#1A1209" stroke-width="4"/>
+
+  <!-- State borders hint -->
+  <path d="M 220 80 L 220 230" stroke="#1A1209" stroke-width="2" stroke-dasharray="3 5" opacity="0.5"/>
+  <path d="M 320 70 L 320 240" stroke="#1A1209" stroke-width="2" stroke-dasharray="3 5" opacity="0.5"/>
+
+  <!-- Chicago dot (central) -->
+  <circle cx="280" cy="130" r="14" fill="#7B2FBE" stroke="#1A1209" stroke-width="3"/>
+  <text x="280" y="118" font-family="'Permanent Marker', cursive" font-size="14" fill="#1A1209" text-anchor="middle">Chicago</text>
+
+  <!-- NM pin 1 -->
+  <g transform="translate(160,200)">
+    <path d="M 0 0 Q -12 -12 0 -28 Q 12 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+    <circle cx="0" cy="-18" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2"/>
+  </g>
+  <text x="160" y="222" font-family="'Permanent Marker', cursive" font-size="12" fill="#1A1209" text-anchor="middle">NM Farm 1</text>
+
+  <!-- NM pin 2 -->
+  <g transform="translate(180,170)">
+    <path d="M 0 0 Q -12 -12 0 -28 Q 12 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+    <circle cx="0" cy="-18" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2"/>
+  </g>
+  <text x="180" y="192" font-family="'Permanent Marker', cursive" font-size="12" fill="#1A1209" text-anchor="middle">NM Farm 2</text>
+
+  <!-- Yucatán pin -->
+  <g transform="translate(345,330)">
+    <path d="M 0 0 Q -12 -12 0 -28 Q 12 -12 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="3"/>
+    <circle cx="0" cy="-18" r="5" fill="#FFF5E1" stroke="#1A1209" stroke-width="2"/>
+  </g>
+  <text x="345" y="358" font-family="'Permanent Marker', cursive" font-size="12" fill="#1A1209" text-anchor="middle">Yucatán</text>
+
+  <!-- Dotted lines from farms to Chicago -->
+  <path d="M 160 200 Q 220 170 280 130" stroke="#FF4D38" stroke-width="3" stroke-dasharray="4 6" fill="none"/>
+  <path d="M 180 170 Q 230 150 280 130" stroke="#FF4D38" stroke-width="3" stroke-dasharray="4 6" fill="none"/>
+  <path d="M 345 320 Q 320 220 280 130" stroke="#FF4D38" stroke-width="3" stroke-dasharray="4 6" fill="none"/>
+
+  <!-- Memphis confetti -->
+  <circle cx="40" cy="50" r="6" fill="#FF85A1"/>
+  <circle cx="450" cy="40" r="6" fill="#FF85A1"/>
+  <polygon points="430,300 450,300 440,280" fill="#00B8A0" stroke="#1A1209" stroke-width="2"/>
+  <!-- Mini chili sprite icons -->
+  <g transform="translate(60,300) rotate(-10)">
+    <path d="M 0 0 Q -4 12 0 22 Q 8 22 10 14 Q 12 6 8 0 Q 4 -4 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2"/>
+  </g>
+  <g transform="translate(420,140) rotate(15)">
+    <path d="M 0 0 Q -4 12 0 22 Q 8 22 10 14 Q 12 6 8 0 Q 4 -4 0 0 Z" fill="#FF4D38" stroke="#1A1209" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donate — Haven &amp; Paw</title>
+  <meta name="description" content="Support Haven & Paw with a one-time or recurring donation. Every contribution funds direct animal care, emergency rescue, and community adoption programs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page-slug="donate">
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" class="brand" aria-label="Haven and Paw home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6.5" cy="8.5" r="2.2"/><circle cx="12" cy="6" r="2.4"/><circle cx="17.5" cy="8.5" r="2.2"/><circle cx="4" cy="13.5" r="1.8"/><circle cx="20" cy="13.5" r="1.8"/><path d="M12 11c-3.5 0-6.5 2.5-6.5 5.5C5.5 19 7.5 20.5 9.5 20.5c1 0 1.7-.4 2.5-.4s1.5.4 2.5.4c2 0 4-1.5 4-4C18.5 13.5 15.5 11 12 11z"/></svg>
+        </span>
+        Haven &amp; Paw
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="campaign.html">Adoption</a></li>
+        <li><a href="data.html">Impact Data</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="donate.html" aria-current="page">Donate</a></li>
+      </ul>
+      <a href="donate.html" class="nav-cta">Give Today</a>
+      <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- PAGE HEADER -->
+    <section id="donate-section-1" data-section-type="page_header" class="section donate-page-header">
+      <div class="inner">
+        <p class="eyebrow reveal-eyebrow">Support Haven &amp; Paw</p>
+        <h1 class="display-headline reveal-headline">Your Donation Funds Real Rescue Work</h1>
+        <p class="header-sub reveal-sub">No overhead bloat. No vague promises. Your contribution goes directly to the animals and the people caring for them.</p>
+      </div>
+    </section>
+
+    <!-- GIVE STRIP — signature transition between header and impact grid -->
+    <div class="give-strip" aria-hidden="true">
+      <p class="give-word">GIVE</p>
+    </div>
+
+    <!-- IMPACT GRID -->
+    <section id="donate-section-2" data-section-type="feature_grid" class="section impact-grid-section">
+      <div class="header-block reveal-block">
+        <p class="eyebrow">What Your Gift Provides</p>
+        <h2 class="section-headline" style="margin-top:8px">Every Amount Has a Direct Impact</h2>
+      </div>
+
+      <div class="impact-grid" data-stagger>
+        <article class="impact-card stagger-child">
+          <p class="impact-amount">$25</p>
+          <p class="impact-title">— One Week of Food</p>
+          <div class="impact-divider"></div>
+          <p>Covers a full week of nutritionally appropriate food for one animal in our care.</p>
+        </article>
+
+        <article class="impact-card stagger-child">
+          <p class="impact-amount">$75</p>
+          <p class="impact-title">— Vaccination &amp; Microchip</p>
+          <div class="impact-divider"></div>
+          <p>Funds a complete vaccination course and microchipping for one animal before adoption.</p>
+        </article>
+
+        <article class="impact-card stagger-child">
+          <p class="impact-amount">$150</p>
+          <p class="impact-title">— Emergency Veterinary Visit</p>
+          <div class="impact-divider"></div>
+          <p>Covers the cost of an emergency intake exam and initial treatment for a newly rescued animal.</p>
+        </article>
+
+        <article class="impact-card stagger-child">
+          <p class="impact-amount">$500</p>
+          <p class="impact-title">— Monthly Shelter Operations</p>
+          <div class="impact-divider"></div>
+          <p>Contributes to one month of utilities, cleaning supplies, and facility maintenance for the shelter.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DONATION FORM -->
+    <section id="donate-section-3" data-section-type="contact_block" class="section donate-form-section">
+      <div class="container reveal-block">
+        <div class="copy-side">
+          <p class="eyebrow">Give Today</p>
+          <h2>Make Your Contribution</h2>
+          <p class="form-sub">Choose a one-time or monthly gift. All donations are tax-deductible. You will receive a receipt by email.</p>
+          <div class="form-legal">
+            Haven &amp; Paw is a registered 501(c)(3) nonprofit organization. Tax ID available upon request. For questions about major gifts, planned giving, or in-kind donations, contact our development team directly.
+          </div>
+        </div>
+
+        <form class="donate-form" onsubmit="return false;">
+          <div class="frequency-toggle" role="group" aria-label="Donation frequency">
+            <button type="button" class="active">One-Time</button>
+            <button type="button">Monthly</button>
+          </div>
+
+          <div class="amount-grid" role="group" aria-label="Donation amount">
+            <button type="button" class="amount-btn">$25</button>
+            <button type="button" class="amount-btn active">$75</button>
+            <button type="button" class="amount-btn">$150</button>
+            <button type="button" class="amount-btn">$500</button>
+            <button type="button" class="amount-btn">Other</button>
+          </div>
+
+          <div class="field">
+            <label for="donor-name">Full Name</label>
+            <input id="donor-name" type="text" placeholder="Your full name" autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="donor-email">Email Address</label>
+            <input id="donor-email" type="email" placeholder="you@example.com" autocomplete="email" />
+          </div>
+
+          <button type="submit" class="btn-donate">Donate Now</button>
+          <a href="partners.html" class="secondary-link">Learn About Our Partners</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="6.5" cy="8.5" r="2.2"/><circle cx="12" cy="6" r="2.4"/><circle cx="17.5" cy="8.5" r="2.2"/><circle cx="4" cy="13.5" r="1.8"/><circle cx="20" cy="13.5" r="1.8"/><path d="M12 11c-3.5 0-6.5 2.5-6.5 5.5C5.5 19 7.5 20.5 9.5 20.5c1 0 1.7-.4 2.5-.4s1.5.4 2.5.4c2 0 4-1.5 4-4C18.5 13.5 15.5 11 12 11z"/></svg>
+          </span>
+          Haven &amp; Paw
+        </a>
+        <p>A community-funded animal rescue shelter operating with transparency, accountability, and civic care for every animal that needs us.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Mission</h4>
+        <ul>
+          <li><a href="campaign.html">Adoption</a></li>
+          <li><a href="data.html">Impact Data</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit</h4>
+        <ul>
+          <li>418 Civic Way</li>
+          <li>Open Daily 9am – 6pm</li>
+          <li>(555) 014-2900</li>
+          <li>contact@havenandpaw.org</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Annual Report</a></li>
+          <li><a href="#">Adoption Guide</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <span>© 2026 Haven &amp; Paw · 501(c)(3) Nonprofit</span>
+      <span>Civic Tax ID 84-2914006</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

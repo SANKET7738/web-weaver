@@ -1,0 +1,421 @@
+{
+  "valid": false,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": false
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 1
+  },
+  "failures": [
+    "stockists desktop has horizontal overflow"
+  ],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lava Mouth — Small-batch hot sauce with real fire",
+            "bodyTextLength": 2310,
+            "scrollHeight": 4710,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 782.625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 1169.875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 579.671875,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 664.15625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "story.html",
+              "products.html",
+              "products.html",
+              "stockists.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Products — Lava Mouth Small-Batch Hot Sauces",
+            "bodyTextLength": 3581,
+            "scrollHeight": 5021,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "products-section-1",
+                "width": 1440,
+                "height": 539.6875,
+                "visible": true
+              },
+              {
+                "id": "products-section-2",
+                "width": 1440,
+                "height": 1296.890625,
+                "visible": true
+              },
+              {
+                "id": "products-section-3",
+                "width": 1440,
+                "height": 1318.953125,
+                "visible": true
+              },
+              {
+                "id": "products-section-4",
+                "width": 1440,
+                "height": 749.25,
+                "visible": true
+              },
+              {
+                "id": "products-section-5",
+                "width": 1440,
+                "height": 609.28125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "stockists.html",
+              "stockists.html",
+              "contact.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Story — Lava Mouth Hot Sauce",
+            "bodyTextLength": 3600,
+            "scrollHeight": 5803,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "story-section-1",
+                "width": 1440,
+                "height": 900,
+                "visible": true
+              },
+              {
+                "id": "story-section-2",
+                "width": 1440,
+                "height": 999.859375,
+                "visible": true
+              },
+              {
+                "id": "story-section-3",
+                "width": 1440,
+                "height": 1710.09375,
+                "visible": true
+              },
+              {
+                "id": "story-section-4",
+                "width": 1440,
+                "height": 1205.15625,
+                "visible": true
+              },
+              {
+                "id": "story-section-5",
+                "width": 1440,
+                "height": 543.28125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "products.html",
+              "stockists.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "stockists",
+      "route": "/stockists.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Stockists — Find Lava Mouth Near You",
+            "bodyTextLength": 2721,
+            "scrollHeight": 4433,
+            "scrollWidth": 2880,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "stockists-section-1",
+                "width": 1440,
+                "height": 800,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-2",
+                "width": 1440,
+                "height": 1069.84375,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-3",
+                "width": 1440,
+                "height": 768.859375,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-4",
+                "width": 1440,
+                "height": 574.6875,
+                "visible": true
+              },
+              {
+                "id": "stockists-section-5",
+                "width": 1440,
+                "height": 775.65625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Lava Mouth Hot Sauce",
+            "bodyTextLength": 3034,
+            "scrollHeight": 4238,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 539.453125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 911.25,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 1011.65625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 700.96875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 630.96875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html",
+              "mailto:wholesale@lavamouthsauce.com",
+              "mailto:press@lavamouthsauce.com",
+              "mailto:collabs@lavamouthsauce.com",
+              "mailto:hello@lavamouthsauce.com",
+              "stockists.html",
+              "index.html",
+              "products.html",
+              "story.html",
+              "stockists.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

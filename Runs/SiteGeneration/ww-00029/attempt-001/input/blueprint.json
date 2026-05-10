@@ -1,0 +1,471 @@
+{
+  "id": "ww-00029",
+  "version": "0.1",
+  "concept_id": "ww-00029",
+  "identity": {
+    "name": "IronPop Gym",
+    "tagline": "Lift Bold. Live Loud.",
+    "one_line_description": "IronPop Gym is a strength training gym with a bold, energetic personality that helps everyday people build serious muscle through structured programs, expert coaching, and a community that celebrates every rep.",
+    "domain": "wellness_fitness",
+    "subdomain": "strength training gym",
+    "voice": [
+      "bold",
+      "playful",
+      "energetic",
+      "direct",
+      "motivating"
+    ],
+    "target_audience": "Adults aged 18\u201340 who are new to or progressing in strength training, want structured programming over random workouts, and are drawn to a gym culture that is fun, loud, and unapologetically motivating."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Instantly communicate IronPop's bold identity, make visitors feel the energy of the gym, and push them toward exploring programs or booking a first session.",
+      "meta_description": "IronPop Gym \u2014 a strength training gym where bold programming, expert coaching, and a wildly fun community help you lift more and live louder.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Grab attention immediately with IronPop's loud personality and make the core value proposition crystal clear: this is a strength gym that is both serious about results and genuinely fun.",
+          "eyebrow": "Strength Training, Reimagined",
+          "headline": "Lift Bold. Live Loud.",
+          "subheadline": "IronPop is the strength gym for people who want real results without taking themselves too seriously. Pick up heavy things. Make friends. Repeat.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "See Our Programs",
+              "target_page": "programs"
+            },
+            {
+              "label": "Book a Free Session",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Quickly communicate the three pillars that make IronPop different from a generic big-box gym, giving visitors a reason to stay and explore.",
+          "eyebrow": "Why IronPop",
+          "headline": "We're Not Your Average Gym",
+          "subheadline": "Three things that make members stay, lift, and come back for more.",
+          "body": null,
+          "items": [
+            {
+              "title": "Structured Strength Programs",
+              "description": "No guesswork. Every session follows a proven strength plan \u2014 from beginner barbell basics to advanced powerlifting blocks.",
+              "metadata": {}
+            },
+            {
+              "title": "Coaches Who Actually Coach",
+              "description": "Our trainers are on the floor, not behind a desk. They watch your form, adjust your load, and celebrate your PRs like it's their own.",
+              "metadata": {}
+            },
+            {
+              "title": "A Community That Hypes You Up",
+              "description": "Whether it's your first deadlift or your hundredth, the IronPop crew is loud, supportive, and genuinely excited for your wins.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Close the home page with a punchy, low-friction invitation to take the first step, converting interest into a booked session.",
+          "eyebrow": "Ready to Start?",
+          "headline": "Your First Session Is On Us",
+          "subheadline": "Come lift with us for free. No commitment, no awkward sales pitch \u2014 just a great workout and a community worth joining.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book My Free Session",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "programs",
+      "title": "Programs",
+      "role": "overview",
+      "goal": "Give visitors a clear, exciting overview of all training programs offered at IronPop so they can find the right fit and feel confident signing up.",
+      "meta_description": "Explore IronPop Gym's strength training programs \u2014 from beginner barbell fundamentals to powerlifting prep, there's a program built for every level.",
+      "sections": [
+        {
+          "id": "programs-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the Programs page and reassure visitors that whatever their level, there is a program designed for them.",
+          "eyebrow": "Training Programs",
+          "headline": "Find Your Program. Own Your Lift.",
+          "subheadline": "Every IronPop program is built around progressive overload, expert coaching, and a whole lot of fun. Pick your level and let's go.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "programs-section-2",
+          "type": "item_grid",
+          "intent": "Present each training program as its own card with enough detail for visitors to self-select the right fit, driving them toward booking.",
+          "eyebrow": "All Programs",
+          "headline": "Six Programs. One Goal: Getting Stronger.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Barbell Basics",
+              "description": "The perfect starting point. Learn the squat, deadlift, bench, and overhead press with hands-on coaching in a small group setting. 8-week cycle.",
+              "metadata": {
+                "level": "Beginner",
+                "duration": "8 weeks",
+                "sessions_per_week": "3x"
+              }
+            },
+            {
+              "title": "Iron Foundation",
+              "description": "Build a complete strength base with compound lifts, accessory work, and mobility drills. Designed for those past the basics and ready to load up.",
+              "metadata": {
+                "level": "Intermediate",
+                "duration": "12 weeks",
+                "sessions_per_week": "4x"
+              }
+            },
+            {
+              "title": "Pop Powerlifting",
+              "description": "A full powerlifting block with periodized programming, competition prep options, and weekly technique reviews. Squat. Bench. Deadlift. Dominate.",
+              "metadata": {
+                "level": "Advanced",
+                "duration": "16 weeks",
+                "sessions_per_week": "4\u20135x"
+              }
+            },
+            {
+              "title": "Strength & Conditioning",
+              "description": "Combines heavy lifting with conditioning circuits for members who want to be strong and athletic. High energy, high output.",
+              "metadata": {
+                "level": "Intermediate",
+                "duration": "10 weeks",
+                "sessions_per_week": "4x"
+              }
+            },
+            {
+              "title": "Open Barbell Club",
+              "description": "Drop-in strength sessions with a coach on the floor. No fixed program \u2014 just structured open lifting time for members who know what they're doing.",
+              "metadata": {
+                "level": "All Levels",
+                "duration": "Ongoing",
+                "sessions_per_week": "Flexible"
+              }
+            },
+            {
+              "title": "1-on-1 Coaching",
+              "description": "Fully personalized programming and coaching tailored to your goals, schedule, and body. The fastest path to your strongest self.",
+              "metadata": {
+                "level": "All Levels",
+                "duration": "Custom",
+                "sessions_per_week": "Custom"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Book a Free Intro Session",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "programs-section-3",
+          "type": "cta",
+          "intent": "Encourage visitors who are still deciding to take a low-risk first step by booking a free intro session rather than committing to a full program upfront.",
+          "eyebrow": "Not Sure Where to Start?",
+          "headline": "Let a Coach Point You in the Right Direction",
+          "subheadline": "Book a free 30-minute intro session and we'll match you with the right program for your goals, experience, and schedule.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book My Free Intro",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing",
+      "role": "conversion",
+      "goal": "Present membership and program pricing in a clear, confident way that removes hesitation and motivates visitors to commit.",
+      "meta_description": "IronPop Gym membership and program pricing \u2014 transparent plans for every budget, with no hidden fees and a free first session to get you started.",
+      "sections": [
+        {
+          "id": "pricing-section-1",
+          "type": "page_header",
+          "intent": "Frame pricing as a straightforward, honest conversation \u2014 no tricks, no fine print \u2014 to build trust before visitors see the numbers.",
+          "eyebrow": "Membership & Pricing",
+          "headline": "Straight-Up Pricing. Zero Nonsense.",
+          "subheadline": "Pick the plan that fits your life. Every membership includes access to coached sessions, open gym, and the loudest community in town.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "pricing-section-2",
+          "type": "pricing",
+          "intent": "Display the three membership tiers clearly so visitors can quickly compare options and choose the one that matches their goals and budget.",
+          "eyebrow": "Membership Plans",
+          "headline": "Three Plans. All Gains.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Pop Starter",
+              "description": "Perfect for beginners or those testing the waters. Includes 2 coached group sessions per week, open gym access, and access to the IronPop app.",
+              "metadata": {
+                "price": "$69/month",
+                "best_for": "Beginners",
+                "highlight": ""
+              }
+            },
+            {
+              "title": "Iron Member",
+              "description": "Our most popular plan. Unlimited group sessions, open gym access, monthly program check-ins, and priority booking for specialty workshops.",
+              "metadata": {
+                "price": "$109/month",
+                "best_for": "Regular lifters",
+                "highlight": "Most Popular"
+              }
+            },
+            {
+              "title": "Elite Lifter",
+              "description": "Everything in Iron Member plus two 1-on-1 coaching sessions per month, personalized programming, and nutrition guidance from our certified coaches.",
+              "metadata": {
+                "price": "$189/month",
+                "best_for": "Serious athletes",
+                "highlight": "Best Results"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Start With a Free Session",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "pricing-section-3",
+          "type": "faq",
+          "intent": "Address the most common pricing objections and questions to reduce friction and give visitors the confidence to sign up.",
+          "eyebrow": "Common Questions",
+          "headline": "Got Questions? We've Got Answers.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Is there a joining fee?",
+              "description": "Nope. No joining fee, no setup fee, no surprises. You pay your monthly rate and that's it.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I freeze or cancel my membership?",
+              "description": "Yes. You can freeze your membership for up to 2 months per year and cancel with 30 days' notice \u2014 no questions asked.",
+              "metadata": {}
+            },
+            {
+              "title": "Do programs cost extra?",
+              "description": "Structured programs like Barbell Basics and Pop Powerlifting are included in all memberships. 1-on-1 coaching is available as an add-on or included in the Elite Lifter plan.",
+              "metadata": {}
+            },
+            {
+              "title": "What does the free session include?",
+              "description": "A 45-minute coached session, a tour of the gym, and a quick goal-setting chat with one of our coaches. No sales pressure \u2014 just lifting.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "stories",
+      "title": "Stories",
+      "role": "editorial",
+      "goal": "Build trust and emotional connection by showcasing real member transformation stories, making prospective members see themselves in the IronPop community.",
+      "meta_description": "Real stories from real IronPop members \u2014 read how everyday people built strength, confidence, and community at IronPop Gym.",
+      "sections": [
+        {
+          "id": "stories-section-1",
+          "type": "page_header",
+          "intent": "Set an inspiring, celebratory tone for the Stories page that signals these are real people with real results, not polished marketing fluff.",
+          "eyebrow": "Member Stories",
+          "headline": "Real People. Real Reps. Real Results.",
+          "subheadline": "Every member at IronPop has a story worth telling. Here are a few of our favorites.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stories-section-2",
+          "type": "testimonial",
+          "intent": "Feature a standout member testimonial as the anchor story on the page to immediately establish credibility and emotional resonance.",
+          "eyebrow": "Member Spotlight",
+          "headline": "\"IronPop Didn't Just Change My Body \u2014 It Changed How I See Myself.\"",
+          "subheadline": "\u2014 Maya R., Iron Member for 14 months",
+          "body": "Maya walked in knowing nothing about barbells and left her first session hooked. Fourteen months later, she's deadlifting twice her bodyweight, coaching newer members through their first lifts, and says IronPop is the first gym she's ever actually looked forward to going to.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "stories-section-3",
+          "type": "item_grid",
+          "intent": "Show a variety of member stories across different backgrounds, goals, and programs to help every type of visitor find someone they relate to.",
+          "eyebrow": "More Member Stories",
+          "headline": "Every Lift Has a Story Behind It",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "From Couch to Competition \u2014 Jordan T.",
+              "description": "Jordan joined IronPop with zero gym experience and 18 months later competed in his first local powerlifting meet. His secret? Showing up three times a week and trusting the program.",
+              "metadata": {
+                "program": "Barbell Basics \u2192 Pop Powerlifting",
+                "member_since": "2022"
+              }
+            },
+            {
+              "title": "Strength After 40 \u2014 Sandra K.",
+              "description": "Sandra was told she was 'too old' to start lifting. She proved everyone wrong. Now 44, she's the strongest she's ever been and leads our Wednesday morning Open Barbell Club.",
+              "metadata": {
+                "program": "Iron Foundation",
+                "member_since": "2023"
+              }
+            },
+            {
+              "title": "Building Confidence, One Rep at a Time \u2014 Carlos M.",
+              "description": "Carlos struggled with gym anxiety for years. The small group format and supportive coaches at IronPop made him feel safe enough to push his limits for the first time.",
+              "metadata": {
+                "program": "Barbell Basics",
+                "member_since": "2023"
+              }
+            },
+            {
+              "title": "An Athlete Rediscovered \u2014 Priya N.",
+              "description": "A former college sprinter who had drifted from fitness for a decade, Priya found her competitive edge again through IronPop's Strength & Conditioning program.",
+              "metadata": {
+                "program": "Strength & Conditioning",
+                "member_since": "2022"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Start Your Story \u2014 Book a Free Session",
+              "target_page": "book"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "title": "Book",
+      "role": "conversion",
+      "goal": "Convert interested visitors into booked sessions with a frictionless, reassuring booking experience that reinforces IronPop's welcoming personality.",
+      "meta_description": "Book your free intro session at IronPop Gym \u2014 no commitment, no pressure, just a great workout and a community ready to welcome you.",
+      "sections": [
+        {
+          "id": "book-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors to the booking page with energy and reassurance, making the act of booking feel exciting rather than intimidating.",
+          "eyebrow": "Book a Session",
+          "headline": "Your First Rep Starts Here",
+          "subheadline": "Book your free 45-minute intro session. Show up, lift something, and see what all the noise is about.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "book-section-2",
+          "type": "contact_block",
+          "intent": "Provide the actual booking form along with key session details so visitors have everything they need to commit and show up.",
+          "eyebrow": "Reserve Your Spot",
+          "headline": "Pick a Time That Works for You",
+          "subheadline": "Sessions run Monday through Saturday. All fitness levels welcome \u2014 seriously, all of them.",
+          "body": "Fill out the form below and one of our coaches will confirm your session within a few hours. Come ready to move and we'll handle the rest.",
+          "items": [
+            {
+              "title": "What to Bring",
+              "description": "Comfortable workout clothes, a water bottle, and an open mind. We provide all the equipment.",
+              "metadata": {}
+            },
+            {
+              "title": "What to Expect",
+              "description": "A warm welcome, a quick goals chat, a coached group warm-up, your first strength session, and a cool-down. 45 minutes total.",
+              "metadata": {}
+            },
+            {
+              "title": "Where to Find Us",
+              "description": "IronPop Gym, 214 Kettlebell Lane, Unit 4. Free parking on-site. Look for the big yellow sign.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Submit My Booking",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "book-section-3",
+          "type": "cta",
+          "intent": "Offer an alternative path for visitors who are not ready to book but want to learn more, keeping them engaged with the site.",
+          "eyebrow": "Not Quite Ready?",
+          "headline": "Explore Programs First, Book When You're Ready",
+          "subheadline": "Take a look at what we offer, read some member stories, and come back when the time is right. We'll be here \u2014 probably deadlifting.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Browse Programs",
+              "target_page": "programs"
+            },
+            {
+              "label": "Read Member Stories",
+              "target_page": "stories"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

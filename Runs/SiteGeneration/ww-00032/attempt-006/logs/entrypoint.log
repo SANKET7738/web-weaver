@@ -1,0 +1,13 @@
+[2026-05-10T22:09:50+00:00] Starting Claude Code with framework=solid_tailwind and timeout 1800 seconds
+[2026-05-10T22:25:07+00:00] Claude exited with code 0
+[2026-05-10T22:25:07+00:00] Started static server on 0.0.0.0:3000 with PID 1181
+[2026-05-10T22:25:07+00:00] Running site generation sanity check
+[2026-05-10T22:25:07+00:00] Sanity check exited with code 2
+[2026-05-10T22:25:07+00:00] Running Playwright browser sanity check
+[2026-05-10T22:25:08+00:00] Playwright sanity check exited with code 0
+[2026-05-10T22:25:08+00:00] Capturing viewport screenshot slices
+[2026-05-10T22:25:18+00:00] Screenshot capture exited with code 0
+[2026-05-10T22:25:18+00:00] Capturing screen recordings
+[2026-05-10T22:26:29+00:00] Screen recording capture exited with code 0
+[2026-05-10T22:26:29+00:00] Skipping Harbor assembly because one or more validations failed
+[2026-05-10T22:26:29+00:00] Site generation pipeline complete; exiting

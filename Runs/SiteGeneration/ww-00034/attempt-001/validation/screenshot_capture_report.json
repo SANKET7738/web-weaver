@@ -1,0 +1,265 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 21,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3534,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2534,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 332867
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "classes",
+      "route": "/classes.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3977,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "classes/classes_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "classes/classes_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "classes/classes_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2977,
+          "path": "classes/classes_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "classes/classes_full.png",
+        "bytes": 313598
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3240,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "schedule/schedule_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "schedule/schedule_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "schedule/schedule_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2240,
+          "path": "schedule/schedule_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "schedule/schedule_full.png",
+        "bytes": 303406
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "instructors",
+      "route": "/instructors.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3528,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "instructors/instructors_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "instructors/instructors_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "instructors/instructors_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2528,
+          "path": "instructors/instructors_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "instructors/instructors_full.png",
+        "bytes": 369858
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "pricing",
+      "route": "/pricing.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4185,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "pricing/pricing_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "pricing/pricing_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "pricing/pricing_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "pricing/pricing_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3185,
+          "path": "pricing/pricing_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "pricing/pricing_full.png",
+        "bytes": 336880
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

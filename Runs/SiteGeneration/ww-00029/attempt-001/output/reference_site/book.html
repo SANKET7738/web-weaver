@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book — IronPop Gym</title>
+<meta name="description" content="Book your free intro session at IronPop Gym — no commitment, no pressure, just a great workout and a community ready to welcome you." />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23FF4D4D'/%3E%3Ctext x='50' y='62' font-family='Fredoka One, sans-serif' font-size='44' fill='%23FFF' text-anchor='middle'%3EIP%3C/text%3E%3C/svg%3E" />
+</head>
+<body data-page-slug="book">
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="index.html" class="brand" aria-label="IronPop Gym home">
+      <span class="brand__mark">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10h2V8h2v2h2v-2h2V6h2v12h-2v-2H9v2H7v-2H5v2H3v-2H1v-4h2v-2zM21 10h-2V8h-2v2h-2v-2h-2V6h-2v12h2v-2h2v2h2v-2h2v2h2v-4h-2v-2z" fill="#FFF"/>
+        </svg>
+      </span>
+      <span>IronPop</span>
+    </a>
+    <nav aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation"><span></span></button>
+      <ul class="nav__list" id="primary-nav">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="programs.html">Programs</a></li>
+        <li><a class="nav__link" href="pricing.html">Pricing</a></li>
+        <li><a class="nav__link" href="stories.html">Stories</a></li>
+        <li><a class="nav__cta" href="book.html">Book Free</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- PAGE HEADER -->
+  <section id="book-section-1" data-section-type="page_header" class="book-header">
+    <div class="book-header__cream">
+      <span class="eyebrow with-rule">Book a Session</span>
+      <p>Book your free 45-minute intro session. Show up, lift something, and see what all the noise is about.</p>
+    </div>
+    <div class="book-header__coral">
+      <h1>
+        <span class="l1">Your First</span>
+        <span class="l2">Rep</span>
+        <span class="l3">Starts Here</span>
+      </h1>
+    </div>
+    <div class="book-header__decor" aria-hidden="true">
+      <span class="circ"></span>
+      <span class="tri"></span>
+      <svg class="sq1" viewBox="0 0 200 80">
+        <path d="M5 40 C 35 5, 65 75, 100 40 S 165 10, 195 40" fill="none" stroke="#FFB085" stroke-width="6" stroke-linecap="round"/>
+      </svg>
+      <svg class="sq2" viewBox="0 0 120 50">
+        <path d="M5 25 C 20 5, 50 45, 70 25 S 110 10, 115 30" fill="none" stroke="#FFB085" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- BOOKING FORM -->
+  <section id="book-section-2" data-section-type="contact_block" class="booking-section">
+    <div class="booking-section__inner">
+      <div class="booking-form">
+        <span class="booking-form__sticker" aria-hidden="true"></span>
+        <span class="eyebrow with-rule">Reserve Your Spot</span>
+        <h2>Pick a Time That Works for You</h2>
+        <p class="sub">Sessions run Monday through Saturday. All fitness levels welcome — seriously, all of them.</p>
+        <p class="body">Fill out the form below and one of our coaches will confirm your session within a few hours. Come ready to move and we'll handle the rest.</p>
+
+        <form onsubmit="event.preventDefault(); this.querySelector('button[type=submit]').textContent='Booking received! ✓'; this.querySelector('button[type=submit]').disabled=true;" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="full-name">Full name</label>
+              <input id="full-name" type="text" placeholder="Sandra K." required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@email.com" required />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="phone">Phone <span style="font-family:var(--f-body); font-size:13px; opacity:0.6;">(optional)</span></label>
+              <input id="phone" type="tel" placeholder="(555) 123-4567" />
+            </div>
+            <div class="field">
+              <label for="time">Preferred time</label>
+              <select id="time">
+                <option>Early morning (6–9am)</option>
+                <option>Mid-morning (9am–12pm)</option>
+                <option>Lunchtime (12–2pm)</option>
+                <option>Afternoon (2–5pm)</option>
+                <option>Evening (5–8pm)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-grid form-grid--full">
+            <div class="field">
+              <label>Pick a day</label>
+              <div class="day-pills">
+                <label><input type="radio" name="day" value="Mon"><span>Mon</span></label>
+                <label><input type="radio" name="day" value="Tue"><span>Tue</span></label>
+                <label><input type="radio" name="day" value="Wed" checked><span>Wed</span></label>
+                <label><input type="radio" name="day" value="Thu"><span>Thu</span></label>
+                <label><input type="radio" name="day" value="Fri"><span>Fri</span></label>
+                <label><input type="radio" name="day" value="Sat"><span>Sat</span></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-grid form-grid--full">
+            <div class="field">
+              <label for="notes">Anything we should know?</label>
+              <textarea id="notes" rows="3" placeholder="Goals, injuries, prior experience..."></textarea>
+            </div>
+          </div>
+
+          <button class="btn btn--block" type="submit" style="margin-top:24px;">Submit My Booking</button>
+        </form>
+      </div>
+
+      <aside class="booking-info">
+        <div class="booking-info__star" aria-hidden="true"></div>
+        <div class="booking-info__list">
+          <div class="booking-info__item">
+            <h3>What to Bring</h3>
+            <p>Comfortable workout clothes, a water bottle, and an open mind. We provide all the equipment.</p>
+          </div>
+          <div class="booking-info__item">
+            <h3>What to Expect</h3>
+            <p>A warm welcome, a quick goals chat, a coached group warm-up, your first strength session, and a cool-down. 45 minutes total.</p>
+          </div>
+          <div class="booking-info__item">
+            <h3>Where to Find Us</h3>
+            <p>IronPop Gym, 214 Kettlebell Lane, Unit 4. Free parking on-site. Look for the big yellow sign.</p>
+          </div>
+        </div>
+        <svg class="booking-info__squiggle" viewBox="0 0 120 80" aria-hidden="true">
+          <path d="M5 60 C 25 20, 50 80, 75 50 S 115 10, 115 70" fill="none" stroke="#FFB085" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FALLBACK CTA -->
+  <section id="book-section-3" data-section-type="cta" class="book-cta">
+    <div class="book-cta__inner">
+      <div class="book-cta__content">
+        <span class="eyebrow with-rule">Not Quite Ready?</span>
+        <h2>Explore Programs First, Book When You're Ready</h2>
+        <p>Take a look at what we offer, read some member stories, and come back when the time is right. We'll be here — <span class="em">probably deadlifting.</span></p>
+        <div class="book-cta__buttons">
+          <a class="btn btn--rect btn--yellow" href="programs.html">Browse Programs</a>
+          <a class="btn btn--outline-light" href="stories.html">Read Member Stories</a>
+        </div>
+      </div>
+      <div class="book-cta__decor" aria-hidden="true">
+        <span class="c1"></span>
+        <span class="c2"></span>
+        <span class="c3"></span>
+        <svg viewBox="0 0 200 60">
+          <path d="M5 40 C 25 5, 50 60, 75 30 S 130 5, 155 40 S 195 10, 195 35" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <svg class="site-footer__bg" viewBox="0 0 800 300" preserveAspectRatio="none" aria-hidden="true">
+    <circle cx="120" cy="80"  r="50" fill="#FF4D4D"/>
+    <circle cx="650" cy="220" r="80" fill="#00C2B2"/>
+    <rect x="380" y="50" width="80" height="80" fill="#FFD600" transform="rotate(15 420 90)"/>
+  </svg>
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <span class="tagline">Lift Bold. Live Loud.</span>
+        <h3>IronPop Gym</h3>
+        <p>Structured strength training, expert coaching, and the loudest community in town.</p>
+      </div>
+      <div>
+        <h4>Train</h4>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="book.html">Book a Session</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Discover</h4>
+        <ul>
+          <li><a href="stories.html">Member Stories</a></li>
+          <li><a href="index.html">Why IronPop</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>214 Kettlebell Lane</li>
+          <li>Unit 4</li>
+          <li>Mon–Sat • 5am–10pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© IronPop Gym — All gains reserved.</span>
+      <div class="socials" aria-label="Social media">
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M14 4v9.5a3 3 0 1 1-3-3"/><path d="M14 4c0 2.5 2 4.5 4.5 4.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7zm7 2v6l5-3-5-3z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 18,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2805,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1805,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 284681
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "experience",
+      "route": "/experience.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2854,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "experience/experience_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "experience/experience_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1854,
+          "path": "experience/experience_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "experience/experience_full.png",
+        "bytes": 268954
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "lineup",
+      "route": "/lineup.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3092,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "lineup/lineup_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "lineup/lineup_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "lineup/lineup_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2092,
+          "path": "lineup/lineup_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "lineup/lineup_full.png",
+        "bytes": 255016
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "map",
+      "route": "/map.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3579,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "map/map_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "map/map_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "map/map_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2579,
+          "path": "map/map_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "map/map_full.png",
+        "bytes": 309720
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "tickets",
+      "route": "/tickets.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3192,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "tickets/tickets_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "tickets/tickets_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "tickets/tickets_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2192,
+          "path": "tickets/tickets_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "tickets/tickets_full.png",
+        "bytes": 324483
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "nav",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Axiom Hotel</title>
+  <meta name="description" content="Contact Axiom Hotel to book a stay, request corporate rates, or connect with our concierge team. We respond within one business hour.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;900&family=IBM+Plex+Mono:wght@200;300;400;500&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+</head>
+<body data-page-slug="contact">
+
+  <header class="site-nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand" aria-label="Axiom Hotel home">
+        <img class="brand-mark" src="assets/logo.svg" alt="">
+        <span>Axiom</span>
+        <span class="brand-tag">Hotel · NY</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="accommodations.html">Accommodations</a>
+        <a href="offers.html">Offers</a>
+        <a href="journal.html">Journal</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="contact.html" class="nav-cta">Book Stay</a>
+      <span class="nav-toggle" aria-hidden="true">Menu</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========================== PAGE HEADER ========================== -->
+    <section id="contact-section-1" data-section-type="page_header" class="page-header">
+      <div class="page-header-pattern" aria-hidden="true">
+        <img src="assets/node-graph-soft.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="page-header-content">
+          <span class="eyebrow eyebrow--rule">Get in Touch</span>
+          <h1 class="h-display">
+            We're <span class="text-grad">Ready</span><br>
+            When You Are
+          </h1>
+          <p class="subhead">Whether you're booking for yourself or your entire team, our concierge team responds within one business hour.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== CONTACT BLOCK ========================== -->
+    <section id="contact-section-2" data-section-type="contact_block" class="contact-section">
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--rule">Reach the Axiom Team</span>
+          <h2 class="h-2">Start Your Inquiry</h2>
+          <p class="lead-body" style="margin-top:18px;">Fill in your details below and a member of our concierge team will respond within one business hour. For urgent requests, call us directly or use our live chat.</p>
+        </header>
+
+        <div class="contact-grid">
+
+          <aside class="channel-stack" aria-label="Contact channels">
+            <div class="channel-card">
+              <div class="channel-title">Reservations</div>
+              <p class="channel-desc">For room bookings, package inquiries, and availability checks.</p>
+              <div class="channel-meta">
+                <div class="channel-row"><span class="channel-key">Email —</span><span class="channel-value">reservations@axiomhotel.com</span></div>
+                <div class="channel-row"><span class="channel-key">Phone —</span><span class="channel-value">+1 (800) 294-0011</span></div>
+              </div>
+            </div>
+
+            <div class="channel-card">
+              <div class="channel-title">Corporate Accounts</div>
+              <p class="channel-desc">For companies seeking Alliance rates, invoicing, or multi-traveler agreements.</p>
+              <div class="channel-meta">
+                <div class="channel-row"><span class="channel-key">Email —</span><span class="channel-value">corporate@axiomhotel.com</span></div>
+              </div>
+            </div>
+
+            <div class="channel-card">
+              <div class="channel-title">Concierge</div>
+              <p class="channel-desc">For in-stay requests, special arrangements, or anything else your stay requires.</p>
+              <div class="channel-meta">
+                <div class="channel-row"><span class="channel-key">Phone —</span><span class="channel-value">+1 (800) 294-0022</span></div>
+                <div class="channel-row"><span class="channel-key">Hours —</span><span class="channel-value">24 hours, 7 days</span></div>
+              </div>
+            </div>
+          </aside>
+
+          <form class="form-terminal" aria-label="Inquiry form" onsubmit="event.preventDefault(); this.querySelector('.form-submit').textContent='Inquiry Sent — We\\'ll Be In Touch';">
+            <div class="form-fields">
+              <div class="field--row">
+                <div class="field">
+                  <label for="f-name">Full Name</label>
+                  <input id="f-name" type="text" placeholder="Alex Petrov" autocomplete="name">
+                </div>
+                <div class="field">
+                  <label for="f-company">Company</label>
+                  <input id="f-company" type="text" placeholder="Northbeam Capital" autocomplete="organization">
+                </div>
+              </div>
+
+              <div class="field--row">
+                <div class="field">
+                  <label for="f-email">Email Address</label>
+                  <input id="f-email" type="email" placeholder="alex@northbeam.com" autocomplete="email">
+                </div>
+                <div class="field">
+                  <label for="f-phone">Phone (optional)</label>
+                  <input id="f-phone" type="tel" placeholder="+1 (212) 555-0142" autocomplete="tel">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="f-type">Inquiry Type</label>
+                <select id="f-type">
+                  <option>Reservation</option>
+                  <option>Corporate Account</option>
+                  <option>Concierge</option>
+                  <option>Other</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="f-msg">Message</label>
+                <textarea id="f-msg" rows="5" placeholder="Tell us what you need — dates, headcount, preferences."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="form-submit">Send Inquiry</button>
+            <p class="form-caption">We respond within one business hour. All data is handled securely.</p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== MAP BLOCK ========================== -->
+    <section id="contact-section-3" data-section-type="map_block" class="map-section">
+      <div class="map-band" aria-hidden="false">
+        <div class="map-svg">
+          <img src="assets/map.svg" alt="Stylized map of the financial district with Axiom Hotel marked at 14 Meridian Plaza">
+        </div>
+        <div class="map-overlay"></div>
+        <div class="map-pin">
+          <span class="pin-marker" aria-hidden="true"></span>
+          <div class="pin-label">
+            <span class="pin-label-id">Axiom Hotel</span>
+            <span class="pin-label-addr">14 Meridian Plaza, NY 10004</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <header class="section-head">
+          <span class="eyebrow eyebrow--rule">Find Us</span>
+          <h2 class="h-2">Positioned at the Center of Everything</h2>
+          <p class="subhead" style="margin-top:18px;">Located in the financial district, Axiom Hotel is minutes from the convention center, major transit lines, and the city's top corporate campuses.</p>
+        </header>
+
+        <div class="location-grid">
+          <div class="location-cell">
+            <span class="location-label">Address</span>
+            <p class="location-text">14 Meridian Plaza, Financial District, New York, NY 10004</p>
+          </div>
+          <div class="location-cell">
+            <span class="location-label">Nearest Transit</span>
+            <p class="location-text">2 minutes walk to Fulton Street Station (A, C, J, Z, 2, 3, 4, 5 lines). Direct AirTrain connection to JFK available.</p>
+          </div>
+          <div class="location-cell">
+            <span class="location-label">Parking</span>
+            <p class="location-text">Valet parking available 24 hours. Self-park garage on Meridian Lane with validated rates for Axiom guests.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img class="brand-mark" src="assets/logo.svg" alt="">
+            <span>Axiom</span>
+          </a>
+          <span class="footer-tagline">Precision · Comfort · Forward</span>
+          <p class="footer-blurb">A boutique business hotel for professionals who measure stays the way they measure outcomes.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Stay</h4>
+          <ul>
+            <li><a href="accommodations.html">Accommodations</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="contact.html">Book a Room</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <ul>
+            <li><a href="journal.html">The Journal</a></li>
+            <li><a href="contact.html">Concierge</a></li>
+            <li><a href="contact.html">Corporate Accounts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Reach Us</h4>
+          <ul>
+            <li>14 Meridian Plaza</li>
+            <li>New York, NY 10004</li>
+            <li>+1 (800) 294-0011</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Axiom Hotel · All rights reserved</span>
+        <span>Build · v0.1 · Engineered in NYC</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

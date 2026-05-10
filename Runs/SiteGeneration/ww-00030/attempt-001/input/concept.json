@@ -1,0 +1,19 @@
+{
+  "id": "ww-00030",
+  "version": "0.1",
+  "site_domain": "hospitality",
+  "site_subdomain": "boutique business hotel",
+  "design_aesthetic": "ai_lab",
+  "layout_family": "storytelling_scroll",
+  "page_set": [
+    "home",
+    "accommodations",
+    "offers",
+    "journal",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 9,
+  "source": "web-weaver.concept_sampler"
+}

@@ -1,0 +1,235 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 15,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2790,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1790,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 361379
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "accommodations",
+      "route": "/accommodations.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2927,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "accommodations/accommodations_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "accommodations/accommodations_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1927,
+          "path": "accommodations/accommodations_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "accommodations/accommodations_full.png",
+        "bytes": 610431
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "offers",
+      "route": "/offers.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2649,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "offers/offers_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "offers/offers_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1649,
+          "path": "offers/offers_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "offers/offers_full.png",
+        "bytes": 243526
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "journal",
+      "route": "/journal.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2476,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "journal/journal_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "journal/journal_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1476,
+          "path": "journal/journal_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "journal/journal_full.png",
+        "bytes": 175883
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2922,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1922,
+          "path": "contact/contact_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 226627
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}
