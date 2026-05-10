@@ -303,6 +303,62 @@ and `vlm_judge` correctly score this as "mostly right". For RL reward,
 this is the failure mode that matters — you don't want the reward to
 crash on a near-correct attempt because of a height mismatch.
 
+### Worked example: where sliced rates an attempt highest
+
+The highest-scoring page on `design2code_vlm_sliced` across the 12
+sites is **ww-00021 / page_01** — the homepage of a fictional board
+game café "Rollout". Same page, every grader:
+
+| grader | score |
+|---|---|
+| `clip_only` | 0.957 |
+| `vlm_judge` | 0.880 |
+| `design2code_vlm_sliced` | **0.796** ← highest sliced score in the corpus |
+| `design2code` v2 | 0.715 |
+| `waffle` | 0.643 |
+
+![ww-00021 page_01 — truth (left) vs Claude Code's render (right)](figures/ww-00021-page-01-side-by-side.png)
+
+Same exercise: eyeball the two screenshots. Same hero headline ("Your
+Next Favourite Game Night Is Waiting"), same dark-purple → cream
+hero, same "By the Numbers" stats row (500+, 12,000+, 4.9, 7 Days),
+same 4-card "More Than a Café" grid (Massive Game Library / Expert
+Game Guides / Café & Bar Menu / Private Event Rooms), same dark
+testimonials section with three quote cards, same yellow CTA, same
+footer. The only meaningful difference is the **hero illustration**:
+the truth has a detailed scene (board, dice, cards, meeples, coffee
+cup) and the agent has a simplified version (board + dice + cards,
+no meeples, no coffee cup, slightly different palette).
+
+A human would say "this is essentially correct, with one section
+slightly less detailed". `clip_only` (0.957), `vlm_judge` (0.880)
+and `design2code_vlm_sliced` (0.796) all land in the right
+neighborhood.
+
+**Why `waffle` still says 0.643:** the same `cw_ssim` failure mode
+shows up — `cw_ssim = 0.139` on this page (the heights only differ
+by 2.6%, but the wavelet metric is sensitive to even modest
+translation). On top of that, the page-level `block_match = 0.605`
+because the simplified hero illustration changes the bounding-box
+structure, which throws the global Hungarian matcher and cascades
+into `color = 0.499`, `text = 0.597`.
+
+**Why `design2code_vlm_sliced` lands at 0.796:** per-slice matching
+isolates the hero into its own viewport, where the matcher only
+needs to align "headline block + illustration block" rather than
+the whole page. That recovers `block_match` from 0.605 → 0.934.
+`text` recovers from 0.597 → 0.767 once the OCR'd content is paired
+correctly. Plus no `cw_ssim` to drag it down.
+
+**Take-away on the bright side:** sliced isn't *just* about avoiding
+waffle's failure modes. When the agent is genuinely close, sliced
+correctly says "0.8 — pretty good" while waffle still penalizes for
+~0.15. This is the exact behaviour you want from an RL reward: high
+when the attempt is close, lower when it's far. Compressed scores
+(`clip_only` saying 0.957 for a page that's ~80% right) and
+brittle-low scores (`waffle` saying 0.643) both fail this test in
+opposite directions; sliced threads the needle.
+
 ### What this means for picking a grader
 
 | Grader | Verdict |
