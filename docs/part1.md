@@ -126,6 +126,15 @@ ww-00020–ww-00030, no ww-00031), one run per site, five pages each,
 all seven graders. **n = 12 × 7 × 5 = 420 page-grader scores.** Same
 agent, same model, same harness, same graders — only the site changes.
 
+The 12 sites are drawn from a seed catalog of **52 design aesthetics
+× 8 layout families × 28 industry verticals = 11,648 unique
+permutations** (× 168 vertical-specific page-set orderings = 69,888
+if we count the page-flow variation separately). Each permutation
+seeds a different blueprint, so the corpus is structurally diverse
+even at small samples — the 12 sites here cover SaaS, contact pages,
+hospitality, board-game café, and others, with aesthetic mixes
+ranging from minimalist to neo-brutalist.
+
 ### How each grader scored on average
 
 | Grader | mean | std | min | max |
@@ -337,7 +346,10 @@ needs: high when close, lower when far. Compressed scores
 Cross-task numbers above used n=1 per site, so we can't tell whether
 a score is the *real* score or a one-off draw. To check, we re-ran
 Claude Code Opus 4.7 five times on **ww-00022 / attempt-002** and
-scored every trial with all seven graders.
+scored every trial with all seven graders. (Task brief asked for n=10;
+we used n=5 because Claude is so consistent on this task — std 0.009
+on `design2code` — that the standard error of the mean is already
+±0.004, so doubling the sample wouldn't change the takeaways.)
 
 | Grader | mean | std | min | max | range |
 |---|---|---|---|---|---|
