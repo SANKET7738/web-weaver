@@ -252,6 +252,57 @@ Position and CLIP are consistently high (0.95, 0.93) — Claude gets
 section *positions* and overall page *type* right. Where it fails is
 within-block fidelity, which v1 graders were blind to.
 
+### Worked example: where the graders disagree most
+
+The lowest-scoring page on `waffle` across the 12 sites is **ww-00022 /
+page_05** (a contact page from a fictional brand "BoltWorks"). Same
+page, scored by every grader:
+
+| grader | score |
+|---|---|
+| `waffle` | **0.551** ← lowest |
+| `design2code` v2 | 0.614 |
+| `design2code_vlm_sliced` | 0.654 |
+| `vlm_judge` | 0.860 |
+| `clip_only` | 0.914 |
+
+![ww-00022 page_05 — truth (left) vs Claude Code's render (right)](figures/ww-00022-page-05-side-by-side.png)
+
+**Truth (left)** vs **agent's render (right)**. Eyeball check: same
+hero headline, same yellow-and-red gradient form, same dark contact
+card on the right, same map illustration, same "things people usually
+ask us first" FAQ block, same yellow CTA, same footer. The agent's
+version differs in three small ways:
+
+- the map illustration has fewer nodes / a simpler track,
+- the FAQ items are numbered "01, 02, 03..." (the truth isn't),
+- the rendered page is ~16% taller (more vertical whitespace).
+
+A human looking at this would probably say "yes, same page, ~80%
+right". `vlm_judge` (0.860) and `clip_only` (0.914) agree.
+
+**Why `waffle` says 0.551:** the height mismatch wrecks `cw_ssim`
+(the wavelet metric collapses to 0.115 because every coefficient is
+at a shifted vertical position). On a tall multi-section page that
+also confuses the page-level `block_match` (0.455 — the matcher
+mismatches similar-looking dark cards across the page), which
+cascades into bad `block_ssim` (0.391), `color` (0.369), and `text`
+(0.462). Eight components, one of them in the floor (`cw_ssim`),
+others poisoned by upstream matching errors → mean 0.551.
+
+**Why `design2code_vlm_sliced` says 0.654:** no `cw_ssim` component
+at all, and the page is sliced into 1440×1000 viewports before
+matching. Each viewport in the agent is matched against the *same*
+viewport in the truth, so the matcher recovers — `block_match` jumps
+from 0.455 → 0.682, `text` from 0.462 → 0.628. The VLM rubric on
+the full image floats in another 0.840.
+
+**Take-away:** `waffle` over-punishes long pages where the agent
+rendered the right content slightly stretched. `design2code_vlm_sliced`
+and `vlm_judge` correctly score this as "mostly right". For RL reward,
+this is the failure mode that matters — you don't want the reward to
+crash on a near-correct attempt because of a height mismatch.
+
 ### What this means for picking a grader
 
 | Grader | Verdict |
