@@ -431,6 +431,7 @@ def capture_agent_screenshots(*, agent_site, captures_out, expected_filenames):
     httpd = None
     errors = []
     captured = 0
+    slice_counts = {}
     try:
         httpd = _start_static_server(agent_site, port)
         for _ in range(20):
@@ -442,10 +443,11 @@ def capture_agent_screenshots(*, agent_site, captures_out, expected_filenames):
 
         for filename, index in pages_to_capture:
             url = f"http://127.0.0.1:{port}/{filename}"
-            output_path = captures_out / f"page_{index:02d}.png"
+            out_prefix = captures_out / f"page_{index:02d}"
             try:
-                _capture_full_page(url=url, output_path=output_path)
+                slices = _capture_full_and_slices(url=url, out_prefix=out_prefix)
                 captured += 1
+                slice_counts[f"page_{index:02d}"] = slices
             except Exception as error:
                 errors.append({"page": filename, "error": str(error)})
     finally:
@@ -457,17 +459,46 @@ def capture_agent_screenshots(*, agent_site, captures_out, expected_filenames):
         "captured": captured,
         "skipped": len(expected_filenames) - len(pages_to_capture),
         "errors": errors,
+        "slice_counts": slice_counts,
     }
 
 
-def _capture_full_page(*, url, output_path):
+def _capture_full_and_slices(*, url, out_prefix):
+    """Capture one page as a tall full-page PNG plus viewport slices.
+
+    Mirrors the algorithm in
+    ``site_generator/screenshot_capture_template.py`` (Node Playwright).
+    Outputs:
+
+        <out_prefix>_full.png    # tall full page
+        <out_prefix>_001.png     # first viewport slice (scrollY = 0)
+        <out_prefix>_002.png     # ...
+        <out_prefix>_NNN.png     # last slice, snapped to scrollHeight - viewport.height
+
+    Returns the number of slice files written.
+    """
+    full_path = f"{out_prefix}_full.png"
+    slice_prefix = str(out_prefix)
     script = f"""
 const {{ chromium }} = require("playwright");
+const VIEWPORT = {{ width: {VIEWPORT_WIDTH}, height: {VIEWPORT_HEIGHT} }};
+const SLICE_STEP = 1000;
+
+function slicePositions(scrollHeight) {{
+  const maxScrollY = Math.max(0, scrollHeight - VIEWPORT.height);
+  const positions = [];
+  for (let y = 0; y <= maxScrollY; y += SLICE_STEP) {{
+    positions.push(y);
+  }}
+  if (!positions.length || positions[positions.length - 1] !== maxScrollY) {{
+    positions.push(maxScrollY);
+  }}
+  return [...new Set(positions)];
+}}
+
 (async () => {{
   const browser = await chromium.launch({{ headless: true }});
-  const context = await browser.newContext({{
-    viewport: {{ width: {VIEWPORT_WIDTH}, height: {VIEWPORT_HEIGHT} }},
-  }});
+  const context = await browser.newContext({{ viewport: VIEWPORT }});
   const page = await context.newPage();
   await page.goto({json.dumps(url)}, {{ waitUntil: "domcontentloaded", timeout: 15000 }});
   await page.waitForLoadState("load", {{ timeout: 15000 }}).catch(() => {{}});
@@ -475,27 +506,78 @@ const {{ chromium }} = require("playwright");
     if (document.fonts && document.fonts.ready) await document.fonts.ready;
   }}).catch(() => {{}});
   await page.evaluate(() => {{
-    const html = document.documentElement;
-    const body = document.body;
-    if (html) html.style.scrollBehavior = "auto";
-    if (body) body.style.scrollBehavior = "auto";
-    window.scrollTo({{ left: 0, top: 0, behavior: "instant" }});
+    document.documentElement.style.setProperty("scroll-behavior", "auto", "important");
+    if (document.body) {{
+      document.body.style.setProperty("scroll-behavior", "auto", "important");
+    }}
+    const elements = document.body
+      ? Array.from(document.body.querySelectorAll("*"))
+      : [];
+    for (const element of elements) {{
+      const style = window.getComputedStyle(element);
+      if (style.position !== "fixed" && style.position !== "sticky") continue;
+      const rect = element.getBoundingClientRect();
+      element.setAttribute("data-web-weaver-capture-position", style.position);
+      if (style.position === "fixed") {{
+        element.style.setProperty("position", "absolute", "important");
+        element.style.setProperty("top", (rect.top + window.scrollY) + "px", "important");
+        element.style.setProperty("left", (rect.left + window.scrollX) + "px", "important");
+        element.style.setProperty("right", "auto", "important");
+        element.style.setProperty("bottom", "auto", "important");
+        element.style.setProperty("width", rect.width + "px", "important");
+        element.style.setProperty("height", rect.height + "px", "important");
+      }} else {{
+        element.style.setProperty("position", "static", "important");
+        element.style.setProperty("top", "auto", "important");
+        element.style.setProperty("right", "auto", "important");
+        element.style.setProperty("bottom", "auto", "important");
+        element.style.setProperty("left", "auto", "important");
+      }}
+    }}
   }});
-  await page.waitForTimeout(500);
-  await page.screenshot({{ path: {json.dumps(str(output_path))}, fullPage: true, animations: "disabled" }});
+  await page.waitForTimeout(150);
+  const scrollHeight = await page.evaluate(() => {{
+    const body = document.body;
+    const html = document.documentElement;
+    return Math.max(
+      (body && body.scrollHeight) || 0,
+      (body && body.offsetHeight) || 0,
+      (html && html.clientHeight) || 0,
+      (html && html.scrollHeight) || 0,
+      (html && html.offsetHeight) || 0
+    );
+  }});
+  await page.evaluate(() => window.scrollTo({{ left: 0, top: 0, behavior: "instant" }}));
+  await page.waitForTimeout(100);
+  await page.screenshot({{ path: {json.dumps(full_path)}, fullPage: true, animations: "disabled" }});
+  const positions = slicePositions(scrollHeight);
+  for (let i = 0; i < positions.length; i++) {{
+    const y = positions[i];
+    await page.evaluate(scrollY => window.scrollTo({{ left: 0, top: scrollY, behavior: "instant" }}), y);
+    await page.waitForTimeout(150);
+    const sliceIndex = String(i + 1).padStart(3, "0");
+    const slicePath = {json.dumps(slice_prefix)} + "_" + sliceIndex + ".png";
+    await page.screenshot({{ path: slicePath, fullPage: false, animations: "disabled" }});
+  }}
   await browser.close();
+  process.stdout.write(JSON.stringify({{ slices: positions.length, scrollHeight }}));
 }})();
 """
     proc = subprocess.run(
         ["node", "-e", script],
         capture_output=True,
         text=True,
-        timeout=60,
+        timeout=120,
     )
     if proc.returncode != 0:
         raise RuntimeError(
             f"playwright capture failed for {url}: {proc.stderr.strip() or proc.stdout.strip()}"
         )
+    try:
+        info = json.loads(proc.stdout.strip())
+        return int(info.get("slices", 0))
+    except Exception:
+        return 0
 
 
 if __name__ == "__main__":
