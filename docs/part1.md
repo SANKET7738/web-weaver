@@ -130,9 +130,33 @@ changes.
 
 ### How each grader scored on average
 
-![Per-grader score across 12 sites](figures/grader-summary-strip.png)
+<table>
+<tr>
+<td width="60%">
 
-One dot per site (n=12). Bold horizontal bar = mean across sites.
+![Per-grader score across 12 sites](figures/grader-summary-box.png)
+
+</td>
+<td width="40%">
+
+| Grader | mean | std | min | max |
+|---|---|---|---|---|
+| `design2code` | **0.742** | 0.037 | 0.659 | 0.783 |
+| `design2code_vlm` | 0.735 | 0.038 | 0.646 | 0.781 |
+| `design2code_vlm_sliced` | **0.701** | 0.038 | 0.620 | 0.760 |
+| `waffle` | 0.667 | 0.034 | 0.591 | 0.704 |
+| `perceptual` | 0.691 | **0.078** | 0.566 | 0.776 |
+| `clip_only` | 0.928 | **0.021** | 0.895 | 0.961 |
+| `vlm_judge` | 0.876 | 0.038 | 0.784 | 0.912 |
+
+</td>
+</tr>
+</table>
+
+Box plot: each box covers the middle half of the 12 site means
+(25th-75th percentile), the line inside is the median, whiskers
+stretch to min/max, and any dots outside the whiskers are sites that
+look like outliers.
 
 Two extremes worth flagging:
 
