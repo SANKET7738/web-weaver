@@ -7,7 +7,6 @@ from pathlib import Path
 from web_weaver.site_generator.docker_utils import image_exists, run_docker_command
 from web_weaver.site_generator.dockerfile_template import render_dockerfile
 from web_weaver.site_generator.harbor_templates import (
-    harbor_image_tag,
     render_assemble_harbor_script,
     render_harbor_dockerfile,
     render_harbor_instruction_md,
@@ -142,7 +141,6 @@ def _bake_harbor_templates(*, task_id: str, context_dir: Path) -> None:
         render_harbor_task_toml(
             task_id=task_id,
             page_count=page_count,
-            docker_image=harbor_image_tag(task_id),
         ),
         encoding="utf-8",
     )

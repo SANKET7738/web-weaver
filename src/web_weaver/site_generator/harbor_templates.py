@@ -138,7 +138,6 @@ def render_harbor_task_toml(
     *,
     task_id: str,
     page_count: int,
-    docker_image: str,
     agent_timeout_seconds: int = HARBOR_AGENT_TIMEOUT_SECONDS,
     verifier_timeout_seconds: int = HARBOR_VERIFIER_TIMEOUT_SECONDS,
     build_timeout_seconds: int = HARBOR_BUILD_TIMEOUT_SECONDS,
@@ -168,7 +167,6 @@ user = "root"
 
 [environment]
 build_timeout_sec = {build_timeout_seconds}.0
-docker_image = "{docker_image}"
 os = "linux"
 cpus = {cpus}
 memory_mb = {memory_mb}
@@ -543,7 +541,3 @@ def main():
 if __name__ == "__main__":
     main()
 '''
-
-
-def harbor_image_tag(task_id: str) -> str:
-    return f"web-weaver-harbor-{task_id.lower()}:latest"

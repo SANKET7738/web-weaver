@@ -13,3 +13,4 @@ Assets/DesignPlans/*.json
 Assets/Debug/*.json
 sitegen-logs/
 Runs/
+jobs/
