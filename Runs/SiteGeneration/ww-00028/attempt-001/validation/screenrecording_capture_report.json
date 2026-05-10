@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3382,
+      "max_scroll_y": 2382,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1688488
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3425,
+      "max_scroll_y": 2425,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "about.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2182912
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2999,
+      "max_scroll_y": 1999,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "services.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1866814
+    },
+    {
+      "slug": "articles",
+      "route": "/articles.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2835,
+      "max_scroll_y": 1835,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "articles.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1475567
+    },
+    {
+      "slug": "book",
+      "route": "/book.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3082,
+      "max_scroll_y": 2082,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "book.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1519286
+    }
+  ]
+}

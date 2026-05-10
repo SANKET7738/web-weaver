@@ -1,0 +1,668 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 15,
+    "visible_sections": 15,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pinnacle Estates — Luxury Real Estate Brokerage",
+            "bodyTextLength": 1437,
+            "scrollHeight": 2334,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 920,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 570.453125,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 464.796875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pinnacle Estates — Luxury Real Estate Brokerage",
+            "bodyTextLength": 1372,
+            "scrollHeight": 3372,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 675.1875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1305.515625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 523,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "listings",
+      "route": "/listings.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Listings — Pinnacle Estates",
+            "bodyTextLength": 2436,
+            "scrollHeight": 2849,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "listings-section-1",
+                "width": 1440,
+                "height": 509.125,
+                "visible": true
+              },
+              {
+                "id": "listings-section-2",
+                "width": 1440,
+                "height": 1464.15625,
+                "visible": true
+              },
+              {
+                "id": "listings-section-3",
+                "width": 1440,
+                "height": 496.796875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Listings — Pinnacle Estates",
+            "bodyTextLength": 2371,
+            "scrollHeight": 5323,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "listings-section-1",
+                "width": 390,
+                "height": 404.1875,
+                "visible": true
+              },
+              {
+                "id": "listings-section-2",
+                "width": 390,
+                "height": 3559.53125,
+                "visible": true
+              },
+              {
+                "id": "listings-section-3",
+                "width": 390,
+                "height": 491,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "neighborhoods",
+      "route": "/neighborhoods.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Neighborhoods — Pinnacle Estates",
+            "bodyTextLength": 2446,
+            "scrollHeight": 2275,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "neighborhoods-section-1",
+                "width": 1440,
+                "height": 442.046875,
+                "visible": true
+              },
+              {
+                "id": "neighborhoods-section-2",
+                "width": 1440,
+                "height": 1070.96875,
+                "visible": true
+              },
+              {
+                "id": "neighborhoods-section-3",
+                "width": 1440,
+                "height": 382.796875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Neighborhoods — Pinnacle Estates",
+            "bodyTextLength": 2379,
+            "scrollHeight": 4316,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "neighborhoods-section-1",
+                "width": 390,
+                "height": 468.984375,
+                "visible": true
+              },
+              {
+                "id": "neighborhoods-section-2",
+                "width": 390,
+                "height": 2526.265625,
+                "visible": true
+              },
+              {
+                "id": "neighborhoods-section-3",
+                "width": 390,
+                "height": 453.046875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "agents",
+      "route": "/agents.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Agents — Pinnacle Estates",
+            "bodyTextLength": 2858,
+            "scrollHeight": 2487,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "agents-section-1",
+                "width": 1440,
+                "height": 442.046875,
+                "visible": true
+              },
+              {
+                "id": "agents-section-2",
+                "width": 1440,
+                "height": 1192.078125,
+                "visible": true
+              },
+              {
+                "id": "agents-section-3",
+                "width": 1440,
+                "height": 473.890625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Agents — Pinnacle Estates",
+            "bodyTextLength": 2793,
+            "scrollHeight": 4678,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "agents-section-1",
+                "width": 390,
+                "height": 440.9375,
+                "visible": true
+              },
+              {
+                "id": "agents-section-2",
+                "width": 390,
+                "height": 2872.796875,
+                "visible": true
+              },
+              {
+                "id": "agents-section-3",
+                "width": 390,
+                "height": 496.140625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Pinnacle Estates",
+            "bodyTextLength": 1971,
+            "scrollHeight": 2567,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 410.046875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 1134.671875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 643.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com",
+              "#",
+              "agents.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Pinnacle Estates",
+            "bodyTextLength": 1906,
+            "scrollHeight": 4148,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 377.484375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1722.3125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 1180.171875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com",
+              "#",
+              "agents.html",
+              "listings.html",
+              "neighborhoods.html",
+              "agents.html",
+              "contact.html",
+              "tel:+12125550190",
+              "mailto:advisors@pinnacleestates.com"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

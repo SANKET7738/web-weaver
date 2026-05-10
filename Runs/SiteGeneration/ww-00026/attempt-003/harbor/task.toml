@@ -1,0 +1,28 @@
+schema_version = "1.1"
+
+[task]
+name = "web-weaver/ww-00026"
+description = "Replicate a 5-page website (including its motion design) from screenshots and video recordings using React (Vite multi-page mode) with plain CSS."
+keywords = ["design-to-code", "web", "react", "vite", "css", "animation", "multi-page"]
+
+[metadata]
+task_id = "ww-00026"
+category = "design-to-code"
+framework = "react_css"
+page_count = 5
+generator = "web-weaver"
+
+[agent]
+timeout_sec = 1800.0
+user = "agent"
+
+[verifier]
+timeout_sec = 600.0
+user = "root"
+
+[environment]
+build_timeout_sec = 1200.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+allow_internet = true

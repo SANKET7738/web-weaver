@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="estSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D6E4F5"/>
+      <stop offset="1" stop-color="#A6C2E0"/>
+    </linearGradient>
+    <linearGradient id="estWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A56A0"/>
+      <stop offset="1" stop-color="#0D1F3C"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#estSky)"/>
+  <!-- Sun reflection -->
+  <circle cx="320" cy="60" r="28" fill="#F2E2C1" opacity="0.7"/>
+  <!-- Hills/coastline -->
+  <path d="M0 130 L80 115 L160 125 L260 105 L340 120 L400 110 L400 150 L0 150 Z" fill="#1C2533" opacity="0.55"/>
+  <!-- Water -->
+  <rect x="0" y="150" width="400" height="70" fill="url(#estWater)"/>
+  <!-- Highlights -->
+  <g fill="#F7F8FA" opacity="0.4">
+    <rect x="40" y="160" width="40" height="1"/>
+    <rect x="120" y="170" width="60" height="1"/>
+    <rect x="220" y="180" width="50" height="1"/>
+    <rect x="290" y="165" width="80" height="1"/>
+  </g>
+  <!-- Estate house -->
+  <g>
+    <rect x="80" y="105" width="160" height="48" fill="#F7F8FA"/>
+    <polygon points="80,105 160,75 240,105" fill="#1C2533"/>
+    <!-- Wing -->
+    <rect x="220" y="115" width="80" height="38" fill="#ECEEF1"/>
+    <polygon points="220,115 260,90 300,115" fill="#1C2533"/>
+    <!-- Windows main -->
+    <g fill="#0D1F3C">
+      <rect x="92" y="118" width="14" height="20"/>
+      <rect x="114" y="118" width="14" height="20"/>
+      <rect x="146" y="118" width="20" height="20"/>
+      <rect x="184" y="118" width="14" height="20"/>
+      <rect x="206" y="118" width="14" height="20"/>
+    </g>
+    <!-- Door -->
+    <rect x="151" y="130" width="14" height="23" fill="#B89A5E"/>
+    <!-- Wing windows -->
+    <rect x="232" y="125" width="14" height="18" fill="#0D1F3C"/>
+    <rect x="262" y="125" width="14" height="18" fill="#0D1F3C"/>
+    <!-- Columns -->
+    <rect x="138" y="118" width="3" height="35" fill="#D6E4F5"/>
+    <rect x="170" y="118" width="3" height="35" fill="#D6E4F5"/>
+  </g>
+  <!-- Dock -->
+  <rect x="40" y="160" width="50" height="3" fill="#1C2533"/>
+  <rect x="86" y="155" width="3" height="14" fill="#1C2533"/>
+</svg>

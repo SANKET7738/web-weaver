@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Harrow Market Square footfall analysis">
+  <defs>
+    <pattern id="h-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#1C2333"/>
+  <rect width="400" height="280" fill="url(#h-grid)"/>
+  <!-- square -->
+  <rect x="80" y="60" width="240" height="160" fill="#F0F2F5" opacity="0.95"/>
+  <rect x="80" y="60" width="240" height="160" fill="none" stroke="#2563EB" stroke-width="2"/>
+  <!-- vendor stalls grid -->
+  <g fill="#0D9488" opacity="0.85">
+    <rect x="100" y="80" width="40" height="20"/>
+    <rect x="160" y="80" width="40" height="20"/>
+    <rect x="220" y="80" width="40" height="20"/>
+    <rect x="280" y="80" width="20" height="20"/>
+    <rect x="100" y="120" width="40" height="20"/>
+    <rect x="160" y="120" width="40" height="20"/>
+    <rect x="220" y="120" width="40" height="20"/>
+    <rect x="100" y="160" width="40" height="20"/>
+    <rect x="160" y="160" width="40" height="20"/>
+    <rect x="220" y="160" width="40" height="20"/>
+    <rect x="280" y="160" width="20" height="20"/>
+  </g>
+  <!-- footfall heatmap -->
+  <g fill="#D97706" opacity="0.7">
+    <circle cx="120" cy="110" r="6"/>
+    <circle cx="180" cy="110" r="9"/>
+    <circle cx="240" cy="110" r="7"/>
+    <circle cx="150" cy="150" r="6"/>
+    <circle cx="210" cy="150" r="8"/>
+    <circle cx="270" cy="150" r="5"/>
+    <circle cx="180" cy="190" r="7"/>
+    <circle cx="240" cy="190" r="6"/>
+  </g>
+  <!-- entrance arrows -->
+  <g stroke="#2563EB" stroke-width="2" fill="none">
+    <path d="M40 140 L78 140" /><path d="M70 132 L78 140 L70 148"/>
+    <path d="M360 140 L322 140" /><path d="M330 132 L322 140 L330 148"/>
+    <path d="M200 40 L200 58"/><path d="M192 50 L200 58 L208 50"/>
+  </g>
+  <!-- KPI -->
+  <text x="20" y="30" font-family="IBM Plex Mono, monospace" font-size="10" fill="#D97706" letter-spacing="0.16em">LONDON · MARKET SQUARE · 3,300 m²</text>
+  <text x="20" y="260" font-family="IBM Plex Mono, monospace" font-size="9" fill="#94A3B8" letter-spacing="0.14em">+55% MARKET-DAY ATTENDANCE</text>
+</svg>

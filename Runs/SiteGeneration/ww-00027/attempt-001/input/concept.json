@@ -1,0 +1,19 @@
+{
+  "id": "ww-00027",
+  "version": "0.1",
+  "site_domain": "architecture_design",
+  "site_subdomain": "public space design lab",
+  "design_aesthetic": "data_heavy",
+  "layout_family": "gallery_first",
+  "page_set": [
+    "home",
+    "projects",
+    "services",
+    "team",
+    "inquiries"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 6,
+  "source": "web-weaver.concept_sampler"
+}

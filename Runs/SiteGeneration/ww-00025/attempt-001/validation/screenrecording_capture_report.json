@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4053,
+      "max_scroll_y": 3053,
+      "scroll_duration_ms": 6106,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2892269
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3228,
+      "max_scroll_y": 2228,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "team.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2250788
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4702,
+      "max_scroll_y": 3702,
+      "scroll_duration_ms": 7404,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "schedule.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3173540
+    },
+    {
+      "slug": "merch",
+      "route": "/merch.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4062,
+      "max_scroll_y": 3062,
+      "scroll_duration_ms": 6124,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "merch.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3594903
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3514,
+      "max_scroll_y": 2514,
+      "scroll_duration_ms": 5028,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "contact.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2466137
+    }
+  ]
+}

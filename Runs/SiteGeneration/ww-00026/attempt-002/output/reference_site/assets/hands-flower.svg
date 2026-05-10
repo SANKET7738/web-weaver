@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Two hands cupping a blooming flower">
+  <g fill="none" stroke="#2D3A35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hands cupping shape (simplified) -->
+    <path d="M30 130 C 40 95, 70 85, 100 90 C 130 85, 160 95, 170 130 L 165 150 C 145 142, 125 138, 100 138 C 75 138, 55 142, 35 150 Z"
+          fill="#FFCBA4" opacity="0.9"/>
+    <!-- Wrist/forearm hint left -->
+    <path d="M28 140 L 18 168" />
+    <path d="M44 142 L 38 170" />
+    <path d="M60 144 L 58 172" />
+    <!-- Wrist/forearm hint right -->
+    <path d="M172 140 L 182 168" />
+    <path d="M156 142 L 162 170" />
+    <path d="M140 144 L 142 172" />
+
+    <!-- Stem -->
+    <path d="M100 90 L 100 60" stroke="#2D3A35" stroke-width="3"/>
+
+    <!-- Leaves on stem -->
+    <path d="M100 78 C 88 72, 80 76, 82 84 C 90 84, 98 82, 100 78 Z"
+          fill="#A8E6CF"/>
+    <path d="M100 72 C 112 66, 120 70, 118 78 C 110 78, 102 76, 100 72 Z"
+          fill="#A8E6CF"/>
+
+    <!-- Flower petals around center -->
+    <g transform="translate(100 50)">
+      <ellipse cx="0" cy="-18" rx="10" ry="16" fill="#FF6F5E"/>
+      <ellipse cx="17" cy="-9" rx="10" ry="16" fill="#FF8B7A" transform="rotate(60 17 -9)"/>
+      <ellipse cx="17" cy="9" rx="10" ry="16" fill="#FF6F5E" transform="rotate(120 17 9)"/>
+      <ellipse cx="0" cy="18" rx="10" ry="16" fill="#FF8B7A"/>
+      <ellipse cx="-17" cy="9" rx="10" ry="16" fill="#FF6F5E" transform="rotate(60 -17 9)"/>
+      <ellipse cx="-17" cy="-9" rx="10" ry="16" fill="#FF8B7A" transform="rotate(120 -17 -9)"/>
+      <circle cx="0" cy="0" r="7" fill="#FFE566"/>
+    </g>
+  </g>
+</svg>

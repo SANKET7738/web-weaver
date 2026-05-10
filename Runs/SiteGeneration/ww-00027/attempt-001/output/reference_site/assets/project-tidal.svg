@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tidal Threshold Park resilience model">
+  <defs>
+    <linearGradient id="t-water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D9488"/>
+      <stop offset="1" stop-color="#0e2742"/>
+    </linearGradient>
+    <pattern id="t-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#1C2333"/>
+  <rect width="400" height="280" fill="url(#t-grid)"/>
+  <!-- ocean -->
+  <path d="M0 0 L200 0 L240 280 L0 280Z" fill="url(#t-water)" opacity="0.75"/>
+  <!-- isobars (storm surge) -->
+  <g fill="none" stroke="#2563EB" stroke-width="0.8" opacity="0.7">
+    <path d="M0 60 Q120 80 200 60 L200 100 Q120 120 0 100Z"/>
+    <path d="M0 130 Q140 150 220 140 L220 180 Q140 200 0 180Z" stroke="#D97706"/>
+    <path d="M0 210 Q140 220 240 210 L240 260 Q140 270 0 260Z"/>
+  </g>
+  <!-- park land -->
+  <path d="M200 0 L400 0 L400 280 L240 280Z" fill="#1C2333"/>
+  <!-- park paths -->
+  <g stroke="#F0F2F5" stroke-width="1.2" fill="none" stroke-dasharray="3 3">
+    <path d="M260 30 Q310 80 320 140 Q330 200 280 260"/>
+    <path d="M300 30 Q360 80 370 140 Q380 200 340 260"/>
+  </g>
+  <!-- biodiversity markers -->
+  <g fill="#0D9488">
+    <circle cx="280" cy="60" r="3"/><circle cx="320" cy="100" r="4"/><circle cx="290" cy="170" r="3"/><circle cx="350" cy="180" r="3"/><circle cx="330" cy="220" r="4"/>
+  </g>
+  <!-- equity zones -->
+  <g fill="none" stroke="#D97706" stroke-width="1" opacity="0.7">
+    <rect x="260" y="40" width="55" height="70"/>
+    <rect x="270" y="120" width="60" height="60"/>
+    <rect x="280" y="190" width="55" height="65"/>
+  </g>
+  <!-- KPI -->
+  <text x="20" y="30" font-family="IBM Plex Mono, monospace" font-size="10" fill="#D97706" letter-spacing="0.16em">SINGAPORE · COASTAL · 11,500 m²</text>
+  <text x="20" y="265" font-family="IBM Plex Mono, monospace" font-size="9" fill="#94A3B8" letter-spacing="0.14em">SURGE / BIODIVERSITY / EQUITY</text>
+</svg>

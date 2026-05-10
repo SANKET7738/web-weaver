@@ -1,0 +1,19 @@
+{
+  "id": "ww-00024",
+  "version": "0.1",
+  "site_domain": "real_estate",
+  "site_subdomain": "luxury real estate brokerage",
+  "design_aesthetic": "corporate_clean",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "listings",
+    "neighborhoods",
+    "agents",
+    "contact"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 3,
+  "source": "web-weaver.concept_sampler"
+}

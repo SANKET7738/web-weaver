@@ -1,0 +1,19 @@
+{
+  "id": "ww-00026",
+  "version": "0.1",
+  "site_domain": "beauty_personal_care",
+  "site_subdomain": "body care brand",
+  "design_aesthetic": "friendly_consumer_app",
+  "layout_family": "gallery_first",
+  "page_set": [
+    "home",
+    "brand",
+    "products",
+    "sustainability",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 5,
+  "source": "web-weaver.concept_sampler"
+}

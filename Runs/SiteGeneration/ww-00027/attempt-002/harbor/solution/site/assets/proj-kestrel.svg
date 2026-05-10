@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="park1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f3d2e"/>
+      <stop offset="100%" stop-color="#0c1f17"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" fill="url(#park1)"/>
+  <!-- Grass texture -->
+  <rect width="400" height="280" fill="#0d9488" opacity="0.18"/>
+  <!-- Path -->
+  <path d="M0,200 Q100,180 200,200 T400,180" stroke="#cbd5e1" stroke-width="32" fill="none" stroke-linecap="butt" opacity="0.95"/>
+  <path d="M0,200 Q100,180 200,200 T400,180" stroke="#334155" stroke-width="32" fill="none" stroke-linecap="butt" opacity="0.0"/>
+  <!-- Center divider line on path -->
+  <path d="M0,200 Q100,180 200,200 T400,180" stroke="#D97706" stroke-width="1" fill="none" stroke-dasharray="4 4"/>
+  <!-- Trees -->
+  <g>
+    <circle cx="40" cy="100" r="20" fill="#0d9488" opacity="0.8"/>
+    <circle cx="40" cy="90" r="16" fill="#10b981" opacity="0.7"/>
+    <circle cx="100" cy="80" r="22" fill="#0d9488" opacity="0.85"/>
+    <circle cx="170" cy="95" r="18" fill="#0d9488" opacity="0.8"/>
+    <circle cx="240" cy="80" r="22" fill="#0d9488" opacity="0.8"/>
+    <circle cx="310" cy="100" r="20" fill="#0d9488" opacity="0.85"/>
+    <circle cx="370" cy="90" r="18" fill="#10b981" opacity="0.75"/>
+  </g>
+  <g>
+    <circle cx="60" cy="245" r="18" fill="#0d9488" opacity="0.7"/>
+    <circle cx="135" cy="255" r="22" fill="#0d9488" opacity="0.7"/>
+    <circle cx="220" cy="248" r="18" fill="#0d9488" opacity="0.7"/>
+    <circle cx="305" cy="252" r="20" fill="#0d9488" opacity="0.7"/>
+    <circle cx="380" cy="245" r="16" fill="#0d9488" opacity="0.7"/>
+  </g>
+  <!-- Cyclists / pedestrian dots -->
+  <circle cx="80" cy="195" r="3" fill="#2563EB"/>
+  <circle cx="160" cy="190" r="3" fill="#2563EB"/>
+  <circle cx="240" cy="200" r="3" fill="#FFFFFF"/>
+  <circle cx="300" cy="187" r="3" fill="#2563EB"/>
+  <!-- Grid overlay -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="0.5">
+    <line x1="0" y1="40" x2="400" y2="40"/>
+    <line x1="0" y1="140" x2="400" y2="140"/>
+    <line x1="100" y1="0" x2="100" y2="280"/>
+    <line x1="200" y1="0" x2="200" y2="280"/>
+    <line x1="300" y1="0" x2="300" y2="280"/>
+  </g>
+</svg>

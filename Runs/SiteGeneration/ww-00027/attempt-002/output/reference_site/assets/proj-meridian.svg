@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="water1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4078"/>
+      <stop offset="100%" stop-color="#0a1f3d"/>
+    </linearGradient>
+    <pattern id="grid1" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="url(#water1)"/>
+  <rect width="400" height="280" fill="url(#grid1)"/>
+  <!-- Plaza (light tile) -->
+  <polygon points="60,170 340,170 360,240 40,240" fill="#cbd5e1" opacity="0.95"/>
+  <polygon points="60,170 340,170 360,240 40,240" fill="none" stroke="#334155" stroke-width="0.5"/>
+  <!-- Tile lines -->
+  <line x1="120" y1="170" x2="110" y2="240" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <line x1="180" y1="170" x2="170" y2="240" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <line x1="240" y1="170" x2="240" y2="240" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <line x1="300" y1="170" x2="320" y2="240" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <line x1="50" y1="220" x2="350" y2="220" stroke="#334155" stroke-width="0.5" opacity="0.5"/>
+  <!-- Heat dots (pedestrian density) -->
+  <circle cx="120" cy="200" r="6" fill="#D97706" opacity="0.7"/>
+  <circle cx="180" cy="195" r="9" fill="#D97706" opacity="0.7"/>
+  <circle cx="220" cy="205" r="7" fill="#D97706" opacity="0.7"/>
+  <circle cx="270" cy="200" r="5" fill="#D97706" opacity="0.7"/>
+  <circle cx="160" cy="220" r="4" fill="#D97706" opacity="0.5"/>
+  <circle cx="240" cy="225" r="6" fill="#D97706" opacity="0.5"/>
+  <!-- Tidal wave lines -->
+  <path d="M0,90 Q50,80 100,90 T200,90 T300,90 T400,90" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M0,110 Q50,100 100,110 T200,110 T300,110 T400,110" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M0,130 Q50,120 100,130 T200,130 T300,130 T400,130" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Building silhouettes -->
+  <rect x="50" y="120" width="40" height="50" fill="#1C2333" opacity="0.85"/>
+  <rect x="100" y="105" width="30" height="65" fill="#1C2333" opacity="0.85"/>
+  <rect x="280" y="115" width="50" height="55" fill="#1C2333" opacity="0.85"/>
+  <rect x="340" y="100" width="35" height="70" fill="#1C2333" opacity="0.85"/>
+</svg>

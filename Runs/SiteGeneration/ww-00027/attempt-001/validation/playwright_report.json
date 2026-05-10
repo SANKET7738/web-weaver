@@ -1,0 +1,678 @@
+{
+  "valid": false,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": false
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 15,
+    "visible_sections": 15,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 1
+  },
+  "failures": [
+    "projects desktop has horizontal overflow"
+  ],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Axiom Public Lab — Space, Measured. Cities, Transformed.",
+            "bodyTextLength": 1721,
+            "scrollHeight": 2384,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 920,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 447.875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 629.578125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Axiom Public Lab — Space, Measured. Cities, Transformed.",
+            "bodyTextLength": 1671,
+            "scrollHeight": 3940,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 721.578125,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1082.65625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1220.921875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "route": "/projects.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Projects — Axiom Public Lab",
+            "bodyTextLength": 2219,
+            "scrollHeight": 2788,
+            "scrollWidth": 1480,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "projects-section-1",
+                "width": 1440,
+                "height": 458.1875,
+                "visible": true
+              },
+              {
+                "id": "projects-section-2",
+                "width": 1440,
+                "height": 1413.78125,
+                "visible": true
+              },
+              {
+                "id": "projects-section-3",
+                "width": 1440,
+                "height": 529.1875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Projects — Axiom Public Lab",
+            "bodyTextLength": 2169,
+            "scrollHeight": 5158,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "projects-section-1",
+                "width": 390,
+                "height": 371.375,
+                "visible": true
+              },
+              {
+                "id": "projects-section-2",
+                "width": 390,
+                "height": 2880.96875,
+                "visible": true
+              },
+              {
+                "id": "projects-section-3",
+                "width": 390,
+                "height": 991.1875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Axiom Public Lab",
+            "bodyTextLength": 2366,
+            "scrollHeight": 2299,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 1440,
+                "height": 458.1875,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 1440,
+                "height": 892.765625,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 1440,
+                "height": 561,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "projects.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Axiom Public Lab",
+            "bodyTextLength": 2298,
+            "scrollHeight": 4179,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 390,
+                "height": 355.78125,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 390,
+                "height": 2041.515625,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 390,
+                "height": 866.765625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "projects.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Team — Axiom Public Lab",
+            "bodyTextLength": 2684,
+            "scrollHeight": 2421,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "team-section-1",
+                "width": 1440,
+                "height": 550.1875,
+                "visible": true
+              },
+              {
+                "id": "team-section-2",
+                "width": 1440,
+                "height": 812.25,
+                "visible": true
+              },
+              {
+                "id": "team-section-3",
+                "width": 1440,
+                "height": 671.796875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Team — Axiom Public Lab",
+            "bodyTextLength": 2634,
+            "scrollHeight": 4229,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "team-section-1",
+                "width": 390,
+                "height": 421.375,
+                "visible": true
+              },
+              {
+                "id": "team-section-2",
+                "width": 390,
+                "height": 1963.15625,
+                "visible": true
+              },
+              {
+                "id": "team-section-3",
+                "width": 390,
+                "height": 929.953125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "inquiries.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "inquiries",
+      "route": "/inquiries.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Inquiries — Axiom Public Lab",
+            "bodyTextLength": 2154,
+            "scrollHeight": 2574,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "inquiries-section-1",
+                "width": 1440,
+                "height": 417.375,
+                "visible": true
+              },
+              {
+                "id": "inquiries-section-2",
+                "width": 1440,
+                "height": 1168.546875,
+                "visible": true
+              },
+              {
+                "id": "inquiries-section-3",
+                "width": 1440,
+                "height": 600.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "projects.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Inquiries — Axiom Public Lab",
+            "bodyTextLength": 2104,
+            "scrollHeight": 4035,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "inquiries-section-1",
+                "width": 390,
+                "height": 398.96875,
+                "visible": true
+              },
+              {
+                "id": "inquiries-section-2",
+                "width": 390,
+                "height": 1688.65625,
+                "visible": true
+              },
+              {
+                "id": "inquiries-section-3",
+                "width": 390,
+                "height": 1032.671875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "projects.html",
+              "services.html",
+              "team.html",
+              "inquiries.html",
+              "projects.html",
+              "team.html",
+              "services.html",
+              "projects.html",
+              "inquiries.html",
+              "services.html#services-section-3",
+              "inquiries.html#inquiries-section-3",
+              "index.html",
+              "projects.html",
+              "team.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

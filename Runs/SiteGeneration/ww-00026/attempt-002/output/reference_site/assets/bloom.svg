@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Lumi & Bloom mark — radiating petals around a glow center">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE566"/>
+      <stop offset="60%" stop-color="#FFCBA4"/>
+      <stop offset="100%" stop-color="#FFCBA4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Outer warm glow -->
+  <circle cx="240" cy="240" r="220" fill="url(#glow)" opacity="0.55"/>
+
+  <!-- Petals (8 around the center) -->
+  <g transform="translate(240 240)">
+    <g>
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF6F5E" opacity="0.94"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(45)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF8B7A" opacity="0.9"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(90)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF6F5E" opacity="0.94"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(135)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF8B7A" opacity="0.9"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(180)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF6F5E" opacity="0.94"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(225)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF8B7A" opacity="0.9"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(270)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF6F5E" opacity="0.94"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+    <g transform="rotate(315)">
+      <ellipse cx="0" cy="-130" rx="46" ry="92" fill="#FF8B7A" opacity="0.9"/>
+      <ellipse cx="0" cy="-130" rx="22" ry="60" fill="#FFCBA4" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Mint leaf accents -->
+  <g transform="translate(240 240)">
+    <g transform="rotate(22)">
+      <ellipse cx="160" cy="0" rx="28" ry="14" fill="#A8E6CF"/>
+    </g>
+    <g transform="rotate(112)">
+      <ellipse cx="160" cy="0" rx="28" ry="14" fill="#A8E6CF"/>
+    </g>
+    <g transform="rotate(202)">
+      <ellipse cx="160" cy="0" rx="28" ry="14" fill="#A8E6CF"/>
+    </g>
+    <g transform="rotate(292)">
+      <ellipse cx="160" cy="0" rx="28" ry="14" fill="#A8E6CF"/>
+    </g>
+  </g>
+
+  <!-- Inner glow circle -->
+  <circle cx="240" cy="240" r="68" fill="#FFF8F4"/>
+  <circle cx="240" cy="240" r="50" fill="#FFE566"/>
+  <circle cx="240" cy="240" r="32" fill="#FFCBA4"/>
+  <circle cx="240" cy="240" r="14" fill="#FF6F5E"/>
+</svg>

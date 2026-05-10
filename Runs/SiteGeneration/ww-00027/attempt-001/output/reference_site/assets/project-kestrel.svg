@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Linear park corridor diagram">
+  <defs>
+    <linearGradient id="k-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C2333"/>
+      <stop offset="1" stop-color="#0e1726"/>
+    </linearGradient>
+    <pattern id="k-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="url(#k-bg)"/>
+  <rect width="400" height="280" fill="url(#k-grid)"/>
+  <!-- corridor green band -->
+  <path d="M0 110 Q100 90 200 110 T400 130 L400 170 Q300 150 200 170 T0 150 Z" fill="#0D9488" opacity="0.5"/>
+  <!-- centerline path -->
+  <path d="M0 130 Q100 110 200 130 T400 150" stroke="#F0F2F5" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  <!-- bike paths -->
+  <path d="M0 145 Q100 125 200 145 T400 165" stroke="#2563EB" stroke-width="1.5" fill="none"/>
+  <path d="M0 115 Q100 95 200 115 T400 135" stroke="#D97706" stroke-width="1.5" fill="none"/>
+  <!-- markers -->
+  <g fill="#F0F2F5">
+    <circle cx="60" cy="125" r="2.5"/>
+    <circle cx="140" cy="120" r="2.5"/>
+    <circle cx="220" cy="135" r="2.5"/>
+    <circle cx="300" cy="145" r="2.5"/>
+    <circle cx="360" cy="148" r="2.5"/>
+  </g>
+  <!-- treeline -->
+  <g fill="#0D9488" opacity="0.85">
+    <circle cx="40" cy="80" r="6"/><circle cx="80" cy="78" r="5"/><circle cx="120" cy="82" r="6"/><circle cx="170" cy="80" r="7"/><circle cx="220" cy="84" r="5"/><circle cx="270" cy="82" r="6"/><circle cx="320" cy="84" r="6"/><circle cx="370" cy="86" r="5"/>
+    <circle cx="40" cy="200" r="6"/><circle cx="100" cy="205" r="5"/><circle cx="160" cy="200" r="6"/><circle cx="220" cy="208" r="6"/><circle cx="290" cy="206" r="5"/><circle cx="350" cy="206" r="6"/>
+  </g>
+  <!-- KPI -->
+  <text x="20" y="40" font-family="IBM Plex Mono, monospace" font-size="10" fill="#D97706" letter-spacing="0.16em">CORRIDOR · 1.8 KM · TORONTO</text>
+  <text x="20" y="245" font-family="IBM Plex Mono, monospace" font-size="9" fill="#94A3B8" letter-spacing="0.14em">PED ROUTE · CYCLE ROUTE · GREENWAY</text>
+</svg>

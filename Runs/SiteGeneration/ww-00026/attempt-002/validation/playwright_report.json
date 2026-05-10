@@ -1,0 +1,842 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lumi & Bloom — Skin that feels like you.",
+            "bodyTextLength": 2455,
+            "scrollHeight": 4238,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 560,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 1768.484375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 413.484375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 561.828125,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 512.34375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Lumi & Bloom — Skin that feels like you.",
+            "bodyTextLength": 2399,
+            "scrollHeight": 6378,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 897.921875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 2214.21875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 643.078125,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 1173.921875,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 542.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "brand",
+      "route": "/brand.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Brand — Lumi & Bloom",
+            "bodyTextLength": 2944,
+            "scrollHeight": 4160,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "brand-section-1",
+                "width": 1440,
+                "height": 726.03125,
+                "visible": true
+              },
+              {
+                "id": "brand-section-2",
+                "width": 1440,
+                "height": 576.671875,
+                "visible": true
+              },
+              {
+                "id": "brand-section-3",
+                "width": 1440,
+                "height": 976.03125,
+                "visible": true
+              },
+              {
+                "id": "brand-section-4",
+                "width": 1440,
+                "height": 947.21875,
+                "visible": true
+              },
+              {
+                "id": "brand-section-5",
+                "width": 1440,
+                "height": 512.34375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "sustainability.html",
+              "products.html",
+              "sustainability.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Brand — Lumi & Bloom",
+            "bodyTextLength": 2888,
+            "scrollHeight": 6038,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "brand-section-1",
+                "width": 390,
+                "height": 728.109375,
+                "visible": true
+              },
+              {
+                "id": "brand-section-2",
+                "width": 390,
+                "height": 898.9375,
+                "visible": true
+              },
+              {
+                "id": "brand-section-3",
+                "width": 390,
+                "height": 1676.90625,
+                "visible": true
+              },
+              {
+                "id": "brand-section-4",
+                "width": 390,
+                "height": 1284.453125,
+                "visible": true
+              },
+              {
+                "id": "brand-section-5",
+                "width": 390,
+                "height": 542.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "sustainability.html",
+              "products.html",
+              "sustainability.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Products — Lumi & Bloom",
+            "bodyTextLength": 3701,
+            "scrollHeight": 3993,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "products-section-1",
+                "width": 1440,
+                "height": 422.453125,
+                "visible": true
+              },
+              {
+                "id": "products-section-2",
+                "width": 1440,
+                "height": 1238.421875,
+                "visible": true
+              },
+              {
+                "id": "products-section-3",
+                "width": 1440,
+                "height": 709.109375,
+                "visible": true
+              },
+              {
+                "id": "products-section-4",
+                "width": 1440,
+                "height": 692.875,
+                "visible": true
+              },
+              {
+                "id": "products-section-5",
+                "width": 1440,
+                "height": 508.75,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "sustainability.html",
+              "contact.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Products — Lumi & Bloom",
+            "bodyTextLength": 3645,
+            "scrollHeight": 9030,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "products-section-1",
+                "width": 390,
+                "height": 447.734375,
+                "visible": true
+              },
+              {
+                "id": "products-section-2",
+                "width": 390,
+                "height": 4144.515625,
+                "visible": true
+              },
+              {
+                "id": "products-section-3",
+                "width": 390,
+                "height": 1526.671875,
+                "visible": true
+              },
+              {
+                "id": "products-section-4",
+                "width": 390,
+                "height": 1438.046875,
+                "visible": true
+              },
+              {
+                "id": "products-section-5",
+                "width": 390,
+                "height": 565.9375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "sustainability.html",
+              "contact.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "sustainability",
+      "route": "/sustainability.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Sustainability — Lumi & Bloom",
+            "bodyTextLength": 2898,
+            "scrollHeight": 4521,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "sustainability-section-1",
+                "width": 1440,
+                "height": 626.546875,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-2",
+                "width": 1440,
+                "height": 576.640625,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-3",
+                "width": 1440,
+                "height": 577.21875,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-4",
+                "width": 1440,
+                "height": 1794.625,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-5",
+                "width": 1440,
+                "height": 524.515625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "contact.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Sustainability — Lumi & Bloom",
+            "bodyTextLength": 2842,
+            "scrollHeight": 7491,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "sustainability-section-1",
+                "width": 390,
+                "height": 663.921875,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-2",
+                "width": 390,
+                "height": 1010.203125,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-3",
+                "width": 390,
+                "height": 1420.296875,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-4",
+                "width": 390,
+                "height": 2918.015625,
+                "visible": true
+              },
+              {
+                "id": "sustainability-section-5",
+                "width": 390,
+                "height": 571.734375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "products.html",
+              "contact.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Lumi & Bloom",
+            "bodyTextLength": 2744,
+            "scrollHeight": 3969,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 522.15625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 991.671875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 638.21875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 912.71875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 482.359375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "mailto:hello@lumiandbloom.com",
+              "mailto:wholesale@lumiandbloom.com",
+              "mailto:press@lumiandbloom.com",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Lumi & Bloom",
+            "bodyTextLength": 2684,
+            "scrollHeight": 6342,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 865.140625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1447.984375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 968.5625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 390,
+                "height": 1623.65625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 390,
+                "height": 530.359375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "brand.html",
+              "products.html",
+              "sustainability.html",
+              "contact.html",
+              "products.html",
+              "mailto:hello@lumiandbloom.com",
+              "mailto:wholesale@lumiandbloom.com",
+              "mailto:press@lumiandbloom.com",
+              "products.html",
+              "brand.html",
+              "products.html",
+              "products.html#products-section-2",
+              "products.html#products-section-4",
+              "brand.html",
+              "sustainability.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

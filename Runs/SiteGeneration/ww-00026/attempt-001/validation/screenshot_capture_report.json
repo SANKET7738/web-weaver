@@ -1,0 +1,285 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 25,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4301,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3301,
+          "path": "home/home_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 359211
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "brand",
+      "route": "/brand.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4365,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "brand/brand_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "brand/brand_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "brand/brand_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "brand/brand_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3365,
+          "path": "brand/brand_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "brand/brand_full.png",
+        "bytes": 359897
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4206,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "products/products_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "products/products_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "products/products_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "products/products_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3206,
+          "path": "products/products_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "products/products_full.png",
+        "bytes": 367727
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "sustainability",
+      "route": "/sustainability.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4650,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "sustainability/sustainability_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "sustainability/sustainability_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "sustainability/sustainability_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "sustainability/sustainability_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3650,
+          "path": "sustainability/sustainability_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "sustainability/sustainability_full.png",
+        "bytes": 370047
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4139,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "contact/contact_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3139,
+          "path": "contact/contact_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 391865
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

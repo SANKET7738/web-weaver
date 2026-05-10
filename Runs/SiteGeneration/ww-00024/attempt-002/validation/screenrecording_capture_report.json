@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2334,
+      "max_scroll_y": 1334,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1128000
+    },
+    {
+      "slug": "listings",
+      "route": "/listings.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2849,
+      "max_scroll_y": 1849,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "listings.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1520223
+    },
+    {
+      "slug": "neighborhoods",
+      "route": "/neighborhoods.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2275,
+      "max_scroll_y": 1275,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "neighborhoods.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1161079
+    },
+    {
+      "slug": "agents",
+      "route": "/agents.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2487,
+      "max_scroll_y": 1487,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "agents.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1429317
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2567,
+      "max_scroll_y": 1567,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "contact.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 877885
+    }
+  ]
+}

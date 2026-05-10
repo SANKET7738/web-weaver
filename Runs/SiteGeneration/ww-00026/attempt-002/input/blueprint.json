@@ -1,0 +1,966 @@
+{
+  "id": "ww-00026",
+  "version": "0.1",
+  "concept_id": "ww-00026",
+  "identity": {
+    "name": "Lumi & Bloom",
+    "tagline": "Skin that feels like you.",
+    "one_line_description": "Lumi & Bloom is a friendly, feel-good body care brand offering clean, nourishing skincare products designed for everyday rituals that make people glow from the outside in.",
+    "domain": "beauty_personal_care",
+    "subdomain": "body care brand",
+    "voice": [
+      "warm",
+      "upbeat",
+      "approachable",
+      "honest",
+      "playful"
+    ],
+    "target_audience": "Millennial and Gen Z consumers aged 20\u201338 who prioritize clean ingredients, sustainable packaging, and self-care routines that fit into a busy, joyful lifestyle."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately communicate the brand's warm, feel-good personality, showcase the product range visually, and convert first-time visitors into shoppers or brand explorers.",
+      "meta_description": "Lumi & Bloom body care \u2014 clean, nourishing skincare made for everyday glow. Discover lotions, scrubs, and oils that feel as good as they look.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Capture attention instantly with a joyful, gallery-first visual statement and a clear brand promise that invites visitors to explore the product world.",
+          "eyebrow": "Clean Body Care, Made for You",
+          "headline": "Your Daily Glow Starts Here",
+          "subheadline": "Nourishing body care crafted from clean ingredients \u2014 because feeling good in your skin should be the easiest part of your day.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop All Products",
+              "target_page": "products"
+            },
+            {
+              "label": "Our Story",
+              "target_page": "brand"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A cheerful abstract bloom motif with soft petals radiating from a central glow circle, suggesting warmth and vitality.",
+              "purpose": "Hero visual anchor that reinforces the brand name and feel-good aesthetic without relying on photography.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "gallery",
+          "intent": "Lead with a product gallery to let the visual appeal of the range do the selling \u2014 reinforcing the gallery-first layout strategy.",
+          "eyebrow": "Our Bestsellers",
+          "headline": "Products People Can't Stop Reaching For",
+          "subheadline": "From morning moisture to evening rituals \u2014 find your new favorites.",
+          "body": null,
+          "items": [
+            {
+              "title": "Honey & Oat Body Lotion",
+              "description": "Rich, fast-absorbing lotion that locks in moisture all day. Scented with warm vanilla and oat milk.",
+              "metadata": {
+                "tag": "Bestseller",
+                "size": "250ml"
+              }
+            },
+            {
+              "title": "Citrus Burst Sugar Scrub",
+              "description": "Exfoliating sugar scrub infused with sweet orange and grapefruit to buff away dullness and reveal radiant skin.",
+              "metadata": {
+                "tag": "Fan Favorite",
+                "size": "200g"
+              }
+            },
+            {
+              "title": "Rosehip Glow Body Oil",
+              "description": "Lightweight, non-greasy body oil rich in rosehip and jojoba to deeply nourish and add a natural luminosity.",
+              "metadata": {
+                "tag": "New Arrival",
+                "size": "100ml"
+              }
+            },
+            {
+              "title": "Lavender Dream Butter",
+              "description": "Whipped shea body butter with calming lavender and chamomile \u2014 perfect for a wind-down evening routine.",
+              "metadata": {
+                "tag": "Sleep Ritual",
+                "size": "180g"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See Full Collection",
+              "target_page": "products"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "stats",
+          "intent": "Build trust quickly with social proof and brand credibility signals that resonate with a values-driven audience.",
+          "eyebrow": "Why Lumi & Bloom",
+          "headline": "Numbers That Speak for Themselves",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "50,000+",
+              "description": "Happy customers who've made Lumi & Bloom part of their daily ritual.",
+              "metadata": {}
+            },
+            {
+              "title": "100% Clean",
+              "description": "Every formula is free from parabens, sulfates, and synthetic dyes.",
+              "metadata": {}
+            },
+            {
+              "title": "12 Products",
+              "description": "A tight, intentional range \u2014 each one developed for a specific skin need.",
+              "metadata": {}
+            },
+            {
+              "title": "4.9 \u2605 Average",
+              "description": "Rated by real customers across our full product catalog.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "Reinforce emotional trust through real customer voices that reflect the target audience's lifestyle and aspirations.",
+          "eyebrow": "Real People, Real Glow",
+          "headline": "The Community Has Spoken",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Priya M., 27",
+              "description": "\"I've tried so many body lotions and nothing compares. The Honey & Oat one smells incredible and my skin has never felt softer. It's become my morning non-negotiable.\"",
+              "metadata": {
+                "product": "Honey & Oat Body Lotion"
+              }
+            },
+            {
+              "title": "Jordan T., 32",
+              "description": "\"The Citrus Burst scrub genuinely woke up my skin. I use it twice a week and I get compliments on how my skin looks now. Wild!\"",
+              "metadata": {
+                "product": "Citrus Burst Sugar Scrub"
+              }
+            },
+            {
+              "title": "Camille R., 24",
+              "description": "\"I love that I can actually read and understand every ingredient. Clean, effective, and the packaging is so cute. Lumi & Bloom just gets it.\"",
+              "metadata": {
+                "product": "Rosehip Glow Body Oil"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the home page with a warm, inviting prompt that channels visitors toward either shopping or learning about the brand's values.",
+          "eyebrow": "Join the Glow",
+          "headline": "Ready to Start Your Ritual?",
+          "subheadline": "Free shipping on orders over $45. Clean ingredients. Real results.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop Now",
+              "target_page": "products"
+            },
+            {
+              "label": "Learn Our Story",
+              "target_page": "brand"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A repeating tiled pattern of small botanical leaf sprigs and dot clusters, light and airy, suggesting natural freshness.",
+              "purpose": "Background texture for the CTA section that reinforces the clean, natural brand aesthetic without heavy illustration.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brand",
+      "title": "Our Brand",
+      "role": "editorial",
+      "goal": "Tell the brand origin story, communicate core values, and build an emotional connection with visitors who care about who they buy from \u2014 not just what they buy.",
+      "meta_description": "Meet Lumi & Bloom \u2014 the clean body care brand built on the belief that your daily ritual should feel joyful, honest, and good for the planet.",
+      "sections": [
+        {
+          "id": "brand-section-1",
+          "type": "page_header",
+          "intent": "Set the editorial tone for the brand story and signal to visitors that this page is a deeper, more personal experience.",
+          "eyebrow": "Our Story",
+          "headline": "Born from a Belief That Skincare Should Feel Good \u2014 Inside and Out",
+          "subheadline": "We started Lumi & Bloom because we were tired of choosing between products that worked and products we could feel good about.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "brand-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A simple line-art illustration of two hands cupping a blooming flower, conveying care, nurturing, and the human element of the brand.",
+              "purpose": "Editorial hero visual that humanizes the brand story section and sets a warm, personal tone.",
+              "quantity": 1,
+              "used_by": [
+                "brand-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-section-2",
+          "type": "story_block",
+          "intent": "Walk visitors through the founding narrative in a personal, editorial voice that builds authenticity and emotional resonance.",
+          "eyebrow": "How It Started",
+          "headline": "A Kitchen Table, a Problem, and a Promise",
+          "subheadline": null,
+          "body": "Lumi & Bloom was founded in 2019 by two friends who couldn't find a body care brand that checked every box: genuinely clean formulas, ingredients they could pronounce, sustainable packaging, and a price point that didn't feel like a luxury tax. So they made their own. Starting with a small batch of whipped shea butter in a shared apartment kitchen, they spent two years testing, refining, and listening to their community. Today, Lumi & Bloom ships to customers across the country \u2014 but the founding promise hasn't changed: every product should make you feel taken care of, inside and out.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "brand-section-3",
+          "type": "feature_grid",
+          "intent": "Articulate the core brand values in a scannable, visually friendly format that resonates with the app-like layout aesthetic.",
+          "eyebrow": "What We Stand For",
+          "headline": "Our Values Aren't a Marketing Slide \u2014 They're Our Ingredient List",
+          "subheadline": "Every decision we make \u2014 from formula to packaging to partnerships \u2014 runs through these four commitments.",
+          "body": null,
+          "items": [
+            {
+              "title": "Radically Transparent",
+              "description": "Full ingredient lists, sourcing notes, and formulation rationale published for every product. No fine print, no mystery.",
+              "metadata": {
+                "icon": "magnifying-glass"
+              }
+            },
+            {
+              "title": "Genuinely Clean",
+              "description": "No parabens, sulfates, synthetic dyes, or fragrance shortcuts. Every ingredient earns its place in the formula.",
+              "metadata": {
+                "icon": "leaf"
+              }
+            },
+            {
+              "title": "Sustainably Packaged",
+              "description": "Recycled and recyclable materials across our full range. We're on a path to 100% plastic-free by 2026.",
+              "metadata": {
+                "icon": "recycle"
+              }
+            },
+            {
+              "title": "Community First",
+              "description": "We co-develop products with our customer community. Your skin feedback shapes our next launch.",
+              "metadata": {
+                "icon": "people"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See Our Sustainability Commitments",
+              "target_page": "sustainability"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "brand-section-4",
+          "type": "timeline",
+          "intent": "Show the brand's growth and momentum through a chronological story that builds credibility and signals longevity.",
+          "eyebrow": "Our Journey",
+          "headline": "From First Batch to Beloved Brand",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "2019 \u2014 The First Formula",
+              "description": "Lavender Dream Butter is made in a home kitchen and shared with 50 friends. The feedback is unanimous: make more.",
+              "metadata": {}
+            },
+            {
+              "title": "2020 \u2014 First 1,000 Customers",
+              "description": "Lumi & Bloom launches online with four products and sells out within three weeks of its first campaign.",
+              "metadata": {}
+            },
+            {
+              "title": "2021 \u2014 Clean Beauty Certified",
+              "description": "We receive third-party clean beauty certification and introduce our first refillable packaging option.",
+              "metadata": {}
+            },
+            {
+              "title": "2022 \u2014 Community Co-Creation",
+              "description": "The Citrus Burst Sugar Scrub is developed entirely based on community votes and ingredient suggestions.",
+              "metadata": {}
+            },
+            {
+              "title": "2023 \u2014 50,000 Customers & Counting",
+              "description": "We cross 50,000 happy customers and launch our sustainability pledge: plastic-free packaging by 2026.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "brand-section-4-asset-1",
+              "kind": "icon",
+              "subject": "A set of five simple milestone icons: a jar, a star, a leaf, a group of people, and a globe \u2014 one for each timeline step.",
+              "purpose": "Visual markers for each timeline entry that make the brand journey scannable and emotionally engaging.",
+              "quantity": 1,
+              "used_by": [
+                "brand-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "brand-section-5",
+          "type": "cta",
+          "intent": "Transition brand story readers into product explorers or sustainability advocates with a warm, values-aligned prompt.",
+          "eyebrow": "Be Part of It",
+          "headline": "The Story Continues \u2014 With You In It",
+          "subheadline": "Explore our products, learn about our planet commitments, or just say hello.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Products",
+              "target_page": "products"
+            },
+            {
+              "label": "Our Sustainability Pledge",
+              "target_page": "sustainability"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "title": "Products",
+      "role": "listing",
+      "goal": "Present the full product catalog in a gallery-first, visually rich format that makes it easy and enjoyable to discover, compare, and choose products.",
+      "meta_description": "Browse the full Lumi & Bloom body care collection \u2014 clean lotions, scrubs, oils, and butters formulated for every skin need and daily ritual.",
+      "sections": [
+        {
+          "id": "products-section-1",
+          "type": "page_header",
+          "intent": "Orient visitors to the product catalog and set the expectation of a curated, intentional range rather than an overwhelming store.",
+          "eyebrow": "The Collection",
+          "headline": "Every Product, One Purpose: Make You Feel Amazing",
+          "subheadline": "12 clean body care essentials. Each one developed for a specific ritual, skin need, or feel-good moment.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "products-section-2",
+          "type": "gallery",
+          "intent": "Lead with the full product gallery in a visually immersive format that lets the product design and naming do the storytelling.",
+          "eyebrow": "All Products",
+          "headline": "Find Your New Ritual",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Honey & Oat Body Lotion",
+              "description": "Deeply moisturizing daily lotion with oat milk, honey extract, and shea butter. Absorbs fast, lasts all day.",
+              "metadata": {
+                "category": "Lotion",
+                "size": "250ml",
+                "skin_type": "All skin types"
+              }
+            },
+            {
+              "title": "Citrus Burst Sugar Scrub",
+              "description": "Community-created exfoliating scrub with sweet orange, grapefruit, and raw cane sugar. Buff, brighten, glow.",
+              "metadata": {
+                "category": "Scrub",
+                "size": "200g",
+                "skin_type": "Normal to oily"
+              }
+            },
+            {
+              "title": "Rosehip Glow Body Oil",
+              "description": "Lightweight rosehip and jojoba oil blend that absorbs without residue and leaves a natural luminous finish.",
+              "metadata": {
+                "category": "Oil",
+                "size": "100ml",
+                "skin_type": "Dry to normal"
+              }
+            },
+            {
+              "title": "Lavender Dream Butter",
+              "description": "The original Lumi & Bloom formula. Whipped shea with lavender and chamomile for a calming evening ritual.",
+              "metadata": {
+                "category": "Butter",
+                "size": "180g",
+                "skin_type": "Dry skin"
+              }
+            },
+            {
+              "title": "Coconut & Aloe After-Sun Lotion",
+              "description": "Cooling, hydrating after-sun lotion with coconut water, aloe vera, and vitamin E to soothe and restore.",
+              "metadata": {
+                "category": "Lotion",
+                "size": "200ml",
+                "skin_type": "Sensitive skin"
+              }
+            },
+            {
+              "title": "Peppermint Foot Cream",
+              "description": "Intensive foot cream with peppermint oil and urea that softens dry heels and refreshes tired feet overnight.",
+              "metadata": {
+                "category": "Foot Care",
+                "size": "75ml",
+                "skin_type": "Rough or dry"
+              }
+            },
+            {
+              "title": "Green Tea Detox Scrub",
+              "description": "Antioxidant-rich body scrub with green tea, kaolin clay, and bamboo powder to draw out impurities.",
+              "metadata": {
+                "category": "Scrub",
+                "size": "200g",
+                "skin_type": "Oily or congested"
+              }
+            },
+            {
+              "title": "Vanilla Milk Bath Soak",
+              "description": "Luxurious bath soak with oat milk powder, vanilla extract, and Epsom salts for a full-body relaxation ritual.",
+              "metadata": {
+                "category": "Bath",
+                "size": "300g",
+                "skin_type": "All skin types"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "products-section-2-asset-1",
+              "kind": "mockup",
+              "subject": "A flat-lay style SVG mockup of a clean, minimalist product jar and bottle pair with a soft label, representing the Lumi & Bloom packaging aesthetic.",
+              "purpose": "Placeholder product visual that communicates packaging design language across the gallery before final product photography is available.",
+              "quantity": 1,
+              "used_by": [
+                "products-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "products-section-3",
+          "type": "comparison",
+          "intent": "Help shoppers navigate the range by comparing product categories across key decision criteria like skin type, ritual timing, and texture.",
+          "eyebrow": "Find Your Match",
+          "headline": "Not Sure Where to Start? Here's Your Cheat Sheet.",
+          "subheadline": "Compare our core product types by what your skin needs most.",
+          "body": null,
+          "items": [
+            {
+              "title": "Body Lotion",
+              "description": "Best for: daily all-over moisture. Texture: lightweight, fast-absorbing. Ideal ritual: morning, post-shower.",
+              "metadata": {
+                "best_for": "Everyday hydration",
+                "when": "Morning"
+              }
+            },
+            {
+              "title": "Body Butter",
+              "description": "Best for: intense overnight nourishment. Texture: rich and whipped. Ideal ritual: evening wind-down.",
+              "metadata": {
+                "best_for": "Deep moisture",
+                "when": "Evening"
+              }
+            },
+            {
+              "title": "Body Oil",
+              "description": "Best for: glow and skin barrier support. Texture: silky, non-greasy. Ideal ritual: post-shower, pre-lotion.",
+              "metadata": {
+                "best_for": "Radiance + repair",
+                "when": "Anytime"
+              }
+            },
+            {
+              "title": "Sugar Scrub",
+              "description": "Best for: exfoliation and renewal. Texture: gritty, invigorating. Ideal ritual: 2\u20133x per week in the shower.",
+              "metadata": {
+                "best_for": "Smoothness + brightness",
+                "when": "Weekly ritual"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "products-section-4",
+          "type": "feature_grid",
+          "intent": "Reinforce the product quality story by highlighting the formulation standards that apply across the entire range.",
+          "eyebrow": "What's In Every Formula",
+          "headline": "Clean by Design, Not by Claim",
+          "subheadline": "Every Lumi & Bloom product is held to the same non-negotiable ingredient standards.",
+          "body": null,
+          "items": [
+            {
+              "title": "No Parabens",
+              "description": "We never use paraben-based preservatives. Our formulas use naturally derived alternatives.",
+              "metadata": {}
+            },
+            {
+              "title": "No Synthetic Dyes",
+              "description": "All color comes from natural botanical pigments or the ingredients themselves.",
+              "metadata": {}
+            },
+            {
+              "title": "No Sulfates",
+              "description": "Gentle, sulfate-free cleansing agents only \u2014 safe for even the most sensitive skin.",
+              "metadata": {}
+            },
+            {
+              "title": "Dermatologist Reviewed",
+              "description": "Every formula is reviewed by an independent dermatologist before it reaches our shelves.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Learn About Our Sustainability",
+              "target_page": "sustainability"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "products-section-4-asset-1",
+              "kind": "icon",
+              "subject": "A set of four clean badge-style icons: a crossed-out chemical flask, a paint-drop with an X, a gentle wave, and a stethoscope \u2014 representing each formulation standard.",
+              "purpose": "Visual trust badges for the formulation standards grid that make the claims immediately scannable and credible.",
+              "quantity": 1,
+              "used_by": [
+                "products-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "products-section-5",
+          "type": "cta",
+          "intent": "Prompt undecided visitors to reach out for personalized product recommendations or to explore the brand story further.",
+          "eyebrow": "Still Deciding?",
+          "headline": "We'll Help You Find Your Perfect Match",
+          "subheadline": "Drop us a message and our team will recommend the right products for your skin and routine.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Get a Recommendation",
+              "target_page": "contact"
+            },
+            {
+              "label": "Read Our Brand Story",
+              "target_page": "brand"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "sustainability",
+      "title": "Sustainability",
+      "role": "editorial",
+      "goal": "Demonstrate that Lumi & Bloom's environmental and ethical commitments are specific, measurable, and sincere \u2014 converting skeptical consumers into loyal advocates.",
+      "meta_description": "Lumi & Bloom's sustainability commitments: clean ingredients, recycled packaging, carbon offsetting, and a plastic-free pledge by 2026.",
+      "sections": [
+        {
+          "id": "sustainability-section-1",
+          "type": "page_header",
+          "intent": "Open the sustainability story with a bold, honest statement that signals this page is about real commitments \u2014 not greenwashing.",
+          "eyebrow": "Our Planet Pledge",
+          "headline": "Good for Your Skin. Better for the Planet.",
+          "subheadline": "We believe beauty shouldn't cost the earth. Here's exactly what we're doing about it \u2014 and where we still have work to do.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "sustainability-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal SVG illustration of a globe wrapped gently in a leafy botanical vine, suggesting care for the natural world.",
+              "purpose": "Visual anchor for the sustainability page header that communicates environmental care without being clich\u00e9d.",
+              "quantity": 1,
+              "used_by": [
+                "sustainability-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sustainability-section-2",
+          "type": "stats",
+          "intent": "Lead with measurable impact data to immediately establish credibility and show that the sustainability story is backed by real numbers.",
+          "eyebrow": "Our Impact So Far",
+          "headline": "Progress We Can Actually Measure",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "78%",
+              "description": "Of our current packaging is made from recycled or recyclable materials.",
+              "metadata": {}
+            },
+            {
+              "title": "Carbon Neutral",
+              "description": "All shipping is carbon offset through a certified reforestation program.",
+              "metadata": {}
+            },
+            {
+              "title": "2026",
+              "description": "Our target year for 100% plastic-free packaging across the full range.",
+              "metadata": {}
+            },
+            {
+              "title": "1% for the Planet",
+              "description": "We donate 1% of annual revenue to environmental nonprofits through our giving program.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "sustainability-section-2-asset-1",
+              "kind": "chart",
+              "subject": "A simple horizontal progress bar chart showing packaging sustainability progress: 78% recycled materials, 100% carbon-offset shipping, and a 2026 plastic-free goal tracker.",
+              "purpose": "Makes the sustainability stats visually tangible and shows momentum toward the 2026 pledge in an honest, non-inflated way.",
+              "quantity": 1,
+              "used_by": [
+                "sustainability-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sustainability-section-3",
+          "type": "feature_grid",
+          "intent": "Break down the sustainability strategy into four clear pillars that visitors can understand and evaluate on their own terms.",
+          "eyebrow": "Our Four Pillars",
+          "headline": "How We Think About Doing Better",
+          "subheadline": "Every sustainability decision at Lumi & Bloom runs through these four lenses.",
+          "body": null,
+          "items": [
+            {
+              "title": "Clean Formulation",
+              "description": "We source only responsibly harvested, sustainably farmed botanical ingredients. No petrochemical derivatives. Full supply chain transparency.",
+              "metadata": {}
+            },
+            {
+              "title": "Circular Packaging",
+              "description": "We use post-consumer recycled plastics, glass, and aluminum. Our refill program lets customers return empties for a discount on their next order.",
+              "metadata": {}
+            },
+            {
+              "title": "Climate Responsibility",
+              "description": "All operations and shipping are carbon offset. We publish our annual carbon footprint report so you can hold us accountable.",
+              "metadata": {}
+            },
+            {
+              "title": "Community Giving",
+              "description": "1% of every sale goes to environmental and women's wellness nonprofits selected by our customer community each year.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "sustainability-section-4",
+          "type": "timeline",
+          "intent": "Show the sustainability roadmap \u2014 both what has been achieved and what is planned \u2014 to demonstrate forward momentum and honest accountability.",
+          "eyebrow": "The Roadmap",
+          "headline": "Where We've Been and Where We're Going",
+          "subheadline": "We share this publicly because accountability is part of the commitment.",
+          "body": null,
+          "items": [
+            {
+              "title": "2021 \u2014 Recycled Packaging Introduced",
+              "description": "Switched to post-consumer recycled materials for all bottles and jars, eliminating virgin plastic from 60% of the range.",
+              "metadata": {
+                "status": "Complete"
+              }
+            },
+            {
+              "title": "2022 \u2014 Carbon-Offset Shipping Launched",
+              "description": "Partnered with a certified reforestation program to offset 100% of shipping emissions on every order.",
+              "metadata": {
+                "status": "Complete"
+              }
+            },
+            {
+              "title": "2023 \u2014 Refill Program Pilot",
+              "description": "Launched a refill program for our top three products, reducing single-use packaging by an estimated 18,000 units annually.",
+              "metadata": {
+                "status": "Complete"
+              }
+            },
+            {
+              "title": "2024 \u2014 Full Refill Range Expansion",
+              "description": "Expanding the refill program to cover the entire product catalog. Estimated completion: Q3 2024.",
+              "metadata": {
+                "status": "In Progress"
+              }
+            },
+            {
+              "title": "2026 \u2014 100% Plastic-Free Pledge",
+              "description": "Full transition to glass, aluminum, and compostable materials across all products and shipping materials.",
+              "metadata": {
+                "status": "Planned"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "sustainability-section-5",
+          "type": "cta",
+          "intent": "Invite visitors to become active participants in the brand's sustainability mission by shopping, sharing, or reaching out.",
+          "eyebrow": "Join the Movement",
+          "headline": "Every Purchase Is a Vote for Better Beauty",
+          "subheadline": "When you choose Lumi & Bloom, you're choosing cleaner formulas, less plastic, and a brand that's trying to do right by the planet.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop Clean",
+              "target_page": "products"
+            },
+            {
+              "label": "Talk to Us",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Make it effortless and inviting for customers to reach out \u2014 whether for product questions, wholesale inquiries, press, or community collaboration \u2014 while reinforcing the brand's warm, human personality.",
+      "meta_description": "Get in touch with Lumi & Bloom \u2014 we'd love to hear from you. Reach out for product help, wholesale, press, or just to say hi.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a warm, low-pressure tone for the contact page that makes visitors feel genuinely welcomed rather than routed to a support ticket.",
+          "eyebrow": "Say Hello",
+          "headline": "We're Real People and We Actually Read These",
+          "subheadline": "Whether you have a question about a product, a wholesale idea, or just want to tell us about your skin \u2014 we're here for it.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A friendly SVG illustration of an open envelope with a small bloom flower emerging from it, suggesting warmth and genuine communication.",
+              "purpose": "Humanizes the contact page header and reinforces the brand's warm, approachable personality.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide the primary contact form and direct contact details in a clean, friendly format that feels approachable rather than corporate.",
+          "eyebrow": "Get In Touch",
+          "headline": "Drop Us a Line",
+          "subheadline": "We aim to respond to every message within one business day.",
+          "body": null,
+          "items": [
+            {
+              "title": "General Inquiries",
+              "description": "hello@lumiandbloom.com \u2014 for product questions, order help, and anything else on your mind.",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Wholesale & Retail",
+              "description": "wholesale@lumiandbloom.com \u2014 interested in stocking Lumi & Bloom? We'd love to chat.",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Press & Partnerships",
+              "description": "press@lumiandbloom.com \u2014 media kits, collaboration briefs, and brand partnership inquiries.",
+              "metadata": {
+                "type": "email"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "faq",
+          "intent": "Preemptively answer the most common contact reasons to reduce friction for visitors who just need a quick answer.",
+          "eyebrow": "Quick Answers",
+          "headline": "The Questions We Get Most",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "How long does shipping take?",
+              "description": "Standard shipping takes 3\u20135 business days. Expedited options are available at checkout. All orders are carbon offset.",
+              "metadata": {}
+            },
+            {
+              "title": "Are your products vegan and cruelty-free?",
+              "description": "Yes, completely. Every Lumi & Bloom product is 100% vegan and we never test on animals. We are Leaping Bunny certified.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I return a product if I don't love it?",
+              "description": "Absolutely. We offer a 30-day happiness guarantee. If a product isn't right for you, we'll make it right \u2014 no hassle.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you offer a refill program?",
+              "description": "Yes! Our refill program is available for select products. Return your empty and get 15% off your next refill order.",
+              "metadata": {}
+            },
+            {
+              "title": "Are your products suitable for sensitive skin?",
+              "description": "Most of our range is formulated for all skin types, including sensitive. Each product page lists suitability clearly.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "feature_grid",
+          "intent": "Highlight the different ways people connect with Lumi & Bloom \u2014 including community channels \u2014 to extend the relationship beyond transactional contact.",
+          "eyebrow": "Stay Connected",
+          "headline": "More Ways to Find Us",
+          "subheadline": "We're active, responsive, and genuinely love hearing from our community.",
+          "body": null,
+          "items": [
+            {
+              "title": "Instagram",
+              "description": "Follow @lumiandbloom for ritual inspiration, ingredient deep-dives, and community features. DMs are always open.",
+              "metadata": {
+                "handle": "@lumiandbloom"
+              }
+            },
+            {
+              "title": "TikTok",
+              "description": "Watch our behind-the-scenes formulation content, skincare tips, and customer transformations.",
+              "metadata": {
+                "handle": "@lumiandbloom"
+              }
+            },
+            {
+              "title": "Newsletter",
+              "description": "Join 20,000+ subscribers for early product access, ritual guides, and our monthly sustainability update.",
+              "metadata": {
+                "frequency": "Monthly"
+              }
+            },
+            {
+              "title": "Community Forum",
+              "description": "Our customer community is where new products get co-created. Share your skin feedback and help shape what we make next.",
+              "metadata": {
+                "type": "Online community"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-4-asset-1",
+              "kind": "icon",
+              "subject": "A set of four minimal line-art social and community icons: a camera (Instagram), a play symbol (TikTok), an envelope with a star (newsletter), and a speech bubble cluster (community).",
+              "purpose": "Friendly, brand-consistent icons for each social and community channel in the Stay Connected grid.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-5",
+          "type": "cta",
+          "intent": "Close the contact page with a light, brand-consistent nudge back into the product world for visitors who are ready to shop.",
+          "eyebrow": "While You're Here",
+          "headline": "Explore the Products That Started It All",
+          "subheadline": "Our bestsellers are waiting \u2014 and your skin will thank you.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Shop the Collection",
+              "target_page": "products"
+            },
+            {
+              "label": "Read Our Story",
+              "target_page": "brand"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

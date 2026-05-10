@@ -1,0 +1,19 @@
+{
+  "id": "ww-00025",
+  "version": "0.1",
+  "site_domain": "gaming_entertainment",
+  "site_subdomain": "esports tournament",
+  "design_aesthetic": "cyberpunk",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "team",
+    "schedule",
+    "merch",
+    "contact"
+  ],
+  "difficulty": "hard",
+  "seed": 2569918234,
+  "sample_index": 4,
+  "source": "web-weaver.concept_sampler"
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="thSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ECEEF1"/>
+      <stop offset="1" stop-color="#D6E4F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#thSky)"/>
+  <!-- Tree silhouette -->
+  <g fill="#0D1F3C" opacity="0.18">
+    <ellipse cx="40" cy="80" rx="28" ry="34"/>
+    <rect x="38" y="100" width="4" height="30"/>
+    <ellipse cx="370" cy="90" rx="22" ry="26"/>
+    <rect x="368" y="110" width="4" height="28"/>
+  </g>
+  <!-- Townhouses row -->
+  <g>
+    <!-- House 1 -->
+    <rect x="60" y="80" width="80" height="120" fill="#7A4A3A"/>
+    <polygon points="60,80 100,60 140,80" fill="#3A2A22"/>
+    <rect x="68" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="86" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="104" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="122" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="68" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="86" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="104" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="122" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="92" y="160" width="20" height="40" fill="#0D1F3C"/>
+    <rect x="100" y="170" width="2" height="10" fill="#B89A5E"/>
+
+    <!-- House 2 -->
+    <rect x="140" y="76" width="80" height="124" fill="#9B6A4A"/>
+    <polygon points="140,76 180,56 220,76" fill="#3A2A22"/>
+    <rect x="148" y="94" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="166" y="94" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="184" y="94" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="202" y="94" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="148" y="121" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="166" y="121" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="184" y="121" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="202" y="121" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="172" y="160" width="20" height="40" fill="#0D1F3C"/>
+    <rect x="180" y="170" width="2" height="10" fill="#B89A5E"/>
+
+    <!-- House 3 -->
+    <rect x="220" y="80" width="80" height="120" fill="#6B4A3A"/>
+    <polygon points="220,80 260,60 300,80" fill="#3A2A22"/>
+    <rect x="228" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="246" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="264" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="282" y="98" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="228" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="246" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="264" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="282" y="125" width="14" height="20" fill="#F7F8FA"/>
+    <rect x="252" y="160" width="20" height="40" fill="#0D1F3C"/>
+  </g>
+  <!-- Pavement -->
+  <rect x="0" y="200" width="400" height="20" fill="#4A5568" opacity="0.4"/>
+</svg>

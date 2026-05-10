@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g fill="none" stroke="#2D3A35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- leaf sprig 1 -->
+    <path d="M20 30 q8 -10 16 0" />
+    <path d="M28 30 q-4 -8 0 -16" />
+    <path d="M28 14 q-3 4 -3 8 M28 14 q3 4 3 8" />
+    <!-- dot cluster -->
+    <circle cx="80" cy="22" r="2" fill="#2D3A35" />
+    <circle cx="86" cy="28" r="2" fill="#2D3A35" />
+    <circle cx="80" cy="34" r="2" fill="#2D3A35" />
+    <!-- leaf sprig 2 -->
+    <path d="M70 70 q10 -2 18 -10" />
+    <path d="M88 60 q-4 -2 -8 0 M88 60 q-2 4 0 8" />
+    <!-- small dot trio -->
+    <circle cx="30" cy="80" r="1.8" fill="#2D3A35" />
+    <circle cx="36" cy="84" r="1.8" fill="#2D3A35" />
+    <circle cx="30" cy="88" r="1.8" fill="#2D3A35" />
+    <!-- vertical sprig -->
+    <path d="M100 100 q-6 -8 0 -18" />
+    <path d="M100 86 q-4 4 -4 8 M100 86 q4 4 4 8" />
+    <path d="M100 96 q-4 4 -4 8 M100 96 q4 4 4 8" />
+  </g>
+</svg>

@@ -1,0 +1,748 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 20,
+    "visible_sections": 20,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Hearthstone Law — Estate Planning Attorneys",
+            "bodyTextLength": 2200,
+            "scrollHeight": 3382,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 794.609375,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 947.34375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 661.96875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 556.546875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Hearthstone Law — Estate Planning Attorneys",
+            "bodyTextLength": 2200,
+            "scrollHeight": 4965,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 916.296875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 1528.84375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1310.484375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 505.265625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — Hearthstone Law",
+            "bodyTextLength": 3023,
+            "scrollHeight": 3425,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 1440,
+                "height": 575.21875,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 1440,
+                "height": 798.875,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 1440,
+                "height": 847.921875,
+                "visible": true
+              },
+              {
+                "id": "about-section-4",
+                "width": 1440,
+                "height": 781.515625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — Hearthstone Law",
+            "bodyTextLength": 3023,
+            "scrollHeight": 5307,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 390,
+                "height": 582.6875,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 390,
+                "height": 1085.78125,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 390,
+                "height": 1590.96875,
+                "visible": true
+              },
+              {
+                "id": "about-section-4",
+                "width": 390,
+                "height": 1343.828125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Hearthstone Law",
+            "bodyTextLength": 3243,
+            "scrollHeight": 2999,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 1440,
+                "height": 486.984375,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 1440,
+                "height": 993.328125,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 1440,
+                "height": 585.203125,
+                "visible": true
+              },
+              {
+                "id": "services-section-4",
+                "width": 1440,
+                "height": 512.453125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "articles.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Services — Hearthstone Law",
+            "bodyTextLength": 3243,
+            "scrollHeight": 5278,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "services-section-1",
+                "width": 390,
+                "height": 591.171875,
+                "visible": true
+              },
+              {
+                "id": "services-section-2",
+                "width": 390,
+                "height": 2398.421875,
+                "visible": true
+              },
+              {
+                "id": "services-section-3",
+                "width": 390,
+                "height": 1071.359375,
+                "visible": true
+              },
+              {
+                "id": "services-section-4",
+                "width": 390,
+                "height": 513.53125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "book.html",
+              "articles.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "articles",
+      "route": "/articles.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Articles — Hearthstone Law",
+            "bodyTextLength": 2806,
+            "scrollHeight": 2835,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "articles-section-1",
+                "width": 1440,
+                "height": 374.890625,
+                "visible": true
+              },
+              {
+                "id": "articles-section-2",
+                "width": 1440,
+                "height": 964.203125,
+                "visible": true
+              },
+              {
+                "id": "articles-section-3",
+                "width": 1440,
+                "height": 552.359375,
+                "visible": true
+              },
+              {
+                "id": "articles-section-4",
+                "width": 1440,
+                "height": 521.578125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Articles — Hearthstone Law",
+            "bodyTextLength": 2806,
+            "scrollHeight": 4966,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "articles-section-1",
+                "width": 390,
+                "height": 438.765625,
+                "visible": true
+              },
+              {
+                "id": "articles-section-2",
+                "width": 390,
+                "height": 2273.546875,
+                "visible": true
+              },
+              {
+                "id": "articles-section-3",
+                "width": 390,
+                "height": 1059.265625,
+                "visible": true
+              },
+              {
+                "id": "articles-section-4",
+                "width": 390,
+                "height": 490.40625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "#",
+              "book.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "route": "/book.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Book a Consultation — Hearthstone Law",
+            "bodyTextLength": 2498,
+            "scrollHeight": 3082,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "book-section-1",
+                "width": 1440,
+                "height": 449.828125,
+                "visible": true
+              },
+              {
+                "id": "book-section-2",
+                "width": 1440,
+                "height": 971.796875,
+                "visible": true
+              },
+              {
+                "id": "book-section-3",
+                "width": 1440,
+                "height": 669.953125,
+                "visible": true
+              },
+              {
+                "id": "book-section-4",
+                "width": 1440,
+                "height": 568.484375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "tel:5558472200",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Book a Consultation — Hearthstone Law",
+            "bodyTextLength": 2498,
+            "scrollHeight": 5604,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "book-section-1",
+                "width": 390,
+                "height": 682.609375,
+                "visible": true
+              },
+              {
+                "id": "book-section-2",
+                "width": 390,
+                "height": 1691.609375,
+                "visible": true
+              },
+              {
+                "id": "book-section-3",
+                "width": 390,
+                "height": 1609.015625,
+                "visible": true
+              },
+              {
+                "id": "book-section-4",
+                "width": 390,
+                "height": 916.53125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "services.html",
+              "articles.html",
+              "book.html",
+              "tel:5558472200",
+              "services.html",
+              "services.html",
+              "services.html",
+              "services.html",
+              "about.html",
+              "about.html",
+              "articles.html",
+              "book.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

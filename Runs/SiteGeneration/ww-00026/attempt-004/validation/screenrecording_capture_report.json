@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 2500,
+  "bottom_hold_ms": 2000,
+  "min_scroll_ms": 7000,
+  "max_scroll_ms": 15000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 3565,
+      "max_scroll_y": 2565,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2683387
+    },
+    {
+      "slug": "brand",
+      "route": "/brand.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4174,
+      "max_scroll_y": 3174,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "brand.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2708210
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4418,
+      "max_scroll_y": 3418,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "products.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3419313
+    },
+    {
+      "slug": "sustainability",
+      "route": "/sustainability.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4734,
+      "max_scroll_y": 3734,
+      "scroll_duration_ms": 7468,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "sustainability.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2805293
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4145,
+      "max_scroll_y": 3145,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "contact.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2280167
+    }
+  ]
+}

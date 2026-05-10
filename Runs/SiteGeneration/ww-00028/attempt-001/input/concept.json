@@ -1,0 +1,19 @@
+{
+  "id": "ww-00028",
+  "version": "0.1",
+  "site_domain": "legal_professional",
+  "site_subdomain": "estate planning practice",
+  "design_aesthetic": "skeuomorphic_modern",
+  "layout_family": "card_grid",
+  "page_set": [
+    "home",
+    "about",
+    "services",
+    "articles",
+    "book"
+  ],
+  "difficulty": "medium",
+  "seed": 2569918234,
+  "sample_index": 7,
+  "source": "web-weaver.concept_sampler"
+}

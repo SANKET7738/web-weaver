@@ -1,0 +1,241 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 15,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2384,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1384,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 172940
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "route": "/projects.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2788,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "projects/projects_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "projects/projects_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1788,
+          "path": "projects/projects_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "projects/projects_full.png",
+        "bytes": 306469
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2299,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "services/services_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "services/services_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1299,
+          "path": "services/services_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "services/services_full.png",
+        "bytes": 176113
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        },
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "faq-aside",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2421,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "team/team_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "team/team_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1421,
+          "path": "team/team_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "team/team_full.png",
+        "bytes": 178165
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "inquiries",
+      "route": "/inquiries.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2574,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "inquiries/inquiries_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "inquiries/inquiries_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1574,
+          "path": "inquiries/inquiries_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "inquiries/inquiries_full.png",
+        "bytes": 191427
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

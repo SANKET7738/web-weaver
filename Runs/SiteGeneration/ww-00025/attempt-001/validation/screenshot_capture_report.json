@@ -1,0 +1,281 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 23,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4053,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3053,
+          "path": "home/home_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 641312
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        },
+        {
+          "tag": "div",
+          "id": null,
+          "className": "trophy-anchor",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3228,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "team/team_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "team/team_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "team/team_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2228,
+          "path": "team/team_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "team/team_full.png",
+        "bytes": 259735
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4702,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "schedule/schedule_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "schedule/schedule_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "schedule/schedule_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "schedule/schedule_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3702,
+          "path": "schedule/schedule_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "schedule/schedule_full.png",
+        "bytes": 442797
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "merch",
+      "route": "/merch.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4062,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "merch/merch_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "merch/merch_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "merch/merch_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "merch/merch_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3062,
+          "path": "merch/merch_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "merch/merch_full.png",
+        "bytes": 703818
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3514,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2514,
+          "path": "contact/contact_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 538401
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

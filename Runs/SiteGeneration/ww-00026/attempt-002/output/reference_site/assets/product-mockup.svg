@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Lumi & Bloom product jar and bottle pair">
+  <!-- Bottle (left) -->
+  <g>
+    <!-- Cap -->
+    <rect x="44" y="40" width="36" height="14" rx="3" fill="#2D3A35"/>
+    <rect x="40" y="50" width="44" height="10" rx="2" fill="#2D3A35"/>
+    <!-- Bottle body -->
+    <rect x="36" y="60" width="52" height="118" rx="10" fill="#FFF8F4" stroke="#2D3A35" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="42" y="92" width="40" height="60" rx="4" fill="#FFCBA4"/>
+    <line x1="48" y1="106" x2="76" y2="106" stroke="#2D3A35" stroke-width="1.5" opacity="0.7"/>
+    <line x1="48" y1="116" x2="68" y2="116" stroke="#2D3A35" stroke-width="1.2" opacity="0.5"/>
+    <!-- Tiny bloom on bottle label -->
+    <g transform="translate(62 132)">
+      <circle cx="0" cy="-6" r="3" fill="#FF6F5E"/>
+      <circle cx="6" cy="0" r="3" fill="#FF6F5E"/>
+      <circle cx="0" cy="6" r="3" fill="#FF6F5E"/>
+      <circle cx="-6" cy="0" r="3" fill="#FF6F5E"/>
+      <circle cx="0" cy="0" r="2" fill="#FFE566"/>
+    </g>
+  </g>
+
+  <!-- Jar (right) -->
+  <g>
+    <!-- Lid -->
+    <rect x="120" y="48" width="78" height="20" rx="4" fill="#A8E6CF" stroke="#2D3A35" stroke-width="2"/>
+    <line x1="124" y1="56" x2="194" y2="56" stroke="#2D3A35" stroke-width="1" opacity="0.5"/>
+    <!-- Jar body -->
+    <rect x="124" y="68" width="70" height="110" rx="10" fill="#FFF8F4" stroke="#2D3A35" stroke-width="2"/>
+    <!-- Label -->
+    <rect x="130" y="98" width="58" height="52" rx="4" fill="#FFE566"/>
+    <line x1="136" y1="112" x2="176" y2="112" stroke="#2D3A35" stroke-width="1.5" opacity="0.7"/>
+    <line x1="136" y1="122" x2="168" y2="122" stroke="#2D3A35" stroke-width="1.2" opacity="0.5"/>
+    <!-- Tiny leaf on jar label -->
+    <g transform="translate(159 138)">
+      <ellipse cx="-4" cy="0" rx="6" ry="3" fill="#A8E6CF"/>
+      <ellipse cx="4" cy="0" rx="6" ry="3" fill="#A8E6CF"/>
+    </g>
+  </g>
+
+  <!-- Soft shadow under products -->
+  <ellipse cx="110" cy="186" rx="100" ry="6" fill="#2D3A35" opacity="0.07"/>
+</svg>

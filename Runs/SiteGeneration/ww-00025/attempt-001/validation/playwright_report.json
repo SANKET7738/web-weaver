@@ -1,0 +1,820 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — The Grid Does Not Forgive the Weak",
+            "bodyTextLength": 1979,
+            "scrollHeight": 4053,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 996.984375,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 408.296875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 978.125,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 941.0625,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 507.375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — The Grid Does Not Forgive the Weak",
+            "bodyTextLength": 1936,
+            "scrollHeight": 5498,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 776.46875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 788.5625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1494.515625,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 1434.671875,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 533.21875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Teams",
+            "bodyTextLength": 2353,
+            "scrollHeight": 3228,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "team-section-1",
+                "width": 1440,
+                "height": 499.125,
+                "visible": true
+              },
+              {
+                "id": "team-section-2",
+                "width": 1440,
+                "height": 284.125,
+                "visible": true
+              },
+              {
+                "id": "team-section-3",
+                "width": 1440,
+                "height": 852.078125,
+                "visible": true
+              },
+              {
+                "id": "team-section-4",
+                "width": 1440,
+                "height": 736.65625,
+                "visible": true
+              },
+              {
+                "id": "team-section-5",
+                "width": 1440,
+                "height": 587.015625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Teams",
+            "bodyTextLength": 2310,
+            "scrollHeight": 5479,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "team-section-1",
+                "width": 390,
+                "height": 434.296875,
+                "visible": true
+              },
+              {
+                "id": "team-section-2",
+                "width": 390,
+                "height": 759.015625,
+                "visible": true
+              },
+              {
+                "id": "team-section-3",
+                "width": 390,
+                "height": 1834.5625,
+                "visible": true
+              },
+              {
+                "id": "team-section-4",
+                "width": 390,
+                "height": 1331.0625,
+                "visible": true
+              },
+              {
+                "id": "team-section-5",
+                "width": 390,
+                "height": 601.28125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Schedule",
+            "bodyTextLength": 2797,
+            "scrollHeight": 4702,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "schedule-section-1",
+                "width": 1440,
+                "height": 601.34375,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-2",
+                "width": 1440,
+                "height": 1382.609375,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-3",
+                "width": 1440,
+                "height": 1099.28125,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-4",
+                "width": 1440,
+                "height": 649,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-5",
+                "width": 1440,
+                "height": 652.703125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "team.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Schedule",
+            "bodyTextLength": 2754,
+            "scrollHeight": 6710,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "schedule-section-1",
+                "width": 390,
+                "height": 744.59375,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-2",
+                "width": 390,
+                "height": 1738.453125,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-3",
+                "width": 390,
+                "height": 1734.734375,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-4",
+                "width": 390,
+                "height": 1298.734375,
+                "visible": true
+              },
+              {
+                "id": "schedule-section-5",
+                "width": 390,
+                "height": 650.578125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "team.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "merch",
+      "route": "/merch.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Merch",
+            "bodyTextLength": 2825,
+            "scrollHeight": 4062,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "merch-section-1",
+                "width": 1440,
+                "height": 440.34375,
+                "visible": true
+              },
+              {
+                "id": "merch-section-2",
+                "width": 1440,
+                "height": 1350.953125,
+                "visible": true
+              },
+              {
+                "id": "merch-section-3",
+                "width": 1440,
+                "height": 843.828125,
+                "visible": true
+              },
+              {
+                "id": "merch-section-4",
+                "width": 1440,
+                "height": 477.921875,
+                "visible": true
+              },
+              {
+                "id": "merch-section-5",
+                "width": 1440,
+                "height": 664.671875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "merch.html",
+              "contact.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Merch",
+            "bodyTextLength": 2782,
+            "scrollHeight": 7970,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "merch-section-1",
+                "width": 390,
+                "height": 675.765625,
+                "visible": true
+              },
+              {
+                "id": "merch-section-2",
+                "width": 390,
+                "height": 3382.1875,
+                "visible": true
+              },
+              {
+                "id": "merch-section-3",
+                "width": 390,
+                "height": 1776.890625,
+                "visible": true
+              },
+              {
+                "id": "merch-section-4",
+                "width": 390,
+                "height": 950.765625,
+                "visible": true
+              },
+              {
+                "id": "merch-section-5",
+                "width": 390,
+                "height": 665.390625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "merch.html",
+              "contact.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Contact",
+            "bodyTextLength": 2571,
+            "scrollHeight": 3514,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 434.015625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 706.6875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 802.1875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 678.578125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 575.828125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "team.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "NEONRIFT — Contact",
+            "bodyTextLength": 2528,
+            "scrollHeight": 5089,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 420,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1573.09375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 980.28125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 390,
+                "height": 1012.34375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 390,
+                "height": 560,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "team.html",
+              "schedule.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "team.html",
+              "schedule.html",
+              "team.html",
+              "schedule.html",
+              "contact.html",
+              "merch.html",
+              "merch.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

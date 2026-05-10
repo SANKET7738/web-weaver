@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Globe wrapped in a leafy botanical vine">
+  <!-- Globe base -->
+  <circle cx="120" cy="120" r="84" fill="#A8E6CF" opacity="0.4"/>
+  <circle cx="120" cy="120" r="84" fill="none" stroke="#2D3A35" stroke-width="3"/>
+
+  <!-- Latitude lines -->
+  <ellipse cx="120" cy="120" rx="84" ry="32" fill="none" stroke="#2D3A35" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="120" cy="120" rx="84" ry="60" fill="none" stroke="#2D3A35" stroke-width="2" opacity="0.4"/>
+  <line x1="36" y1="120" x2="204" y2="120" stroke="#2D3A35" stroke-width="2" opacity="0.6"/>
+
+  <!-- Longitude line -->
+  <ellipse cx="120" cy="120" rx="32" ry="84" fill="none" stroke="#2D3A35" stroke-width="2" opacity="0.5"/>
+
+  <!-- Continents (abstract shapes) -->
+  <path d="M70 100 C 80 92, 95 95, 100 105 C 95 118, 82 122, 75 116 Z" fill="#2D3A35" opacity="0.7"/>
+  <path d="M125 95 C 145 90, 160 100, 158 116 C 145 122, 132 116, 128 108 Z" fill="#2D3A35" opacity="0.7"/>
+  <path d="M85 145 C 100 140, 122 145, 130 155 C 118 168, 95 168, 85 158 Z" fill="#2D3A35" opacity="0.7"/>
+
+  <!-- Vine wrapping around globe -->
+  <path d="M40 70 C 80 50, 130 60, 170 50 C 200 44, 215 60, 210 90"
+        fill="none" stroke="#2D3A35" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M30 170 C 70 190, 120 180, 170 200 C 200 210, 220 196, 215 170"
+        fill="none" stroke="#2D3A35" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Leaves on vine -->
+  <g fill="#A8E6CF" stroke="#2D3A35" stroke-width="2">
+    <path d="M55 60 C 50 48, 62 42, 70 50 C 70 60, 62 64, 55 60 Z"/>
+    <path d="M105 50 C 100 38, 112 32, 120 40 C 120 50, 112 54, 105 50 Z"/>
+    <path d="M155 47 C 150 35, 162 30, 170 38 C 170 48, 162 52, 155 47 Z"/>
+    <path d="M50 180 C 56 192, 44 198, 36 190 C 36 180, 44 176, 50 180 Z"/>
+    <path d="M105 188 C 110 200, 98 206, 90 198 C 90 188, 98 184, 105 188 Z"/>
+    <path d="M165 200 C 170 212, 158 218, 150 210 C 150 200, 158 196, 165 200 Z"/>
+  </g>
+
+  <!-- Coral vine tips -->
+  <circle cx="40" cy="70" r="5" fill="#FF6F5E"/>
+  <circle cx="210" cy="90" r="5" fill="#FF6F5E"/>
+  <circle cx="30" cy="170" r="5" fill="#FF6F5E"/>
+  <circle cx="215" cy="170" r="5" fill="#FF6F5E"/>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "valid": true,
+  "checks": {
+    "file_structure": true,
+    "page_files": true,
+    "routes": true,
+    "content_coverage": true,
+    "section_coverage": true,
+    "palette_usage": true,
+    "font_usage": true,
+    "asset_coverage": true,
+    "policy": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "content_coverage_skipped": "framework=react_css",
+    "section_coverage_skipped": "framework=react_css",
+    "palette_colors_used": 8,
+    "palette_colors_expected": 8,
+    "palette_colors_matched": [
+      "#2d3a35",
+      "#5bc8d0",
+      "#a8e6cf",
+      "#edf6f9",
+      "#ff6f5e",
+      "#ffcba4",
+      "#ffe566",
+      "#fff8f4"
+    ],
+    "font_matches": 3,
+    "fonts_matched": [
+      "Nunito",
+      "DM Sans",
+      "Fredoka One"
+    ],
+    "asset_sections": 10,
+    "covered_asset_sections": 10,
+    "asset_coverage": 1.0,
+    "policy_violations": [],
+    "policy_framework": "react_css"
+  },
+  "failures": []
+}

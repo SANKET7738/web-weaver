@@ -1,0 +1,250 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 18,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3382,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2382,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 300962
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3425,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "about/about_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "about/about_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "about/about_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2425,
+          "path": "about/about_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "about/about_full.png",
+        "bytes": 314679
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2999,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "services/services_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "services/services_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1999,
+          "path": "services/services_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "services/services_full.png",
+        "bytes": 413308
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "articles",
+      "route": "/articles.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2835,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "articles/articles_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "articles/articles_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1835,
+          "path": "articles/articles_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "articles/articles_full.png",
+        "bytes": 284535
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "book",
+      "route": "/book.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3082,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "book/book_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "book/book_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "book/book_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2082,
+          "path": "book/book_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "book/book_full.png",
+        "bytes": 303504
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

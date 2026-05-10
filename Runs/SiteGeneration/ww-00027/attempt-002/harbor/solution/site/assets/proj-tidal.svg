@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="coastal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#155e75"/>
+      <stop offset="100%" stop-color="#082f49"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" fill="url(#coastal)"/>
+  <!-- Storm-surge wave layers -->
+  <path d="M0,140 Q40,125 80,140 T160,140 T240,140 T320,140 T400,140 L400,180 L0,180 Z" fill="#0d9488" opacity="0.55"/>
+  <path d="M0,160 Q40,145 80,160 T160,160 T240,160 T320,160 T400,160 L400,200 L0,200 Z" fill="#2563EB" opacity="0.55"/>
+  <path d="M0,180 Q40,170 80,180 T160,180 T240,180 T320,180 T400,180 L400,220 L0,220 Z" fill="#1e3a8a" opacity="0.7"/>
+  <!-- Shoreline / resilient vegetation -->
+  <rect x="0" y="200" width="400" height="80" fill="#0d9488" opacity="0.22"/>
+  <!-- Park boardwalk -->
+  <polygon points="60,220 340,220 360,270 40,270" fill="#92400e" opacity="0.7"/>
+  <g stroke="#1C2333" stroke-width="0.5" opacity="0.5">
+    <line x1="60" y1="240" x2="340" y2="240"/>
+    <line x1="60" y1="255" x2="340" y2="255"/>
+    <line x1="120" y1="220" x2="115" y2="270"/>
+    <line x1="180" y1="220" x2="180" y2="270"/>
+    <line x1="240" y1="220" x2="245" y2="270"/>
+    <line x1="300" y1="220" x2="305" y2="270"/>
+  </g>
+  <!-- Mangrove / tree silhouettes -->
+  <g fill="#0d9488" opacity="0.9">
+    <circle cx="40" cy="190" r="14"/>
+    <circle cx="55" cy="200" r="11"/>
+    <circle cx="100" cy="195" r="13"/>
+    <circle cx="350" cy="190" r="13"/>
+    <circle cx="370" cy="200" r="11"/>
+  </g>
+  <!-- Birds -->
+  <g stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.7">
+    <path d="M120,60 q4,-6 8,0 q4,-6 8,0"/>
+    <path d="M180,80 q4,-6 8,0 q4,-6 8,0"/>
+    <path d="M250,70 q4,-6 8,0 q4,-6 8,0"/>
+  </g>
+  <!-- Biodiversity data dots -->
+  <circle cx="150" cy="155" r="3" fill="#D97706"/>
+  <circle cx="220" cy="165" r="3" fill="#D97706"/>
+  <circle cx="290" cy="158" r="3" fill="#D97706"/>
+</svg>

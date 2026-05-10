@@ -1,0 +1,235 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 15,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2572,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1572,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 589635
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "listings",
+      "route": "/listings.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2724,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "listings/listings_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "listings/listings_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1724,
+          "path": "listings/listings_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "listings/listings_full.png",
+        "bytes": 243387
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "neighborhoods",
+      "route": "/neighborhoods.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2503,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "neighborhoods/neighborhoods_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "neighborhoods/neighborhoods_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1503,
+          "path": "neighborhoods/neighborhoods_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "neighborhoods/neighborhoods_full.png",
+        "bytes": 201105
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "agents",
+      "route": "/agents.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2552,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "agents/agents_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "agents/agents_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1552,
+          "path": "agents/agents_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "agents/agents_full.png",
+        "bytes": 233291
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2557,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1557,
+          "path": "contact/contact_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 174414
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

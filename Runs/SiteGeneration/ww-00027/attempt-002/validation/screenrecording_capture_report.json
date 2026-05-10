@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2280,
+      "max_scroll_y": 1280,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1092500
+    },
+    {
+      "slug": "projects",
+      "route": "/projects.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2944,
+      "max_scroll_y": 1944,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "projects.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1671674
+    },
+    {
+      "slug": "services",
+      "route": "/services.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2339,
+      "max_scroll_y": 1339,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "services.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1244949
+    },
+    {
+      "slug": "team",
+      "route": "/team.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2419,
+      "max_scroll_y": 1419,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "team.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 1390431
+    },
+    {
+      "slug": "inquiries",
+      "route": "/inquiries.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 2502,
+      "max_scroll_y": 1502,
+      "scroll_duration_ms": 5000,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "inquiries.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 879003
+    }
+  ]
+}

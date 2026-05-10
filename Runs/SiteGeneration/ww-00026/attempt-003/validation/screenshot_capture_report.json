@@ -1,0 +1,275 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 23,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3474,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2474,
+          "path": "home/home_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 430411
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "brand",
+      "route": "/brand.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4364,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "brand/brand_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "brand/brand_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "brand/brand_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "brand/brand_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3364,
+          "path": "brand/brand_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "brand/brand_full.png",
+        "bytes": 369072
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "products",
+      "route": "/products.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4039,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "products/products_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "products/products_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "products/products_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "products/products_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3039,
+          "path": "products/products_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "products/products_full.png",
+        "bytes": 434058
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "sustainability",
+      "route": "/sustainability.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4942,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "sustainability/sustainability_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "sustainability/sustainability_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "sustainability/sustainability_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "sustainability/sustainability_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3942,
+          "path": "sustainability/sustainability_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "sustainability/sustainability_full.png",
+        "bytes": 408940
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3971,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2971,
+          "path": "contact/contact_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 412878
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

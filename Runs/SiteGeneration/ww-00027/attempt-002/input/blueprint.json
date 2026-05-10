@@ -1,0 +1,574 @@
+{
+  "id": "ww-00027",
+  "version": "0.1",
+  "concept_id": "ww-00027",
+  "identity": {
+    "name": "Axiom Public Lab",
+    "tagline": "Space, Measured. Cities, Transformed.",
+    "one_line_description": "Axiom Public Lab is a data-driven public space design studio that translates urban research, behavioral metrics, and community insight into civic environments people actually use.",
+    "domain": "architecture_design",
+    "subdomain": "public space design lab",
+    "voice": [
+      "precise",
+      "analytical",
+      "civic-minded",
+      "authoritative"
+    ],
+    "target_audience": "Municipal governments, urban planners, real estate developers, and civic institutions seeking evidence-based design solutions for plazas, parks, streetscapes, and public infrastructure."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Establish Axiom Public Lab as the leading data-driven public space design studio, communicate the methodology's credibility, and direct visitors toward the project portfolio and inquiry process.",
+      "meta_description": "Axiom Public Lab designs public spaces through rigorous data analysis and urban research. Explore our civic projects, methodology, and team.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Immediately signal the studio's data-heavy, evidence-based identity and invite visitors to explore the portfolio of civic spaces.",
+          "eyebrow": "Public Space Design Lab",
+          "headline": "Every Square Meter Has a Story. We Read It First.",
+          "subheadline": "Axiom Public Lab fuses pedestrian flow data, environmental metrics, and community research to design public spaces that perform as well as they inspire.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore Our Projects",
+              "target_page": "projects"
+            },
+            {
+              "label": "Start an Inquiry",
+              "target_page": "inquiries"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Establish credibility and scale through quantified impact, reinforcing the data-driven brand identity.",
+          "eyebrow": "By the Numbers",
+          "headline": "Civic Design, Backed by Evidence",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "47",
+              "description": "Public spaces designed across 14 cities worldwide.",
+              "metadata": {
+                "unit": "Projects"
+              }
+            },
+            {
+              "title": "3.2M",
+              "description": "Annual pedestrian interactions measured across active sites.",
+              "metadata": {
+                "unit": "People Reached"
+              }
+            },
+            {
+              "title": "91%",
+              "description": "Of completed spaces report measurable increase in public dwell time.",
+              "metadata": {
+                "unit": "Satisfaction Rate"
+              }
+            },
+            {
+              "title": "18",
+              "description": "Municipal and government clients served since founding.",
+              "metadata": {
+                "unit": "Civic Partners"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Summarize the studio's core methodology pillars to help visitors understand how data and design intersect in every project.",
+          "eyebrow": "Our Method",
+          "headline": "Design Decisions Grounded in Real Urban Data",
+          "subheadline": "We don't guess what a community needs. We measure it.",
+          "body": null,
+          "items": [
+            {
+              "title": "Behavioral Mapping",
+              "description": "We deploy sensors, observational studies, and time-lapse analysis to understand how people actually move through and inhabit a space before a single line is drawn.",
+              "metadata": {}
+            },
+            {
+              "title": "Environmental Performance Modeling",
+              "description": "Solar access, wind patterns, acoustic comfort, and microclimate data are integrated into every design proposal to ensure year-round usability.",
+              "metadata": {}
+            },
+            {
+              "title": "Community Data Synthesis",
+              "description": "Structured surveys, participatory workshops, and demographic analysis ensure our designs reflect the real needs of the communities they serve.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See Our Services",
+              "target_page": "services"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "title": "Projects",
+      "role": "listing",
+      "goal": "Showcase the studio's portfolio of public space projects in a gallery-first format, demonstrating range, rigor, and measurable outcomes across diverse civic typologies.",
+      "meta_description": "Browse Axiom Public Lab's portfolio of data-driven public space projects including plazas, parks, streetscapes, and civic infrastructure across global cities.",
+      "sections": [
+        {
+          "id": "projects-section-1",
+          "type": "page_header",
+          "intent": "Orient visitors to the portfolio and set expectations for the evidence-based storytelling that accompanies each project.",
+          "eyebrow": "Our Work",
+          "headline": "Public Spaces Built on Proof, Not Assumption",
+          "subheadline": "Each project begins with a dataset and ends with a place people choose to return to.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "projects-section-2",
+          "type": "gallery",
+          "intent": "Display the portfolio as a visually rich, data-annotated gallery that invites exploration and communicates project diversity.",
+          "eyebrow": "Portfolio",
+          "headline": "47 Spaces. 14 Cities. One Methodology.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Meridian Plaza \u2014 Rotterdam",
+              "description": "A 4,200 m\u00b2 waterfront plaza redesigned using tidal flow data and pedestrian heat maps. Dwell time increased by 68% in the first year post-opening.",
+              "metadata": {
+                "type": "Plaza",
+                "year": "2023",
+                "area": "4,200 m\u00b2"
+              }
+            },
+            {
+              "title": "Kestrel Linear Park \u2014 Toronto",
+              "description": "A 1.8 km greenway corridor informed by cyclist and pedestrian conflict analysis. Injury incidents reduced by 41% following redesign.",
+              "metadata": {
+                "type": "Linear Park",
+                "year": "2022",
+                "area": "1.8 km"
+              }
+            },
+            {
+              "title": "Foundry Commons \u2014 Detroit",
+              "description": "Adaptive reuse of a post-industrial site into a multi-use civic square, guided by community sentiment analysis across 3,400 survey respondents.",
+              "metadata": {
+                "type": "Civic Square",
+                "year": "2023",
+                "area": "6,800 m\u00b2"
+              }
+            },
+            {
+              "title": "Solstice Promenade \u2014 Seville",
+              "description": "A shaded pedestrian boulevard designed using solar irradiance modeling to extend comfortable outdoor use by an average of 4.2 hours per day.",
+              "metadata": {
+                "type": "Promenade",
+                "year": "2021",
+                "area": "2,100 m"
+              }
+            },
+            {
+              "title": "Tidal Threshold Park \u2014 Singapore",
+              "description": "A coastal resilience park integrating storm surge modeling, biodiversity data, and social equity mapping to serve three adjacent underserved neighborhoods.",
+              "metadata": {
+                "type": "Resilience Park",
+                "year": "2024",
+                "area": "11,500 m\u00b2"
+              }
+            },
+            {
+              "title": "Harrow Market Square \u2014 London",
+              "description": "Revitalization of a declining commercial square using footfall analytics and vendor behavior studies, resulting in a 55% increase in market day attendance.",
+              "metadata": {
+                "type": "Market Square",
+                "year": "2022",
+                "area": "3,300 m\u00b2"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Discuss a Project",
+              "target_page": "inquiries"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "projects-section-3",
+          "type": "stats",
+          "intent": "Reinforce portfolio credibility with aggregated outcome data across all completed projects.",
+          "eyebrow": "Portfolio Outcomes",
+          "headline": "Measurable Impact Across Every Typology",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "+58%",
+              "description": "Average increase in public dwell time across completed plaza and park projects.",
+              "metadata": {}
+            },
+            {
+              "title": "14",
+              "description": "Cities across North America, Europe, Asia, and the Middle East.",
+              "metadata": {}
+            },
+            {
+              "title": "6",
+              "description": "Distinct civic typologies: plazas, parks, promenades, squares, corridors, and resilience landscapes.",
+              "metadata": {}
+            },
+            {
+              "title": "2.4B",
+              "description": "Combined value of public infrastructure projects delivered to date.",
+              "metadata": {
+                "unit": "USD"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "role": "overview",
+      "goal": "Clearly communicate the studio's full service offering, organized by phase, so that prospective clients understand what Axiom Public Lab delivers and how to engage.",
+      "meta_description": "Axiom Public Lab offers data-driven public space design services including urban research, behavioral analysis, concept design, and implementation oversight.",
+      "sections": [
+        {
+          "id": "services-section-1",
+          "type": "page_header",
+          "intent": "Frame the services page as a structured breakdown of the studio's capabilities, reinforcing the analytical and methodical brand voice.",
+          "eyebrow": "What We Do",
+          "headline": "From Raw Data to Realized Space",
+          "subheadline": "Our services span the full lifecycle of a public space project \u2014 from the first survey to the final paving stone.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-2",
+          "type": "feature_grid",
+          "intent": "Present the core service lines in a structured, scannable format that matches the data-heavy aesthetic and communicates depth of expertise.",
+          "eyebrow": "Core Services",
+          "headline": "A Full-Spectrum Design Practice",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Urban Research & Diagnostics",
+              "description": "We begin every engagement with a rigorous site analysis: pedestrian counts, behavioral observation, environmental sensing, and stakeholder interviews to establish a quantified baseline.",
+              "metadata": {
+                "phase": "Phase 01"
+              }
+            },
+            {
+              "title": "Community Engagement & Data Synthesis",
+              "description": "Structured participatory processes \u2014 surveys, workshops, and co-design sessions \u2014 generate qualitative data that is coded, weighted, and integrated alongside quantitative findings.",
+              "metadata": {
+                "phase": "Phase 02"
+              }
+            },
+            {
+              "title": "Evidence-Based Concept Design",
+              "description": "Design proposals are generated directly from research outputs. Every spatial decision is traceable to a data point, ensuring defensible, community-aligned outcomes.",
+              "metadata": {
+                "phase": "Phase 03"
+              }
+            },
+            {
+              "title": "Environmental Performance Analysis",
+              "description": "We model microclimate, solar access, acoustic conditions, and stormwater performance to optimize comfort, resilience, and ecological value across all seasons.",
+              "metadata": {
+                "phase": "Phase 04"
+              }
+            },
+            {
+              "title": "Implementation Documentation",
+              "description": "Detailed construction documentation, material specifications, and phasing strategies ensure design intent is preserved through procurement and build.",
+              "metadata": {
+                "phase": "Phase 05"
+              }
+            },
+            {
+              "title": "Post-Occupancy Evaluation",
+              "description": "We return after opening to measure real-world performance against projected metrics, generating a feedback loop that sharpens every future project.",
+              "metadata": {
+                "phase": "Phase 06"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Request a Consultation",
+              "target_page": "inquiries"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "services-section-3",
+          "type": "faq",
+          "intent": "Address common questions from municipal and institutional clients to reduce friction in the inquiry process and pre-qualify expectations.",
+          "eyebrow": "Common Questions",
+          "headline": "What Clients Ask Before Engaging",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "What types of clients do you typically work with?",
+              "description": "We work primarily with municipal governments, public development authorities, urban regeneration agencies, and civic-minded private developers. Our projects range from neighborhood pocket parks to major metropolitan infrastructure.",
+              "metadata": {}
+            },
+            {
+              "title": "How long does a typical project take?",
+              "description": "Project timelines vary by scope. A focused urban diagnostic study may take 6\u201310 weeks, while a full design and documentation engagement for a major public space typically runs 12\u201324 months.",
+              "metadata": {}
+            },
+            {
+              "title": "Can you work within existing procurement frameworks?",
+              "description": "Yes. We have experience operating within public tender processes, design competitions, and direct commission frameworks across multiple jurisdictions.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you collaborate with other architects or engineers?",
+              "description": "Frequently. We operate as lead design consultant or as a specialist collaborator within larger multidisciplinary teams, depending on project structure.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "title": "Team",
+      "role": "editorial",
+      "goal": "Introduce the people behind Axiom Public Lab, humanizing the data-driven brand and building trust with prospective clients through individual expertise and shared values.",
+      "meta_description": "Meet the urban designers, researchers, and analysts at Axiom Public Lab who bring data and civic purpose together in every public space project.",
+      "sections": [
+        {
+          "id": "team-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the team page by framing the studio's people as the bridge between rigorous data and human-centered design.",
+          "eyebrow": "The Studio",
+          "headline": "The Analysts Who Also Know How to Draw",
+          "subheadline": "Our team combines advanced urban research training with hands-on design practice \u2014 because good public space demands both.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "team-section-2",
+          "type": "item_grid",
+          "intent": "Profile the core team members with enough detail to establish individual credibility and the complementary range of expertise within the studio.",
+          "eyebrow": "Core Team",
+          "headline": "Twelve Disciplines. One Mission.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Dr. Nadia Osei \u2014 Founding Director",
+              "description": "Urban designer and spatial researcher with 18 years of experience in public realm strategy. Former advisor to the European Commission on Urban Mobility. PhD, Delft University of Technology.",
+              "metadata": {
+                "focus": "Urban Strategy & Research"
+              }
+            },
+            {
+              "title": "Marcus Thiel \u2014 Design Principal",
+              "description": "Leads the studio's design output with a background in landscape architecture and civic infrastructure. Previously led public realm projects for the City of Vienna.",
+              "metadata": {
+                "focus": "Landscape & Civic Design"
+              }
+            },
+            {
+              "title": "Yuki Tanaka \u2014 Data Science Lead",
+              "description": "Specializes in behavioral analytics, sensor network deployment, and spatial data visualization. MSc in Urban Informatics, University College London.",
+              "metadata": {
+                "focus": "Behavioral Analytics"
+              }
+            },
+            {
+              "title": "Amara Diallo \u2014 Community Research Director",
+              "description": "Leads all participatory engagement programs with expertise in qualitative coding, equity analysis, and multilingual community facilitation across 11 countries.",
+              "metadata": {
+                "focus": "Community Engagement"
+              }
+            },
+            {
+              "title": "Lena Brandt \u2014 Environmental Performance Analyst",
+              "description": "Conducts microclimate modeling, solar studies, and stormwater analysis. Certified Passive House consultant with experience in climate-adaptive infrastructure design.",
+              "metadata": {
+                "focus": "Environmental Modeling"
+              }
+            },
+            {
+              "title": "Carlos Reyes \u2014 Senior Urban Designer",
+              "description": "Specializes in streetscape and active mobility corridor design with a focus on safety data integration and pedestrian priority frameworks.",
+              "metadata": {
+                "focus": "Streetscape & Mobility"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "team-section-3",
+          "type": "story_block",
+          "intent": "Communicate the founding story and studio values to give prospective clients a sense of shared purpose and long-term commitment to civic design.",
+          "eyebrow": "Our Story",
+          "headline": "Founded on a Frustration with Guesswork",
+          "subheadline": "Axiom Public Lab was built on the belief that public space design deserved the same analytical rigor applied to infrastructure engineering.",
+          "body": "In 2009, Dr. Nadia Osei watched a newly opened plaza in Rotterdam sit almost entirely empty within six months of opening \u2014 despite winning a design award. The problem wasn't aesthetics. It was that nobody had measured how people actually moved through that part of the city before designing it. Axiom Public Lab was founded the following year with a single operating principle: every design decision must be traceable to evidence. Fifteen years later, that principle drives every project, every hire, and every method we develop.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Work With Our Team",
+              "target_page": "inquiries"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "inquiries",
+      "title": "Inquiries",
+      "role": "contact",
+      "goal": "Convert interested visitors into qualified leads by presenting a structured, professional inquiry process that matches the studio's analytical and civic identity.",
+      "meta_description": "Contact Axiom Public Lab to discuss your public space design project. We work with municipalities, developers, and civic institutions worldwide.",
+      "sections": [
+        {
+          "id": "inquiries-section-1",
+          "type": "page_header",
+          "intent": "Frame the inquiry page as the beginning of a structured, collaborative process rather than a generic contact form.",
+          "eyebrow": "Get in Touch",
+          "headline": "Every Great Public Space Starts with a Conversation",
+          "subheadline": "Tell us about your site, your community, and your goals. We'll tell you how data can shape what comes next.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "inquiries-section-2",
+          "type": "contact_block",
+          "intent": "Provide the primary inquiry mechanism with enough structure to qualify leads and set expectations for response time and process.",
+          "eyebrow": "Send an Inquiry",
+          "headline": "Start the Diagnostic Conversation",
+          "subheadline": "We respond to all project inquiries within two business days. For urgent municipal timelines, please note your deadline in your message.",
+          "body": "We accept inquiries for projects of all scales \u2014 from a single neighborhood plaza to a citywide public realm strategy. Preferred project types include plazas, parks, promenades, civic squares, linear parks, and resilience landscapes. We are currently accepting projects commencing in Q3 2025 and beyond.",
+          "items": [
+            {
+              "title": "Project Type",
+              "description": "Please describe the civic typology: plaza, park, streetscape, corridor, or other.",
+              "metadata": {
+                "field_type": "text"
+              }
+            },
+            {
+              "title": "Location & Jurisdiction",
+              "description": "City, country, and the governing body or client organization responsible for the project.",
+              "metadata": {
+                "field_type": "text"
+              }
+            },
+            {
+              "title": "Approximate Site Area",
+              "description": "Estimated project footprint in square meters or kilometers.",
+              "metadata": {
+                "field_type": "text"
+              }
+            },
+            {
+              "title": "Anticipated Timeline",
+              "description": "Target start date and any fixed milestones or procurement deadlines.",
+              "metadata": {
+                "field_type": "text"
+              }
+            },
+            {
+              "title": "Project Brief or Background",
+              "description": "Share any existing documentation, community mandates, or prior studies relevant to the project.",
+              "metadata": {
+                "field_type": "textarea"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Submit Inquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "inquiries-section-3",
+          "type": "feature_grid",
+          "intent": "Reassure prospective clients about what happens after they submit an inquiry, reducing hesitation and setting professional expectations.",
+          "eyebrow": "What Happens Next",
+          "headline": "A Clear Process from First Message to First Meeting",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "01 \u2014 Inquiry Review",
+              "description": "Our team reviews your submission within two business days and assesses project fit based on scope, typology, and timeline.",
+              "metadata": {}
+            },
+            {
+              "title": "02 \u2014 Discovery Call",
+              "description": "We schedule a 45-minute call to discuss your site, community context, and project goals in depth before proposing any scope of work.",
+              "metadata": {}
+            },
+            {
+              "title": "03 \u2014 Proposal & Fee Estimate",
+              "description": "Following the discovery call, we prepare a tailored proposal outlining our recommended service phases, methodology, and fee structure.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Our Projects First",
+              "target_page": "projects"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

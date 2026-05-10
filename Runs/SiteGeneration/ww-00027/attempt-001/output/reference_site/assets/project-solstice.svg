@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Solstice Promenade solar shade analysis">
+  <defs>
+    <radialGradient id="s-sun" cx="0.85" cy="0.18" r="0.6">
+      <stop offset="0" stop-color="#D97706" stop-opacity="0.6"/>
+      <stop offset="0.6" stop-color="#1C2333" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="s-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="280" fill="#1C2333"/>
+  <rect width="400" height="280" fill="url(#s-grid)"/>
+  <rect width="400" height="280" fill="url(#s-sun)"/>
+  <!-- sun -->
+  <circle cx="340" cy="60" r="14" fill="#D97706"/>
+  <g stroke="#D97706" stroke-width="0.8" opacity="0.7">
+    <path d="M340 30v-8"/><path d="M340 90v8"/><path d="M310 60h-8"/><path d="M370 60h8"/>
+    <path d="M318 38l-6-6"/><path d="M362 82l6 6"/><path d="M362 38l6-6"/><path d="M318 82l-6 6"/>
+  </g>
+  <!-- promenade base -->
+  <rect x="30" y="160" width="340" height="40" fill="#F0F2F5" opacity="0.92"/>
+  <!-- shade bands cast across promenade -->
+  <g fill="#0D9488" opacity="0.55">
+    <path d="M70 160l-30 40h25l30-40z"/>
+    <path d="M130 160l-30 40h25l30-40z"/>
+    <path d="M190 160l-30 40h25l30-40z"/>
+    <path d="M250 160l-30 40h25l30-40z"/>
+    <path d="M310 160l-30 40h25l30-40z"/>
+  </g>
+  <!-- columns / canopies -->
+  <g fill="#94A3B8">
+    <rect x="68" y="100" width="4" height="60"/><rect x="40" y="95" width="40" height="6"/>
+    <rect x="128" y="100" width="4" height="60"/><rect x="100" y="95" width="40" height="6"/>
+    <rect x="188" y="100" width="4" height="60"/><rect x="160" y="95" width="40" height="6"/>
+    <rect x="248" y="100" width="4" height="60"/><rect x="220" y="95" width="40" height="6"/>
+    <rect x="308" y="100" width="4" height="60"/><rect x="280" y="95" width="40" height="6"/>
+  </g>
+  <!-- people markers -->
+  <g fill="#2563EB">
+    <circle cx="65" cy="180" r="2.5"/><circle cx="125" cy="180" r="2.5"/><circle cx="185" cy="180" r="2.5"/><circle cx="245" cy="180" r="2.5"/>
+  </g>
+  <!-- KPI -->
+  <text x="20" y="30" font-family="IBM Plex Mono, monospace" font-size="10" fill="#D97706" letter-spacing="0.16em">SEVILLE · SOLAR-OPTIMIZED · 2,100 m</text>
+  <text x="20" y="245" font-family="IBM Plex Mono, monospace" font-size="9" fill="#94A3B8" letter-spacing="0.14em">+4.2 H/DAY COMFORTABLE USE</text>
+</svg>
