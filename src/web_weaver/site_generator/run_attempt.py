@@ -14,6 +14,7 @@ from web_weaver.site_generator.build_env import (
     default_image_tag,
 )
 from web_weaver.site_generator.docker_utils import capture_docker_command
+from web_weaver.site_generator.harbor_templates import DEFAULT_FRAMEWORK, Framework
 
 
 def run_attempt(
@@ -21,6 +22,7 @@ def run_attempt(
     *,
     tag: str | None = None,
     base_image: str = DEFAULT_BASE_IMAGE,
+    framework: Framework = DEFAULT_FRAMEWORK,
     force_build: bool = False,
     no_cache: bool = False,
     timeout_seconds: int = 1800,
@@ -40,6 +42,7 @@ def run_attempt(
             task_id,
             tag=image_tag,
             base_image=base_image,
+            framework=framework,
             force=force_build,
             no_cache=no_cache,
         )

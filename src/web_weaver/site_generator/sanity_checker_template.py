@@ -39,6 +39,11 @@ def main():
     parser.add_argument("--design-plan", default="/workspace/input/design_plan.json")
     parser.add_argument("--site-dir", default="/workspace/output/reference_site")
     parser.add_argument("--base-url", default="http://127.0.0.1:3000")
+    parser.add_argument(
+        "--framework",
+        default="html_css",
+        choices=["html_css", "react_css", "react_tailwind", "solid_tailwind"],
+    )
     parser.add_argument("--out", default="/workspace/validation/sanity_report.json")
     args = parser.parse_args()
 
@@ -68,18 +73,29 @@ def main():
     checks["file_structure"] = check_file_structure(site_dir, combined_code, failures)
     checks["page_files"] = check_page_files(site_dir, expected_page_files, failures)
     checks["routes"] = check_routes(args.base_url, pages, failures, metrics)
-    checks["content_coverage"] = check_content_coverage(
-        blueprint,
-        combined_html_text,
-        failures,
-        metrics,
-    )
-    checks["section_coverage"] = check_section_coverage(
-        blueprint,
-        combined_code,
-        failures,
-        metrics,
-    )
+    if args.framework == "html_css":
+        checks["content_coverage"] = check_content_coverage(
+            blueprint,
+            combined_html_text,
+            failures,
+            metrics,
+        )
+        checks["section_coverage"] = check_section_coverage(
+            blueprint,
+            combined_code,
+            failures,
+            metrics,
+        )
+    else:
+        # React / Solid builds produce a static HTML shell where all content
+        # and section ids only appear in the rendered DOM after JS hydration.
+        # The Playwright sanity check (a real headless browser) covers this
+        # at the DOM level, so we skip the static-source-text checks here
+        # rather than fail on a meaningless 0% match.
+        checks["content_coverage"] = True
+        checks["section_coverage"] = True
+        metrics["content_coverage_skipped"] = f"framework={args.framework}"
+        metrics["section_coverage_skipped"] = f"framework={args.framework}"
     checks["palette_usage"] = check_palette_usage(
         design_plan,
         combined_code,
@@ -99,7 +115,7 @@ def main():
         failures,
         metrics,
     )
-    checks["policy"] = check_policy(combined_code, failures, metrics)
+    checks["policy"] = check_policy(combined_code, failures, metrics, args.framework)
 
     hard_checks = [
         checks["file_structure"],
@@ -426,9 +442,27 @@ def has_visual_signal(code):
     return any(term in lower for term in visual_terms)
 
 
-def check_policy(combined_code, failures, metrics):
+def check_policy(combined_code, failures, metrics, framework="html_css"):
     lower = combined_code.lower()
     violations = []
+
+    if framework == "html_css":
+        framework_url_markers = [
+            "bootstrap",
+            "tailwind",
+            "jquery",
+            "react",
+            "vue",
+            "svelte",
+        ]
+    elif framework == "react_css":
+        framework_url_markers = ["tailwind", "vue", "svelte", "jquery", "bootstrap"]
+    elif framework == "react_tailwind":
+        framework_url_markers = ["vue", "svelte", "jquery", "bootstrap"]
+    elif framework == "solid_tailwind":
+        framework_url_markers = ["react", "vue", "svelte", "jquery", "bootstrap"]
+    else:
+        framework_url_markers = []
 
     external_urls = re.findall(r"https?://[^'\"\s)]+", combined_code)
     for url in external_urls:
@@ -439,41 +473,35 @@ def check_policy(combined_code, failures, metrics):
             violations.append(f"Forbidden external media URL: {url}")
         if any(
             marker in lower_url
-            for marker in [
-                "unsplash",
-                "pexels",
-                "pixabay",
-                "cdn.jsdelivr",
-                "unpkg",
-                "cdnjs",
-                "bootstrap",
-                "tailwind",
-                "jquery",
-                "react",
-                "vue",
-                "svelte",
-            ]
+            for marker in ["unsplash", "pexels", "pixabay", "cdn.jsdelivr", "unpkg", "cdnjs"]
+            + framework_url_markers
         ):
             violations.append(f"Forbidden external dependency URL: {url}")
 
-    framework_patterns = {
-        "react script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*react[^'\"]*['\"]",
-        "vue script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*vue[^'\"]*['\"]",
-        "svelte script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*svelte[^'\"]*['\"]",
-        "jquery script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*jquery[^'\"]*['\"]",
-        "bootstrap stylesheet": r"<link\b[^>]+href\s*=\s*['\"][^'\"]*bootstrap[^'\"]*['\"]",
-        "tailwind cdn": r"cdn\.tailwindcss\.com",
-        "react import": r"\bimport\s+[^;]*\bfrom\s+['\"]react['\"]",
-        "vue import": r"\bimport\s+[^;]*\bfrom\s+['\"]vue['\"]",
-        "svelte import": r"\bimport\s+[^;]*\bfrom\s+['\"]svelte['\"]",
-        "jquery import": r"\bimport\s+[^;]*\bfrom\s+['\"]jquery['\"]",
-        "tailwind directive": r"@tailwind\b",
-    }
-    for label, pattern in framework_patterns.items():
-        if re.search(pattern, lower, re.IGNORECASE):
-            violations.append(f"Forbidden framework/library usage: {label}")
+    if framework == "html_css":
+        framework_patterns = {
+            "react script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*react[^'\"]*['\"]",
+            "vue script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*vue[^'\"]*['\"]",
+            "svelte script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*svelte[^'\"]*['\"]",
+            "jquery script": r"<script\b[^>]+src\s*=\s*['\"][^'\"]*jquery[^'\"]*['\"]",
+            "bootstrap stylesheet": r"<link\b[^>]+href\s*=\s*['\"][^'\"]*bootstrap[^'\"]*['\"]",
+            "tailwind cdn": r"cdn\.tailwindcss\.com",
+            "react import": r"\bimport\s+[^;]*\bfrom\s+['\"]react['\"]",
+            "vue import": r"\bimport\s+[^;]*\bfrom\s+['\"]vue['\"]",
+            "svelte import": r"\bimport\s+[^;]*\bfrom\s+['\"]svelte['\"]",
+            "jquery import": r"\bimport\s+[^;]*\bfrom\s+['\"]jquery['\"]",
+            "tailwind directive": r"@tailwind\b",
+        }
+        for label, pattern in framework_patterns.items():
+            if re.search(pattern, lower, re.IGNORECASE):
+                violations.append(f"Forbidden framework/library usage: {label}")
+    # For framework != html_css the reference site IS a React/Solid/Tailwind
+    # build, so framework names will legitimately appear in bundled JS/CSS.
+    # We still keep the external-dependency-URL block above to prevent remote
+    # CDN loading.
 
     metrics["policy_violations"] = violations
+    metrics["policy_framework"] = framework
     if violations:
         failures.extend(violations)
         return False

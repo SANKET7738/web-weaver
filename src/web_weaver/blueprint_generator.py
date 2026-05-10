@@ -211,10 +211,26 @@ ideas, while an editorial grid should include richer stories, features,
 captions, interviews, or article-like sections. Do not turn layout_family into
 pixel layout, CSS, spacing, grid coordinates, or visual implementation.
 
+Motion and kinetic intent — strategic only, no implementation:
+Beyond static page structure, you can think about what kinetic energy each
+section should carry as part of the brand storytelling. A hero might want an
+arriving feel; a stats section a kinetic counting moment; a feature grid a
+staggered reveal as the visitor scrolls; a testimonial ambient warmth; a
+heritage detail deliberate stillness; a CTA close a confident final
+flourish. Where motion is part of how a section tells its part of the
+story, name the intent briefly in the section's `intent` field or in the
+page goal — phrases like "anchor the visitor with an unmistakable arrival
+moment", "let the numbers feel alive as they enter view", "a slow ambient
+warmth that invites lingering", "a single confident flourish on the close".
+Do not specify CSS, durations, easings, animation properties, or any
+implementation — those decisions belong to the design plan and the
+frontend compiler downstream. Your job here is the kinetic feeling each
+section is meant to evoke, expressed in plain story-language.
+
 Important boundaries:
 - Generate content, page structure, section content, CTAs, and SVG asset ideas.
-- Do not generate visual design implementation.
-- Do not specify hex colors, fonts, CSS, spacing, grid coordinates, or image file paths.
+- Do not generate visual design implementation — no CSS, hex colors, font names, spacing, grid coordinates, durations, easings, or file paths.
+- Motion intent at the strategic level — what kinetic feeling a section evokes — is welcome inside `intent` and page goal fields. The downstream design plan turns that into motion design; the frontend compiler turns that into actual animation code. Do not pre-empt either.
 - Do not request photos, raster images, external assets, or crawled website assets.
 - Any asset ideas must be simple assets that can be generated programmatically as SVG.
 - Keep asset usage minimal. Do not add decorative assets unless they help the page story.
@@ -237,15 +253,15 @@ Required output rules:
 - CTA target_page values must be null or one of the page slugs in the page_set.
 - Asset ideas must use only these kinds: logo, icon, illustration, pattern, mockup, map, chart.
 - Asset ideas should be concepts for later SVG generation, not actual SVG code.
-- If difficulty is easy, do not include asset ideas.
-- If difficulty is medium, include at most 1 simple asset idea per page.
-- If difficulty is hard, include at most 2 asset ideas per page.
+- If difficulty is easy, include at most 1 asset idea per page.
+- If difficulty is medium, include at most 3 asset ideas per page.
+- If difficulty is hard, include at most 5 asset ideas per page.
 
 Difficulty guidance:
-- easy: 3 sections per page, simple content, no asset ideas.
-- medium: 4 sections per page, richer item lists and at most 1 simple SVG asset idea per page.
-- hard: 5 sections per page, richer content such as stats, timelines, comparisons, galleries, or article lists.
-  Hard pages can include at most 2 SVG asset ideas per page.
+- easy: 4 sections per page, simple content, at most 1 asset idea per page.
+- medium: 6 sections per page, richer item lists and at most 3 asset ideas per page.
+- hard: 8 sections per page, richer content such as stats, timelines, comparisons, galleries, or article lists.
+  Hard pages can include at most 5 SVG asset ideas per page.
 
 Create a complete blueprint that can later be handed to a UI designer and frontend
 compiler.
@@ -343,15 +359,17 @@ def validate_blueprint_against_concept(
 
     for page in blueprint.pages:
         asset_count = sum(len(section.asset_ideas) for section in page.sections)
-        if concept.difficulty == "easy" and asset_count:
-            errors.append(f"easy blueprint page {page.slug} must not include asset ideas")
-        if concept.difficulty == "medium" and asset_count > 1:
+        if concept.difficulty == "easy" and asset_count > 1:
             errors.append(
-                f"medium blueprint page {page.slug} has {asset_count} asset ideas; max is 1"
+                f"easy blueprint page {page.slug} has {asset_count} asset ideas; max is 1"
             )
-        if concept.difficulty == "hard" and asset_count > 2:
+        if concept.difficulty == "medium" and asset_count > 3:
             errors.append(
-                f"hard blueprint page {page.slug} has {asset_count} asset ideas; max is 2"
+                f"medium blueprint page {page.slug} has {asset_count} asset ideas; max is 3"
+            )
+        if concept.difficulty == "hard" and asset_count > 5:
+            errors.append(
+                f"hard blueprint page {page.slug} has {asset_count} asset ideas; max is 5"
             )
 
         for section in page.sections:

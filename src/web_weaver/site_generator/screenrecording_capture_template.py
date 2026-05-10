@@ -6,10 +6,10 @@ const { spawnSync } = require("child_process");
 const { chromium } = require("playwright");
 
 const VIEWPORT = { name: "desktop", width: 1440, height: 1000 };
-const TOP_HOLD_MS = 1200;
-const BOTTOM_HOLD_MS = 1200;
-const MIN_SCROLL_MS = 5000;
-const MAX_SCROLL_MS = 12000;
+const TOP_HOLD_MS = 2500;
+const BOTTOM_HOLD_MS = 2000;
+const MIN_SCROLL_MS = 7000;
+const MAX_SCROLL_MS = 15000;
 
 function argValue(name, fallback) {
   const index = process.argv.indexOf(name);

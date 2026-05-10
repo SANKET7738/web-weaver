@@ -11,6 +11,9 @@ from web_weaver.layout_engine import generate_design_plans, parse_blueprint_ids
 from web_weaver.llm_utils import AnthropicClient
 from web_weaver.sampler import sample_concepts
 from web_weaver.site_generator import (
+    ALL_FRAMEWORKS,
+    DEFAULT_FRAMEWORK,
+    Framework,
     build_image,
     create_attempt,
     default_image_tag,
@@ -21,6 +24,23 @@ from web_weaver.site_generator import (
 
 
 app = typer.Typer(help="Web Weaver task generation tools.")
+
+
+_FRAMEWORK_HELP = (
+    "Target framework for the harbor task instructions. One of: "
+    + ", ".join(ALL_FRAMEWORKS)
+    + f". The reference site is always generated as HTML+CSS regardless. "
+    f"Defaults to {DEFAULT_FRAMEWORK!r}."
+)
+
+
+def _validate_framework(value: str) -> Framework:
+    if value not in ALL_FRAMEWORKS:
+        raise typer.BadParameter(
+            f"Invalid framework {value!r}. Choose one of: "
+            + ", ".join(ALL_FRAMEWORKS)
+        )
+    return value  # type: ignore[return-value]
 
 
 @app.callback()
@@ -189,6 +209,14 @@ def sitegen_build_image(
         str,
         typer.Option("--base-image", help="Base Docker image for the agent runtime."),
     ] = "node:22-slim",
+    framework: Annotated[
+        str,
+        typer.Option(
+            "--framework",
+            help=_FRAMEWORK_HELP,
+            callback=_validate_framework,
+        ),
+    ] = DEFAULT_FRAMEWORK,
     force: Annotated[
         bool,
         typer.Option("--force", help="Rebuild even if the image already exists."),
@@ -205,13 +233,14 @@ def sitegen_build_image(
         task_id,
         tag=image_tag,
         base_image=base_image,
+        framework=framework,  # type: ignore[arg-type]
         force=force,
         no_cache=no_cache,
     )
     if already_exists and not force:
         typer.echo(f"Image already exists: {built_tag}")
     else:
-        typer.echo(f"Built image: {built_tag}")
+        typer.echo(f"Built image: {built_tag} (framework={framework})")
 
 
 @app.command()
@@ -257,6 +286,14 @@ def sitegen_attempt_run(
         str,
         typer.Option("--base-image", help="Base Docker image for the agent runtime."),
     ] = "node:22-slim",
+    framework: Annotated[
+        str,
+        typer.Option(
+            "--framework",
+            help=_FRAMEWORK_HELP,
+            callback=_validate_framework,
+        ),
+    ] = DEFAULT_FRAMEWORK,
     force_build: Annotated[
         bool,
         typer.Option("--force-build", help="Rebuild even if the image already exists."),
@@ -283,6 +320,7 @@ def sitegen_attempt_run(
         task_id,
         tag=tag,
         base_image=base_image,
+        framework=framework,  # type: ignore[arg-type]
         force_build=force_build,
         no_cache=no_cache,
         timeout_seconds=timeout_seconds,
@@ -291,6 +329,7 @@ def sitegen_attempt_run(
     )
     metadata = load_metadata(attempt)
     typer.echo(f"Attempt: {attempt.path}")
+    typer.echo(f"Framework: {framework}")
     typer.echo(f"Container: {metadata.container_name}")
     typer.echo(f"Container ID: {metadata.container_id}")
     typer.echo(f"URL: http://localhost:{metadata.host_port}")

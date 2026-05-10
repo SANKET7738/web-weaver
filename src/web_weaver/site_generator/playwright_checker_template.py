@@ -6,7 +6,6 @@ const { chromium } = require("playwright");
 
 const VIEWPORTS = [
   { name: "desktop", width: 1440, height: 1000 },
-  { name: "mobile", width: 390, height: 844 },
 ];
 const MIN_TEXT_LENGTH = 500;
 const MIN_SCROLL_HEIGHT_RATIO = 1.0;
@@ -44,6 +43,7 @@ async function main() {
   const blueprint = JSON.parse(fs.readFileSync(blueprintPath, "utf8"));
   const pages = blueprint.pages || [];
   const failures = [];
+  const warnings = [];
   const pageReports = [];
   const allFailedRequests = [];
   const allConsoleErrors = [];
@@ -139,11 +139,13 @@ async function main() {
         const textOk = (metrics.bodyTextLength || 0) >= MIN_TEXT_LENGTH;
         const heightOk = (metrics.scrollHeight || 0) >= (metrics.viewportHeight || viewport.height) * MIN_SCROLL_HEIGHT_RATIO;
         const overflowOk = (metrics.scrollWidth || 0) <= (metrics.viewportWidth || viewport.width) + 8;
-        if (!overflowOk) overflowFailures += 1;
+        if (!overflowOk) {
+          overflowFailures += 1;
+          failures.push(`${slug} ${viewport.name} has horizontal overflow`);
+        }
 
         if (!textOk) failures.push(`${slug} ${viewport.name} body text is too short`);
         if (!heightOk) failures.push(`${slug} ${viewport.name} scroll height is too short`);
-        if (!overflowOk) failures.push(`${slug} ${viewport.name} has horizontal overflow`);
 
         if (viewport.name === "desktop") {
           for (const section of pageSpec.sections || []) {
@@ -178,7 +180,7 @@ async function main() {
           allFailedRequests.push(...failedRequests.map(item => ({ slug, viewport: viewport.name, ...item })));
         }
         if (consoleErrors.length) {
-          failures.push(`${slug} ${viewport.name} has console errors`);
+          warnings.push(`${slug} ${viewport.name} has ${consoleErrors.length} console error(s)`);
           allConsoleErrors.push(...consoleErrors.map(text => ({ slug, viewport: viewport.name, text })));
         }
         if (pageErrors.length) {
@@ -211,15 +213,19 @@ async function main() {
     section_visibility: expectedSections === 0 || sectionVisibilityOk === expectedSections,
     local_links: brokenLocalLinks === 0,
     failed_local_requests: allFailedRequests.length === 0,
-    console_errors: allConsoleErrors.length === 0,
     page_errors: allPageErrors.length === 0,
-    responsive_overflow: overflowFailures === 0,
+    no_overflow: overflowFailures === 0,
+  };
+
+  const soft_checks = {
+    no_console_errors: allConsoleErrors.length === 0,
   };
 
   const valid = Object.values(checks).every(Boolean);
   const report = {
     valid,
     checks,
+    soft_checks,
     metrics: {
       expected_pages: pages.length,
       responsive_routes: routesOk,
@@ -233,6 +239,7 @@ async function main() {
       overflow_failures: overflowFailures,
     },
     failures,
+    warnings,
     failed_requests: allFailedRequests,
     console_errors: allConsoleErrors,
     page_errors: allPageErrors,

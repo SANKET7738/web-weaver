@@ -23,6 +23,11 @@ from web_weaver.site_generator.docker_utils import (
     image_exists,
     run_docker_command,
 )
+from web_weaver.site_generator.harbor_templates import (
+    ALL_FRAMEWORKS,
+    DEFAULT_FRAMEWORK,
+    Framework,
+)
 from web_weaver.site_generator.run_attempt import (
     build_container_name,
     build_docker_run_command,
@@ -30,8 +35,11 @@ from web_weaver.site_generator.run_attempt import (
 )
 
 __all__ = [
+    "ALL_FRAMEWORKS",
     "DEFAULT_BASE_IMAGE",
+    "DEFAULT_FRAMEWORK",
     "DEFAULT_PORT",
+    "Framework",
     "RUNS_DIR",
     "SITE_GENERATION_RUNS_DIR",
     "SiteGeneratorError",

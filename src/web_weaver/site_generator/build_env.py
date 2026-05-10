@@ -4,9 +4,15 @@ import shutil
 import tempfile
 from pathlib import Path
 
-from web_weaver.site_generator.docker_utils import image_exists, run_docker_command
+from web_weaver.site_generator.docker_utils import (
+    image_exists,
+    image_label,
+    run_docker_command,
+)
 from web_weaver.site_generator.dockerfile_template import render_dockerfile
 from web_weaver.site_generator.harbor_templates import (
+    DEFAULT_FRAMEWORK,
+    Framework,
     render_assemble_harbor_script,
     render_harbor_dockerfile,
     render_harbor_instruction_md,
@@ -42,24 +48,54 @@ DEFAULT_PORT = 3000
 IMAGE_TAG_PREFIX = "web-weaver-sitegen"
 
 
+FRAMEWORK_LABEL = "web-weaver.framework"
+
+
 def build_image(
     task_id: str,
     *,
     tag: str | None = None,
     base_image: str = DEFAULT_BASE_IMAGE,
+    framework: Framework = DEFAULT_FRAMEWORK,
     force: bool = False,
     no_cache: bool = False,
 ) -> str:
     image_tag = tag or default_image_tag(task_id)
     validate_image_tag(image_tag)
 
-    if image_exists(image_tag) and not force:
+    cached_framework: str | None = None
+    framework_mismatch = False
+    if image_exists(image_tag):
+        cached_framework = image_label(image_tag, FRAMEWORK_LABEL)
+        if cached_framework != framework:
+            framework_mismatch = True
+
+    if image_exists(image_tag) and not force and not framework_mismatch:
         return image_tag
+
+    if framework_mismatch and not force:
+        prior = cached_framework if cached_framework is not None else "unlabeled"
+        print(
+            f"Rebuilding sitegen image {image_tag!r}: framework changed "
+            f"from {prior!r} to {framework!r}."
+        )
 
     with tempfile.TemporaryDirectory(prefix=f"web-weaver-sitegen-{task_id}-") as temp_dir:
         context_dir = Path(temp_dir)
-        prepare_env(task_id, context_dir=context_dir, base_image=base_image)
-        command = ["docker", "build", "-t", image_tag]
+        prepare_env(
+            task_id,
+            context_dir=context_dir,
+            base_image=base_image,
+            framework=framework,
+        )
+        command = [
+            "docker",
+            "build",
+            "-t",
+            image_tag,
+            "--label",
+            f"{FRAMEWORK_LABEL}={framework}",
+        ]
         if no_cache:
             command.append("--no-cache")
         command.append(str(context_dir))
@@ -73,6 +109,7 @@ def prepare_env(
     *,
     context_dir: Path,
     base_image: str = DEFAULT_BASE_IMAGE,
+    framework: Framework = DEFAULT_FRAMEWORK,
 ) -> None:
     validate_task_id(task_id)
     context_dir.mkdir(parents=True, exist_ok=True)
@@ -87,11 +124,14 @@ def prepare_env(
         encoding="utf-8",
     )
     (context_dir / "task.md").write_text(
-        build_task_prompt(task_id),
+        build_task_prompt(task_id, framework=framework),
         encoding="utf-8",
     )
     entrypoint_path = context_dir / "entrypoint.sh"
-    entrypoint_path.write_text(build_entrypoint_script(), encoding="utf-8")
+    entrypoint_path.write_text(
+        build_entrypoint_script(framework=framework),
+        encoding="utf-8",
+    )
     entrypoint_path.chmod(0o755)
     sanity_checker_path = context_dir / "sanity_check.py"
     sanity_checker_path.write_text(render_sanity_checker_script(), encoding="utf-8")
@@ -115,10 +155,19 @@ def prepare_env(
     )
     screenrecording_capture_path.chmod(0o755)
 
-    _bake_harbor_templates(task_id=task_id, context_dir=context_dir)
+    _bake_harbor_templates(
+        task_id=task_id,
+        context_dir=context_dir,
+        framework=framework,
+    )
 
 
-def _bake_harbor_templates(*, task_id: str, context_dir: Path) -> None:
+def _bake_harbor_templates(
+    *,
+    task_id: str,
+    context_dir: Path,
+    framework: Framework = DEFAULT_FRAMEWORK,
+) -> None:
     blueprint_path = context_dir / "blueprint.json"
     blueprint = json.loads(blueprint_path.read_text(encoding="utf-8"))
     pages = blueprint.get("pages") or []
@@ -134,13 +183,17 @@ def _bake_harbor_templates(*, task_id: str, context_dir: Path) -> None:
         encoding="utf-8",
     )
     (harbor_template_dir / "instruction.md").write_text(
-        render_harbor_instruction_md(page_count=page_count),
+        render_harbor_instruction_md(
+            page_count=page_count,
+            framework=framework,
+        ),
         encoding="utf-8",
     )
     (harbor_template_dir / "task.toml").write_text(
         render_harbor_task_toml(
             task_id=task_id,
             page_count=page_count,
+            framework=framework,
         ),
         encoding="utf-8",
     )
