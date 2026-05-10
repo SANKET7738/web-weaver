@@ -52,6 +52,8 @@ COLORS = {
 
 records = []
 for f in sorted(GRADER_DIR.glob("ww-*-real-run.json")):
+    if "animation" in f.name:
+        continue
     site = f.name.replace("-real-run.json", "")
     data = json.loads(f.read_text())
     by_grader = defaultdict(list)

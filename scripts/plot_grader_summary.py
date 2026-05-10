@@ -44,6 +44,7 @@ LABELS = {
 # Load every per-task JSON, collect per-site per-grader means.
 records = []
 files = sorted(GRADER_DIR.glob("ww-*-real-run.json"))
+files = [f for f in files if "animation" not in f.name]
 print(f"loaded {len(files)} grader files")
 for f in files:
     site = f.name.replace("-real-run.json", "")
