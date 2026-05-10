@@ -1,0 +1,100 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top-down arrangement of mezze plates" class="mezze-plate">
+  <defs>
+    <radialGradient id="hummusGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0B97A"/>
+      <stop offset="100%" stop-color="#B8945A"/>
+    </radialGradient>
+    <radialGradient id="babaGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7A8B6F"/>
+      <stop offset="100%" stop-color="#5C6E50"/>
+    </radialGradient>
+    <radialGradient id="muhamGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4674A"/>
+      <stop offset="100%" stop-color="#A04A36"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Soft table backdrop circle -->
+  <circle cx="240" cy="240" r="220" fill="rgba(214,228,240,0.04)"/>
+
+  <!-- Bowl 1: Hummus (large center) -->
+  <g class="mezze-plate__bowl-1">
+    <circle cx="240" cy="240" r="92" fill="#F2EBE0" stroke="#D6E4F0" stroke-width="2"/>
+    <circle cx="240" cy="240" r="78" fill="url(#hummusGrad)"/>
+    <path d="M205 232 Q 240 215 275 232 Q 270 248 240 250 Q 215 250 205 232 Z" fill="#A37944" opacity="0.55"/>
+    <circle cx="240" cy="245" r="6" fill="#3A4F2A"/>
+    <circle cx="220" cy="232" r="3" fill="#2D3A2E"/>
+    <circle cx="258" cy="228" r="3" fill="#2D3A2E"/>
+    <circle cx="248" cy="252" r="3" fill="#2D3A2E"/>
+  </g>
+
+  <!-- Bowl 2: Olives (top right) -->
+  <g class="mezze-plate__bowl-2">
+    <circle cx="370" cy="120" r="55" fill="#F2EBE0" stroke="#D6E4F0" stroke-width="2"/>
+    <circle cx="370" cy="120" r="46" fill="#3A4F2A"/>
+    <ellipse cx="358" cy="110" rx="9" ry="11" fill="#1F2A18"/>
+    <ellipse cx="378" cy="118" rx="9" ry="11" fill="#1F2A18"/>
+    <ellipse cx="368" cy="132" rx="9" ry="11" fill="#5C6E50"/>
+    <ellipse cx="382" cy="100" rx="8" ry="10" fill="#1F2A18"/>
+    <ellipse cx="354" cy="128" rx="8" ry="10" fill="#5C6E50"/>
+    <circle cx="358" cy="108" r="2" fill="#A37944" opacity="0.4"/>
+  </g>
+
+  <!-- Bowl 3: Baba Ganoush (bottom left) -->
+  <g class="mezze-plate__bowl-3">
+    <circle cx="110" cy="350" r="60" fill="#F2EBE0" stroke="#D6E4F0" stroke-width="2"/>
+    <circle cx="110" cy="350" r="50" fill="url(#babaGrad)"/>
+    <path d="M85 345 Q 110 335 135 345 Q 130 360 110 362 Q 95 360 85 345 Z" fill="#3A4F2A" opacity="0.6"/>
+    <circle cx="100" cy="340" r="2" fill="#C0674A"/>
+    <circle cx="120" cy="358" r="2" fill="#C0674A"/>
+    <circle cx="118" cy="336" r="2" fill="#C0674A"/>
+  </g>
+
+  <!-- Bowl 4: Muhammara (top left) -->
+  <g class="mezze-plate__bowl-4">
+    <circle cx="100" cy="130" r="48" fill="#F2EBE0" stroke="#D6E4F0" stroke-width="2"/>
+    <circle cx="100" cy="130" r="40" fill="url(#muhamGrad)"/>
+    <circle cx="92" cy="124" r="2" fill="#3A4F2A"/>
+    <circle cx="108" cy="135" r="2" fill="#3A4F2A"/>
+    <circle cx="104" cy="120" r="2" fill="#fff" opacity="0.5"/>
+  </g>
+
+  <!-- Flatbread (right) -->
+  <g class="mezze-plate__bread">
+    <ellipse cx="385" cy="295" rx="68" ry="50" fill="#E5C994" stroke="#C8A56C" stroke-width="2"/>
+    <ellipse cx="385" cy="295" rx="56" ry="40" fill="none" stroke="#C8A56C" stroke-width="1" opacity="0.6"/>
+    <circle cx="370" cy="285" r="2" fill="#A37944" opacity="0.7"/>
+    <circle cx="395" cy="295" r="2" fill="#A37944" opacity="0.7"/>
+    <circle cx="385" cy="305" r="2" fill="#A37944" opacity="0.7"/>
+    <circle cx="378" cy="310" r="1.5" fill="#A37944" opacity="0.7"/>
+    <circle cx="400" cy="280" r="1.5" fill="#A37944" opacity="0.7"/>
+  </g>
+
+  <!-- Small bowl: lemon wedges (bottom right) -->
+  <g>
+    <circle cx="320" cy="395" r="38" fill="#F2EBE0" stroke="#D6E4F0" stroke-width="2"/>
+    <path d="M298 395 L 320 395 A 18 18 0 0 1 302 408 Z" fill="#E8C547"/>
+    <path d="M320 395 L 342 395 A 18 18 0 0 0 338 380 Z" fill="#E8C547"/>
+    <path d="M310 380 L 320 395 L 305 395 Z" fill="#E8C547" opacity="0.85"/>
+    <line x1="320" y1="377" x2="320" y2="413" stroke="#fff" stroke-width="1" opacity="0.6"/>
+    <line x1="302" y1="395" x2="338" y2="395" stroke="#fff" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- Sprig of herb -->
+  <g stroke="#5C6E50" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M210 95 Q 215 110 220 130"/>
+    <path d="M212 100 Q 218 102 222 99"/>
+    <path d="M213 110 Q 219 113 222 110"/>
+    <path d="M216 120 Q 222 123 224 119"/>
+  </g>
+
+  <!-- Decorative dots / sesame -->
+  <g fill="#E5C994" opacity="0.6">
+    <circle cx="180" cy="180" r="2"/>
+    <circle cx="170" cy="200" r="1.5"/>
+    <circle cx="300" cy="180" r="2"/>
+    <circle cx="290" cy="160" r="1.5"/>
+    <circle cx="170" cy="285" r="1.5"/>
+    <circle cx="280" cy="335" r="1.5"/>
+  </g>
+</svg>

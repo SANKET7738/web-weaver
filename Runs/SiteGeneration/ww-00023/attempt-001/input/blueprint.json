@@ -1,0 +1,498 @@
+{
+  "id": "ww-00023",
+  "version": "0.1",
+  "concept_id": "ww-00023",
+  "identity": {
+    "name": "Pixelwave",
+    "tagline": "The Future, Buffering Now.",
+    "one_line_description": "Pixelwave is a glossy, Y2K-charged technology trends publication covering the ideas, products, and people reshaping the digital decade.",
+    "domain": "media_magazine",
+    "subdomain": "technology trends publication",
+    "voice": [
+      "bold",
+      "electric",
+      "irreverent",
+      "forward-leaning"
+    ],
+    "target_audience": "Tech-curious millennials and Gen Z readers aged 22\u201338 who follow emerging technology, digital culture, and startup ecosystems and want sharp, opinionated coverage with personality."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Hook first-time visitors with Pixelwave's bold editorial voice, surface the most exciting current stories, and drive them deeper into features and articles.",
+      "meta_description": "Pixelwave is the technology trends magazine for the next era \u2014 bold coverage of AI, digital culture, startups, and the ideas that matter.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Establish the Pixelwave brand with maximum energy and direct visitors to the featured story of the moment.",
+          "eyebrow": "Now Loading",
+          "headline": "The Future Is Already Glitching",
+          "subheadline": "Pixelwave covers the technology trends, digital culture shifts, and breakthrough ideas that everyone will be talking about tomorrow.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Read the Latest Issue",
+              "target_page": "features"
+            },
+            {
+              "label": "Explore the Archive",
+              "target_page": "archive"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-2",
+          "type": "article_list",
+          "intent": "Surface the three hottest stories right now to give returning readers an immediate reason to click deeper.",
+          "eyebrow": "Top Stories",
+          "headline": "What's Trending on Pixelwave",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The AI Chip War Nobody Is Talking About",
+              "description": "As Nvidia and a new wave of challengers race to own the silicon layer of intelligence, the real battle is happening in board rooms most people have never heard of.",
+              "metadata": {
+                "category": "AI & Hardware",
+                "read_time": "7 min"
+              }
+            },
+            {
+              "title": "Gen Z Is Rebuilding the Social Web \u2014 Again",
+              "description": "Decentralized platforms, ephemeral feeds, and anonymous communities are pulling the next generation away from the algorithmic giants.",
+              "metadata": {
+                "category": "Digital Culture",
+                "read_time": "5 min"
+              }
+            },
+            {
+              "title": "Why Every Startup Suddenly Wants to Be an OS",
+              "description": "From fintech super-apps to AI agents that manage your calendar, the platform land-grab is back \u2014 and it's weirder than last time.",
+              "metadata": {
+                "category": "Startups",
+                "read_time": "6 min"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Features",
+              "target_page": "features"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "cta",
+          "intent": "Convert casual visitors into newsletter subscribers to build an owned audience and bring readers back for every new issue.",
+          "eyebrow": "Stay Plugged In",
+          "headline": "Get Pixelwave in Your Inbox Every Week",
+          "subheadline": "No algorithm. No noise. Just the sharpest technology stories, curated and delivered every Tuesday.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Subscribe Free",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "features",
+      "title": "Features",
+      "role": "listing",
+      "goal": "Present Pixelwave's signature long-form features and series so readers can discover and browse the full editorial slate.",
+      "meta_description": "Browse Pixelwave's featured technology stories \u2014 deep dives, investigations, and trend reports on AI, startups, digital culture, and more.",
+      "sections": [
+        {
+          "id": "features-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the Features section and frame it as the heart of Pixelwave's editorial identity.",
+          "eyebrow": "Features",
+          "headline": "Big Ideas. Sharp Takes. No Filler.",
+          "subheadline": "Every feature is a deep dive into the technology trend, company, or cultural shift that's actually worth your time.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "features-section-2",
+          "type": "item_grid",
+          "intent": "Display the current issue's featured stories in a scannable grid so readers can quickly find what interests them most.",
+          "eyebrow": "This Issue",
+          "headline": "Current Features",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The AI Chip War Nobody Is Talking About",
+              "description": "Inside the fierce, quiet competition to build the hardware layer that will run the next decade of intelligence.",
+              "metadata": {
+                "category": "AI & Hardware",
+                "read_time": "7 min"
+              }
+            },
+            {
+              "title": "Gen Z Is Rebuilding the Social Web \u2014 Again",
+              "description": "A new generation of builders and users is walking away from the feed and building something stranger and more human.",
+              "metadata": {
+                "category": "Digital Culture",
+                "read_time": "5 min"
+              }
+            },
+            {
+              "title": "Why Every Startup Suddenly Wants to Be an OS",
+              "description": "The platform wars are back, and this time the battlefield is your attention span, your calendar, and your bank account.",
+              "metadata": {
+                "category": "Startups",
+                "read_time": "6 min"
+              }
+            },
+            {
+              "title": "The Climate Tech Reckoning",
+              "description": "After years of hype, climate technology is hitting the wall of physical reality. Who survives and who was always selling vapor?",
+              "metadata": {
+                "category": "Climate Tech",
+                "read_time": "9 min"
+              }
+            },
+            {
+              "title": "Biotech's Quiet Revolution",
+              "description": "Gene editing, synthetic biology, and longevity startups are moving faster than regulation, ethics, or public awareness.",
+              "metadata": {
+                "category": "Biotech",
+                "read_time": "8 min"
+              }
+            },
+            {
+              "title": "The New Geography of Remote Work",
+              "description": "Digital nomads gave way to something more permanent. How distributed teams are reshaping cities, productivity, and identity.",
+              "metadata": {
+                "category": "Future of Work",
+                "read_time": "6 min"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Read a Feature",
+              "target_page": "article"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "features-section-3",
+          "type": "cta",
+          "intent": "Encourage readers who have browsed features to dive into a specific article or explore older coverage.",
+          "eyebrow": "Dig Deeper",
+          "headline": "Looking for Something Specific?",
+          "subheadline": "Browse every story Pixelwave has ever published in our fully searchable archive.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Go to the Archive",
+              "target_page": "archive"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "article",
+      "title": "Article",
+      "role": "detail",
+      "goal": "Deliver a single long-form article with full editorial context, keep the reader engaged through to the end, and surface related stories to reduce exit rate.",
+      "meta_description": "Read the full Pixelwave feature: sharp, in-depth technology journalism on the trends and ideas shaping the digital world.",
+      "sections": [
+        {
+          "id": "article-section-1",
+          "type": "page_header",
+          "intent": "Set the stage for the article with a strong headline, byline, and category context that primes the reader for what they are about to read.",
+          "eyebrow": "AI & Hardware",
+          "headline": "The AI Chip War Nobody Is Talking About",
+          "subheadline": "As Nvidia and a new wave of challengers race to own the silicon layer of intelligence, the real battle is happening in board rooms most people have never heard of.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "article-section-2",
+          "type": "story_block",
+          "intent": "Deliver the full editorial body of the article in a focused, readable format that reflects Pixelwave's bold and irreverent voice.",
+          "eyebrow": null,
+          "headline": "Silicon Is the New Oil",
+          "subheadline": null,
+          "body": "For decades, software was the glamorous layer. Hardware was the plumbing \u2014 important, sure, but not the thing that made headlines or minted billionaires overnight. That era is over. The race to build the chips that will power artificial intelligence is now the most consequential industrial competition on the planet, and most of the public has no idea it's happening.\n\nNvidia's H100 became the must-have commodity of 2023, with data centers paying eye-watering premiums and waiting months for allocations. But while everyone watched Jensen Huang take victory laps in his leather jacket, a quieter war was already underway. AMD, Intel, Google, Amazon, Microsoft, Apple, and a dozen well-funded startups are all betting that the AI chip market is too large \u2014 and too strategically critical \u2014 to cede to a single supplier.\n\nThe stakes go beyond market share. Whoever controls the silicon controls the economics of inference, training, and ultimately the cost of intelligence itself. Governments have noticed. The CHIPS Act, EU semiconductor initiatives, and China's aggressive domestic push are all symptoms of the same realization: AI supremacy runs through the fab.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "article-section-3",
+          "type": "article_list",
+          "intent": "Keep readers on the site by surfacing related features that match the topic and editorial energy of the article they just read.",
+          "eyebrow": "Keep Reading",
+          "headline": "More from Pixelwave",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Biotech's Quiet Revolution",
+              "description": "Gene editing, synthetic biology, and longevity startups are moving faster than regulation, ethics, or public awareness.",
+              "metadata": {
+                "category": "Biotech",
+                "read_time": "8 min"
+              }
+            },
+            {
+              "title": "The Climate Tech Reckoning",
+              "description": "After years of hype, climate technology is hitting the wall of physical reality. Who survives and who was always selling vapor?",
+              "metadata": {
+                "category": "Climate Tech",
+                "read_time": "9 min"
+              }
+            },
+            {
+              "title": "Why Every Startup Suddenly Wants to Be an OS",
+              "description": "The platform wars are back, and this time the battlefield is your attention span, your calendar, and your bank account.",
+              "metadata": {
+                "category": "Startups",
+                "read_time": "6 min"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Browse All Features",
+              "target_page": "features"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "archive",
+      "title": "Archive",
+      "role": "listing",
+      "goal": "Give readers a comprehensive, browsable index of every Pixelwave story ever published, organized by category and issue date.",
+      "meta_description": "Search and browse the complete Pixelwave archive \u2014 every technology feature, trend report, and editorial since launch.",
+      "sections": [
+        {
+          "id": "archive-section-1",
+          "type": "page_header",
+          "intent": "Frame the archive as a living library of Pixelwave's editorial history and invite readers to explore.",
+          "eyebrow": "Archive",
+          "headline": "Every Story We've Ever Told",
+          "subheadline": "From launch day to right now \u2014 browse the complete Pixelwave catalog by topic, issue, or keyword.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "archive-section-2",
+          "type": "feature_grid",
+          "intent": "Provide category-based navigation so readers can quickly filter the archive by the topics they care about most.",
+          "eyebrow": "Browse by Topic",
+          "headline": "Find Your Beat",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "AI & Machine Learning",
+              "description": "From large language models to autonomous agents \u2014 the stories behind the intelligence explosion.",
+              "metadata": {
+                "story_count": "34 stories"
+              }
+            },
+            {
+              "title": "Startups & Venture",
+              "description": "Founders, funding rounds, pivots, and postmortems from the startup ecosystem.",
+              "metadata": {
+                "story_count": "28 stories"
+              }
+            },
+            {
+              "title": "Digital Culture",
+              "description": "How technology is reshaping identity, community, creativity, and what it means to be online.",
+              "metadata": {
+                "story_count": "22 stories"
+              }
+            },
+            {
+              "title": "Hardware & Chips",
+              "description": "The silicon, sensors, and devices that make the software world possible.",
+              "metadata": {
+                "story_count": "17 stories"
+              }
+            },
+            {
+              "title": "Climate Tech",
+              "description": "Energy, sustainability, and the startups betting the planet on new science.",
+              "metadata": {
+                "story_count": "15 stories"
+              }
+            },
+            {
+              "title": "Future of Work",
+              "description": "Remote work, AI automation, labor markets, and the changing shape of careers.",
+              "metadata": {
+                "story_count": "19 stories"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "archive-section-3",
+          "type": "article_list",
+          "intent": "Show a reverse-chronological list of recent stories as a starting point for readers who prefer browsing by recency.",
+          "eyebrow": "Most Recent",
+          "headline": "Latest from the Archive",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "The New Geography of Remote Work",
+              "description": "Digital nomads gave way to something more permanent. How distributed teams are reshaping cities, productivity, and identity.",
+              "metadata": {
+                "category": "Future of Work",
+                "issue": "Issue 12",
+                "read_time": "6 min"
+              }
+            },
+            {
+              "title": "Biotech's Quiet Revolution",
+              "description": "Gene editing, synthetic biology, and longevity startups are moving faster than regulation, ethics, or public awareness.",
+              "metadata": {
+                "category": "Biotech",
+                "issue": "Issue 12",
+                "read_time": "8 min"
+              }
+            },
+            {
+              "title": "The Climate Tech Reckoning",
+              "description": "After years of hype, climate technology is hitting the wall of physical reality.",
+              "metadata": {
+                "category": "Climate Tech",
+                "issue": "Issue 11",
+                "read_time": "9 min"
+              }
+            },
+            {
+              "title": "Why Every Startup Suddenly Wants to Be an OS",
+              "description": "The platform wars are back, and this time the battlefield is your attention span.",
+              "metadata": {
+                "category": "Startups",
+                "issue": "Issue 11",
+                "read_time": "6 min"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Read a Story",
+              "target_page": "article"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "role": "editorial",
+      "goal": "Build trust and credibility by telling the Pixelwave origin story, introducing the editorial team, and explaining the publication's mission and values.",
+      "meta_description": "Learn about Pixelwave \u2014 the technology trends magazine with a bold voice, an independent editorial team, and a mission to make the future legible.",
+      "sections": [
+        {
+          "id": "about-section-1",
+          "type": "page_header",
+          "intent": "Open the About page with a punchy mission statement that captures why Pixelwave exists and who it is for.",
+          "eyebrow": "About Pixelwave",
+          "headline": "We Cover the Future So You Don't Get Left Behind",
+          "subheadline": "Pixelwave is an independent technology publication built for readers who want to understand what's actually happening \u2014 not just what went viral.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-2",
+          "type": "story_block",
+          "intent": "Tell the founding story and editorial philosophy in a way that differentiates Pixelwave from legacy tech media and builds emotional connection.",
+          "eyebrow": "Our Story",
+          "headline": "Born in the Browser, Built for the Next Era",
+          "subheadline": null,
+          "body": "Pixelwave launched in 2021 because we were tired of technology journalism that either fawned over founders or reduced every breakthrough to a bullet-point explainer. The future is complicated, contested, and genuinely exciting \u2014 and it deserved a publication willing to sit with that complexity.\n\nWe are a small, independent team of journalists, technologists, and obsessives who believe that the best technology writing is also great writing. We do not accept sponsored content. We do not write press releases in disguise. Every story we publish has been reported, argued over, edited, and re-edited until it earns its place.\n\nOur editorial philosophy is simple: respect the reader's intelligence, take the technology seriously, and never mistake hype for substance. The future is buffering \u2014 and we are here to help you read the signal through the noise.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-3",
+          "type": "item_grid",
+          "intent": "Introduce the core editorial team to put human faces and expertise behind the Pixelwave brand and build reader trust.",
+          "eyebrow": "The Team",
+          "headline": "The People Behind the Pixels",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Mara Voss \u2014 Editor in Chief",
+              "description": "Former tech correspondent at two national newspapers. Covers AI, policy, and the economics of platforms. Believes every chip shortage has a geopolitical story inside it.",
+              "metadata": {
+                "beat": "AI, Policy, Platforms"
+              }
+            },
+            {
+              "title": "Jonah Reyes \u2014 Senior Writer",
+              "description": "Startup ecosystem reporter with a background in computer science. Has interviewed over 200 founders and is still optimistic about exactly three of them.",
+              "metadata": {
+                "beat": "Startups, Venture, Hardware"
+              }
+            },
+            {
+              "title": "Suki Tanaka \u2014 Culture Editor",
+              "description": "Writes about digital identity, online communities, and the social consequences of technological change. Previously at a major digital culture outlet.",
+              "metadata": {
+                "beat": "Digital Culture, Future of Work"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Read Our Latest Features",
+              "target_page": "features"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

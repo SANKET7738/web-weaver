@@ -1,0 +1,300 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 28,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 5330,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 4000,
+          "path": "home/home_005.png"
+        },
+        {
+          "index": 6,
+          "scroll_y": 4330,
+          "path": "home/home_006.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 692394
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav ",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4278,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "about/about_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "about/about_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "about/about_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "about/about_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3278,
+          "path": "about/about_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "about/about_full.png",
+        "bytes": 711914
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav ",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "departments",
+      "route": "/departments.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4723,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "departments/departments_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "departments/departments_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "departments/departments_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "departments/departments_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3723,
+          "path": "departments/departments_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "departments/departments_full.png",
+        "bytes": 728994
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav ",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "route": "/research.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 5311,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "research/research_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "research/research_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "research/research_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "research/research_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 4000,
+          "path": "research/research_005.png"
+        },
+        {
+          "index": 6,
+          "scroll_y": 4311,
+          "path": "research/research_006.png"
+        }
+      ],
+      "full_page": {
+        "path": "research/research_full.png",
+        "bytes": 848544
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav ",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 5266,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "contact/contact_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 4000,
+          "path": "contact/contact_005.png"
+        },
+        {
+          "index": 6,
+          "scroll_y": 4266,
+          "path": "contact/contact_006.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 659718
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav ",
+          "position": "fixed"
+        }
+      ]
+    }
+  ]
+}

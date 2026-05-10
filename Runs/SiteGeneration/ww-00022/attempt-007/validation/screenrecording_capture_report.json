@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 2500,
+  "bottom_hold_ms": 2000,
+  "min_scroll_ms": 7000,
+  "max_scroll_ms": 15000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 5330,
+      "max_scroll_y": 4330,
+      "scroll_duration_ms": 8660,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3590517
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4278,
+      "max_scroll_y": 3278,
+      "scroll_duration_ms": 7000,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "about.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 3511362
+    },
+    {
+      "slug": "departments",
+      "route": "/departments.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4723,
+      "max_scroll_y": 3723,
+      "scroll_duration_ms": 7446,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "departments.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 4095530
+    },
+    {
+      "slug": "research",
+      "route": "/research.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 5311,
+      "max_scroll_y": 4311,
+      "scroll_duration_ms": 8622,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "research.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 4061697
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 5266,
+      "max_scroll_y": 4266,
+      "scroll_duration_ms": 8532,
+      "top_hold_ms": 2500,
+      "bottom_hold_ms": 2000,
+      "format": "mp4",
+      "path": "contact.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 4212726
+    }
+  ]
+}

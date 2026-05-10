@@ -1,0 +1,210 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 17,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2548,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1548,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 215590
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": []
+    },
+    {
+      "slug": "menu",
+      "route": "/menu.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2753,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "menu/menu_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "menu/menu_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1753,
+          "path": "menu/menu_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "menu/menu_full.png",
+        "bytes": 211899
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": []
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2478,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "story/story_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "story/story_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1478,
+          "path": "story/story_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "story/story_full.png",
+        "bytes": 208029
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": []
+    },
+    {
+      "slug": "events",
+      "route": "/events.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3173,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "events/events_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "events/events_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "events/events_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2173,
+          "path": "events/events_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "events/events_full.png",
+        "bytes": 223815
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": []
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3047,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2047,
+          "path": "contact/contact_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 215446
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": []
+    }
+  ]
+}

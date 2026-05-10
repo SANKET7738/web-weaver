@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" fill="none" aria-hidden="true">
+  <!-- spark arcs -->
+  <g stroke="#00E5FF" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M230 140 Q280 80 330 140"/>
+    <path d="M230 160 Q280 200 330 160"/>
+  </g>
+  <g stroke="#FFE600" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M250 140 Q280 100 310 140"/>
+    <path d="M250 160 Q280 180 310 160"/>
+  </g>
+  <!-- spark glyphs -->
+  <g fill="#FF1F8E">
+    <path d="M280 110 L274 124 L282 126 L278 138 L290 122 L282 120 L286 110 Z"/>
+    <path d="M280 178 L274 188 L282 190 L278 202 L290 186 L282 184 L286 174 Z"/>
+  </g>
+  <!-- scattered sparks -->
+  <g fill="#FFE600">
+    <circle cx="270" cy="100" r="4"/>
+    <circle cx="290" cy="100" r="3"/>
+    <circle cx="310" cy="110" r="4"/>
+    <circle cx="250" cy="120" r="3"/>
+    <circle cx="270" cy="210" r="4"/>
+    <circle cx="300" cy="200" r="3"/>
+  </g>
+  <g fill="#FF5C00">
+    <circle cx="320" cy="120" r="3"/>
+    <circle cx="240" cy="200" r="3"/>
+  </g>
+  <!-- left arm + hand -->
+  <g>
+    <rect x="20" y="125" width="180" height="30" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+    <rect x="50" y="130" width="30" height="20" fill="#0D0D0D"/>
+    <rect x="100" y="130" width="30" height="20" fill="#FF1F8E"/>
+    <!-- wrist -->
+    <rect x="200" y="115" width="20" height="50" fill="#0D0D0D"/>
+    <!-- hand -->
+    <rect x="220" y="105" width="40" height="70" rx="6" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+    <!-- fingers -->
+    <rect x="260" y="115" width="20" height="14" rx="3" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="260" y="135" width="20" height="14" rx="3" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="260" y="155" width="20" height="14" rx="3" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+  </g>
+  <!-- right arm + hand -->
+  <g>
+    <rect x="360" y="125" width="180" height="30" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="5"/>
+    <rect x="480" y="130" width="30" height="20" fill="#0D0D0D"/>
+    <rect x="430" y="130" width="30" height="20" fill="#FFE600"/>
+    <!-- wrist -->
+    <rect x="340" y="115" width="20" height="50" fill="#0D0D0D"/>
+    <!-- hand -->
+    <rect x="300" y="105" width="40" height="70" rx="6" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="5"/>
+    <!-- fingers -->
+    <rect x="280" y="115" width="20" height="14" rx="3" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="280" y="135" width="20" height="14" rx="3" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="280" y="155" width="20" height="14" rx="3" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="4"/>
+  </g>
+</svg>

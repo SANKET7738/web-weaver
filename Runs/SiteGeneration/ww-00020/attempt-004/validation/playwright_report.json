@@ -1,0 +1,718 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 20,
+    "visible_sections": 20,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Levante — Mediterranean Mezze Bar",
+            "bodyTextLength": 1573,
+            "scrollHeight": 2520,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 651.25,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 513.40625,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 459.6875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 465.375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "contact.html",
+              "story.html",
+              "contact.html",
+              "menu.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Levante — Mediterranean Mezze Bar",
+            "bodyTextLength": 1530,
+            "scrollHeight": 3812,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 887.703125,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 957.6875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 511.703125,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 505.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "contact.html",
+              "story.html",
+              "contact.html",
+              "menu.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "route": "/menu.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Menu — Levante",
+            "bodyTextLength": 2490,
+            "scrollHeight": 2811,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "menu-section-1",
+                "width": 1440,
+                "height": 422.234375,
+                "visible": true
+              },
+              {
+                "id": "menu-section-2",
+                "width": 1440,
+                "height": 522.03125,
+                "visible": true
+              },
+              {
+                "id": "menu-section-3",
+                "width": 1440,
+                "height": 848.046875,
+                "visible": true
+              },
+              {
+                "id": "menu-section-4",
+                "width": 1440,
+                "height": 587.640625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Menu — Levante",
+            "bodyTextLength": 2447,
+            "scrollHeight": 5333,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "menu-section-1",
+                "width": 390,
+                "height": 485.40625,
+                "visible": true
+              },
+              {
+                "id": "menu-section-2",
+                "width": 390,
+                "height": 1443.640625,
+                "visible": true
+              },
+              {
+                "id": "menu-section-3",
+                "width": 390,
+                "height": 1273.25,
+                "visible": true
+              },
+              {
+                "id": "menu-section-4",
+                "width": 390,
+                "height": 1181.21875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Story — Levante",
+            "bodyTextLength": 2024,
+            "scrollHeight": 2684,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "story-section-1",
+                "width": 1440,
+                "height": 422.234375,
+                "visible": true
+              },
+              {
+                "id": "story-section-2",
+                "width": 1440,
+                "height": 710.203125,
+                "visible": true
+              },
+              {
+                "id": "story-section-3",
+                "width": 1440,
+                "height": 615.375,
+                "visible": true
+              },
+              {
+                "id": "story-section-4",
+                "width": 1440,
+                "height": 505.453125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Our Story — Levante",
+            "bodyTextLength": 1981,
+            "scrollHeight": 4255,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "story-section-1",
+                "width": 390,
+                "height": 378.8125,
+                "visible": true
+              },
+              {
+                "id": "story-section-2",
+                "width": 390,
+                "height": 1079.84375,
+                "visible": true
+              },
+              {
+                "id": "story-section-3",
+                "width": 390,
+                "height": 1273.9375,
+                "visible": true
+              },
+              {
+                "id": "story-section-4",
+                "width": 390,
+                "height": 572.796875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "events",
+      "route": "/events.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Events — Levante",
+            "bodyTextLength": 2198,
+            "scrollHeight": 3066,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "events-section-1",
+                "width": 1440,
+                "height": 414.1875,
+                "visible": true
+              },
+              {
+                "id": "events-section-2",
+                "width": 1440,
+                "height": 745.671875,
+                "visible": true
+              },
+              {
+                "id": "events-section-3",
+                "width": 1440,
+                "height": 956.265625,
+                "visible": true
+              },
+              {
+                "id": "events-section-4",
+                "width": 1440,
+                "height": 518.859375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Events — Levante",
+            "bodyTextLength": 2153,
+            "scrollHeight": 4430,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "events-section-1",
+                "width": 390,
+                "height": 430.5625,
+                "visible": true
+              },
+              {
+                "id": "events-section-2",
+                "width": 390,
+                "height": 1476.765625,
+                "visible": true
+              },
+              {
+                "id": "events-section-3",
+                "width": 390,
+                "height": 1100.328125,
+                "visible": true
+              },
+              {
+                "id": "events-section-4",
+                "width": 390,
+                "height": 473.265625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Levante",
+            "bodyTextLength": 1951,
+            "scrollHeight": 3014,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 386.4375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 821.765625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 928.515625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 446.359375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "mailto:hello@levantemezze.com",
+              "mailto:events@levantemezze.com",
+              "menu.html",
+              "events.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — Levante",
+            "bodyTextLength": 1894,
+            "scrollHeight": 4292,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 371.8125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1423.421875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 1077.796875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 390,
+                "height": 469.515625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "#main",
+              "index.html",
+              "index.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html",
+              "contact.html",
+              "mailto:hello@levantemezze.com",
+              "mailto:events@levantemezze.com",
+              "menu.html",
+              "events.html",
+              "menu.html",
+              "story.html",
+              "events.html",
+              "contact.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

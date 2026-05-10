@@ -1,0 +1,108 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map showing the location of Levante on Harbour Lane">
+  <!-- background -->
+  <rect width="480" height="360" fill="#EEF3F8"/>
+
+  <!-- park / block fills -->
+  <rect x="40" y="40" width="120" height="80" fill="#D6E4F0"/>
+  <rect x="320" y="60" width="120" height="100" fill="#D6E4F0"/>
+  <rect x="60" y="220" width="100" height="100" fill="#D6E4F0"/>
+  <rect x="280" y="240" width="160" height="80" fill="#D6E4F0"/>
+
+  <!-- River / water hint -->
+  <path d="M0 175 Q 80 165 160 180 T 320 175 T 480 185 L 480 200 Q 320 200 160 195 T 0 195 Z" fill="#B5CADC" opacity="0.7"/>
+
+  <!-- Roads (main) -->
+  <g stroke="#FFFFFF" fill="none" stroke-linecap="square">
+    <line x1="0" y1="140" x2="480" y2="140" stroke-width="14"/>
+    <line x1="0" y1="220" x2="480" y2="220" stroke-width="10"/>
+    <line x1="220" y1="0" x2="220" y2="360" stroke-width="14"/>
+    <line x1="380" y1="0" x2="380" y2="360" stroke-width="10"/>
+    <line x1="80" y1="0" x2="80" y2="360" stroke-width="8"/>
+  </g>
+
+  <!-- Road borders -->
+  <g stroke="#C5D5E5" fill="none" stroke-width="0.6">
+    <line x1="0" y1="133" x2="480" y2="133"/>
+    <line x1="0" y1="147" x2="480" y2="147"/>
+    <line x1="0" y1="215" x2="480" y2="215"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+    <line x1="213" y1="0" x2="213" y2="360"/>
+    <line x1="227" y1="0" x2="227" y2="360"/>
+    <line x1="375" y1="0" x2="375" y2="360"/>
+    <line x1="385" y1="0" x2="385" y2="360"/>
+    <line x1="76" y1="0" x2="76" y2="360"/>
+    <line x1="84" y1="0" x2="84" y2="360"/>
+  </g>
+
+  <!-- Street lane markings -->
+  <g stroke="#E2E8F0" stroke-dasharray="6 8" fill="none">
+    <line x1="0" y1="140" x2="480" y2="140" stroke-width="0.8"/>
+    <line x1="220" y1="0" x2="220" y2="360" stroke-width="0.8"/>
+  </g>
+
+  <!-- Buildings -->
+  <g fill="#C5D5E5">
+    <rect x="90" y="50" width="50" height="35"/>
+    <rect x="150" y="50" width="60" height="50"/>
+    <rect x="90" y="100" width="60" height="30"/>
+    <rect x="160" y="105" width="50" height="25"/>
+
+    <rect x="240" y="55" width="50" height="40"/>
+    <rect x="295" y="50" width="55" height="55"/>
+    <rect x="355" y="60" width="20" height="45"/>
+    <rect x="240" y="100" width="60" height="30"/>
+    <rect x="305" y="110" width="55" height="20"/>
+
+    <rect x="240" y="160" width="50" height="50"/>
+    <rect x="295" y="155" width="40" height="55"/>
+    <rect x="340" y="160" width="35" height="50"/>
+
+    <rect x="90" y="160" width="50" height="50"/>
+    <rect x="145" y="170" width="65" height="40"/>
+
+    <rect x="90" y="240" width="50" height="40"/>
+    <rect x="145" y="240" width="60" height="50"/>
+    <rect x="90" y="285" width="45" height="35"/>
+    <rect x="140" y="295" width="65" height="25"/>
+
+    <rect x="240" y="240" width="55" height="40"/>
+    <rect x="305" y="240" width="60" height="35"/>
+    <rect x="375" y="240" width="40" height="40"/>
+    <rect x="240" y="285" width="50" height="35"/>
+    <rect x="295" y="285" width="60" height="35"/>
+    <rect x="360" y="285" width="55" height="35"/>
+  </g>
+
+  <!-- Highlight building (Levante) -->
+  <rect x="240" y="160" width="50" height="50" fill="#1C2B4A"/>
+
+  <!-- Street labels -->
+  <g font-family="IBM Plex Mono, monospace" font-size="8" fill="#4A5568" letter-spacing="0.1em">
+    <text x="240" y="138" text-anchor="end">HARBOUR LN</text>
+    <text x="240" y="218" text-anchor="end">QUAY ST</text>
+    <text x="218" y="14" text-anchor="end" transform="rotate(-90 218 14)">MERCHANT RD</text>
+  </g>
+
+  <!-- Transit icons (tube/bus) -->
+  <g>
+    <circle cx="80" cy="140" r="9" fill="#3B82C4"/>
+    <text x="80" y="143" text-anchor="middle" fill="#fff" font-family="IBM Plex Mono, monospace" font-size="9" font-weight="700">T</text>
+    <circle cx="380" cy="220" r="9" fill="#1C2B4A"/>
+    <text x="380" y="223" text-anchor="middle" fill="#fff" font-family="IBM Plex Mono, monospace" font-size="9" font-weight="700">B</text>
+  </g>
+
+  <!-- Pin marker (Levante) -->
+  <g transform="translate(265,150)">
+    <path d="M0 -22 C 12 -22 16 -8 0 12 C -16 -8 -12 -22 0 -22 Z" fill="#C0674A" stroke="#1C2B4A" stroke-width="1.5"/>
+    <circle cx="0" cy="-12" r="5" fill="#fff"/>
+    <text x="14" y="-12" font-family="Libre Franklin, sans-serif" font-size="10" font-weight="700" fill="#1C2B4A">LEVANTE</text>
+    <text x="14" y="0" font-family="IBM Plex Mono, monospace" font-size="8" fill="#4A5568">42 HARBOUR LN</text>
+  </g>
+
+  <!-- Compass / scale -->
+  <g transform="translate(440,330)">
+    <circle r="12" fill="#fff" stroke="#1C2B4A" stroke-width="1"/>
+    <path d="M0 -8 L 2 0 L 0 8 L -2 0 Z" fill="#1C2B4A"/>
+    <text x="0" y="-14" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="7" fill="#1C2B4A">N</text>
+  </g>
+</svg>

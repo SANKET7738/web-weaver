@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" fill="none" aria-label="Garage workshop">
+  <defs>
+    <linearGradient id="duotone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF1F8E" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFE600" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky / wall behind -->
+  <rect x="0" y="0" width="500" height="280" fill="#1E1E2A"/>
+  <rect x="0" y="280" width="500" height="140" fill="#0D0D0D"/>
+
+  <!-- Beam of light -->
+  <polygon points="380,20 480,20 320,400 220,400" fill="#FFE600" opacity="0.08"/>
+
+  <!-- Garage frame -->
+  <rect x="40" y="60" width="420" height="320" fill="none" stroke="#FFE600" stroke-width="6"/>
+  <rect x="40" y="60" width="420" height="40" fill="#FF5C00"/>
+  <text x="250" y="90" text-anchor="middle" font-family="Bebas Neue, Arial Black" font-size="22" fill="#0D0D0D" letter-spacing="4">EST. 2016</text>
+
+  <!-- Roll-up door slats -->
+  <g stroke="#FFE600" stroke-width="2" opacity="0.5">
+    <line x1="60" y1="120" x2="440" y2="120"/>
+    <line x1="60" y1="140" x2="440" y2="140"/>
+    <line x1="60" y1="160" x2="440" y2="160"/>
+  </g>
+
+  <!-- Workbench -->
+  <rect x="80" y="280" width="340" height="14" fill="#FFE600"/>
+  <rect x="100" y="294" width="14" height="80" fill="#FF5C00"/>
+  <rect x="386" y="294" width="14" height="80" fill="#FF5C00"/>
+
+  <!-- Tiny robot on bench -->
+  <g>
+    <rect x="220" y="220" width="60" height="50" fill="#0D0D0D" stroke="#FFE600" stroke-width="3"/>
+    <rect x="232" y="232" width="14" height="14" fill="#00E5FF"/>
+    <rect x="254" y="232" width="14" height="14" fill="#00E5FF"/>
+    <rect x="232" y="256" width="36" height="6" fill="#FF1F8E"/>
+    <line x1="250" y1="220" x2="250" y2="200" stroke="#FFE600" stroke-width="3"/>
+    <circle cx="250" cy="196" r="6" fill="#FF1F8E"/>
+    <rect x="208" y="270" width="84" height="10" fill="#FF5C00"/>
+  </g>
+
+  <!-- Giant gear -->
+  <g transform="translate(120,180)">
+    <circle r="55" fill="none" stroke="#FFE600" stroke-width="6"/>
+    <circle r="20" fill="#FF1F8E"/>
+    <g fill="#FFE600">
+      <rect x="-6" y="-70" width="12" height="22"/>
+      <rect x="-6" y="48"  width="12" height="22"/>
+      <rect x="-70" y="-6" width="22" height="12"/>
+      <rect x="48" y="-6"  width="22" height="12"/>
+      <rect x="-50" y="-50" width="14" height="14" transform="rotate(45)"/>
+      <rect x="36" y="-50" width="14" height="14" transform="rotate(45)"/>
+      <rect x="36" y="36" width="14" height="14" transform="rotate(45)"/>
+      <rect x="-50" y="36" width="14" height="14" transform="rotate(45)"/>
+    </g>
+  </g>
+
+  <!-- Second smaller gear -->
+  <g transform="translate(395,210)">
+    <circle r="34" fill="none" stroke="#FF5C00" stroke-width="5"/>
+    <circle r="10" fill="#00E5FF"/>
+    <g fill="#FF5C00">
+      <rect x="-4" y="-46" width="8" height="14"/>
+      <rect x="-4" y="32" width="8" height="14"/>
+      <rect x="-46" y="-4" width="14" height="8"/>
+      <rect x="32" y="-4" width="14" height="8"/>
+    </g>
+  </g>
+
+  <!-- Tools hanging -->
+  <g stroke="#FFE600" stroke-width="4">
+    <line x1="320" y1="120" x2="320" y2="180"/>
+    <line x1="340" y1="120" x2="340" y2="170"/>
+  </g>
+  <!-- Wrench -->
+  <g transform="translate(316,180)" fill="#FFE600">
+    <rect x="0" y="0" width="8" height="40"/>
+    <circle cx="4" cy="-6" r="9" fill="none" stroke="#FFE600" stroke-width="4"/>
+  </g>
+  <!-- Hammer head -->
+  <rect x="332" y="170" width="20" height="10" fill="#FF1F8E"/>
+
+  <!-- Spark stars -->
+  <g fill="#FFE600">
+    <polygon points="60,180 64,168 68,180 80,184 68,188 64,200 60,188 48,184"/>
+    <polygon points="460,90 463,80 466,90 476,93 466,96 463,106 460,96 450,93"/>
+    <polygon points="180,80 183,72 186,80 194,82 186,84 183,92 180,84 172,82"/>
+  </g>
+</svg>

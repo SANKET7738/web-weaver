@@ -1,0 +1,19 @@
+{
+  "id": "ww-00023",
+  "version": "0.1",
+  "site_domain": "media_magazine",
+  "site_subdomain": "technology trends publication",
+  "design_aesthetic": "y2k_gloss",
+  "layout_family": "sidebar_navigation",
+  "page_set": [
+    "home",
+    "features",
+    "article",
+    "archive",
+    "about"
+  ],
+  "difficulty": "easy",
+  "seed": 2569918234,
+  "sample_index": 2,
+  "source": "web-weaver.concept_sampler"
+}

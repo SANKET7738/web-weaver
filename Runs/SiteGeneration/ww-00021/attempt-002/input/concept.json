@@ -1,0 +1,19 @@
+{
+  "id": "ww-00021",
+  "version": "0.1",
+  "site_domain": "gaming_entertainment",
+  "site_subdomain": "board game cafe",
+  "design_aesthetic": "friendly_consumer_app",
+  "layout_family": "classic_landing",
+  "page_set": [
+    "home",
+    "games",
+    "trailer",
+    "community",
+    "buy"
+  ],
+  "difficulty": "hard",
+  "seed": 88463792,
+  "sample_index": 10,
+  "source": "web-weaver.concept_sampler"
+}

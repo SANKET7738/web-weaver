@@ -1,0 +1,54 @@
+{
+  "valid": false,
+  "checks": {
+    "file_structure": true,
+    "page_files": true,
+    "routes": true,
+    "content_coverage": false,
+    "section_coverage": false,
+    "palette_usage": true,
+    "font_usage": true,
+    "asset_coverage": true,
+    "policy": false
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_texts": 110,
+    "matched_texts": 6,
+    "content_coverage": 0.0545,
+    "expected_sections": 25,
+    "matched_section_ids": 0,
+    "section_coverage": 0.0,
+    "palette_colors_used": 8,
+    "palette_colors_expected": 8,
+    "palette_colors_matched": [
+      "#00e5ff",
+      "#0d0d0d",
+      "#1e1e2a",
+      "#f5f0dc",
+      "#ff1f8e",
+      "#ff5c00",
+      "#ffe600",
+      "#ffffff"
+    ],
+    "font_matches": 3,
+    "fonts_matched": [
+      "Archivo Black",
+      "Archivo",
+      "Bebas Neue"
+    ],
+    "asset_sections": 10,
+    "covered_asset_sections": 10,
+    "asset_coverage": 1.0,
+    "policy_violations": [
+      "Forbidden external dependency URL: https://reactjs.org/docs/error-decoder.html?invariant="
+    ],
+    "policy_framework": "react_css"
+  },
+  "failures": [
+    "Content coverage 0.05 below threshold 0.75",
+    "Section id coverage 0.00 below threshold 0.80",
+    "Forbidden external dependency URL: https://reactjs.org/docs/error-decoder.html?invariant="
+  ]
+}

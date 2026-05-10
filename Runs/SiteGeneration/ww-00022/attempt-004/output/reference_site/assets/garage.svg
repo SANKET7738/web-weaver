@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="garagewall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FF1F8E"/>
+      <stop offset="1" stop-color="#FF5C00"/>
+    </linearGradient>
+  </defs>
+  <!-- starburst -->
+  <g stroke="#FFE600" stroke-width="3" opacity="0.6">
+    <line x1="60" y1="40" x2="80" y2="60"/>
+    <line x1="360" y1="40" x2="340" y2="60"/>
+    <line x1="40" y1="100" x2="70" y2="100"/>
+    <line x1="380" y1="100" x2="350" y2="100"/>
+  </g>
+  <!-- garage backdrop -->
+  <rect x="40" y="60" width="340" height="240" fill="url(#garagewall)" opacity="0.7"/>
+  <rect x="40" y="60" width="340" height="240" fill="none" stroke="#0D0D0D" stroke-width="6"/>
+  <!-- roof banner -->
+  <path d="M30 60 L390 60 L370 30 L50 30 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+  <text x="210" y="55" text-anchor="middle" font-family="Bebas Neue, Archivo Black, sans-serif" font-size="22" fill="#0D0D0D" letter-spacing="2">BOLTWORKS GARAGE</text>
+  <!-- workbench -->
+  <rect x="60" y="220" width="320" height="20" fill="#0D0D0D"/>
+  <rect x="80" y="240" width="20" height="60" fill="#0D0D0D"/>
+  <rect x="340" y="240" width="20" height="60" fill="#0D0D0D"/>
+  <!-- giant gear left -->
+  <g transform="translate(120,160)">
+    <circle r="48" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+    <circle r="20" fill="#0D0D0D"/>
+    <g fill="#0D0D0D">
+      <rect x="-7" y="-58" width="14" height="14"/>
+      <rect x="-7" y="44" width="14" height="14"/>
+      <rect x="-58" y="-7" width="14" height="14"/>
+      <rect x="44" y="-7" width="14" height="14"/>
+      <rect x="-46" y="-46" width="14" height="14" transform="rotate(45)"/>
+      <rect x="-46" y="-46" width="14" height="14" transform="rotate(-45)"/>
+      <rect x="32" y="-46" width="14" height="14" transform="rotate(45)"/>
+      <rect x="32" y="32" width="14" height="14" transform="rotate(45)"/>
+    </g>
+  </g>
+  <!-- giant gear right -->
+  <g transform="translate(300,170)">
+    <circle r="36" fill="#00E5FF" stroke="#0D0D0D" stroke-width="5"/>
+    <circle r="14" fill="#0D0D0D"/>
+    <g fill="#0D0D0D">
+      <rect x="-5" y="-44" width="10" height="10"/>
+      <rect x="-5" y="34" width="10" height="10"/>
+      <rect x="-44" y="-5" width="10" height="10"/>
+      <rect x="34" y="-5" width="10" height="10"/>
+    </g>
+  </g>
+  <!-- mini robot on bench -->
+  <g transform="translate(190,180)">
+    <rect x="-22" y="-30" width="44" height="36" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="-14" y="-22" width="28" height="14" fill="#0D0D0D"/>
+    <circle cx="-6" cy="-15" r="3" fill="#FF1F8E"/>
+    <circle cx="6" cy="-15" r="3" fill="#FF1F8E"/>
+    <rect x="-18" y="8" width="36" height="22" fill="#FF5C00" stroke="#0D0D0D" stroke-width="4"/>
+    <path d="M-5 12 L-9 24 L-3 24 L-6 32 L4 18 L-2 18 L2 12 Z" fill="#FFE600"/>
+    <rect x="-26" y="6" width="6" height="20" fill="#0D0D0D"/>
+    <rect x="20" y="6" width="6" height="20" fill="#0D0D0D"/>
+  </g>
+  <!-- wrench -->
+  <g transform="translate(60,260) rotate(-20)">
+    <rect x="0" y="-3" width="64" height="6" fill="#0D0D0D"/>
+    <path d="M0 -10 L-12 -10 L-12 10 L0 10 Z M-6 -3 L-6 3" fill="#0D0D0D" stroke="#0D0D0D" stroke-width="3"/>
+    <path d="M64 -10 L76 -10 L80 0 L76 10 L64 10 Z" fill="#0D0D0D"/>
+  </g>
+  <!-- floor -->
+  <rect x="0" y="300" width="420" height="60" fill="#0D0D0D"/>
+  <g stroke="#FF5C00" stroke-width="2" opacity="0.6">
+    <line x1="20" y1="320" x2="80" y2="320"/>
+    <line x1="120" y1="320" x2="180" y2="320"/>
+    <line x1="220" y1="320" x2="280" y2="320"/>
+    <line x1="320" y1="320" x2="380" y2="320"/>
+  </g>
+</svg>

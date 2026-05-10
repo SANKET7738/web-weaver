@@ -1,0 +1,19 @@
+{
+  "id": "ww-00020",
+  "version": "0.1",
+  "site_domain": "restaurant",
+  "site_subdomain": "Mediterranean mezze bar",
+  "design_aesthetic": "corporate_clean",
+  "layout_family": "dashboard_product",
+  "page_set": [
+    "home",
+    "menu",
+    "story",
+    "events",
+    "contact"
+  ],
+  "difficulty": "medium",
+  "seed": 88463792,
+  "sample_index": 9,
+  "source": "web-weaver.concept_sampler"
+}

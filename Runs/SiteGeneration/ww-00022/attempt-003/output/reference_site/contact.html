@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — BoltWorks</title>
+  <meta name="description" content="Get in touch with BoltWorks Robotics Club. Ask about enrollment, partnerships, sponsorships, or upcoming events. We'd love to hear from you." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M14 2 L8 18 L14 18 L10 30 L24 14 L18 14 L22 2 Z' fill='%23FFE600'/%3E%3C/svg%3E" />
+</head>
+<body data-page-slug="contact">
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="BoltWorks home">
+        <svg class="brand-bolt" viewBox="0 0 32 32" aria-hidden="true"><path d="M14 2 L8 18 L14 18 L10 30 L24 14 L18 14 L22 2 Z" fill="#FFE600"/></svg>
+        <span>Bolt<span class="brand-mark">Works</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-controls="primary-nav">MENU</button>
+      <ul class="nav-links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html" class="nav-cta active">Join</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section id="contact-section-1" data-section-type="page_header" class="contact-header">
+      <div class="container">
+        <span class="eyebrow">Let's Connect</span>
+        <h1>The Build Starts With A<br><span class="big-word">Conversation</span></h1>
+        <p class="sub">Whether you're ready to join, want to sponsor a team, or just have questions — we're here and we're excited to hear from you.</p>
+        <img src="assets/handshake.svg" class="handshake-illustration" alt="Two robot hands reaching toward each other across a spark-filled gap" />
+      </div>
+    </section>
+
+    <!-- Contact Block (signature) -->
+    <section id="contact-section-2" data-section-type="contact_block" class="contact-block-section">
+      <div class="contact-form-panel">
+        <span class="eyebrow">Reach Out</span>
+        <h2>We Respond Within 24 Hours</h2>
+        <p class="sub">Send us a message, drop by the lab, or follow along on social media.</p>
+        <p class="body">Fill out the form and tell us a bit about yourself or your organization. Our team will match you with the right person to answer your questions.</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); this.querySelector('.form-submit').textContent='Message Sent — Thanks!';">
+          <div class="field-group">
+            <label for="cf-name">Your Name</label>
+            <input id="cf-name" type="text" placeholder="Ada Lovelace" />
+          </div>
+          <div class="field-group">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" type="email" placeholder="ada@example.com" />
+          </div>
+          <div class="field-group full">
+            <label for="cf-subject">Subject</label>
+            <select id="cf-subject">
+              <option>Enrollment</option>
+              <option>Sponsorship</option>
+              <option>General Inquiry</option>
+              <option>School Partnership</option>
+            </select>
+          </div>
+          <div class="field-group full">
+            <label for="cf-message">Message</label>
+            <textarea id="cf-message" placeholder="Tell us about yourself or your organization…"></textarea>
+          </div>
+          <button class="form-submit" type="submit">Send a Message</button>
+        </form>
+      </div>
+      <div class="contact-info-panel">
+        <div class="contact-info-cards">
+          <article class="info-card">
+            <span class="info-type-chip">Email</span>
+            <h3>General Inquiries</h3>
+            <p>hello@boltworks.club</p>
+          </article>
+          <article class="info-card">
+            <span class="info-type-chip">Email</span>
+            <h3>Enrollment Questions</h3>
+            <p>enroll@boltworks.club</p>
+          </article>
+          <article class="info-card">
+            <span class="info-type-chip">Email</span>
+            <h3>Sponsor &amp; Partnership</h3>
+            <p>partners@boltworks.club</p>
+          </article>
+          <article class="info-card spaced">
+            <span class="info-type-chip">Address</span>
+            <h3>Club Location</h3>
+            <p>BoltWorks Robotics Lab, 240 Maker Street, Suite 4, Springfield, IL 62704</p>
+          </article>
+          <article class="info-card spaced">
+            <span class="info-type-chip">Hours</span>
+            <h3>Lab Hours</h3>
+            <p>Monday–Friday 3:30–7:00 PM<br>Saturday 9:00 AM–1:00 PM</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Block -->
+    <section id="contact-section-3" data-section-type="map_block" class="map-section">
+      <div class="map-zone">
+        <img src="assets/map.svg" alt="Stylized map of the BoltWorks neighborhood showing the lab, transit, and parking" />
+      </div>
+      <div class="map-text-zone">
+        <span class="eyebrow">Find Us</span>
+        <h2>We're in the Heart of the Maker District</h2>
+        <p class="sub">Our lab is accessible by public transit and has dedicated parking for weekend sessions.</p>
+        <p class="body">BoltWorks is located at 240 Maker Street, Suite 4, Springfield, IL. We share a building with a local makerspace and a community workshop — the energy is contagious the moment you walk in.</p>
+        <div class="address-callout">
+          <div class="addr">240 Maker Street, Suite 4 · Springfield, IL 62704</div>
+          <div class="hours">3:30–7:00 PM Weekdays · 9:00 AM–1:00 PM Saturdays</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="contact-section-4" data-section-type="faq" class="faq-section">
+      <div class="container container-narrow">
+        <span class="eyebrow">Quick Answers</span>
+        <h2>Things People Usually Ask Us First</h2>
+        <div class="faq-items">
+          <div class="faq-item">
+            <div class="faq-num">01</div>
+            <div class="faq-content">
+              <h3>Does my child need prior experience to join?</h3>
+              <p>Absolutely not. Most of our members start with zero robotics experience. Our Sparks and Voltage divisions are designed specifically for complete beginners.</p>
+            </div>
+            <div class="faq-plus">+</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-num">02</div>
+            <div class="faq-content">
+              <h3>What does membership cost?</h3>
+              <p>Seasonal membership fees range from $150 to $350 depending on division. Need-based scholarships are available and cover up to 100% of fees. No student is turned away for financial reasons.</p>
+            </div>
+            <div class="faq-plus">+</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-num">03</div>
+            <div class="faq-content">
+              <h3>How do I enroll my child?</h3>
+              <p>Submit an enrollment inquiry through the contact form above. Our team will schedule a free orientation session where your child can meet coaches and try a build activity before committing.</p>
+            </div>
+            <div class="faq-plus">+</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-num">04</div>
+            <div class="faq-content">
+              <h3>Can businesses or individuals sponsor BoltWorks?</h3>
+              <p>Yes! Sponsorships start at $500 and include recognition on our competition robot, website, and event materials. Contact partners@boltworks.club for a sponsorship prospectus.</p>
+            </div>
+            <div class="faq-plus">+</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-num">05</div>
+            <div class="faq-content">
+              <h3>Do you partner with schools?</h3>
+              <p>We have formal partnerships with six schools in the region and offer in-school demo programs and teacher training. Contact Tom Callahan at outreach@boltworks.club to explore a partnership.</p>
+            </div>
+            <div class="faq-plus">+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Close -->
+    <section id="contact-section-5" data-section-type="cta" class="contact-cta-close">
+      <div class="bolt-decor left" aria-hidden="true">⚡</div>
+      <div class="bolt-decor right" aria-hidden="true">⚡</div>
+      <div class="container">
+        <span class="eyebrow">One Last Thing</span>
+        <h2>The Best Time to Join<br>Was Last Season.<br>The Second Best Time Is Now.</h2>
+        <p class="sub">Don't let another build season pass you by. The lab is warm, the mentors are ready, and there's a robot with your name on it.</p>
+        <div class="cta-row">
+          <a class="btn btn-dark" href="#contact-section-2">Start Your Application</a>
+          <a class="btn btn-outline-dark" href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <svg class="brand-bolt" viewBox="0 0 32 32"><path d="M14 2 L8 18 L14 18 L10 30 L24 14 L18 14 L22 2 Z" fill="#FFE600"/></svg>
+          <span>Bolt<span class="brand-mark">Works</span></span>
+        </div>
+        <p>A festival-spirited robotics learning club where young engineers build, compete, and ignite.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Enrollment</a></li>
+          <li><a href="contact.html">Sponsor</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>240 Maker Street, Suite 4</li>
+          <li>Springfield, IL 62704</li>
+          <li>Mon–Fri 3:30–7:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <span>© BoltWorks Robotics Club</span>
+      <span>Build · Compete · Ignite</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

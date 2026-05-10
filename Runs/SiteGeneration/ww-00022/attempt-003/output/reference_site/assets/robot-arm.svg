@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" aria-label="Robot arm reaching for lightbulb">
+  <defs>
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE600" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#FF5C00" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Bulb glow -->
+  <circle cx="430" cy="170" r="180" fill="url(#bulbGlow)"/>
+
+  <!-- Circuit traces background -->
+  <g stroke="#00E5FF" stroke-width="2" opacity="0.5" fill="none">
+    <polyline points="40,500 110,500 110,440 200,440"/>
+    <polyline points="40,400 90,400 90,360 160,360 160,300 230,300"/>
+    <polyline points="500,520 440,520 440,470 380,470"/>
+    <polyline points="540,420 470,420 470,380 410,380"/>
+  </g>
+  <g fill="#00E5FF" opacity="0.8">
+    <circle cx="40" cy="500" r="5"/>
+    <circle cx="40" cy="400" r="5"/>
+    <circle cx="540" cy="420" r="5"/>
+    <circle cx="500" cy="520" r="5"/>
+  </g>
+
+  <!-- Data graph (right side) -->
+  <g stroke="#FF1F8E" stroke-width="3" fill="none" opacity="0.7">
+    <polyline points="50,560 120,540 180,500 240,520 300,460 360,440 420,400 480,360 540,330"/>
+  </g>
+  <g fill="#FF1F8E" opacity="0.9">
+    <circle cx="120" cy="540" r="4"/>
+    <circle cx="240" cy="520" r="4"/>
+    <circle cx="360" cy="440" r="4"/>
+    <circle cx="480" cy="360" r="4"/>
+  </g>
+
+  <!-- Bulb -->
+  <g transform="translate(420,150)">
+    <!-- glass -->
+    <path d="M0 0 C-50 0 -70 50 -50 95 L-30 130 L30 130 L50 95 C70 50 50 0 0 0 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <!-- Filament -->
+    <path d="M-18 60 Q-10 80 0 60 Q10 40 20 70" stroke="#FF5C00" stroke-width="3" fill="none"/>
+    <!-- Base -->
+    <rect x="-26" y="130" width="52" height="14" fill="#0D0D0D"/>
+    <rect x="-22" y="144" width="44" height="6" fill="#FF5C00"/>
+    <rect x="-18" y="150" width="36" height="6" fill="#0D0D0D"/>
+    <!-- Idea bolt -->
+    <path d="M-6 30 L-14 60 L-2 60 L-10 90 L8 56 L-2 56 L4 30 Z" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Robot arm base -->
+  <rect x="40" y="500" width="120" height="60" fill="#0D0D0D" stroke="#FFE600" stroke-width="4"/>
+  <rect x="60" y="510" width="80" height="6" fill="#FF1F8E"/>
+
+  <!-- Arm segment 1 -->
+  <g transform="translate(100,500) rotate(-60)">
+    <rect x="-22" y="-180" width="44" height="200" fill="#0D0D0D" stroke="#FFE600" stroke-width="4"/>
+    <circle cx="0" cy="0" r="18" fill="#FF5C00" stroke="#FFE600" stroke-width="3"/>
+    <circle cx="0" cy="-180" r="18" fill="#FF5C00" stroke="#FFE600" stroke-width="3"/>
+
+    <!-- Arm segment 2 attached at top joint -->
+    <g transform="translate(0,-180) rotate(45)">
+      <rect x="-18" y="-220" width="36" height="230" fill="#0D0D0D" stroke="#FFE600" stroke-width="4"/>
+      <circle cx="0" cy="0" r="14" fill="#FF1F8E"/>
+      <circle cx="0" cy="-220" r="14" fill="#FF1F8E"/>
+
+      <!-- Gripper -->
+      <g transform="translate(0,-220) rotate(15)">
+        <rect x="-30" y="-30" width="60" height="14" fill="#FFE600"/>
+        <rect x="-30" y="-30" width="10" height="40" fill="#FFE600"/>
+        <rect x="20" y="-30" width="10" height="40" fill="#FFE600"/>
+        <circle cx="0" cy="-22" r="4" fill="#0D0D0D"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tiny sparks around bulb -->
+  <g fill="#FFE600">
+    <polygon points="320,80 324,68 328,80 340,84 328,88 324,100 320,88 308,84"/>
+    <polygon points="540,130 543,120 546,130 556,133 546,136 543,146 540,136 530,133"/>
+    <polygon points="460,310 463,300 466,310 476,313 466,316 463,326 460,316 450,313"/>
+  </g>
+</svg>

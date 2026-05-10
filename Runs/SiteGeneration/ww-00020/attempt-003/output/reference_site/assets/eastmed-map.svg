@@ -1,0 +1,64 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line-art map of the eastern Mediterranean">
+  <!-- Subtle ocean grid -->
+  <g stroke="#B5C8DA" stroke-width="0.4" opacity="0.4">
+    <line x1="0" y1="60" x2="480" y2="60"/>
+    <line x1="0" y1="120" x2="480" y2="120"/>
+    <line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="240" x2="480" y2="240"/>
+    <line x1="0" y1="300" x2="480" y2="300"/>
+    <line x1="80" y1="0" x2="80" y2="360"/>
+    <line x1="160" y1="0" x2="160" y2="360"/>
+    <line x1="240" y1="0" x2="240" y2="360"/>
+    <line x1="320" y1="0" x2="320" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+  </g>
+
+  <!-- Coastline outline -->
+  <g fill="none" stroke="#1C2B4A" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Greece / Aegean -->
+    <path d="M40 80 L 80 70 L 110 90 L 100 120 L 130 130 L 120 150 L 145 165 L 135 185 L 165 195 L 175 220 L 155 245 L 130 260"/>
+    <!-- Greek islands -->
+    <ellipse cx="170" cy="155" rx="6" ry="3"/>
+    <ellipse cx="195" cy="175" rx="5" ry="2.5"/>
+    <ellipse cx="155" cy="220" rx="4" ry="2"/>
+    <ellipse cx="180" cy="245" rx="7" ry="3"/>
+    <!-- Crete -->
+    <path d="M165 295 Q 200 287 240 295 Q 230 305 195 305 Q 175 303 165 295 Z"/>
+    <!-- Turkey south coast -->
+    <path d="M200 110 L 250 105 L 295 115 L 320 130 L 340 155 L 365 165 L 390 155 L 420 165"/>
+    <!-- Cyprus -->
+    <path d="M335 195 L 365 192 L 380 205 L 365 215 L 340 213 Z"/>
+    <!-- Lebanon / Israel coastline -->
+    <path d="M420 165 L 420 195 L 425 230 L 422 270 L 418 310"/>
+    <!-- Inland border (suggestive) -->
+    <path d="M420 165 L 445 175 L 450 220 L 448 260 L 445 305 L 420 320" stroke-dasharray="3,3" opacity="0.5"/>
+  </g>
+
+  <!-- City markers and labels -->
+  <g font-family="IBM Plex Mono, monospace" font-size="9" fill="#1C2B4A" letter-spacing="0.05em">
+    <circle cx="100" cy="130" r="5" fill="#3B82C4"/>
+    <text x="110" y="125">ATHENS</text>
+
+    <circle cx="295" cy="115" r="5" fill="#3B82C4"/>
+    <text x="305" y="110">ISTANBUL</text>
+
+    <circle cx="195" cy="305" r="5" fill="#3B82C4"/>
+    <text x="135" y="328">CRETE</text>
+
+    <circle cx="365" cy="205" r="5" fill="#3B82C4"/>
+    <text x="375" y="200">CYPRUS</text>
+
+    <circle cx="423" cy="245" r="6" fill="#C0674A"/>
+    <text x="435" y="248" font-weight="600">BEIRUT</text>
+
+    <circle cx="421" cy="295" r="5" fill="#3B82C4"/>
+    <text x="430" y="298">TEL AVIV</text>
+  </g>
+
+  <!-- Compass -->
+  <g transform="translate(50,310)">
+    <circle r="14" fill="none" stroke="#1C2B4A" stroke-width="1"/>
+    <path d="M0 -10 L 3 0 L 0 10 L -3 0 Z" fill="#1C2B4A"/>
+    <text font-family="IBM Plex Mono, monospace" font-size="9" fill="#1C2B4A" text-anchor="middle" y="-18">N</text>
+  </g>
+</svg>

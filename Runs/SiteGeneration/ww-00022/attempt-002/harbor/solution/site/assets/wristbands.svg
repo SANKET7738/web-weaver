@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-label="Festival wristband badges for Sparks, Voltage, Apex">
+  <defs>
+    <linearGradient id="wb1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#FF5C00"/>
+    </linearGradient>
+    <linearGradient id="wb2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#FF1F8E"/>
+    </linearGradient>
+    <linearGradient id="wb3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF1F8E"/>
+      <stop offset="100%" stop-color="#FFE600"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sparks band -->
+  <g transform="translate(0 30) rotate(-6 160 30)">
+    <rect x="20" y="0" width="280" height="68" fill="url(#wb1)" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="20" y="0" width="68" height="68" fill="#0D0D0D"/>
+    <text x="54" y="44" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="24" fill="#FFE600">⚡</text>
+    <text x="190" y="32" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="12" letter-spacing="3" fill="#0D0D0D">DIVISION ONE</text>
+    <text x="190" y="58" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="28" letter-spacing="2" fill="#0D0D0D">SPARKS</text>
+    <circle cx="298" cy="34" r="6" fill="#0D0D0D"/>
+  </g>
+
+  <!-- Voltage band -->
+  <g transform="translate(0 140) rotate(2 160 30)">
+    <rect x="20" y="0" width="280" height="68" fill="url(#wb2)" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="20" y="0" width="68" height="68" fill="#0D0D0D"/>
+    <text x="54" y="44" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="24" fill="#FFE600">⚡</text>
+    <text x="190" y="32" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="12" letter-spacing="3" fill="#0D0D0D">DIVISION TWO</text>
+    <text x="190" y="58" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="28" letter-spacing="2" fill="#0D0D0D">VOLTAGE</text>
+    <circle cx="298" cy="34" r="6" fill="#0D0D0D"/>
+  </g>
+
+  <!-- Apex band -->
+  <g transform="translate(0 250) rotate(-3 160 30)">
+    <rect x="20" y="0" width="280" height="68" fill="url(#wb3)" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="20" y="0" width="68" height="68" fill="#0D0D0D"/>
+    <text x="54" y="44" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="24" fill="#FFE600">⚡</text>
+    <text x="190" y="32" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="12" letter-spacing="3" fill="#0D0D0D">DIVISION THREE</text>
+    <text x="190" y="58" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="28" letter-spacing="2" fill="#0D0D0D">APEX</text>
+    <circle cx="298" cy="34" r="6" fill="#0D0D0D"/>
+  </g>
+</svg>

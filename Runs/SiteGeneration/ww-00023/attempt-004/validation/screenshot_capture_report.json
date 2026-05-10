@@ -1,0 +1,230 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 14,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 1671,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 671,
+          "path": "home/home_002.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 582702
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "sidebar",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "features",
+      "route": "/features.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2008,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "features/features_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "features/features_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1008,
+          "path": "features/features_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "features/features_full.png",
+        "bytes": 445994
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "sidebar",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "article",
+      "route": "/article.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2107,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "article/article_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "article/article_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1107,
+          "path": "article/article_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "article/article_full.png",
+        "bytes": 464975
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "sidebar",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "archive",
+      "route": "/archive.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2015,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "archive/archive_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "archive/archive_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1015,
+          "path": "archive/archive_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "archive/archive_full.png",
+        "bytes": 235416
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "sidebar",
+          "position": "fixed"
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2016,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "about/about_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "about/about_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1016,
+          "path": "about/about_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "about/about_full.png",
+        "bytes": 479198
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "sidebar",
+          "position": "fixed"
+        }
+      ]
+    }
+  ]
+}

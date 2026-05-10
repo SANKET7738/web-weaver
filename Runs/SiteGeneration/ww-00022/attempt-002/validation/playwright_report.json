@@ -1,0 +1,796 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "BoltWorks — Build. Compete. Ignite.",
+            "bodyTextLength": 2727,
+            "scrollHeight": 5105,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 370.984375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 1024.765625,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 1673.453125,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 632.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "departments.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "BoltWorks — Build. Compete. Ignite.",
+            "bodyTextLength": 2313,
+            "scrollHeight": 6271,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 390,
+                "height": 1128.4375,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 390,
+                "height": 540.796875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 390,
+                "height": 1706.9375,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 390,
+                "height": 1399.34375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 390,
+                "height": 653.609375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "departments.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — BoltWorks Robotics Club",
+            "bodyTextLength": 3223,
+            "scrollHeight": 4623,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 1440,
+                "height": 863.984375,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 1440,
+                "height": 882.96875,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 1440,
+                "height": 1036.234375,
+                "visible": true
+              },
+              {
+                "id": "about-section-4",
+                "width": 1440,
+                "height": 833.046875,
+                "visible": true
+              },
+              {
+                "id": "about-section-5",
+                "width": 1440,
+                "height": 603.09375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — BoltWorks Robotics Club",
+            "bodyTextLength": 3202,
+            "scrollHeight": 7376,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 390,
+                "height": 1004.078125,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 390,
+                "height": 1662.125,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 390,
+                "height": 1718.5625,
+                "visible": true
+              },
+              {
+                "id": "about-section-4",
+                "width": 390,
+                "height": 1518.515625,
+                "visible": true
+              },
+              {
+                "id": "about-section-5",
+                "width": 390,
+                "height": 630.671875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "departments",
+      "route": "/departments.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Departments — BoltWorks Robotics Club",
+            "bodyTextLength": 4064,
+            "scrollHeight": 4870,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "departments-section-1",
+                "width": 1440,
+                "height": 635.578125,
+                "visible": true
+              },
+              {
+                "id": "departments-section-2",
+                "width": 1440,
+                "height": 1223.359375,
+                "visible": true
+              },
+              {
+                "id": "departments-section-3",
+                "width": 1440,
+                "height": 1031.109375,
+                "visible": true
+              },
+              {
+                "id": "departments-section-4",
+                "width": 1440,
+                "height": 992.078125,
+                "visible": true
+              },
+              {
+                "id": "departments-section-5",
+                "width": 1440,
+                "height": 584.1875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "contact.html",
+              "research.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Departments — BoltWorks Robotics Club",
+            "bodyTextLength": 4050,
+            "scrollHeight": 8453,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "departments-section-1",
+                "width": 390,
+                "height": 871.234375,
+                "visible": true
+              },
+              {
+                "id": "departments-section-2",
+                "width": 390,
+                "height": 2426.984375,
+                "visible": true
+              },
+              {
+                "id": "departments-section-3",
+                "width": 390,
+                "height": 2214.875,
+                "visible": true
+              },
+              {
+                "id": "departments-section-4",
+                "width": 390,
+                "height": 1389.640625,
+                "visible": true
+              },
+              {
+                "id": "departments-section-5",
+                "width": 390,
+                "height": 708.140625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "contact.html",
+              "research.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "route": "/research.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Research — BoltWorks Robotics Club",
+            "bodyTextLength": 4021,
+            "scrollHeight": 5499,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "research-section-1",
+                "width": 1440,
+                "height": 895.375,
+                "visible": true
+              },
+              {
+                "id": "research-section-2",
+                "width": 1440,
+                "height": 1424.90625,
+                "visible": true
+              },
+              {
+                "id": "research-section-3",
+                "width": 1440,
+                "height": 903.625,
+                "visible": true
+              },
+              {
+                "id": "research-section-4",
+                "width": 1440,
+                "height": 1212.953125,
+                "visible": true
+              },
+              {
+                "id": "research-section-5",
+                "width": 1440,
+                "height": 658.5,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Research — BoltWorks Robotics Club",
+            "bodyTextLength": 4007,
+            "scrollHeight": 8173,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "research-section-1",
+                "width": 390,
+                "height": 1126.53125,
+                "visible": true
+              },
+              {
+                "id": "research-section-2",
+                "width": 390,
+                "height": 2542.1875,
+                "visible": true
+              },
+              {
+                "id": "research-section-3",
+                "width": 390,
+                "height": 1028.21875,
+                "visible": true
+              },
+              {
+                "id": "research-section-4",
+                "width": 390,
+                "height": 1899.53125,
+                "visible": true
+              },
+              {
+                "id": "research-section-5",
+                "width": 390,
+                "height": 734.421875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — BoltWorks Robotics Club",
+            "bodyTextLength": 3102,
+            "scrollHeight": 5259,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 897.171875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 949.03125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 1191.265625,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 817.921875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "#contact-section-2",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — BoltWorks Robotics Club",
+            "bodyTextLength": 3084,
+            "scrollHeight": 6492,
+            "scrollWidth": 390,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 390,
+                "height": 706.546875,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 390,
+                "height": 1707.734375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 390,
+                "height": 925.3125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 390,
+                "height": 1609.859375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 390,
+                "height": 700.3125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "#contact-section-2",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

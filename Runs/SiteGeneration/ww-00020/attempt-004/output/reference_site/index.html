@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Levante — Mediterranean Mezze Bar</title>
+<meta name="description" content="Levante is a Mediterranean mezze bar serving shareable small plates inspired by the flavors of the eastern Mediterranean. Explore our menu and reserve your table.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Libre+Franklin:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page-slug="home">
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-nav">
+  <div class="container site-nav__inner">
+    <a class="site-nav__brand" href="index.html">
+      <div class="site-nav__logo">L</div>
+      <div>
+        <span class="site-nav__name">Levante</span>
+        <span class="site-nav__name-mark">EST. 2021</span>
+      </div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <ul class="site-nav__links">
+      <li><a class="is-active" href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="story.html">Our Story</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="site-nav__cta" href="contact.html">Reserve</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============== Section 1: Hero ============== -->
+  <section id="home-section-1" data-section-type="hero" class="hero">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="eyebrow eyebrow--mist hero__eyebrow">Mediterranean Mezze Bar</span>
+        <h1 class="hero__headline">Every Meal Deserves a <span class="accent-ember">Longer</span> Table</h1>
+        <div class="hero__rule" aria-hidden="true"></div>
+        <p class="hero__sub">Shareable plates, bold flavors, and a dining ritual worth repeating — welcome to Levante.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href="menu.html">View the Menu</a>
+          <a class="btn btn--ghost-light" href="contact.html">Reserve a Table</a>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <!-- Top-down mezze plate arrangement -->
+        <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top-down arrangement of mezze plates">
+          <!-- table/board ground -->
+          <rect x="0" y="0" width="480" height="420" fill="none"/>
+
+          <!-- Large central plate: hummus -->
+          <circle cx="240" cy="200" r="140" fill="#F5EFE6" stroke="#C0674A" stroke-width="2"/>
+          <circle cx="240" cy="200" r="105" fill="#E9D9B8"/>
+          <!-- swirl -->
+          <path d="M180 200 Q210 150 240 200 T300 200" stroke="#C0674A" stroke-width="3" fill="none" opacity="0.55"/>
+          <circle cx="240" cy="180" r="4" fill="#2D3A2E"/>
+          <circle cx="220" cy="220" r="3" fill="#2D3A2E"/>
+          <circle cx="260" cy="225" r="3" fill="#2D3A2E"/>
+          <!-- olive oil pool -->
+          <ellipse cx="248" cy="200" rx="22" ry="8" fill="#C0674A" opacity="0.4"/>
+
+          <!-- Olives bowl, top-left -->
+          <circle cx="80" cy="80" r="48" fill="#F5EFE6" stroke="#2D3A2E" stroke-width="2"/>
+          <circle cx="80" cy="80" r="36" fill="#2D3A2E" opacity="0.85"/>
+          <circle cx="70" cy="72" r="6" fill="#5A6B45"/>
+          <circle cx="86" cy="68" r="5" fill="#3F4B2C"/>
+          <circle cx="92" cy="84" r="6" fill="#5A6B45"/>
+          <circle cx="74" cy="92" r="5" fill="#3F4B2C"/>
+          <circle cx="84" cy="86" r="5" fill="#5A6B45"/>
+
+          <!-- Flatbread top-right -->
+          <ellipse cx="395" cy="85" rx="62" ry="46" fill="#E2C58E" stroke="#C0674A" stroke-width="1.5"/>
+          <ellipse cx="395" cy="85" rx="48" ry="34" fill="none" stroke="#C0674A" stroke-width="1" opacity="0.4"/>
+          <circle cx="380" cy="78" r="2" fill="#8B5E3C"/>
+          <circle cx="408" cy="86" r="2" fill="#8B5E3C"/>
+          <circle cx="395" cy="98" r="2" fill="#8B5E3C"/>
+
+          <!-- Small bowl: labneh, bottom-left -->
+          <circle cx="80" cy="330" r="48" fill="#F5EFE6" stroke="#3B82C4" stroke-width="2"/>
+          <circle cx="80" cy="330" r="36" fill="#FFFCF5"/>
+          <!-- za'atar dust -->
+          <circle cx="72" cy="320" r="2" fill="#5A6B45"/>
+          <circle cx="86" cy="324" r="2" fill="#5A6B45"/>
+          <circle cx="80" cy="338" r="2" fill="#5A6B45"/>
+          <circle cx="92" cy="334" r="1.5" fill="#5A6B45"/>
+          <circle cx="68" cy="332" r="1.5" fill="#5A6B45"/>
+
+          <!-- Small bowl: muhammara, bottom-right -->
+          <circle cx="395" cy="335" r="50" fill="#F5EFE6" stroke="#C0674A" stroke-width="2"/>
+          <circle cx="395" cy="335" r="38" fill="#C0674A" opacity="0.9"/>
+          <!-- nuts -->
+          <ellipse cx="388" cy="328" rx="4" ry="2.5" fill="#E2C58E"/>
+          <ellipse cx="402" cy="332" rx="4" ry="2.5" fill="#E2C58E"/>
+          <ellipse cx="395" cy="344" rx="4" ry="2.5" fill="#E2C58E"/>
+
+          <!-- Decorative leaf sprig top center -->
+          <g transform="translate(230 30)">
+            <path d="M0 0 Q10 -10 25 -8" stroke="#5A6B45" stroke-width="1.5" fill="none"/>
+            <ellipse cx="6" cy="-3" rx="6" ry="2.5" fill="#5A6B45" transform="rotate(-15 6 -3)"/>
+            <ellipse cx="16" cy="-7" rx="6" ry="2.5" fill="#5A6B45" transform="rotate(-5 16 -7)"/>
+          </g>
+
+          <!-- Lemon wedges -->
+          <g transform="translate(150 360)">
+            <path d="M0 0 L20 -6 L20 6 Z" fill="#F0CB46" stroke="#C0674A" stroke-width="1"/>
+            <line x1="2" y1="0" x2="18" y2="0" stroke="#C0674A" stroke-width="0.6"/>
+          </g>
+          <g transform="translate(322 50) rotate(35)">
+            <path d="M0 0 L18 -5 L18 5 Z" fill="#F0CB46" stroke="#C0674A" stroke-width="1"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== Section 2: Feature grid ============== -->
+  <section id="home-section-2" data-section-type="feature_grid" class="feature-grid">
+    <div class="container">
+      <div class="feature-grid__head">
+        <span class="eyebrow">Why Levante</span>
+        <h2>A Different Kind of Dinner</h2>
+        <p>Three principles guide everything we put on the table.</p>
+      </div>
+      <div class="feature-grid__cards">
+        <article class="f-card">
+          <div class="f-card__num">01</div>
+          <h3>Seasonal &amp; Sourced</h3>
+          <p>Our mezze changes with the season. We work with regional suppliers to bring the freshest ingredients from farm and sea to your table.</p>
+        </article>
+        <article class="f-card">
+          <div class="f-card__num">02</div>
+          <h3>Built for Sharing</h3>
+          <p>Every plate is designed to be passed, tasted, and discussed. The more people at the table, the better the meal.</p>
+        </article>
+        <article class="f-card">
+          <div class="f-card__num">03</div>
+          <h3>Rooted in Tradition</h3>
+          <p>Our recipes draw from Lebanese, Turkish, Greek, and Israeli culinary traditions — interpreted with care and precision.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== Section 3: Story block ============== -->
+  <section id="home-section-3" data-section-type="story_block" class="story-block">
+    <div class="container story-block__inner">
+      <div class="story-block__rail">
+        <span class="eyebrow-vert">Our Story</span>
+      </div>
+      <div class="story-block__content">
+        <h2>Born from a Table in Beirut</h2>
+        <p class="lead">Levante began as a memory — a long afternoon, a crowded table, and fifteen plates that never seemed to run out.</p>
+        <p>Our founders carried that experience back across the Mediterranean and spent two years perfecting the menu you'll find here today. Levante isn't just a restaurant. It's a format for gathering.</p>
+        <a href="story.html" class="text-link">Read Our Full Story <span class="text-link__arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== Section 4: CTA close ============== -->
+  <section id="home-section-4" data-section-type="cta" class="cta-close">
+    <div class="container">
+      <span class="eyebrow">Join Us</span>
+      <h2>Your Table Is Waiting</h2>
+      <p class="sub">Walk-ins welcome. Reservations recommended on weekends.</p>
+      <div class="cta-close__btns">
+        <a class="btn btn--primary" href="contact.html">Reserve a Table</a>
+        <a class="btn btn--ghost-mist" href="menu.html">Explore the Menu</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============== Footer ============== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__grid">
+      <div>
+        <div class="site-footer__brand">Levante</div>
+        <p class="site-footer__tag">Small plates. Big table. Every time. A Mediterranean mezze bar in the Merchant Quarter.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>42 Harbour Lane</li>
+          <li>Merchant Quarter</li>
+          <li>London EC2A 4RN</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Tue – Fri 12 – 11pm</li>
+          <li>Sat 12 – 11pm</li>
+          <li>Sun 12 – 8pm</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Sitemap</h4>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Levante Mezze Bar</span>
+      <span>hello@levantemezze.com</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

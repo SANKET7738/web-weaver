@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="bulb" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#FFE600"/>
+      <stop offset="1" stop-color="#FF5C00"/>
+    </radialGradient>
+  </defs>
+  <!-- radiating energy from lightbulb -->
+  <g stroke="#FFE600" stroke-width="3" opacity="0.55">
+    <line x1="360" y1="20" x2="360" y2="80"/>
+    <line x1="280" y1="40" x2="320" y2="80"/>
+    <line x1="440" y1="40" x2="400" y2="80"/>
+    <line x1="240" y1="120" x2="290" y2="130"/>
+    <line x1="460" y1="120" x2="430" y2="130"/>
+    <line x1="200" y1="80" x2="260" y2="110"/>
+  </g>
+  <g stroke="#FF1F8E" stroke-width="3" opacity="0.6">
+    <line x1="380" y1="0" x2="380" y2="40"/>
+    <line x1="320" y1="0" x2="340" y2="40"/>
+    <line x1="440" y1="80" x2="400" y2="100"/>
+  </g>
+  <!-- circuit traces background -->
+  <g stroke="#00E5FF" stroke-width="2" opacity="0.4" fill="none">
+    <path d="M30 360 L120 360 L120 320 L200 320"/>
+    <path d="M30 400 L80 400 L80 440 L180 440"/>
+    <path d="M280 460 L380 460 L380 420 L460 420"/>
+    <circle cx="120" cy="360" r="4" fill="#00E5FF"/>
+    <circle cx="200" cy="320" r="4" fill="#00E5FF"/>
+    <circle cx="80" cy="400" r="4" fill="#00E5FF"/>
+    <circle cx="380" cy="460" r="4" fill="#00E5FF"/>
+  </g>
+  <!-- data graph bars -->
+  <g fill="#00E5FF" opacity="0.5">
+    <rect x="20" y="240" width="14" height="120"/>
+    <rect x="40" y="200" width="14" height="160"/>
+    <rect x="60" y="160" width="14" height="200"/>
+  </g>
+  <!-- lightbulb -->
+  <g transform="translate(360,120)">
+    <circle cx="0" cy="0" r="54" fill="url(#bulb)" stroke="#0D0D0D" stroke-width="5"/>
+    <path d="M-10 -25 Q0 -5 -10 20 M10 -25 Q0 -5 10 20" stroke="#0D0D0D" stroke-width="3" fill="none"/>
+    <rect x="-18" y="50" width="36" height="14" fill="#0D0D0D"/>
+    <rect x="-14" y="64" width="28" height="8" fill="#0D0D0D"/>
+    <rect x="-10" y="72" width="20" height="6" fill="#0D0D0D"/>
+    <!-- bolt inside -->
+    <path d="M-5 -20 L-10 -2 L0 0 L-6 18 L8 -4 L-2 -6 L4 -20 Z" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="2"/>
+  </g>
+  <!-- arm base -->
+  <rect x="20" y="380" width="160" height="60" fill="#0D0D0D"/>
+  <rect x="36" y="380" width="128" height="20" fill="#FF5C00"/>
+  <text x="100" y="396" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="16" fill="#0D0D0D" letter-spacing="2">BOLT LAB</text>
+  <!-- arm joint 1 -->
+  <circle cx="100" cy="380" r="22" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+  <circle cx="100" cy="380" r="8" fill="#0D0D0D"/>
+  <!-- arm segment 1 -->
+  <g transform="translate(100,380) rotate(-65)">
+    <rect x="-12" y="-130" width="24" height="130" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="5"/>
+  </g>
+  <!-- arm joint 2 -->
+  <circle cx="225" cy="262" r="22" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+  <circle cx="225" cy="262" r="8" fill="#0D0D0D"/>
+  <!-- arm segment 2 -->
+  <g transform="translate(225,262) rotate(-45)">
+    <rect x="-10" y="-100" width="20" height="100" fill="#FF5C00" stroke="#0D0D0D" stroke-width="5"/>
+  </g>
+  <!-- arm joint 3 / gripper -->
+  <circle cx="298" cy="190" r="16" fill="#00E5FF" stroke="#0D0D0D" stroke-width="4"/>
+  <g transform="translate(310,180) rotate(-30)">
+    <rect x="-5" y="-26" width="10" height="40" fill="#0D0D0D"/>
+    <rect x="-22" y="-30" width="14" height="20" fill="#0D0D0D"/>
+    <rect x="8" y="-30" width="14" height="20" fill="#0D0D0D"/>
+  </g>
+</svg>

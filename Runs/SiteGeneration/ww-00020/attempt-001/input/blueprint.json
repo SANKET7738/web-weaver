@@ -1,0 +1,686 @@
+{
+  "id": "ww-00020",
+  "version": "0.1",
+  "concept_id": "ww-00020",
+  "identity": {
+    "name": "Levante",
+    "tagline": "Small plates. Big table. Every time.",
+    "one_line_description": "Levante is a Mediterranean mezze bar offering a curated, shareable dining experience rooted in the flavors of the eastern Mediterranean.",
+    "domain": "restaurant",
+    "subdomain": "Mediterranean mezze bar",
+    "voice": [
+      "warm",
+      "precise",
+      "inviting",
+      "confident"
+    ],
+    "target_audience": "Urban food-forward diners aged 28\u201350 who value quality ingredients, communal dining, and a refined yet relaxed atmosphere for both weeknight meals and special occasions."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately communicate Levante's identity as a refined Mediterranean mezze bar, establish appetite appeal, and drive visitors toward the menu and reservations.",
+      "meta_description": "Levante is a Mediterranean mezze bar serving shareable small plates inspired by the flavors of the eastern Mediterranean. Explore our menu and reserve your table.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Make a strong first impression that captures the communal, abundant spirit of mezze dining and prompts visitors to explore the menu or book a table.",
+          "eyebrow": "Mediterranean Mezze Bar",
+          "headline": "Every Meal Deserves a Longer Table",
+          "subheadline": "Shareable plates, bold flavors, and a dining ritual worth repeating \u2014 welcome to Levante.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View the Menu",
+              "target_page": "menu"
+            },
+            {
+              "label": "Reserve a Table",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A minimal top-down arrangement of mezze plates \u2014 hummus, olives, flatbread, and small bowls \u2014 laid out on a shared table surface.",
+              "purpose": "Creates immediate visual appetite appeal and communicates the communal mezze concept without requiring photography.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "feature_grid",
+          "intent": "Highlight the three core pillars of the Levante experience so visitors immediately understand what makes this restaurant distinct.",
+          "eyebrow": "Why Levante",
+          "headline": "A Different Kind of Dinner",
+          "subheadline": "Three principles guide everything we put on the table.",
+          "body": null,
+          "items": [
+            {
+              "title": "Seasonal & Sourced",
+              "description": "Our mezze changes with the season. We work with regional suppliers to bring the freshest ingredients from farm and sea to your table.",
+              "metadata": {}
+            },
+            {
+              "title": "Built for Sharing",
+              "description": "Every plate is designed to be passed, tasted, and discussed. The more people at the table, the better the meal.",
+              "metadata": {}
+            },
+            {
+              "title": "Rooted in Tradition",
+              "description": "Our recipes draw from Lebanese, Turkish, Greek, and Israeli culinary traditions \u2014 interpreted with care and precision.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "story_block",
+          "intent": "Give visitors a brief, emotionally resonant glimpse into the origin of Levante to build trust and personal connection before they commit to a visit.",
+          "eyebrow": "Our Story",
+          "headline": "Born from a Table in Beirut",
+          "subheadline": "Levante began as a memory \u2014 a long afternoon, a crowded table, and fifteen plates that never seemed to run out.",
+          "body": "Our founders carried that experience back across the Mediterranean and spent two years perfecting the menu you'll find here today. Levante isn't just a restaurant. It's a format for gathering.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Read Our Full Story",
+              "target_page": "story"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "cta",
+          "intent": "Convert engaged homepage visitors into reservations or menu explorers with a clear, confident close.",
+          "eyebrow": "Join Us",
+          "headline": "Your Table Is Waiting",
+          "subheadline": "Walk-ins welcome. Reservations recommended on weekends.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve a Table",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore the Menu",
+              "target_page": "menu"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "title": "Menu",
+      "role": "detail",
+      "goal": "Present the full mezze menu in a clear, organized, and appetizing way that helps visitors plan their order and builds confidence in the quality of the food.",
+      "meta_description": "Explore Levante's full Mediterranean mezze menu \u2014 cold plates, hot plates, mains, and desserts crafted from seasonal, regional ingredients.",
+      "sections": [
+        {
+          "id": "menu-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the menu page and set the tone for the culinary experience they are about to explore.",
+          "eyebrow": "The Menu",
+          "headline": "Order Everything. Share All of It.",
+          "subheadline": "Our menu is designed for the table \u2014 order generously, eat slowly, and let the plates keep coming.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "menu-section-1-asset-1",
+              "kind": "icon",
+              "subject": "A set of five minimal line icons representing menu categories: cold mezze (leaf), hot mezze (flame), flatbreads (grain stalk), mains (fish), and desserts (crescent/honey jar).",
+              "purpose": "Provides clean visual category markers that help visitors navigate the menu sections quickly.",
+              "quantity": 1,
+              "used_by": [
+                "menu-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "menu-section-2",
+          "type": "item_grid",
+          "intent": "Showcase the cold mezze selection \u2014 the foundation of any mezze spread \u2014 with clear names, descriptions, and pricing.",
+          "eyebrow": "Cold Mezze",
+          "headline": "Start Here. Stay a While.",
+          "subheadline": null,
+          "body": "Our cold plates are best ordered in abundance. They anchor the table and set the pace for the meal.",
+          "items": [
+            {
+              "title": "Classic Hummus",
+              "description": "Stone-ground chickpeas, tahini, lemon, and olive oil. Served with warm flatbread.",
+              "metadata": {
+                "price": "$9",
+                "dietary": "VG, GF"
+              }
+            },
+            {
+              "title": "Baba Ganoush",
+              "description": "Flame-roasted eggplant with pomegranate molasses, toasted pine nuts, and fresh herbs.",
+              "metadata": {
+                "price": "$11",
+                "dietary": "VG, GF"
+              }
+            },
+            {
+              "title": "Labneh & Za'atar",
+              "description": "Strained yogurt, wild za'atar blend, extra-virgin olive oil, and sesame.",
+              "metadata": {
+                "price": "$10",
+                "dietary": "V, GF"
+              }
+            },
+            {
+              "title": "Fattoush Salad",
+              "description": "Crisp romaine, tomato, cucumber, radish, sumac dressing, and toasted pita chips.",
+              "metadata": {
+                "price": "$13",
+                "dietary": "V"
+              }
+            },
+            {
+              "title": "Tabbouleh",
+              "description": "Finely chopped parsley, bulgur wheat, mint, tomato, and bright lemon dressing.",
+              "metadata": {
+                "price": "$12",
+                "dietary": "VG"
+              }
+            },
+            {
+              "title": "Muhammara",
+              "description": "Roasted red pepper and walnut spread with Aleppo chili and pomegranate.",
+              "metadata": {
+                "price": "$11",
+                "dietary": "VG, GF"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "menu-section-3",
+          "type": "item_grid",
+          "intent": "Present the hot mezze and mains that bring depth and heartiness to the mezze spread.",
+          "eyebrow": "Hot Mezze & Mains",
+          "headline": "Warm the Table",
+          "subheadline": null,
+          "body": "Our hot plates arrive as they're ready. Order them alongside cold mezze for a complete spread.",
+          "items": [
+            {
+              "title": "Lamb Kofta",
+              "description": "Spiced ground lamb skewers with grilled onion, tomato, and tahini drizzle.",
+              "metadata": {
+                "price": "$18",
+                "dietary": "GF"
+              }
+            },
+            {
+              "title": "Falafel Platter",
+              "description": "Crispy herb falafel with pickled turnip, cucumber yogurt, and warm pita.",
+              "metadata": {
+                "price": "$15",
+                "dietary": "VG"
+              }
+            },
+            {
+              "title": "Grilled Halloumi",
+              "description": "Seared Cypriot halloumi with fig jam, fresh mint, and toasted walnuts.",
+              "metadata": {
+                "price": "$14",
+                "dietary": "V, GF"
+              }
+            },
+            {
+              "title": "Sea Bass Chermoula",
+              "description": "Pan-seared sea bass fillet with North African chermoula, preserved lemon, and couscous.",
+              "metadata": {
+                "price": "$28",
+                "dietary": "GF"
+              }
+            },
+            {
+              "title": "Braised Short Rib Shawarma",
+              "description": "Slow-braised beef rib with shawarma spice, pickled cabbage, and garlic toum.",
+              "metadata": {
+                "price": "$32",
+                "dietary": ""
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "menu-section-4",
+          "type": "item_grid",
+          "intent": "Close the menu with desserts and drinks that complete the dining experience and encourage guests to linger.",
+          "eyebrow": "Sweets & Drinks",
+          "headline": "End on Something Sweet",
+          "subheadline": null,
+          "body": "Finish with a dessert plate and a glass of something worth savoring.",
+          "items": [
+            {
+              "title": "Baklava Trio",
+              "description": "Three varieties of house-made baklava \u2014 pistachio, walnut, and cashew rose water.",
+              "metadata": {
+                "price": "$12",
+                "dietary": "V"
+              }
+            },
+            {
+              "title": "Malabi",
+              "description": "Rose water milk pudding with pomegranate syrup and crushed pistachios.",
+              "metadata": {
+                "price": "$10",
+                "dietary": "V, GF"
+              }
+            },
+            {
+              "title": "Lebanese Arak",
+              "description": "Traditional anise spirit served with ice and cold water. The classic mezze companion.",
+              "metadata": {
+                "price": "$14",
+                "dietary": ""
+              }
+            },
+            {
+              "title": "Levante House Spritz",
+              "description": "Sparkling wine, elderflower, fresh lemon, and a sprig of fresh thyme.",
+              "metadata": {
+                "price": "$13",
+                "dietary": ""
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Reserve a Table",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "title": "Our Story",
+      "role": "editorial",
+      "goal": "Build an emotional and cultural connection between Levante and the visitor by telling the founders' story, articulating the restaurant's philosophy, and establishing long-term brand trust.",
+      "meta_description": "Learn the story behind Levante \u2014 a Mediterranean mezze bar born from a passion for communal dining, seasonal ingredients, and the culinary traditions of the eastern Mediterranean.",
+      "sections": [
+        {
+          "id": "story-section-1",
+          "type": "page_header",
+          "intent": "Introduce the story section and prime the visitor for a narrative journey rather than a transactional page.",
+          "eyebrow": "Our Story",
+          "headline": "We Set the Table. You Make the Memory.",
+          "subheadline": "Levante was built on the belief that the best meals are never eaten alone.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "story-section-2",
+          "type": "story_block",
+          "intent": "Tell the founding story with enough personal detail to create genuine emotional resonance and differentiate Levante from generic restaurant brands.",
+          "eyebrow": "The Beginning",
+          "headline": "An Afternoon That Refused to End",
+          "subheadline": null,
+          "body": "In 2019, co-founders Nadia Khalil and Marco Esposito sat down for what was supposed to be a quick lunch at a family-run mezze house in Beirut's Gemmayzeh neighborhood. Four hours later, they were still at the table. The food had long since been cleared, but the conversation \u2014 and the feeling \u2014 refused to leave. They came home with notebooks full of recipes, supplier contacts, and a single shared conviction: that the mezze format, done right, could change how people eat together in any city in the world. Levante opened its first location in 2021.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "story-section-2-asset-1",
+              "kind": "illustration",
+              "subject": "A simple, clean line-art map of the eastern Mediterranean coastline \u2014 Lebanon, Turkey, Greece, Israel \u2014 with subtle dots marking cities of culinary influence.",
+              "purpose": "Visually anchors the story in a specific geography and reinforces the brand's authentic regional roots.",
+              "quantity": 1,
+              "used_by": [
+                "story-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "story-section-3",
+          "type": "feature_grid",
+          "intent": "Articulate the core values and philosophy that guide every decision at Levante, from sourcing to service.",
+          "eyebrow": "Our Philosophy",
+          "headline": "How We Think About Food",
+          "subheadline": "Four commitments that shape everything from the supplier relationships to the plate presentation.",
+          "body": null,
+          "items": [
+            {
+              "title": "Provenance First",
+              "description": "We know the name of every farm, fishery, and creamery we work with. If we can't trace it, we don't serve it.",
+              "metadata": {}
+            },
+            {
+              "title": "Seasonal Without Exception",
+              "description": "The menu shifts quarterly. Some favorites return. Others make way for what the season demands.",
+              "metadata": {}
+            },
+            {
+              "title": "Hospitality as Practice",
+              "description": "In the eastern Mediterranean, hospitality is not a service standard \u2014 it is a cultural obligation. We hold that standard.",
+              "metadata": {}
+            },
+            {
+              "title": "The Long Lunch Principle",
+              "description": "We design the experience so that no one feels rushed. The table is yours for the evening.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "story-section-4",
+          "type": "cta",
+          "intent": "Convert visitors who have just read the story into action \u2014 either exploring the menu or booking a table.",
+          "eyebrow": "Come Find Us",
+          "headline": "The Table Has Always Been Set for You",
+          "subheadline": "Come hungry. Come with people you like. Stay as long as you want.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Explore the Menu",
+              "target_page": "menu"
+            },
+            {
+              "label": "Make a Reservation",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "events",
+      "title": "Events",
+      "role": "overview",
+      "goal": "Showcase Levante's private dining and event capabilities to attract corporate clients, celebration groups, and cultural event planners, and generate event inquiry leads.",
+      "meta_description": "Host your next private dinner, corporate event, or celebration at Levante. Explore our event packages, private dining room, and seasonal mezze experiences.",
+      "sections": [
+        {
+          "id": "events-section-1",
+          "type": "page_header",
+          "intent": "Set the tone for the events page \u2014 positioning Levante not just as a restaurant but as a premium venue for meaningful gatherings.",
+          "eyebrow": "Private Events & Dining",
+          "headline": "Your Gathering Deserves a Better Table",
+          "subheadline": "From intimate dinners to full venue buyouts, Levante is built for the moments that matter.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Enquire About an Event",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "events-section-2",
+          "type": "feature_grid",
+          "intent": "Present the range of event formats Levante supports so potential clients can quickly identify the right offering for their occasion.",
+          "eyebrow": "Event Formats",
+          "headline": "Every Occasion, Thoughtfully Catered",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Private Dining Room",
+              "description": "A dedicated space for up to 20 guests. Full mezze menus, custom beverage pairings, and dedicated service staff.",
+              "metadata": {
+                "capacity": "Up to 20 guests",
+                "format": "Seated dinner"
+              }
+            },
+            {
+              "title": "Full Venue Buyout",
+              "description": "Exclusive use of the entire Levante space for up to 90 guests. Ideal for corporate events, product launches, and milestone celebrations.",
+              "metadata": {
+                "capacity": "Up to 90 guests",
+                "format": "Standing or seated"
+              }
+            },
+            {
+              "title": "Mezze Masterclass",
+              "description": "A guided hands-on cooking experience led by our head chef. Groups of 8\u201316 learn to prepare a full mezze spread from scratch.",
+              "metadata": {
+                "capacity": "8\u201316 guests",
+                "format": "Interactive workshop"
+              }
+            },
+            {
+              "title": "Corporate Lunch Packages",
+              "description": "Weekday set-menu lunches for teams and client entertaining. Pre-arranged mezze spreads with a streamlined service format.",
+              "metadata": {
+                "capacity": "10\u201340 guests",
+                "format": "Set menu lunch"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "events-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A set of four minimal line icons representing event types: private dining (single candle), full buyout (building/venue outline), masterclass (chef's toque), and corporate lunch (briefcase).",
+              "purpose": "Provides clean visual anchors for each event format card, reinforcing the organized, professional tone of the events offering.",
+              "quantity": 1,
+              "used_by": [
+                "events-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "events-section-3",
+          "type": "testimonial",
+          "intent": "Build social proof for the events offering by showcasing real client experiences from past private and corporate events.",
+          "eyebrow": "What Guests Say",
+          "headline": "Moments That Stayed With Them",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Sara M. \u2014 Corporate Events Manager",
+              "description": "We've hosted our annual client dinner at Levante for two years running. The private room, the mezze format, and the service make it effortless to impress. Our clients always ask to go back.",
+              "metadata": {
+                "event_type": "Corporate Dinner"
+              }
+            },
+            {
+              "title": "James & Priya T. \u2014 Anniversary Dinner",
+              "description": "We wanted something different for our tenth anniversary \u2014 not a tasting menu, but a feast. Levante delivered exactly that. The whole evening felt personal and generous.",
+              "metadata": {
+                "event_type": "Private Dining"
+              }
+            },
+            {
+              "title": "Layla K. \u2014 Birthday Celebration",
+              "description": "The mezze masterclass for my birthday group was the best decision I've made. Everyone left with new skills, full stomachs, and a lot of laughs.",
+              "metadata": {
+                "event_type": "Mezze Masterclass"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "events-section-4",
+          "type": "cta",
+          "intent": "Drive event enquiries with a direct, confident close that reduces friction and encourages immediate contact.",
+          "eyebrow": "Let's Plan It",
+          "headline": "Tell Us About Your Event",
+          "subheadline": "Our events team will respond within one business day with a tailored proposal.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Submit an Event Enquiry",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Give visitors all the information they need to find, visit, or contact Levante, and provide a frictionless reservation and event enquiry form.",
+      "meta_description": "Find Levante Mediterranean Mezze Bar \u2014 location, opening hours, reservation requests, and event enquiries. We'd love to hear from you.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a welcoming, low-friction tone for the contact page so visitors feel invited rather than processed.",
+          "eyebrow": "Find Us",
+          "headline": "Come In. We've Been Expecting You.",
+          "subheadline": "Reservations, event enquiries, or just a question \u2014 we're here.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide all essential contact details, hours, and location information in a clean, scannable format.",
+          "eyebrow": "Details",
+          "headline": "Everything You Need to Know Before You Arrive",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Address",
+              "description": "42 Harbour Lane, Merchant Quarter, London EC2A 4RN",
+              "metadata": {}
+            },
+            {
+              "title": "Opening Hours",
+              "description": "Tuesday \u2013 Friday: 12pm \u2013 3pm & 6pm \u2013 11pm. Saturday: 12pm \u2013 11pm (continuous). Sunday: 12pm \u2013 8pm. Closed Mondays.",
+              "metadata": {}
+            },
+            {
+              "title": "Reservations",
+              "description": "Reservations are recommended for Friday and Saturday evenings. Walk-ins are welcome at all other times, subject to availability.",
+              "metadata": {}
+            },
+            {
+              "title": "General Enquiries",
+              "description": "hello@levantemezze.com | +44 20 7123 4567",
+              "metadata": {}
+            },
+            {
+              "title": "Events & Private Dining",
+              "description": "events@levantemezze.com | Our events team responds within one business day.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-2-asset-1",
+              "kind": "map",
+              "subject": "A minimal, clean vector street map showing the block surrounding 42 Harbour Lane in a generic merchant district, with a single pin marker for Levante and nearest transit icons.",
+              "purpose": "Helps visitors orient themselves and find the restaurant without relying on an external map embed.",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-3",
+          "type": "faq",
+          "intent": "Pre-emptively answer the most common visitor questions to reduce inbound enquiries and build confidence before a visit.",
+          "eyebrow": "Good to Know",
+          "headline": "Questions We Hear Often",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Do you cater to dietary requirements?",
+              "description": "Yes. Our menu is clearly labeled for vegan (VG), vegetarian (V), and gluten-free (GF) options. Please inform your server of any allergies when you arrive.",
+              "metadata": {}
+            },
+            {
+              "title": "How does mezze ordering work?",
+              "description": "We recommend 3\u20134 plates per person as a guide, but there are no rules. Order as you go \u2014 our kitchen sends plates as they're ready.",
+              "metadata": {}
+            },
+            {
+              "title": "Is there a minimum spend for private events?",
+              "description": "Yes. Private dining room bookings have a minimum food spend of \u00a3600. Full venue buyouts are quoted on request.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you take walk-ins?",
+              "description": "Always, subject to availability. For groups of 6 or more, we strongly recommend a reservation.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-4",
+          "type": "cta",
+          "intent": "Provide a final, warm close that reinforces the brand's hospitality ethos and confirms the visitor's decision to visit or reach out.",
+          "eyebrow": "We'll See You Soon",
+          "headline": "The Table Is Ready When You Are",
+          "subheadline": "Whether it's a Tuesday lunch or a Saturday feast, Levante is ready for you.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "View the Menu",
+              "target_page": "menu"
+            },
+            {
+              "label": "Explore Events",
+              "target_page": "events"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

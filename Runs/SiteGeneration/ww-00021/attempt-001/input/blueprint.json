@@ -1,0 +1,1070 @@
+{
+  "id": "ww-00021",
+  "version": "0.1",
+  "concept_id": "ww-00021",
+  "identity": {
+    "name": "Rollout",
+    "tagline": "Every Game Night Starts Here.",
+    "one_line_description": "Rollout is a board game caf\u00e9 website that invites visitors to explore a curated library of games, book a table, join a vibrant community, and buy their favourite titles to take home.",
+    "domain": "gaming_entertainment",
+    "subdomain": "board game cafe",
+    "voice": [
+      "warm",
+      "playful",
+      "inviting",
+      "enthusiastic"
+    ],
+    "target_audience": "Casual and hobby gamers aged 18\u201340, friend groups and couples looking for social outings, and families seeking screen-free entertainment who want a welcoming space to discover, play, and purchase board games."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Capture attention immediately, communicate the Rollout experience in seconds, and funnel visitors toward booking a table, browsing games, or joining the community.",
+      "meta_description": "Rollout Board Game Caf\u00e9 \u2014 discover hundreds of games, book your table, and enjoy an unforgettable game night with friends and family.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Make an irresistible first impression that conveys warmth, fun, and the unique atmosphere of a board game caf\u00e9, while driving the primary booking action.",
+          "eyebrow": "Welcome to Rollout",
+          "headline": "Your Next Favourite Game Night Is Waiting.",
+          "subheadline": "500+ games. Bottomless drinks. Zero bad times. Pull up a chair and play.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Table",
+              "target_page": "buy"
+            },
+            {
+              "label": "Explore the Game Library",
+              "target_page": "games"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A cheerful top-down view of a caf\u00e9 table scattered with colourful board game pieces, dice, and cards, suggesting an active and joyful game session.",
+              "purpose": "Sets the playful, welcoming mood of the caf\u00e9 in the hero section without needing a photograph.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Build instant credibility and social proof with quick-hit numbers that show the scale and popularity of Rollout.",
+          "eyebrow": "By the Numbers",
+          "headline": "A Whole Lot of Game Night Magic.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "500+",
+              "description": "Games in our library across every genre and difficulty.",
+              "metadata": {}
+            },
+            {
+              "title": "12,000+",
+              "description": "Happy players who've visited Rollout since we opened.",
+              "metadata": {}
+            },
+            {
+              "title": "4.9 \u2605",
+              "description": "Average rating from verified guest reviews.",
+              "metadata": {}
+            },
+            {
+              "title": "7 Days",
+              "description": "Open every day of the week from noon until midnight.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Explain the core pillars of the Rollout experience so visitors immediately understand what makes this caf\u00e9 different from a regular bar or restaurant.",
+          "eyebrow": "Why Rollout",
+          "headline": "More Than a Caf\u00e9. It's a Game Changer.",
+          "subheadline": "We've designed every corner of Rollout to make your game night effortless and unforgettable.",
+          "body": null,
+          "items": [
+            {
+              "title": "Massive Game Library",
+              "description": "From quick party games to deep strategy epics \u2014 our curated collection has something for every group and skill level.",
+              "metadata": {}
+            },
+            {
+              "title": "Expert Game Guides",
+              "description": "Our friendly staff know the library inside out. Tell us your group size and mood and we'll find your perfect match.",
+              "metadata": {}
+            },
+            {
+              "title": "Caf\u00e9 & Bar Menu",
+              "description": "Craft coffees, loose-leaf teas, cocktails, and a full snack menu designed to fuel long gaming sessions.",
+              "metadata": {}
+            },
+            {
+              "title": "Private Event Rooms",
+              "description": "Host birthdays, team-building days, or casual get-togethers in our bookable private gaming rooms.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Games",
+              "target_page": "games"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "testimonial",
+          "intent": "Reinforce trust and emotional appeal through real guest voices, showing the community warmth that defines the Rollout experience.",
+          "eyebrow": "Guest Stories",
+          "headline": "Don't Just Take Our Word for It.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Priya M. \u2014 Regular Guest",
+              "description": "\"We come every Friday now. The staff remembered our favourite games after the second visit. It feels like a second living room.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            },
+            {
+              "title": "James & Lena \u2014 Date Night",
+              "description": "\"We were terrible at Ticket to Ride and the game guide sat with us for ten minutes to teach us. Best date night we've had in years.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            },
+            {
+              "title": "The Westbrook Team \u2014 Corporate Event",
+              "description": "\"Booked the private room for our team day. Everyone left with a smile. Way better than a typical team-building workshop.\"",
+              "metadata": {
+                "rating": "5"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Join the Community",
+              "target_page": "community"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the home page with a warm, low-friction invitation to take the next step \u2014 booking a table or watching the caf\u00e9 trailer.",
+          "eyebrow": "Ready to Play?",
+          "headline": "Roll the Dice on Your Next Night Out.",
+          "subheadline": "Tables fill up fast on weekends. Reserve yours now or take a peek inside the caf\u00e9 first.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve a Table",
+              "target_page": "buy"
+            },
+            {
+              "label": "Watch the Trailer",
+              "target_page": "trailer"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "icon",
+              "subject": "A single bold six-sided die icon with rounded corners and a friendly, app-style aesthetic.",
+              "purpose": "Adds a playful visual punctuation mark to the closing CTA section, reinforcing the game theme without clutter.",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "games",
+      "title": "Games",
+      "role": "overview",
+      "goal": "Help visitors browse and understand the game library so they feel excited and confident that Rollout has something perfect for their group before they book.",
+      "meta_description": "Browse Rollout's library of 500+ board games \u2014 party games, strategy titles, co-op adventures, and family favourites all waiting to be played.",
+      "sections": [
+        {
+          "id": "games-section-1",
+          "type": "page_header",
+          "intent": "Orient the visitor to the Games page and set the tone of discovery and excitement for the library.",
+          "eyebrow": "The Library",
+          "headline": "500+ Games and Counting.",
+          "subheadline": "Party games, strategy heavyweights, co-op adventures, quick fillers \u2014 we've got the perfect game for every mood and group.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Table to Play",
+              "target_page": "buy"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "games-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A flat-style illustration of a bookshelf packed with colourful board game boxes of varying sizes, seen from the front.",
+              "purpose": "Visually communicates the breadth and variety of the game library at the top of the page.",
+              "quantity": 1,
+              "used_by": [
+                "games-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "games-section-2",
+          "type": "item_grid",
+          "intent": "Showcase the genre categories so visitors can quickly identify which type of game suits their group.",
+          "eyebrow": "Browse by Genre",
+          "headline": "Find Your Kind of Game.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Party & Social",
+              "description": "Fast, loud, and hilarious. Perfect for big groups who want to laugh all night. Titles like Codenames, Just One, and Wavelength.",
+              "metadata": {
+                "count": "80+ titles"
+              }
+            },
+            {
+              "title": "Strategy & Euro",
+              "description": "Deep decisions, elegant systems, and that satisfying 'just one more turn' feeling. Catan, Wingspan, Terraforming Mars.",
+              "metadata": {
+                "count": "120+ titles"
+              }
+            },
+            {
+              "title": "Co-operative",
+              "description": "Work together, win together. Great for all skill levels. Pandemic, Forbidden Island, Spirit Island.",
+              "metadata": {
+                "count": "60+ titles"
+              }
+            },
+            {
+              "title": "Family & Kids",
+              "description": "Accessible fun for all ages. Introduce the next generation to the joy of tabletop. Dobble, Ticket to Ride, Sushi Go!",
+              "metadata": {
+                "count": "70+ titles"
+              }
+            },
+            {
+              "title": "Deck Builders & Card Games",
+              "description": "Shuffle, draw, and outmanoeuvre. Dominion, Arkham Horror TCG, and more.",
+              "metadata": {
+                "count": "50+ titles"
+              }
+            },
+            {
+              "title": "Thematic & Adventure",
+              "description": "Immersive story-driven games that pull you in for hours. Gloomhaven, Mansions of Madness, Betrayal at House on the Hill.",
+              "metadata": {
+                "count": "40+ titles"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "games-section-2-asset-1",
+              "kind": "icon",
+              "subject": "A set of six small genre icons: a speech bubble for party, a gear for strategy, a handshake for co-op, a star for family, a playing card for deck builders, and a compass for adventure.",
+              "purpose": "Each icon visually labels a genre category in the grid, making scanning faster and more engaging.",
+              "quantity": 1,
+              "used_by": [
+                "games-section-2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "games-section-3",
+          "type": "feature_grid",
+          "intent": "Highlight staff-picked featured games to inspire visitors who don't know where to start and to surface titles that create buzz.",
+          "eyebrow": "Staff Picks",
+          "headline": "Games Our Team Can't Stop Recommending.",
+          "subheadline": "Ask any of us and we'll talk for twenty minutes. Here are a few obsessions worth knowing about.",
+          "body": null,
+          "items": [
+            {
+              "title": "Wingspan",
+              "description": "A gorgeous engine-builder about birds. Surprisingly competitive, endlessly replayable. Suitable for 1\u20135 players.",
+              "metadata": {
+                "players": "1\u20135",
+                "duration": "40\u201370 min",
+                "difficulty": "Medium"
+              }
+            },
+            {
+              "title": "Codenames",
+              "description": "The ultimate word-association party game. Two teams, one spy chief per side, and a board full of secrets.",
+              "metadata": {
+                "players": "2\u20138+",
+                "duration": "15\u201330 min",
+                "difficulty": "Easy"
+              }
+            },
+            {
+              "title": "Gloomhaven: Jaws of the Lion",
+              "description": "A streamlined entry into the legendary dungeon-crawl epic. Perfect for groups who want a campaign experience.",
+              "metadata": {
+                "players": "1\u20134",
+                "duration": "60\u2013120 min",
+                "difficulty": "Hard"
+              }
+            },
+            {
+              "title": "Azul",
+              "description": "Abstract tile-drafting with stunning components. Simple rules, deep tactics, and beautiful to look at.",
+              "metadata": {
+                "players": "2\u20134",
+                "duration": "30\u201345 min",
+                "difficulty": "Easy-Medium"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "games-section-4",
+          "type": "story_block",
+          "intent": "Explain the Game Guide service \u2014 a unique human differentiator that removes the intimidation barrier and makes any visitor feel welcome regardless of experience.",
+          "eyebrow": "Our Game Guides",
+          "headline": "Never Stare at a Rulebook Alone Again.",
+          "subheadline": null,
+          "body": "Every table at Rollout has access to a trained Game Guide \u2014 a staff member who lives and breathes tabletop. Tell them your group size, how long you want to play, and whether you're in the mood for laughs or brain-burning strategy. They'll bring you the perfect game, teach you the rules in under five minutes, and check in throughout your session. No intimidation. No confusion. Just play.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book Your Table Now",
+              "target_page": "buy"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "games-section-5",
+          "type": "faq",
+          "intent": "Remove friction and answer the most common pre-visit questions so visitors feel fully prepared and confident to book.",
+          "eyebrow": "Good to Know",
+          "headline": "Everything You Need Before You Visit.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Is there a game hire fee?",
+              "description": "Yes \u2014 we charge a small per-person table fee that covers unlimited game access for your session. It's included in your booking.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I bring my own game?",
+              "description": "Absolutely. Bring your own game and play for free \u2014 we only ask that you still purchase a drink or snack.",
+              "metadata": {}
+            },
+            {
+              "title": "How long can we stay?",
+              "description": "Standard bookings are 2 hours, but you can extend in 30-minute increments if space allows. Walk-ins are welcome during quieter hours.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you cater for large groups?",
+              "description": "Yes! Groups of 8 or more should book one of our private event rooms. See our events page or contact us directly.",
+              "metadata": {}
+            },
+            {
+              "title": "Can I buy games to take home?",
+              "description": "Yes \u2014 many titles from our library are available to purchase in our in-caf\u00e9 shop and online store.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Shop Games to Take Home",
+              "target_page": "buy"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "trailer",
+      "title": "Trailer",
+      "role": "editorial",
+      "goal": "Immerse visitors in the Rollout atmosphere through a rich, story-driven editorial experience that makes them feel the energy of the caf\u00e9 and builds deep emotional desire to visit.",
+      "meta_description": "Take a look inside Rollout Board Game Caf\u00e9 \u2014 see the games, the people, the atmosphere, and the moments that make every visit unforgettable.",
+      "sections": [
+        {
+          "id": "trailer-section-1",
+          "type": "page_header",
+          "intent": "Set a cinematic, emotional tone for the trailer page that primes visitors to absorb the story of Rollout.",
+          "eyebrow": "Inside Rollout",
+          "headline": "This Is What Game Night Feels Like.",
+          "subheadline": "A peek behind the dice. Real people, real games, real moments.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "trailer-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A warm, isometric illustration of the interior of a cosy board game caf\u00e9 \u2014 shelves of games, small tables with players, pendant lights, and a bar counter in the background.",
+              "purpose": "Creates an evocative visual centrepiece for the trailer page header that communicates the caf\u00e9 atmosphere without requiring a photograph.",
+              "quantity": 1,
+              "used_by": [
+                "trailer-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trailer-section-2",
+          "type": "story_block",
+          "intent": "Tell the origin story of Rollout \u2014 who founded it, why, and what they believe \u2014 to build brand affinity and human connection.",
+          "eyebrow": "Our Story",
+          "headline": "We Built the Caf\u00e9 We Always Wished Existed.",
+          "subheadline": null,
+          "body": "Rollout started at a kitchen table. Two friends, a copy of Pandemic, and a shared frustration that there was nowhere in the city to play great games with great people. So we found a space, filled it with shelves, trained a team of game obsessives, and opened the doors. That was three years ago. Since then, thousands of players have sat across from each other, laughed, argued, strategised, and left with new friends. We're not a bar with a few games on a shelf. We're a place built entirely around the joy of play.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "trailer-section-3",
+          "type": "gallery",
+          "intent": "Showcase the visual richness of the Rollout experience through a curated gallery of illustrated scene moments that bring the caf\u00e9 to life.",
+          "eyebrow": "Moments from the Floor",
+          "headline": "Every Table Has a Story.",
+          "subheadline": "From first-time visitors to seasoned regulars \u2014 here's what game night looks like at Rollout.",
+          "body": null,
+          "items": [
+            {
+              "title": "The Comeback",
+              "description": "That moment when the last-place player pulls off an impossible win in the final round.",
+              "metadata": {
+                "scene": "Strategy table, late evening"
+              }
+            },
+            {
+              "title": "The Teach",
+              "description": "A Game Guide crouched beside a table of first-timers, rulebook open, everyone leaning in.",
+              "metadata": {
+                "scene": "Main floor, early evening"
+              }
+            },
+            {
+              "title": "The Groan",
+              "description": "Five players simultaneously groaning as the traitor is revealed in Secret Hitler.",
+              "metadata": {
+                "scene": "Private room, Saturday night"
+              }
+            },
+            {
+              "title": "The Stack",
+              "description": "A tower of finished game boxes stacked beside an empty coffee cup \u2014 the badge of a proper session.",
+              "metadata": {
+                "scene": "Corner table, Sunday afternoon"
+              }
+            },
+            {
+              "title": "The Handshake",
+              "description": "Two strangers who met at an open-play night, swapping numbers before they leave.",
+              "metadata": {
+                "scene": "Entrance, closing time"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "trailer-section-3-asset-1",
+              "kind": "pattern",
+              "subject": "A repeating background pattern made of small board game elements \u2014 dice, meeples, cards, and tokens \u2014 arranged in a loose, playful grid.",
+              "purpose": "Provides a textured, thematic background for the gallery section that reinforces the game caf\u00e9 identity.",
+              "quantity": 1,
+              "used_by": [
+                "trailer-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "trailer-section-4",
+          "type": "timeline",
+          "intent": "Show the growth and milestones of Rollout to build credibility and pride, and to demonstrate that this is a thriving, established business.",
+          "eyebrow": "How We Got Here",
+          "headline": "Three Years of Game Nights.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Year One: We Open",
+              "description": "Rollout opens with 120 games, 8 tables, and more excitement than we knew what to do with. We sell out every weekend for the first two months.",
+              "metadata": {
+                "year": "2022"
+              }
+            },
+            {
+              "title": "The Library Grows",
+              "description": "We hit 300 games and launch the Game Guide programme. Guest satisfaction scores jump immediately.",
+              "metadata": {
+                "year": "Early 2023"
+              }
+            },
+            {
+              "title": "Private Rooms Launch",
+              "description": "We expand into the unit next door, adding three private event rooms. Corporate bookings take off.",
+              "metadata": {
+                "year": "Mid 2023"
+              }
+            },
+            {
+              "title": "The Online Shop Opens",
+              "description": "Guests kept asking to buy their favourite games. We listened. The shop launches with 200 titles available to order.",
+              "metadata": {
+                "year": "Late 2023"
+              }
+            },
+            {
+              "title": "Community Events Begin",
+              "description": "Weekly open-play nights, monthly tournaments, and a beginner series bring in a new wave of regulars.",
+              "metadata": {
+                "year": "2024"
+              }
+            },
+            {
+              "title": "500 Games & Counting",
+              "description": "The library crosses 500 titles. We're still adding new releases every month.",
+              "metadata": {
+                "year": "Today"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Join Our Community",
+              "target_page": "community"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "trailer-section-5",
+          "type": "cta",
+          "intent": "Convert the emotional momentum built throughout the trailer page into a concrete action \u2014 visiting the caf\u00e9 or buying games.",
+          "eyebrow": "Come See for Yourself",
+          "headline": "The Only Thing Better Than Watching Is Playing.",
+          "subheadline": "Book your table, browse the library, or grab a game to take home. Your next great night starts here.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Book a Table",
+              "target_page": "buy"
+            },
+            {
+              "label": "Browse the Games",
+              "target_page": "games"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "community",
+      "title": "Community",
+      "role": "overview",
+      "goal": "Show visitors that Rollout is more than a venue \u2014 it's a living community of players \u2014 and invite them to participate in events, tournaments, and social groups.",
+      "meta_description": "Join the Rollout community \u2014 weekly game nights, monthly tournaments, beginner sessions, and a growing tribe of board game lovers in your city.",
+      "sections": [
+        {
+          "id": "community-section-1",
+          "type": "page_header",
+          "intent": "Welcome visitors to the community page with energy and belonging, making it clear that everyone is invited regardless of experience level.",
+          "eyebrow": "The Rollout Community",
+          "headline": "Find Your People at the Table.",
+          "subheadline": "Whether you've played a thousand games or none at all, there's a seat here with your name on it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "See Upcoming Events",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "community-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A friendly flat-style illustration of a diverse group of four people gathered around a table, each with a hand of cards, laughing and engaged.",
+              "purpose": "Immediately communicates inclusivity and social warmth at the top of the community page.",
+              "quantity": 1,
+              "used_by": [
+                "community-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "community-section-2",
+          "type": "item_grid",
+          "intent": "Lay out the recurring community events so visitors can see the full range of ways to get involved and find something that fits their lifestyle.",
+          "eyebrow": "Regular Events",
+          "headline": "Something On Every Week.",
+          "subheadline": "Pick your night, grab a friend (or come solo), and show up ready to play.",
+          "body": null,
+          "items": [
+            {
+              "title": "Open Play Nights",
+              "description": "Every Tuesday and Thursday evening, the floor is open for drop-in play. No booking required. Meet new people, try new games.",
+              "metadata": {
+                "frequency": "Tuesdays & Thursdays",
+                "cost": "Table fee applies"
+              }
+            },
+            {
+              "title": "Beginner Sundays",
+              "description": "New to board games? Our Game Guides run structured introductory sessions every Sunday afternoon. Perfect for curious newcomers.",
+              "metadata": {
+                "frequency": "Every Sunday, 2\u20135pm",
+                "cost": "Free with table booking"
+              }
+            },
+            {
+              "title": "Monthly Tournament",
+              "description": "Competitive players gather on the last Saturday of every month for a single-game tournament. Prizes, glory, and bragging rights.",
+              "metadata": {
+                "frequency": "Last Saturday monthly",
+                "cost": "\u00a35 entry fee"
+              }
+            },
+            {
+              "title": "Game of the Month Club",
+              "description": "Each month we spotlight one game. Buy it, play it, discuss it. A book club for board game lovers.",
+              "metadata": {
+                "frequency": "Monthly",
+                "cost": "Free to join"
+              }
+            },
+            {
+              "title": "Private Group Sessions",
+              "description": "Organise your own gaming group with a reserved table, a dedicated Game Guide, and a curated game selection.",
+              "metadata": {
+                "frequency": "By arrangement",
+                "cost": "Group rates available"
+              }
+            },
+            {
+              "title": "Kids' Game Morning",
+              "description": "Saturday mornings are for families. Age-appropriate games, patient guides, and a relaxed pace.",
+              "metadata": {
+                "frequency": "Every Saturday, 10am\u201312pm",
+                "cost": "Reduced table fee"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Book Your Spot",
+              "target_page": "buy"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "community-section-3",
+          "type": "stats",
+          "intent": "Show the scale and vibrancy of the Rollout community through numbers that make visitors want to be part of something real.",
+          "eyebrow": "The Numbers",
+          "headline": "A Community That Keeps Growing.",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "2,400+",
+              "description": "Members in our community newsletter and Discord server.",
+              "metadata": {}
+            },
+            {
+              "title": "48",
+              "description": "Events hosted in the last 12 months, from tournaments to casual nights.",
+              "metadata": {}
+            },
+            {
+              "title": "320",
+              "description": "Players who've competed in our monthly tournament series.",
+              "metadata": {}
+            },
+            {
+              "title": "6",
+              "description": "Regular gaming groups that formed at Rollout and now meet weekly.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "community-section-3-asset-1",
+              "kind": "chart",
+              "subject": "A simple horizontal bar chart showing community growth \u2014 member count by quarter over the past 12 months \u2014 styled in a friendly, rounded app aesthetic.",
+              "purpose": "Visually reinforces the community growth story in the stats section, making the numbers feel dynamic and real.",
+              "quantity": 1,
+              "used_by": [
+                "community-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "community-section-4",
+          "type": "article_list",
+          "intent": "Surface community-generated stories, tournament recaps, and game spotlights to show the richness of the Rollout community culture and encourage return visits.",
+          "eyebrow": "From the Community",
+          "headline": "Stories from the Table.",
+          "subheadline": "Tournament recaps, game deep-dives, and tales from our regulars.",
+          "body": null,
+          "items": [
+            {
+              "title": "How I Won the March Tournament With a Deck Nobody Believed In",
+              "description": "Regular player Tom\u00e1s breaks down his unlikely Dominion run that shocked the room and took home the trophy.",
+              "metadata": {
+                "author": "Tom\u00e1s R.",
+                "category": "Tournament Recap"
+              }
+            },
+            {
+              "title": "Five Games That Are Perfect for a First Date",
+              "description": "Our Game Guides share their top picks for low-pressure, high-fun games that make great impressions.",
+              "metadata": {
+                "author": "Rollout Staff",
+                "category": "Game Guide"
+              }
+            },
+            {
+              "title": "I Came Alone and Left with a Gaming Group",
+              "description": "A first-person account of showing up solo to an open play night and finding a community.",
+              "metadata": {
+                "author": "Aisha K.",
+                "category": "Community Story"
+              }
+            },
+            {
+              "title": "Wingspan: Why Everyone in the Caf\u00e9 Is Obsessed",
+              "description": "We look at what makes Wingspan the most-played game in our library for the third month running.",
+              "metadata": {
+                "author": "Rollout Staff",
+                "category": "Game Spotlight"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "community-section-5",
+          "type": "cta",
+          "intent": "Convert community page visitors into active members by making joining the newsletter and Discord feel easy, fun, and worthwhile.",
+          "eyebrow": "Don't Miss a Move",
+          "headline": "Join the Rollout Community \u2014 It's Free.",
+          "subheadline": "Get first access to event tickets, monthly game recommendations, tournament news, and member-only offers.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join the Newsletter",
+              "target_page": null
+            },
+            {
+              "label": "Join Our Discord",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "buy",
+      "title": "Buy",
+      "role": "conversion",
+      "goal": "Convert visitors into paying customers by enabling table bookings, game purchases, and event ticket purchases \u2014 the primary revenue actions for Rollout.",
+      "meta_description": "Book a table at Rollout Board Game Caf\u00e9, buy games to take home, or secure your spot at an upcoming event \u2014 all in one place.",
+      "sections": [
+        {
+          "id": "buy-section-1",
+          "type": "page_header",
+          "intent": "Set a clear, action-oriented tone for the buy page that reassures visitors they're in the right place to book or buy.",
+          "eyebrow": "Book & Buy",
+          "headline": "Ready to Play? Let's Make It Official.",
+          "subheadline": "Reserve your table, grab a game for home, or lock in your event ticket. It takes about two minutes.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "buy-section-1-asset-1",
+              "kind": "icon",
+              "subject": "Three simple icons side by side: a calendar for table booking, a box for game purchase, and a ticket for event booking \u2014 all in a consistent friendly rounded style.",
+              "purpose": "Visually separates the three conversion paths at the top of the page so visitors immediately know what they can do here.",
+              "quantity": 1,
+              "used_by": [
+                "buy-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "buy-section-2",
+          "type": "pricing",
+          "intent": "Make the table booking options transparent and easy to compare so visitors can choose the right option without confusion or hesitation.",
+          "eyebrow": "Table Bookings",
+          "headline": "Choose Your Session.",
+          "subheadline": "All bookings include unlimited game access and a Game Guide on request.",
+          "body": null,
+          "items": [
+            {
+              "title": "Standard Session",
+              "description": "2 hours of play for up to 6 guests. Unlimited game access, Game Guide available on request. Drinks and food ordered separately.",
+              "metadata": {
+                "price": "\u00a35 per person",
+                "duration": "2 hours",
+                "capacity": "Up to 6"
+              }
+            },
+            {
+              "title": "Extended Session",
+              "description": "4 hours of play \u2014 ideal for campaign games or large groups who want to settle in. Same great access, more time to go deep.",
+              "metadata": {
+                "price": "\u00a39 per person",
+                "duration": "4 hours",
+                "capacity": "Up to 6"
+              }
+            },
+            {
+              "title": "Private Room \u2014 Standard",
+              "description": "Your own private gaming room for up to 8 guests. Dedicated Game Guide, priority game selection, and full caf\u00e9 menu service.",
+              "metadata": {
+                "price": "\u00a360 flat rate",
+                "duration": "2 hours",
+                "capacity": "Up to 8"
+              }
+            },
+            {
+              "title": "Private Room \u2014 Event",
+              "description": "Full private room hire for up to 12 guests for events, birthdays, and team days. Includes welcome drinks and a curated game menu.",
+              "metadata": {
+                "price": "From \u00a3120",
+                "duration": "3 hours",
+                "capacity": "Up to 12"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Book a Table Now",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "buy-section-3",
+          "type": "item_grid",
+          "intent": "Drive game purchase conversions by showcasing a curated selection of top-selling and staff-recommended games available to buy in the caf\u00e9 shop or online.",
+          "eyebrow": "Take the Fun Home",
+          "headline": "Shop Our Game Collection.",
+          "subheadline": "All the games we love, available to buy. Free in-caf\u00e9 pickup or next-day delivery.",
+          "body": null,
+          "items": [
+            {
+              "title": "Wingspan",
+              "description": "The award-winning bird engine-builder. One of our most gifted titles. Includes the European Expansion.",
+              "metadata": {
+                "price": "\u00a349.99",
+                "availability": "In stock"
+              }
+            },
+            {
+              "title": "Codenames",
+              "description": "The party game that never gets old. A must-have for every home shelf.",
+              "metadata": {
+                "price": "\u00a319.99",
+                "availability": "In stock"
+              }
+            },
+            {
+              "title": "Azul",
+              "description": "Abstract tile-laying beauty. Perfect for two players or a family game night.",
+              "metadata": {
+                "price": "\u00a329.99",
+                "availability": "In stock"
+              }
+            },
+            {
+              "title": "Ticket to Ride: Europe",
+              "description": "The classic route-building game. Easy to learn, endlessly competitive.",
+              "metadata": {
+                "price": "\u00a339.99",
+                "availability": "In stock"
+              }
+            },
+            {
+              "title": "Pandemic",
+              "description": "The co-operative classic that started it all. Save the world \u2014 together.",
+              "metadata": {
+                "price": "\u00a334.99",
+                "availability": "In stock"
+              }
+            },
+            {
+              "title": "Sushi Go!",
+              "description": "A lightning-fast card-drafting game the whole family will love. Great value.",
+              "metadata": {
+                "price": "\u00a312.99",
+                "availability": "In stock"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "View Full Shop",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "buy-section-3-asset-1",
+              "kind": "mockup",
+              "subject": "A flat-lay style mockup of three board game boxes arranged on a wooden caf\u00e9 table surface, suggesting a retail display in a warm, inviting setting.",
+              "purpose": "Gives the shop section a tactile, product-feel without requiring product photography.",
+              "quantity": 1,
+              "used_by": [
+                "buy-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "buy-section-4",
+          "type": "item_grid",
+          "intent": "Sell event tickets for upcoming tournaments and special events, converting community interest into confirmed attendance.",
+          "eyebrow": "Upcoming Events",
+          "headline": "Grab Your Ticket.",
+          "subheadline": "Spots are limited. Don't miss out on the next big night.",
+          "body": null,
+          "items": [
+            {
+              "title": "May Tournament: Carcassonne",
+              "description": "Single-elimination Carcassonne tournament. 16 spots available. Winner takes home a \u00a350 game voucher.",
+              "metadata": {
+                "date": "Saturday 31 May",
+                "price": "\u00a35 per player",
+                "spots": "8 spots left"
+              }
+            },
+            {
+              "title": "Beginner's Game Night",
+              "description": "A relaxed, guided evening for newcomers. No experience needed. A Game Guide will be at every table.",
+              "metadata": {
+                "date": "Thursday 5 June",
+                "price": "Table fee only",
+                "spots": "Open"
+              }
+            },
+            {
+              "title": "Kids' Game Morning \u2014 Half Term Special",
+              "description": "Extended kids' morning with face-painting and a special game selection for half term.",
+              "metadata": {
+                "date": "Saturday 7 June",
+                "price": "\u00a33 per child",
+                "spots": "12 spots left"
+              }
+            },
+            {
+              "title": "Game of the Month: Wingspan Night",
+              "description": "Monthly club meeting for this month's spotlight game. Play, discuss, and take home our review guide.",
+              "metadata": {
+                "date": "Wednesday 11 June",
+                "price": "Free",
+                "spots": "Open"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "See All Events",
+              "target_page": "community"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "buy-section-5",
+          "type": "contact_block",
+          "intent": "Provide a direct contact option for group bookings, event enquiries, and gift vouchers \u2014 capturing high-value leads that can't be handled through the standard booking flow.",
+          "eyebrow": "Something Bigger in Mind?",
+          "headline": "Let's Plan Your Event Together.",
+          "subheadline": "Corporate team days, birthday parties, hen dos, school groups \u2014 our events team handles it all. Get in touch and we'll build something great.",
+          "body": null,
+          "items": [
+            {
+              "title": "Email Us",
+              "description": "events@rolloutcafe.com \u2014 we aim to respond within 24 hours.",
+              "metadata": {}
+            },
+            {
+              "title": "Call Us",
+              "description": "+44 (0)20 7123 4567 \u2014 available Monday to Friday, 10am\u20136pm.",
+              "metadata": {}
+            },
+            {
+              "title": "Gift Vouchers",
+              "description": "Looking for the perfect present? Our gift vouchers are available in any denomination and never expire.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send an Enquiry",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" aria-label="BoltWorks neighborhood map">
+  <!-- Background -->
+  <rect width="1200" height="420" fill="#1E1E2A"/>
+
+  <!-- Grid -->
+  <g stroke="#2A2A3A" stroke-width="1">
+    <line x1="0"   y1="60"  x2="1200" y2="60"/>
+    <line x1="0"   y1="120" x2="1200" y2="120"/>
+    <line x1="0"   y1="180" x2="1200" y2="180"/>
+    <line x1="0"   y1="240" x2="1200" y2="240"/>
+    <line x1="0"   y1="300" x2="1200" y2="300"/>
+    <line x1="0"   y1="360" x2="1200" y2="360"/>
+    <line x1="120"  y1="0" x2="120"  y2="420"/>
+    <line x1="240"  y1="0" x2="240"  y2="420"/>
+    <line x1="360"  y1="0" x2="360"  y2="420"/>
+    <line x1="480"  y1="0" x2="480"  y2="420"/>
+    <line x1="600"  y1="0" x2="600"  y2="420"/>
+    <line x1="720"  y1="0" x2="720"  y2="420"/>
+    <line x1="840"  y1="0" x2="840"  y2="420"/>
+    <line x1="960"  y1="0" x2="960"  y2="420"/>
+    <line x1="1080" y1="0" x2="1080" y2="420"/>
+  </g>
+
+  <!-- Streets -->
+  <g stroke="#0D0D0D" stroke-width="14">
+    <line x1="0" y1="220" x2="1200" y2="220"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="800" y1="0" x2="800" y2="420"/>
+  </g>
+  <g stroke="#FFE600" stroke-width="2" stroke-dasharray="10 10">
+    <line x1="0" y1="220" x2="1200" y2="220"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="800" y1="0" x2="800" y2="420"/>
+  </g>
+
+  <!-- Transit line (cyan) -->
+  <g stroke="#00E5FF" stroke-width="6">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+  </g>
+  <g fill="#00E5FF">
+    <circle cx="200" cy="60" r="8"/>
+    <circle cx="500" cy="60" r="8"/>
+    <circle cx="800" cy="60" r="8"/>
+    <circle cx="1080" cy="60" r="8"/>
+  </g>
+
+  <!-- Blocks / buildings -->
+  <g>
+    <!-- Block top-left -->
+    <rect x="80" y="100" width="180" height="100" fill="#0D0D0D" stroke="#FF5C00" stroke-width="2"/>
+    <rect x="100" y="120" width="40" height="40" fill="#FF1F8E"/>
+    <rect x="160" y="130" width="40" height="60" fill="#FFE600"/>
+    <text x="170" y="190" font-family="Bebas Neue, Arial Black" font-size="12" fill="#0D0D0D" letter-spacing="1.2">CAFE</text>
+
+    <!-- Parking lot -->
+    <rect x="300" y="100" width="160" height="100" fill="#0D0D0D" stroke="#FF5C00" stroke-width="2" stroke-dasharray="6 6"/>
+    <g fill="#FF5C00" font-family="Bebas Neue, Arial Black" font-size="22" letter-spacing="4">
+      <text x="312" y="150">P</text>
+      <text x="332" y="150">P</text>
+      <text x="312" y="180">P</text>
+      <text x="332" y="180">P</text>
+    </g>
+    <text x="360" y="170" font-family="Bebas Neue, Arial Black" font-size="16" fill="#FF5C00" letter-spacing="2">PARKING</text>
+
+    <!-- BoltWorks Building (highlighted) -->
+    <rect x="540" y="240" width="220" height="140" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <rect x="558" y="260" width="40" height="40" fill="#0D0D0D"/>
+    <rect x="610" y="260" width="40" height="40" fill="#0D0D0D"/>
+    <rect x="662" y="260" width="40" height="40" fill="#0D0D0D"/>
+    <rect x="714" y="260" width="32" height="40" fill="#0D0D0D"/>
+    <text x="650" y="345" text-anchor="middle" font-family="Bebas Neue, Arial Black" font-size="24" fill="#0D0D0D" letter-spacing="4">BOLTWORKS</text>
+    <text x="650" y="365" text-anchor="middle" font-family="Bebas Neue, Arial Black" font-size="12" fill="#0D0D0D" letter-spacing="2">ROBOTICS LAB</text>
+
+    <!-- Block 3 -->
+    <rect x="850" y="100" width="200" height="100" fill="#0D0D0D" stroke="#FF1F8E" stroke-width="2"/>
+    <rect x="870" y="120" width="50" height="60" fill="#FF1F8E"/>
+    <rect x="940" y="130" width="80" height="50" fill="#00E5FF"/>
+    <text x="940" y="190" font-family="Bebas Neue, Arial Black" font-size="12" fill="#FF1F8E" letter-spacing="1.2">MAKERSPACE</text>
+
+    <!-- Block 4 -->
+    <rect x="100" y="280" width="320" height="100" fill="#0D0D0D" stroke="#FF5C00" stroke-width="2"/>
+    <rect x="120" y="300" width="60" height="60" fill="#FF5C00"/>
+    <rect x="200" y="320" width="80" height="40" fill="#FFE600"/>
+    <rect x="300" y="300" width="100" height="60" fill="#FF1F8E"/>
+    <text x="180" y="380" font-family="Bebas Neue, Arial Black" font-size="12" fill="#FF5C00" letter-spacing="1.2">SCHOOL</text>
+
+    <!-- Block 5 right -->
+    <rect x="850" y="260" width="200" height="120" fill="#0D0D0D" stroke="#00E5FF" stroke-width="2"/>
+    <rect x="870" y="280" width="60" height="80" fill="#00E5FF"/>
+    <rect x="950" y="290" width="80" height="60" fill="#FF5C00"/>
+    <text x="900" y="378" font-family="Bebas Neue, Arial Black" font-size="12" fill="#00E5FF" letter-spacing="1.2">LIBRARY</text>
+  </g>
+
+  <!-- Oversized pin for BoltWorks -->
+  <g transform="translate(650,200)">
+    <path d="M0 0 L-22 -50 A26 26 0 1 1 22 -50 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <circle cx="0" cy="-50" r="14" fill="#0D0D0D"/>
+    <path d="M-2 -64 L-6 -52 L0 -52 L-4 -38 L8 -56 L2 -56 L6 -64 Z" fill="#FFE600" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Transit icon -->
+  <g transform="translate(500,40)">
+    <rect x="-10" y="-10" width="20" height="20" fill="#00E5FF" stroke="#0D0D0D" stroke-width="2"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Bebas Neue, Arial Black" font-size="12" fill="#0D0D0D">T</text>
+  </g>
+
+  <!-- Compass / N -->
+  <g transform="translate(1130,40)">
+    <circle r="22" fill="#0D0D0D" stroke="#FFE600" stroke-width="3"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Bebas Neue, Arial Black" font-size="22" fill="#FFE600">N</text>
+  </g>
+
+  <!-- Street labels -->
+  <g font-family="Bebas Neue, Arial Black" font-size="14" letter-spacing="3" fill="#FFE600" opacity="0.85">
+    <text x="20" y="216" >MAKER STREET</text>
+    <text x="510" y="20" transform="rotate(90 510 20)">VOLT AVE</text>
+  </g>
+</svg>

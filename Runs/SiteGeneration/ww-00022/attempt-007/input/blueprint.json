@@ -1,0 +1,978 @@
+{
+  "id": "ww-00022",
+  "version": "0.1",
+  "concept_id": "ww-00022",
+  "identity": {
+    "name": "BoltWorks",
+    "tagline": "Build. Compete. Ignite.",
+    "one_line_description": "BoltWorks is a high-energy robotics learning club where young builders design, program, and compete with robots that bring big ideas to life.",
+    "domain": "education",
+    "subdomain": "robotics learning club",
+    "voice": [
+      "bold",
+      "energetic",
+      "celebratory",
+      "inclusive",
+      "hands-on"
+    ],
+    "target_audience": "Students aged 8\u201318, their parents, and educators looking for an after-school or weekend robotics program that blends STEM learning with competitive team spirit."
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "landing",
+      "goal": "Immediately communicate the excitement and identity of BoltWorks, hook prospective students and parents, and guide them toward exploring the club or signing up.",
+      "meta_description": "BoltWorks is a festival-spirited robotics learning club for students who want to build, program, and compete. Discover our programs, teams, and upcoming events.",
+      "sections": [
+        {
+          "id": "home-section-1",
+          "type": "hero",
+          "intent": "Deliver a bold, festival-poster-style first impression that captures the energy of the club and prompts visitors to explore or join.",
+          "eyebrow": "Welcome to BoltWorks Robotics Club",
+          "headline": "Build. Compete. Ignite.",
+          "subheadline": "The arena is open. Young engineers, coders, and makers \u2014 your robot awaits.",
+          "body": "From first-time builders to seasoned competitors, BoltWorks is where sparks fly and ideas become machines. Join the most electrifying robotics club around.",
+          "items": [],
+          "ctas": [
+            {
+              "label": "Join the Club",
+              "target_page": "contact"
+            },
+            {
+              "label": "See Our Programs",
+              "target_page": "departments"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A bold, festival-poster-style robot silhouette with lightning bolt accents and radiating energy lines, evoking a concert headliner announcement",
+              "purpose": "Hero visual centerpiece that instantly communicates the high-energy, celebratory brand identity of BoltWorks",
+              "quantity": 1,
+              "used_by": [
+                "home-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "home-section-2",
+          "type": "stats",
+          "intent": "Build credibility and excitement by showcasing the club's scale, achievements, and community at a glance.",
+          "eyebrow": "BoltWorks by the Numbers",
+          "headline": "A Community That Builds Big",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "250+",
+              "description": "Active student members across all age divisions",
+              "metadata": {}
+            },
+            {
+              "title": "18",
+              "description": "Competition trophies won in the last two seasons",
+              "metadata": {}
+            },
+            {
+              "title": "12",
+              "description": "Specialized workshops and training tracks offered",
+              "metadata": {}
+            },
+            {
+              "title": "6",
+              "description": "Partner schools and community organizations",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-3",
+          "type": "feature_grid",
+          "intent": "Highlight the core pillars of the BoltWorks experience so visitors immediately understand what makes the club unique.",
+          "eyebrow": "Why BoltWorks",
+          "headline": "More Than a Club \u2014 It's a Movement",
+          "subheadline": "Every session, every build, every match is a step toward something bigger.",
+          "body": null,
+          "items": [
+            {
+              "title": "Hands-On Building",
+              "description": "Students design and assemble real robots using industry-grade components, learning mechanical engineering through doing.",
+              "metadata": {}
+            },
+            {
+              "title": "Live Competition",
+              "description": "We enter regional and national robotics tournaments where teams put their machines \u2014 and their teamwork \u2014 to the ultimate test.",
+              "metadata": {}
+            },
+            {
+              "title": "Code That Moves",
+              "description": "From block-based programming to Python and C++, members learn to write the code that makes their robots think and react.",
+              "metadata": {}
+            },
+            {
+              "title": "Mentor Network",
+              "description": "Professional engineers, university students, and industry partners mentor every team, turning every session into a masterclass.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Meet Our Departments",
+              "target_page": "departments"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-4",
+          "type": "timeline",
+          "intent": "Show the club's journey and upcoming season milestones to create a sense of momentum and urgency for new members.",
+          "eyebrow": "Season Calendar",
+          "headline": "The Road to the Championship",
+          "subheadline": "Every great robot has a build season. Here's ours.",
+          "body": null,
+          "items": [
+            {
+              "title": "September \u2014 Kickoff Rally",
+              "description": "New members are welcomed, teams are formed, and the season theme is revealed in a festival-style launch event.",
+              "metadata": {}
+            },
+            {
+              "title": "October\u2013November \u2014 Build Season",
+              "description": "Teams enter intensive design and fabrication sprints, guided by mentors and fueled by caffeine and creativity.",
+              "metadata": {}
+            },
+            {
+              "title": "December \u2014 Internal Showcase",
+              "description": "A mid-season exhibition where every team demonstrates their robot's progress and receives peer feedback.",
+              "metadata": {}
+            },
+            {
+              "title": "January\u2013February \u2014 Regional Qualifiers",
+              "description": "BoltWorks teams compete in regional robotics tournaments to earn berths in the state championship.",
+              "metadata": {}
+            },
+            {
+              "title": "March \u2014 State Championship",
+              "description": "The biggest stage of the season. Our top teams battle for the title in front of a packed arena.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Get Involved",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "home-section-5",
+          "type": "cta",
+          "intent": "Close the home page with a high-energy, festival-poster-style call to action that pushes undecided visitors to take the next step.",
+          "eyebrow": "Doors Are Open",
+          "headline": "Your First Build Starts Now",
+          "subheadline": "Spots fill fast every season. Don't miss the next kickoff.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Reserve Your Spot",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore Research Projects",
+              "target_page": "research"
+            }
+          ],
+          "asset_ideas": [
+            {
+              "id": "home-section-5-asset-1",
+              "kind": "pattern",
+              "subject": "A repeating geometric circuit-board pattern with bold diagonal lines and spark motifs, festival-poster style",
+              "purpose": "Background texture for the CTA section that reinforces the energetic, maker-culture identity without competing with the copy",
+              "quantity": 1,
+              "used_by": [
+                "home-section-5"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "role": "editorial",
+      "goal": "Tell the BoltWorks origin story, introduce the club's values and leadership, and build trust with parents and prospective members through transparency and passion.",
+      "meta_description": "Learn about BoltWorks Robotics Club \u2014 our founding story, mission, values, and the passionate team that keeps the gears turning.",
+      "sections": [
+        {
+          "id": "about-section-1",
+          "type": "page_header",
+          "intent": "Set the editorial tone for the About page and frame the club's identity as a bold, community-driven movement.",
+          "eyebrow": "Our Story",
+          "headline": "Born in a Garage. Built for the World.",
+          "subheadline": "BoltWorks started with five kids, a pile of spare parts, and an unstoppable idea.",
+          "body": "What began as an informal weekend tinkering group in 2016 has grown into one of the region's most celebrated youth robotics clubs \u2014 a place where every student, regardless of background or experience, gets a seat at the build table.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "about-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A stylized vintage-poster illustration of a small garage workshop with oversized gears, tools, and a tiny robot on a workbench, evoking origin-story nostalgia",
+              "purpose": "Visual anchor for the founding narrative that reinforces the festival-poster aesthetic with a warm, celebratory tone",
+              "quantity": 1,
+              "used_by": [
+                "about-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "about-section-2",
+          "type": "story_block",
+          "intent": "Deepen the origin narrative and articulate the mission and values that guide the club's culture and decisions.",
+          "eyebrow": "Mission & Values",
+          "headline": "We Build More Than Robots",
+          "subheadline": "Our mission is to spark a lifelong love of engineering in every student who walks through our doors.",
+          "body": "At BoltWorks, we believe the skills learned on the build floor \u2014 problem-solving, collaboration, resilience, and creative thinking \u2014 are the same skills that change the world. We don't just teach robotics. We build the next generation of engineers, innovators, and leaders.",
+          "items": [
+            {
+              "title": "Curiosity First",
+              "description": "We celebrate questions over answers and reward experimentation, even when the robot falls over.",
+              "metadata": {}
+            },
+            {
+              "title": "Every Builder Belongs",
+              "description": "We actively recruit students from underrepresented communities and provide need-based scholarship access to all programs.",
+              "metadata": {}
+            },
+            {
+              "title": "Real-World Rigor",
+              "description": "Our curriculum is designed with input from working engineers to ensure students learn skills that matter beyond the competition floor.",
+              "metadata": {}
+            },
+            {
+              "title": "Compete with Integrity",
+              "description": "We train champions who win with grace, lose with dignity, and always help a rival team fix their robot before a match.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-3",
+          "type": "item_grid",
+          "intent": "Introduce the leadership team and mentors to humanize the club and build trust with parents evaluating the program.",
+          "eyebrow": "The Crew",
+          "headline": "Meet the People Behind the Machines",
+          "subheadline": "Our coaches, mentors, and staff bring professional engineering experience and genuine enthusiasm to every session.",
+          "body": null,
+          "items": [
+            {
+              "title": "Dana Reyes \u2014 Club Director",
+              "description": "Former aerospace engineer and FRC alumna. Dana founded BoltWorks after seeing too many talented kids without access to quality STEM programs.",
+              "metadata": {
+                "role": "Director"
+              }
+            },
+            {
+              "title": "Marcus Obi \u2014 Head Build Coach",
+              "description": "Mechanical engineer with 10 years in robotics manufacturing. Marcus runs the fabrication floor and is famous for his 'no bad ideas' brainstorm sessions.",
+              "metadata": {
+                "role": "Build Coach"
+              }
+            },
+            {
+              "title": "Priya Nair \u2014 Software Lead",
+              "description": "Software developer and CS educator who designed BoltWorks' three-tier coding curriculum, from Scratch to ROS.",
+              "metadata": {
+                "role": "Software Lead"
+              }
+            },
+            {
+              "title": "Tom Callahan \u2014 Outreach Coordinator",
+              "description": "Former high school teacher turned STEM advocate. Tom manages school partnerships, scholarship programs, and community demo events.",
+              "metadata": {
+                "role": "Outreach"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Contact Our Team",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "about-section-4",
+          "type": "stats",
+          "intent": "Reinforce credibility with impact metrics that resonate with parents, educators, and potential sponsors.",
+          "eyebrow": "Our Impact",
+          "headline": "Numbers That Tell the Real Story",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "8 Years",
+              "description": "Of continuous operation and growing community since our founding in 2016",
+              "metadata": {}
+            },
+            {
+              "title": "40%",
+              "description": "Of our alumni have gone on to pursue STEM degrees or careers",
+              "metadata": {}
+            },
+            {
+              "title": "$85K",
+              "description": "In need-based scholarships distributed to members over the past three seasons",
+              "metadata": {}
+            },
+            {
+              "title": "30+",
+              "description": "Industry mentors and volunteer coaches who donate their time each season",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "about-section-4-asset-1",
+              "kind": "chart",
+              "subject": "A bold, festival-style radial bar chart showing club membership growth year over year from 2016 to 2024, with each year's bar styled like a concert ticket stub",
+              "purpose": "Visually dramatize the club's growth story in a way that feels celebratory rather than corporate",
+              "quantity": 1,
+              "used_by": [
+                "about-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "about-section-5",
+          "type": "cta",
+          "intent": "Invite parents and students who are now emotionally invested in the story to take a concrete next step.",
+          "eyebrow": "Join the Story",
+          "headline": "The Next Chapter Has Your Name on It",
+          "subheadline": "Enrollment opens each August and January. Reach out early \u2014 spots go fast.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Apply for Membership",
+              "target_page": "contact"
+            },
+            {
+              "label": "See Our Departments",
+              "target_page": "departments"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "departments",
+      "title": "Departments",
+      "role": "overview",
+      "goal": "Give prospective members a clear, exciting map of every learning track and team division so they can identify where they belong and what skills they will gain.",
+      "meta_description": "Explore BoltWorks departments \u2014 from mechanical engineering and software to outreach and competition strategy. Find your track and start building.",
+      "sections": [
+        {
+          "id": "departments-section-1",
+          "type": "page_header",
+          "intent": "Frame the departments page as a festival lineup \u2014 every department is a headliner with its own stage.",
+          "eyebrow": "Find Your Stage",
+          "headline": "Every Builder Has a Home Here",
+          "subheadline": "BoltWorks is organized into specialized departments so every member can go deep on what they love most.",
+          "body": "Whether you're drawn to the precision of mechanical design, the logic of code, the strategy of competition, or the art of communicating science \u2014 there's a department built for you.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "departments-section-1-asset-1",
+              "kind": "icon",
+              "subject": "A set of six bold, festival-poster-style department icons: a gear (mechanical), a circuit chip (software), a trophy (competition), a megaphone (outreach), a wrench (fabrication), and a lightbulb (innovation lab)",
+              "purpose": "Visual identifiers for each department card in the grid, giving each track a distinct but cohesive visual identity",
+              "quantity": 1,
+              "used_by": [
+                "departments-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "departments-section-2",
+          "type": "item_grid",
+          "intent": "Present all six departments as equal, exciting options in a card grid so visitors can scan and self-select their path.",
+          "eyebrow": "Our Departments",
+          "headline": "Six Tracks. One Team.",
+          "subheadline": "Each department runs its own projects, workshops, and competitions \u2014 all feeding into the same championship robot.",
+          "body": null,
+          "items": [
+            {
+              "title": "Mechanical Engineering",
+              "description": "Design and build the physical systems of the robot \u2014 chassis, drivetrain, manipulators, and structural components. CAD, prototyping, and fabrication are core skills.",
+              "metadata": {
+                "age_range": "12\u201318",
+                "skill_level": "Beginner to Advanced"
+              }
+            },
+            {
+              "title": "Software & Controls",
+              "description": "Write the code that makes the robot move, sense, and decide. Students work in Python, Java, and C++ using real robotics frameworks like WPILib and ROS.",
+              "metadata": {
+                "age_range": "11\u201318",
+                "skill_level": "Beginner to Advanced"
+              }
+            },
+            {
+              "title": "Electrical & Wiring",
+              "description": "Design the power systems, wire the motors and sensors, and ensure the robot's electronics are safe, reliable, and competition-ready.",
+              "metadata": {
+                "age_range": "13\u201318",
+                "skill_level": "Intermediate to Advanced"
+              }
+            },
+            {
+              "title": "Competition Strategy",
+              "description": "Analyze opponents, plan match strategies, scout other teams, and make real-time tactical decisions during tournament play.",
+              "metadata": {
+                "age_range": "10\u201318",
+                "skill_level": "All levels"
+              }
+            },
+            {
+              "title": "Outreach & Communications",
+              "description": "Tell the BoltWorks story to the world. Manage social media, write grant applications, organize community demos, and run our school ambassador program.",
+              "metadata": {
+                "age_range": "10\u201318",
+                "skill_level": "All levels"
+              }
+            },
+            {
+              "title": "Innovation Lab",
+              "description": "A free-build sandbox for members who want to pursue independent robotics projects, enter external hackathons, or prototype ideas beyond the competition robot.",
+              "metadata": {
+                "age_range": "8\u201318",
+                "skill_level": "All levels"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Ask About a Department",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "departments-section-3",
+          "type": "comparison",
+          "intent": "Help prospective members and parents quickly compare age divisions and program formats to find the right fit.",
+          "eyebrow": "Division Guide",
+          "headline": "Which Division Is Right for You?",
+          "subheadline": "BoltWorks runs three age-based divisions, each with its own competition league and curriculum depth.",
+          "body": null,
+          "items": [
+            {
+              "title": "Sparks Division (Ages 8\u201311)",
+              "description": "Introduction to robotics through LEGO Mindstorms and VEX IQ. Focus is on fun, exploration, and learning the basics of sensors and programming. Competes in the Junior Robotics League.",
+              "metadata": {
+                "format": "Weekly 2-hour sessions",
+                "competition": "Junior Robotics League"
+              }
+            },
+            {
+              "title": "Voltage Division (Ages 12\u201314)",
+              "description": "Intermediate builders working with VEX EDR and custom electronics. Teams design full robots for regional VEX competitions and internal BoltWorks tournaments.",
+              "metadata": {
+                "format": "Two sessions per week + weekend builds",
+                "competition": "VEX Regional Circuit"
+              }
+            },
+            {
+              "title": "Apex Division (Ages 15\u201318)",
+              "description": "The flagship program. Teams build full-scale competition robots for FIRST Robotics Competition (FRC). This is the most demanding and rewarding track BoltWorks offers.",
+              "metadata": {
+                "format": "Three sessions per week + intensive build season",
+                "competition": "FIRST Robotics Competition (FRC)"
+              }
+            },
+            {
+              "title": "Open Lab (All Ages)",
+              "description": "Drop-in sessions for independent projects, skill workshops, and mentored free builds. No competition pressure \u2014 just making things.",
+              "metadata": {
+                "format": "Saturday mornings",
+                "competition": "None \u2014 open exploration"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Explore Research Projects",
+              "target_page": "research"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "departments-section-4",
+          "type": "testimonial",
+          "intent": "Use authentic student voices to bring the departments to life and help prospective members imagine themselves in the program.",
+          "eyebrow": "From the Build Floor",
+          "headline": "Straight from the Members",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Aisha, 16 \u2014 Software Dept.",
+              "description": "\"I came in not knowing how to write a single line of code. Two seasons later I'm writing autonomous routines that won us a regional qualifier. BoltWorks changed everything for me.\"",
+              "metadata": {
+                "division": "Apex"
+              }
+            },
+            {
+              "title": "Carlos, 13 \u2014 Mechanical Dept.",
+              "description": "\"The best part is when you've been stuck on a design problem for days and then it just works. My mentor Marcus says that feeling never gets old. He's right.\"",
+              "metadata": {
+                "division": "Voltage"
+              }
+            },
+            {
+              "title": "Jordan, 10 \u2014 Sparks Division",
+              "description": "\"I love that my robot actually listens to me. I told it to turn left and it turned left! My parents said I was a real engineer now.\"",
+              "metadata": {
+                "division": "Sparks"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "departments-section-4-asset-1",
+              "kind": "illustration",
+              "subject": "A festival-wristband-style badge graphic with the three division names (Sparks, Voltage, Apex) styled like event passes with bold typography and lightning bolt motifs",
+              "purpose": "Visual accent for the division comparison and testimonial sections that reinforces the festival-event framing of each program tier",
+              "quantity": 1,
+              "used_by": [
+                "departments-section-4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "departments-section-5",
+          "type": "cta",
+          "intent": "Convert interested visitors into applicants by directing them to the contact page with clear urgency.",
+          "eyebrow": "Ready to Pick Your Track?",
+          "headline": "Claim Your Spot Before the Season Fills",
+          "subheadline": "Each department has limited seats. Early applications get priority placement.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Apply Now",
+              "target_page": "contact"
+            },
+            {
+              "label": "Learn About Our Research",
+              "target_page": "research"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "title": "Research",
+      "role": "editorial",
+      "goal": "Showcase BoltWorks' original student research projects and technical achievements to demonstrate depth, attract advanced students, and impress sponsors and partner institutions.",
+      "meta_description": "Discover BoltWorks student research projects \u2014 from autonomous navigation systems to AI-driven object detection. Real engineering, real results.",
+      "sections": [
+        {
+          "id": "research-section-1",
+          "type": "page_header",
+          "intent": "Frame the research page as a festival of ideas \u2014 a showcase stage for the club's most ambitious technical work.",
+          "eyebrow": "The Innovation Stage",
+          "headline": "Student Engineers. Real Research. Serious Results.",
+          "subheadline": "BoltWorks members don't just build competition robots \u2014 they push the boundaries of what young engineers can achieve.",
+          "body": "From autonomous navigation to computer vision and soft robotics, our research projects have been presented at regional science fairs, university symposia, and national STEM conferences. This is where curiosity becomes contribution.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "research-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A bold, festival-poster-style illustration of a robot arm reaching toward a glowing lightbulb surrounded by circuit traces and data graphs, evoking discovery and innovation",
+              "purpose": "Hero visual for the research page that signals technical ambition while maintaining the club's energetic, celebratory brand voice",
+              "quantity": 1,
+              "used_by": [
+                "research-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-section-2",
+          "type": "article_list",
+          "intent": "Present active and completed research projects as editorial cards so visitors can explore the breadth and depth of student work.",
+          "eyebrow": "Active Projects",
+          "headline": "What We're Building Right Now",
+          "subheadline": "Each project is student-led, mentor-supported, and aimed at solving a real engineering challenge.",
+          "body": null,
+          "items": [
+            {
+              "title": "Project ARIA \u2014 Autonomous Robot Intelligence Architecture",
+              "description": "A Voltage and Apex team collaboration developing a modular autonomous decision-making system using ROS2 and a custom sensor fusion pipeline. Goal: sub-3-second field mapping in FRC-scale environments.",
+              "metadata": {
+                "status": "Active",
+                "division": "Apex + Voltage",
+                "lead": "Priya Nair"
+              }
+            },
+            {
+              "title": "SoftBot \u2014 Pneumatic Soft Robotics Gripper",
+              "description": "An Innovation Lab project exploring soft robotic actuators made from silicone molds and pneumatic control. The team is testing grip reliability on irregular game pieces.",
+              "metadata": {
+                "status": "Active",
+                "division": "Innovation Lab",
+                "lead": "Marcus Obi"
+              }
+            },
+            {
+              "title": "VisionTrack \u2014 Real-Time Object Detection for FRC",
+              "description": "A software team project implementing a YOLOv8 model trained on competition game pieces to enable real-time targeting and autonomous scoring. Achieved 94% detection accuracy in field tests.",
+              "metadata": {
+                "status": "Active",
+                "division": "Apex",
+                "lead": "Aisha Mensah"
+              }
+            },
+            {
+              "title": "EcoBot \u2014 Sustainable Materials in Robot Construction",
+              "description": "An outreach-driven research project investigating the use of recycled and bio-based materials in robot chassis design. Partnered with a local university materials science lab.",
+              "metadata": {
+                "status": "Active",
+                "division": "Innovation Lab + Outreach",
+                "lead": "Tom Callahan"
+              }
+            },
+            {
+              "title": "DriveMetrics \u2014 Drivetrain Performance Analytics Dashboard",
+              "description": "A data engineering project that logs motor telemetry during practice matches and visualizes performance trends to guide mechanical tuning decisions.",
+              "metadata": {
+                "status": "Completed",
+                "division": "Apex",
+                "lead": "Carlos Rivera"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Join a Research Team",
+              "target_page": "contact"
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "research-section-3",
+          "type": "stats",
+          "intent": "Quantify the research program's credibility and output to impress sponsors, universities, and advanced students.",
+          "eyebrow": "Research Impact",
+          "headline": "The Numbers Behind the Breakthroughs",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "14",
+              "description": "Original student research projects completed or in progress since 2020",
+              "metadata": {}
+            },
+            {
+              "title": "3",
+              "description": "Projects presented at university-level STEM symposia",
+              "metadata": {}
+            },
+            {
+              "title": "94%",
+              "description": "Object detection accuracy achieved by the VisionTrack team in live field tests",
+              "metadata": {}
+            },
+            {
+              "title": "2",
+              "description": "University research partnerships currently active with BoltWorks student teams",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "research-section-3-asset-1",
+              "kind": "chart",
+              "subject": "A bold, festival-style horizontal bar chart comparing research output by department (Mechanical, Software, Electrical, Innovation Lab) with each bar styled as a progress meter with spark accents",
+              "purpose": "Visually communicate the distribution of research activity across departments in a way that feels energetic and data-driven simultaneously",
+              "quantity": 1,
+              "used_by": [
+                "research-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "research-section-4",
+          "type": "gallery",
+          "intent": "Showcase past competition achievements and research milestones as a visual highlight reel that builds prestige and excitement.",
+          "eyebrow": "Hall of Bolts",
+          "headline": "Milestones Worth Celebrating",
+          "subheadline": "Every trophy, every paper, every working prototype is proof that young engineers can do extraordinary things.",
+          "body": null,
+          "items": [
+            {
+              "title": "2024 Regional Champions \u2014 FRC District Event",
+              "description": "The Apex Division robot 'Thunderclap' won the regional qualifier with a record-breaking autonomous score in the final match.",
+              "metadata": {
+                "year": "2024",
+                "team": "Apex Division"
+              }
+            },
+            {
+              "title": "2023 Science Fair \u2014 Best Engineering Project",
+              "description": "The SoftBot team won Best Engineering Project at the State Junior Science and Engineering Fair for their pneumatic gripper prototype.",
+              "metadata": {
+                "year": "2023",
+                "team": "Innovation Lab"
+              }
+            },
+            {
+              "title": "2023 University Symposium Presentation",
+              "description": "The VisionTrack team presented their YOLOv8 detection system at the Regional University STEM Symposium and received the Outstanding Student Research award.",
+              "metadata": {
+                "year": "2023",
+                "team": "Apex"
+              }
+            },
+            {
+              "title": "2022 Community Impact Award",
+              "description": "BoltWorks received the Regional STEM Community Impact Award for the EcoBot project's outreach and sustainability research partnerships.",
+              "metadata": {
+                "year": "2022",
+                "team": "Outreach + Innovation Lab"
+              }
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "research-section-5",
+          "type": "cta",
+          "intent": "Invite technically ambitious students and potential sponsors to get involved with the research program directly.",
+          "eyebrow": "Shape the Future",
+          "headline": "Got a Big Idea? Bring It to the Lab.",
+          "subheadline": "BoltWorks members can pitch original research projects every semester. Mentors, equipment, and a stage to present your findings are provided.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Pitch a Research Project",
+              "target_page": "contact"
+            },
+            {
+              "label": "Explore Our Departments",
+              "target_page": "departments"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "role": "contact",
+      "goal": "Make it easy for prospective students, parents, schools, and sponsors to reach BoltWorks, ask questions, and begin the enrollment or partnership process.",
+      "meta_description": "Get in touch with BoltWorks Robotics Club. Ask about enrollment, partnerships, sponsorships, or upcoming events. We'd love to hear from you.",
+      "sections": [
+        {
+          "id": "contact-section-1",
+          "type": "page_header",
+          "intent": "Set a warm, energetic tone for the contact page that makes reaching out feel exciting rather than administrative.",
+          "eyebrow": "Let's Connect",
+          "headline": "The Build Starts with a Conversation",
+          "subheadline": "Whether you're ready to join, want to sponsor a team, or just have questions \u2014 we're here and we're excited to hear from you.",
+          "body": null,
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-1-asset-1",
+              "kind": "illustration",
+              "subject": "A festival-poster-style illustration of two robot hands reaching toward each other across a spark-filled gap, evoking connection, collaboration, and electric energy",
+              "purpose": "Visual warmth anchor for the contact page that maintains brand energy while signaling openness and welcome",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-2",
+          "type": "contact_block",
+          "intent": "Provide all the primary contact methods and the enrollment inquiry form in one clear, scannable section.",
+          "eyebrow": "Reach Out",
+          "headline": "We Respond Within 24 Hours",
+          "subheadline": "Send us a message, drop by the lab, or follow along on social media.",
+          "body": "Fill out the form and tell us a bit about yourself or your organization. Our team will match you with the right person to answer your questions.",
+          "items": [
+            {
+              "title": "General Inquiries",
+              "description": "hello@boltworks.club",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Enrollment Questions",
+              "description": "enroll@boltworks.club",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Sponsor & Partnership",
+              "description": "partners@boltworks.club",
+              "metadata": {
+                "type": "email"
+              }
+            },
+            {
+              "title": "Club Location",
+              "description": "BoltWorks Robotics Lab, 240 Maker Street, Suite 4, Springfield, IL 62704",
+              "metadata": {
+                "type": "address"
+              }
+            },
+            {
+              "title": "Lab Hours",
+              "description": "Monday\u2013Friday 3:30\u20137:00 PM | Saturday 9:00 AM\u20131:00 PM",
+              "metadata": {
+                "type": "hours"
+              }
+            }
+          ],
+          "ctas": [
+            {
+              "label": "Send a Message",
+              "target_page": null
+            }
+          ],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-3",
+          "type": "map_block",
+          "intent": "Show the club's physical location so local families can visualize the commute and feel confident about attending in person.",
+          "eyebrow": "Find Us",
+          "headline": "We're in the Heart of the Maker District",
+          "subheadline": "Our lab is accessible by public transit and has dedicated parking for weekend sessions.",
+          "body": "BoltWorks is located at 240 Maker Street, Suite 4, Springfield, IL. We share a building with a local makerspace and a community workshop \u2014 the energy is contagious the moment you walk in.",
+          "items": [],
+          "ctas": [],
+          "asset_ideas": [
+            {
+              "id": "contact-section-3-asset-1",
+              "kind": "map",
+              "subject": "A bold, stylized illustrated map of the BoltWorks neighborhood showing the lab location, nearby transit stops, and parking areas, rendered in a festival-poster flat-graphic style with landmark icons",
+              "purpose": "Help local families locate the club and feel oriented before their first visit, in a visual style consistent with the brand",
+              "quantity": 1,
+              "used_by": [
+                "contact-section-3"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "contact-section-4",
+          "type": "faq",
+          "intent": "Proactively answer the most common questions from parents and students to reduce friction and qualify leads before they contact the team.",
+          "eyebrow": "Quick Answers",
+          "headline": "Things People Usually Ask Us First",
+          "subheadline": null,
+          "body": null,
+          "items": [
+            {
+              "title": "Does my child need prior experience to join?",
+              "description": "Absolutely not. Most of our members start with zero robotics experience. Our Sparks and Voltage divisions are designed specifically for complete beginners.",
+              "metadata": {}
+            },
+            {
+              "title": "What does membership cost?",
+              "description": "Seasonal membership fees range from $150 to $350 depending on division. Need-based scholarships are available and cover up to 100% of fees. No student is turned away for financial reasons.",
+              "metadata": {}
+            },
+            {
+              "title": "How do I enroll my child?",
+              "description": "Submit an enrollment inquiry through the contact form above. Our team will schedule a free orientation session where your child can meet coaches and try a build activity before committing.",
+              "metadata": {}
+            },
+            {
+              "title": "Can businesses or individuals sponsor BoltWorks?",
+              "description": "Yes! Sponsorships start at $500 and include recognition on our competition robot, website, and event materials. Contact partners@boltworks.club for a sponsorship prospectus.",
+              "metadata": {}
+            },
+            {
+              "title": "Do you partner with schools?",
+              "description": "We have formal partnerships with six schools in the region and offer in-school demo programs and teacher training. Contact Tom Callahan at outreach@boltworks.club to explore a partnership.",
+              "metadata": {}
+            }
+          ],
+          "ctas": [],
+          "asset_ideas": []
+        },
+        {
+          "id": "contact-section-5",
+          "type": "cta",
+          "intent": "Close the contact page with a final energetic nudge that reminds hesitant visitors what they stand to gain by joining.",
+          "eyebrow": "One Last Thing",
+          "headline": "The Best Time to Join Was Last Season. The Second Best Time Is Now.",
+          "subheadline": "Don't let another build season pass you by. The lab is warm, the mentors are ready, and there's a robot with your name on it.",
+          "body": null,
+          "items": [],
+          "ctas": [
+            {
+              "label": "Start Your Application",
+              "target_page": null
+            },
+            {
+              "label": "Back to Home",
+              "target_page": "home"
+            }
+          ],
+          "asset_ideas": []
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "min_pages": 5,
+    "functionality_required": false,
+    "external_assets_allowed": false,
+    "asset_policy": "programmatic_svg_only"
+  },
+  "source": "web-weaver.blueprint_generator"
+}

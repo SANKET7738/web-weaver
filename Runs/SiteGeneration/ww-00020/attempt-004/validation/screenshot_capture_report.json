@@ -1,0 +1,245 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 17,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2520,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1520,
+          "path": "home/home_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 196083
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "menu",
+      "route": "/menu.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2811,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "menu/menu_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "menu/menu_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1811,
+          "path": "menu/menu_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "menu/menu_full.png",
+        "bytes": 206587
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "story",
+      "route": "/story.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 2684,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "story/story_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "story/story_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 1684,
+          "path": "story/story_003.png"
+        }
+      ],
+      "full_page": {
+        "path": "story/story_full.png",
+        "bytes": 200566
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "events",
+      "route": "/events.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3066,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "events/events_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "events/events_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "events/events_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2066,
+          "path": "events/events_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "events/events_full.png",
+        "bytes": 210474
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 3014,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "contact/contact_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "contact/contact_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "contact/contact_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 2014,
+          "path": "contact/contact_004.png"
+        }
+      ],
+      "full_page": {
+        "path": "contact/contact_full.png",
+        "bytes": 213057
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-nav",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

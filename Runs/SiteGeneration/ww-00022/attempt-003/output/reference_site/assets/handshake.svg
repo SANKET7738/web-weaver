@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" fill="none" aria-label="Two robot hands meeting with sparks">
+  <defs>
+    <radialGradient id="sparkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE600" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FF1F8E" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Spark glow in center -->
+  <circle cx="300" cy="180" r="140" fill="url(#sparkGlow)"/>
+
+  <!-- Energy arcs -->
+  <g stroke="#00E5FF" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M260 140 Q300 100 340 140" stroke-dasharray="6 6"/>
+    <path d="M260 220 Q300 260 340 220" stroke-dasharray="6 6"/>
+  </g>
+
+  <!-- Left robot arm -->
+  <g>
+    <rect x="0" y="160" width="180" height="48" fill="#0D0D0D" stroke="#FFE600" stroke-width="4"/>
+    <rect x="0" y="170" width="180" height="6" fill="#FF5C00"/>
+    <rect x="0" y="194" width="180" height="6" fill="#FF1F8E"/>
+
+    <!-- Joint -->
+    <circle cx="180" cy="184" r="22" fill="#FF5C00" stroke="#FFE600" stroke-width="4"/>
+
+    <!-- Hand -->
+    <g transform="translate(200,140)">
+      <rect x="0" y="20" width="60" height="48" fill="#FFE600" stroke="#0D0D0D" stroke-width="3"/>
+      <!-- Fingers -->
+      <rect x="60" y="20" width="20" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <rect x="60" y="34" width="22" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <rect x="60" y="48" width="20" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <!-- Thumb -->
+      <rect x="40" y="6" width="16" height="18" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <!-- Bolt accent -->
+      <circle cx="20" cy="44" r="5" fill="#FF1F8E"/>
+    </g>
+  </g>
+
+  <!-- Right robot arm -->
+  <g transform="translate(600,360) rotate(180)">
+    <rect x="0" y="160" width="180" height="48" fill="#0D0D0D" stroke="#FFE600" stroke-width="4"/>
+    <rect x="0" y="170" width="180" height="6" fill="#00E5FF"/>
+    <rect x="0" y="194" width="180" height="6" fill="#FF1F8E"/>
+
+    <circle cx="180" cy="184" r="22" fill="#FF1F8E" stroke="#FFE600" stroke-width="4"/>
+
+    <g transform="translate(200,140)">
+      <rect x="0" y="20" width="60" height="48" fill="#FFE600" stroke="#0D0D0D" stroke-width="3"/>
+      <rect x="60" y="20" width="20" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <rect x="60" y="34" width="22" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <rect x="60" y="48" width="20" height="10" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <rect x="40" y="6" width="16" height="18" fill="#FFE600" stroke="#0D0D0D" stroke-width="2"/>
+      <circle cx="20" cy="44" r="5" fill="#00E5FF"/>
+    </g>
+  </g>
+
+  <!-- Lightning bolt sparks in center -->
+  <g>
+    <path d="M295 130 L283 175 L298 175 L286 220 L320 168 L302 168 L312 130 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Surrounding sparks -->
+  <g fill="#FFE600">
+    <polygon points="230,90 234,76 238,90 252,94 238,98 234,112 230,98 216,94"/>
+    <polygon points="380,90 384,76 388,90 402,94 388,98 384,112 380,98 366,94"/>
+    <polygon points="220,260 224,250 228,260 240,264 228,268 224,278 220,268 208,264"/>
+    <polygon points="380,260 384,250 388,260 400,264 388,268 384,278 380,268 368,264"/>
+  </g>
+  <g fill="#FF1F8E">
+    <circle cx="160" cy="100" r="5"/>
+    <circle cx="450" cy="280" r="5"/>
+    <circle cx="170" cy="290" r="4"/>
+    <circle cx="440" cy="80" r="4"/>
+  </g>
+  <g fill="#00E5FF">
+    <circle cx="100" cy="60" r="4"/>
+    <circle cx="500" cy="320" r="4"/>
+  </g>
+</svg>

@@ -1,0 +1,291 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "slice_step": 1000,
+  "slice_overlap": 0,
+  "output_dir": "/workspace/validation/screenshots",
+  "metrics": {
+    "expected_pages": 5,
+    "captured_pages": 5,
+    "total_slices": 25,
+    "total_full_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4123,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "home/home_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "home/home_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "home/home_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "home/home_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3123,
+          "path": "home/home_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "home/home_full.png",
+        "bytes": 555289
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "games",
+      "route": "/games.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4071,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "games/games_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "games/games_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "games/games_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "games/games_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3071,
+          "path": "games/games_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "games/games_full.png",
+        "bytes": 431279
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        },
+        {
+          "tag": "aside",
+          "id": null,
+          "className": "faq-cta-card",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "trailer",
+      "route": "/trailer.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4642,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "trailer/trailer_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "trailer/trailer_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "trailer/trailer_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "trailer/trailer_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3642,
+          "path": "trailer/trailer_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "trailer/trailer_full.png",
+        "bytes": 327024
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "community",
+      "route": "/community.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4337,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "community/community_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "community/community_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "community/community_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "community/community_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3337,
+          "path": "community/community_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "community/community_full.png",
+        "bytes": 366858
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    },
+    {
+      "slug": "buy",
+      "route": "/buy.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "slice_step": 1000,
+      "slice_overlap": 0,
+      "scroll_height": 4442,
+      "slices": [
+        {
+          "index": 1,
+          "scroll_y": 0,
+          "path": "buy/buy_001.png"
+        },
+        {
+          "index": 2,
+          "scroll_y": 1000,
+          "path": "buy/buy_002.png"
+        },
+        {
+          "index": 3,
+          "scroll_y": 2000,
+          "path": "buy/buy_003.png"
+        },
+        {
+          "index": 4,
+          "scroll_y": 3000,
+          "path": "buy/buy_004.png"
+        },
+        {
+          "index": 5,
+          "scroll_y": 3442,
+          "path": "buy/buy_005.png"
+        }
+      ],
+      "full_page": {
+        "path": "buy/buy_full.png",
+        "bytes": 384258
+      },
+      "failures": [],
+      "response_status": 200,
+      "neutralized_pinned_elements": [
+        {
+          "tag": "header",
+          "id": null,
+          "className": "site-header",
+          "position": "sticky"
+        }
+      ]
+    }
+  ]
+}

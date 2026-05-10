@@ -1,0 +1,652 @@
+{
+  "valid": false,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "console_errors": true,
+    "page_errors": true,
+    "responsive_overflow": false
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 15,
+    "visible_sections": 15,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 5
+  },
+  "failures": [
+    "home mobile has horizontal overflow",
+    "features mobile has horizontal overflow",
+    "article mobile has horizontal overflow",
+    "archive mobile has horizontal overflow",
+    "about mobile has horizontal overflow"
+  ],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Pixelwave — The Future, Buffering Now.",
+            "bodyTextLength": 1390,
+            "scrollHeight": 1694,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 960,
+                "height": 539.421875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 960,
+                "height": 605.6875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 960,
+                "height": 464.359375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Pixelwave — The Future, Buffering Now.",
+            "bodyTextLength": 1355,
+            "scrollHeight": 2407,
+            "scrollWidth": 423,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 422.984375,
+                "height": 481.796875,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 422.984375,
+                "height": 1112.96875,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 422.984375,
+                "height": 461.25,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "features",
+      "route": "/features.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Features — Pixelwave",
+            "bodyTextLength": 1763,
+            "scrollHeight": 2266,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "features-section-1",
+                "width": 960,
+                "height": 505.34375,
+                "visible": true
+              },
+              {
+                "id": "features-section-2",
+                "width": 960,
+                "height": 1277.46875,
+                "visible": true
+              },
+              {
+                "id": "features-section-3",
+                "width": 960,
+                "height": 397.96875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "archive.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Features — Pixelwave",
+            "bodyTextLength": 1728,
+            "scrollHeight": 3249,
+            "scrollWidth": 423,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "features-section-1",
+                "width": 422.984375,
+                "height": 377.640625,
+                "visible": true
+              },
+              {
+                "id": "features-section-2",
+                "width": 422.984375,
+                "height": 2123.359375,
+                "visible": true
+              },
+              {
+                "id": "features-section-3",
+                "width": 422.984375,
+                "height": 396.953125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "archive.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "article",
+      "route": "/article.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "The AI Chip War Nobody Is Talking About — Pixelwave",
+            "bodyTextLength": 2376,
+            "scrollHeight": 2205,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "article-section-1",
+                "width": 960,
+                "height": 577.21875,
+                "visible": true
+              },
+              {
+                "id": "article-section-2",
+                "width": 960,
+                "height": 891.828125,
+                "visible": true
+              },
+              {
+                "id": "article-section-3",
+                "width": 960,
+                "height": 615.171875,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "The AI Chip War Nobody Is Talking About — Pixelwave",
+            "bodyTextLength": 2341,
+            "scrollHeight": 3213,
+            "scrollWidth": 423,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "article-section-1",
+                "width": 422.984375,
+                "height": 451.890625,
+                "visible": true
+              },
+              {
+                "id": "article-section-2",
+                "width": 422.984375,
+                "height": 1243.5,
+                "visible": true
+              },
+              {
+                "id": "article-section-3",
+                "width": 422.984375,
+                "height": 1130.859375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "archive",
+      "route": "/archive.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Archive — Pixelwave",
+            "bodyTextLength": 1865,
+            "scrollHeight": 2126,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "archive-section-1",
+                "width": 960,
+                "height": 378.5625,
+                "visible": true
+              },
+              {
+                "id": "archive-section-2",
+                "width": 960,
+                "height": 706.640625,
+                "visible": true
+              },
+              {
+                "id": "archive-section-3",
+                "width": 960,
+                "height": 956.25,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "Archive — Pixelwave",
+            "bodyTextLength": 1830,
+            "scrollHeight": 3437,
+            "scrollWidth": 423,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "archive-section-1",
+                "width": 422.984375,
+                "height": 339.046875,
+                "visible": true
+              },
+              {
+                "id": "archive-section-2",
+                "width": 422.984375,
+                "height": 1464,
+                "visible": true
+              },
+              {
+                "id": "archive-section-3",
+                "width": 422.984375,
+                "height": 1283.3125,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "features.html",
+              "article.html",
+              "article.html",
+              "article.html",
+              "article.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — Pixelwave",
+            "bodyTextLength": 2200,
+            "scrollHeight": 2199,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 960,
+                "height": 521.34375,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 960,
+                "height": 856.625,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 960,
+                "height": 736.34375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        },
+        {
+          "viewport": {
+            "name": "mobile",
+            "width": 390,
+            "height": 844
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": false,
+          "metrics": {
+            "title": "About — Pixelwave",
+            "bodyTextLength": 2165,
+            "scrollHeight": 3519,
+            "scrollWidth": 423,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 422.984375,
+                "height": 394.328125,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 422.984375,
+                "height": 1440.6875,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 422.984375,
+                "height": 1333.109375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "features.html",
+              "article.html",
+              "archive.html",
+              "about.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "archive.html",
+              "features.html"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

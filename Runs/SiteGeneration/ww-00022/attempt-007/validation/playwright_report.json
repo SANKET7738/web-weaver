@@ -1,0 +1,441 @@
+{
+  "valid": true,
+  "checks": {
+    "routes": true,
+    "section_visibility": true,
+    "local_links": true,
+    "failed_local_requests": true,
+    "page_errors": true,
+    "no_overflow": true
+  },
+  "soft_checks": {
+    "no_console_errors": true
+  },
+  "metrics": {
+    "expected_pages": 5,
+    "responsive_routes": 5,
+    "expected_sections": 25,
+    "visible_sections": 25,
+    "local_links_checked": 20,
+    "broken_local_links": 0,
+    "failed_local_requests": 0,
+    "console_errors": 0,
+    "page_errors": 0,
+    "overflow_failures": 0
+  },
+  "failures": [],
+  "warnings": [],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "BoltWorks — Build. Compete. Ignite.",
+            "bodyTextLength": 2912,
+            "scrollHeight": 5324,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "home-section-1",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "home-section-2",
+                "width": 1440,
+                "height": 384.9375,
+                "visible": true
+              },
+              {
+                "id": "home-section-3",
+                "width": 1440,
+                "height": 979.71875,
+                "visible": true
+              },
+              {
+                "id": "home-section-4",
+                "width": 1440,
+                "height": 2013.734375,
+                "visible": true
+              },
+              {
+                "id": "home-section-5",
+                "width": 1440,
+                "height": 577.015625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "departments.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club",
+              "mailto:partners@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "route": "/about.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "About — BoltWorks",
+            "bodyTextLength": 3252,
+            "scrollHeight": 4134,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "about-section-1",
+                "width": 1440,
+                "height": 800,
+                "visible": true
+              },
+              {
+                "id": "about-section-2",
+                "width": 1440,
+                "height": 706.28125,
+                "visible": true
+              },
+              {
+                "id": "about-section-3",
+                "width": 1440,
+                "height": 860.046875,
+                "visible": true
+              },
+              {
+                "id": "about-section-4",
+                "width": 1440,
+                "height": 836.4375,
+                "visible": true
+              },
+              {
+                "id": "about-section-5",
+                "width": 1440,
+                "height": 562.34375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club",
+              "mailto:partners@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "departments",
+      "route": "/departments.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Departments — BoltWorks",
+            "bodyTextLength": 4218,
+            "scrollHeight": 4704,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "departments-section-1",
+                "width": 1440,
+                "height": 847.65625,
+                "visible": true
+              },
+              {
+                "id": "departments-section-2",
+                "width": 1440,
+                "height": 1168.703125,
+                "visible": true
+              },
+              {
+                "id": "departments-section-3",
+                "width": 1440,
+                "height": 919.015625,
+                "visible": true
+              },
+              {
+                "id": "departments-section-4",
+                "width": 1440,
+                "height": 775.9375,
+                "visible": true
+              },
+              {
+                "id": "departments-section-5",
+                "width": 1440,
+                "height": 624.234375,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "research.html",
+              "contact.html",
+              "research.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club",
+              "mailto:partners@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "research",
+      "route": "/research.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Research — BoltWorks",
+            "bodyTextLength": 4008,
+            "scrollHeight": 5187,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "research-section-1",
+                "width": 1440,
+                "height": 958.15625,
+                "visible": true
+              },
+              {
+                "id": "research-section-2",
+                "width": 1440,
+                "height": 1196.703125,
+                "visible": true
+              },
+              {
+                "id": "research-section-3",
+                "width": 1440,
+                "height": 881.5625,
+                "visible": true
+              },
+              {
+                "id": "research-section-4",
+                "width": 1440,
+                "height": 1218.53125,
+                "visible": true
+              },
+              {
+                "id": "research-section-5",
+                "width": 1440,
+                "height": 563.0625,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "departments.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club",
+              "mailto:partners@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "route": "/contact.html",
+      "viewports": [
+        {
+          "viewport": {
+            "name": "desktop",
+            "width": 1440,
+            "height": 1000
+          },
+          "responseStatus": 200,
+          "routeOk": true,
+          "textOk": true,
+          "heightOk": true,
+          "overflowOk": true,
+          "metrics": {
+            "title": "Contact — BoltWorks",
+            "bodyTextLength": 3103,
+            "scrollHeight": 5186,
+            "scrollWidth": 1440,
+            "viewportWidth": 1440,
+            "viewportHeight": 1000,
+            "sectionBoxes": [
+              {
+                "id": "contact-section-1",
+                "width": 1440,
+                "height": 958.828125,
+                "visible": true
+              },
+              {
+                "id": "contact-section-2",
+                "width": 1440,
+                "height": 1000,
+                "visible": true
+              },
+              {
+                "id": "contact-section-3",
+                "width": 1440,
+                "height": 901.359375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-4",
+                "width": 1440,
+                "height": 1159.34375,
+                "visible": true
+              },
+              {
+                "id": "contact-section-5",
+                "width": 1440,
+                "height": 798,
+                "visible": true
+              }
+            ],
+            "localHrefs": [
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "contact.html",
+              "contact.html",
+              "index.html",
+              "index.html",
+              "about.html",
+              "departments.html",
+              "research.html",
+              "contact.html",
+              "mailto:hello@boltworks.club",
+              "mailto:enroll@boltworks.club",
+              "mailto:partners@boltworks.club"
+            ]
+          },
+          "failedRequests": [],
+          "consoleErrors": [],
+          "pageErrors": []
+        }
+      ]
+    }
+  ]
+}

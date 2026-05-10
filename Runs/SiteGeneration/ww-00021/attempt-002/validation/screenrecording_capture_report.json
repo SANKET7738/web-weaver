@@ -1,0 +1,115 @@
+{
+  "valid": true,
+  "viewport": {
+    "name": "desktop",
+    "width": 1440,
+    "height": 1000
+  },
+  "top_hold_ms": 1200,
+  "bottom_hold_ms": 1200,
+  "min_scroll_ms": 5000,
+  "max_scroll_ms": 12000,
+  "output_dir": "/workspace/validation/screenrecordings",
+  "metrics": {
+    "expected_pages": 5,
+    "recorded_pages": 5
+  },
+  "failures": [],
+  "pages": [
+    {
+      "slug": "home",
+      "route": "/",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4123,
+      "max_scroll_y": 3123,
+      "scroll_duration_ms": 6246,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "home.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2221221
+    },
+    {
+      "slug": "games",
+      "route": "/games.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4071,
+      "max_scroll_y": 3071,
+      "scroll_duration_ms": 6142,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "games.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2646495
+    },
+    {
+      "slug": "trailer",
+      "route": "/trailer.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4642,
+      "max_scroll_y": 3642,
+      "scroll_duration_ms": 7284,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "trailer.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2013085
+    },
+    {
+      "slug": "community",
+      "route": "/community.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4337,
+      "max_scroll_y": 3337,
+      "scroll_duration_ms": 6674,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "community.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2471551
+    },
+    {
+      "slug": "buy",
+      "route": "/buy.html",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "scroll_height": 4442,
+      "max_scroll_y": 3442,
+      "scroll_duration_ms": 6884,
+      "top_hold_ms": 1200,
+      "bottom_hold_ms": 1200,
+      "format": "mp4",
+      "path": "buy.mp4",
+      "failures": [],
+      "response_status": 200,
+      "bytes": 2932977
+    }
+  ]
+}

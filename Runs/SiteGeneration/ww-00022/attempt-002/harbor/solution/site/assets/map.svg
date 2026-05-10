@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice" role="img" aria-label="BoltWorks neighborhood illustrated map">
+  <!-- Map background -->
+  <rect width="1200" height="420" fill="#1E1E2A"/>
+
+  <!-- Grid texture -->
+  <g stroke="#2A2A3A" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="120" y1="0" x2="120" y2="420"/>
+    <line x1="240" y1="0" x2="240" y2="420"/>
+    <line x1="360" y1="0" x2="360" y2="420"/>
+    <line x1="480" y1="0" x2="480" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="720" y1="0" x2="720" y2="420"/>
+    <line x1="840" y1="0" x2="840" y2="420"/>
+    <line x1="960" y1="0" x2="960" y2="420"/>
+    <line x1="1080" y1="0" x2="1080" y2="420"/>
+  </g>
+
+  <!-- Streets -->
+  <g stroke="#0D0D0D" stroke-width="36">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+  </g>
+  <g stroke="#F5F0DC" stroke-width="2" stroke-dasharray="14 12">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="900" y1="0" x2="900" y2="420"/>
+  </g>
+
+  <!-- Transit line (Cyan) -->
+  <g stroke="#00E5FF" stroke-width="6" fill="none">
+    <path d="M0 80 L200 80 L200 320 L1200 320"/>
+  </g>
+  <g fill="#00E5FF">
+    <circle cx="100" cy="80" r="8"/>
+    <circle cx="200" cy="200" r="8"/>
+    <circle cx="600" cy="320" r="8"/>
+    <circle cx="1100" cy="320" r="8"/>
+  </g>
+
+  <!-- Parking zones (Orange) -->
+  <g fill="#FF5C00" opacity="0.85">
+    <rect x="60" y="240" width="100" height="50"/>
+    <rect x="780" y="240" width="100" height="50"/>
+  </g>
+  <g font-family="Bebas Neue, Impact, sans-serif" font-size="20" fill="#0D0D0D" letter-spacing="3">
+    <text x="78" y="272">PARK</text>
+    <text x="798" y="272">PARK</text>
+  </g>
+
+  <!-- Buildings -->
+  <g fill="#0D0D0D" stroke="#F5F0DC" stroke-width="2">
+    <rect x="40" y="40" width="120" height="100"/>
+    <rect x="220" y="40" width="120" height="100"/>
+    <rect x="540" y="40" width="120" height="100"/>
+    <rect x="700" y="40" width="120" height="100"/>
+    <rect x="40" y="240" width="120" height="80"/>
+    <rect x="220" y="240" width="120" height="80"/>
+    <rect x="540" y="240" width="120" height="80"/>
+    <rect x="700" y="240" width="120" height="80"/>
+    <rect x="940" y="40" width="120" height="100"/>
+    <rect x="940" y="240" width="120" height="100"/>
+  </g>
+
+  <!-- Landmark icons (Plasma Magenta) -->
+  <g fill="#FF1F8E">
+    <circle cx="270" cy="90" r="14"/>
+    <circle cx="990" cy="90" r="14"/>
+  </g>
+
+  <!-- BoltWorks building (highlighted) -->
+  <g>
+    <rect x="380" y="40" width="140" height="120" fill="#FFE600" stroke="#0D0D0D" stroke-width="5"/>
+    <text x="450" y="80" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="20" fill="#0D0D0D" letter-spacing="2">BOLT</text>
+    <text x="450" y="105" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="20" fill="#0D0D0D" letter-spacing="2">WORKS</text>
+    <text x="450" y="135" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="14" fill="#0D0D0D" letter-spacing="3">240 MAKER ST</text>
+  </g>
+
+  <!-- Big BoltWorks pin -->
+  <g transform="translate(450 30)">
+    <path d="M0 0 L0 -50 L-22 -50 Q-32 -50 -32 -38 L-32 -10 Q-32 0 -22 0 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="3" transform="rotate(0)"/>
+    <circle cx="0" cy="-30" r="22" fill="#FFE600" stroke="#0D0D0D" stroke-width="4"/>
+    <text x="0" y="-23" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="22" fill="#0D0D0D">⚡</text>
+  </g>
+
+  <!-- Compass -->
+  <g transform="translate(60 60)">
+    <circle r="22" fill="#0D0D0D" stroke="#FFE600" stroke-width="3"/>
+    <text y="6" text-anchor="middle" font-family="Archivo Black, Arial Black, sans-serif" font-size="16" fill="#FFE600">N</text>
+    <line x1="0" y1="-22" x2="0" y2="-30" stroke="#FFE600" stroke-width="3"/>
+  </g>
+
+  <!-- Map title -->
+  <g>
+    <rect x="940" y="350" width="240" height="40" fill="#0D0D0D" stroke="#FFE600" stroke-width="2"/>
+    <text x="1060" y="377" text-anchor="middle" font-family="Bebas Neue, Impact, sans-serif" font-size="18" letter-spacing="4" fill="#FFE600">MAKER DISTRICT</text>
+  </g>
+</svg>

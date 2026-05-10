@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" fill="none" aria-label="BoltWorks Robot">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FF1F8E" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#FFE600" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0D0D0D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="boltGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="100%" stop-color="#FF5C00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Radial glow backdrop -->
+  <circle cx="310" cy="310" r="300" fill="url(#glow)"/>
+
+  <!-- Radiating burst lines -->
+  <g stroke="#FFE600" stroke-width="3" stroke-linecap="square" opacity="0.7">
+    <line x1="310" y1="60"  x2="310" y2="20"/>
+    <line x1="200" y1="80"  x2="170" y2="40"/>
+    <line x1="420" y1="80"  x2="450" y2="40"/>
+    <line x1="120" y1="180" x2="60"  y2="160"/>
+    <line x1="500" y1="180" x2="560" y2="160"/>
+    <line x1="120" y1="440" x2="60"  y2="460"/>
+    <line x1="500" y1="440" x2="560" y2="460"/>
+  </g>
+
+  <!-- Ground shadow bar -->
+  <rect x="120" y="620" width="380" height="14" fill="#FF1F8E" opacity="0.55"/>
+  <rect x="170" y="640" width="280" height="6" fill="#FF5C00" opacity="0.6"/>
+
+  <!-- Robot body -->
+  <g>
+    <!-- Antenna -->
+    <line x1="310" y1="120" x2="310" y2="80" stroke="#FFE600" stroke-width="4"/>
+    <circle cx="310" cy="76" r="10" fill="#FF1F8E" stroke="#FFE600" stroke-width="3"/>
+
+    <!-- Head -->
+    <rect x="210" y="120" width="200" height="160" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <!-- Visor -->
+    <rect x="230" y="150" width="160" height="60" fill="#FF1F8E"/>
+    <rect x="240" y="160" width="40" height="40" fill="#00E5FF"/>
+    <rect x="320" y="160" width="40" height="40" fill="#00E5FF"/>
+    <!-- Mouth grill -->
+    <g fill="#FFE600">
+      <rect x="240" y="232" width="20" height="6"/>
+      <rect x="270" y="232" width="20" height="6"/>
+      <rect x="300" y="232" width="20" height="6"/>
+      <rect x="330" y="232" width="20" height="6"/>
+      <rect x="360" y="232" width="20" height="6"/>
+    </g>
+    <!-- Side bolts -->
+    <circle cx="220" cy="200" r="5" fill="#FF5C00"/>
+    <circle cx="400" cy="200" r="5" fill="#FF5C00"/>
+
+    <!-- Neck -->
+    <rect x="280" y="280" width="60" height="20" fill="#FF5C00"/>
+
+    <!-- Body -->
+    <rect x="170" y="300" width="280" height="240" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <!-- Chest panel -->
+    <rect x="200" y="330" width="220" height="160" fill="#1E1E2A" stroke="#FF1F8E" stroke-width="3"/>
+    <!-- Bolt logo on chest -->
+    <path d="M310 350 L290 410 L308 410 L298 460 L340 395 L318 395 Z" fill="url(#boltGrad)" stroke="#FFE600" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Chest lights -->
+    <circle cx="220" cy="510" r="6" fill="#00E5FF"/>
+    <circle cx="240" cy="510" r="6" fill="#FF1F8E"/>
+    <circle cx="260" cy="510" r="6" fill="#FFE600"/>
+
+    <!-- Shoulder pads -->
+    <rect x="140" y="300" width="40" height="60" fill="#FF1F8E"/>
+    <rect x="440" y="300" width="40" height="60" fill="#FF1F8E"/>
+
+    <!-- Arms -->
+    <rect x="140" y="360" width="40" height="160" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <rect x="440" y="360" width="40" height="160" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <!-- Forearm joints -->
+    <circle cx="160" cy="430" r="10" fill="#FF5C00"/>
+    <circle cx="460" cy="430" r="10" fill="#FF5C00"/>
+
+    <!-- Hands -->
+    <rect x="130" y="520" width="60" height="30" fill="#FFE600"/>
+    <rect x="430" y="520" width="60" height="30" fill="#FFE600"/>
+
+    <!-- Legs -->
+    <rect x="210" y="540" width="50" height="80" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <rect x="360" y="540" width="50" height="80" fill="#0D0D0D" stroke="#FFE600" stroke-width="5"/>
+    <!-- Feet -->
+    <rect x="190" y="610" width="90" height="20" fill="#FF5C00"/>
+    <rect x="340" y="610" width="90" height="20" fill="#FF5C00"/>
+  </g>
+
+  <!-- Foreground bolt accent -->
+  <path d="M80 240 L60 320 L90 320 L70 400 L130 300 L100 300 Z" fill="#FFE600" stroke="#0D0D0D" stroke-width="4" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M520 380 L500 460 L530 460 L510 540 L570 440 L540 440 Z" fill="#FF1F8E" stroke="#0D0D0D" stroke-width="4" stroke-linejoin="round" opacity="0.95"/>
+</svg>
